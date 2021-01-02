@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	accessKey = flag.String("accessKey", ":8080", "Access key to interact with Open Emoji API. You can get it from https://emoji-api.com.")
+	accessKey = flag.String("accessKey", "", "Access key to interact with Open Emoji API. You can get it from https://emoji-api.com.")
 )
 
 func main() {

@@ -1,7 +1,7 @@
 # GoMoji
 <p align="center">work with emoji in the most convenient way</p>
 
-GoMoji is a Go package that provides a [fast](#performance) and [simple](#check-string-contains-emoji) way to work with emojis in a string.
+GoMoji is a Go package that provides a [fast](#performance) and [simple](#check-string-contains-emoji) way to work with emojis in strings.
 It has features such as:
  * [check whether string contains emoji](#check-string-contains-emoji),
  * [find all emojis in string](#find-all),
