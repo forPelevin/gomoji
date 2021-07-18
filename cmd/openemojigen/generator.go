@@ -56,7 +56,7 @@ func main() {
 		log.Fatalf("failed to execute template: %s", err)
 	}
 
-	fmt.Println("Handlers successfully generated")
+	fmt.Println("Emoji entities successfully generated")
 }
 
 const (
