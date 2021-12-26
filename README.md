@@ -53,7 +53,7 @@ func main() {
 ```
 
 ## Get all
-The function returns all existed emojis. You can do whatever you need with the list.
+The function returns all existing emojis. You can do whatever you need with the list.
  ```go
  package main
  
