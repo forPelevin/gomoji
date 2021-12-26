@@ -4,12597 +4,12596 @@ package gomoji
 
 var (
 	emojiMap = map[int32]Emoji{
-		
-			35: {
-				Slug:        "keycap:-#",
-				Character:   "#️⃣",
-				UnicodeName: "keycap: #",
-				CodePoint:   "U+0023 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			42: {
-				Slug:        "keycap:-*",
-				Character:   "*️⃣",
-				UnicodeName: "keycap: *",
-				CodePoint:   "U+002A U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			48: {
-				Slug:        "keycap:-0",
-				Character:   "0️⃣",
-				UnicodeName: "keycap: 0",
-				CodePoint:   "U+0030 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			49: {
-				Slug:        "keycap:-1",
-				Character:   "1️⃣",
-				UnicodeName: "keycap: 1",
-				CodePoint:   "U+0031 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			50: {
-				Slug:        "keycap:-2",
-				Character:   "2️⃣",
-				UnicodeName: "keycap: 2",
-				CodePoint:   "U+0032 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			51: {
-				Slug:        "keycap:-3",
-				Character:   "3️⃣",
-				UnicodeName: "keycap: 3",
-				CodePoint:   "U+0033 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			52: {
-				Slug:        "keycap:-4",
-				Character:   "4️⃣",
-				UnicodeName: "keycap: 4",
-				CodePoint:   "U+0034 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			53: {
-				Slug:        "keycap:-5",
-				Character:   "5️⃣",
-				UnicodeName: "keycap: 5",
-				CodePoint:   "U+0035 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			54: {
-				Slug:        "keycap:-6",
-				Character:   "6️⃣",
-				UnicodeName: "keycap: 6",
-				CodePoint:   "U+0036 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			55: {
-				Slug:        "keycap:-7",
-				Character:   "7️⃣",
-				UnicodeName: "keycap: 7",
-				CodePoint:   "U+0037 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			56: {
-				Slug:        "keycap:-8",
-				Character:   "8️⃣",
-				UnicodeName: "keycap: 8",
-				CodePoint:   "U+0038 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			57: {
-				Slug:        "keycap:-9",
-				Character:   "9️⃣",
-				UnicodeName: "keycap: 9",
-				CodePoint:   "U+0039 U+FE0F U+20E3",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			169: {
-				Slug:        "copyright",
-				Character:   "©",
-				UnicodeName: "copyright",
-				CodePoint:   "U+00A9",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			174: {
-				Slug:        "registered",
-				Character:   "®",
-				UnicodeName: "registered",
-				CodePoint:   "U+00AE",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			8252: {
-				Slug:        "double-exclamation-mark",
-				Character:   "‼",
-				UnicodeName: "double exclamation mark",
-				CodePoint:   "U+203C",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			8265: {
-				Slug:        "exclamation-question-mark",
-				Character:   "⁉",
-				UnicodeName: "exclamation question mark",
-				CodePoint:   "U+2049",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			8482: {
-				Slug:        "trade-mark",
-				Character:   "™",
-				UnicodeName: "trade mark",
-				CodePoint:   "U+2122",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			8505: {
-				Slug:        "information",
-				Character:   "ℹ",
-				UnicodeName: "information",
-				CodePoint:   "U+2139",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			8596: {
-				Slug:        "left-right-arrow",
-				Character:   "↔",
-				UnicodeName: "left-right arrow",
-				CodePoint:   "U+2194",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8597: {
-				Slug:        "up-down-arrow",
-				Character:   "↕",
-				UnicodeName: "up-down arrow",
-				CodePoint:   "U+2195",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8598: {
-				Slug:        "up-left-arrow",
-				Character:   "↖",
-				UnicodeName: "up-left arrow",
-				CodePoint:   "U+2196",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8599: {
-				Slug:        "up-right-arrow",
-				Character:   "↗",
-				UnicodeName: "up-right arrow",
-				CodePoint:   "U+2197",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8600: {
-				Slug:        "down-right-arrow",
-				Character:   "↘",
-				UnicodeName: "down-right arrow",
-				CodePoint:   "U+2198",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8601: {
-				Slug:        "down-left-arrow",
-				Character:   "↙",
-				UnicodeName: "down-left arrow",
-				CodePoint:   "U+2199",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8617: {
-				Slug:        "right-arrow-curving-left",
-				Character:   "↩",
-				UnicodeName: "right arrow curving left",
-				CodePoint:   "U+21A9",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8618: {
-				Slug:        "left-arrow-curving-right",
-				Character:   "↪",
-				UnicodeName: "left arrow curving right",
-				CodePoint:   "U+21AA",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			8986: {
-				Slug:        "watch",
-				Character:   "⌚",
-				UnicodeName: "watch",
-				CodePoint:   "U+231A",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			8987: {
-				Slug:        "hourglass-done",
-				Character:   "⌛",
-				UnicodeName: "hourglass done",
-				CodePoint:   "U+231B",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			9000: {
-				Slug:        "keyboard",
-				Character:   "⌨",
-				UnicodeName: "keyboard",
-				CodePoint:   "U+2328",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			9167: {
-				Slug:        "eject-button",
-				Character:   "⏏",
-				UnicodeName: "eject button",
-				CodePoint:   "U+23CF",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9193: {
-				Slug:        "fast-forward-button",
-				Character:   "⏩",
-				UnicodeName: "fast-forward button",
-				CodePoint:   "U+23E9",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9194: {
-				Slug:        "fast-reverse-button",
-				Character:   "⏪",
-				UnicodeName: "fast reverse button",
-				CodePoint:   "U+23EA",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9195: {
-				Slug:        "fast-up-button",
-				Character:   "⏫",
-				UnicodeName: "fast up button",
-				CodePoint:   "U+23EB",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9196: {
-				Slug:        "fast-down-button",
-				Character:   "⏬",
-				UnicodeName: "fast down button",
-				CodePoint:   "U+23EC",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9197: {
-				Slug:        "next-track-button",
-				Character:   "⏭",
-				UnicodeName: "next track button",
-				CodePoint:   "U+23ED",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9198: {
-				Slug:        "last-track-button",
-				Character:   "⏮",
-				UnicodeName: "last track button",
-				CodePoint:   "U+23EE",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9199: {
-				Slug:        "play-or-pause-button",
-				Character:   "⏯",
-				UnicodeName: "play or pause button",
-				CodePoint:   "U+23EF",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9200: {
-				Slug:        "alarm-clock",
-				Character:   "⏰",
-				UnicodeName: "alarm clock",
-				CodePoint:   "U+23F0",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			9201: {
-				Slug:        "stopwatch",
-				Character:   "⏱",
-				UnicodeName: "stopwatch",
-				CodePoint:   "U+23F1",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			9202: {
-				Slug:        "timer-clock",
-				Character:   "⏲",
-				UnicodeName: "timer clock",
-				CodePoint:   "U+23F2",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			9203: {
-				Slug:        "hourglass-not-done",
-				Character:   "⏳",
-				UnicodeName: "hourglass not done",
-				CodePoint:   "U+23F3",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			9208: {
-				Slug:        "pause-button",
-				Character:   "⏸",
-				UnicodeName: "pause button",
-				CodePoint:   "U+23F8",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9209: {
-				Slug:        "stop-button",
-				Character:   "⏹",
-				UnicodeName: "stop button",
-				CodePoint:   "U+23F9",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9210: {
-				Slug:        "record-button",
-				Character:   "⏺",
-				UnicodeName: "record button",
-				CodePoint:   "U+23FA",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9410: {
-				Slug:        "circled-M",
-				Character:   "Ⓜ",
-				UnicodeName: "circled M",
-				CodePoint:   "U+24C2",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			9642: {
-				Slug:        "black-small-square",
-				Character:   "▪",
-				UnicodeName: "black small square",
-				CodePoint:   "U+25AA",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9643: {
-				Slug:        "white-small-square",
-				Character:   "▫",
-				UnicodeName: "white small square",
-				CodePoint:   "U+25AB",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9654: {
-				Slug:        "play-button",
-				Character:   "▶",
-				UnicodeName: "play button",
-				CodePoint:   "U+25B6",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9664: {
-				Slug:        "reverse-button",
-				Character:   "◀",
-				UnicodeName: "reverse button",
-				CodePoint:   "U+25C0",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			9723: {
-				Slug:        "white-medium-square",
-				Character:   "◻",
-				UnicodeName: "white medium square",
-				CodePoint:   "U+25FB",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9724: {
-				Slug:        "black-medium-square",
-				Character:   "◼",
-				UnicodeName: "black medium square",
-				CodePoint:   "U+25FC",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9725: {
-				Slug:        "white-medium-small-square",
-				Character:   "◽",
-				UnicodeName: "white medium-small square",
-				CodePoint:   "U+25FD",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9726: {
-				Slug:        "black-medium-small-square",
-				Character:   "◾",
-				UnicodeName: "black medium-small square",
-				CodePoint:   "U+25FE",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9728: {
-				Slug:        "sun",
-				Character:   "☀",
-				UnicodeName: "sun",
-				CodePoint:   "U+2600",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9729: {
-				Slug:        "cloud",
-				Character:   "☁",
-				UnicodeName: "cloud",
-				CodePoint:   "U+2601",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9730: {
-				Slug:        "umbrella",
-				Character:   "☂",
-				UnicodeName: "umbrella",
-				CodePoint:   "U+2602",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9731: {
-				Slug:        "snowman",
-				Character:   "☃",
-				UnicodeName: "snowman",
-				CodePoint:   "U+2603",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9732: {
-				Slug:        "comet",
-				Character:   "☄",
-				UnicodeName: "comet",
-				CodePoint:   "U+2604",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9742: {
-				Slug:        "telephone",
-				Character:   "☎",
-				UnicodeName: "telephone",
-				CodePoint:   "U+260E",
-				Group:       "Objects",
-				SubGroup:    "phone",
-			},
-		
-			9745: {
-				Slug:        "check-box-with-check",
-				Character:   "☑",
-				UnicodeName: "check box with check",
-				CodePoint:   "U+2611",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			9748: {
-				Slug:        "umbrella-with-rain-drops",
-				Character:   "☔",
-				UnicodeName: "umbrella with rain drops",
-				CodePoint:   "U+2614",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9749: {
-				Slug:        "hot-beverage",
-				Character:   "☕",
-				UnicodeName: "hot beverage",
-				CodePoint:   "U+2615",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			9752: {
-				Slug:        "shamrock",
-				Character:   "☘",
-				UnicodeName: "shamrock",
-				CodePoint:   "U+2618",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			9757: {
-				Slug:        "index-pointing-up",
-				Character:   "☝",
-				UnicodeName: "index pointing up",
-				CodePoint:   "U+261D",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			9760: {
-				Slug:        "skull-and-crossbones",
-				Character:   "☠",
-				UnicodeName: "skull and crossbones",
-				CodePoint:   "U+2620",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			9762: {
-				Slug:        "radioactive",
-				Character:   "☢",
-				UnicodeName: "radioactive",
-				CodePoint:   "U+2622",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			9763: {
-				Slug:        "biohazard",
-				Character:   "☣",
-				UnicodeName: "biohazard",
-				CodePoint:   "U+2623",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			9766: {
-				Slug:        "orthodox-cross",
-				Character:   "☦",
-				UnicodeName: "orthodox cross",
-				CodePoint:   "U+2626",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			9770: {
-				Slug:        "star-and-crescent",
-				Character:   "☪",
-				UnicodeName: "star and crescent",
-				CodePoint:   "U+262A",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			9774: {
-				Slug:        "peace-symbol",
-				Character:   "☮",
-				UnicodeName: "peace symbol",
-				CodePoint:   "U+262E",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			9775: {
-				Slug:        "yin-yang",
-				Character:   "☯",
-				UnicodeName: "yin yang",
-				CodePoint:   "U+262F",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			9784: {
-				Slug:        "wheel-of-dharma",
-				Character:   "☸",
-				UnicodeName: "wheel of dharma",
-				CodePoint:   "U+2638",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			9785: {
-				Slug:        "frowning-face",
-				Character:   "☹",
-				UnicodeName: "frowning face",
-				CodePoint:   "U+2639",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			9786: {
-				Slug:        "smiling-face",
-				Character:   "☺",
-				UnicodeName: "smiling face",
-				CodePoint:   "U+263A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			9792: {
-				Slug:        "female-sign",
-				Character:   "♀",
-				UnicodeName: "female sign",
-				CodePoint:   "U+2640",
-				Group:       "Symbols",
-				SubGroup:    "gender",
-			},
-		
-			9794: {
-				Slug:        "male-sign",
-				Character:   "♂",
-				UnicodeName: "male sign",
-				CodePoint:   "U+2642",
-				Group:       "Symbols",
-				SubGroup:    "gender",
-			},
-		
-			9800: {
-				Slug:        "Aries",
-				Character:   "♈",
-				UnicodeName: "Aries",
-				CodePoint:   "U+2648",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9801: {
-				Slug:        "Taurus",
-				Character:   "♉",
-				UnicodeName: "Taurus",
-				CodePoint:   "U+2649",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9802: {
-				Slug:        "Gemini",
-				Character:   "♊",
-				UnicodeName: "Gemini",
-				CodePoint:   "U+264A",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9803: {
-				Slug:        "Cancer",
-				Character:   "♋",
-				UnicodeName: "Cancer",
-				CodePoint:   "U+264B",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9804: {
-				Slug:        "Leo",
-				Character:   "♌",
-				UnicodeName: "Leo",
-				CodePoint:   "U+264C",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9805: {
-				Slug:        "Virgo",
-				Character:   "♍",
-				UnicodeName: "Virgo",
-				CodePoint:   "U+264D",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9806: {
-				Slug:        "Libra",
-				Character:   "♎",
-				UnicodeName: "Libra",
-				CodePoint:   "U+264E",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9807: {
-				Slug:        "Scorpio",
-				Character:   "♏",
-				UnicodeName: "Scorpio",
-				CodePoint:   "U+264F",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9808: {
-				Slug:        "Sagittarius",
-				Character:   "♐",
-				UnicodeName: "Sagittarius",
-				CodePoint:   "U+2650",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9809: {
-				Slug:        "Capricorn",
-				Character:   "♑",
-				UnicodeName: "Capricorn",
-				CodePoint:   "U+2651",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9810: {
-				Slug:        "Aquarius",
-				Character:   "♒",
-				UnicodeName: "Aquarius",
-				CodePoint:   "U+2652",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9811: {
-				Slug:        "Pisces",
-				Character:   "♓",
-				UnicodeName: "Pisces",
-				CodePoint:   "U+2653",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9823: {
-				Slug:        "chess-pawn",
-				Character:   "♟",
-				UnicodeName: "chess pawn",
-				CodePoint:   "U+265F",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			9824: {
-				Slug:        "spade-suit",
-				Character:   "♠",
-				UnicodeName: "spade suit",
-				CodePoint:   "U+2660",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			9827: {
-				Slug:        "club-suit",
-				Character:   "♣",
-				UnicodeName: "club suit",
-				CodePoint:   "U+2663",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			9829: {
-				Slug:        "heart-suit",
-				Character:   "♥",
-				UnicodeName: "heart suit",
-				CodePoint:   "U+2665",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			9830: {
-				Slug:        "diamond-suit",
-				Character:   "♦",
-				UnicodeName: "diamond suit",
-				CodePoint:   "U+2666",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			9832: {
-				Slug:        "hot-springs",
-				Character:   "♨",
-				UnicodeName: "hot springs",
-				CodePoint:   "U+2668",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			9851: {
-				Slug:        "recycling-symbol",
-				Character:   "♻",
-				UnicodeName: "recycling symbol",
-				CodePoint:   "U+267B",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			9854: {
-				Slug:        "infinity",
-				Character:   "♾",
-				UnicodeName: "infinity",
-				CodePoint:   "U+267E",
-				Group:       "Symbols",
-				SubGroup:    "math",
-			},
-		
-			9855: {
-				Slug:        "wheelchair-symbol",
-				Character:   "♿",
-				UnicodeName: "wheelchair symbol",
-				CodePoint:   "U+267F",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			9874: {
-				Slug:        "hammer-and-pick",
-				Character:   "⚒",
-				UnicodeName: "hammer and pick",
-				CodePoint:   "U+2692",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			9875: {
-				Slug:        "anchor",
-				Character:   "⚓",
-				UnicodeName: "anchor",
-				CodePoint:   "U+2693",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			9876: {
-				Slug:        "crossed-swords",
-				Character:   "⚔",
-				UnicodeName: "crossed swords",
-				CodePoint:   "U+2694",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			9877: {
-				Slug:        "medical-symbol",
-				Character:   "⚕",
-				UnicodeName: "medical symbol",
-				CodePoint:   "U+2695",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			9878: {
-				Slug:        "balance-scale",
-				Character:   "⚖",
-				UnicodeName: "balance scale",
-				CodePoint:   "U+2696",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			9879: {
-				Slug:        "alembic",
-				Character:   "⚗",
-				UnicodeName: "alembic",
-				CodePoint:   "U+2697",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			9881: {
-				Slug:        "gear",
-				Character:   "⚙",
-				UnicodeName: "gear",
-				CodePoint:   "U+2699",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			9883: {
-				Slug:        "atom-symbol",
-				Character:   "⚛",
-				UnicodeName: "atom symbol",
-				CodePoint:   "U+269B",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			9884: {
-				Slug:        "fleur-de-lis",
-				Character:   "⚜",
-				UnicodeName: "fleur-de-lis",
-				CodePoint:   "U+269C",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			9888: {
-				Slug:        "warning",
-				Character:   "⚠",
-				UnicodeName: "warning",
-				CodePoint:   "U+26A0",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			9889: {
-				Slug:        "high-voltage",
-				Character:   "⚡",
-				UnicodeName: "high voltage",
-				CodePoint:   "U+26A1",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9895: {
-				Slug:        "transgender-symbol",
-				Character:   "⚧",
-				UnicodeName: "transgender symbol",
-				CodePoint:   "U+26A7",
-				Group:       "Symbols",
-				SubGroup:    "gender",
-			},
-		
-			9898: {
-				Slug:        "white-circle",
-				Character:   "⚪",
-				UnicodeName: "white circle",
-				CodePoint:   "U+26AA",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9899: {
-				Slug:        "black-circle",
-				Character:   "⚫",
-				UnicodeName: "black circle",
-				CodePoint:   "U+26AB",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			9904: {
-				Slug:        "coffin",
-				Character:   "⚰",
-				UnicodeName: "coffin",
-				CodePoint:   "U+26B0",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			9905: {
-				Slug:        "funeral-urn",
-				Character:   "⚱",
-				UnicodeName: "funeral urn",
-				CodePoint:   "U+26B1",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			9917: {
-				Slug:        "soccer-ball",
-				Character:   "⚽",
-				UnicodeName: "soccer ball",
-				CodePoint:   "U+26BD",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			9918: {
-				Slug:        "baseball",
-				Character:   "⚾",
-				UnicodeName: "baseball",
-				CodePoint:   "U+26BE",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			9924: {
-				Slug:        "snowman-without-snow",
-				Character:   "⛄",
-				UnicodeName: "snowman without snow",
-				CodePoint:   "U+26C4",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9925: {
-				Slug:        "sun-behind-cloud",
-				Character:   "⛅",
-				UnicodeName: "sun behind cloud",
-				CodePoint:   "U+26C5",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9928: {
-				Slug:        "cloud-with-lightning-and-rain",
-				Character:   "⛈",
-				UnicodeName: "cloud with lightning and rain",
-				CodePoint:   "U+26C8",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9934: {
-				Slug:        "Ophiuchus",
-				Character:   "⛎",
-				UnicodeName: "Ophiuchus",
-				CodePoint:   "U+26CE",
-				Group:       "Symbols",
-				SubGroup:    "zodiac",
-			},
-		
-			9935: {
-				Slug:        "pick",
-				Character:   "⛏",
-				UnicodeName: "pick",
-				CodePoint:   "U+26CF",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			9937: {
-				Slug:        "rescue-worker’s-helmet",
-				Character:   "⛑",
-				UnicodeName: "rescue worker’s helmet",
-				CodePoint:   "U+26D1",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			9939: {
-				Slug:        "chains",
-				Character:   "⛓",
-				UnicodeName: "chains",
-				CodePoint:   "U+26D3",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			9940: {
-				Slug:        "no-entry",
-				Character:   "⛔",
-				UnicodeName: "no entry",
-				CodePoint:   "U+26D4",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			9961: {
-				Slug:        "shinto-shrine",
-				Character:   "⛩",
-				UnicodeName: "shinto shrine",
-				CodePoint:   "U+26E9",
-				Group:       "Travel & Places",
-				SubGroup:    "place-religious",
-			},
-		
-			9962: {
-				Slug:        "church",
-				Character:   "⛪",
-				UnicodeName: "church",
-				CodePoint:   "U+26EA",
-				Group:       "Travel & Places",
-				SubGroup:    "place-religious",
-			},
-		
-			9968: {
-				Slug:        "mountain",
-				Character:   "⛰",
-				UnicodeName: "mountain",
-				CodePoint:   "U+26F0",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			9969: {
-				Slug:        "umbrella-on-ground",
-				Character:   "⛱",
-				UnicodeName: "umbrella on ground",
-				CodePoint:   "U+26F1",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			9970: {
-				Slug:        "fountain",
-				Character:   "⛲",
-				UnicodeName: "fountain",
-				CodePoint:   "U+26F2",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			9971: {
-				Slug:        "flag-in-hole",
-				Character:   "⛳",
-				UnicodeName: "flag in hole",
-				CodePoint:   "U+26F3",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			9972: {
-				Slug:        "ferry",
-				Character:   "⛴",
-				UnicodeName: "ferry",
-				CodePoint:   "U+26F4",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			9973: {
-				Slug:        "sailboat",
-				Character:   "⛵",
-				UnicodeName: "sailboat",
-				CodePoint:   "U+26F5",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			9975: {
-				Slug:        "skier",
-				Character:   "⛷",
-				UnicodeName: "skier",
-				CodePoint:   "U+26F7",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			9976: {
-				Slug:        "ice-skate",
-				Character:   "⛸",
-				UnicodeName: "ice skate",
-				CodePoint:   "U+26F8",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			9977: {
-				Slug:        "woman-bouncing-ball",
-				Character:   "⛹️‍♀️",
-				UnicodeName: "woman bouncing ball",
-				CodePoint:   "U+26F9 U+FE0F U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			9978: {
-				Slug:        "tent",
-				Character:   "⛺",
-				UnicodeName: "tent",
-				CodePoint:   "U+26FA",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			9981: {
-				Slug:        "fuel-pump",
-				Character:   "⛽",
-				UnicodeName: "fuel pump",
-				CodePoint:   "U+26FD",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			9986: {
-				Slug:        "scissors",
-				Character:   "✂",
-				UnicodeName: "scissors",
-				CodePoint:   "U+2702",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			9989: {
-				Slug:        "check-mark-button",
-				Character:   "✅",
-				UnicodeName: "check mark button",
-				CodePoint:   "U+2705",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			9992: {
-				Slug:        "airplane",
-				Character:   "✈",
-				UnicodeName: "airplane",
-				CodePoint:   "U+2708",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			9993: {
-				Slug:        "envelope",
-				Character:   "✉",
-				UnicodeName: "envelope",
-				CodePoint:   "U+2709",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			9994: {
-				Slug:        "raised-fist",
-				Character:   "✊",
-				UnicodeName: "raised fist",
-				CodePoint:   "U+270A",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-closed",
-			},
-		
-			9995: {
-				Slug:        "raised-hand",
-				Character:   "✋",
-				UnicodeName: "raised hand",
-				CodePoint:   "U+270B",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			9996: {
-				Slug:        "victory-hand",
-				Character:   "✌",
-				UnicodeName: "victory hand",
-				CodePoint:   "U+270C",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			9997: {
-				Slug:        "writing-hand",
-				Character:   "✍",
-				UnicodeName: "writing hand",
-				CodePoint:   "U+270D",
-				Group:       "People & Body",
-				SubGroup:    "hand-prop",
-			},
-		
-			9999: {
-				Slug:        "pencil",
-				Character:   "✏",
-				UnicodeName: "pencil",
-				CodePoint:   "U+270F",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			10002: {
-				Slug:        "black-nib",
-				Character:   "✒",
-				UnicodeName: "black nib",
-				CodePoint:   "U+2712",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			10004: {
-				Slug:        "check-mark",
-				Character:   "✔",
-				UnicodeName: "check mark",
-				CodePoint:   "U+2714",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10006: {
-				Slug:        "multiply",
-				Character:   "✖",
-				UnicodeName: "multiply",
-				CodePoint:   "U+2716",
-				Group:       "Symbols",
-				SubGroup:    "math",
-			},
-		
-			10013: {
-				Slug:        "latin-cross",
-				Character:   "✝",
-				UnicodeName: "latin cross",
-				CodePoint:   "U+271D",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			10017: {
-				Slug:        "star-of-David",
-				Character:   "✡",
-				UnicodeName: "star of David",
-				CodePoint:   "U+2721",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			10024: {
-				Slug:        "sparkles",
-				Character:   "✨",
-				UnicodeName: "sparkles",
-				CodePoint:   "U+2728",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			10035: {
-				Slug:        "eight-spoked-asterisk",
-				Character:   "✳",
-				UnicodeName: "eight-spoked asterisk",
-				CodePoint:   "U+2733",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10036: {
-				Slug:        "eight-pointed-star",
-				Character:   "✴",
-				UnicodeName: "eight-pointed star",
-				CodePoint:   "U+2734",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10052: {
-				Slug:        "snowflake",
-				Character:   "❄",
-				UnicodeName: "snowflake",
-				CodePoint:   "U+2744",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			10055: {
-				Slug:        "sparkle",
-				Character:   "❇",
-				UnicodeName: "sparkle",
-				CodePoint:   "U+2747",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10060: {
-				Slug:        "cross-mark",
-				Character:   "❌",
-				UnicodeName: "cross mark",
-				CodePoint:   "U+274C",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10062: {
-				Slug:        "cross-mark-button",
-				Character:   "❎",
-				UnicodeName: "cross mark button",
-				CodePoint:   "U+274E",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10067: {
-				Slug:        "red-question-mark",
-				Character:   "❓",
-				UnicodeName: "red question mark",
-				CodePoint:   "U+2753",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			10068: {
-				Slug:        "white-question-mark",
-				Character:   "❔",
-				UnicodeName: "white question mark",
-				CodePoint:   "U+2754",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			10069: {
-				Slug:        "white-exclamation-mark",
-				Character:   "❕",
-				UnicodeName: "white exclamation mark",
-				CodePoint:   "U+2755",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			10071: {
-				Slug:        "red-exclamation-mark",
-				Character:   "❗",
-				UnicodeName: "red exclamation mark",
-				CodePoint:   "U+2757",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			10083: {
-				Slug:        "heart-exclamation",
-				Character:   "❣",
-				UnicodeName: "heart exclamation",
-				CodePoint:   "U+2763",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			10084: {
-				Slug:        "red-heart",
-				Character:   "❤",
-				UnicodeName: "red heart",
-				CodePoint:   "U+2764",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			10133: {
-				Slug:        "plus",
-				Character:   "➕",
-				UnicodeName: "plus",
-				CodePoint:   "U+2795",
-				Group:       "Symbols",
-				SubGroup:    "math",
-			},
-		
-			10134: {
-				Slug:        "minus",
-				Character:   "➖",
-				UnicodeName: "minus",
-				CodePoint:   "U+2796",
-				Group:       "Symbols",
-				SubGroup:    "math",
-			},
-		
-			10135: {
-				Slug:        "divide",
-				Character:   "➗",
-				UnicodeName: "divide",
-				CodePoint:   "U+2797",
-				Group:       "Symbols",
-				SubGroup:    "math",
-			},
-		
-			10145: {
-				Slug:        "right-arrow",
-				Character:   "➡",
-				UnicodeName: "right arrow",
-				CodePoint:   "U+27A1",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			10160: {
-				Slug:        "curly-loop",
-				Character:   "➰",
-				UnicodeName: "curly loop",
-				CodePoint:   "U+27B0",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10175: {
-				Slug:        "double-curly-loop",
-				Character:   "➿",
-				UnicodeName: "double curly loop",
-				CodePoint:   "U+27BF",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			10548: {
-				Slug:        "right-arrow-curving-up",
-				Character:   "⤴",
-				UnicodeName: "right arrow curving up",
-				CodePoint:   "U+2934",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			10549: {
-				Slug:        "right-arrow-curving-down",
-				Character:   "⤵",
-				UnicodeName: "right arrow curving down",
-				CodePoint:   "U+2935",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			11013: {
-				Slug:        "left-arrow",
-				Character:   "⬅",
-				UnicodeName: "left arrow",
-				CodePoint:   "U+2B05",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			11014: {
-				Slug:        "up-arrow",
-				Character:   "⬆",
-				UnicodeName: "up arrow",
-				CodePoint:   "U+2B06",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			11015: {
-				Slug:        "down-arrow",
-				Character:   "⬇",
-				UnicodeName: "down arrow",
-				CodePoint:   "U+2B07",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			11035: {
-				Slug:        "black-large-square",
-				Character:   "⬛",
-				UnicodeName: "black large square",
-				CodePoint:   "U+2B1B",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			11036: {
-				Slug:        "white-large-square",
-				Character:   "⬜",
-				UnicodeName: "white large square",
-				CodePoint:   "U+2B1C",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			11088: {
-				Slug:        "star",
-				Character:   "⭐",
-				UnicodeName: "star",
-				CodePoint:   "U+2B50",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			11093: {
-				Slug:        "hollow-red-circle",
-				Character:   "⭕",
-				UnicodeName: "hollow red circle",
-				CodePoint:   "U+2B55",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			12336: {
-				Slug:        "wavy-dash",
-				Character:   "〰",
-				UnicodeName: "wavy dash",
-				CodePoint:   "U+3030",
-				Group:       "Symbols",
-				SubGroup:    "punctuation",
-			},
-		
-			12349: {
-				Slug:        "part-alternation-mark",
-				Character:   "〽",
-				UnicodeName: "part alternation mark",
-				CodePoint:   "U+303D",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			12951: {
-				Slug:        "Japanese-“congratulations”-button",
-				Character:   "㊗",
-				UnicodeName: "Japanese “congratulations” button",
-				CodePoint:   "U+3297",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			12953: {
-				Slug:        "Japanese-“secret”-button",
-				Character:   "㊙",
-				UnicodeName: "Japanese “secret” button",
-				CodePoint:   "U+3299",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			126980: {
-				Slug:        "mahjong-red-dragon",
-				Character:   "🀄",
-				UnicodeName: "mahjong red dragon",
-				CodePoint:   "U+1F004",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127183: {
-				Slug:        "joker",
-				Character:   "🃏",
-				UnicodeName: "joker",
-				CodePoint:   "U+1F0CF",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127344: {
-				Slug:        "A-button-(blood-type)",
-				Character:   "🅰",
-				UnicodeName: "A button (blood type)",
-				CodePoint:   "U+1F170",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127345: {
-				Slug:        "B-button-(blood-type)",
-				Character:   "🅱",
-				UnicodeName: "B button (blood type)",
-				CodePoint:   "U+1F171",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127358: {
-				Slug:        "O-button-(blood-type)",
-				Character:   "🅾",
-				UnicodeName: "O button (blood type)",
-				CodePoint:   "U+1F17E",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127359: {
-				Slug:        "P-button",
-				Character:   "🅿",
-				UnicodeName: "P button",
-				CodePoint:   "U+1F17F",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127374: {
-				Slug:        "AB-button-(blood-type)",
-				Character:   "🆎",
-				UnicodeName: "AB button (blood type)",
-				CodePoint:   "U+1F18E",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127377: {
-				Slug:        "CL-button",
-				Character:   "🆑",
-				UnicodeName: "CL button",
-				CodePoint:   "U+1F191",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127378: {
-				Slug:        "COOL-button",
-				Character:   "🆒",
-				UnicodeName: "COOL button",
-				CodePoint:   "U+1F192",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127379: {
-				Slug:        "FREE-button",
-				Character:   "🆓",
-				UnicodeName: "FREE button",
-				CodePoint:   "U+1F193",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127380: {
-				Slug:        "ID-button",
-				Character:   "🆔",
-				UnicodeName: "ID button",
-				CodePoint:   "U+1F194",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127381: {
-				Slug:        "NEW-button",
-				Character:   "🆕",
-				UnicodeName: "NEW button",
-				CodePoint:   "U+1F195",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127382: {
-				Slug:        "NG-button",
-				Character:   "🆖",
-				UnicodeName: "NG button",
-				CodePoint:   "U+1F196",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127383: {
-				Slug:        "OK-button",
-				Character:   "🆗",
-				UnicodeName: "OK button",
-				CodePoint:   "U+1F197",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127384: {
-				Slug:        "SOS-button",
-				Character:   "🆘",
-				UnicodeName: "SOS button",
-				CodePoint:   "U+1F198",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127385: {
-				Slug:        "UP!-button",
-				Character:   "🆙",
-				UnicodeName: "UP! button",
-				CodePoint:   "U+1F199",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127386: {
-				Slug:        "VS-button",
-				Character:   "🆚",
-				UnicodeName: "VS button",
-				CodePoint:   "U+1F19A",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127462: {
-				Slug:        "flag:-Azerbaijan",
-				Character:   "🇦🇿",
-				UnicodeName: "flag: Azerbaijan",
-				CodePoint:   "U+1F1E6 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127463: {
-				Slug:        "flag:-Belize",
-				Character:   "🇧🇿",
-				UnicodeName: "flag: Belize",
-				CodePoint:   "U+1F1E7 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127464: {
-				Slug:        "flag:-Czechia",
-				Character:   "🇨🇿",
-				UnicodeName: "flag: Czechia",
-				CodePoint:   "U+1F1E8 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127465: {
-				Slug:        "flag:-Algeria",
-				Character:   "🇩🇿",
-				UnicodeName: "flag: Algeria",
-				CodePoint:   "U+1F1E9 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127466: {
-				Slug:        "flag:-European-Union",
-				Character:   "🇪🇺",
-				UnicodeName: "flag: European Union",
-				CodePoint:   "U+1F1EA U+1F1FA",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127467: {
-				Slug:        "flag:-France",
-				Character:   "🇫🇷",
-				UnicodeName: "flag: France",
-				CodePoint:   "U+1F1EB U+1F1F7",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127468: {
-				Slug:        "flag:-Guyana",
-				Character:   "🇬🇾",
-				UnicodeName: "flag: Guyana",
-				CodePoint:   "U+1F1EC U+1F1FE",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127469: {
-				Slug:        "flag:-Hungary",
-				Character:   "🇭🇺",
-				UnicodeName: "flag: Hungary",
-				CodePoint:   "U+1F1ED U+1F1FA",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127470: {
-				Slug:        "flag:-Italy",
-				Character:   "🇮🇹",
-				UnicodeName: "flag: Italy",
-				CodePoint:   "U+1F1EE U+1F1F9",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127471: {
-				Slug:        "flag:-Japan",
-				Character:   "🇯🇵",
-				UnicodeName: "flag: Japan",
-				CodePoint:   "U+1F1EF U+1F1F5",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127472: {
-				Slug:        "flag:-Kazakhstan",
-				Character:   "🇰🇿",
-				UnicodeName: "flag: Kazakhstan",
-				CodePoint:   "U+1F1F0 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127473: {
-				Slug:        "flag:-Libya",
-				Character:   "🇱🇾",
-				UnicodeName: "flag: Libya",
-				CodePoint:   "U+1F1F1 U+1F1FE",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127474: {
-				Slug:        "flag:-Mozambique",
-				Character:   "🇲🇿",
-				UnicodeName: "flag: Mozambique",
-				CodePoint:   "U+1F1F2 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127475: {
-				Slug:        "flag:-New-Zealand",
-				Character:   "🇳🇿",
-				UnicodeName: "flag: New Zealand",
-				CodePoint:   "U+1F1F3 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127476: {
-				Slug:        "flag:-Oman",
-				Character:   "🇴🇲",
-				UnicodeName: "flag: Oman",
-				CodePoint:   "U+1F1F4 U+1F1F2",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127477: {
-				Slug:        "flag:-Paraguay",
-				Character:   "🇵🇾",
-				UnicodeName: "flag: Paraguay",
-				CodePoint:   "U+1F1F5 U+1F1FE",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127478: {
-				Slug:        "flag:-Qatar",
-				Character:   "🇶🇦",
-				UnicodeName: "flag: Qatar",
-				CodePoint:   "U+1F1F6 U+1F1E6",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127479: {
-				Slug:        "flag:-Rwanda",
-				Character:   "🇷🇼",
-				UnicodeName: "flag: Rwanda",
-				CodePoint:   "U+1F1F7 U+1F1FC",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127480: {
-				Slug:        "flag:-Eswatini",
-				Character:   "🇸🇿",
-				UnicodeName: "flag: Eswatini",
-				CodePoint:   "U+1F1F8 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127481: {
-				Slug:        "flag:-Tanzania",
-				Character:   "🇹🇿",
-				UnicodeName: "flag: Tanzania",
-				CodePoint:   "U+1F1F9 U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127482: {
-				Slug:        "flag:-Uzbekistan",
-				Character:   "🇺🇿",
-				UnicodeName: "flag: Uzbekistan",
-				CodePoint:   "U+1F1FA U+1F1FF",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127483: {
-				Slug:        "flag:-Vanuatu",
-				Character:   "🇻🇺",
-				UnicodeName: "flag: Vanuatu",
-				CodePoint:   "U+1F1FB U+1F1FA",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127484: {
-				Slug:        "flag:-Samoa",
-				Character:   "🇼🇸",
-				UnicodeName: "flag: Samoa",
-				CodePoint:   "U+1F1FC U+1F1F8",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127485: {
-				Slug:        "flag:-Kosovo",
-				Character:   "🇽🇰",
-				UnicodeName: "flag: Kosovo",
-				CodePoint:   "U+1F1FD U+1F1F0",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127486: {
-				Slug:        "flag:-Mayotte",
-				Character:   "🇾🇹",
-				UnicodeName: "flag: Mayotte",
-				CodePoint:   "U+1F1FE U+1F1F9",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127487: {
-				Slug:        "flag:-Zimbabwe",
-				Character:   "🇿🇼",
-				UnicodeName: "flag: Zimbabwe",
-				CodePoint:   "U+1F1FF U+1F1FC",
-				Group:       "Flags",
-				SubGroup:    "country-flag",
-			},
-		
-			127489: {
-				Slug:        "Japanese-“here”-button",
-				Character:   "🈁",
-				UnicodeName: "Japanese “here” button",
-				CodePoint:   "U+1F201",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127490: {
-				Slug:        "Japanese-“service-charge”-button",
-				Character:   "🈂",
-				UnicodeName: "Japanese “service charge” button",
-				CodePoint:   "U+1F202",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127514: {
-				Slug:        "Japanese-“free-of-charge”-button",
-				Character:   "🈚",
-				UnicodeName: "Japanese “free of charge” button",
-				CodePoint:   "U+1F21A",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127535: {
-				Slug:        "Japanese-“reserved”-button",
-				Character:   "🈯",
-				UnicodeName: "Japanese “reserved” button",
-				CodePoint:   "U+1F22F",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127538: {
-				Slug:        "Japanese-“prohibited”-button",
-				Character:   "🈲",
-				UnicodeName: "Japanese “prohibited” button",
-				CodePoint:   "U+1F232",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127539: {
-				Slug:        "Japanese-“vacancy”-button",
-				Character:   "🈳",
-				UnicodeName: "Japanese “vacancy” button",
-				CodePoint:   "U+1F233",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127540: {
-				Slug:        "Japanese-“passing-grade”-button",
-				Character:   "🈴",
-				UnicodeName: "Japanese “passing grade” button",
-				CodePoint:   "U+1F234",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127541: {
-				Slug:        "Japanese-“no-vacancy”-button",
-				Character:   "🈵",
-				UnicodeName: "Japanese “no vacancy” button",
-				CodePoint:   "U+1F235",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127542: {
-				Slug:        "Japanese-“not-free-of-charge”-button",
-				Character:   "🈶",
-				UnicodeName: "Japanese “not free of charge” button",
-				CodePoint:   "U+1F236",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127543: {
-				Slug:        "Japanese-“monthly-amount”-button",
-				Character:   "🈷",
-				UnicodeName: "Japanese “monthly amount” button",
-				CodePoint:   "U+1F237",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127544: {
-				Slug:        "Japanese-“application”-button",
-				Character:   "🈸",
-				UnicodeName: "Japanese “application” button",
-				CodePoint:   "U+1F238",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127545: {
-				Slug:        "Japanese-“discount”-button",
-				Character:   "🈹",
-				UnicodeName: "Japanese “discount” button",
-				CodePoint:   "U+1F239",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127546: {
-				Slug:        "Japanese-“open-for-business”-button",
-				Character:   "🈺",
-				UnicodeName: "Japanese “open for business” button",
-				CodePoint:   "U+1F23A",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127568: {
-				Slug:        "Japanese-“bargain”-button",
-				Character:   "🉐",
-				UnicodeName: "Japanese “bargain” button",
-				CodePoint:   "U+1F250",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127569: {
-				Slug:        "Japanese-“acceptable”-button",
-				Character:   "🉑",
-				UnicodeName: "Japanese “acceptable” button",
-				CodePoint:   "U+1F251",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			127744: {
-				Slug:        "cyclone",
-				Character:   "🌀",
-				UnicodeName: "cyclone",
-				CodePoint:   "U+1F300",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127745: {
-				Slug:        "foggy",
-				Character:   "🌁",
-				UnicodeName: "foggy",
-				CodePoint:   "U+1F301",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127746: {
-				Slug:        "closed-umbrella",
-				Character:   "🌂",
-				UnicodeName: "closed umbrella",
-				CodePoint:   "U+1F302",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127747: {
-				Slug:        "night-with-stars",
-				Character:   "🌃",
-				UnicodeName: "night with stars",
-				CodePoint:   "U+1F303",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127748: {
-				Slug:        "sunrise-over-mountains",
-				Character:   "🌄",
-				UnicodeName: "sunrise over mountains",
-				CodePoint:   "U+1F304",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127749: {
-				Slug:        "sunrise",
-				Character:   "🌅",
-				UnicodeName: "sunrise",
-				CodePoint:   "U+1F305",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127750: {
-				Slug:        "cityscape-at-dusk",
-				Character:   "🌆",
-				UnicodeName: "cityscape at dusk",
-				CodePoint:   "U+1F306",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127751: {
-				Slug:        "sunset",
-				Character:   "🌇",
-				UnicodeName: "sunset",
-				CodePoint:   "U+1F307",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127752: {
-				Slug:        "rainbow",
-				Character:   "🌈",
-				UnicodeName: "rainbow",
-				CodePoint:   "U+1F308",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127753: {
-				Slug:        "bridge-at-night",
-				Character:   "🌉",
-				UnicodeName: "bridge at night",
-				CodePoint:   "U+1F309",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127754: {
-				Slug:        "water-wave",
-				Character:   "🌊",
-				UnicodeName: "water wave",
-				CodePoint:   "U+1F30A",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127755: {
-				Slug:        "volcano",
-				Character:   "🌋",
-				UnicodeName: "volcano",
-				CodePoint:   "U+1F30B",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127756: {
-				Slug:        "milky-way",
-				Character:   "🌌",
-				UnicodeName: "milky way",
-				CodePoint:   "U+1F30C",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127757: {
-				Slug:        "globe-showing-Europe-Africa",
-				Character:   "🌍",
-				UnicodeName: "globe showing Europe-Africa",
-				CodePoint:   "U+1F30D",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			127758: {
-				Slug:        "globe-showing-Americas",
-				Character:   "🌎",
-				UnicodeName: "globe showing Americas",
-				CodePoint:   "U+1F30E",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			127759: {
-				Slug:        "globe-showing-Asia-Australia",
-				Character:   "🌏",
-				UnicodeName: "globe showing Asia-Australia",
-				CodePoint:   "U+1F30F",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			127760: {
-				Slug:        "globe-with-meridians",
-				Character:   "🌐",
-				UnicodeName: "globe with meridians",
-				CodePoint:   "U+1F310",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			127761: {
-				Slug:        "new-moon",
-				Character:   "🌑",
-				UnicodeName: "new moon",
-				CodePoint:   "U+1F311",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127762: {
-				Slug:        "waxing-crescent-moon",
-				Character:   "🌒",
-				UnicodeName: "waxing crescent moon",
-				CodePoint:   "U+1F312",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127763: {
-				Slug:        "first-quarter-moon",
-				Character:   "🌓",
-				UnicodeName: "first quarter moon",
-				CodePoint:   "U+1F313",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127764: {
-				Slug:        "waxing-gibbous-moon",
-				Character:   "🌔",
-				UnicodeName: "waxing gibbous moon",
-				CodePoint:   "U+1F314",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127765: {
-				Slug:        "full-moon",
-				Character:   "🌕",
-				UnicodeName: "full moon",
-				CodePoint:   "U+1F315",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127766: {
-				Slug:        "waning-gibbous-moon",
-				Character:   "🌖",
-				UnicodeName: "waning gibbous moon",
-				CodePoint:   "U+1F316",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127767: {
-				Slug:        "last-quarter-moon",
-				Character:   "🌗",
-				UnicodeName: "last quarter moon",
-				CodePoint:   "U+1F317",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127768: {
-				Slug:        "waning-crescent-moon",
-				Character:   "🌘",
-				UnicodeName: "waning crescent moon",
-				CodePoint:   "U+1F318",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127769: {
-				Slug:        "crescent-moon",
-				Character:   "🌙",
-				UnicodeName: "crescent moon",
-				CodePoint:   "U+1F319",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127770: {
-				Slug:        "new-moon-face",
-				Character:   "🌚",
-				UnicodeName: "new moon face",
-				CodePoint:   "U+1F31A",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127771: {
-				Slug:        "first-quarter-moon-face",
-				Character:   "🌛",
-				UnicodeName: "first quarter moon face",
-				CodePoint:   "U+1F31B",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127772: {
-				Slug:        "last-quarter-moon-face",
-				Character:   "🌜",
-				UnicodeName: "last quarter moon face",
-				CodePoint:   "U+1F31C",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127773: {
-				Slug:        "full-moon-face",
-				Character:   "🌝",
-				UnicodeName: "full moon face",
-				CodePoint:   "U+1F31D",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127774: {
-				Slug:        "sun-with-face",
-				Character:   "🌞",
-				UnicodeName: "sun with face",
-				CodePoint:   "U+1F31E",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127775: {
-				Slug:        "glowing-star",
-				Character:   "🌟",
-				UnicodeName: "glowing star",
-				CodePoint:   "U+1F31F",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127776: {
-				Slug:        "shooting-star",
-				Character:   "🌠",
-				UnicodeName: "shooting star",
-				CodePoint:   "U+1F320",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127777: {
-				Slug:        "thermometer",
-				Character:   "🌡",
-				UnicodeName: "thermometer",
-				CodePoint:   "U+1F321",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127780: {
-				Slug:        "sun-behind-small-cloud",
-				Character:   "🌤",
-				UnicodeName: "sun behind small cloud",
-				CodePoint:   "U+1F324",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127781: {
-				Slug:        "sun-behind-large-cloud",
-				Character:   "🌥",
-				UnicodeName: "sun behind large cloud",
-				CodePoint:   "U+1F325",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127782: {
-				Slug:        "sun-behind-rain-cloud",
-				Character:   "🌦",
-				UnicodeName: "sun behind rain cloud",
-				CodePoint:   "U+1F326",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127783: {
-				Slug:        "cloud-with-rain",
-				Character:   "🌧",
-				UnicodeName: "cloud with rain",
-				CodePoint:   "U+1F327",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127784: {
-				Slug:        "cloud-with-snow",
-				Character:   "🌨",
-				UnicodeName: "cloud with snow",
-				CodePoint:   "U+1F328",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127785: {
-				Slug:        "cloud-with-lightning",
-				Character:   "🌩",
-				UnicodeName: "cloud with lightning",
-				CodePoint:   "U+1F329",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127786: {
-				Slug:        "tornado",
-				Character:   "🌪",
-				UnicodeName: "tornado",
-				CodePoint:   "U+1F32A",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127787: {
-				Slug:        "fog",
-				Character:   "🌫",
-				UnicodeName: "fog",
-				CodePoint:   "U+1F32B",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127788: {
-				Slug:        "wind-face",
-				Character:   "🌬",
-				UnicodeName: "wind face",
-				CodePoint:   "U+1F32C",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			127789: {
-				Slug:        "hot-dog",
-				Character:   "🌭",
-				UnicodeName: "hot dog",
-				CodePoint:   "U+1F32D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127790: {
-				Slug:        "taco",
-				Character:   "🌮",
-				UnicodeName: "taco",
-				CodePoint:   "U+1F32E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127791: {
-				Slug:        "burrito",
-				Character:   "🌯",
-				UnicodeName: "burrito",
-				CodePoint:   "U+1F32F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127792: {
-				Slug:        "chestnut",
-				Character:   "🌰",
-				UnicodeName: "chestnut",
-				CodePoint:   "U+1F330",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			127793: {
-				Slug:        "seedling",
-				Character:   "🌱",
-				UnicodeName: "seedling",
-				CodePoint:   "U+1F331",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127794: {
-				Slug:        "evergreen-tree",
-				Character:   "🌲",
-				UnicodeName: "evergreen tree",
-				CodePoint:   "U+1F332",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127795: {
-				Slug:        "deciduous-tree",
-				Character:   "🌳",
-				UnicodeName: "deciduous tree",
-				CodePoint:   "U+1F333",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127796: {
-				Slug:        "palm-tree",
-				Character:   "🌴",
-				UnicodeName: "palm tree",
-				CodePoint:   "U+1F334",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127797: {
-				Slug:        "cactus",
-				Character:   "🌵",
-				UnicodeName: "cactus",
-				CodePoint:   "U+1F335",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127798: {
-				Slug:        "hot-pepper",
-				Character:   "🌶",
-				UnicodeName: "hot pepper",
-				CodePoint:   "U+1F336",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			127799: {
-				Slug:        "tulip",
-				Character:   "🌷",
-				UnicodeName: "tulip",
-				CodePoint:   "U+1F337",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127800: {
-				Slug:        "cherry-blossom",
-				Character:   "🌸",
-				UnicodeName: "cherry blossom",
-				CodePoint:   "U+1F338",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127801: {
-				Slug:        "rose",
-				Character:   "🌹",
-				UnicodeName: "rose",
-				CodePoint:   "U+1F339",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127802: {
-				Slug:        "hibiscus",
-				Character:   "🌺",
-				UnicodeName: "hibiscus",
-				CodePoint:   "U+1F33A",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127803: {
-				Slug:        "sunflower",
-				Character:   "🌻",
-				UnicodeName: "sunflower",
-				CodePoint:   "U+1F33B",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127804: {
-				Slug:        "blossom",
-				Character:   "🌼",
-				UnicodeName: "blossom",
-				CodePoint:   "U+1F33C",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127805: {
-				Slug:        "ear-of-corn",
-				Character:   "🌽",
-				UnicodeName: "ear of corn",
-				CodePoint:   "U+1F33D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			127806: {
-				Slug:        "sheaf-of-rice",
-				Character:   "🌾",
-				UnicodeName: "sheaf of rice",
-				CodePoint:   "U+1F33E",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127807: {
-				Slug:        "herb",
-				Character:   "🌿",
-				UnicodeName: "herb",
-				CodePoint:   "U+1F33F",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127808: {
-				Slug:        "four-leaf-clover",
-				Character:   "🍀",
-				UnicodeName: "four leaf clover",
-				CodePoint:   "U+1F340",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127809: {
-				Slug:        "maple-leaf",
-				Character:   "🍁",
-				UnicodeName: "maple leaf",
-				CodePoint:   "U+1F341",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127810: {
-				Slug:        "fallen-leaf",
-				Character:   "🍂",
-				UnicodeName: "fallen leaf",
-				CodePoint:   "U+1F342",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127811: {
-				Slug:        "leaf-fluttering-in-wind",
-				Character:   "🍃",
-				UnicodeName: "leaf fluttering in wind",
-				CodePoint:   "U+1F343",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			127812: {
-				Slug:        "mushroom",
-				Character:   "🍄",
-				UnicodeName: "mushroom",
-				CodePoint:   "U+1F344",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			127813: {
-				Slug:        "tomato",
-				Character:   "🍅",
-				UnicodeName: "tomato",
-				CodePoint:   "U+1F345",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127814: {
-				Slug:        "eggplant",
-				Character:   "🍆",
-				UnicodeName: "eggplant",
-				CodePoint:   "U+1F346",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			127815: {
-				Slug:        "grapes",
-				Character:   "🍇",
-				UnicodeName: "grapes",
-				CodePoint:   "U+1F347",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127816: {
-				Slug:        "melon",
-				Character:   "🍈",
-				UnicodeName: "melon",
-				CodePoint:   "U+1F348",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127817: {
-				Slug:        "watermelon",
-				Character:   "🍉",
-				UnicodeName: "watermelon",
-				CodePoint:   "U+1F349",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127818: {
-				Slug:        "tangerine",
-				Character:   "🍊",
-				UnicodeName: "tangerine",
-				CodePoint:   "U+1F34A",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127819: {
-				Slug:        "lemon",
-				Character:   "🍋",
-				UnicodeName: "lemon",
-				CodePoint:   "U+1F34B",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127820: {
-				Slug:        "banana",
-				Character:   "🍌",
-				UnicodeName: "banana",
-				CodePoint:   "U+1F34C",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127821: {
-				Slug:        "pineapple",
-				Character:   "🍍",
-				UnicodeName: "pineapple",
-				CodePoint:   "U+1F34D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127822: {
-				Slug:        "red-apple",
-				Character:   "🍎",
-				UnicodeName: "red apple",
-				CodePoint:   "U+1F34E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127823: {
-				Slug:        "green-apple",
-				Character:   "🍏",
-				UnicodeName: "green apple",
-				CodePoint:   "U+1F34F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127824: {
-				Slug:        "pear",
-				Character:   "🍐",
-				UnicodeName: "pear",
-				CodePoint:   "U+1F350",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127825: {
-				Slug:        "peach",
-				Character:   "🍑",
-				UnicodeName: "peach",
-				CodePoint:   "U+1F351",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127826: {
-				Slug:        "cherries",
-				Character:   "🍒",
-				UnicodeName: "cherries",
-				CodePoint:   "U+1F352",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127827: {
-				Slug:        "strawberry",
-				Character:   "🍓",
-				UnicodeName: "strawberry",
-				CodePoint:   "U+1F353",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			127828: {
-				Slug:        "hamburger",
-				Character:   "🍔",
-				UnicodeName: "hamburger",
-				CodePoint:   "U+1F354",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127829: {
-				Slug:        "pizza",
-				Character:   "🍕",
-				UnicodeName: "pizza",
-				CodePoint:   "U+1F355",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127830: {
-				Slug:        "meat-on-bone",
-				Character:   "🍖",
-				UnicodeName: "meat on bone",
-				CodePoint:   "U+1F356",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127831: {
-				Slug:        "poultry-leg",
-				Character:   "🍗",
-				UnicodeName: "poultry leg",
-				CodePoint:   "U+1F357",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127832: {
-				Slug:        "rice-cracker",
-				Character:   "🍘",
-				UnicodeName: "rice cracker",
-				CodePoint:   "U+1F358",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127833: {
-				Slug:        "rice-ball",
-				Character:   "🍙",
-				UnicodeName: "rice ball",
-				CodePoint:   "U+1F359",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127834: {
-				Slug:        "cooked-rice",
-				Character:   "🍚",
-				UnicodeName: "cooked rice",
-				CodePoint:   "U+1F35A",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127835: {
-				Slug:        "curry-rice",
-				Character:   "🍛",
-				UnicodeName: "curry rice",
-				CodePoint:   "U+1F35B",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127836: {
-				Slug:        "steaming-bowl",
-				Character:   "🍜",
-				UnicodeName: "steaming bowl",
-				CodePoint:   "U+1F35C",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127837: {
-				Slug:        "spaghetti",
-				Character:   "🍝",
-				UnicodeName: "spaghetti",
-				CodePoint:   "U+1F35D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127838: {
-				Slug:        "bread",
-				Character:   "🍞",
-				UnicodeName: "bread",
-				CodePoint:   "U+1F35E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127839: {
-				Slug:        "french-fries",
-				Character:   "🍟",
-				UnicodeName: "french fries",
-				CodePoint:   "U+1F35F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127840: {
-				Slug:        "roasted-sweet-potato",
-				Character:   "🍠",
-				UnicodeName: "roasted sweet potato",
-				CodePoint:   "U+1F360",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127841: {
-				Slug:        "dango",
-				Character:   "🍡",
-				UnicodeName: "dango",
-				CodePoint:   "U+1F361",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127842: {
-				Slug:        "oden",
-				Character:   "🍢",
-				UnicodeName: "oden",
-				CodePoint:   "U+1F362",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127843: {
-				Slug:        "sushi",
-				Character:   "🍣",
-				UnicodeName: "sushi",
-				CodePoint:   "U+1F363",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127844: {
-				Slug:        "fried-shrimp",
-				Character:   "🍤",
-				UnicodeName: "fried shrimp",
-				CodePoint:   "U+1F364",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127845: {
-				Slug:        "fish-cake-with-swirl",
-				Character:   "🍥",
-				UnicodeName: "fish cake with swirl",
-				CodePoint:   "U+1F365",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127846: {
-				Slug:        "soft-ice-cream",
-				Character:   "🍦",
-				UnicodeName: "soft ice cream",
-				CodePoint:   "U+1F366",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127847: {
-				Slug:        "shaved-ice",
-				Character:   "🍧",
-				UnicodeName: "shaved ice",
-				CodePoint:   "U+1F367",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127848: {
-				Slug:        "ice-cream",
-				Character:   "🍨",
-				UnicodeName: "ice cream",
-				CodePoint:   "U+1F368",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127849: {
-				Slug:        "doughnut",
-				Character:   "🍩",
-				UnicodeName: "doughnut",
-				CodePoint:   "U+1F369",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127850: {
-				Slug:        "cookie",
-				Character:   "🍪",
-				UnicodeName: "cookie",
-				CodePoint:   "U+1F36A",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127851: {
-				Slug:        "chocolate-bar",
-				Character:   "🍫",
-				UnicodeName: "chocolate bar",
-				CodePoint:   "U+1F36B",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127852: {
-				Slug:        "candy",
-				Character:   "🍬",
-				UnicodeName: "candy",
-				CodePoint:   "U+1F36C",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127853: {
-				Slug:        "lollipop",
-				Character:   "🍭",
-				UnicodeName: "lollipop",
-				CodePoint:   "U+1F36D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127854: {
-				Slug:        "custard",
-				Character:   "🍮",
-				UnicodeName: "custard",
-				CodePoint:   "U+1F36E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127855: {
-				Slug:        "honey-pot",
-				Character:   "🍯",
-				UnicodeName: "honey pot",
-				CodePoint:   "U+1F36F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127856: {
-				Slug:        "shortcake",
-				Character:   "🍰",
-				UnicodeName: "shortcake",
-				CodePoint:   "U+1F370",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127857: {
-				Slug:        "bento-box",
-				Character:   "🍱",
-				UnicodeName: "bento box",
-				CodePoint:   "U+1F371",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			127858: {
-				Slug:        "pot-of-food",
-				Character:   "🍲",
-				UnicodeName: "pot of food",
-				CodePoint:   "U+1F372",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127859: {
-				Slug:        "cooking",
-				Character:   "🍳",
-				UnicodeName: "cooking",
-				CodePoint:   "U+1F373",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127860: {
-				Slug:        "fork-and-knife",
-				Character:   "🍴",
-				UnicodeName: "fork and knife",
-				CodePoint:   "U+1F374",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			127861: {
-				Slug:        "teacup-without-handle",
-				Character:   "🍵",
-				UnicodeName: "teacup without handle",
-				CodePoint:   "U+1F375",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127862: {
-				Slug:        "sake",
-				Character:   "🍶",
-				UnicodeName: "sake",
-				CodePoint:   "U+1F376",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127863: {
-				Slug:        "wine-glass",
-				Character:   "🍷",
-				UnicodeName: "wine glass",
-				CodePoint:   "U+1F377",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127864: {
-				Slug:        "cocktail-glass",
-				Character:   "🍸",
-				UnicodeName: "cocktail glass",
-				CodePoint:   "U+1F378",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127865: {
-				Slug:        "tropical-drink",
-				Character:   "🍹",
-				UnicodeName: "tropical drink",
-				CodePoint:   "U+1F379",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127866: {
-				Slug:        "beer-mug",
-				Character:   "🍺",
-				UnicodeName: "beer mug",
-				CodePoint:   "U+1F37A",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127867: {
-				Slug:        "clinking-beer-mugs",
-				Character:   "🍻",
-				UnicodeName: "clinking beer mugs",
-				CodePoint:   "U+1F37B",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127868: {
-				Slug:        "baby-bottle",
-				Character:   "🍼",
-				UnicodeName: "baby bottle",
-				CodePoint:   "U+1F37C",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127869: {
-				Slug:        "fork-and-knife-with-plate",
-				Character:   "🍽",
-				UnicodeName: "fork and knife with plate",
-				CodePoint:   "U+1F37D",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			127870: {
-				Slug:        "bottle-with-popping-cork",
-				Character:   "🍾",
-				UnicodeName: "bottle with popping cork",
-				CodePoint:   "U+1F37E",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			127871: {
-				Slug:        "popcorn",
-				Character:   "🍿",
-				UnicodeName: "popcorn",
-				CodePoint:   "U+1F37F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			127872: {
-				Slug:        "ribbon",
-				Character:   "🎀",
-				UnicodeName: "ribbon",
-				CodePoint:   "U+1F380",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127873: {
-				Slug:        "wrapped-gift",
-				Character:   "🎁",
-				UnicodeName: "wrapped gift",
-				CodePoint:   "U+1F381",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127874: {
-				Slug:        "birthday-cake",
-				Character:   "🎂",
-				UnicodeName: "birthday cake",
-				CodePoint:   "U+1F382",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			127875: {
-				Slug:        "jack-o-lantern",
-				Character:   "🎃",
-				UnicodeName: "jack-o-lantern",
-				CodePoint:   "U+1F383",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127876: {
-				Slug:        "Christmas-tree",
-				Character:   "🎄",
-				UnicodeName: "Christmas tree",
-				CodePoint:   "U+1F384",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127877: {
-				Slug:        "Santa-Claus",
-				Character:   "🎅",
-				UnicodeName: "Santa Claus",
-				CodePoint:   "U+1F385",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			127878: {
-				Slug:        "fireworks",
-				Character:   "🎆",
-				UnicodeName: "fireworks",
-				CodePoint:   "U+1F386",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127879: {
-				Slug:        "sparkler",
-				Character:   "🎇",
-				UnicodeName: "sparkler",
-				CodePoint:   "U+1F387",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127880: {
-				Slug:        "balloon",
-				Character:   "🎈",
-				UnicodeName: "balloon",
-				CodePoint:   "U+1F388",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127881: {
-				Slug:        "party-popper",
-				Character:   "🎉",
-				UnicodeName: "party popper",
-				CodePoint:   "U+1F389",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127882: {
-				Slug:        "confetti-ball",
-				Character:   "🎊",
-				UnicodeName: "confetti ball",
-				CodePoint:   "U+1F38A",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127883: {
-				Slug:        "tanabata-tree",
-				Character:   "🎋",
-				UnicodeName: "tanabata tree",
-				CodePoint:   "U+1F38B",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127884: {
-				Slug:        "crossed-flags",
-				Character:   "🎌",
-				UnicodeName: "crossed flags",
-				CodePoint:   "U+1F38C",
-				Group:       "Flags",
-				SubGroup:    "flag",
-			},
-		
-			127885: {
-				Slug:        "pine-decoration",
-				Character:   "🎍",
-				UnicodeName: "pine decoration",
-				CodePoint:   "U+1F38D",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127886: {
-				Slug:        "Japanese-dolls",
-				Character:   "🎎",
-				UnicodeName: "Japanese dolls",
-				CodePoint:   "U+1F38E",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127887: {
-				Slug:        "carp-streamer",
-				Character:   "🎏",
-				UnicodeName: "carp streamer",
-				CodePoint:   "U+1F38F",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127888: {
-				Slug:        "wind-chime",
-				Character:   "🎐",
-				UnicodeName: "wind chime",
-				CodePoint:   "U+1F390",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127889: {
-				Slug:        "moon-viewing-ceremony",
-				Character:   "🎑",
-				UnicodeName: "moon viewing ceremony",
-				CodePoint:   "U+1F391",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127890: {
-				Slug:        "backpack",
-				Character:   "🎒",
-				UnicodeName: "backpack",
-				CodePoint:   "U+1F392",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			127891: {
-				Slug:        "graduation-cap",
-				Character:   "🎓",
-				UnicodeName: "graduation cap",
-				CodePoint:   "U+1F393",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			127894: {
-				Slug:        "military-medal",
-				Character:   "🎖",
-				UnicodeName: "military medal",
-				CodePoint:   "U+1F396",
-				Group:       "Activities",
-				SubGroup:    "award-medal",
-			},
-		
-			127895: {
-				Slug:        "reminder-ribbon",
-				Character:   "🎗",
-				UnicodeName: "reminder ribbon",
-				CodePoint:   "U+1F397",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127897: {
-				Slug:        "studio-microphone",
-				Character:   "🎙",
-				UnicodeName: "studio microphone",
-				CodePoint:   "U+1F399",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127898: {
-				Slug:        "level-slider",
-				Character:   "🎚",
-				UnicodeName: "level slider",
-				CodePoint:   "U+1F39A",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127899: {
-				Slug:        "control-knobs",
-				Character:   "🎛",
-				UnicodeName: "control knobs",
-				CodePoint:   "U+1F39B",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127902: {
-				Slug:        "film-frames",
-				Character:   "🎞",
-				UnicodeName: "film frames",
-				CodePoint:   "U+1F39E",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			127903: {
-				Slug:        "admission-tickets",
-				Character:   "🎟",
-				UnicodeName: "admission tickets",
-				CodePoint:   "U+1F39F",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127904: {
-				Slug:        "carousel-horse",
-				Character:   "🎠",
-				UnicodeName: "carousel horse",
-				CodePoint:   "U+1F3A0",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127905: {
-				Slug:        "ferris-wheel",
-				Character:   "🎡",
-				UnicodeName: "ferris wheel",
-				CodePoint:   "U+1F3A1",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127906: {
-				Slug:        "roller-coaster",
-				Character:   "🎢",
-				UnicodeName: "roller coaster",
-				CodePoint:   "U+1F3A2",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127907: {
-				Slug:        "fishing-pole",
-				Character:   "🎣",
-				UnicodeName: "fishing pole",
-				CodePoint:   "U+1F3A3",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127908: {
-				Slug:        "microphone",
-				Character:   "🎤",
-				UnicodeName: "microphone",
-				CodePoint:   "U+1F3A4",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127909: {
-				Slug:        "movie-camera",
-				Character:   "🎥",
-				UnicodeName: "movie camera",
-				CodePoint:   "U+1F3A5",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			127910: {
-				Slug:        "cinema",
-				Character:   "🎦",
-				UnicodeName: "cinema",
-				CodePoint:   "U+1F3A6",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			127911: {
-				Slug:        "headphone",
-				Character:   "🎧",
-				UnicodeName: "headphone",
-				CodePoint:   "U+1F3A7",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127912: {
-				Slug:        "artist-palette",
-				Character:   "🎨",
-				UnicodeName: "artist palette",
-				CodePoint:   "U+1F3A8",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			127913: {
-				Slug:        "top-hat",
-				Character:   "🎩",
-				UnicodeName: "top hat",
-				CodePoint:   "U+1F3A9",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			127914: {
-				Slug:        "circus-tent",
-				Character:   "🎪",
-				UnicodeName: "circus tent",
-				CodePoint:   "U+1F3AA",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127915: {
-				Slug:        "ticket",
-				Character:   "🎫",
-				UnicodeName: "ticket",
-				CodePoint:   "U+1F3AB",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			127916: {
-				Slug:        "clapper-board",
-				Character:   "🎬",
-				UnicodeName: "clapper board",
-				CodePoint:   "U+1F3AC",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			127917: {
-				Slug:        "performing-arts",
-				Character:   "🎭",
-				UnicodeName: "performing arts",
-				CodePoint:   "U+1F3AD",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			127918: {
-				Slug:        "video-game",
-				Character:   "🎮",
-				UnicodeName: "video game",
-				CodePoint:   "U+1F3AE",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127919: {
-				Slug:        "bullseye",
-				Character:   "🎯",
-				UnicodeName: "bullseye",
-				CodePoint:   "U+1F3AF",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127920: {
-				Slug:        "slot-machine",
-				Character:   "🎰",
-				UnicodeName: "slot machine",
-				CodePoint:   "U+1F3B0",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127921: {
-				Slug:        "pool-8-ball",
-				Character:   "🎱",
-				UnicodeName: "pool 8 ball",
-				CodePoint:   "U+1F3B1",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127922: {
-				Slug:        "game-die",
-				Character:   "🎲",
-				UnicodeName: "game die",
-				CodePoint:   "U+1F3B2",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127923: {
-				Slug:        "bowling",
-				Character:   "🎳",
-				UnicodeName: "bowling",
-				CodePoint:   "U+1F3B3",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127924: {
-				Slug:        "flower-playing-cards",
-				Character:   "🎴",
-				UnicodeName: "flower playing cards",
-				CodePoint:   "U+1F3B4",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			127925: {
-				Slug:        "musical-note",
-				Character:   "🎵",
-				UnicodeName: "musical note",
-				CodePoint:   "U+1F3B5",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127926: {
-				Slug:        "musical-notes",
-				Character:   "🎶",
-				UnicodeName: "musical notes",
-				CodePoint:   "U+1F3B6",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127927: {
-				Slug:        "saxophone",
-				Character:   "🎷",
-				UnicodeName: "saxophone",
-				CodePoint:   "U+1F3B7",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			127928: {
-				Slug:        "guitar",
-				Character:   "🎸",
-				UnicodeName: "guitar",
-				CodePoint:   "U+1F3B8",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			127929: {
-				Slug:        "musical-keyboard",
-				Character:   "🎹",
-				UnicodeName: "musical keyboard",
-				CodePoint:   "U+1F3B9",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			127930: {
-				Slug:        "trumpet",
-				Character:   "🎺",
-				UnicodeName: "trumpet",
-				CodePoint:   "U+1F3BA",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			127931: {
-				Slug:        "violin",
-				Character:   "🎻",
-				UnicodeName: "violin",
-				CodePoint:   "U+1F3BB",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			127932: {
-				Slug:        "musical-score",
-				Character:   "🎼",
-				UnicodeName: "musical score",
-				CodePoint:   "U+1F3BC",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			127933: {
-				Slug:        "running-shirt",
-				Character:   "🎽",
-				UnicodeName: "running shirt",
-				CodePoint:   "U+1F3BD",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127934: {
-				Slug:        "tennis",
-				Character:   "🎾",
-				UnicodeName: "tennis",
-				CodePoint:   "U+1F3BE",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127935: {
-				Slug:        "skis",
-				Character:   "🎿",
-				UnicodeName: "skis",
-				CodePoint:   "U+1F3BF",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127936: {
-				Slug:        "basketball",
-				Character:   "🏀",
-				UnicodeName: "basketball",
-				CodePoint:   "U+1F3C0",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127937: {
-				Slug:        "chequered-flag",
-				Character:   "🏁",
-				UnicodeName: "chequered flag",
-				CodePoint:   "U+1F3C1",
-				Group:       "Flags",
-				SubGroup:    "flag",
-			},
-		
-			127938: {
-				Slug:        "snowboarder",
-				Character:   "🏂",
-				UnicodeName: "snowboarder",
-				CodePoint:   "U+1F3C2",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			127939: {
-				Slug:        "woman-running",
-				Character:   "🏃‍♀️",
-				UnicodeName: "woman running",
-				CodePoint:   "U+1F3C3 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			127940: {
-				Slug:        "woman-surfing",
-				Character:   "🏄‍♀️",
-				UnicodeName: "woman surfing",
-				CodePoint:   "U+1F3C4 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			127941: {
-				Slug:        "sports-medal",
-				Character:   "🏅",
-				UnicodeName: "sports medal",
-				CodePoint:   "U+1F3C5",
-				Group:       "Activities",
-				SubGroup:    "award-medal",
-			},
-		
-			127942: {
-				Slug:        "trophy",
-				Character:   "🏆",
-				UnicodeName: "trophy",
-				CodePoint:   "U+1F3C6",
-				Group:       "Activities",
-				SubGroup:    "award-medal",
-			},
-		
-			127943: {
-				Slug:        "horse-racing",
-				Character:   "🏇",
-				UnicodeName: "horse racing",
-				CodePoint:   "U+1F3C7",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			127944: {
-				Slug:        "american-football",
-				Character:   "🏈",
-				UnicodeName: "american football",
-				CodePoint:   "U+1F3C8",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127945: {
-				Slug:        "rugby-football",
-				Character:   "🏉",
-				UnicodeName: "rugby football",
-				CodePoint:   "U+1F3C9",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127946: {
-				Slug:        "woman-swimming",
-				Character:   "🏊‍♀️",
-				UnicodeName: "woman swimming",
-				CodePoint:   "U+1F3CA U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			127947: {
-				Slug:        "woman-lifting-weights",
-				Character:   "🏋️‍♀️",
-				UnicodeName: "woman lifting weights",
-				CodePoint:   "U+1F3CB U+FE0F U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			127948: {
-				Slug:        "woman-golfing",
-				Character:   "🏌️‍♀️",
-				UnicodeName: "woman golfing",
-				CodePoint:   "U+1F3CC U+FE0F U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			127949: {
-				Slug:        "motorcycle",
-				Character:   "🏍",
-				UnicodeName: "motorcycle",
-				CodePoint:   "U+1F3CD",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			127950: {
-				Slug:        "racing-car",
-				Character:   "🏎",
-				UnicodeName: "racing car",
-				CodePoint:   "U+1F3CE",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			127951: {
-				Slug:        "cricket-game",
-				Character:   "🏏",
-				UnicodeName: "cricket game",
-				CodePoint:   "U+1F3CF",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127952: {
-				Slug:        "volleyball",
-				Character:   "🏐",
-				UnicodeName: "volleyball",
-				CodePoint:   "U+1F3D0",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127953: {
-				Slug:        "field-hockey",
-				Character:   "🏑",
-				UnicodeName: "field hockey",
-				CodePoint:   "U+1F3D1",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127954: {
-				Slug:        "ice-hockey",
-				Character:   "🏒",
-				UnicodeName: "ice hockey",
-				CodePoint:   "U+1F3D2",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127955: {
-				Slug:        "ping-pong",
-				Character:   "🏓",
-				UnicodeName: "ping pong",
-				CodePoint:   "U+1F3D3",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127956: {
-				Slug:        "snow-capped-mountain",
-				Character:   "🏔",
-				UnicodeName: "snow-capped mountain",
-				CodePoint:   "U+1F3D4",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127957: {
-				Slug:        "camping",
-				Character:   "🏕",
-				UnicodeName: "camping",
-				CodePoint:   "U+1F3D5",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127958: {
-				Slug:        "beach-with-umbrella",
-				Character:   "🏖",
-				UnicodeName: "beach with umbrella",
-				CodePoint:   "U+1F3D6",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127959: {
-				Slug:        "building-construction",
-				Character:   "🏗",
-				UnicodeName: "building construction",
-				CodePoint:   "U+1F3D7",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127960: {
-				Slug:        "houses",
-				Character:   "🏘",
-				UnicodeName: "houses",
-				CodePoint:   "U+1F3D8",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127961: {
-				Slug:        "cityscape",
-				Character:   "🏙",
-				UnicodeName: "cityscape",
-				CodePoint:   "U+1F3D9",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			127962: {
-				Slug:        "derelict-house",
-				Character:   "🏚",
-				UnicodeName: "derelict house",
-				CodePoint:   "U+1F3DA",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127963: {
-				Slug:        "classical-building",
-				Character:   "🏛",
-				UnicodeName: "classical building",
-				CodePoint:   "U+1F3DB",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127964: {
-				Slug:        "desert",
-				Character:   "🏜",
-				UnicodeName: "desert",
-				CodePoint:   "U+1F3DC",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127965: {
-				Slug:        "desert-island",
-				Character:   "🏝",
-				UnicodeName: "desert island",
-				CodePoint:   "U+1F3DD",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127966: {
-				Slug:        "national-park",
-				Character:   "🏞",
-				UnicodeName: "national park",
-				CodePoint:   "U+1F3DE",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			127967: {
-				Slug:        "stadium",
-				Character:   "🏟",
-				UnicodeName: "stadium",
-				CodePoint:   "U+1F3DF",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127968: {
-				Slug:        "house",
-				Character:   "🏠",
-				UnicodeName: "house",
-				CodePoint:   "U+1F3E0",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127969: {
-				Slug:        "house-with-garden",
-				Character:   "🏡",
-				UnicodeName: "house with garden",
-				CodePoint:   "U+1F3E1",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127970: {
-				Slug:        "office-building",
-				Character:   "🏢",
-				UnicodeName: "office building",
-				CodePoint:   "U+1F3E2",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127971: {
-				Slug:        "Japanese-post-office",
-				Character:   "🏣",
-				UnicodeName: "Japanese post office",
-				CodePoint:   "U+1F3E3",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127972: {
-				Slug:        "post-office",
-				Character:   "🏤",
-				UnicodeName: "post office",
-				CodePoint:   "U+1F3E4",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127973: {
-				Slug:        "hospital",
-				Character:   "🏥",
-				UnicodeName: "hospital",
-				CodePoint:   "U+1F3E5",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127974: {
-				Slug:        "bank",
-				Character:   "🏦",
-				UnicodeName: "bank",
-				CodePoint:   "U+1F3E6",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127975: {
-				Slug:        "ATM-sign",
-				Character:   "🏧",
-				UnicodeName: "ATM sign",
-				CodePoint:   "U+1F3E7",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			127976: {
-				Slug:        "hotel",
-				Character:   "🏨",
-				UnicodeName: "hotel",
-				CodePoint:   "U+1F3E8",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127977: {
-				Slug:        "love-hotel",
-				Character:   "🏩",
-				UnicodeName: "love hotel",
-				CodePoint:   "U+1F3E9",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127978: {
-				Slug:        "convenience-store",
-				Character:   "🏪",
-				UnicodeName: "convenience store",
-				CodePoint:   "U+1F3EA",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127979: {
-				Slug:        "school",
-				Character:   "🏫",
-				UnicodeName: "school",
-				CodePoint:   "U+1F3EB",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127980: {
-				Slug:        "department-store",
-				Character:   "🏬",
-				UnicodeName: "department store",
-				CodePoint:   "U+1F3EC",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127981: {
-				Slug:        "factory",
-				Character:   "🏭",
-				UnicodeName: "factory",
-				CodePoint:   "U+1F3ED",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127982: {
-				Slug:        "red-paper-lantern",
-				Character:   "🏮",
-				UnicodeName: "red paper lantern",
-				CodePoint:   "U+1F3EE",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			127983: {
-				Slug:        "Japanese-castle",
-				Character:   "🏯",
-				UnicodeName: "Japanese castle",
-				CodePoint:   "U+1F3EF",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127984: {
-				Slug:        "castle",
-				Character:   "🏰",
-				UnicodeName: "castle",
-				CodePoint:   "U+1F3F0",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			127987: {
-				Slug:        "transgender-flag",
-				Character:   "🏳️‍⚧️",
-				UnicodeName: "transgender flag",
-				CodePoint:   "U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F",
-				Group:       "Flags",
-				SubGroup:    "flag",
-			},
-		
-			127988: {
-				Slug:        "flag:-Wales",
-				Character:   "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
-				UnicodeName: "flag: Wales",
-				CodePoint:   "U+1F3F4 U+E0067 U+E0062 U+E0077 U+E006C U+E0073 U+E007F",
-				Group:       "Flags",
-				SubGroup:    "subdivision-flag",
-			},
-		
-			127989: {
-				Slug:        "rosette",
-				Character:   "🏵",
-				UnicodeName: "rosette",
-				CodePoint:   "U+1F3F5",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			127991: {
-				Slug:        "label",
-				Character:   "🏷",
-				UnicodeName: "label",
-				CodePoint:   "U+1F3F7",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			127992: {
-				Slug:        "badminton",
-				Character:   "🏸",
-				UnicodeName: "badminton",
-				CodePoint:   "U+1F3F8",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			127993: {
-				Slug:        "bow-and-arrow",
-				Character:   "🏹",
-				UnicodeName: "bow and arrow",
-				CodePoint:   "U+1F3F9",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			127994: {
-				Slug:        "amphora",
-				Character:   "🏺",
-				UnicodeName: "amphora",
-				CodePoint:   "U+1F3FA",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			128000: {
-				Slug:        "rat",
-				Character:   "🐀",
-				UnicodeName: "rat",
-				CodePoint:   "U+1F400",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128001: {
-				Slug:        "mouse",
-				Character:   "🐁",
-				UnicodeName: "mouse",
-				CodePoint:   "U+1F401",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128002: {
-				Slug:        "ox",
-				Character:   "🐂",
-				UnicodeName: "ox",
-				CodePoint:   "U+1F402",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128003: {
-				Slug:        "water-buffalo",
-				Character:   "🐃",
-				UnicodeName: "water buffalo",
-				CodePoint:   "U+1F403",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128004: {
-				Slug:        "cow",
-				Character:   "🐄",
-				UnicodeName: "cow",
-				CodePoint:   "U+1F404",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128005: {
-				Slug:        "tiger",
-				Character:   "🐅",
-				UnicodeName: "tiger",
-				CodePoint:   "U+1F405",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128006: {
-				Slug:        "leopard",
-				Character:   "🐆",
-				UnicodeName: "leopard",
-				CodePoint:   "U+1F406",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128007: {
-				Slug:        "rabbit",
-				Character:   "🐇",
-				UnicodeName: "rabbit",
-				CodePoint:   "U+1F407",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128008: {
-				Slug:        "black-cat",
-				Character:   "🐈‍⬛",
-				UnicodeName: "black cat",
-				CodePoint:   "U+1F408 U+200D U+2B1B",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128009: {
-				Slug:        "dragon",
-				Character:   "🐉",
-				UnicodeName: "dragon",
-				CodePoint:   "U+1F409",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			128010: {
-				Slug:        "crocodile",
-				Character:   "🐊",
-				UnicodeName: "crocodile",
-				CodePoint:   "U+1F40A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			128011: {
-				Slug:        "whale",
-				Character:   "🐋",
-				UnicodeName: "whale",
-				CodePoint:   "U+1F40B",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128012: {
-				Slug:        "snail",
-				Character:   "🐌",
-				UnicodeName: "snail",
-				CodePoint:   "U+1F40C",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128013: {
-				Slug:        "snake",
-				Character:   "🐍",
-				UnicodeName: "snake",
-				CodePoint:   "U+1F40D",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			128014: {
-				Slug:        "horse",
-				Character:   "🐎",
-				UnicodeName: "horse",
-				CodePoint:   "U+1F40E",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128015: {
-				Slug:        "ram",
-				Character:   "🐏",
-				UnicodeName: "ram",
-				CodePoint:   "U+1F40F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128016: {
-				Slug:        "goat",
-				Character:   "🐐",
-				UnicodeName: "goat",
-				CodePoint:   "U+1F410",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128017: {
-				Slug:        "ewe",
-				Character:   "🐑",
-				UnicodeName: "ewe",
-				CodePoint:   "U+1F411",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128018: {
-				Slug:        "monkey",
-				Character:   "🐒",
-				UnicodeName: "monkey",
-				CodePoint:   "U+1F412",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128019: {
-				Slug:        "rooster",
-				Character:   "🐓",
-				UnicodeName: "rooster",
-				CodePoint:   "U+1F413",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128020: {
-				Slug:        "chicken",
-				Character:   "🐔",
-				UnicodeName: "chicken",
-				CodePoint:   "U+1F414",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128021: {
-				Slug:        "service-dog",
-				Character:   "🐕‍🦺",
-				UnicodeName: "service dog",
-				CodePoint:   "U+1F415 U+200D U+1F9BA",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128022: {
-				Slug:        "pig",
-				Character:   "🐖",
-				UnicodeName: "pig",
-				CodePoint:   "U+1F416",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128023: {
-				Slug:        "boar",
-				Character:   "🐗",
-				UnicodeName: "boar",
-				CodePoint:   "U+1F417",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128024: {
-				Slug:        "elephant",
-				Character:   "🐘",
-				UnicodeName: "elephant",
-				CodePoint:   "U+1F418",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128025: {
-				Slug:        "octopus",
-				Character:   "🐙",
-				UnicodeName: "octopus",
-				CodePoint:   "U+1F419",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128026: {
-				Slug:        "spiral-shell",
-				Character:   "🐚",
-				UnicodeName: "spiral shell",
-				CodePoint:   "U+1F41A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128027: {
-				Slug:        "bug",
-				Character:   "🐛",
-				UnicodeName: "bug",
-				CodePoint:   "U+1F41B",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128028: {
-				Slug:        "ant",
-				Character:   "🐜",
-				UnicodeName: "ant",
-				CodePoint:   "U+1F41C",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128029: {
-				Slug:        "honeybee",
-				Character:   "🐝",
-				UnicodeName: "honeybee",
-				CodePoint:   "U+1F41D",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128030: {
-				Slug:        "lady-beetle",
-				Character:   "🐞",
-				UnicodeName: "lady beetle",
-				CodePoint:   "U+1F41E",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128031: {
-				Slug:        "fish",
-				Character:   "🐟",
-				UnicodeName: "fish",
-				CodePoint:   "U+1F41F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128032: {
-				Slug:        "tropical-fish",
-				Character:   "🐠",
-				UnicodeName: "tropical fish",
-				CodePoint:   "U+1F420",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128033: {
-				Slug:        "blowfish",
-				Character:   "🐡",
-				UnicodeName: "blowfish",
-				CodePoint:   "U+1F421",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128034: {
-				Slug:        "turtle",
-				Character:   "🐢",
-				UnicodeName: "turtle",
-				CodePoint:   "U+1F422",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			128035: {
-				Slug:        "hatching-chick",
-				Character:   "🐣",
-				UnicodeName: "hatching chick",
-				CodePoint:   "U+1F423",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128036: {
-				Slug:        "baby-chick",
-				Character:   "🐤",
-				UnicodeName: "baby chick",
-				CodePoint:   "U+1F424",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128037: {
-				Slug:        "front-facing-baby-chick",
-				Character:   "🐥",
-				UnicodeName: "front-facing baby chick",
-				CodePoint:   "U+1F425",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128038: {
-				Slug:        "bird",
-				Character:   "🐦",
-				UnicodeName: "bird",
-				CodePoint:   "U+1F426",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128039: {
-				Slug:        "penguin",
-				Character:   "🐧",
-				UnicodeName: "penguin",
-				CodePoint:   "U+1F427",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128040: {
-				Slug:        "koala",
-				Character:   "🐨",
-				UnicodeName: "koala",
-				CodePoint:   "U+1F428",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128041: {
-				Slug:        "poodle",
-				Character:   "🐩",
-				UnicodeName: "poodle",
-				CodePoint:   "U+1F429",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128042: {
-				Slug:        "camel",
-				Character:   "🐪",
-				UnicodeName: "camel",
-				CodePoint:   "U+1F42A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128043: {
-				Slug:        "two-hump-camel",
-				Character:   "🐫",
-				UnicodeName: "two-hump camel",
-				CodePoint:   "U+1F42B",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128044: {
-				Slug:        "dolphin",
-				Character:   "🐬",
-				UnicodeName: "dolphin",
-				CodePoint:   "U+1F42C",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128045: {
-				Slug:        "mouse-face",
-				Character:   "🐭",
-				UnicodeName: "mouse face",
-				CodePoint:   "U+1F42D",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128046: {
-				Slug:        "cow-face",
-				Character:   "🐮",
-				UnicodeName: "cow face",
-				CodePoint:   "U+1F42E",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128047: {
-				Slug:        "tiger-face",
-				Character:   "🐯",
-				UnicodeName: "tiger face",
-				CodePoint:   "U+1F42F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128048: {
-				Slug:        "rabbit-face",
-				Character:   "🐰",
-				UnicodeName: "rabbit face",
-				CodePoint:   "U+1F430",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128049: {
-				Slug:        "cat-face",
-				Character:   "🐱",
-				UnicodeName: "cat face",
-				CodePoint:   "U+1F431",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128050: {
-				Slug:        "dragon-face",
-				Character:   "🐲",
-				UnicodeName: "dragon face",
-				CodePoint:   "U+1F432",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			128051: {
-				Slug:        "spouting-whale",
-				Character:   "🐳",
-				UnicodeName: "spouting whale",
-				CodePoint:   "U+1F433",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			128052: {
-				Slug:        "horse-face",
-				Character:   "🐴",
-				UnicodeName: "horse face",
-				CodePoint:   "U+1F434",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128053: {
-				Slug:        "monkey-face",
-				Character:   "🐵",
-				UnicodeName: "monkey face",
-				CodePoint:   "U+1F435",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128054: {
-				Slug:        "dog-face",
-				Character:   "🐶",
-				UnicodeName: "dog face",
-				CodePoint:   "U+1F436",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128055: {
-				Slug:        "pig-face",
-				Character:   "🐷",
-				UnicodeName: "pig face",
-				CodePoint:   "U+1F437",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128056: {
-				Slug:        "frog",
-				Character:   "🐸",
-				UnicodeName: "frog",
-				CodePoint:   "U+1F438",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-amphibian",
-			},
-		
-			128057: {
-				Slug:        "hamster",
-				Character:   "🐹",
-				UnicodeName: "hamster",
-				CodePoint:   "U+1F439",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128058: {
-				Slug:        "wolf",
-				Character:   "🐺",
-				UnicodeName: "wolf",
-				CodePoint:   "U+1F43A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128059: {
-				Slug:        "polar-bear",
-				Character:   "🐻‍❄️",
-				UnicodeName: "polar bear",
-				CodePoint:   "U+1F43B U+200D U+2744 U+FE0F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128060: {
-				Slug:        "panda",
-				Character:   "🐼",
-				UnicodeName: "panda",
-				CodePoint:   "U+1F43C",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128061: {
-				Slug:        "pig-nose",
-				Character:   "🐽",
-				UnicodeName: "pig nose",
-				CodePoint:   "U+1F43D",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128062: {
-				Slug:        "paw-prints",
-				Character:   "🐾",
-				UnicodeName: "paw prints",
-				CodePoint:   "U+1F43E",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128063: {
-				Slug:        "chipmunk",
-				Character:   "🐿",
-				UnicodeName: "chipmunk",
-				CodePoint:   "U+1F43F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			128064: {
-				Slug:        "eyes",
-				Character:   "👀",
-				UnicodeName: "eyes",
-				CodePoint:   "U+1F440",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128065: {
-				Slug:        "eye",
-				Character:   "👁",
-				UnicodeName: "eye",
-				CodePoint:   "U+1F441",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128066: {
-				Slug:        "ear",
-				Character:   "👂",
-				UnicodeName: "ear",
-				CodePoint:   "U+1F442",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128067: {
-				Slug:        "nose",
-				Character:   "👃",
-				UnicodeName: "nose",
-				CodePoint:   "U+1F443",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128068: {
-				Slug:        "mouth",
-				Character:   "👄",
-				UnicodeName: "mouth",
-				CodePoint:   "U+1F444",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128069: {
-				Slug:        "tongue",
-				Character:   "👅",
-				UnicodeName: "tongue",
-				CodePoint:   "U+1F445",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128070: {
-				Slug:        "backhand-index-pointing-up",
-				Character:   "👆",
-				UnicodeName: "backhand index pointing up",
-				CodePoint:   "U+1F446",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			128071: {
-				Slug:        "backhand-index-pointing-down",
-				Character:   "👇",
-				UnicodeName: "backhand index pointing down",
-				CodePoint:   "U+1F447",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			128072: {
-				Slug:        "backhand-index-pointing-left",
-				Character:   "👈",
-				UnicodeName: "backhand index pointing left",
-				CodePoint:   "U+1F448",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			128073: {
-				Slug:        "backhand-index-pointing-right",
-				Character:   "👉",
-				UnicodeName: "backhand index pointing right",
-				CodePoint:   "U+1F449",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			128074: {
-				Slug:        "oncoming-fist",
-				Character:   "👊",
-				UnicodeName: "oncoming fist",
-				CodePoint:   "U+1F44A",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-closed",
-			},
-		
-			128075: {
-				Slug:        "waving-hand",
-				Character:   "👋",
-				UnicodeName: "waving hand",
-				CodePoint:   "U+1F44B",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			128076: {
-				Slug:        "OK-hand",
-				Character:   "👌",
-				UnicodeName: "OK hand",
-				CodePoint:   "U+1F44C",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			128077: {
-				Slug:        "thumbs-up",
-				Character:   "👍",
-				UnicodeName: "thumbs up",
-				CodePoint:   "U+1F44D",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-closed",
-			},
-		
-			128078: {
-				Slug:        "thumbs-down",
-				Character:   "👎",
-				UnicodeName: "thumbs down",
-				CodePoint:   "U+1F44E",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-closed",
-			},
-		
-			128079: {
-				Slug:        "clapping-hands",
-				Character:   "👏",
-				UnicodeName: "clapping hands",
-				CodePoint:   "U+1F44F",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
-			128080: {
-				Slug:        "open-hands",
-				Character:   "👐",
-				UnicodeName: "open hands",
-				CodePoint:   "U+1F450",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
-			128081: {
-				Slug:        "crown",
-				Character:   "👑",
-				UnicodeName: "crown",
-				CodePoint:   "U+1F451",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128082: {
-				Slug:        "woman’s-hat",
-				Character:   "👒",
-				UnicodeName: "woman’s hat",
-				CodePoint:   "U+1F452",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128083: {
-				Slug:        "glasses",
-				Character:   "👓",
-				UnicodeName: "glasses",
-				CodePoint:   "U+1F453",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128084: {
-				Slug:        "necktie",
-				Character:   "👔",
-				UnicodeName: "necktie",
-				CodePoint:   "U+1F454",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128085: {
-				Slug:        "t-shirt",
-				Character:   "👕",
-				UnicodeName: "t-shirt",
-				CodePoint:   "U+1F455",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128086: {
-				Slug:        "jeans",
-				Character:   "👖",
-				UnicodeName: "jeans",
-				CodePoint:   "U+1F456",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128087: {
-				Slug:        "dress",
-				Character:   "👗",
-				UnicodeName: "dress",
-				CodePoint:   "U+1F457",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128088: {
-				Slug:        "kimono",
-				Character:   "👘",
-				UnicodeName: "kimono",
-				CodePoint:   "U+1F458",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128089: {
-				Slug:        "bikini",
-				Character:   "👙",
-				UnicodeName: "bikini",
-				CodePoint:   "U+1F459",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128090: {
-				Slug:        "woman’s-clothes",
-				Character:   "👚",
-				UnicodeName: "woman’s clothes",
-				CodePoint:   "U+1F45A",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128091: {
-				Slug:        "purse",
-				Character:   "👛",
-				UnicodeName: "purse",
-				CodePoint:   "U+1F45B",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128092: {
-				Slug:        "handbag",
-				Character:   "👜",
-				UnicodeName: "handbag",
-				CodePoint:   "U+1F45C",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128093: {
-				Slug:        "clutch-bag",
-				Character:   "👝",
-				UnicodeName: "clutch bag",
-				CodePoint:   "U+1F45D",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128094: {
-				Slug:        "man’s-shoe",
-				Character:   "👞",
-				UnicodeName: "man’s shoe",
-				CodePoint:   "U+1F45E",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128095: {
-				Slug:        "running-shoe",
-				Character:   "👟",
-				UnicodeName: "running shoe",
-				CodePoint:   "U+1F45F",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128096: {
-				Slug:        "high-heeled-shoe",
-				Character:   "👠",
-				UnicodeName: "high-heeled shoe",
-				CodePoint:   "U+1F460",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128097: {
-				Slug:        "woman’s-sandal",
-				Character:   "👡",
-				UnicodeName: "woman’s sandal",
-				CodePoint:   "U+1F461",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128098: {
-				Slug:        "woman’s-boot",
-				Character:   "👢",
-				UnicodeName: "woman’s boot",
-				CodePoint:   "U+1F462",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128099: {
-				Slug:        "footprints",
-				Character:   "👣",
-				UnicodeName: "footprints",
-				CodePoint:   "U+1F463",
-				Group:       "People & Body",
-				SubGroup:    "person-symbol",
-			},
-		
-			128100: {
-				Slug:        "bust-in-silhouette",
-				Character:   "👤",
-				UnicodeName: "bust in silhouette",
-				CodePoint:   "U+1F464",
-				Group:       "People & Body",
-				SubGroup:    "person-symbol",
-			},
-		
-			128101: {
-				Slug:        "busts-in-silhouette",
-				Character:   "👥",
-				UnicodeName: "busts in silhouette",
-				CodePoint:   "U+1F465",
-				Group:       "People & Body",
-				SubGroup:    "person-symbol",
-			},
-		
-			128102: {
-				Slug:        "boy",
-				Character:   "👦",
-				UnicodeName: "boy",
-				CodePoint:   "U+1F466",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			128103: {
-				Slug:        "girl",
-				Character:   "👧",
-				UnicodeName: "girl",
-				CodePoint:   "U+1F467",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			128104: {
-				Slug:        "family:-man,-girl,-girl",
-				Character:   "👨‍👧‍👧",
-				UnicodeName: "family: man, girl, girl",
-				CodePoint:   "U+1F468 U+200D U+1F467 U+200D U+1F467",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128105: {
-				Slug:        "family:-woman,-girl,-girl",
-				Character:   "👩‍👧‍👧",
-				UnicodeName: "family: woman, girl, girl",
-				CodePoint:   "U+1F469 U+200D U+1F467 U+200D U+1F467",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128106: {
-				Slug:        "family",
-				Character:   "👪",
-				UnicodeName: "family",
-				CodePoint:   "U+1F46A",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128107: {
-				Slug:        "woman-and-man-holding-hands",
-				Character:   "👫",
-				UnicodeName: "woman and man holding hands",
-				CodePoint:   "U+1F46B",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128108: {
-				Slug:        "men-holding-hands",
-				Character:   "👬",
-				UnicodeName: "men holding hands",
-				CodePoint:   "U+1F46C",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128109: {
-				Slug:        "women-holding-hands",
-				Character:   "👭",
-				UnicodeName: "women holding hands",
-				CodePoint:   "U+1F46D",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128110: {
-				Slug:        "woman-police-officer",
-				Character:   "👮‍♀️",
-				UnicodeName: "woman police officer",
-				CodePoint:   "U+1F46E U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128111: {
-				Slug:        "women-with-bunny-ears",
-				Character:   "👯‍♀️",
-				UnicodeName: "women with bunny ears",
-				CodePoint:   "U+1F46F U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128112: {
-				Slug:        "woman-with-veil",
-				Character:   "👰‍♀️",
-				UnicodeName: "woman with veil",
-				CodePoint:   "U+1F470 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128113: {
-				Slug:        "man:-blond-hair",
-				Character:   "👱‍♂️",
-				UnicodeName: "man: blond hair",
-				CodePoint:   "U+1F471 U+200D U+2642 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			128114: {
-				Slug:        "person-with-skullcap",
-				Character:   "👲",
-				UnicodeName: "person with skullcap",
-				CodePoint:   "U+1F472",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128115: {
-				Slug:        "woman-wearing-turban",
-				Character:   "👳‍♀️",
-				UnicodeName: "woman wearing turban",
-				CodePoint:   "U+1F473 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128116: {
-				Slug:        "old-man",
-				Character:   "👴",
-				UnicodeName: "old man",
-				CodePoint:   "U+1F474",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			128117: {
-				Slug:        "old-woman",
-				Character:   "👵",
-				UnicodeName: "old woman",
-				CodePoint:   "U+1F475",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			128118: {
-				Slug:        "baby",
-				Character:   "👶",
-				UnicodeName: "baby",
-				CodePoint:   "U+1F476",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			128119: {
-				Slug:        "woman-construction-worker",
-				Character:   "👷‍♀️",
-				UnicodeName: "woman construction worker",
-				CodePoint:   "U+1F477 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128120: {
-				Slug:        "princess",
-				Character:   "👸",
-				UnicodeName: "princess",
-				CodePoint:   "U+1F478",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128121: {
-				Slug:        "ogre",
-				Character:   "👹",
-				UnicodeName: "ogre",
-				CodePoint:   "U+1F479",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			128122: {
-				Slug:        "goblin",
-				Character:   "👺",
-				UnicodeName: "goblin",
-				CodePoint:   "U+1F47A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			128123: {
-				Slug:        "ghost",
-				Character:   "👻",
-				UnicodeName: "ghost",
-				CodePoint:   "U+1F47B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			128124: {
-				Slug:        "baby-angel",
-				Character:   "👼",
-				UnicodeName: "baby angel",
-				CodePoint:   "U+1F47C",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			128125: {
-				Slug:        "alien",
-				Character:   "👽",
-				UnicodeName: "alien",
-				CodePoint:   "U+1F47D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			128126: {
-				Slug:        "alien-monster",
-				Character:   "👾",
-				UnicodeName: "alien monster",
-				CodePoint:   "U+1F47E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			128127: {
-				Slug:        "angry-face-with-horns",
-				Character:   "👿",
-				UnicodeName: "angry face with horns",
-				CodePoint:   "U+1F47F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			128128: {
-				Slug:        "skull",
-				Character:   "💀",
-				UnicodeName: "skull",
-				CodePoint:   "U+1F480",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			128129: {
-				Slug:        "woman-tipping-hand",
-				Character:   "💁‍♀️",
-				UnicodeName: "woman tipping hand",
-				CodePoint:   "U+1F481 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128130: {
-				Slug:        "woman-guard",
-				Character:   "💂‍♀️",
-				UnicodeName: "woman guard",
-				CodePoint:   "U+1F482 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128131: {
-				Slug:        "woman-dancing",
-				Character:   "💃",
-				UnicodeName: "woman dancing",
-				CodePoint:   "U+1F483",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128132: {
-				Slug:        "lipstick",
-				Character:   "💄",
-				UnicodeName: "lipstick",
-				CodePoint:   "U+1F484",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128133: {
-				Slug:        "nail-polish",
-				Character:   "💅",
-				UnicodeName: "nail polish",
-				CodePoint:   "U+1F485",
-				Group:       "People & Body",
-				SubGroup:    "hand-prop",
-			},
-		
-			128134: {
-				Slug:        "woman-getting-massage",
-				Character:   "💆‍♀️",
-				UnicodeName: "woman getting massage",
-				CodePoint:   "U+1F486 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128135: {
-				Slug:        "woman-getting-haircut",
-				Character:   "💇‍♀️",
-				UnicodeName: "woman getting haircut",
-				CodePoint:   "U+1F487 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128136: {
-				Slug:        "barber-pole",
-				Character:   "💈",
-				UnicodeName: "barber pole",
-				CodePoint:   "U+1F488",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			128137: {
-				Slug:        "syringe",
-				Character:   "💉",
-				UnicodeName: "syringe",
-				CodePoint:   "U+1F489",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			128138: {
-				Slug:        "pill",
-				Character:   "💊",
-				UnicodeName: "pill",
-				CodePoint:   "U+1F48A",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			128139: {
-				Slug:        "kiss-mark",
-				Character:   "💋",
-				UnicodeName: "kiss mark",
-				CodePoint:   "U+1F48B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128140: {
-				Slug:        "love-letter",
-				Character:   "💌",
-				UnicodeName: "love letter",
-				CodePoint:   "U+1F48C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128141: {
-				Slug:        "ring",
-				Character:   "💍",
-				UnicodeName: "ring",
-				CodePoint:   "U+1F48D",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128142: {
-				Slug:        "gem-stone",
-				Character:   "💎",
-				UnicodeName: "gem stone",
-				CodePoint:   "U+1F48E",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128143: {
-				Slug:        "kiss",
-				Character:   "💏",
-				UnicodeName: "kiss",
-				CodePoint:   "U+1F48F",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128144: {
-				Slug:        "bouquet",
-				Character:   "💐",
-				UnicodeName: "bouquet",
-				CodePoint:   "U+1F490",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			128145: {
-				Slug:        "couple-with-heart",
-				Character:   "💑",
-				UnicodeName: "couple with heart",
-				CodePoint:   "U+1F491",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			128146: {
-				Slug:        "wedding",
-				Character:   "💒",
-				UnicodeName: "wedding",
-				CodePoint:   "U+1F492",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			128147: {
-				Slug:        "beating-heart",
-				Character:   "💓",
-				UnicodeName: "beating heart",
-				CodePoint:   "U+1F493",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128148: {
-				Slug:        "broken-heart",
-				Character:   "💔",
-				UnicodeName: "broken heart",
-				CodePoint:   "U+1F494",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128149: {
-				Slug:        "two-hearts",
-				Character:   "💕",
-				UnicodeName: "two hearts",
-				CodePoint:   "U+1F495",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128150: {
-				Slug:        "sparkling-heart",
-				Character:   "💖",
-				UnicodeName: "sparkling heart",
-				CodePoint:   "U+1F496",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128151: {
-				Slug:        "growing-heart",
-				Character:   "💗",
-				UnicodeName: "growing heart",
-				CodePoint:   "U+1F497",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128152: {
-				Slug:        "heart-with-arrow",
-				Character:   "💘",
-				UnicodeName: "heart with arrow",
-				CodePoint:   "U+1F498",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128153: {
-				Slug:        "blue-heart",
-				Character:   "💙",
-				UnicodeName: "blue heart",
-				CodePoint:   "U+1F499",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128154: {
-				Slug:        "green-heart",
-				Character:   "💚",
-				UnicodeName: "green heart",
-				CodePoint:   "U+1F49A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128155: {
-				Slug:        "yellow-heart",
-				Character:   "💛",
-				UnicodeName: "yellow heart",
-				CodePoint:   "U+1F49B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128156: {
-				Slug:        "purple-heart",
-				Character:   "💜",
-				UnicodeName: "purple heart",
-				CodePoint:   "U+1F49C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128157: {
-				Slug:        "heart-with-ribbon",
-				Character:   "💝",
-				UnicodeName: "heart with ribbon",
-				CodePoint:   "U+1F49D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128158: {
-				Slug:        "revolving-hearts",
-				Character:   "💞",
-				UnicodeName: "revolving hearts",
-				CodePoint:   "U+1F49E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128159: {
-				Slug:        "heart-decoration",
-				Character:   "💟",
-				UnicodeName: "heart decoration",
-				CodePoint:   "U+1F49F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128160: {
-				Slug:        "diamond-with-a-dot",
-				Character:   "💠",
-				UnicodeName: "diamond with a dot",
-				CodePoint:   "U+1F4A0",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128161: {
-				Slug:        "light-bulb",
-				Character:   "💡",
-				UnicodeName: "light bulb",
-				CodePoint:   "U+1F4A1",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128162: {
-				Slug:        "anger-symbol",
-				Character:   "💢",
-				UnicodeName: "anger symbol",
-				CodePoint:   "U+1F4A2",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128163: {
-				Slug:        "bomb",
-				Character:   "💣",
-				UnicodeName: "bomb",
-				CodePoint:   "U+1F4A3",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128164: {
-				Slug:        "zzz",
-				Character:   "💤",
-				UnicodeName: "zzz",
-				CodePoint:   "U+1F4A4",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128165: {
-				Slug:        "collision",
-				Character:   "💥",
-				UnicodeName: "collision",
-				CodePoint:   "U+1F4A5",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128166: {
-				Slug:        "sweat-droplets",
-				Character:   "💦",
-				UnicodeName: "sweat droplets",
-				CodePoint:   "U+1F4A6",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128167: {
-				Slug:        "droplet",
-				Character:   "💧",
-				UnicodeName: "droplet",
-				CodePoint:   "U+1F4A7",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			128168: {
-				Slug:        "dashing-away",
-				Character:   "💨",
-				UnicodeName: "dashing away",
-				CodePoint:   "U+1F4A8",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128169: {
-				Slug:        "pile-of-poo",
-				Character:   "💩",
-				UnicodeName: "pile of poo",
-				CodePoint:   "U+1F4A9",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			128170: {
-				Slug:        "flexed-biceps",
-				Character:   "💪",
-				UnicodeName: "flexed biceps",
-				CodePoint:   "U+1F4AA",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			128171: {
-				Slug:        "dizzy",
-				Character:   "💫",
-				UnicodeName: "dizzy",
-				CodePoint:   "U+1F4AB",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128172: {
-				Slug:        "speech-balloon",
-				Character:   "💬",
-				UnicodeName: "speech balloon",
-				CodePoint:   "U+1F4AC",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128173: {
-				Slug:        "thought-balloon",
-				Character:   "💭",
-				UnicodeName: "thought balloon",
-				CodePoint:   "U+1F4AD",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128174: {
-				Slug:        "white-flower",
-				Character:   "💮",
-				UnicodeName: "white flower",
-				CodePoint:   "U+1F4AE",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			128175: {
-				Slug:        "hundred-points",
-				Character:   "💯",
-				UnicodeName: "hundred points",
-				CodePoint:   "U+1F4AF",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128176: {
-				Slug:        "money-bag",
-				Character:   "💰",
-				UnicodeName: "money bag",
-				CodePoint:   "U+1F4B0",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128177: {
-				Slug:        "currency-exchange",
-				Character:   "💱",
-				UnicodeName: "currency exchange",
-				CodePoint:   "U+1F4B1",
-				Group:       "Symbols",
-				SubGroup:    "currency",
-			},
-		
-			128178: {
-				Slug:        "heavy-dollar-sign",
-				Character:   "💲",
-				UnicodeName: "heavy dollar sign",
-				CodePoint:   "U+1F4B2",
-				Group:       "Symbols",
-				SubGroup:    "currency",
-			},
-		
-			128179: {
-				Slug:        "credit-card",
-				Character:   "💳",
-				UnicodeName: "credit card",
-				CodePoint:   "U+1F4B3",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128180: {
-				Slug:        "yen-banknote",
-				Character:   "💴",
-				UnicodeName: "yen banknote",
-				CodePoint:   "U+1F4B4",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128181: {
-				Slug:        "dollar-banknote",
-				Character:   "💵",
-				UnicodeName: "dollar banknote",
-				CodePoint:   "U+1F4B5",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128182: {
-				Slug:        "euro-banknote",
-				Character:   "💶",
-				UnicodeName: "euro banknote",
-				CodePoint:   "U+1F4B6",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128183: {
-				Slug:        "pound-banknote",
-				Character:   "💷",
-				UnicodeName: "pound banknote",
-				CodePoint:   "U+1F4B7",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128184: {
-				Slug:        "money-with-wings",
-				Character:   "💸",
-				UnicodeName: "money with wings",
-				CodePoint:   "U+1F4B8",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128185: {
-				Slug:        "chart-increasing-with-yen",
-				Character:   "💹",
-				UnicodeName: "chart increasing with yen",
-				CodePoint:   "U+1F4B9",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			128186: {
-				Slug:        "seat",
-				Character:   "💺",
-				UnicodeName: "seat",
-				CodePoint:   "U+1F4BA",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128187: {
-				Slug:        "laptop",
-				Character:   "💻",
-				UnicodeName: "laptop",
-				CodePoint:   "U+1F4BB",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128188: {
-				Slug:        "briefcase",
-				Character:   "💼",
-				UnicodeName: "briefcase",
-				CodePoint:   "U+1F4BC",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128189: {
-				Slug:        "computer-disk",
-				Character:   "💽",
-				UnicodeName: "computer disk",
-				CodePoint:   "U+1F4BD",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128190: {
-				Slug:        "floppy-disk",
-				Character:   "💾",
-				UnicodeName: "floppy disk",
-				CodePoint:   "U+1F4BE",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128191: {
-				Slug:        "optical-disk",
-				Character:   "💿",
-				UnicodeName: "optical disk",
-				CodePoint:   "U+1F4BF",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128192: {
-				Slug:        "dvd",
-				Character:   "📀",
-				UnicodeName: "dvd",
-				CodePoint:   "U+1F4C0",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128193: {
-				Slug:        "file-folder",
-				Character:   "📁",
-				UnicodeName: "file folder",
-				CodePoint:   "U+1F4C1",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128194: {
-				Slug:        "open-file-folder",
-				Character:   "📂",
-				UnicodeName: "open file folder",
-				CodePoint:   "U+1F4C2",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128195: {
-				Slug:        "page-with-curl",
-				Character:   "📃",
-				UnicodeName: "page with curl",
-				CodePoint:   "U+1F4C3",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128196: {
-				Slug:        "page-facing-up",
-				Character:   "📄",
-				UnicodeName: "page facing up",
-				CodePoint:   "U+1F4C4",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128197: {
-				Slug:        "calendar",
-				Character:   "📅",
-				UnicodeName: "calendar",
-				CodePoint:   "U+1F4C5",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128198: {
-				Slug:        "tear-off-calendar",
-				Character:   "📆",
-				UnicodeName: "tear-off calendar",
-				CodePoint:   "U+1F4C6",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128199: {
-				Slug:        "card-index",
-				Character:   "📇",
-				UnicodeName: "card index",
-				CodePoint:   "U+1F4C7",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128200: {
-				Slug:        "chart-increasing",
-				Character:   "📈",
-				UnicodeName: "chart increasing",
-				CodePoint:   "U+1F4C8",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128201: {
-				Slug:        "chart-decreasing",
-				Character:   "📉",
-				UnicodeName: "chart decreasing",
-				CodePoint:   "U+1F4C9",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128202: {
-				Slug:        "bar-chart",
-				Character:   "📊",
-				UnicodeName: "bar chart",
-				CodePoint:   "U+1F4CA",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128203: {
-				Slug:        "clipboard",
-				Character:   "📋",
-				UnicodeName: "clipboard",
-				CodePoint:   "U+1F4CB",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128204: {
-				Slug:        "pushpin",
-				Character:   "📌",
-				UnicodeName: "pushpin",
-				CodePoint:   "U+1F4CC",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128205: {
-				Slug:        "round-pushpin",
-				Character:   "📍",
-				UnicodeName: "round pushpin",
-				CodePoint:   "U+1F4CD",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128206: {
-				Slug:        "paperclip",
-				Character:   "📎",
-				UnicodeName: "paperclip",
-				CodePoint:   "U+1F4CE",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128207: {
-				Slug:        "straight-ruler",
-				Character:   "📏",
-				UnicodeName: "straight ruler",
-				CodePoint:   "U+1F4CF",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128208: {
-				Slug:        "triangular-ruler",
-				Character:   "📐",
-				UnicodeName: "triangular ruler",
-				CodePoint:   "U+1F4D0",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128209: {
-				Slug:        "bookmark-tabs",
-				Character:   "📑",
-				UnicodeName: "bookmark tabs",
-				CodePoint:   "U+1F4D1",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128210: {
-				Slug:        "ledger",
-				Character:   "📒",
-				UnicodeName: "ledger",
-				CodePoint:   "U+1F4D2",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128211: {
-				Slug:        "notebook",
-				Character:   "📓",
-				UnicodeName: "notebook",
-				CodePoint:   "U+1F4D3",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128212: {
-				Slug:        "notebook-with-decorative-cover",
-				Character:   "📔",
-				UnicodeName: "notebook with decorative cover",
-				CodePoint:   "U+1F4D4",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128213: {
-				Slug:        "closed-book",
-				Character:   "📕",
-				UnicodeName: "closed book",
-				CodePoint:   "U+1F4D5",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128214: {
-				Slug:        "open-book",
-				Character:   "📖",
-				UnicodeName: "open book",
-				CodePoint:   "U+1F4D6",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128215: {
-				Slug:        "green-book",
-				Character:   "📗",
-				UnicodeName: "green book",
-				CodePoint:   "U+1F4D7",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128216: {
-				Slug:        "blue-book",
-				Character:   "📘",
-				UnicodeName: "blue book",
-				CodePoint:   "U+1F4D8",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128217: {
-				Slug:        "orange-book",
-				Character:   "📙",
-				UnicodeName: "orange book",
-				CodePoint:   "U+1F4D9",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128218: {
-				Slug:        "books",
-				Character:   "📚",
-				UnicodeName: "books",
-				CodePoint:   "U+1F4DA",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128219: {
-				Slug:        "name-badge",
-				Character:   "📛",
-				UnicodeName: "name badge",
-				CodePoint:   "U+1F4DB",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			128220: {
-				Slug:        "scroll",
-				Character:   "📜",
-				UnicodeName: "scroll",
-				CodePoint:   "U+1F4DC",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128221: {
-				Slug:        "memo",
-				Character:   "📝",
-				UnicodeName: "memo",
-				CodePoint:   "U+1F4DD",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			128222: {
-				Slug:        "telephone-receiver",
-				Character:   "📞",
-				UnicodeName: "telephone receiver",
-				CodePoint:   "U+1F4DE",
-				Group:       "Objects",
-				SubGroup:    "phone",
-			},
-		
-			128223: {
-				Slug:        "pager",
-				Character:   "📟",
-				UnicodeName: "pager",
-				CodePoint:   "U+1F4DF",
-				Group:       "Objects",
-				SubGroup:    "phone",
-			},
-		
-			128224: {
-				Slug:        "fax-machine",
-				Character:   "📠",
-				UnicodeName: "fax machine",
-				CodePoint:   "U+1F4E0",
-				Group:       "Objects",
-				SubGroup:    "phone",
-			},
-		
-			128225: {
-				Slug:        "satellite-antenna",
-				Character:   "📡",
-				UnicodeName: "satellite antenna",
-				CodePoint:   "U+1F4E1",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			128226: {
-				Slug:        "loudspeaker",
-				Character:   "📢",
-				UnicodeName: "loudspeaker",
-				CodePoint:   "U+1F4E2",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128227: {
-				Slug:        "megaphone",
-				Character:   "📣",
-				UnicodeName: "megaphone",
-				CodePoint:   "U+1F4E3",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128228: {
-				Slug:        "outbox-tray",
-				Character:   "📤",
-				UnicodeName: "outbox tray",
-				CodePoint:   "U+1F4E4",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128229: {
-				Slug:        "inbox-tray",
-				Character:   "📥",
-				UnicodeName: "inbox tray",
-				CodePoint:   "U+1F4E5",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128230: {
-				Slug:        "package",
-				Character:   "📦",
-				UnicodeName: "package",
-				CodePoint:   "U+1F4E6",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128231: {
-				Slug:        "e-mail",
-				Character:   "📧",
-				UnicodeName: "e-mail",
-				CodePoint:   "U+1F4E7",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128232: {
-				Slug:        "incoming-envelope",
-				Character:   "📨",
-				UnicodeName: "incoming envelope",
-				CodePoint:   "U+1F4E8",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128233: {
-				Slug:        "envelope-with-arrow",
-				Character:   "📩",
-				UnicodeName: "envelope with arrow",
-				CodePoint:   "U+1F4E9",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128234: {
-				Slug:        "closed-mailbox-with-lowered-flag",
-				Character:   "📪",
-				UnicodeName: "closed mailbox with lowered flag",
-				CodePoint:   "U+1F4EA",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128235: {
-				Slug:        "closed-mailbox-with-raised-flag",
-				Character:   "📫",
-				UnicodeName: "closed mailbox with raised flag",
-				CodePoint:   "U+1F4EB",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128236: {
-				Slug:        "open-mailbox-with-raised-flag",
-				Character:   "📬",
-				UnicodeName: "open mailbox with raised flag",
-				CodePoint:   "U+1F4EC",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128237: {
-				Slug:        "open-mailbox-with-lowered-flag",
-				Character:   "📭",
-				UnicodeName: "open mailbox with lowered flag",
-				CodePoint:   "U+1F4ED",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128238: {
-				Slug:        "postbox",
-				Character:   "📮",
-				UnicodeName: "postbox",
-				CodePoint:   "U+1F4EE",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128239: {
-				Slug:        "postal-horn",
-				Character:   "📯",
-				UnicodeName: "postal horn",
-				CodePoint:   "U+1F4EF",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128240: {
-				Slug:        "newspaper",
-				Character:   "📰",
-				UnicodeName: "newspaper",
-				CodePoint:   "U+1F4F0",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128241: {
-				Slug:        "mobile-phone",
-				Character:   "📱",
-				UnicodeName: "mobile phone",
-				CodePoint:   "U+1F4F1",
-				Group:       "Objects",
-				SubGroup:    "phone",
-			},
-		
-			128242: {
-				Slug:        "mobile-phone-with-arrow",
-				Character:   "📲",
-				UnicodeName: "mobile phone with arrow",
-				CodePoint:   "U+1F4F2",
-				Group:       "Objects",
-				SubGroup:    "phone",
-			},
-		
-			128243: {
-				Slug:        "vibration-mode",
-				Character:   "📳",
-				UnicodeName: "vibration mode",
-				CodePoint:   "U+1F4F3",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128244: {
-				Slug:        "mobile-phone-off",
-				Character:   "📴",
-				UnicodeName: "mobile phone off",
-				CodePoint:   "U+1F4F4",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128245: {
-				Slug:        "no-mobile-phones",
-				Character:   "📵",
-				UnicodeName: "no mobile phones",
-				CodePoint:   "U+1F4F5",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128246: {
-				Slug:        "antenna-bars",
-				Character:   "📶",
-				UnicodeName: "antenna bars",
-				CodePoint:   "U+1F4F6",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128247: {
-				Slug:        "camera",
-				Character:   "📷",
-				UnicodeName: "camera",
-				CodePoint:   "U+1F4F7",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128248: {
-				Slug:        "camera-with-flash",
-				Character:   "📸",
-				UnicodeName: "camera with flash",
-				CodePoint:   "U+1F4F8",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128249: {
-				Slug:        "video-camera",
-				Character:   "📹",
-				UnicodeName: "video camera",
-				CodePoint:   "U+1F4F9",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128250: {
-				Slug:        "television",
-				Character:   "📺",
-				UnicodeName: "television",
-				CodePoint:   "U+1F4FA",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128251: {
-				Slug:        "radio",
-				Character:   "📻",
-				UnicodeName: "radio",
-				CodePoint:   "U+1F4FB",
-				Group:       "Objects",
-				SubGroup:    "music",
-			},
-		
-			128252: {
-				Slug:        "videocassette",
-				Character:   "📼",
-				UnicodeName: "videocassette",
-				CodePoint:   "U+1F4FC",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128253: {
-				Slug:        "film-projector",
-				Character:   "📽",
-				UnicodeName: "film projector",
-				CodePoint:   "U+1F4FD",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128255: {
-				Slug:        "prayer-beads",
-				Character:   "📿",
-				UnicodeName: "prayer beads",
-				CodePoint:   "U+1F4FF",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128256: {
-				Slug:        "shuffle-tracks-button",
-				Character:   "🔀",
-				UnicodeName: "shuffle tracks button",
-				CodePoint:   "U+1F500",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128257: {
-				Slug:        "repeat-button",
-				Character:   "🔁",
-				UnicodeName: "repeat button",
-				CodePoint:   "U+1F501",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128258: {
-				Slug:        "repeat-single-button",
-				Character:   "🔂",
-				UnicodeName: "repeat single button",
-				CodePoint:   "U+1F502",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128259: {
-				Slug:        "clockwise-vertical-arrows",
-				Character:   "🔃",
-				UnicodeName: "clockwise vertical arrows",
-				CodePoint:   "U+1F503",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128260: {
-				Slug:        "counterclockwise-arrows-button",
-				Character:   "🔄",
-				UnicodeName: "counterclockwise arrows button",
-				CodePoint:   "U+1F504",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128261: {
-				Slug:        "dim-button",
-				Character:   "🔅",
-				UnicodeName: "dim button",
-				CodePoint:   "U+1F505",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128262: {
-				Slug:        "bright-button",
-				Character:   "🔆",
-				UnicodeName: "bright button",
-				CodePoint:   "U+1F506",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128263: {
-				Slug:        "muted-speaker",
-				Character:   "🔇",
-				UnicodeName: "muted speaker",
-				CodePoint:   "U+1F507",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128264: {
-				Slug:        "speaker-low-volume",
-				Character:   "🔈",
-				UnicodeName: "speaker low volume",
-				CodePoint:   "U+1F508",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128265: {
-				Slug:        "speaker-medium-volume",
-				Character:   "🔉",
-				UnicodeName: "speaker medium volume",
-				CodePoint:   "U+1F509",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128266: {
-				Slug:        "speaker-high-volume",
-				Character:   "🔊",
-				UnicodeName: "speaker high volume",
-				CodePoint:   "U+1F50A",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128267: {
-				Slug:        "battery",
-				Character:   "🔋",
-				UnicodeName: "battery",
-				CodePoint:   "U+1F50B",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128268: {
-				Slug:        "electric-plug",
-				Character:   "🔌",
-				UnicodeName: "electric plug",
-				CodePoint:   "U+1F50C",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128269: {
-				Slug:        "magnifying-glass-tilted-left",
-				Character:   "🔍",
-				UnicodeName: "magnifying glass tilted left",
-				CodePoint:   "U+1F50D",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128270: {
-				Slug:        "magnifying-glass-tilted-right",
-				Character:   "🔎",
-				UnicodeName: "magnifying glass tilted right",
-				CodePoint:   "U+1F50E",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128271: {
-				Slug:        "locked-with-pen",
-				Character:   "🔏",
-				UnicodeName: "locked with pen",
-				CodePoint:   "U+1F50F",
-				Group:       "Objects",
-				SubGroup:    "lock",
-			},
-		
-			128272: {
-				Slug:        "locked-with-key",
-				Character:   "🔐",
-				UnicodeName: "locked with key",
-				CodePoint:   "U+1F510",
-				Group:       "Objects",
-				SubGroup:    "lock",
-			},
-		
-			128273: {
-				Slug:        "key",
-				Character:   "🔑",
-				UnicodeName: "key",
-				CodePoint:   "U+1F511",
-				Group:       "Objects",
-				SubGroup:    "lock",
-			},
-		
-			128274: {
-				Slug:        "locked",
-				Character:   "🔒",
-				UnicodeName: "locked",
-				CodePoint:   "U+1F512",
-				Group:       "Objects",
-				SubGroup:    "lock",
-			},
-		
-			128275: {
-				Slug:        "unlocked",
-				Character:   "🔓",
-				UnicodeName: "unlocked",
-				CodePoint:   "U+1F513",
-				Group:       "Objects",
-				SubGroup:    "lock",
-			},
-		
-			128276: {
-				Slug:        "bell",
-				Character:   "🔔",
-				UnicodeName: "bell",
-				CodePoint:   "U+1F514",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128277: {
-				Slug:        "bell-with-slash",
-				Character:   "🔕",
-				UnicodeName: "bell with slash",
-				CodePoint:   "U+1F515",
-				Group:       "Objects",
-				SubGroup:    "sound",
-			},
-		
-			128278: {
-				Slug:        "bookmark",
-				Character:   "🔖",
-				UnicodeName: "bookmark",
-				CodePoint:   "U+1F516",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128279: {
-				Slug:        "link",
-				Character:   "🔗",
-				UnicodeName: "link",
-				CodePoint:   "U+1F517",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128280: {
-				Slug:        "radio-button",
-				Character:   "🔘",
-				UnicodeName: "radio button",
-				CodePoint:   "U+1F518",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128281: {
-				Slug:        "BACK-arrow",
-				Character:   "🔙",
-				UnicodeName: "BACK arrow",
-				CodePoint:   "U+1F519",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128282: {
-				Slug:        "END-arrow",
-				Character:   "🔚",
-				UnicodeName: "END arrow",
-				CodePoint:   "U+1F51A",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128283: {
-				Slug:        "ON!-arrow",
-				Character:   "🔛",
-				UnicodeName: "ON! arrow",
-				CodePoint:   "U+1F51B",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128284: {
-				Slug:        "SOON-arrow",
-				Character:   "🔜",
-				UnicodeName: "SOON arrow",
-				CodePoint:   "U+1F51C",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128285: {
-				Slug:        "TOP-arrow",
-				Character:   "🔝",
-				UnicodeName: "TOP arrow",
-				CodePoint:   "U+1F51D",
-				Group:       "Symbols",
-				SubGroup:    "arrow",
-			},
-		
-			128286: {
-				Slug:        "no-one-under-eighteen",
-				Character:   "🔞",
-				UnicodeName: "no one under eighteen",
-				CodePoint:   "U+1F51E",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128287: {
-				Slug:        "keycap:-10",
-				Character:   "🔟",
-				UnicodeName: "keycap: 10",
-				CodePoint:   "U+1F51F",
-				Group:       "Symbols",
-				SubGroup:    "keycap",
-			},
-		
-			128288: {
-				Slug:        "input-latin-uppercase",
-				Character:   "🔠",
-				UnicodeName: "input latin uppercase",
-				CodePoint:   "U+1F520",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			128289: {
-				Slug:        "input-latin-lowercase",
-				Character:   "🔡",
-				UnicodeName: "input latin lowercase",
-				CodePoint:   "U+1F521",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			128290: {
-				Slug:        "input-numbers",
-				Character:   "🔢",
-				UnicodeName: "input numbers",
-				CodePoint:   "U+1F522",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			128291: {
-				Slug:        "input-symbols",
-				Character:   "🔣",
-				UnicodeName: "input symbols",
-				CodePoint:   "U+1F523",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			128292: {
-				Slug:        "input-latin-letters",
-				Character:   "🔤",
-				UnicodeName: "input latin letters",
-				CodePoint:   "U+1F524",
-				Group:       "Symbols",
-				SubGroup:    "alphanum",
-			},
-		
-			128293: {
-				Slug:        "fire",
-				Character:   "🔥",
-				UnicodeName: "fire",
-				CodePoint:   "U+1F525",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			128294: {
-				Slug:        "flashlight",
-				Character:   "🔦",
-				UnicodeName: "flashlight",
-				CodePoint:   "U+1F526",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128295: {
-				Slug:        "wrench",
-				Character:   "🔧",
-				UnicodeName: "wrench",
-				CodePoint:   "U+1F527",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128296: {
-				Slug:        "hammer",
-				Character:   "🔨",
-				UnicodeName: "hammer",
-				CodePoint:   "U+1F528",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128297: {
-				Slug:        "nut-and-bolt",
-				Character:   "🔩",
-				UnicodeName: "nut and bolt",
-				CodePoint:   "U+1F529",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128298: {
-				Slug:        "kitchen-knife",
-				Character:   "🔪",
-				UnicodeName: "kitchen knife",
-				CodePoint:   "U+1F52A",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			128299: {
-				Slug:        "water-pistol",
-				Character:   "🔫",
-				UnicodeName: "water pistol",
-				CodePoint:   "U+1F52B",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128300: {
-				Slug:        "microscope",
-				Character:   "🔬",
-				UnicodeName: "microscope",
-				CodePoint:   "U+1F52C",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			128301: {
-				Slug:        "telescope",
-				Character:   "🔭",
-				UnicodeName: "telescope",
-				CodePoint:   "U+1F52D",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			128302: {
-				Slug:        "crystal-ball",
-				Character:   "🔮",
-				UnicodeName: "crystal ball",
-				CodePoint:   "U+1F52E",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			128303: {
-				Slug:        "dotted-six-pointed-star",
-				Character:   "🔯",
-				UnicodeName: "dotted six-pointed star",
-				CodePoint:   "U+1F52F",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			128304: {
-				Slug:        "Japanese-symbol-for-beginner",
-				Character:   "🔰",
-				UnicodeName: "Japanese symbol for beginner",
-				CodePoint:   "U+1F530",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			128305: {
-				Slug:        "trident-emblem",
-				Character:   "🔱",
-				UnicodeName: "trident emblem",
-				CodePoint:   "U+1F531",
-				Group:       "Symbols",
-				SubGroup:    "other-symbol",
-			},
-		
-			128306: {
-				Slug:        "black-square-button",
-				Character:   "🔲",
-				UnicodeName: "black square button",
-				CodePoint:   "U+1F532",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128307: {
-				Slug:        "white-square-button",
-				Character:   "🔳",
-				UnicodeName: "white square button",
-				CodePoint:   "U+1F533",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128308: {
-				Slug:        "red-circle",
-				Character:   "🔴",
-				UnicodeName: "red circle",
-				CodePoint:   "U+1F534",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128309: {
-				Slug:        "blue-circle",
-				Character:   "🔵",
-				UnicodeName: "blue circle",
-				CodePoint:   "U+1F535",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128310: {
-				Slug:        "large-orange-diamond",
-				Character:   "🔶",
-				UnicodeName: "large orange diamond",
-				CodePoint:   "U+1F536",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128311: {
-				Slug:        "large-blue-diamond",
-				Character:   "🔷",
-				UnicodeName: "large blue diamond",
-				CodePoint:   "U+1F537",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128312: {
-				Slug:        "small-orange-diamond",
-				Character:   "🔸",
-				UnicodeName: "small orange diamond",
-				CodePoint:   "U+1F538",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128313: {
-				Slug:        "small-blue-diamond",
-				Character:   "🔹",
-				UnicodeName: "small blue diamond",
-				CodePoint:   "U+1F539",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128314: {
-				Slug:        "red-triangle-pointed-up",
-				Character:   "🔺",
-				UnicodeName: "red triangle pointed up",
-				CodePoint:   "U+1F53A",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128315: {
-				Slug:        "red-triangle-pointed-down",
-				Character:   "🔻",
-				UnicodeName: "red triangle pointed down",
-				CodePoint:   "U+1F53B",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128316: {
-				Slug:        "upwards-button",
-				Character:   "🔼",
-				UnicodeName: "upwards button",
-				CodePoint:   "U+1F53C",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128317: {
-				Slug:        "downwards-button",
-				Character:   "🔽",
-				UnicodeName: "downwards button",
-				CodePoint:   "U+1F53D",
-				Group:       "Symbols",
-				SubGroup:    "av-symbol",
-			},
-		
-			128329: {
-				Slug:        "om",
-				Character:   "🕉",
-				UnicodeName: "om",
-				CodePoint:   "U+1F549",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			128330: {
-				Slug:        "dove",
-				Character:   "🕊",
-				UnicodeName: "dove",
-				CodePoint:   "U+1F54A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			128331: {
-				Slug:        "kaaba",
-				Character:   "🕋",
-				UnicodeName: "kaaba",
-				CodePoint:   "U+1F54B",
-				Group:       "Travel & Places",
-				SubGroup:    "place-religious",
-			},
-		
-			128332: {
-				Slug:        "mosque",
-				Character:   "🕌",
-				UnicodeName: "mosque",
-				CodePoint:   "U+1F54C",
-				Group:       "Travel & Places",
-				SubGroup:    "place-religious",
-			},
-		
-			128333: {
-				Slug:        "synagogue",
-				Character:   "🕍",
-				UnicodeName: "synagogue",
-				CodePoint:   "U+1F54D",
-				Group:       "Travel & Places",
-				SubGroup:    "place-religious",
-			},
-		
-			128334: {
-				Slug:        "menorah",
-				Character:   "🕎",
-				UnicodeName: "menorah",
-				CodePoint:   "U+1F54E",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			128336: {
-				Slug:        "one-o’clock",
-				Character:   "🕐",
-				UnicodeName: "one o’clock",
-				CodePoint:   "U+1F550",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128337: {
-				Slug:        "two-o’clock",
-				Character:   "🕑",
-				UnicodeName: "two o’clock",
-				CodePoint:   "U+1F551",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128338: {
-				Slug:        "three-o’clock",
-				Character:   "🕒",
-				UnicodeName: "three o’clock",
-				CodePoint:   "U+1F552",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128339: {
-				Slug:        "four-o’clock",
-				Character:   "🕓",
-				UnicodeName: "four o’clock",
-				CodePoint:   "U+1F553",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128340: {
-				Slug:        "five-o’clock",
-				Character:   "🕔",
-				UnicodeName: "five o’clock",
-				CodePoint:   "U+1F554",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128341: {
-				Slug:        "six-o’clock",
-				Character:   "🕕",
-				UnicodeName: "six o’clock",
-				CodePoint:   "U+1F555",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128342: {
-				Slug:        "seven-o’clock",
-				Character:   "🕖",
-				UnicodeName: "seven o’clock",
-				CodePoint:   "U+1F556",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128343: {
-				Slug:        "eight-o’clock",
-				Character:   "🕗",
-				UnicodeName: "eight o’clock",
-				CodePoint:   "U+1F557",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128344: {
-				Slug:        "nine-o’clock",
-				Character:   "🕘",
-				UnicodeName: "nine o’clock",
-				CodePoint:   "U+1F558",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128345: {
-				Slug:        "ten-o’clock",
-				Character:   "🕙",
-				UnicodeName: "ten o’clock",
-				CodePoint:   "U+1F559",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128346: {
-				Slug:        "eleven-o’clock",
-				Character:   "🕚",
-				UnicodeName: "eleven o’clock",
-				CodePoint:   "U+1F55A",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128347: {
-				Slug:        "twelve-o’clock",
-				Character:   "🕛",
-				UnicodeName: "twelve o’clock",
-				CodePoint:   "U+1F55B",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128348: {
-				Slug:        "one-thirty",
-				Character:   "🕜",
-				UnicodeName: "one-thirty",
-				CodePoint:   "U+1F55C",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128349: {
-				Slug:        "two-thirty",
-				Character:   "🕝",
-				UnicodeName: "two-thirty",
-				CodePoint:   "U+1F55D",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128350: {
-				Slug:        "three-thirty",
-				Character:   "🕞",
-				UnicodeName: "three-thirty",
-				CodePoint:   "U+1F55E",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128351: {
-				Slug:        "four-thirty",
-				Character:   "🕟",
-				UnicodeName: "four-thirty",
-				CodePoint:   "U+1F55F",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128352: {
-				Slug:        "five-thirty",
-				Character:   "🕠",
-				UnicodeName: "five-thirty",
-				CodePoint:   "U+1F560",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128353: {
-				Slug:        "six-thirty",
-				Character:   "🕡",
-				UnicodeName: "six-thirty",
-				CodePoint:   "U+1F561",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128354: {
-				Slug:        "seven-thirty",
-				Character:   "🕢",
-				UnicodeName: "seven-thirty",
-				CodePoint:   "U+1F562",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128355: {
-				Slug:        "eight-thirty",
-				Character:   "🕣",
-				UnicodeName: "eight-thirty",
-				CodePoint:   "U+1F563",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128356: {
-				Slug:        "nine-thirty",
-				Character:   "🕤",
-				UnicodeName: "nine-thirty",
-				CodePoint:   "U+1F564",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128357: {
-				Slug:        "ten-thirty",
-				Character:   "🕥",
-				UnicodeName: "ten-thirty",
-				CodePoint:   "U+1F565",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128358: {
-				Slug:        "eleven-thirty",
-				Character:   "🕦",
-				UnicodeName: "eleven-thirty",
-				CodePoint:   "U+1F566",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128359: {
-				Slug:        "twelve-thirty",
-				Character:   "🕧",
-				UnicodeName: "twelve-thirty",
-				CodePoint:   "U+1F567",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128367: {
-				Slug:        "candle",
-				Character:   "🕯",
-				UnicodeName: "candle",
-				CodePoint:   "U+1F56F",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			128368: {
-				Slug:        "mantelpiece-clock",
-				Character:   "🕰",
-				UnicodeName: "mantelpiece clock",
-				CodePoint:   "U+1F570",
-				Group:       "Travel & Places",
-				SubGroup:    "time",
-			},
-		
-			128371: {
-				Slug:        "hole",
-				Character:   "🕳",
-				UnicodeName: "hole",
-				CodePoint:   "U+1F573",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128372: {
-				Slug:        "person-in-suit-levitating",
-				Character:   "🕴",
-				UnicodeName: "person in suit levitating",
-				CodePoint:   "U+1F574",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128373: {
-				Slug:        "woman-detective",
-				Character:   "🕵️‍♀️",
-				UnicodeName: "woman detective",
-				CodePoint:   "U+1F575 U+FE0F U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			128374: {
-				Slug:        "sunglasses",
-				Character:   "🕶",
-				UnicodeName: "sunglasses",
-				CodePoint:   "U+1F576",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128375: {
-				Slug:        "spider",
-				Character:   "🕷",
-				UnicodeName: "spider",
-				CodePoint:   "U+1F577",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128376: {
-				Slug:        "spider-web",
-				Character:   "🕸",
-				UnicodeName: "spider web",
-				CodePoint:   "U+1F578",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			128377: {
-				Slug:        "joystick",
-				Character:   "🕹",
-				UnicodeName: "joystick",
-				CodePoint:   "U+1F579",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			128378: {
-				Slug:        "man-dancing",
-				Character:   "🕺",
-				UnicodeName: "man dancing",
-				CodePoint:   "U+1F57A",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128391: {
-				Slug:        "linked-paperclips",
-				Character:   "🖇",
-				UnicodeName: "linked paperclips",
-				CodePoint:   "U+1F587",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128394: {
-				Slug:        "pen",
-				Character:   "🖊",
-				UnicodeName: "pen",
-				CodePoint:   "U+1F58A",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			128395: {
-				Slug:        "fountain-pen",
-				Character:   "🖋",
-				UnicodeName: "fountain pen",
-				CodePoint:   "U+1F58B",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			128396: {
-				Slug:        "paintbrush",
-				Character:   "🖌",
-				UnicodeName: "paintbrush",
-				CodePoint:   "U+1F58C",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			128397: {
-				Slug:        "crayon",
-				Character:   "🖍",
-				UnicodeName: "crayon",
-				CodePoint:   "U+1F58D",
-				Group:       "Objects",
-				SubGroup:    "writing",
-			},
-		
-			128400: {
-				Slug:        "hand-with-fingers-splayed",
-				Character:   "🖐",
-				UnicodeName: "hand with fingers splayed",
-				CodePoint:   "U+1F590",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			128405: {
-				Slug:        "middle-finger",
-				Character:   "🖕",
-				UnicodeName: "middle finger",
-				CodePoint:   "U+1F595",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			128406: {
-				Slug:        "vulcan-salute",
-				Character:   "🖖",
-				UnicodeName: "vulcan salute",
-				CodePoint:   "U+1F596",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			128420: {
-				Slug:        "black-heart",
-				Character:   "🖤",
-				UnicodeName: "black heart",
-				CodePoint:   "U+1F5A4",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128421: {
-				Slug:        "desktop-computer",
-				Character:   "🖥",
-				UnicodeName: "desktop computer",
-				CodePoint:   "U+1F5A5",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128424: {
-				Slug:        "printer",
-				Character:   "🖨",
-				UnicodeName: "printer",
-				CodePoint:   "U+1F5A8",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128433: {
-				Slug:        "computer-mouse",
-				Character:   "🖱",
-				UnicodeName: "computer mouse",
-				CodePoint:   "U+1F5B1",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128434: {
-				Slug:        "trackball",
-				Character:   "🖲",
-				UnicodeName: "trackball",
-				CodePoint:   "U+1F5B2",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			128444: {
-				Slug:        "framed-picture",
-				Character:   "🖼",
-				UnicodeName: "framed picture",
-				CodePoint:   "U+1F5BC",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			128450: {
-				Slug:        "card-index-dividers",
-				Character:   "🗂",
-				UnicodeName: "card index dividers",
-				CodePoint:   "U+1F5C2",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128451: {
-				Slug:        "card-file-box",
-				Character:   "🗃",
-				UnicodeName: "card file box",
-				CodePoint:   "U+1F5C3",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128452: {
-				Slug:        "file-cabinet",
-				Character:   "🗄",
-				UnicodeName: "file cabinet",
-				CodePoint:   "U+1F5C4",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128465: {
-				Slug:        "wastebasket",
-				Character:   "🗑",
-				UnicodeName: "wastebasket",
-				CodePoint:   "U+1F5D1",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128466: {
-				Slug:        "spiral-notepad",
-				Character:   "🗒",
-				UnicodeName: "spiral notepad",
-				CodePoint:   "U+1F5D2",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128467: {
-				Slug:        "spiral-calendar",
-				Character:   "🗓",
-				UnicodeName: "spiral calendar",
-				CodePoint:   "U+1F5D3",
-				Group:       "Objects",
-				SubGroup:    "office",
-			},
-		
-			128476: {
-				Slug:        "clamp",
-				Character:   "🗜",
-				UnicodeName: "clamp",
-				CodePoint:   "U+1F5DC",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128477: {
-				Slug:        "old-key",
-				Character:   "🗝",
-				UnicodeName: "old key",
-				CodePoint:   "U+1F5DD",
-				Group:       "Objects",
-				SubGroup:    "lock",
-			},
-		
-			128478: {
-				Slug:        "rolled-up-newspaper",
-				Character:   "🗞",
-				UnicodeName: "rolled-up newspaper",
-				CodePoint:   "U+1F5DE",
-				Group:       "Objects",
-				SubGroup:    "book-paper",
-			},
-		
-			128481: {
-				Slug:        "dagger",
-				Character:   "🗡",
-				UnicodeName: "dagger",
-				CodePoint:   "U+1F5E1",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128483: {
-				Slug:        "speaking-head",
-				Character:   "🗣",
-				UnicodeName: "speaking head",
-				CodePoint:   "U+1F5E3",
-				Group:       "People & Body",
-				SubGroup:    "person-symbol",
-			},
-		
-			128488: {
-				Slug:        "left-speech-bubble",
-				Character:   "🗨",
-				UnicodeName: "left speech bubble",
-				CodePoint:   "U+1F5E8",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128495: {
-				Slug:        "right-anger-bubble",
-				Character:   "🗯",
-				UnicodeName: "right anger bubble",
-				CodePoint:   "U+1F5EF",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			128499: {
-				Slug:        "ballot-box-with-ballot",
-				Character:   "🗳",
-				UnicodeName: "ballot box with ballot",
-				CodePoint:   "U+1F5F3",
-				Group:       "Objects",
-				SubGroup:    "mail",
-			},
-		
-			128506: {
-				Slug:        "world-map",
-				Character:   "🗺",
-				UnicodeName: "world map",
-				CodePoint:   "U+1F5FA",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			128507: {
-				Slug:        "mount-fuji",
-				Character:   "🗻",
-				UnicodeName: "mount fuji",
-				CodePoint:   "U+1F5FB",
-				Group:       "Travel & Places",
-				SubGroup:    "place-geographic",
-			},
-		
-			128508: {
-				Slug:        "Tokyo-tower",
-				Character:   "🗼",
-				UnicodeName: "Tokyo tower",
-				CodePoint:   "U+1F5FC",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			128509: {
-				Slug:        "Statue-of-Liberty",
-				Character:   "🗽",
-				UnicodeName: "Statue of Liberty",
-				CodePoint:   "U+1F5FD",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			128510: {
-				Slug:        "map-of-Japan",
-				Character:   "🗾",
-				UnicodeName: "map of Japan",
-				CodePoint:   "U+1F5FE",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			128511: {
-				Slug:        "moai",
-				Character:   "🗿",
-				UnicodeName: "moai",
-				CodePoint:   "U+1F5FF",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			128512: {
-				Slug:        "grinning-face",
-				Character:   "😀",
-				UnicodeName: "grinning face",
-				CodePoint:   "U+1F600",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128513: {
-				Slug:        "beaming-face-with-smiling-eyes",
-				Character:   "😁",
-				UnicodeName: "beaming face with smiling eyes",
-				CodePoint:   "U+1F601",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128514: {
-				Slug:        "face-with-tears-of-joy",
-				Character:   "😂",
-				UnicodeName: "face with tears of joy",
-				CodePoint:   "U+1F602",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128515: {
-				Slug:        "grinning-face-with-big-eyes",
-				Character:   "😃",
-				UnicodeName: "grinning face with big eyes",
-				CodePoint:   "U+1F603",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128516: {
-				Slug:        "grinning-face-with-smiling-eyes",
-				Character:   "😄",
-				UnicodeName: "grinning face with smiling eyes",
-				CodePoint:   "U+1F604",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128517: {
-				Slug:        "grinning-face-with-sweat",
-				Character:   "😅",
-				UnicodeName: "grinning face with sweat",
-				CodePoint:   "U+1F605",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128518: {
-				Slug:        "grinning-squinting-face",
-				Character:   "😆",
-				UnicodeName: "grinning squinting face",
-				CodePoint:   "U+1F606",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128519: {
-				Slug:        "smiling-face-with-halo",
-				Character:   "😇",
-				UnicodeName: "smiling face with halo",
-				CodePoint:   "U+1F607",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128520: {
-				Slug:        "smiling-face-with-horns",
-				Character:   "😈",
-				UnicodeName: "smiling face with horns",
-				CodePoint:   "U+1F608",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			128521: {
-				Slug:        "winking-face",
-				Character:   "😉",
-				UnicodeName: "winking face",
-				CodePoint:   "U+1F609",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128522: {
-				Slug:        "smiling-face-with-smiling-eyes",
-				Character:   "😊",
-				UnicodeName: "smiling face with smiling eyes",
-				CodePoint:   "U+1F60A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128523: {
-				Slug:        "face-savoring-food",
-				Character:   "😋",
-				UnicodeName: "face savoring food",
-				CodePoint:   "U+1F60B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-tongue",
-			},
-		
-			128524: {
-				Slug:        "relieved-face",
-				Character:   "😌",
-				UnicodeName: "relieved face",
-				CodePoint:   "U+1F60C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-sleepy",
-			},
-		
-			128525: {
-				Slug:        "smiling-face-with-heart-eyes",
-				Character:   "😍",
-				UnicodeName: "smiling face with heart-eyes",
-				CodePoint:   "U+1F60D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			128526: {
-				Slug:        "smiling-face-with-sunglasses",
-				Character:   "😎",
-				UnicodeName: "smiling face with sunglasses",
-				CodePoint:   "U+1F60E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-glasses",
-			},
-		
-			128527: {
-				Slug:        "smirking-face",
-				Character:   "😏",
-				UnicodeName: "smirking face",
-				CodePoint:   "U+1F60F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128528: {
-				Slug:        "neutral-face",
-				Character:   "😐",
-				UnicodeName: "neutral face",
-				CodePoint:   "U+1F610",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128529: {
-				Slug:        "expressionless-face",
-				Character:   "😑",
-				UnicodeName: "expressionless face",
-				CodePoint:   "U+1F611",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128530: {
-				Slug:        "unamused-face",
-				Character:   "😒",
-				UnicodeName: "unamused face",
-				CodePoint:   "U+1F612",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128531: {
-				Slug:        "downcast-face-with-sweat",
-				Character:   "😓",
-				UnicodeName: "downcast face with sweat",
-				CodePoint:   "U+1F613",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128532: {
-				Slug:        "pensive-face",
-				Character:   "😔",
-				UnicodeName: "pensive face",
-				CodePoint:   "U+1F614",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-sleepy",
-			},
-		
-			128533: {
-				Slug:        "confused-face",
-				Character:   "😕",
-				UnicodeName: "confused face",
-				CodePoint:   "U+1F615",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128534: {
-				Slug:        "confounded-face",
-				Character:   "😖",
-				UnicodeName: "confounded face",
-				CodePoint:   "U+1F616",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128535: {
-				Slug:        "kissing-face",
-				Character:   "😗",
-				UnicodeName: "kissing face",
-				CodePoint:   "U+1F617",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			128536: {
-				Slug:        "face-blowing-a-kiss",
-				Character:   "😘",
-				UnicodeName: "face blowing a kiss",
-				CodePoint:   "U+1F618",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			128537: {
-				Slug:        "kissing-face-with-smiling-eyes",
-				Character:   "😙",
-				UnicodeName: "kissing face with smiling eyes",
-				CodePoint:   "U+1F619",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			128538: {
-				Slug:        "kissing-face-with-closed-eyes",
-				Character:   "😚",
-				UnicodeName: "kissing face with closed eyes",
-				CodePoint:   "U+1F61A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			128539: {
-				Slug:        "face-with-tongue",
-				Character:   "😛",
-				UnicodeName: "face with tongue",
-				CodePoint:   "U+1F61B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-tongue",
-			},
-		
-			128540: {
-				Slug:        "winking-face-with-tongue",
-				Character:   "😜",
-				UnicodeName: "winking face with tongue",
-				CodePoint:   "U+1F61C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-tongue",
-			},
-		
-			128541: {
-				Slug:        "squinting-face-with-tongue",
-				Character:   "😝",
-				UnicodeName: "squinting face with tongue",
-				CodePoint:   "U+1F61D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-tongue",
-			},
-		
-			128542: {
-				Slug:        "disappointed-face",
-				Character:   "😞",
-				UnicodeName: "disappointed face",
-				CodePoint:   "U+1F61E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128543: {
-				Slug:        "worried-face",
-				Character:   "😟",
-				UnicodeName: "worried face",
-				CodePoint:   "U+1F61F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128544: {
-				Slug:        "angry-face",
-				Character:   "😠",
-				UnicodeName: "angry face",
-				CodePoint:   "U+1F620",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			128545: {
-				Slug:        "pouting-face",
-				Character:   "😡",
-				UnicodeName: "pouting face",
-				CodePoint:   "U+1F621",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			128546: {
-				Slug:        "crying-face",
-				Character:   "😢",
-				UnicodeName: "crying face",
-				CodePoint:   "U+1F622",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128547: {
-				Slug:        "persevering-face",
-				Character:   "😣",
-				UnicodeName: "persevering face",
-				CodePoint:   "U+1F623",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128548: {
-				Slug:        "face-with-steam-from-nose",
-				Character:   "😤",
-				UnicodeName: "face with steam from nose",
-				CodePoint:   "U+1F624",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			128549: {
-				Slug:        "sad-but-relieved-face",
-				Character:   "😥",
-				UnicodeName: "sad but relieved face",
-				CodePoint:   "U+1F625",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128550: {
-				Slug:        "frowning-face-with-open-mouth",
-				Character:   "😦",
-				UnicodeName: "frowning face with open mouth",
-				CodePoint:   "U+1F626",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128551: {
-				Slug:        "anguished-face",
-				Character:   "😧",
-				UnicodeName: "anguished face",
-				CodePoint:   "U+1F627",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128552: {
-				Slug:        "fearful-face",
-				Character:   "😨",
-				UnicodeName: "fearful face",
-				CodePoint:   "U+1F628",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128553: {
-				Slug:        "weary-face",
-				Character:   "😩",
-				UnicodeName: "weary face",
-				CodePoint:   "U+1F629",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128554: {
-				Slug:        "sleepy-face",
-				Character:   "😪",
-				UnicodeName: "sleepy face",
-				CodePoint:   "U+1F62A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-sleepy",
-			},
-		
-			128555: {
-				Slug:        "tired-face",
-				Character:   "😫",
-				UnicodeName: "tired face",
-				CodePoint:   "U+1F62B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128556: {
-				Slug:        "grimacing-face",
-				Character:   "😬",
-				UnicodeName: "grimacing face",
-				CodePoint:   "U+1F62C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128557: {
-				Slug:        "loudly-crying-face",
-				Character:   "😭",
-				UnicodeName: "loudly crying face",
-				CodePoint:   "U+1F62D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128558: {
-				Slug:        "face-with-open-mouth",
-				Character:   "😮",
-				UnicodeName: "face with open mouth",
-				CodePoint:   "U+1F62E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128559: {
-				Slug:        "hushed-face",
-				Character:   "😯",
-				UnicodeName: "hushed face",
-				CodePoint:   "U+1F62F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128560: {
-				Slug:        "anxious-face-with-sweat",
-				Character:   "😰",
-				UnicodeName: "anxious face with sweat",
-				CodePoint:   "U+1F630",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128561: {
-				Slug:        "face-screaming-in-fear",
-				Character:   "😱",
-				UnicodeName: "face screaming in fear",
-				CodePoint:   "U+1F631",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128562: {
-				Slug:        "astonished-face",
-				Character:   "😲",
-				UnicodeName: "astonished face",
-				CodePoint:   "U+1F632",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128563: {
-				Slug:        "flushed-face",
-				Character:   "😳",
-				UnicodeName: "flushed face",
-				CodePoint:   "U+1F633",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128564: {
-				Slug:        "sleeping-face",
-				Character:   "😴",
-				UnicodeName: "sleeping face",
-				CodePoint:   "U+1F634",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-sleepy",
-			},
-		
-			128565: {
-				Slug:        "face-with-spiral-eyes",
-				Character:   "😵‍💫",
-				UnicodeName: "face with spiral eyes",
-				CodePoint:   "U+1F635 U+200D U+1F4AB",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			128566: {
-				Slug:        "face-in-clouds",
-				Character:   "😶‍🌫️",
-				UnicodeName: "face in clouds",
-				CodePoint:   "U+1F636 U+200D U+1F32B U+FE0F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128567: {
-				Slug:        "face-with-medical-mask",
-				Character:   "😷",
-				UnicodeName: "face with medical mask",
-				CodePoint:   "U+1F637",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			128568: {
-				Slug:        "grinning-cat-with-smiling-eyes",
-				Character:   "😸",
-				UnicodeName: "grinning cat with smiling eyes",
-				CodePoint:   "U+1F638",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128569: {
-				Slug:        "cat-with-tears-of-joy",
-				Character:   "😹",
-				UnicodeName: "cat with tears of joy",
-				CodePoint:   "U+1F639",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128570: {
-				Slug:        "grinning-cat",
-				Character:   "😺",
-				UnicodeName: "grinning cat",
-				CodePoint:   "U+1F63A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128571: {
-				Slug:        "smiling-cat-with-heart-eyes",
-				Character:   "😻",
-				UnicodeName: "smiling cat with heart-eyes",
-				CodePoint:   "U+1F63B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128572: {
-				Slug:        "cat-with-wry-smile",
-				Character:   "😼",
-				UnicodeName: "cat with wry smile",
-				CodePoint:   "U+1F63C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128573: {
-				Slug:        "kissing-cat",
-				Character:   "😽",
-				UnicodeName: "kissing cat",
-				CodePoint:   "U+1F63D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128574: {
-				Slug:        "pouting-cat",
-				Character:   "😾",
-				UnicodeName: "pouting cat",
-				CodePoint:   "U+1F63E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128575: {
-				Slug:        "crying-cat",
-				Character:   "😿",
-				UnicodeName: "crying cat",
-				CodePoint:   "U+1F63F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128576: {
-				Slug:        "weary-cat",
-				Character:   "🙀",
-				UnicodeName: "weary cat",
-				CodePoint:   "U+1F640",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "cat-face",
-			},
-		
-			128577: {
-				Slug:        "slightly-frowning-face",
-				Character:   "🙁",
-				UnicodeName: "slightly frowning face",
-				CodePoint:   "U+1F641",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			128578: {
-				Slug:        "slightly-smiling-face",
-				Character:   "🙂",
-				UnicodeName: "slightly smiling face",
-				CodePoint:   "U+1F642",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128579: {
-				Slug:        "upside-down-face",
-				Character:   "🙃",
-				UnicodeName: "upside-down face",
-				CodePoint:   "U+1F643",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			128580: {
-				Slug:        "face-with-rolling-eyes",
-				Character:   "🙄",
-				UnicodeName: "face with rolling eyes",
-				CodePoint:   "U+1F644",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			128581: {
-				Slug:        "woman-gesturing-NO",
-				Character:   "🙅‍♀️",
-				UnicodeName: "woman gesturing NO",
-				CodePoint:   "U+1F645 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128582: {
-				Slug:        "woman-gesturing-OK",
-				Character:   "🙆‍♀️",
-				UnicodeName: "woman gesturing OK",
-				CodePoint:   "U+1F646 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128583: {
-				Slug:        "woman-bowing",
-				Character:   "🙇‍♀️",
-				UnicodeName: "woman bowing",
-				CodePoint:   "U+1F647 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128584: {
-				Slug:        "see-no-evil-monkey",
-				Character:   "🙈",
-				UnicodeName: "see-no-evil monkey",
-				CodePoint:   "U+1F648",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "monkey-face",
-			},
-		
-			128585: {
-				Slug:        "hear-no-evil-monkey",
-				Character:   "🙉",
-				UnicodeName: "hear-no-evil monkey",
-				CodePoint:   "U+1F649",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "monkey-face",
-			},
-		
-			128586: {
-				Slug:        "speak-no-evil-monkey",
-				Character:   "🙊",
-				UnicodeName: "speak-no-evil monkey",
-				CodePoint:   "U+1F64A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "monkey-face",
-			},
-		
-			128587: {
-				Slug:        "woman-raising-hand",
-				Character:   "🙋‍♀️",
-				UnicodeName: "woman raising hand",
-				CodePoint:   "U+1F64B U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128588: {
-				Slug:        "raising-hands",
-				Character:   "🙌",
-				UnicodeName: "raising hands",
-				CodePoint:   "U+1F64C",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
-			128589: {
-				Slug:        "woman-frowning",
-				Character:   "🙍‍♀️",
-				UnicodeName: "woman frowning",
-				CodePoint:   "U+1F64D U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128590: {
-				Slug:        "woman-pouting",
-				Character:   "🙎‍♀️",
-				UnicodeName: "woman pouting",
-				CodePoint:   "U+1F64E U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			128591: {
-				Slug:        "folded-hands",
-				Character:   "🙏",
-				UnicodeName: "folded hands",
-				CodePoint:   "U+1F64F",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
-			128640: {
-				Slug:        "rocket",
-				Character:   "🚀",
-				UnicodeName: "rocket",
-				CodePoint:   "U+1F680",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128641: {
-				Slug:        "helicopter",
-				Character:   "🚁",
-				UnicodeName: "helicopter",
-				CodePoint:   "U+1F681",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128642: {
-				Slug:        "locomotive",
-				Character:   "🚂",
-				UnicodeName: "locomotive",
-				CodePoint:   "U+1F682",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128643: {
-				Slug:        "railway-car",
-				Character:   "🚃",
-				UnicodeName: "railway car",
-				CodePoint:   "U+1F683",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128644: {
-				Slug:        "high-speed-train",
-				Character:   "🚄",
-				UnicodeName: "high-speed train",
-				CodePoint:   "U+1F684",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128645: {
-				Slug:        "bullet-train",
-				Character:   "🚅",
-				UnicodeName: "bullet train",
-				CodePoint:   "U+1F685",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128646: {
-				Slug:        "train",
-				Character:   "🚆",
-				UnicodeName: "train",
-				CodePoint:   "U+1F686",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128647: {
-				Slug:        "metro",
-				Character:   "🚇",
-				UnicodeName: "metro",
-				CodePoint:   "U+1F687",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128648: {
-				Slug:        "light-rail",
-				Character:   "🚈",
-				UnicodeName: "light rail",
-				CodePoint:   "U+1F688",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128649: {
-				Slug:        "station",
-				Character:   "🚉",
-				UnicodeName: "station",
-				CodePoint:   "U+1F689",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128650: {
-				Slug:        "tram",
-				Character:   "🚊",
-				UnicodeName: "tram",
-				CodePoint:   "U+1F68A",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128651: {
-				Slug:        "tram-car",
-				Character:   "🚋",
-				UnicodeName: "tram car",
-				CodePoint:   "U+1F68B",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128652: {
-				Slug:        "bus",
-				Character:   "🚌",
-				UnicodeName: "bus",
-				CodePoint:   "U+1F68C",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128653: {
-				Slug:        "oncoming-bus",
-				Character:   "🚍",
-				UnicodeName: "oncoming bus",
-				CodePoint:   "U+1F68D",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128654: {
-				Slug:        "trolleybus",
-				Character:   "🚎",
-				UnicodeName: "trolleybus",
-				CodePoint:   "U+1F68E",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128655: {
-				Slug:        "bus-stop",
-				Character:   "🚏",
-				UnicodeName: "bus stop",
-				CodePoint:   "U+1F68F",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128656: {
-				Slug:        "minibus",
-				Character:   "🚐",
-				UnicodeName: "minibus",
-				CodePoint:   "U+1F690",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128657: {
-				Slug:        "ambulance",
-				Character:   "🚑",
-				UnicodeName: "ambulance",
-				CodePoint:   "U+1F691",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128658: {
-				Slug:        "fire-engine",
-				Character:   "🚒",
-				UnicodeName: "fire engine",
-				CodePoint:   "U+1F692",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128659: {
-				Slug:        "police-car",
-				Character:   "🚓",
-				UnicodeName: "police car",
-				CodePoint:   "U+1F693",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128660: {
-				Slug:        "oncoming-police-car",
-				Character:   "🚔",
-				UnicodeName: "oncoming police car",
-				CodePoint:   "U+1F694",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128661: {
-				Slug:        "taxi",
-				Character:   "🚕",
-				UnicodeName: "taxi",
-				CodePoint:   "U+1F695",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128662: {
-				Slug:        "oncoming-taxi",
-				Character:   "🚖",
-				UnicodeName: "oncoming taxi",
-				CodePoint:   "U+1F696",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128663: {
-				Slug:        "automobile",
-				Character:   "🚗",
-				UnicodeName: "automobile",
-				CodePoint:   "U+1F697",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128664: {
-				Slug:        "oncoming-automobile",
-				Character:   "🚘",
-				UnicodeName: "oncoming automobile",
-				CodePoint:   "U+1F698",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128665: {
-				Slug:        "sport-utility-vehicle",
-				Character:   "🚙",
-				UnicodeName: "sport utility vehicle",
-				CodePoint:   "U+1F699",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128666: {
-				Slug:        "delivery-truck",
-				Character:   "🚚",
-				UnicodeName: "delivery truck",
-				CodePoint:   "U+1F69A",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128667: {
-				Slug:        "articulated-lorry",
-				Character:   "🚛",
-				UnicodeName: "articulated lorry",
-				CodePoint:   "U+1F69B",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128668: {
-				Slug:        "tractor",
-				Character:   "🚜",
-				UnicodeName: "tractor",
-				CodePoint:   "U+1F69C",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128669: {
-				Slug:        "monorail",
-				Character:   "🚝",
-				UnicodeName: "monorail",
-				CodePoint:   "U+1F69D",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128670: {
-				Slug:        "mountain-railway",
-				Character:   "🚞",
-				UnicodeName: "mountain railway",
-				CodePoint:   "U+1F69E",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128671: {
-				Slug:        "suspension-railway",
-				Character:   "🚟",
-				UnicodeName: "suspension railway",
-				CodePoint:   "U+1F69F",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128672: {
-				Slug:        "mountain-cableway",
-				Character:   "🚠",
-				UnicodeName: "mountain cableway",
-				CodePoint:   "U+1F6A0",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128673: {
-				Slug:        "aerial-tramway",
-				Character:   "🚡",
-				UnicodeName: "aerial tramway",
-				CodePoint:   "U+1F6A1",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128674: {
-				Slug:        "ship",
-				Character:   "🚢",
-				UnicodeName: "ship",
-				CodePoint:   "U+1F6A2",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			128675: {
-				Slug:        "woman-rowing-boat",
-				Character:   "🚣‍♀️",
-				UnicodeName: "woman rowing boat",
-				CodePoint:   "U+1F6A3 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			128676: {
-				Slug:        "speedboat",
-				Character:   "🚤",
-				UnicodeName: "speedboat",
-				CodePoint:   "U+1F6A4",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			128677: {
-				Slug:        "horizontal-traffic-light",
-				Character:   "🚥",
-				UnicodeName: "horizontal traffic light",
-				CodePoint:   "U+1F6A5",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128678: {
-				Slug:        "vertical-traffic-light",
-				Character:   "🚦",
-				UnicodeName: "vertical traffic light",
-				CodePoint:   "U+1F6A6",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128679: {
-				Slug:        "construction",
-				Character:   "🚧",
-				UnicodeName: "construction",
-				CodePoint:   "U+1F6A7",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128680: {
-				Slug:        "police-car-light",
-				Character:   "🚨",
-				UnicodeName: "police car light",
-				CodePoint:   "U+1F6A8",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128681: {
-				Slug:        "triangular-flag",
-				Character:   "🚩",
-				UnicodeName: "triangular flag",
-				CodePoint:   "U+1F6A9",
-				Group:       "Flags",
-				SubGroup:    "flag",
-			},
-		
-			128682: {
-				Slug:        "door",
-				Character:   "🚪",
-				UnicodeName: "door",
-				CodePoint:   "U+1F6AA",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128683: {
-				Slug:        "prohibited",
-				Character:   "🚫",
-				UnicodeName: "prohibited",
-				CodePoint:   "U+1F6AB",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128684: {
-				Slug:        "cigarette",
-				Character:   "🚬",
-				UnicodeName: "cigarette",
-				CodePoint:   "U+1F6AC",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			128685: {
-				Slug:        "no-smoking",
-				Character:   "🚭",
-				UnicodeName: "no smoking",
-				CodePoint:   "U+1F6AD",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128686: {
-				Slug:        "litter-in-bin-sign",
-				Character:   "🚮",
-				UnicodeName: "litter in bin sign",
-				CodePoint:   "U+1F6AE",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128687: {
-				Slug:        "no-littering",
-				Character:   "🚯",
-				UnicodeName: "no littering",
-				CodePoint:   "U+1F6AF",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128688: {
-				Slug:        "potable-water",
-				Character:   "🚰",
-				UnicodeName: "potable water",
-				CodePoint:   "U+1F6B0",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128689: {
-				Slug:        "non-potable-water",
-				Character:   "🚱",
-				UnicodeName: "non-potable water",
-				CodePoint:   "U+1F6B1",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128690: {
-				Slug:        "bicycle",
-				Character:   "🚲",
-				UnicodeName: "bicycle",
-				CodePoint:   "U+1F6B2",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128691: {
-				Slug:        "no-bicycles",
-				Character:   "🚳",
-				UnicodeName: "no bicycles",
-				CodePoint:   "U+1F6B3",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128692: {
-				Slug:        "woman-biking",
-				Character:   "🚴‍♀️",
-				UnicodeName: "woman biking",
-				CodePoint:   "U+1F6B4 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			128693: {
-				Slug:        "woman-mountain-biking",
-				Character:   "🚵‍♀️",
-				UnicodeName: "woman mountain biking",
-				CodePoint:   "U+1F6B5 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			128694: {
-				Slug:        "woman-walking",
-				Character:   "🚶‍♀️",
-				UnicodeName: "woman walking",
-				CodePoint:   "U+1F6B6 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			128695: {
-				Slug:        "no-pedestrians",
-				Character:   "🚷",
-				UnicodeName: "no pedestrians",
-				CodePoint:   "U+1F6B7",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128696: {
-				Slug:        "children-crossing",
-				Character:   "🚸",
-				UnicodeName: "children crossing",
-				CodePoint:   "U+1F6B8",
-				Group:       "Symbols",
-				SubGroup:    "warning",
-			},
-		
-			128697: {
-				Slug:        "men’s-room",
-				Character:   "🚹",
-				UnicodeName: "men’s room",
-				CodePoint:   "U+1F6B9",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128698: {
-				Slug:        "women’s-room",
-				Character:   "🚺",
-				UnicodeName: "women’s room",
-				CodePoint:   "U+1F6BA",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128699: {
-				Slug:        "restroom",
-				Character:   "🚻",
-				UnicodeName: "restroom",
-				CodePoint:   "U+1F6BB",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128700: {
-				Slug:        "baby-symbol",
-				Character:   "🚼",
-				UnicodeName: "baby symbol",
-				CodePoint:   "U+1F6BC",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128701: {
-				Slug:        "toilet",
-				Character:   "🚽",
-				UnicodeName: "toilet",
-				CodePoint:   "U+1F6BD",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128702: {
-				Slug:        "water-closet",
-				Character:   "🚾",
-				UnicodeName: "water closet",
-				CodePoint:   "U+1F6BE",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128703: {
-				Slug:        "shower",
-				Character:   "🚿",
-				UnicodeName: "shower",
-				CodePoint:   "U+1F6BF",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128704: {
-				Slug:        "person-taking-bath",
-				Character:   "🛀",
-				UnicodeName: "person taking bath",
-				CodePoint:   "U+1F6C0",
-				Group:       "People & Body",
-				SubGroup:    "person-resting",
-			},
-		
-			128705: {
-				Slug:        "bathtub",
-				Character:   "🛁",
-				UnicodeName: "bathtub",
-				CodePoint:   "U+1F6C1",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128706: {
-				Slug:        "passport-control",
-				Character:   "🛂",
-				UnicodeName: "passport control",
-				CodePoint:   "U+1F6C2",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128707: {
-				Slug:        "customs",
-				Character:   "🛃",
-				UnicodeName: "customs",
-				CodePoint:   "U+1F6C3",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128708: {
-				Slug:        "baggage-claim",
-				Character:   "🛄",
-				UnicodeName: "baggage claim",
-				CodePoint:   "U+1F6C4",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128709: {
-				Slug:        "left-luggage",
-				Character:   "🛅",
-				UnicodeName: "left luggage",
-				CodePoint:   "U+1F6C5",
-				Group:       "Symbols",
-				SubGroup:    "transport-sign",
-			},
-		
-			128715: {
-				Slug:        "couch-and-lamp",
-				Character:   "🛋",
-				UnicodeName: "couch and lamp",
-				CodePoint:   "U+1F6CB",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128716: {
-				Slug:        "person-in-bed",
-				Character:   "🛌",
-				UnicodeName: "person in bed",
-				CodePoint:   "U+1F6CC",
-				Group:       "People & Body",
-				SubGroup:    "person-resting",
-			},
-		
-			128717: {
-				Slug:        "shopping-bags",
-				Character:   "🛍",
-				UnicodeName: "shopping bags",
-				CodePoint:   "U+1F6CD",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			128718: {
-				Slug:        "bellhop-bell",
-				Character:   "🛎",
-				UnicodeName: "bellhop bell",
-				CodePoint:   "U+1F6CE",
-				Group:       "Travel & Places",
-				SubGroup:    "hotel",
-			},
-		
-			128719: {
-				Slug:        "bed",
-				Character:   "🛏",
-				UnicodeName: "bed",
-				CodePoint:   "U+1F6CF",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128720: {
-				Slug:        "place-of-worship",
-				Character:   "🛐",
-				UnicodeName: "place of worship",
-				CodePoint:   "U+1F6D0",
-				Group:       "Symbols",
-				SubGroup:    "religion",
-			},
-		
-			128721: {
-				Slug:        "stop-sign",
-				Character:   "🛑",
-				UnicodeName: "stop sign",
-				CodePoint:   "U+1F6D1",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128722: {
-				Slug:        "shopping-cart",
-				Character:   "🛒",
-				UnicodeName: "shopping cart",
-				CodePoint:   "U+1F6D2",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128725: {
-				Slug:        "hindu-temple",
-				Character:   "🛕",
-				UnicodeName: "hindu temple",
-				CodePoint:   "U+1F6D5",
-				Group:       "Travel & Places",
-				SubGroup:    "place-religious",
-			},
-		
-			128726: {
-				Slug:        "hut",
-				Character:   "🛖",
-				UnicodeName: "hut",
-				CodePoint:   "U+1F6D6",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			128727: {
-				Slug:        "elevator",
-				Character:   "🛗",
-				UnicodeName: "elevator",
-				CodePoint:   "U+1F6D7",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			128733: {
-				Slug:        "⊛-playground-slide",
-				Character:   "🛝",
-				UnicodeName: "⊛ playground slide",
-				CodePoint:   "U+1F6DD",
-				Group:       "Travel & Places",
-				SubGroup:    "place-other",
-			},
-		
-			128734: {
-				Slug:        "⊛-wheel",
-				Character:   "🛞",
-				UnicodeName: "⊛ wheel",
-				CodePoint:   "U+1F6DE",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128735: {
-				Slug:        "⊛-ring-buoy",
-				Character:   "🛟",
-				UnicodeName: "⊛ ring buoy",
-				CodePoint:   "U+1F6DF",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			128736: {
-				Slug:        "hammer-and-wrench",
-				Character:   "🛠",
-				UnicodeName: "hammer and wrench",
-				CodePoint:   "U+1F6E0",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128737: {
-				Slug:        "shield",
-				Character:   "🛡",
-				UnicodeName: "shield",
-				CodePoint:   "U+1F6E1",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			128738: {
-				Slug:        "oil-drum",
-				Character:   "🛢",
-				UnicodeName: "oil drum",
-				CodePoint:   "U+1F6E2",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128739: {
-				Slug:        "motorway",
-				Character:   "🛣",
-				UnicodeName: "motorway",
-				CodePoint:   "U+1F6E3",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128740: {
-				Slug:        "railway-track",
-				Character:   "🛤",
-				UnicodeName: "railway track",
-				CodePoint:   "U+1F6E4",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128741: {
-				Slug:        "motor-boat",
-				Character:   "🛥",
-				UnicodeName: "motor boat",
-				CodePoint:   "U+1F6E5",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			128745: {
-				Slug:        "small-airplane",
-				Character:   "🛩",
-				UnicodeName: "small airplane",
-				CodePoint:   "U+1F6E9",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128747: {
-				Slug:        "airplane-departure",
-				Character:   "🛫",
-				UnicodeName: "airplane departure",
-				CodePoint:   "U+1F6EB",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128748: {
-				Slug:        "airplane-arrival",
-				Character:   "🛬",
-				UnicodeName: "airplane arrival",
-				CodePoint:   "U+1F6EC",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128752: {
-				Slug:        "satellite",
-				Character:   "🛰",
-				UnicodeName: "satellite",
-				CodePoint:   "U+1F6F0",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128755: {
-				Slug:        "passenger-ship",
-				Character:   "🛳",
-				UnicodeName: "passenger ship",
-				CodePoint:   "U+1F6F3",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			128756: {
-				Slug:        "kick-scooter",
-				Character:   "🛴",
-				UnicodeName: "kick scooter",
-				CodePoint:   "U+1F6F4",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128757: {
-				Slug:        "motor-scooter",
-				Character:   "🛵",
-				UnicodeName: "motor scooter",
-				CodePoint:   "U+1F6F5",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128758: {
-				Slug:        "canoe",
-				Character:   "🛶",
-				UnicodeName: "canoe",
-				CodePoint:   "U+1F6F6",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-water",
-			},
-		
-			128759: {
-				Slug:        "sled",
-				Character:   "🛷",
-				UnicodeName: "sled",
-				CodePoint:   "U+1F6F7",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			128760: {
-				Slug:        "flying-saucer",
-				Character:   "🛸",
-				UnicodeName: "flying saucer",
-				CodePoint:   "U+1F6F8",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			128761: {
-				Slug:        "skateboard",
-				Character:   "🛹",
-				UnicodeName: "skateboard",
-				CodePoint:   "U+1F6F9",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128762: {
-				Slug:        "auto-rickshaw",
-				Character:   "🛺",
-				UnicodeName: "auto rickshaw",
-				CodePoint:   "U+1F6FA",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128763: {
-				Slug:        "pickup-truck",
-				Character:   "🛻",
-				UnicodeName: "pickup truck",
-				CodePoint:   "U+1F6FB",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128764: {
-				Slug:        "roller-skate",
-				Character:   "🛼",
-				UnicodeName: "roller skate",
-				CodePoint:   "U+1F6FC",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			128992: {
-				Slug:        "orange-circle",
-				Character:   "🟠",
-				UnicodeName: "orange circle",
-				CodePoint:   "U+1F7E0",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128993: {
-				Slug:        "yellow-circle",
-				Character:   "🟡",
-				UnicodeName: "yellow circle",
-				CodePoint:   "U+1F7E1",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128994: {
-				Slug:        "green-circle",
-				Character:   "🟢",
-				UnicodeName: "green circle",
-				CodePoint:   "U+1F7E2",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128995: {
-				Slug:        "purple-circle",
-				Character:   "🟣",
-				UnicodeName: "purple circle",
-				CodePoint:   "U+1F7E3",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128996: {
-				Slug:        "brown-circle",
-				Character:   "🟤",
-				UnicodeName: "brown circle",
-				CodePoint:   "U+1F7E4",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128997: {
-				Slug:        "red-square",
-				Character:   "🟥",
-				UnicodeName: "red square",
-				CodePoint:   "U+1F7E5",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128998: {
-				Slug:        "blue-square",
-				Character:   "🟦",
-				UnicodeName: "blue square",
-				CodePoint:   "U+1F7E6",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			128999: {
-				Slug:        "orange-square",
-				Character:   "🟧",
-				UnicodeName: "orange square",
-				CodePoint:   "U+1F7E7",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			129000: {
-				Slug:        "yellow-square",
-				Character:   "🟨",
-				UnicodeName: "yellow square",
-				CodePoint:   "U+1F7E8",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			129001: {
-				Slug:        "green-square",
-				Character:   "🟩",
-				UnicodeName: "green square",
-				CodePoint:   "U+1F7E9",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			129002: {
-				Slug:        "purple-square",
-				Character:   "🟪",
-				UnicodeName: "purple square",
-				CodePoint:   "U+1F7EA",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			129003: {
-				Slug:        "brown-square",
-				Character:   "🟫",
-				UnicodeName: "brown square",
-				CodePoint:   "U+1F7EB",
-				Group:       "Symbols",
-				SubGroup:    "geometric",
-			},
-		
-			129008: {
-				Slug:        "⊛-heavy-equals-sign",
-				Character:   "🟰",
-				UnicodeName: "⊛ heavy equals sign",
-				CodePoint:   "U+1F7F0",
-				Group:       "Symbols",
-				SubGroup:    "math",
-			},
-		
-			129292: {
-				Slug:        "pinched-fingers",
-				Character:   "🤌",
-				UnicodeName: "pinched fingers",
-				CodePoint:   "U+1F90C",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129293: {
-				Slug:        "white-heart",
-				Character:   "🤍",
-				UnicodeName: "white heart",
-				CodePoint:   "U+1F90D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			129294: {
-				Slug:        "brown-heart",
-				Character:   "🤎",
-				UnicodeName: "brown heart",
-				CodePoint:   "U+1F90E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			129295: {
-				Slug:        "pinching-hand",
-				Character:   "🤏",
-				UnicodeName: "pinching hand",
-				CodePoint:   "U+1F90F",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129296: {
-				Slug:        "zipper-mouth-face",
-				Character:   "🤐",
-				UnicodeName: "zipper-mouth face",
-				CodePoint:   "U+1F910",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			129297: {
-				Slug:        "money-mouth-face",
-				Character:   "🤑",
-				UnicodeName: "money-mouth face",
-				CodePoint:   "U+1F911",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-tongue",
-			},
-		
-			129298: {
-				Slug:        "face-with-thermometer",
-				Character:   "🤒",
-				UnicodeName: "face with thermometer",
-				CodePoint:   "U+1F912",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129299: {
-				Slug:        "nerd-face",
-				Character:   "🤓",
-				UnicodeName: "nerd face",
-				CodePoint:   "U+1F913",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-glasses",
-			},
-		
-			129300: {
-				Slug:        "thinking-face",
-				Character:   "🤔",
-				UnicodeName: "thinking face",
-				CodePoint:   "U+1F914",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129301: {
-				Slug:        "face-with-head-bandage",
-				Character:   "🤕",
-				UnicodeName: "face with head-bandage",
-				CodePoint:   "U+1F915",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129302: {
-				Slug:        "robot",
-				Character:   "🤖",
-				UnicodeName: "robot",
-				CodePoint:   "U+1F916",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			129303: {
-				Slug:        "smiling-face-with-open-hands",
-				Character:   "🤗",
-				UnicodeName: "smiling face with open hands",
-				CodePoint:   "U+1F917",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129304: {
-				Slug:        "sign-of-the-horns",
-				Character:   "🤘",
-				UnicodeName: "sign of the horns",
-				CodePoint:   "U+1F918",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129305: {
-				Slug:        "call-me-hand",
-				Character:   "🤙",
-				UnicodeName: "call me hand",
-				CodePoint:   "U+1F919",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129306: {
-				Slug:        "raised-back-of-hand",
-				Character:   "🤚",
-				UnicodeName: "raised back of hand",
-				CodePoint:   "U+1F91A",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			129307: {
-				Slug:        "left-facing-fist",
-				Character:   "🤛",
-				UnicodeName: "left-facing fist",
-				CodePoint:   "U+1F91B",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-closed",
-			},
-		
-			129308: {
-				Slug:        "right-facing-fist",
-				Character:   "🤜",
-				UnicodeName: "right-facing fist",
-				CodePoint:   "U+1F91C",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-closed",
-			},
-		
-			129309: {
-				Slug:        "handshake",
-				Character:   "🤝",
-				UnicodeName: "handshake",
-				CodePoint:   "U+1F91D",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
-			129310: {
-				Slug:        "crossed-fingers",
-				Character:   "🤞",
-				UnicodeName: "crossed fingers",
-				CodePoint:   "U+1F91E",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129311: {
-				Slug:        "love-you-gesture",
-				Character:   "🤟",
-				UnicodeName: "love-you gesture",
-				CodePoint:   "U+1F91F",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129312: {
-				Slug:        "cowboy-hat-face",
-				Character:   "🤠",
-				UnicodeName: "cowboy hat face",
-				CodePoint:   "U+1F920",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hat",
-			},
-		
-			129313: {
-				Slug:        "clown-face",
-				Character:   "🤡",
-				UnicodeName: "clown face",
-				CodePoint:   "U+1F921",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-costume",
-			},
-		
-			129314: {
-				Slug:        "nauseated-face",
-				Character:   "🤢",
-				UnicodeName: "nauseated face",
-				CodePoint:   "U+1F922",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129315: {
-				Slug:        "rolling-on-the-floor-laughing",
-				Character:   "🤣",
-				UnicodeName: "rolling on the floor laughing",
-				CodePoint:   "U+1F923",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			129316: {
-				Slug:        "drooling-face",
-				Character:   "🤤",
-				UnicodeName: "drooling face",
-				CodePoint:   "U+1F924",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-sleepy",
-			},
-		
-			129317: {
-				Slug:        "lying-face",
-				Character:   "🤥",
-				UnicodeName: "lying face",
-				CodePoint:   "U+1F925",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			129318: {
-				Slug:        "woman-facepalming",
-				Character:   "🤦‍♀️",
-				UnicodeName: "woman facepalming",
-				CodePoint:   "U+1F926 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			129319: {
-				Slug:        "sneezing-face",
-				Character:   "🤧",
-				UnicodeName: "sneezing face",
-				CodePoint:   "U+1F927",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129320: {
-				Slug:        "face-with-raised-eyebrow",
-				Character:   "🤨",
-				UnicodeName: "face with raised eyebrow",
-				CodePoint:   "U+1F928",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			129321: {
-				Slug:        "star-struck",
-				Character:   "🤩",
-				UnicodeName: "star-struck",
-				CodePoint:   "U+1F929",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			129322: {
-				Slug:        "zany-face",
-				Character:   "🤪",
-				UnicodeName: "zany face",
-				CodePoint:   "U+1F92A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-tongue",
-			},
-		
-			129323: {
-				Slug:        "shushing-face",
-				Character:   "🤫",
-				UnicodeName: "shushing face",
-				CodePoint:   "U+1F92B",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129324: {
-				Slug:        "face-with-symbols-on-mouth",
-				Character:   "🤬",
-				UnicodeName: "face with symbols on mouth",
-				CodePoint:   "U+1F92C",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-negative",
-			},
-		
-			129325: {
-				Slug:        "face-with-hand-over-mouth",
-				Character:   "🤭",
-				UnicodeName: "face with hand over mouth",
-				CodePoint:   "U+1F92D",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129326: {
-				Slug:        "face-vomiting",
-				Character:   "🤮",
-				UnicodeName: "face vomiting",
-				CodePoint:   "U+1F92E",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129327: {
-				Slug:        "exploding-head",
-				Character:   "🤯",
-				UnicodeName: "exploding head",
-				CodePoint:   "U+1F92F",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129328: {
-				Slug:        "pregnant-woman",
-				Character:   "🤰",
-				UnicodeName: "pregnant woman",
-				CodePoint:   "U+1F930",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129329: {
-				Slug:        "breast-feeding",
-				Character:   "🤱",
-				UnicodeName: "breast-feeding",
-				CodePoint:   "U+1F931",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129330: {
-				Slug:        "palms-up-together",
-				Character:   "🤲",
-				UnicodeName: "palms up together",
-				CodePoint:   "U+1F932",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
-			129331: {
-				Slug:        "selfie",
-				Character:   "🤳",
-				UnicodeName: "selfie",
-				CodePoint:   "U+1F933",
-				Group:       "People & Body",
-				SubGroup:    "hand-prop",
-			},
-		
-			129332: {
-				Slug:        "prince",
-				Character:   "🤴",
-				UnicodeName: "prince",
-				CodePoint:   "U+1F934",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129333: {
-				Slug:        "woman-in-tuxedo",
-				Character:   "🤵‍♀️",
-				UnicodeName: "woman in tuxedo",
-				CodePoint:   "U+1F935 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129334: {
-				Slug:        "Mrs.-Claus",
-				Character:   "🤶",
-				UnicodeName: "Mrs. Claus",
-				CodePoint:   "U+1F936",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129335: {
-				Slug:        "woman-shrugging",
-				Character:   "🤷‍♀️",
-				UnicodeName: "woman shrugging",
-				CodePoint:   "U+1F937 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			129336: {
-				Slug:        "woman-cartwheeling",
-				Character:   "🤸‍♀️",
-				UnicodeName: "woman cartwheeling",
-				CodePoint:   "U+1F938 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			129337: {
-				Slug:        "woman-juggling",
-				Character:   "🤹‍♀️",
-				UnicodeName: "woman juggling",
-				CodePoint:   "U+1F939 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			129338: {
-				Slug:        "person-fencing",
-				Character:   "🤺",
-				UnicodeName: "person fencing",
-				CodePoint:   "U+1F93A",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			129340: {
-				Slug:        "women-wrestling",
-				Character:   "🤼‍♀️",
-				UnicodeName: "women wrestling",
-				CodePoint:   "U+1F93C U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			129341: {
-				Slug:        "woman-playing-water-polo",
-				Character:   "🤽‍♀️",
-				UnicodeName: "woman playing water polo",
-				CodePoint:   "U+1F93D U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			129342: {
-				Slug:        "woman-playing-handball",
-				Character:   "🤾‍♀️",
-				UnicodeName: "woman playing handball",
-				CodePoint:   "U+1F93E U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-sport",
-			},
-		
-			129343: {
-				Slug:        "diving-mask",
-				Character:   "🤿",
-				UnicodeName: "diving mask",
-				CodePoint:   "U+1F93F",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129344: {
-				Slug:        "wilted-flower",
-				Character:   "🥀",
-				UnicodeName: "wilted flower",
-				CodePoint:   "U+1F940",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			129345: {
-				Slug:        "drum",
-				Character:   "🥁",
-				UnicodeName: "drum",
-				CodePoint:   "U+1F941",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			129346: {
-				Slug:        "clinking-glasses",
-				Character:   "🥂",
-				UnicodeName: "clinking glasses",
-				CodePoint:   "U+1F942",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129347: {
-				Slug:        "tumbler-glass",
-				Character:   "🥃",
-				UnicodeName: "tumbler glass",
-				CodePoint:   "U+1F943",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129348: {
-				Slug:        "spoon",
-				Character:   "🥄",
-				UnicodeName: "spoon",
-				CodePoint:   "U+1F944",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			129349: {
-				Slug:        "goal-net",
-				Character:   "🥅",
-				UnicodeName: "goal net",
-				CodePoint:   "U+1F945",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129351: {
-				Slug:        "1st-place-medal",
-				Character:   "🥇",
-				UnicodeName: "1st place medal",
-				CodePoint:   "U+1F947",
-				Group:       "Activities",
-				SubGroup:    "award-medal",
-			},
-		
-			129352: {
-				Slug:        "2nd-place-medal",
-				Character:   "🥈",
-				UnicodeName: "2nd place medal",
-				CodePoint:   "U+1F948",
-				Group:       "Activities",
-				SubGroup:    "award-medal",
-			},
-		
-			129353: {
-				Slug:        "3rd-place-medal",
-				Character:   "🥉",
-				UnicodeName: "3rd place medal",
-				CodePoint:   "U+1F949",
-				Group:       "Activities",
-				SubGroup:    "award-medal",
-			},
-		
-			129354: {
-				Slug:        "boxing-glove",
-				Character:   "🥊",
-				UnicodeName: "boxing glove",
-				CodePoint:   "U+1F94A",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129355: {
-				Slug:        "martial-arts-uniform",
-				Character:   "🥋",
-				UnicodeName: "martial arts uniform",
-				CodePoint:   "U+1F94B",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129356: {
-				Slug:        "curling-stone",
-				Character:   "🥌",
-				UnicodeName: "curling stone",
-				CodePoint:   "U+1F94C",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129357: {
-				Slug:        "lacrosse",
-				Character:   "🥍",
-				UnicodeName: "lacrosse",
-				CodePoint:   "U+1F94D",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129358: {
-				Slug:        "softball",
-				Character:   "🥎",
-				UnicodeName: "softball",
-				CodePoint:   "U+1F94E",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129359: {
-				Slug:        "flying-disc",
-				Character:   "🥏",
-				UnicodeName: "flying disc",
-				CodePoint:   "U+1F94F",
-				Group:       "Activities",
-				SubGroup:    "sport",
-			},
-		
-			129360: {
-				Slug:        "croissant",
-				Character:   "🥐",
-				UnicodeName: "croissant",
-				CodePoint:   "U+1F950",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129361: {
-				Slug:        "avocado",
-				Character:   "🥑",
-				UnicodeName: "avocado",
-				CodePoint:   "U+1F951",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129362: {
-				Slug:        "cucumber",
-				Character:   "🥒",
-				UnicodeName: "cucumber",
-				CodePoint:   "U+1F952",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129363: {
-				Slug:        "bacon",
-				Character:   "🥓",
-				UnicodeName: "bacon",
-				CodePoint:   "U+1F953",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129364: {
-				Slug:        "potato",
-				Character:   "🥔",
-				UnicodeName: "potato",
-				CodePoint:   "U+1F954",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129365: {
-				Slug:        "carrot",
-				Character:   "🥕",
-				UnicodeName: "carrot",
-				CodePoint:   "U+1F955",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129366: {
-				Slug:        "baguette-bread",
-				Character:   "🥖",
-				UnicodeName: "baguette bread",
-				CodePoint:   "U+1F956",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129367: {
-				Slug:        "green-salad",
-				Character:   "🥗",
-				UnicodeName: "green salad",
-				CodePoint:   "U+1F957",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129368: {
-				Slug:        "shallow-pan-of-food",
-				Character:   "🥘",
-				UnicodeName: "shallow pan of food",
-				CodePoint:   "U+1F958",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129369: {
-				Slug:        "stuffed-flatbread",
-				Character:   "🥙",
-				UnicodeName: "stuffed flatbread",
-				CodePoint:   "U+1F959",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129370: {
-				Slug:        "egg",
-				Character:   "🥚",
-				UnicodeName: "egg",
-				CodePoint:   "U+1F95A",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129371: {
-				Slug:        "glass-of-milk",
-				Character:   "🥛",
-				UnicodeName: "glass of milk",
-				CodePoint:   "U+1F95B",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129372: {
-				Slug:        "peanuts",
-				Character:   "🥜",
-				UnicodeName: "peanuts",
-				CodePoint:   "U+1F95C",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129373: {
-				Slug:        "kiwi-fruit",
-				Character:   "🥝",
-				UnicodeName: "kiwi fruit",
-				CodePoint:   "U+1F95D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			129374: {
-				Slug:        "pancakes",
-				Character:   "🥞",
-				UnicodeName: "pancakes",
-				CodePoint:   "U+1F95E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129375: {
-				Slug:        "dumpling",
-				Character:   "🥟",
-				UnicodeName: "dumpling",
-				CodePoint:   "U+1F95F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			129376: {
-				Slug:        "fortune-cookie",
-				Character:   "🥠",
-				UnicodeName: "fortune cookie",
-				CodePoint:   "U+1F960",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			129377: {
-				Slug:        "takeout-box",
-				Character:   "🥡",
-				UnicodeName: "takeout box",
-				CodePoint:   "U+1F961",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			129378: {
-				Slug:        "chopsticks",
-				Character:   "🥢",
-				UnicodeName: "chopsticks",
-				CodePoint:   "U+1F962",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			129379: {
-				Slug:        "bowl-with-spoon",
-				Character:   "🥣",
-				UnicodeName: "bowl with spoon",
-				CodePoint:   "U+1F963",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129380: {
-				Slug:        "cup-with-straw",
-				Character:   "🥤",
-				UnicodeName: "cup with straw",
-				CodePoint:   "U+1F964",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129381: {
-				Slug:        "coconut",
-				Character:   "🥥",
-				UnicodeName: "coconut",
-				CodePoint:   "U+1F965",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			129382: {
-				Slug:        "broccoli",
-				Character:   "🥦",
-				UnicodeName: "broccoli",
-				CodePoint:   "U+1F966",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129383: {
-				Slug:        "pie",
-				Character:   "🥧",
-				UnicodeName: "pie",
-				CodePoint:   "U+1F967",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			129384: {
-				Slug:        "pretzel",
-				Character:   "🥨",
-				UnicodeName: "pretzel",
-				CodePoint:   "U+1F968",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129385: {
-				Slug:        "cut-of-meat",
-				Character:   "🥩",
-				UnicodeName: "cut of meat",
-				CodePoint:   "U+1F969",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129386: {
-				Slug:        "sandwich",
-				Character:   "🥪",
-				UnicodeName: "sandwich",
-				CodePoint:   "U+1F96A",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129387: {
-				Slug:        "canned-food",
-				Character:   "🥫",
-				UnicodeName: "canned food",
-				CodePoint:   "U+1F96B",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129388: {
-				Slug:        "leafy-green",
-				Character:   "🥬",
-				UnicodeName: "leafy green",
-				CodePoint:   "U+1F96C",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129389: {
-				Slug:        "mango",
-				Character:   "🥭",
-				UnicodeName: "mango",
-				CodePoint:   "U+1F96D",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			129390: {
-				Slug:        "moon-cake",
-				Character:   "🥮",
-				UnicodeName: "moon cake",
-				CodePoint:   "U+1F96E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-asian",
-			},
-		
-			129391: {
-				Slug:        "bagel",
-				Character:   "🥯",
-				UnicodeName: "bagel",
-				CodePoint:   "U+1F96F",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129392: {
-				Slug:        "smiling-face-with-hearts",
-				Character:   "🥰",
-				UnicodeName: "smiling face with hearts",
-				CodePoint:   "U+1F970",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			129393: {
-				Slug:        "yawning-face",
-				Character:   "🥱",
-				UnicodeName: "yawning face",
-				CodePoint:   "U+1F971",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			129394: {
-				Slug:        "smiling-face-with-tear",
-				Character:   "🥲",
-				UnicodeName: "smiling face with tear",
-				CodePoint:   "U+1F972",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-affection",
-			},
-		
-			129395: {
-				Slug:        "partying-face",
-				Character:   "🥳",
-				UnicodeName: "partying face",
-				CodePoint:   "U+1F973",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hat",
-			},
-		
-			129396: {
-				Slug:        "woozy-face",
-				Character:   "🥴",
-				UnicodeName: "woozy face",
-				CodePoint:   "U+1F974",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129397: {
-				Slug:        "hot-face",
-				Character:   "🥵",
-				UnicodeName: "hot face",
-				CodePoint:   "U+1F975",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129398: {
-				Slug:        "cold-face",
-				Character:   "🥶",
-				UnicodeName: "cold face",
-				CodePoint:   "U+1F976",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-unwell",
-			},
-		
-			129399: {
-				Slug:        "ninja",
-				Character:   "🥷",
-				UnicodeName: "ninja",
-				CodePoint:   "U+1F977",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129400: {
-				Slug:        "disguised-face",
-				Character:   "🥸",
-				UnicodeName: "disguised face",
-				CodePoint:   "U+1F978",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hat",
-			},
-		
-			129401: {
-				Slug:        "⊛-face-holding-back-tears",
-				Character:   "🥹",
-				UnicodeName: "⊛ face holding back tears",
-				CodePoint:   "U+1F979",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			129402: {
-				Slug:        "pleading-face",
-				Character:   "🥺",
-				UnicodeName: "pleading face",
-				CodePoint:   "U+1F97A",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			129403: {
-				Slug:        "sari",
-				Character:   "🥻",
-				UnicodeName: "sari",
-				CodePoint:   "U+1F97B",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129404: {
-				Slug:        "lab-coat",
-				Character:   "🥼",
-				UnicodeName: "lab coat",
-				CodePoint:   "U+1F97C",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129405: {
-				Slug:        "goggles",
-				Character:   "🥽",
-				UnicodeName: "goggles",
-				CodePoint:   "U+1F97D",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129406: {
-				Slug:        "hiking-boot",
-				Character:   "🥾",
-				UnicodeName: "hiking boot",
-				CodePoint:   "U+1F97E",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129407: {
-				Slug:        "flat-shoe",
-				Character:   "🥿",
-				UnicodeName: "flat shoe",
-				CodePoint:   "U+1F97F",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129408: {
-				Slug:        "crab",
-				Character:   "🦀",
-				UnicodeName: "crab",
-				CodePoint:   "U+1F980",
-				Group:       "Food & Drink",
-				SubGroup:    "food-marine",
-			},
-		
-			129409: {
-				Slug:        "lion",
-				Character:   "🦁",
-				UnicodeName: "lion",
-				CodePoint:   "U+1F981",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129410: {
-				Slug:        "scorpion",
-				Character:   "🦂",
-				UnicodeName: "scorpion",
-				CodePoint:   "U+1F982",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129411: {
-				Slug:        "turkey",
-				Character:   "🦃",
-				UnicodeName: "turkey",
-				CodePoint:   "U+1F983",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129412: {
-				Slug:        "unicorn",
-				Character:   "🦄",
-				UnicodeName: "unicorn",
-				CodePoint:   "U+1F984",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129413: {
-				Slug:        "eagle",
-				Character:   "🦅",
-				UnicodeName: "eagle",
-				CodePoint:   "U+1F985",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129414: {
-				Slug:        "duck",
-				Character:   "🦆",
-				UnicodeName: "duck",
-				CodePoint:   "U+1F986",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129415: {
-				Slug:        "bat",
-				Character:   "🦇",
-				UnicodeName: "bat",
-				CodePoint:   "U+1F987",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129416: {
-				Slug:        "shark",
-				Character:   "🦈",
-				UnicodeName: "shark",
-				CodePoint:   "U+1F988",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			129417: {
-				Slug:        "owl",
-				Character:   "🦉",
-				UnicodeName: "owl",
-				CodePoint:   "U+1F989",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129418: {
-				Slug:        "fox",
-				Character:   "🦊",
-				UnicodeName: "fox",
-				CodePoint:   "U+1F98A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129419: {
-				Slug:        "butterfly",
-				Character:   "🦋",
-				UnicodeName: "butterfly",
-				CodePoint:   "U+1F98B",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129420: {
-				Slug:        "deer",
-				Character:   "🦌",
-				UnicodeName: "deer",
-				CodePoint:   "U+1F98C",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129421: {
-				Slug:        "gorilla",
-				Character:   "🦍",
-				UnicodeName: "gorilla",
-				CodePoint:   "U+1F98D",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129422: {
-				Slug:        "lizard",
-				Character:   "🦎",
-				UnicodeName: "lizard",
-				CodePoint:   "U+1F98E",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			129423: {
-				Slug:        "rhinoceros",
-				Character:   "🦏",
-				UnicodeName: "rhinoceros",
-				CodePoint:   "U+1F98F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129424: {
-				Slug:        "shrimp",
-				Character:   "🦐",
-				UnicodeName: "shrimp",
-				CodePoint:   "U+1F990",
-				Group:       "Food & Drink",
-				SubGroup:    "food-marine",
-			},
-		
-			129425: {
-				Slug:        "squid",
-				Character:   "🦑",
-				UnicodeName: "squid",
-				CodePoint:   "U+1F991",
-				Group:       "Food & Drink",
-				SubGroup:    "food-marine",
-			},
-		
-			129426: {
-				Slug:        "giraffe",
-				Character:   "🦒",
-				UnicodeName: "giraffe",
-				CodePoint:   "U+1F992",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129427: {
-				Slug:        "zebra",
-				Character:   "🦓",
-				UnicodeName: "zebra",
-				CodePoint:   "U+1F993",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129428: {
-				Slug:        "hedgehog",
-				Character:   "🦔",
-				UnicodeName: "hedgehog",
-				CodePoint:   "U+1F994",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129429: {
-				Slug:        "sauropod",
-				Character:   "🦕",
-				UnicodeName: "sauropod",
-				CodePoint:   "U+1F995",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			129430: {
-				Slug:        "T-Rex",
-				Character:   "🦖",
-				UnicodeName: "T-Rex",
-				CodePoint:   "U+1F996",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-reptile",
-			},
-		
-			129431: {
-				Slug:        "cricket",
-				Character:   "🦗",
-				UnicodeName: "cricket",
-				CodePoint:   "U+1F997",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129432: {
-				Slug:        "kangaroo",
-				Character:   "🦘",
-				UnicodeName: "kangaroo",
-				CodePoint:   "U+1F998",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129433: {
-				Slug:        "llama",
-				Character:   "🦙",
-				UnicodeName: "llama",
-				CodePoint:   "U+1F999",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129434: {
-				Slug:        "peacock",
-				Character:   "🦚",
-				UnicodeName: "peacock",
-				CodePoint:   "U+1F99A",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129435: {
-				Slug:        "hippopotamus",
-				Character:   "🦛",
-				UnicodeName: "hippopotamus",
-				CodePoint:   "U+1F99B",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129436: {
-				Slug:        "parrot",
-				Character:   "🦜",
-				UnicodeName: "parrot",
-				CodePoint:   "U+1F99C",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129437: {
-				Slug:        "raccoon",
-				Character:   "🦝",
-				UnicodeName: "raccoon",
-				CodePoint:   "U+1F99D",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129438: {
-				Slug:        "lobster",
-				Character:   "🦞",
-				UnicodeName: "lobster",
-				CodePoint:   "U+1F99E",
-				Group:       "Food & Drink",
-				SubGroup:    "food-marine",
-			},
-		
-			129439: {
-				Slug:        "mosquito",
-				Character:   "🦟",
-				UnicodeName: "mosquito",
-				CodePoint:   "U+1F99F",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129440: {
-				Slug:        "microbe",
-				Character:   "🦠",
-				UnicodeName: "microbe",
-				CodePoint:   "U+1F9A0",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129441: {
-				Slug:        "badger",
-				Character:   "🦡",
-				UnicodeName: "badger",
-				CodePoint:   "U+1F9A1",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129442: {
-				Slug:        "swan",
-				Character:   "🦢",
-				UnicodeName: "swan",
-				CodePoint:   "U+1F9A2",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129443: {
-				Slug:        "mammoth",
-				Character:   "🦣",
-				UnicodeName: "mammoth",
-				CodePoint:   "U+1F9A3",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129444: {
-				Slug:        "dodo",
-				Character:   "🦤",
-				UnicodeName: "dodo",
-				CodePoint:   "U+1F9A4",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129445: {
-				Slug:        "sloth",
-				Character:   "🦥",
-				UnicodeName: "sloth",
-				CodePoint:   "U+1F9A5",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129446: {
-				Slug:        "otter",
-				Character:   "🦦",
-				UnicodeName: "otter",
-				CodePoint:   "U+1F9A6",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129447: {
-				Slug:        "orangutan",
-				Character:   "🦧",
-				UnicodeName: "orangutan",
-				CodePoint:   "U+1F9A7",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129448: {
-				Slug:        "skunk",
-				Character:   "🦨",
-				UnicodeName: "skunk",
-				CodePoint:   "U+1F9A8",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129449: {
-				Slug:        "flamingo",
-				Character:   "🦩",
-				UnicodeName: "flamingo",
-				CodePoint:   "U+1F9A9",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129450: {
-				Slug:        "oyster",
-				Character:   "🦪",
-				UnicodeName: "oyster",
-				CodePoint:   "U+1F9AA",
-				Group:       "Food & Drink",
-				SubGroup:    "food-marine",
-			},
-		
-			129451: {
-				Slug:        "beaver",
-				Character:   "🦫",
-				UnicodeName: "beaver",
-				CodePoint:   "U+1F9AB",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129452: {
-				Slug:        "bison",
-				Character:   "🦬",
-				UnicodeName: "bison",
-				CodePoint:   "U+1F9AC",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129453: {
-				Slug:        "seal",
-				Character:   "🦭",
-				UnicodeName: "seal",
-				CodePoint:   "U+1F9AD",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			129454: {
-				Slug:        "guide-dog",
-				Character:   "🦮",
-				UnicodeName: "guide dog",
-				CodePoint:   "U+1F9AE",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-mammal",
-			},
-		
-			129455: {
-				Slug:        "white-cane",
-				Character:   "🦯",
-				UnicodeName: "white cane",
-				CodePoint:   "U+1F9AF",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129456: {
-				Slug:        "red-hair",
-				Character:   "🦰",
-				UnicodeName: "red hair",
-				CodePoint:   "U+1F9B0",
-				Group:       "Component",
-				SubGroup:    "hair-style",
-			},
-		
-			129457: {
-				Slug:        "curly-hair",
-				Character:   "🦱",
-				UnicodeName: "curly hair",
-				CodePoint:   "U+1F9B1",
-				Group:       "Component",
-				SubGroup:    "hair-style",
-			},
-		
-			129458: {
-				Slug:        "bald",
-				Character:   "🦲",
-				UnicodeName: "bald",
-				CodePoint:   "U+1F9B2",
-				Group:       "Component",
-				SubGroup:    "hair-style",
-			},
-		
-			129459: {
-				Slug:        "white-hair",
-				Character:   "🦳",
-				UnicodeName: "white hair",
-				CodePoint:   "U+1F9B3",
-				Group:       "Component",
-				SubGroup:    "hair-style",
-			},
-		
-			129460: {
-				Slug:        "bone",
-				Character:   "🦴",
-				UnicodeName: "bone",
-				CodePoint:   "U+1F9B4",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129461: {
-				Slug:        "leg",
-				Character:   "🦵",
-				UnicodeName: "leg",
-				CodePoint:   "U+1F9B5",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129462: {
-				Slug:        "foot",
-				Character:   "🦶",
-				UnicodeName: "foot",
-				CodePoint:   "U+1F9B6",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129463: {
-				Slug:        "tooth",
-				Character:   "🦷",
-				UnicodeName: "tooth",
-				CodePoint:   "U+1F9B7",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129464: {
-				Slug:        "woman-superhero",
-				Character:   "🦸‍♀️",
-				UnicodeName: "woman superhero",
-				CodePoint:   "U+1F9B8 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129465: {
-				Slug:        "woman-supervillain",
-				Character:   "🦹‍♀️",
-				UnicodeName: "woman supervillain",
-				CodePoint:   "U+1F9B9 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129466: {
-				Slug:        "safety-vest",
-				Character:   "🦺",
-				UnicodeName: "safety vest",
-				CodePoint:   "U+1F9BA",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129467: {
-				Slug:        "ear-with-hearing-aid",
-				Character:   "🦻",
-				UnicodeName: "ear with hearing aid",
-				CodePoint:   "U+1F9BB",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129468: {
-				Slug:        "motorized-wheelchair",
-				Character:   "🦼",
-				UnicodeName: "motorized wheelchair",
-				CodePoint:   "U+1F9BC",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			129469: {
-				Slug:        "manual-wheelchair",
-				Character:   "🦽",
-				UnicodeName: "manual wheelchair",
-				CodePoint:   "U+1F9BD",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-ground",
-			},
-		
-			129470: {
-				Slug:        "mechanical-arm",
-				Character:   "🦾",
-				UnicodeName: "mechanical arm",
-				CodePoint:   "U+1F9BE",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129471: {
-				Slug:        "mechanical-leg",
-				Character:   "🦿",
-				UnicodeName: "mechanical leg",
-				CodePoint:   "U+1F9BF",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129472: {
-				Slug:        "cheese-wedge",
-				Character:   "🧀",
-				UnicodeName: "cheese wedge",
-				CodePoint:   "U+1F9C0",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129473: {
-				Slug:        "cupcake",
-				Character:   "🧁",
-				UnicodeName: "cupcake",
-				CodePoint:   "U+1F9C1",
-				Group:       "Food & Drink",
-				SubGroup:    "food-sweet",
-			},
-		
-			129474: {
-				Slug:        "salt",
-				Character:   "🧂",
-				UnicodeName: "salt",
-				CodePoint:   "U+1F9C2",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129475: {
-				Slug:        "beverage-box",
-				Character:   "🧃",
-				UnicodeName: "beverage box",
-				CodePoint:   "U+1F9C3",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129476: {
-				Slug:        "garlic",
-				Character:   "🧄",
-				UnicodeName: "garlic",
-				CodePoint:   "U+1F9C4",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129477: {
-				Slug:        "onion",
-				Character:   "🧅",
-				UnicodeName: "onion",
-				CodePoint:   "U+1F9C5",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129478: {
-				Slug:        "falafel",
-				Character:   "🧆",
-				UnicodeName: "falafel",
-				CodePoint:   "U+1F9C6",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129479: {
-				Slug:        "waffle",
-				Character:   "🧇",
-				UnicodeName: "waffle",
-				CodePoint:   "U+1F9C7",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129480: {
-				Slug:        "butter",
-				Character:   "🧈",
-				UnicodeName: "butter",
-				CodePoint:   "U+1F9C8",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129481: {
-				Slug:        "mate",
-				Character:   "🧉",
-				UnicodeName: "mate",
-				CodePoint:   "U+1F9C9",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129482: {
-				Slug:        "ice",
-				Character:   "🧊",
-				UnicodeName: "ice",
-				CodePoint:   "U+1F9CA",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129483: {
-				Slug:        "bubble-tea",
-				Character:   "🧋",
-				UnicodeName: "bubble tea",
-				CodePoint:   "U+1F9CB",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129484: {
-				Slug:        "⊛-troll",
-				Character:   "🧌",
-				UnicodeName: "⊛ troll",
-				CodePoint:   "U+1F9CC",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129485: {
-				Slug:        "woman-standing",
-				Character:   "🧍‍♀️",
-				UnicodeName: "woman standing",
-				CodePoint:   "U+1F9CD U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			129486: {
-				Slug:        "woman-kneeling",
-				Character:   "🧎‍♀️",
-				UnicodeName: "woman kneeling",
-				CodePoint:   "U+1F9CE U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			129487: {
-				Slug:        "deaf-woman",
-				Character:   "🧏‍♀️",
-				UnicodeName: "deaf woman",
-				CodePoint:   "U+1F9CF U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-gesture",
-			},
-		
-			129488: {
-				Slug:        "face-with-monocle",
-				Character:   "🧐",
-				UnicodeName: "face with monocle",
-				CodePoint:   "U+1F9D0",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-glasses",
-			},
-		
-			129489: {
-				Slug:        "people-holding-hands",
-				Character:   "🧑‍🤝‍🧑",
-				UnicodeName: "people holding hands",
-				CodePoint:   "U+1F9D1 U+200D U+1F91D U+200D U+1F9D1",
-				Group:       "People & Body",
-				SubGroup:    "family",
-			},
-		
-			129490: {
-				Slug:        "child",
-				Character:   "🧒",
-				UnicodeName: "child",
-				CodePoint:   "U+1F9D2",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			129491: {
-				Slug:        "older-person",
-				Character:   "🧓",
-				UnicodeName: "older person",
-				CodePoint:   "U+1F9D3",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			129492: {
-				Slug:        "woman:-beard",
-				Character:   "🧔‍♀️",
-				UnicodeName: "woman: beard",
-				CodePoint:   "U+1F9D4 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person",
-			},
-		
-			129493: {
-				Slug:        "woman-with-headscarf",
-				Character:   "🧕",
-				UnicodeName: "woman with headscarf",
-				CodePoint:   "U+1F9D5",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129494: {
-				Slug:        "woman-in-steamy-room",
-				Character:   "🧖‍♀️",
-				UnicodeName: "woman in steamy room",
-				CodePoint:   "U+1F9D6 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			129495: {
-				Slug:        "woman-climbing",
-				Character:   "🧗‍♀️",
-				UnicodeName: "woman climbing",
-				CodePoint:   "U+1F9D7 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-activity",
-			},
-		
-			129496: {
-				Slug:        "woman-in-lotus-position",
-				Character:   "🧘‍♀️",
-				UnicodeName: "woman in lotus position",
-				CodePoint:   "U+1F9D8 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-resting",
-			},
-		
-			129497: {
-				Slug:        "woman-mage",
-				Character:   "🧙‍♀️",
-				UnicodeName: "woman mage",
-				CodePoint:   "U+1F9D9 U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129498: {
-				Slug:        "woman-fairy",
-				Character:   "🧚‍♀️",
-				UnicodeName: "woman fairy",
-				CodePoint:   "U+1F9DA U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129499: {
-				Slug:        "woman-vampire",
-				Character:   "🧛‍♀️",
-				UnicodeName: "woman vampire",
-				CodePoint:   "U+1F9DB U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129500: {
-				Slug:        "mermaid",
-				Character:   "🧜‍♀️",
-				UnicodeName: "mermaid",
-				CodePoint:   "U+1F9DC U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129501: {
-				Slug:        "woman-elf",
-				Character:   "🧝‍♀️",
-				UnicodeName: "woman elf",
-				CodePoint:   "U+1F9DD U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129502: {
-				Slug:        "woman-genie",
-				Character:   "🧞‍♀️",
-				UnicodeName: "woman genie",
-				CodePoint:   "U+1F9DE U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129503: {
-				Slug:        "woman-zombie",
-				Character:   "🧟‍♀️",
-				UnicodeName: "woman zombie",
-				CodePoint:   "U+1F9DF U+200D U+2640 U+FE0F",
-				Group:       "People & Body",
-				SubGroup:    "person-fantasy",
-			},
-		
-			129504: {
-				Slug:        "brain",
-				Character:   "🧠",
-				UnicodeName: "brain",
-				CodePoint:   "U+1F9E0",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129505: {
-				Slug:        "orange-heart",
-				Character:   "🧡",
-				UnicodeName: "orange heart",
-				CodePoint:   "U+1F9E1",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "emotion",
-			},
-		
-			129506: {
-				Slug:        "billed-cap",
-				Character:   "🧢",
-				UnicodeName: "billed cap",
-				CodePoint:   "U+1F9E2",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129507: {
-				Slug:        "scarf",
-				Character:   "🧣",
-				UnicodeName: "scarf",
-				CodePoint:   "U+1F9E3",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129508: {
-				Slug:        "gloves",
-				Character:   "🧤",
-				UnicodeName: "gloves",
-				CodePoint:   "U+1F9E4",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129509: {
-				Slug:        "coat",
-				Character:   "🧥",
-				UnicodeName: "coat",
-				CodePoint:   "U+1F9E5",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129510: {
-				Slug:        "socks",
-				Character:   "🧦",
-				UnicodeName: "socks",
-				CodePoint:   "U+1F9E6",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129511: {
-				Slug:        "red-envelope",
-				Character:   "🧧",
-				UnicodeName: "red envelope",
-				CodePoint:   "U+1F9E7",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			129512: {
-				Slug:        "firecracker",
-				Character:   "🧨",
-				UnicodeName: "firecracker",
-				CodePoint:   "U+1F9E8",
-				Group:       "Activities",
-				SubGroup:    "event",
-			},
-		
-			129513: {
-				Slug:        "puzzle-piece",
-				Character:   "🧩",
-				UnicodeName: "puzzle piece",
-				CodePoint:   "U+1F9E9",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129514: {
-				Slug:        "test-tube",
-				Character:   "🧪",
-				UnicodeName: "test tube",
-				CodePoint:   "U+1F9EA",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			129515: {
-				Slug:        "petri-dish",
-				Character:   "🧫",
-				UnicodeName: "petri dish",
-				CodePoint:   "U+1F9EB",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			129516: {
-				Slug:        "dna",
-				Character:   "🧬",
-				UnicodeName: "dna",
-				CodePoint:   "U+1F9EC",
-				Group:       "Objects",
-				SubGroup:    "science",
-			},
-		
-			129517: {
-				Slug:        "compass",
-				Character:   "🧭",
-				UnicodeName: "compass",
-				CodePoint:   "U+1F9ED",
-				Group:       "Travel & Places",
-				SubGroup:    "place-map",
-			},
-		
-			129518: {
-				Slug:        "abacus",
-				Character:   "🧮",
-				UnicodeName: "abacus",
-				CodePoint:   "U+1F9EE",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			129519: {
-				Slug:        "fire-extinguisher",
-				Character:   "🧯",
-				UnicodeName: "fire extinguisher",
-				CodePoint:   "U+1F9EF",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129520: {
-				Slug:        "toolbox",
-				Character:   "🧰",
-				UnicodeName: "toolbox",
-				CodePoint:   "U+1F9F0",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129521: {
-				Slug:        "brick",
-				Character:   "🧱",
-				UnicodeName: "brick",
-				CodePoint:   "U+1F9F1",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			129522: {
-				Slug:        "magnet",
-				Character:   "🧲",
-				UnicodeName: "magnet",
-				CodePoint:   "U+1F9F2",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129523: {
-				Slug:        "luggage",
-				Character:   "🧳",
-				UnicodeName: "luggage",
-				CodePoint:   "U+1F9F3",
-				Group:       "Travel & Places",
-				SubGroup:    "hotel",
-			},
-		
-			129524: {
-				Slug:        "lotion-bottle",
-				Character:   "🧴",
-				UnicodeName: "lotion bottle",
-				CodePoint:   "U+1F9F4",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129525: {
-				Slug:        "thread",
-				Character:   "🧵",
-				UnicodeName: "thread",
-				CodePoint:   "U+1F9F5",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			129526: {
-				Slug:        "yarn",
-				Character:   "🧶",
-				UnicodeName: "yarn",
-				CodePoint:   "U+1F9F6",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			129527: {
-				Slug:        "safety-pin",
-				Character:   "🧷",
-				UnicodeName: "safety pin",
-				CodePoint:   "U+1F9F7",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129528: {
-				Slug:        "teddy-bear",
-				Character:   "🧸",
-				UnicodeName: "teddy bear",
-				CodePoint:   "U+1F9F8",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129529: {
-				Slug:        "broom",
-				Character:   "🧹",
-				UnicodeName: "broom",
-				CodePoint:   "U+1F9F9",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129530: {
-				Slug:        "basket",
-				Character:   "🧺",
-				UnicodeName: "basket",
-				CodePoint:   "U+1F9FA",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129531: {
-				Slug:        "roll-of-paper",
-				Character:   "🧻",
-				UnicodeName: "roll of paper",
-				CodePoint:   "U+1F9FB",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129532: {
-				Slug:        "soap",
-				Character:   "🧼",
-				UnicodeName: "soap",
-				CodePoint:   "U+1F9FC",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129533: {
-				Slug:        "sponge",
-				Character:   "🧽",
-				UnicodeName: "sponge",
-				CodePoint:   "U+1F9FD",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129534: {
-				Slug:        "receipt",
-				Character:   "🧾",
-				UnicodeName: "receipt",
-				CodePoint:   "U+1F9FE",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			129535: {
-				Slug:        "nazar-amulet",
-				Character:   "🧿",
-				UnicodeName: "nazar amulet",
-				CodePoint:   "U+1F9FF",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129648: {
-				Slug:        "ballet-shoes",
-				Character:   "🩰",
-				UnicodeName: "ballet shoes",
-				CodePoint:   "U+1FA70",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129649: {
-				Slug:        "one-piece-swimsuit",
-				Character:   "🩱",
-				UnicodeName: "one-piece swimsuit",
-				CodePoint:   "U+1FA71",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129650: {
-				Slug:        "briefs",
-				Character:   "🩲",
-				UnicodeName: "briefs",
-				CodePoint:   "U+1FA72",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129651: {
-				Slug:        "shorts",
-				Character:   "🩳",
-				UnicodeName: "shorts",
-				CodePoint:   "U+1FA73",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129652: {
-				Slug:        "thong-sandal",
-				Character:   "🩴",
-				UnicodeName: "thong sandal",
-				CodePoint:   "U+1FA74",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129656: {
-				Slug:        "drop-of-blood",
-				Character:   "🩸",
-				UnicodeName: "drop of blood",
-				CodePoint:   "U+1FA78",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			129657: {
-				Slug:        "adhesive-bandage",
-				Character:   "🩹",
-				UnicodeName: "adhesive bandage",
-				CodePoint:   "U+1FA79",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			129658: {
-				Slug:        "stethoscope",
-				Character:   "🩺",
-				UnicodeName: "stethoscope",
-				CodePoint:   "U+1FA7A",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			129659: {
-				Slug:        "⊛-x-ray",
-				Character:   "🩻",
-				UnicodeName: "⊛ x-ray",
-				CodePoint:   "U+1FA7B",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			129660: {
-				Slug:        "⊛-crutch",
-				Character:   "🩼",
-				UnicodeName: "⊛ crutch",
-				CodePoint:   "U+1FA7C",
-				Group:       "Objects",
-				SubGroup:    "medical",
-			},
-		
-			129664: {
-				Slug:        "yo-yo",
-				Character:   "🪀",
-				UnicodeName: "yo-yo",
-				CodePoint:   "U+1FA80",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129665: {
-				Slug:        "kite",
-				Character:   "🪁",
-				UnicodeName: "kite",
-				CodePoint:   "U+1FA81",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129666: {
-				Slug:        "parachute",
-				Character:   "🪂",
-				UnicodeName: "parachute",
-				CodePoint:   "U+1FA82",
-				Group:       "Travel & Places",
-				SubGroup:    "transport-air",
-			},
-		
-			129667: {
-				Slug:        "boomerang",
-				Character:   "🪃",
-				UnicodeName: "boomerang",
-				CodePoint:   "U+1FA83",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129668: {
-				Slug:        "magic-wand",
-				Character:   "🪄",
-				UnicodeName: "magic wand",
-				CodePoint:   "U+1FA84",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129669: {
-				Slug:        "piñata",
-				Character:   "🪅",
-				UnicodeName: "piñata",
-				CodePoint:   "U+1FA85",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129670: {
-				Slug:        "nesting-dolls",
-				Character:   "🪆",
-				UnicodeName: "nesting dolls",
-				CodePoint:   "U+1FA86",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129680: {
-				Slug:        "ringed-planet",
-				Character:   "🪐",
-				UnicodeName: "ringed planet",
-				CodePoint:   "U+1FA90",
-				Group:       "Travel & Places",
-				SubGroup:    "sky & weather",
-			},
-		
-			129681: {
-				Slug:        "chair",
-				Character:   "🪑",
-				UnicodeName: "chair",
-				CodePoint:   "U+1FA91",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129682: {
-				Slug:        "razor",
-				Character:   "🪒",
-				UnicodeName: "razor",
-				CodePoint:   "U+1FA92",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129683: {
-				Slug:        "axe",
-				Character:   "🪓",
-				UnicodeName: "axe",
-				CodePoint:   "U+1FA93",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129684: {
-				Slug:        "diya-lamp",
-				Character:   "🪔",
-				UnicodeName: "diya lamp",
-				CodePoint:   "U+1FA94",
-				Group:       "Objects",
-				SubGroup:    "light & video",
-			},
-		
-			129685: {
-				Slug:        "banjo",
-				Character:   "🪕",
-				UnicodeName: "banjo",
-				CodePoint:   "U+1FA95",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			129686: {
-				Slug:        "military-helmet",
-				Character:   "🪖",
-				UnicodeName: "military helmet",
-				CodePoint:   "U+1FA96",
-				Group:       "Objects",
-				SubGroup:    "clothing",
-			},
-		
-			129687: {
-				Slug:        "accordion",
-				Character:   "🪗",
-				UnicodeName: "accordion",
-				CodePoint:   "U+1FA97",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			129688: {
-				Slug:        "long-drum",
-				Character:   "🪘",
-				UnicodeName: "long drum",
-				CodePoint:   "U+1FA98",
-				Group:       "Objects",
-				SubGroup:    "musical-instrument",
-			},
-		
-			129689: {
-				Slug:        "coin",
-				Character:   "🪙",
-				UnicodeName: "coin",
-				CodePoint:   "U+1FA99",
-				Group:       "Objects",
-				SubGroup:    "money",
-			},
-		
-			129690: {
-				Slug:        "carpentry-saw",
-				Character:   "🪚",
-				UnicodeName: "carpentry saw",
-				CodePoint:   "U+1FA9A",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129691: {
-				Slug:        "screwdriver",
-				Character:   "🪛",
-				UnicodeName: "screwdriver",
-				CodePoint:   "U+1FA9B",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129692: {
-				Slug:        "ladder",
-				Character:   "🪜",
-				UnicodeName: "ladder",
-				CodePoint:   "U+1FA9C",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129693: {
-				Slug:        "hook",
-				Character:   "🪝",
-				UnicodeName: "hook",
-				CodePoint:   "U+1FA9D",
-				Group:       "Objects",
-				SubGroup:    "tool",
-			},
-		
-			129694: {
-				Slug:        "mirror",
-				Character:   "🪞",
-				UnicodeName: "mirror",
-				CodePoint:   "U+1FA9E",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129695: {
-				Slug:        "window",
-				Character:   "🪟",
-				UnicodeName: "window",
-				CodePoint:   "U+1FA9F",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129696: {
-				Slug:        "plunger",
-				Character:   "🪠",
-				UnicodeName: "plunger",
-				CodePoint:   "U+1FAA0",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129697: {
-				Slug:        "sewing-needle",
-				Character:   "🪡",
-				UnicodeName: "sewing needle",
-				CodePoint:   "U+1FAA1",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			129698: {
-				Slug:        "knot",
-				Character:   "🪢",
-				UnicodeName: "knot",
-				CodePoint:   "U+1FAA2",
-				Group:       "Activities",
-				SubGroup:    "arts & crafts",
-			},
-		
-			129699: {
-				Slug:        "bucket",
-				Character:   "🪣",
-				UnicodeName: "bucket",
-				CodePoint:   "U+1FAA3",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129700: {
-				Slug:        "mouse-trap",
-				Character:   "🪤",
-				UnicodeName: "mouse trap",
-				CodePoint:   "U+1FAA4",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129701: {
-				Slug:        "toothbrush",
-				Character:   "🪥",
-				UnicodeName: "toothbrush",
-				CodePoint:   "U+1FAA5",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129702: {
-				Slug:        "headstone",
-				Character:   "🪦",
-				UnicodeName: "headstone",
-				CodePoint:   "U+1FAA6",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			129703: {
-				Slug:        "placard",
-				Character:   "🪧",
-				UnicodeName: "placard",
-				CodePoint:   "U+1FAA7",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			129704: {
-				Slug:        "rock",
-				Character:   "🪨",
-				UnicodeName: "rock",
-				CodePoint:   "U+1FAA8",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			129705: {
-				Slug:        "⊛-mirror-ball",
-				Character:   "🪩",
-				UnicodeName: "⊛ mirror ball",
-				CodePoint:   "U+1FAA9",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129706: {
-				Slug:        "⊛-identification-card",
-				Character:   "🪪",
-				UnicodeName: "⊛ identification card",
-				CodePoint:   "U+1FAAA",
-				Group:       "Objects",
-				SubGroup:    "other-object",
-			},
-		
-			129707: {
-				Slug:        "⊛-low-battery",
-				Character:   "🪫",
-				UnicodeName: "⊛ low battery",
-				CodePoint:   "U+1FAAB",
-				Group:       "Objects",
-				SubGroup:    "computer",
-			},
-		
-			129708: {
-				Slug:        "⊛-hamsa",
-				Character:   "🪬",
-				UnicodeName: "⊛ hamsa",
-				CodePoint:   "U+1FAAC",
-				Group:       "Activities",
-				SubGroup:    "game",
-			},
-		
-			129712: {
-				Slug:        "fly",
-				Character:   "🪰",
-				UnicodeName: "fly",
-				CodePoint:   "U+1FAB0",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129713: {
-				Slug:        "worm",
-				Character:   "🪱",
-				UnicodeName: "worm",
-				CodePoint:   "U+1FAB1",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129714: {
-				Slug:        "beetle",
-				Character:   "🪲",
-				UnicodeName: "beetle",
-				CodePoint:   "U+1FAB2",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129715: {
-				Slug:        "cockroach",
-				Character:   "🪳",
-				UnicodeName: "cockroach",
-				CodePoint:   "U+1FAB3",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bug",
-			},
-		
-			129716: {
-				Slug:        "potted-plant",
-				Character:   "🪴",
-				UnicodeName: "potted plant",
-				CodePoint:   "U+1FAB4",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			129717: {
-				Slug:        "wood",
-				Character:   "🪵",
-				UnicodeName: "wood",
-				CodePoint:   "U+1FAB5",
-				Group:       "Travel & Places",
-				SubGroup:    "place-building",
-			},
-		
-			129718: {
-				Slug:        "feather",
-				Character:   "🪶",
-				UnicodeName: "feather",
-				CodePoint:   "U+1FAB6",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-bird",
-			},
-		
-			129719: {
-				Slug:        "⊛-lotus",
-				Character:   "🪷",
-				UnicodeName: "⊛ lotus",
-				CodePoint:   "U+1FAB7",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-flower",
-			},
-		
-			129720: {
-				Slug:        "⊛-coral",
-				Character:   "🪸",
-				UnicodeName: "⊛ coral",
-				CodePoint:   "U+1FAB8",
-				Group:       "Animals & Nature",
-				SubGroup:    "animal-marine",
-			},
-		
-			129721: {
-				Slug:        "⊛-empty-nest",
-				Character:   "🪹",
-				UnicodeName: "⊛ empty nest",
-				CodePoint:   "U+1FAB9",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			129722: {
-				Slug:        "⊛-nest-with-eggs",
-				Character:   "🪺",
-				UnicodeName: "⊛ nest with eggs",
-				CodePoint:   "U+1FABA",
-				Group:       "Animals & Nature",
-				SubGroup:    "plant-other",
-			},
-		
-			129728: {
-				Slug:        "anatomical-heart",
-				Character:   "🫀",
-				UnicodeName: "anatomical heart",
-				CodePoint:   "U+1FAC0",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129729: {
-				Slug:        "lungs",
-				Character:   "🫁",
-				UnicodeName: "lungs",
-				CodePoint:   "U+1FAC1",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129730: {
-				Slug:        "people-hugging",
-				Character:   "🫂",
-				UnicodeName: "people hugging",
-				CodePoint:   "U+1FAC2",
-				Group:       "People & Body",
-				SubGroup:    "person-symbol",
-			},
-		
-			129731: {
-				Slug:        "⊛-pregnant-man",
-				Character:   "🫃",
-				UnicodeName: "⊛ pregnant man",
-				CodePoint:   "U+1FAC3",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129732: {
-				Slug:        "⊛-pregnant-person",
-				Character:   "🫄",
-				UnicodeName: "⊛ pregnant person",
-				CodePoint:   "U+1FAC4",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129733: {
-				Slug:        "⊛-person-with-crown",
-				Character:   "🫅",
-				UnicodeName: "⊛ person with crown",
-				CodePoint:   "U+1FAC5",
-				Group:       "People & Body",
-				SubGroup:    "person-role",
-			},
-		
-			129744: {
-				Slug:        "blueberries",
-				Character:   "🫐",
-				UnicodeName: "blueberries",
-				CodePoint:   "U+1FAD0",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			129745: {
-				Slug:        "bell-pepper",
-				Character:   "🫑",
-				UnicodeName: "bell pepper",
-				CodePoint:   "U+1FAD1",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129746: {
-				Slug:        "olive",
-				Character:   "🫒",
-				UnicodeName: "olive",
-				CodePoint:   "U+1FAD2",
-				Group:       "Food & Drink",
-				SubGroup:    "food-fruit",
-			},
-		
-			129747: {
-				Slug:        "flatbread",
-				Character:   "🫓",
-				UnicodeName: "flatbread",
-				CodePoint:   "U+1FAD3",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129748: {
-				Slug:        "tamale",
-				Character:   "🫔",
-				UnicodeName: "tamale",
-				CodePoint:   "U+1FAD4",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129749: {
-				Slug:        "fondue",
-				Character:   "🫕",
-				UnicodeName: "fondue",
-				CodePoint:   "U+1FAD5",
-				Group:       "Food & Drink",
-				SubGroup:    "food-prepared",
-			},
-		
-			129750: {
-				Slug:        "teapot",
-				Character:   "🫖",
-				UnicodeName: "teapot",
-				CodePoint:   "U+1FAD6",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129751: {
-				Slug:        "⊛-pouring-liquid",
-				Character:   "🫗",
-				UnicodeName: "⊛ pouring liquid",
-				CodePoint:   "U+1FAD7",
-				Group:       "Food & Drink",
-				SubGroup:    "drink",
-			},
-		
-			129752: {
-				Slug:        "⊛-beans",
-				Character:   "🫘",
-				UnicodeName: "⊛ beans",
-				CodePoint:   "U+1FAD8",
-				Group:       "Food & Drink",
-				SubGroup:    "food-vegetable",
-			},
-		
-			129753: {
-				Slug:        "⊛-jar",
-				Character:   "🫙",
-				UnicodeName: "⊛ jar",
-				CodePoint:   "U+1FAD9",
-				Group:       "Food & Drink",
-				SubGroup:    "dishware",
-			},
-		
-			129760: {
-				Slug:        "⊛-melting-face",
-				Character:   "🫠",
-				UnicodeName: "⊛ melting face",
-				CodePoint:   "U+1FAE0",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-smiling",
-			},
-		
-			129761: {
-				Slug:        "⊛-saluting-face",
-				Character:   "🫡",
-				UnicodeName: "⊛ saluting face",
-				CodePoint:   "U+1FAE1",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129762: {
-				Slug:        "⊛-face-with-open-eyes-and-hand-over-mouth",
-				Character:   "🫢",
-				UnicodeName: "⊛ face with open eyes and hand over mouth",
-				CodePoint:   "U+1FAE2",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129763: {
-				Slug:        "⊛-face-with-peeking-eye",
-				Character:   "🫣",
-				UnicodeName: "⊛ face with peeking eye",
-				CodePoint:   "U+1FAE3",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-hand",
-			},
-		
-			129764: {
-				Slug:        "⊛-face-with-diagonal-mouth",
-				Character:   "🫤",
-				UnicodeName: "⊛ face with diagonal mouth",
-				CodePoint:   "U+1FAE4",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-concerned",
-			},
-		
-			129765: {
-				Slug:        "⊛-dotted-line-face",
-				Character:   "🫥",
-				UnicodeName: "⊛ dotted line face",
-				CodePoint:   "U+1FAE5",
-				Group:       "Smileys & Emotion",
-				SubGroup:    "face-neutral-skeptical",
-			},
-		
-			129766: {
-				Slug:        "⊛-biting-lip",
-				Character:   "🫦",
-				UnicodeName: "⊛ biting lip",
-				CodePoint:   "U+1FAE6",
-				Group:       "People & Body",
-				SubGroup:    "body-parts",
-			},
-		
-			129767: {
-				Slug:        "⊛-bubbles",
-				Character:   "🫧",
-				UnicodeName: "⊛ bubbles",
-				CodePoint:   "U+1FAE7",
-				Group:       "Objects",
-				SubGroup:    "household",
-			},
-		
-			129776: {
-				Slug:        "⊛-hand-with-index-finger-and-thumb-crossed",
-				Character:   "🫰",
-				UnicodeName: "⊛ hand with index finger and thumb crossed",
-				CodePoint:   "U+1FAF0",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-partial",
-			},
-		
-			129777: {
-				Slug:        "⊛-rightwards-hand",
-				Character:   "🫱",
-				UnicodeName: "⊛ rightwards hand",
-				CodePoint:   "U+1FAF1",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			129778: {
-				Slug:        "⊛-leftwards-hand",
-				Character:   "🫲",
-				UnicodeName: "⊛ leftwards hand",
-				CodePoint:   "U+1FAF2",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			129779: {
-				Slug:        "⊛-palm-down-hand",
-				Character:   "🫳",
-				UnicodeName: "⊛ palm down hand",
-				CodePoint:   "U+1FAF3",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			129780: {
-				Slug:        "⊛-palm-up-hand",
-				Character:   "🫴",
-				UnicodeName: "⊛ palm up hand",
-				CodePoint:   "U+1FAF4",
-				Group:       "People & Body",
-				SubGroup:    "hand-fingers-open",
-			},
-		
-			129781: {
-				Slug:        "⊛-index-pointing-at-the-viewer",
-				Character:   "🫵",
-				UnicodeName: "⊛ index pointing at the viewer",
-				CodePoint:   "U+1FAF5",
-				Group:       "People & Body",
-				SubGroup:    "hand-single-finger",
-			},
-		
-			129782: {
-				Slug:        "⊛-heart-hands",
-				Character:   "🫶",
-				UnicodeName: "⊛ heart hands",
-				CodePoint:   "U+1FAF6",
-				Group:       "People & Body",
-				SubGroup:    "hands",
-			},
-		
+
+		35: {
+			Slug:        "keycap:-#",
+			Character:   "#️⃣",
+			UnicodeName: "keycap: #",
+			CodePoint:   "U+0023 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		42: {
+			Slug:        "keycap:-*",
+			Character:   "*️⃣",
+			UnicodeName: "keycap: *",
+			CodePoint:   "U+002A U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		48: {
+			Slug:        "keycap:-0",
+			Character:   "0️⃣",
+			UnicodeName: "keycap: 0",
+			CodePoint:   "U+0030 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		49: {
+			Slug:        "keycap:-1",
+			Character:   "1️⃣",
+			UnicodeName: "keycap: 1",
+			CodePoint:   "U+0031 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		50: {
+			Slug:        "keycap:-2",
+			Character:   "2️⃣",
+			UnicodeName: "keycap: 2",
+			CodePoint:   "U+0032 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		51: {
+			Slug:        "keycap:-3",
+			Character:   "3️⃣",
+			UnicodeName: "keycap: 3",
+			CodePoint:   "U+0033 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		52: {
+			Slug:        "keycap:-4",
+			Character:   "4️⃣",
+			UnicodeName: "keycap: 4",
+			CodePoint:   "U+0034 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		53: {
+			Slug:        "keycap:-5",
+			Character:   "5️⃣",
+			UnicodeName: "keycap: 5",
+			CodePoint:   "U+0035 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		54: {
+			Slug:        "keycap:-6",
+			Character:   "6️⃣",
+			UnicodeName: "keycap: 6",
+			CodePoint:   "U+0036 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		55: {
+			Slug:        "keycap:-7",
+			Character:   "7️⃣",
+			UnicodeName: "keycap: 7",
+			CodePoint:   "U+0037 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		56: {
+			Slug:        "keycap:-8",
+			Character:   "8️⃣",
+			UnicodeName: "keycap: 8",
+			CodePoint:   "U+0038 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		57: {
+			Slug:        "keycap:-9",
+			Character:   "9️⃣",
+			UnicodeName: "keycap: 9",
+			CodePoint:   "U+0039 U+FE0F U+20E3",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		169: {
+			Slug:        "copyright",
+			Character:   "©",
+			UnicodeName: "copyright",
+			CodePoint:   "U+00A9",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		174: {
+			Slug:        "registered",
+			Character:   "®",
+			UnicodeName: "registered",
+			CodePoint:   "U+00AE",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		8252: {
+			Slug:        "double-exclamation-mark",
+			Character:   "‼",
+			UnicodeName: "double exclamation mark",
+			CodePoint:   "U+203C",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		8265: {
+			Slug:        "exclamation-question-mark",
+			Character:   "⁉",
+			UnicodeName: "exclamation question mark",
+			CodePoint:   "U+2049",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		8482: {
+			Slug:        "trade-mark",
+			Character:   "™",
+			UnicodeName: "trade mark",
+			CodePoint:   "U+2122",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		8505: {
+			Slug:        "information",
+			Character:   "ℹ",
+			UnicodeName: "information",
+			CodePoint:   "U+2139",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		8596: {
+			Slug:        "left-right-arrow",
+			Character:   "↔",
+			UnicodeName: "left-right arrow",
+			CodePoint:   "U+2194",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8597: {
+			Slug:        "up-down-arrow",
+			Character:   "↕",
+			UnicodeName: "up-down arrow",
+			CodePoint:   "U+2195",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8598: {
+			Slug:        "up-left-arrow",
+			Character:   "↖",
+			UnicodeName: "up-left arrow",
+			CodePoint:   "U+2196",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8599: {
+			Slug:        "up-right-arrow",
+			Character:   "↗",
+			UnicodeName: "up-right arrow",
+			CodePoint:   "U+2197",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8600: {
+			Slug:        "down-right-arrow",
+			Character:   "↘",
+			UnicodeName: "down-right arrow",
+			CodePoint:   "U+2198",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8601: {
+			Slug:        "down-left-arrow",
+			Character:   "↙",
+			UnicodeName: "down-left arrow",
+			CodePoint:   "U+2199",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8617: {
+			Slug:        "right-arrow-curving-left",
+			Character:   "↩",
+			UnicodeName: "right arrow curving left",
+			CodePoint:   "U+21A9",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8618: {
+			Slug:        "left-arrow-curving-right",
+			Character:   "↪",
+			UnicodeName: "left arrow curving right",
+			CodePoint:   "U+21AA",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		8986: {
+			Slug:        "watch",
+			Character:   "⌚",
+			UnicodeName: "watch",
+			CodePoint:   "U+231A",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		8987: {
+			Slug:        "hourglass-done",
+			Character:   "⌛",
+			UnicodeName: "hourglass done",
+			CodePoint:   "U+231B",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		9000: {
+			Slug:        "keyboard",
+			Character:   "⌨",
+			UnicodeName: "keyboard",
+			CodePoint:   "U+2328",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		9167: {
+			Slug:        "eject-button",
+			Character:   "⏏",
+			UnicodeName: "eject button",
+			CodePoint:   "U+23CF",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9193: {
+			Slug:        "fast-forward-button",
+			Character:   "⏩",
+			UnicodeName: "fast-forward button",
+			CodePoint:   "U+23E9",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9194: {
+			Slug:        "fast-reverse-button",
+			Character:   "⏪",
+			UnicodeName: "fast reverse button",
+			CodePoint:   "U+23EA",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9195: {
+			Slug:        "fast-up-button",
+			Character:   "⏫",
+			UnicodeName: "fast up button",
+			CodePoint:   "U+23EB",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9196: {
+			Slug:        "fast-down-button",
+			Character:   "⏬",
+			UnicodeName: "fast down button",
+			CodePoint:   "U+23EC",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9197: {
+			Slug:        "next-track-button",
+			Character:   "⏭",
+			UnicodeName: "next track button",
+			CodePoint:   "U+23ED",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9198: {
+			Slug:        "last-track-button",
+			Character:   "⏮",
+			UnicodeName: "last track button",
+			CodePoint:   "U+23EE",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9199: {
+			Slug:        "play-or-pause-button",
+			Character:   "⏯",
+			UnicodeName: "play or pause button",
+			CodePoint:   "U+23EF",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9200: {
+			Slug:        "alarm-clock",
+			Character:   "⏰",
+			UnicodeName: "alarm clock",
+			CodePoint:   "U+23F0",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		9201: {
+			Slug:        "stopwatch",
+			Character:   "⏱",
+			UnicodeName: "stopwatch",
+			CodePoint:   "U+23F1",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		9202: {
+			Slug:        "timer-clock",
+			Character:   "⏲",
+			UnicodeName: "timer clock",
+			CodePoint:   "U+23F2",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		9203: {
+			Slug:        "hourglass-not-done",
+			Character:   "⏳",
+			UnicodeName: "hourglass not done",
+			CodePoint:   "U+23F3",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		9208: {
+			Slug:        "pause-button",
+			Character:   "⏸",
+			UnicodeName: "pause button",
+			CodePoint:   "U+23F8",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9209: {
+			Slug:        "stop-button",
+			Character:   "⏹",
+			UnicodeName: "stop button",
+			CodePoint:   "U+23F9",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9210: {
+			Slug:        "record-button",
+			Character:   "⏺",
+			UnicodeName: "record button",
+			CodePoint:   "U+23FA",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9410: {
+			Slug:        "circled-M",
+			Character:   "Ⓜ",
+			UnicodeName: "circled M",
+			CodePoint:   "U+24C2",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		9642: {
+			Slug:        "black-small-square",
+			Character:   "▪",
+			UnicodeName: "black small square",
+			CodePoint:   "U+25AA",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9643: {
+			Slug:        "white-small-square",
+			Character:   "▫",
+			UnicodeName: "white small square",
+			CodePoint:   "U+25AB",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9654: {
+			Slug:        "play-button",
+			Character:   "▶",
+			UnicodeName: "play button",
+			CodePoint:   "U+25B6",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9664: {
+			Slug:        "reverse-button",
+			Character:   "◀",
+			UnicodeName: "reverse button",
+			CodePoint:   "U+25C0",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		9723: {
+			Slug:        "white-medium-square",
+			Character:   "◻",
+			UnicodeName: "white medium square",
+			CodePoint:   "U+25FB",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9724: {
+			Slug:        "black-medium-square",
+			Character:   "◼",
+			UnicodeName: "black medium square",
+			CodePoint:   "U+25FC",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9725: {
+			Slug:        "white-medium-small-square",
+			Character:   "◽",
+			UnicodeName: "white medium-small square",
+			CodePoint:   "U+25FD",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9726: {
+			Slug:        "black-medium-small-square",
+			Character:   "◾",
+			UnicodeName: "black medium-small square",
+			CodePoint:   "U+25FE",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9728: {
+			Slug:        "sun",
+			Character:   "☀",
+			UnicodeName: "sun",
+			CodePoint:   "U+2600",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9729: {
+			Slug:        "cloud",
+			Character:   "☁",
+			UnicodeName: "cloud",
+			CodePoint:   "U+2601",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9730: {
+			Slug:        "umbrella",
+			Character:   "☂",
+			UnicodeName: "umbrella",
+			CodePoint:   "U+2602",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9731: {
+			Slug:        "snowman",
+			Character:   "☃",
+			UnicodeName: "snowman",
+			CodePoint:   "U+2603",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9732: {
+			Slug:        "comet",
+			Character:   "☄",
+			UnicodeName: "comet",
+			CodePoint:   "U+2604",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9742: {
+			Slug:        "telephone",
+			Character:   "☎",
+			UnicodeName: "telephone",
+			CodePoint:   "U+260E",
+			Group:       "Objects",
+			SubGroup:    "phone",
+		},
+
+		9745: {
+			Slug:        "check-box-with-check",
+			Character:   "☑",
+			UnicodeName: "check box with check",
+			CodePoint:   "U+2611",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		9748: {
+			Slug:        "umbrella-with-rain-drops",
+			Character:   "☔",
+			UnicodeName: "umbrella with rain drops",
+			CodePoint:   "U+2614",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9749: {
+			Slug:        "hot-beverage",
+			Character:   "☕",
+			UnicodeName: "hot beverage",
+			CodePoint:   "U+2615",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		9752: {
+			Slug:        "shamrock",
+			Character:   "☘",
+			UnicodeName: "shamrock",
+			CodePoint:   "U+2618",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		9757: {
+			Slug:        "index-pointing-up",
+			Character:   "☝",
+			UnicodeName: "index pointing up",
+			CodePoint:   "U+261D",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		9760: {
+			Slug:        "skull-and-crossbones",
+			Character:   "☠",
+			UnicodeName: "skull and crossbones",
+			CodePoint:   "U+2620",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		9762: {
+			Slug:        "radioactive",
+			Character:   "☢",
+			UnicodeName: "radioactive",
+			CodePoint:   "U+2622",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		9763: {
+			Slug:        "biohazard",
+			Character:   "☣",
+			UnicodeName: "biohazard",
+			CodePoint:   "U+2623",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		9766: {
+			Slug:        "orthodox-cross",
+			Character:   "☦",
+			UnicodeName: "orthodox cross",
+			CodePoint:   "U+2626",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		9770: {
+			Slug:        "star-and-crescent",
+			Character:   "☪",
+			UnicodeName: "star and crescent",
+			CodePoint:   "U+262A",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		9774: {
+			Slug:        "peace-symbol",
+			Character:   "☮",
+			UnicodeName: "peace symbol",
+			CodePoint:   "U+262E",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		9775: {
+			Slug:        "yin-yang",
+			Character:   "☯",
+			UnicodeName: "yin yang",
+			CodePoint:   "U+262F",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		9784: {
+			Slug:        "wheel-of-dharma",
+			Character:   "☸",
+			UnicodeName: "wheel of dharma",
+			CodePoint:   "U+2638",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		9785: {
+			Slug:        "frowning-face",
+			Character:   "☹",
+			UnicodeName: "frowning face",
+			CodePoint:   "U+2639",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		9786: {
+			Slug:        "smiling-face",
+			Character:   "☺",
+			UnicodeName: "smiling face",
+			CodePoint:   "U+263A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		9792: {
+			Slug:        "female-sign",
+			Character:   "♀",
+			UnicodeName: "female sign",
+			CodePoint:   "U+2640",
+			Group:       "Symbols",
+			SubGroup:    "gender",
+		},
+
+		9794: {
+			Slug:        "male-sign",
+			Character:   "♂",
+			UnicodeName: "male sign",
+			CodePoint:   "U+2642",
+			Group:       "Symbols",
+			SubGroup:    "gender",
+		},
+
+		9800: {
+			Slug:        "Aries",
+			Character:   "♈",
+			UnicodeName: "Aries",
+			CodePoint:   "U+2648",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9801: {
+			Slug:        "Taurus",
+			Character:   "♉",
+			UnicodeName: "Taurus",
+			CodePoint:   "U+2649",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9802: {
+			Slug:        "Gemini",
+			Character:   "♊",
+			UnicodeName: "Gemini",
+			CodePoint:   "U+264A",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9803: {
+			Slug:        "Cancer",
+			Character:   "♋",
+			UnicodeName: "Cancer",
+			CodePoint:   "U+264B",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9804: {
+			Slug:        "Leo",
+			Character:   "♌",
+			UnicodeName: "Leo",
+			CodePoint:   "U+264C",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9805: {
+			Slug:        "Virgo",
+			Character:   "♍",
+			UnicodeName: "Virgo",
+			CodePoint:   "U+264D",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9806: {
+			Slug:        "Libra",
+			Character:   "♎",
+			UnicodeName: "Libra",
+			CodePoint:   "U+264E",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9807: {
+			Slug:        "Scorpio",
+			Character:   "♏",
+			UnicodeName: "Scorpio",
+			CodePoint:   "U+264F",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9808: {
+			Slug:        "Sagittarius",
+			Character:   "♐",
+			UnicodeName: "Sagittarius",
+			CodePoint:   "U+2650",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9809: {
+			Slug:        "Capricorn",
+			Character:   "♑",
+			UnicodeName: "Capricorn",
+			CodePoint:   "U+2651",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9810: {
+			Slug:        "Aquarius",
+			Character:   "♒",
+			UnicodeName: "Aquarius",
+			CodePoint:   "U+2652",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9811: {
+			Slug:        "Pisces",
+			Character:   "♓",
+			UnicodeName: "Pisces",
+			CodePoint:   "U+2653",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9823: {
+			Slug:        "chess-pawn",
+			Character:   "♟",
+			UnicodeName: "chess pawn",
+			CodePoint:   "U+265F",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		9824: {
+			Slug:        "spade-suit",
+			Character:   "♠",
+			UnicodeName: "spade suit",
+			CodePoint:   "U+2660",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		9827: {
+			Slug:        "club-suit",
+			Character:   "♣",
+			UnicodeName: "club suit",
+			CodePoint:   "U+2663",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		9829: {
+			Slug:        "heart-suit",
+			Character:   "♥",
+			UnicodeName: "heart suit",
+			CodePoint:   "U+2665",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		9830: {
+			Slug:        "diamond-suit",
+			Character:   "♦",
+			UnicodeName: "diamond suit",
+			CodePoint:   "U+2666",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		9832: {
+			Slug:        "hot-springs",
+			Character:   "♨",
+			UnicodeName: "hot springs",
+			CodePoint:   "U+2668",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		9851: {
+			Slug:        "recycling-symbol",
+			Character:   "♻",
+			UnicodeName: "recycling symbol",
+			CodePoint:   "U+267B",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		9854: {
+			Slug:        "infinity",
+			Character:   "♾",
+			UnicodeName: "infinity",
+			CodePoint:   "U+267E",
+			Group:       "Symbols",
+			SubGroup:    "math",
+		},
+
+		9855: {
+			Slug:        "wheelchair-symbol",
+			Character:   "♿",
+			UnicodeName: "wheelchair symbol",
+			CodePoint:   "U+267F",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		9874: {
+			Slug:        "hammer-and-pick",
+			Character:   "⚒",
+			UnicodeName: "hammer and pick",
+			CodePoint:   "U+2692",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		9875: {
+			Slug:        "anchor",
+			Character:   "⚓",
+			UnicodeName: "anchor",
+			CodePoint:   "U+2693",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		9876: {
+			Slug:        "crossed-swords",
+			Character:   "⚔",
+			UnicodeName: "crossed swords",
+			CodePoint:   "U+2694",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		9877: {
+			Slug:        "medical-symbol",
+			Character:   "⚕",
+			UnicodeName: "medical symbol",
+			CodePoint:   "U+2695",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		9878: {
+			Slug:        "balance-scale",
+			Character:   "⚖",
+			UnicodeName: "balance scale",
+			CodePoint:   "U+2696",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		9879: {
+			Slug:        "alembic",
+			Character:   "⚗",
+			UnicodeName: "alembic",
+			CodePoint:   "U+2697",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		9881: {
+			Slug:        "gear",
+			Character:   "⚙",
+			UnicodeName: "gear",
+			CodePoint:   "U+2699",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		9883: {
+			Slug:        "atom-symbol",
+			Character:   "⚛",
+			UnicodeName: "atom symbol",
+			CodePoint:   "U+269B",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		9884: {
+			Slug:        "fleur-de-lis",
+			Character:   "⚜",
+			UnicodeName: "fleur-de-lis",
+			CodePoint:   "U+269C",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		9888: {
+			Slug:        "warning",
+			Character:   "⚠",
+			UnicodeName: "warning",
+			CodePoint:   "U+26A0",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		9889: {
+			Slug:        "high-voltage",
+			Character:   "⚡",
+			UnicodeName: "high voltage",
+			CodePoint:   "U+26A1",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9895: {
+			Slug:        "transgender-symbol",
+			Character:   "⚧",
+			UnicodeName: "transgender symbol",
+			CodePoint:   "U+26A7",
+			Group:       "Symbols",
+			SubGroup:    "gender",
+		},
+
+		9898: {
+			Slug:        "white-circle",
+			Character:   "⚪",
+			UnicodeName: "white circle",
+			CodePoint:   "U+26AA",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9899: {
+			Slug:        "black-circle",
+			Character:   "⚫",
+			UnicodeName: "black circle",
+			CodePoint:   "U+26AB",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		9904: {
+			Slug:        "coffin",
+			Character:   "⚰",
+			UnicodeName: "coffin",
+			CodePoint:   "U+26B0",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		9905: {
+			Slug:        "funeral-urn",
+			Character:   "⚱",
+			UnicodeName: "funeral urn",
+			CodePoint:   "U+26B1",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		9917: {
+			Slug:        "soccer-ball",
+			Character:   "⚽",
+			UnicodeName: "soccer ball",
+			CodePoint:   "U+26BD",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		9918: {
+			Slug:        "baseball",
+			Character:   "⚾",
+			UnicodeName: "baseball",
+			CodePoint:   "U+26BE",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		9924: {
+			Slug:        "snowman-without-snow",
+			Character:   "⛄",
+			UnicodeName: "snowman without snow",
+			CodePoint:   "U+26C4",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9925: {
+			Slug:        "sun-behind-cloud",
+			Character:   "⛅",
+			UnicodeName: "sun behind cloud",
+			CodePoint:   "U+26C5",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9928: {
+			Slug:        "cloud-with-lightning-and-rain",
+			Character:   "⛈",
+			UnicodeName: "cloud with lightning and rain",
+			CodePoint:   "U+26C8",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9934: {
+			Slug:        "Ophiuchus",
+			Character:   "⛎",
+			UnicodeName: "Ophiuchus",
+			CodePoint:   "U+26CE",
+			Group:       "Symbols",
+			SubGroup:    "zodiac",
+		},
+
+		9935: {
+			Slug:        "pick",
+			Character:   "⛏",
+			UnicodeName: "pick",
+			CodePoint:   "U+26CF",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		9937: {
+			Slug:        "rescue-worker’s-helmet",
+			Character:   "⛑",
+			UnicodeName: "rescue worker’s helmet",
+			CodePoint:   "U+26D1",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		9939: {
+			Slug:        "chains",
+			Character:   "⛓",
+			UnicodeName: "chains",
+			CodePoint:   "U+26D3",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		9940: {
+			Slug:        "no-entry",
+			Character:   "⛔",
+			UnicodeName: "no entry",
+			CodePoint:   "U+26D4",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		9961: {
+			Slug:        "shinto-shrine",
+			Character:   "⛩",
+			UnicodeName: "shinto shrine",
+			CodePoint:   "U+26E9",
+			Group:       "Travel & Places",
+			SubGroup:    "place-religious",
+		},
+
+		9962: {
+			Slug:        "church",
+			Character:   "⛪",
+			UnicodeName: "church",
+			CodePoint:   "U+26EA",
+			Group:       "Travel & Places",
+			SubGroup:    "place-religious",
+		},
+
+		9968: {
+			Slug:        "mountain",
+			Character:   "⛰",
+			UnicodeName: "mountain",
+			CodePoint:   "U+26F0",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		9969: {
+			Slug:        "umbrella-on-ground",
+			Character:   "⛱",
+			UnicodeName: "umbrella on ground",
+			CodePoint:   "U+26F1",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		9970: {
+			Slug:        "fountain",
+			Character:   "⛲",
+			UnicodeName: "fountain",
+			CodePoint:   "U+26F2",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		9971: {
+			Slug:        "flag-in-hole",
+			Character:   "⛳",
+			UnicodeName: "flag in hole",
+			CodePoint:   "U+26F3",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		9972: {
+			Slug:        "ferry",
+			Character:   "⛴",
+			UnicodeName: "ferry",
+			CodePoint:   "U+26F4",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		9973: {
+			Slug:        "sailboat",
+			Character:   "⛵",
+			UnicodeName: "sailboat",
+			CodePoint:   "U+26F5",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		9975: {
+			Slug:        "skier",
+			Character:   "⛷",
+			UnicodeName: "skier",
+			CodePoint:   "U+26F7",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		9976: {
+			Slug:        "ice-skate",
+			Character:   "⛸",
+			UnicodeName: "ice skate",
+			CodePoint:   "U+26F8",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		9977: {
+			Slug:        "woman-bouncing-ball",
+			Character:   "⛹️‍♀️",
+			UnicodeName: "woman bouncing ball",
+			CodePoint:   "U+26F9 U+FE0F U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		9978: {
+			Slug:        "tent",
+			Character:   "⛺",
+			UnicodeName: "tent",
+			CodePoint:   "U+26FA",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		9981: {
+			Slug:        "fuel-pump",
+			Character:   "⛽",
+			UnicodeName: "fuel pump",
+			CodePoint:   "U+26FD",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		9986: {
+			Slug:        "scissors",
+			Character:   "✂",
+			UnicodeName: "scissors",
+			CodePoint:   "U+2702",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		9989: {
+			Slug:        "check-mark-button",
+			Character:   "✅",
+			UnicodeName: "check mark button",
+			CodePoint:   "U+2705",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		9992: {
+			Slug:        "airplane",
+			Character:   "✈",
+			UnicodeName: "airplane",
+			CodePoint:   "U+2708",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		9993: {
+			Slug:        "envelope",
+			Character:   "✉",
+			UnicodeName: "envelope",
+			CodePoint:   "U+2709",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		9994: {
+			Slug:        "raised-fist",
+			Character:   "✊",
+			UnicodeName: "raised fist",
+			CodePoint:   "U+270A",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-closed",
+		},
+
+		9995: {
+			Slug:        "raised-hand",
+			Character:   "✋",
+			UnicodeName: "raised hand",
+			CodePoint:   "U+270B",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		9996: {
+			Slug:        "victory-hand",
+			Character:   "✌",
+			UnicodeName: "victory hand",
+			CodePoint:   "U+270C",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		9997: {
+			Slug:        "writing-hand",
+			Character:   "✍",
+			UnicodeName: "writing hand",
+			CodePoint:   "U+270D",
+			Group:       "People & Body",
+			SubGroup:    "hand-prop",
+		},
+
+		9999: {
+			Slug:        "pencil",
+			Character:   "✏",
+			UnicodeName: "pencil",
+			CodePoint:   "U+270F",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		10002: {
+			Slug:        "black-nib",
+			Character:   "✒",
+			UnicodeName: "black nib",
+			CodePoint:   "U+2712",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		10004: {
+			Slug:        "check-mark",
+			Character:   "✔",
+			UnicodeName: "check mark",
+			CodePoint:   "U+2714",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10006: {
+			Slug:        "multiply",
+			Character:   "✖",
+			UnicodeName: "multiply",
+			CodePoint:   "U+2716",
+			Group:       "Symbols",
+			SubGroup:    "math",
+		},
+
+		10013: {
+			Slug:        "latin-cross",
+			Character:   "✝",
+			UnicodeName: "latin cross",
+			CodePoint:   "U+271D",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		10017: {
+			Slug:        "star-of-David",
+			Character:   "✡",
+			UnicodeName: "star of David",
+			CodePoint:   "U+2721",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		10024: {
+			Slug:        "sparkles",
+			Character:   "✨",
+			UnicodeName: "sparkles",
+			CodePoint:   "U+2728",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		10035: {
+			Slug:        "eight-spoked-asterisk",
+			Character:   "✳",
+			UnicodeName: "eight-spoked asterisk",
+			CodePoint:   "U+2733",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10036: {
+			Slug:        "eight-pointed-star",
+			Character:   "✴",
+			UnicodeName: "eight-pointed star",
+			CodePoint:   "U+2734",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10052: {
+			Slug:        "snowflake",
+			Character:   "❄",
+			UnicodeName: "snowflake",
+			CodePoint:   "U+2744",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		10055: {
+			Slug:        "sparkle",
+			Character:   "❇",
+			UnicodeName: "sparkle",
+			CodePoint:   "U+2747",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10060: {
+			Slug:        "cross-mark",
+			Character:   "❌",
+			UnicodeName: "cross mark",
+			CodePoint:   "U+274C",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10062: {
+			Slug:        "cross-mark-button",
+			Character:   "❎",
+			UnicodeName: "cross mark button",
+			CodePoint:   "U+274E",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10067: {
+			Slug:        "red-question-mark",
+			Character:   "❓",
+			UnicodeName: "red question mark",
+			CodePoint:   "U+2753",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		10068: {
+			Slug:        "white-question-mark",
+			Character:   "❔",
+			UnicodeName: "white question mark",
+			CodePoint:   "U+2754",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		10069: {
+			Slug:        "white-exclamation-mark",
+			Character:   "❕",
+			UnicodeName: "white exclamation mark",
+			CodePoint:   "U+2755",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		10071: {
+			Slug:        "red-exclamation-mark",
+			Character:   "❗",
+			UnicodeName: "red exclamation mark",
+			CodePoint:   "U+2757",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		10083: {
+			Slug:        "heart-exclamation",
+			Character:   "❣",
+			UnicodeName: "heart exclamation",
+			CodePoint:   "U+2763",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		10084: {
+			Slug:        "red-heart",
+			Character:   "❤",
+			UnicodeName: "red heart",
+			CodePoint:   "U+2764",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		10133: {
+			Slug:        "plus",
+			Character:   "➕",
+			UnicodeName: "plus",
+			CodePoint:   "U+2795",
+			Group:       "Symbols",
+			SubGroup:    "math",
+		},
+
+		10134: {
+			Slug:        "minus",
+			Character:   "➖",
+			UnicodeName: "minus",
+			CodePoint:   "U+2796",
+			Group:       "Symbols",
+			SubGroup:    "math",
+		},
+
+		10135: {
+			Slug:        "divide",
+			Character:   "➗",
+			UnicodeName: "divide",
+			CodePoint:   "U+2797",
+			Group:       "Symbols",
+			SubGroup:    "math",
+		},
+
+		10145: {
+			Slug:        "right-arrow",
+			Character:   "➡",
+			UnicodeName: "right arrow",
+			CodePoint:   "U+27A1",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		10160: {
+			Slug:        "curly-loop",
+			Character:   "➰",
+			UnicodeName: "curly loop",
+			CodePoint:   "U+27B0",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10175: {
+			Slug:        "double-curly-loop",
+			Character:   "➿",
+			UnicodeName: "double curly loop",
+			CodePoint:   "U+27BF",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		10548: {
+			Slug:        "right-arrow-curving-up",
+			Character:   "⤴",
+			UnicodeName: "right arrow curving up",
+			CodePoint:   "U+2934",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		10549: {
+			Slug:        "right-arrow-curving-down",
+			Character:   "⤵",
+			UnicodeName: "right arrow curving down",
+			CodePoint:   "U+2935",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		11013: {
+			Slug:        "left-arrow",
+			Character:   "⬅",
+			UnicodeName: "left arrow",
+			CodePoint:   "U+2B05",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		11014: {
+			Slug:        "up-arrow",
+			Character:   "⬆",
+			UnicodeName: "up arrow",
+			CodePoint:   "U+2B06",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		11015: {
+			Slug:        "down-arrow",
+			Character:   "⬇",
+			UnicodeName: "down arrow",
+			CodePoint:   "U+2B07",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		11035: {
+			Slug:        "black-large-square",
+			Character:   "⬛",
+			UnicodeName: "black large square",
+			CodePoint:   "U+2B1B",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		11036: {
+			Slug:        "white-large-square",
+			Character:   "⬜",
+			UnicodeName: "white large square",
+			CodePoint:   "U+2B1C",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		11088: {
+			Slug:        "star",
+			Character:   "⭐",
+			UnicodeName: "star",
+			CodePoint:   "U+2B50",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		11093: {
+			Slug:        "hollow-red-circle",
+			Character:   "⭕",
+			UnicodeName: "hollow red circle",
+			CodePoint:   "U+2B55",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		12336: {
+			Slug:        "wavy-dash",
+			Character:   "〰",
+			UnicodeName: "wavy dash",
+			CodePoint:   "U+3030",
+			Group:       "Symbols",
+			SubGroup:    "punctuation",
+		},
+
+		12349: {
+			Slug:        "part-alternation-mark",
+			Character:   "〽",
+			UnicodeName: "part alternation mark",
+			CodePoint:   "U+303D",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		12951: {
+			Slug:        "Japanese-“congratulations”-button",
+			Character:   "㊗",
+			UnicodeName: "Japanese “congratulations” button",
+			CodePoint:   "U+3297",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		12953: {
+			Slug:        "Japanese-“secret”-button",
+			Character:   "㊙",
+			UnicodeName: "Japanese “secret” button",
+			CodePoint:   "U+3299",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		126980: {
+			Slug:        "mahjong-red-dragon",
+			Character:   "🀄",
+			UnicodeName: "mahjong red dragon",
+			CodePoint:   "U+1F004",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127183: {
+			Slug:        "joker",
+			Character:   "🃏",
+			UnicodeName: "joker",
+			CodePoint:   "U+1F0CF",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127344: {
+			Slug:        "A-button-(blood-type)",
+			Character:   "🅰",
+			UnicodeName: "A button (blood type)",
+			CodePoint:   "U+1F170",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127345: {
+			Slug:        "B-button-(blood-type)",
+			Character:   "🅱",
+			UnicodeName: "B button (blood type)",
+			CodePoint:   "U+1F171",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127358: {
+			Slug:        "O-button-(blood-type)",
+			Character:   "🅾",
+			UnicodeName: "O button (blood type)",
+			CodePoint:   "U+1F17E",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127359: {
+			Slug:        "P-button",
+			Character:   "🅿",
+			UnicodeName: "P button",
+			CodePoint:   "U+1F17F",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127374: {
+			Slug:        "AB-button-(blood-type)",
+			Character:   "🆎",
+			UnicodeName: "AB button (blood type)",
+			CodePoint:   "U+1F18E",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127377: {
+			Slug:        "CL-button",
+			Character:   "🆑",
+			UnicodeName: "CL button",
+			CodePoint:   "U+1F191",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127378: {
+			Slug:        "COOL-button",
+			Character:   "🆒",
+			UnicodeName: "COOL button",
+			CodePoint:   "U+1F192",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127379: {
+			Slug:        "FREE-button",
+			Character:   "🆓",
+			UnicodeName: "FREE button",
+			CodePoint:   "U+1F193",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127380: {
+			Slug:        "ID-button",
+			Character:   "🆔",
+			UnicodeName: "ID button",
+			CodePoint:   "U+1F194",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127381: {
+			Slug:        "NEW-button",
+			Character:   "🆕",
+			UnicodeName: "NEW button",
+			CodePoint:   "U+1F195",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127382: {
+			Slug:        "NG-button",
+			Character:   "🆖",
+			UnicodeName: "NG button",
+			CodePoint:   "U+1F196",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127383: {
+			Slug:        "OK-button",
+			Character:   "🆗",
+			UnicodeName: "OK button",
+			CodePoint:   "U+1F197",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127384: {
+			Slug:        "SOS-button",
+			Character:   "🆘",
+			UnicodeName: "SOS button",
+			CodePoint:   "U+1F198",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127385: {
+			Slug:        "UP!-button",
+			Character:   "🆙",
+			UnicodeName: "UP! button",
+			CodePoint:   "U+1F199",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127386: {
+			Slug:        "VS-button",
+			Character:   "🆚",
+			UnicodeName: "VS button",
+			CodePoint:   "U+1F19A",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127462: {
+			Slug:        "flag:-Azerbaijan",
+			Character:   "🇦🇿",
+			UnicodeName: "flag: Azerbaijan",
+			CodePoint:   "U+1F1E6 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127463: {
+			Slug:        "flag:-Belize",
+			Character:   "🇧🇿",
+			UnicodeName: "flag: Belize",
+			CodePoint:   "U+1F1E7 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127464: {
+			Slug:        "flag:-Czechia",
+			Character:   "🇨🇿",
+			UnicodeName: "flag: Czechia",
+			CodePoint:   "U+1F1E8 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127465: {
+			Slug:        "flag:-Algeria",
+			Character:   "🇩🇿",
+			UnicodeName: "flag: Algeria",
+			CodePoint:   "U+1F1E9 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127466: {
+			Slug:        "flag:-European-Union",
+			Character:   "🇪🇺",
+			UnicodeName: "flag: European Union",
+			CodePoint:   "U+1F1EA U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127467: {
+			Slug:        "flag:-France",
+			Character:   "🇫🇷",
+			UnicodeName: "flag: France",
+			CodePoint:   "U+1F1EB U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127468: {
+			Slug:        "flag:-Guyana",
+			Character:   "🇬🇾",
+			UnicodeName: "flag: Guyana",
+			CodePoint:   "U+1F1EC U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127469: {
+			Slug:        "flag:-Hungary",
+			Character:   "🇭🇺",
+			UnicodeName: "flag: Hungary",
+			CodePoint:   "U+1F1ED U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127470: {
+			Slug:        "flag:-Italy",
+			Character:   "🇮🇹",
+			UnicodeName: "flag: Italy",
+			CodePoint:   "U+1F1EE U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127471: {
+			Slug:        "flag:-Japan",
+			Character:   "🇯🇵",
+			UnicodeName: "flag: Japan",
+			CodePoint:   "U+1F1EF U+1F1F5",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127472: {
+			Slug:        "flag:-Kazakhstan",
+			Character:   "🇰🇿",
+			UnicodeName: "flag: Kazakhstan",
+			CodePoint:   "U+1F1F0 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127473: {
+			Slug:        "flag:-Libya",
+			Character:   "🇱🇾",
+			UnicodeName: "flag: Libya",
+			CodePoint:   "U+1F1F1 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127474: {
+			Slug:        "flag:-Mozambique",
+			Character:   "🇲🇿",
+			UnicodeName: "flag: Mozambique",
+			CodePoint:   "U+1F1F2 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127475: {
+			Slug:        "flag:-New-Zealand",
+			Character:   "🇳🇿",
+			UnicodeName: "flag: New Zealand",
+			CodePoint:   "U+1F1F3 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127476: {
+			Slug:        "flag:-Oman",
+			Character:   "🇴🇲",
+			UnicodeName: "flag: Oman",
+			CodePoint:   "U+1F1F4 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127477: {
+			Slug:        "flag:-Paraguay",
+			Character:   "🇵🇾",
+			UnicodeName: "flag: Paraguay",
+			CodePoint:   "U+1F1F5 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127478: {
+			Slug:        "flag:-Qatar",
+			Character:   "🇶🇦",
+			UnicodeName: "flag: Qatar",
+			CodePoint:   "U+1F1F6 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127479: {
+			Slug:        "flag:-Rwanda",
+			Character:   "🇷🇼",
+			UnicodeName: "flag: Rwanda",
+			CodePoint:   "U+1F1F7 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127480: {
+			Slug:        "flag:-Eswatini",
+			Character:   "🇸🇿",
+			UnicodeName: "flag: Eswatini",
+			CodePoint:   "U+1F1F8 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127481: {
+			Slug:        "flag:-Tanzania",
+			Character:   "🇹🇿",
+			UnicodeName: "flag: Tanzania",
+			CodePoint:   "U+1F1F9 U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127482: {
+			Slug:        "flag:-Uzbekistan",
+			Character:   "🇺🇿",
+			UnicodeName: "flag: Uzbekistan",
+			CodePoint:   "U+1F1FA U+1F1FF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127483: {
+			Slug:        "flag:-Vanuatu",
+			Character:   "🇻🇺",
+			UnicodeName: "flag: Vanuatu",
+			CodePoint:   "U+1F1FB U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127484: {
+			Slug:        "flag:-Samoa",
+			Character:   "🇼🇸",
+			UnicodeName: "flag: Samoa",
+			CodePoint:   "U+1F1FC U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127485: {
+			Slug:        "flag:-Kosovo",
+			Character:   "🇽🇰",
+			UnicodeName: "flag: Kosovo",
+			CodePoint:   "U+1F1FD U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127486: {
+			Slug:        "flag:-Mayotte",
+			Character:   "🇾🇹",
+			UnicodeName: "flag: Mayotte",
+			CodePoint:   "U+1F1FE U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127487: {
+			Slug:        "flag:-Zimbabwe",
+			Character:   "🇿🇼",
+			UnicodeName: "flag: Zimbabwe",
+			CodePoint:   "U+1F1FF U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		127489: {
+			Slug:        "Japanese-“here”-button",
+			Character:   "🈁",
+			UnicodeName: "Japanese “here” button",
+			CodePoint:   "U+1F201",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127490: {
+			Slug:        "Japanese-“service-charge”-button",
+			Character:   "🈂",
+			UnicodeName: "Japanese “service charge” button",
+			CodePoint:   "U+1F202",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127514: {
+			Slug:        "Japanese-“free-of-charge”-button",
+			Character:   "🈚",
+			UnicodeName: "Japanese “free of charge” button",
+			CodePoint:   "U+1F21A",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127535: {
+			Slug:        "Japanese-“reserved”-button",
+			Character:   "🈯",
+			UnicodeName: "Japanese “reserved” button",
+			CodePoint:   "U+1F22F",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127538: {
+			Slug:        "Japanese-“prohibited”-button",
+			Character:   "🈲",
+			UnicodeName: "Japanese “prohibited” button",
+			CodePoint:   "U+1F232",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127539: {
+			Slug:        "Japanese-“vacancy”-button",
+			Character:   "🈳",
+			UnicodeName: "Japanese “vacancy” button",
+			CodePoint:   "U+1F233",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127540: {
+			Slug:        "Japanese-“passing-grade”-button",
+			Character:   "🈴",
+			UnicodeName: "Japanese “passing grade” button",
+			CodePoint:   "U+1F234",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127541: {
+			Slug:        "Japanese-“no-vacancy”-button",
+			Character:   "🈵",
+			UnicodeName: "Japanese “no vacancy” button",
+			CodePoint:   "U+1F235",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127542: {
+			Slug:        "Japanese-“not-free-of-charge”-button",
+			Character:   "🈶",
+			UnicodeName: "Japanese “not free of charge” button",
+			CodePoint:   "U+1F236",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127543: {
+			Slug:        "Japanese-“monthly-amount”-button",
+			Character:   "🈷",
+			UnicodeName: "Japanese “monthly amount” button",
+			CodePoint:   "U+1F237",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127544: {
+			Slug:        "Japanese-“application”-button",
+			Character:   "🈸",
+			UnicodeName: "Japanese “application” button",
+			CodePoint:   "U+1F238",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127545: {
+			Slug:        "Japanese-“discount”-button",
+			Character:   "🈹",
+			UnicodeName: "Japanese “discount” button",
+			CodePoint:   "U+1F239",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127546: {
+			Slug:        "Japanese-“open-for-business”-button",
+			Character:   "🈺",
+			UnicodeName: "Japanese “open for business” button",
+			CodePoint:   "U+1F23A",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127568: {
+			Slug:        "Japanese-“bargain”-button",
+			Character:   "🉐",
+			UnicodeName: "Japanese “bargain” button",
+			CodePoint:   "U+1F250",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127569: {
+			Slug:        "Japanese-“acceptable”-button",
+			Character:   "🉑",
+			UnicodeName: "Japanese “acceptable” button",
+			CodePoint:   "U+1F251",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		127744: {
+			Slug:        "cyclone",
+			Character:   "🌀",
+			UnicodeName: "cyclone",
+			CodePoint:   "U+1F300",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127745: {
+			Slug:        "foggy",
+			Character:   "🌁",
+			UnicodeName: "foggy",
+			CodePoint:   "U+1F301",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127746: {
+			Slug:        "closed-umbrella",
+			Character:   "🌂",
+			UnicodeName: "closed umbrella",
+			CodePoint:   "U+1F302",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127747: {
+			Slug:        "night-with-stars",
+			Character:   "🌃",
+			UnicodeName: "night with stars",
+			CodePoint:   "U+1F303",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127748: {
+			Slug:        "sunrise-over-mountains",
+			Character:   "🌄",
+			UnicodeName: "sunrise over mountains",
+			CodePoint:   "U+1F304",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127749: {
+			Slug:        "sunrise",
+			Character:   "🌅",
+			UnicodeName: "sunrise",
+			CodePoint:   "U+1F305",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127750: {
+			Slug:        "cityscape-at-dusk",
+			Character:   "🌆",
+			UnicodeName: "cityscape at dusk",
+			CodePoint:   "U+1F306",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127751: {
+			Slug:        "sunset",
+			Character:   "🌇",
+			UnicodeName: "sunset",
+			CodePoint:   "U+1F307",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127752: {
+			Slug:        "rainbow",
+			Character:   "🌈",
+			UnicodeName: "rainbow",
+			CodePoint:   "U+1F308",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127753: {
+			Slug:        "bridge-at-night",
+			Character:   "🌉",
+			UnicodeName: "bridge at night",
+			CodePoint:   "U+1F309",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127754: {
+			Slug:        "water-wave",
+			Character:   "🌊",
+			UnicodeName: "water wave",
+			CodePoint:   "U+1F30A",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127755: {
+			Slug:        "volcano",
+			Character:   "🌋",
+			UnicodeName: "volcano",
+			CodePoint:   "U+1F30B",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127756: {
+			Slug:        "milky-way",
+			Character:   "🌌",
+			UnicodeName: "milky way",
+			CodePoint:   "U+1F30C",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127757: {
+			Slug:        "globe-showing-Europe-Africa",
+			Character:   "🌍",
+			UnicodeName: "globe showing Europe-Africa",
+			CodePoint:   "U+1F30D",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		127758: {
+			Slug:        "globe-showing-Americas",
+			Character:   "🌎",
+			UnicodeName: "globe showing Americas",
+			CodePoint:   "U+1F30E",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		127759: {
+			Slug:        "globe-showing-Asia-Australia",
+			Character:   "🌏",
+			UnicodeName: "globe showing Asia-Australia",
+			CodePoint:   "U+1F30F",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		127760: {
+			Slug:        "globe-with-meridians",
+			Character:   "🌐",
+			UnicodeName: "globe with meridians",
+			CodePoint:   "U+1F310",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		127761: {
+			Slug:        "new-moon",
+			Character:   "🌑",
+			UnicodeName: "new moon",
+			CodePoint:   "U+1F311",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127762: {
+			Slug:        "waxing-crescent-moon",
+			Character:   "🌒",
+			UnicodeName: "waxing crescent moon",
+			CodePoint:   "U+1F312",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127763: {
+			Slug:        "first-quarter-moon",
+			Character:   "🌓",
+			UnicodeName: "first quarter moon",
+			CodePoint:   "U+1F313",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127764: {
+			Slug:        "waxing-gibbous-moon",
+			Character:   "🌔",
+			UnicodeName: "waxing gibbous moon",
+			CodePoint:   "U+1F314",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127765: {
+			Slug:        "full-moon",
+			Character:   "🌕",
+			UnicodeName: "full moon",
+			CodePoint:   "U+1F315",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127766: {
+			Slug:        "waning-gibbous-moon",
+			Character:   "🌖",
+			UnicodeName: "waning gibbous moon",
+			CodePoint:   "U+1F316",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127767: {
+			Slug:        "last-quarter-moon",
+			Character:   "🌗",
+			UnicodeName: "last quarter moon",
+			CodePoint:   "U+1F317",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127768: {
+			Slug:        "waning-crescent-moon",
+			Character:   "🌘",
+			UnicodeName: "waning crescent moon",
+			CodePoint:   "U+1F318",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127769: {
+			Slug:        "crescent-moon",
+			Character:   "🌙",
+			UnicodeName: "crescent moon",
+			CodePoint:   "U+1F319",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127770: {
+			Slug:        "new-moon-face",
+			Character:   "🌚",
+			UnicodeName: "new moon face",
+			CodePoint:   "U+1F31A",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127771: {
+			Slug:        "first-quarter-moon-face",
+			Character:   "🌛",
+			UnicodeName: "first quarter moon face",
+			CodePoint:   "U+1F31B",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127772: {
+			Slug:        "last-quarter-moon-face",
+			Character:   "🌜",
+			UnicodeName: "last quarter moon face",
+			CodePoint:   "U+1F31C",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127773: {
+			Slug:        "full-moon-face",
+			Character:   "🌝",
+			UnicodeName: "full moon face",
+			CodePoint:   "U+1F31D",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127774: {
+			Slug:        "sun-with-face",
+			Character:   "🌞",
+			UnicodeName: "sun with face",
+			CodePoint:   "U+1F31E",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127775: {
+			Slug:        "glowing-star",
+			Character:   "🌟",
+			UnicodeName: "glowing star",
+			CodePoint:   "U+1F31F",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127776: {
+			Slug:        "shooting-star",
+			Character:   "🌠",
+			UnicodeName: "shooting star",
+			CodePoint:   "U+1F320",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127777: {
+			Slug:        "thermometer",
+			Character:   "🌡",
+			UnicodeName: "thermometer",
+			CodePoint:   "U+1F321",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127780: {
+			Slug:        "sun-behind-small-cloud",
+			Character:   "🌤",
+			UnicodeName: "sun behind small cloud",
+			CodePoint:   "U+1F324",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127781: {
+			Slug:        "sun-behind-large-cloud",
+			Character:   "🌥",
+			UnicodeName: "sun behind large cloud",
+			CodePoint:   "U+1F325",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127782: {
+			Slug:        "sun-behind-rain-cloud",
+			Character:   "🌦",
+			UnicodeName: "sun behind rain cloud",
+			CodePoint:   "U+1F326",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127783: {
+			Slug:        "cloud-with-rain",
+			Character:   "🌧",
+			UnicodeName: "cloud with rain",
+			CodePoint:   "U+1F327",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127784: {
+			Slug:        "cloud-with-snow",
+			Character:   "🌨",
+			UnicodeName: "cloud with snow",
+			CodePoint:   "U+1F328",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127785: {
+			Slug:        "cloud-with-lightning",
+			Character:   "🌩",
+			UnicodeName: "cloud with lightning",
+			CodePoint:   "U+1F329",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127786: {
+			Slug:        "tornado",
+			Character:   "🌪",
+			UnicodeName: "tornado",
+			CodePoint:   "U+1F32A",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127787: {
+			Slug:        "fog",
+			Character:   "🌫",
+			UnicodeName: "fog",
+			CodePoint:   "U+1F32B",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127788: {
+			Slug:        "wind-face",
+			Character:   "🌬",
+			UnicodeName: "wind face",
+			CodePoint:   "U+1F32C",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		127789: {
+			Slug:        "hot-dog",
+			Character:   "🌭",
+			UnicodeName: "hot dog",
+			CodePoint:   "U+1F32D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127790: {
+			Slug:        "taco",
+			Character:   "🌮",
+			UnicodeName: "taco",
+			CodePoint:   "U+1F32E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127791: {
+			Slug:        "burrito",
+			Character:   "🌯",
+			UnicodeName: "burrito",
+			CodePoint:   "U+1F32F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127792: {
+			Slug:        "chestnut",
+			Character:   "🌰",
+			UnicodeName: "chestnut",
+			CodePoint:   "U+1F330",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		127793: {
+			Slug:        "seedling",
+			Character:   "🌱",
+			UnicodeName: "seedling",
+			CodePoint:   "U+1F331",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127794: {
+			Slug:        "evergreen-tree",
+			Character:   "🌲",
+			UnicodeName: "evergreen tree",
+			CodePoint:   "U+1F332",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127795: {
+			Slug:        "deciduous-tree",
+			Character:   "🌳",
+			UnicodeName: "deciduous tree",
+			CodePoint:   "U+1F333",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127796: {
+			Slug:        "palm-tree",
+			Character:   "🌴",
+			UnicodeName: "palm tree",
+			CodePoint:   "U+1F334",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127797: {
+			Slug:        "cactus",
+			Character:   "🌵",
+			UnicodeName: "cactus",
+			CodePoint:   "U+1F335",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127798: {
+			Slug:        "hot-pepper",
+			Character:   "🌶",
+			UnicodeName: "hot pepper",
+			CodePoint:   "U+1F336",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		127799: {
+			Slug:        "tulip",
+			Character:   "🌷",
+			UnicodeName: "tulip",
+			CodePoint:   "U+1F337",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127800: {
+			Slug:        "cherry-blossom",
+			Character:   "🌸",
+			UnicodeName: "cherry blossom",
+			CodePoint:   "U+1F338",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127801: {
+			Slug:        "rose",
+			Character:   "🌹",
+			UnicodeName: "rose",
+			CodePoint:   "U+1F339",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127802: {
+			Slug:        "hibiscus",
+			Character:   "🌺",
+			UnicodeName: "hibiscus",
+			CodePoint:   "U+1F33A",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127803: {
+			Slug:        "sunflower",
+			Character:   "🌻",
+			UnicodeName: "sunflower",
+			CodePoint:   "U+1F33B",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127804: {
+			Slug:        "blossom",
+			Character:   "🌼",
+			UnicodeName: "blossom",
+			CodePoint:   "U+1F33C",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127805: {
+			Slug:        "ear-of-corn",
+			Character:   "🌽",
+			UnicodeName: "ear of corn",
+			CodePoint:   "U+1F33D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		127806: {
+			Slug:        "sheaf-of-rice",
+			Character:   "🌾",
+			UnicodeName: "sheaf of rice",
+			CodePoint:   "U+1F33E",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127807: {
+			Slug:        "herb",
+			Character:   "🌿",
+			UnicodeName: "herb",
+			CodePoint:   "U+1F33F",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127808: {
+			Slug:        "four-leaf-clover",
+			Character:   "🍀",
+			UnicodeName: "four leaf clover",
+			CodePoint:   "U+1F340",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127809: {
+			Slug:        "maple-leaf",
+			Character:   "🍁",
+			UnicodeName: "maple leaf",
+			CodePoint:   "U+1F341",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127810: {
+			Slug:        "fallen-leaf",
+			Character:   "🍂",
+			UnicodeName: "fallen leaf",
+			CodePoint:   "U+1F342",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127811: {
+			Slug:        "leaf-fluttering-in-wind",
+			Character:   "🍃",
+			UnicodeName: "leaf fluttering in wind",
+			CodePoint:   "U+1F343",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		127812: {
+			Slug:        "mushroom",
+			Character:   "🍄",
+			UnicodeName: "mushroom",
+			CodePoint:   "U+1F344",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		127813: {
+			Slug:        "tomato",
+			Character:   "🍅",
+			UnicodeName: "tomato",
+			CodePoint:   "U+1F345",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127814: {
+			Slug:        "eggplant",
+			Character:   "🍆",
+			UnicodeName: "eggplant",
+			CodePoint:   "U+1F346",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		127815: {
+			Slug:        "grapes",
+			Character:   "🍇",
+			UnicodeName: "grapes",
+			CodePoint:   "U+1F347",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127816: {
+			Slug:        "melon",
+			Character:   "🍈",
+			UnicodeName: "melon",
+			CodePoint:   "U+1F348",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127817: {
+			Slug:        "watermelon",
+			Character:   "🍉",
+			UnicodeName: "watermelon",
+			CodePoint:   "U+1F349",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127818: {
+			Slug:        "tangerine",
+			Character:   "🍊",
+			UnicodeName: "tangerine",
+			CodePoint:   "U+1F34A",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127819: {
+			Slug:        "lemon",
+			Character:   "🍋",
+			UnicodeName: "lemon",
+			CodePoint:   "U+1F34B",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127820: {
+			Slug:        "banana",
+			Character:   "🍌",
+			UnicodeName: "banana",
+			CodePoint:   "U+1F34C",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127821: {
+			Slug:        "pineapple",
+			Character:   "🍍",
+			UnicodeName: "pineapple",
+			CodePoint:   "U+1F34D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127822: {
+			Slug:        "red-apple",
+			Character:   "🍎",
+			UnicodeName: "red apple",
+			CodePoint:   "U+1F34E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127823: {
+			Slug:        "green-apple",
+			Character:   "🍏",
+			UnicodeName: "green apple",
+			CodePoint:   "U+1F34F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127824: {
+			Slug:        "pear",
+			Character:   "🍐",
+			UnicodeName: "pear",
+			CodePoint:   "U+1F350",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127825: {
+			Slug:        "peach",
+			Character:   "🍑",
+			UnicodeName: "peach",
+			CodePoint:   "U+1F351",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127826: {
+			Slug:        "cherries",
+			Character:   "🍒",
+			UnicodeName: "cherries",
+			CodePoint:   "U+1F352",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127827: {
+			Slug:        "strawberry",
+			Character:   "🍓",
+			UnicodeName: "strawberry",
+			CodePoint:   "U+1F353",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		127828: {
+			Slug:        "hamburger",
+			Character:   "🍔",
+			UnicodeName: "hamburger",
+			CodePoint:   "U+1F354",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127829: {
+			Slug:        "pizza",
+			Character:   "🍕",
+			UnicodeName: "pizza",
+			CodePoint:   "U+1F355",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127830: {
+			Slug:        "meat-on-bone",
+			Character:   "🍖",
+			UnicodeName: "meat on bone",
+			CodePoint:   "U+1F356",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127831: {
+			Slug:        "poultry-leg",
+			Character:   "🍗",
+			UnicodeName: "poultry leg",
+			CodePoint:   "U+1F357",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127832: {
+			Slug:        "rice-cracker",
+			Character:   "🍘",
+			UnicodeName: "rice cracker",
+			CodePoint:   "U+1F358",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127833: {
+			Slug:        "rice-ball",
+			Character:   "🍙",
+			UnicodeName: "rice ball",
+			CodePoint:   "U+1F359",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127834: {
+			Slug:        "cooked-rice",
+			Character:   "🍚",
+			UnicodeName: "cooked rice",
+			CodePoint:   "U+1F35A",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127835: {
+			Slug:        "curry-rice",
+			Character:   "🍛",
+			UnicodeName: "curry rice",
+			CodePoint:   "U+1F35B",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127836: {
+			Slug:        "steaming-bowl",
+			Character:   "🍜",
+			UnicodeName: "steaming bowl",
+			CodePoint:   "U+1F35C",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127837: {
+			Slug:        "spaghetti",
+			Character:   "🍝",
+			UnicodeName: "spaghetti",
+			CodePoint:   "U+1F35D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127838: {
+			Slug:        "bread",
+			Character:   "🍞",
+			UnicodeName: "bread",
+			CodePoint:   "U+1F35E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127839: {
+			Slug:        "french-fries",
+			Character:   "🍟",
+			UnicodeName: "french fries",
+			CodePoint:   "U+1F35F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127840: {
+			Slug:        "roasted-sweet-potato",
+			Character:   "🍠",
+			UnicodeName: "roasted sweet potato",
+			CodePoint:   "U+1F360",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127841: {
+			Slug:        "dango",
+			Character:   "🍡",
+			UnicodeName: "dango",
+			CodePoint:   "U+1F361",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127842: {
+			Slug:        "oden",
+			Character:   "🍢",
+			UnicodeName: "oden",
+			CodePoint:   "U+1F362",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127843: {
+			Slug:        "sushi",
+			Character:   "🍣",
+			UnicodeName: "sushi",
+			CodePoint:   "U+1F363",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127844: {
+			Slug:        "fried-shrimp",
+			Character:   "🍤",
+			UnicodeName: "fried shrimp",
+			CodePoint:   "U+1F364",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127845: {
+			Slug:        "fish-cake-with-swirl",
+			Character:   "🍥",
+			UnicodeName: "fish cake with swirl",
+			CodePoint:   "U+1F365",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127846: {
+			Slug:        "soft-ice-cream",
+			Character:   "🍦",
+			UnicodeName: "soft ice cream",
+			CodePoint:   "U+1F366",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127847: {
+			Slug:        "shaved-ice",
+			Character:   "🍧",
+			UnicodeName: "shaved ice",
+			CodePoint:   "U+1F367",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127848: {
+			Slug:        "ice-cream",
+			Character:   "🍨",
+			UnicodeName: "ice cream",
+			CodePoint:   "U+1F368",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127849: {
+			Slug:        "doughnut",
+			Character:   "🍩",
+			UnicodeName: "doughnut",
+			CodePoint:   "U+1F369",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127850: {
+			Slug:        "cookie",
+			Character:   "🍪",
+			UnicodeName: "cookie",
+			CodePoint:   "U+1F36A",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127851: {
+			Slug:        "chocolate-bar",
+			Character:   "🍫",
+			UnicodeName: "chocolate bar",
+			CodePoint:   "U+1F36B",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127852: {
+			Slug:        "candy",
+			Character:   "🍬",
+			UnicodeName: "candy",
+			CodePoint:   "U+1F36C",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127853: {
+			Slug:        "lollipop",
+			Character:   "🍭",
+			UnicodeName: "lollipop",
+			CodePoint:   "U+1F36D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127854: {
+			Slug:        "custard",
+			Character:   "🍮",
+			UnicodeName: "custard",
+			CodePoint:   "U+1F36E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127855: {
+			Slug:        "honey-pot",
+			Character:   "🍯",
+			UnicodeName: "honey pot",
+			CodePoint:   "U+1F36F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127856: {
+			Slug:        "shortcake",
+			Character:   "🍰",
+			UnicodeName: "shortcake",
+			CodePoint:   "U+1F370",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127857: {
+			Slug:        "bento-box",
+			Character:   "🍱",
+			UnicodeName: "bento box",
+			CodePoint:   "U+1F371",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		127858: {
+			Slug:        "pot-of-food",
+			Character:   "🍲",
+			UnicodeName: "pot of food",
+			CodePoint:   "U+1F372",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127859: {
+			Slug:        "cooking",
+			Character:   "🍳",
+			UnicodeName: "cooking",
+			CodePoint:   "U+1F373",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127860: {
+			Slug:        "fork-and-knife",
+			Character:   "🍴",
+			UnicodeName: "fork and knife",
+			CodePoint:   "U+1F374",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		127861: {
+			Slug:        "teacup-without-handle",
+			Character:   "🍵",
+			UnicodeName: "teacup without handle",
+			CodePoint:   "U+1F375",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127862: {
+			Slug:        "sake",
+			Character:   "🍶",
+			UnicodeName: "sake",
+			CodePoint:   "U+1F376",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127863: {
+			Slug:        "wine-glass",
+			Character:   "🍷",
+			UnicodeName: "wine glass",
+			CodePoint:   "U+1F377",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127864: {
+			Slug:        "cocktail-glass",
+			Character:   "🍸",
+			UnicodeName: "cocktail glass",
+			CodePoint:   "U+1F378",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127865: {
+			Slug:        "tropical-drink",
+			Character:   "🍹",
+			UnicodeName: "tropical drink",
+			CodePoint:   "U+1F379",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127866: {
+			Slug:        "beer-mug",
+			Character:   "🍺",
+			UnicodeName: "beer mug",
+			CodePoint:   "U+1F37A",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127867: {
+			Slug:        "clinking-beer-mugs",
+			Character:   "🍻",
+			UnicodeName: "clinking beer mugs",
+			CodePoint:   "U+1F37B",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127868: {
+			Slug:        "baby-bottle",
+			Character:   "🍼",
+			UnicodeName: "baby bottle",
+			CodePoint:   "U+1F37C",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127869: {
+			Slug:        "fork-and-knife-with-plate",
+			Character:   "🍽",
+			UnicodeName: "fork and knife with plate",
+			CodePoint:   "U+1F37D",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		127870: {
+			Slug:        "bottle-with-popping-cork",
+			Character:   "🍾",
+			UnicodeName: "bottle with popping cork",
+			CodePoint:   "U+1F37E",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		127871: {
+			Slug:        "popcorn",
+			Character:   "🍿",
+			UnicodeName: "popcorn",
+			CodePoint:   "U+1F37F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		127872: {
+			Slug:        "ribbon",
+			Character:   "🎀",
+			UnicodeName: "ribbon",
+			CodePoint:   "U+1F380",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127873: {
+			Slug:        "wrapped-gift",
+			Character:   "🎁",
+			UnicodeName: "wrapped gift",
+			CodePoint:   "U+1F381",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127874: {
+			Slug:        "birthday-cake",
+			Character:   "🎂",
+			UnicodeName: "birthday cake",
+			CodePoint:   "U+1F382",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		127875: {
+			Slug:        "jack-o-lantern",
+			Character:   "🎃",
+			UnicodeName: "jack-o-lantern",
+			CodePoint:   "U+1F383",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127876: {
+			Slug:        "Christmas-tree",
+			Character:   "🎄",
+			UnicodeName: "Christmas tree",
+			CodePoint:   "U+1F384",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127877: {
+			Slug:        "Santa-Claus",
+			Character:   "🎅",
+			UnicodeName: "Santa Claus",
+			CodePoint:   "U+1F385",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		127878: {
+			Slug:        "fireworks",
+			Character:   "🎆",
+			UnicodeName: "fireworks",
+			CodePoint:   "U+1F386",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127879: {
+			Slug:        "sparkler",
+			Character:   "🎇",
+			UnicodeName: "sparkler",
+			CodePoint:   "U+1F387",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127880: {
+			Slug:        "balloon",
+			Character:   "🎈",
+			UnicodeName: "balloon",
+			CodePoint:   "U+1F388",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127881: {
+			Slug:        "party-popper",
+			Character:   "🎉",
+			UnicodeName: "party popper",
+			CodePoint:   "U+1F389",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127882: {
+			Slug:        "confetti-ball",
+			Character:   "🎊",
+			UnicodeName: "confetti ball",
+			CodePoint:   "U+1F38A",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127883: {
+			Slug:        "tanabata-tree",
+			Character:   "🎋",
+			UnicodeName: "tanabata tree",
+			CodePoint:   "U+1F38B",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127884: {
+			Slug:        "crossed-flags",
+			Character:   "🎌",
+			UnicodeName: "crossed flags",
+			CodePoint:   "U+1F38C",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		127885: {
+			Slug:        "pine-decoration",
+			Character:   "🎍",
+			UnicodeName: "pine decoration",
+			CodePoint:   "U+1F38D",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127886: {
+			Slug:        "Japanese-dolls",
+			Character:   "🎎",
+			UnicodeName: "Japanese dolls",
+			CodePoint:   "U+1F38E",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127887: {
+			Slug:        "carp-streamer",
+			Character:   "🎏",
+			UnicodeName: "carp streamer",
+			CodePoint:   "U+1F38F",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127888: {
+			Slug:        "wind-chime",
+			Character:   "🎐",
+			UnicodeName: "wind chime",
+			CodePoint:   "U+1F390",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127889: {
+			Slug:        "moon-viewing-ceremony",
+			Character:   "🎑",
+			UnicodeName: "moon viewing ceremony",
+			CodePoint:   "U+1F391",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127890: {
+			Slug:        "backpack",
+			Character:   "🎒",
+			UnicodeName: "backpack",
+			CodePoint:   "U+1F392",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		127891: {
+			Slug:        "graduation-cap",
+			Character:   "🎓",
+			UnicodeName: "graduation cap",
+			CodePoint:   "U+1F393",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		127894: {
+			Slug:        "military-medal",
+			Character:   "🎖",
+			UnicodeName: "military medal",
+			CodePoint:   "U+1F396",
+			Group:       "Activities",
+			SubGroup:    "award-medal",
+		},
+
+		127895: {
+			Slug:        "reminder-ribbon",
+			Character:   "🎗",
+			UnicodeName: "reminder ribbon",
+			CodePoint:   "U+1F397",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127897: {
+			Slug:        "studio-microphone",
+			Character:   "🎙",
+			UnicodeName: "studio microphone",
+			CodePoint:   "U+1F399",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127898: {
+			Slug:        "level-slider",
+			Character:   "🎚",
+			UnicodeName: "level slider",
+			CodePoint:   "U+1F39A",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127899: {
+			Slug:        "control-knobs",
+			Character:   "🎛",
+			UnicodeName: "control knobs",
+			CodePoint:   "U+1F39B",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127902: {
+			Slug:        "film-frames",
+			Character:   "🎞",
+			UnicodeName: "film frames",
+			CodePoint:   "U+1F39E",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		127903: {
+			Slug:        "admission-tickets",
+			Character:   "🎟",
+			UnicodeName: "admission tickets",
+			CodePoint:   "U+1F39F",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127904: {
+			Slug:        "carousel-horse",
+			Character:   "🎠",
+			UnicodeName: "carousel horse",
+			CodePoint:   "U+1F3A0",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127905: {
+			Slug:        "ferris-wheel",
+			Character:   "🎡",
+			UnicodeName: "ferris wheel",
+			CodePoint:   "U+1F3A1",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127906: {
+			Slug:        "roller-coaster",
+			Character:   "🎢",
+			UnicodeName: "roller coaster",
+			CodePoint:   "U+1F3A2",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127907: {
+			Slug:        "fishing-pole",
+			Character:   "🎣",
+			UnicodeName: "fishing pole",
+			CodePoint:   "U+1F3A3",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127908: {
+			Slug:        "microphone",
+			Character:   "🎤",
+			UnicodeName: "microphone",
+			CodePoint:   "U+1F3A4",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127909: {
+			Slug:        "movie-camera",
+			Character:   "🎥",
+			UnicodeName: "movie camera",
+			CodePoint:   "U+1F3A5",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		127910: {
+			Slug:        "cinema",
+			Character:   "🎦",
+			UnicodeName: "cinema",
+			CodePoint:   "U+1F3A6",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		127911: {
+			Slug:        "headphone",
+			Character:   "🎧",
+			UnicodeName: "headphone",
+			CodePoint:   "U+1F3A7",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127912: {
+			Slug:        "artist-palette",
+			Character:   "🎨",
+			UnicodeName: "artist palette",
+			CodePoint:   "U+1F3A8",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		127913: {
+			Slug:        "top-hat",
+			Character:   "🎩",
+			UnicodeName: "top hat",
+			CodePoint:   "U+1F3A9",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		127914: {
+			Slug:        "circus-tent",
+			Character:   "🎪",
+			UnicodeName: "circus tent",
+			CodePoint:   "U+1F3AA",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127915: {
+			Slug:        "ticket",
+			Character:   "🎫",
+			UnicodeName: "ticket",
+			CodePoint:   "U+1F3AB",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		127916: {
+			Slug:        "clapper-board",
+			Character:   "🎬",
+			UnicodeName: "clapper board",
+			CodePoint:   "U+1F3AC",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		127917: {
+			Slug:        "performing-arts",
+			Character:   "🎭",
+			UnicodeName: "performing arts",
+			CodePoint:   "U+1F3AD",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		127918: {
+			Slug:        "video-game",
+			Character:   "🎮",
+			UnicodeName: "video game",
+			CodePoint:   "U+1F3AE",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127919: {
+			Slug:        "bullseye",
+			Character:   "🎯",
+			UnicodeName: "bullseye",
+			CodePoint:   "U+1F3AF",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127920: {
+			Slug:        "slot-machine",
+			Character:   "🎰",
+			UnicodeName: "slot machine",
+			CodePoint:   "U+1F3B0",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127921: {
+			Slug:        "pool-8-ball",
+			Character:   "🎱",
+			UnicodeName: "pool 8 ball",
+			CodePoint:   "U+1F3B1",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127922: {
+			Slug:        "game-die",
+			Character:   "🎲",
+			UnicodeName: "game die",
+			CodePoint:   "U+1F3B2",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127923: {
+			Slug:        "bowling",
+			Character:   "🎳",
+			UnicodeName: "bowling",
+			CodePoint:   "U+1F3B3",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127924: {
+			Slug:        "flower-playing-cards",
+			Character:   "🎴",
+			UnicodeName: "flower playing cards",
+			CodePoint:   "U+1F3B4",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		127925: {
+			Slug:        "musical-note",
+			Character:   "🎵",
+			UnicodeName: "musical note",
+			CodePoint:   "U+1F3B5",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127926: {
+			Slug:        "musical-notes",
+			Character:   "🎶",
+			UnicodeName: "musical notes",
+			CodePoint:   "U+1F3B6",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127927: {
+			Slug:        "saxophone",
+			Character:   "🎷",
+			UnicodeName: "saxophone",
+			CodePoint:   "U+1F3B7",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		127928: {
+			Slug:        "guitar",
+			Character:   "🎸",
+			UnicodeName: "guitar",
+			CodePoint:   "U+1F3B8",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		127929: {
+			Slug:        "musical-keyboard",
+			Character:   "🎹",
+			UnicodeName: "musical keyboard",
+			CodePoint:   "U+1F3B9",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		127930: {
+			Slug:        "trumpet",
+			Character:   "🎺",
+			UnicodeName: "trumpet",
+			CodePoint:   "U+1F3BA",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		127931: {
+			Slug:        "violin",
+			Character:   "🎻",
+			UnicodeName: "violin",
+			CodePoint:   "U+1F3BB",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		127932: {
+			Slug:        "musical-score",
+			Character:   "🎼",
+			UnicodeName: "musical score",
+			CodePoint:   "U+1F3BC",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		127933: {
+			Slug:        "running-shirt",
+			Character:   "🎽",
+			UnicodeName: "running shirt",
+			CodePoint:   "U+1F3BD",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127934: {
+			Slug:        "tennis",
+			Character:   "🎾",
+			UnicodeName: "tennis",
+			CodePoint:   "U+1F3BE",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127935: {
+			Slug:        "skis",
+			Character:   "🎿",
+			UnicodeName: "skis",
+			CodePoint:   "U+1F3BF",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127936: {
+			Slug:        "basketball",
+			Character:   "🏀",
+			UnicodeName: "basketball",
+			CodePoint:   "U+1F3C0",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127937: {
+			Slug:        "chequered-flag",
+			Character:   "🏁",
+			UnicodeName: "chequered flag",
+			CodePoint:   "U+1F3C1",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		127938: {
+			Slug:        "snowboarder",
+			Character:   "🏂",
+			UnicodeName: "snowboarder",
+			CodePoint:   "U+1F3C2",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		127939: {
+			Slug:        "woman-running",
+			Character:   "🏃‍♀️",
+			UnicodeName: "woman running",
+			CodePoint:   "U+1F3C3 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		127940: {
+			Slug:        "woman-surfing",
+			Character:   "🏄‍♀️",
+			UnicodeName: "woman surfing",
+			CodePoint:   "U+1F3C4 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		127941: {
+			Slug:        "sports-medal",
+			Character:   "🏅",
+			UnicodeName: "sports medal",
+			CodePoint:   "U+1F3C5",
+			Group:       "Activities",
+			SubGroup:    "award-medal",
+		},
+
+		127942: {
+			Slug:        "trophy",
+			Character:   "🏆",
+			UnicodeName: "trophy",
+			CodePoint:   "U+1F3C6",
+			Group:       "Activities",
+			SubGroup:    "award-medal",
+		},
+
+		127943: {
+			Slug:        "horse-racing",
+			Character:   "🏇",
+			UnicodeName: "horse racing",
+			CodePoint:   "U+1F3C7",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		127944: {
+			Slug:        "american-football",
+			Character:   "🏈",
+			UnicodeName: "american football",
+			CodePoint:   "U+1F3C8",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127945: {
+			Slug:        "rugby-football",
+			Character:   "🏉",
+			UnicodeName: "rugby football",
+			CodePoint:   "U+1F3C9",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127946: {
+			Slug:        "woman-swimming",
+			Character:   "🏊‍♀️",
+			UnicodeName: "woman swimming",
+			CodePoint:   "U+1F3CA U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		127947: {
+			Slug:        "woman-lifting-weights",
+			Character:   "🏋️‍♀️",
+			UnicodeName: "woman lifting weights",
+			CodePoint:   "U+1F3CB U+FE0F U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		127948: {
+			Slug:        "woman-golfing",
+			Character:   "🏌️‍♀️",
+			UnicodeName: "woman golfing",
+			CodePoint:   "U+1F3CC U+FE0F U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		127949: {
+			Slug:        "motorcycle",
+			Character:   "🏍",
+			UnicodeName: "motorcycle",
+			CodePoint:   "U+1F3CD",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		127950: {
+			Slug:        "racing-car",
+			Character:   "🏎",
+			UnicodeName: "racing car",
+			CodePoint:   "U+1F3CE",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		127951: {
+			Slug:        "cricket-game",
+			Character:   "🏏",
+			UnicodeName: "cricket game",
+			CodePoint:   "U+1F3CF",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127952: {
+			Slug:        "volleyball",
+			Character:   "🏐",
+			UnicodeName: "volleyball",
+			CodePoint:   "U+1F3D0",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127953: {
+			Slug:        "field-hockey",
+			Character:   "🏑",
+			UnicodeName: "field hockey",
+			CodePoint:   "U+1F3D1",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127954: {
+			Slug:        "ice-hockey",
+			Character:   "🏒",
+			UnicodeName: "ice hockey",
+			CodePoint:   "U+1F3D2",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127955: {
+			Slug:        "ping-pong",
+			Character:   "🏓",
+			UnicodeName: "ping pong",
+			CodePoint:   "U+1F3D3",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127956: {
+			Slug:        "snow-capped-mountain",
+			Character:   "🏔",
+			UnicodeName: "snow-capped mountain",
+			CodePoint:   "U+1F3D4",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127957: {
+			Slug:        "camping",
+			Character:   "🏕",
+			UnicodeName: "camping",
+			CodePoint:   "U+1F3D5",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127958: {
+			Slug:        "beach-with-umbrella",
+			Character:   "🏖",
+			UnicodeName: "beach with umbrella",
+			CodePoint:   "U+1F3D6",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127959: {
+			Slug:        "building-construction",
+			Character:   "🏗",
+			UnicodeName: "building construction",
+			CodePoint:   "U+1F3D7",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127960: {
+			Slug:        "houses",
+			Character:   "🏘",
+			UnicodeName: "houses",
+			CodePoint:   "U+1F3D8",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127961: {
+			Slug:        "cityscape",
+			Character:   "🏙",
+			UnicodeName: "cityscape",
+			CodePoint:   "U+1F3D9",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		127962: {
+			Slug:        "derelict-house",
+			Character:   "🏚",
+			UnicodeName: "derelict house",
+			CodePoint:   "U+1F3DA",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127963: {
+			Slug:        "classical-building",
+			Character:   "🏛",
+			UnicodeName: "classical building",
+			CodePoint:   "U+1F3DB",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127964: {
+			Slug:        "desert",
+			Character:   "🏜",
+			UnicodeName: "desert",
+			CodePoint:   "U+1F3DC",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127965: {
+			Slug:        "desert-island",
+			Character:   "🏝",
+			UnicodeName: "desert island",
+			CodePoint:   "U+1F3DD",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127966: {
+			Slug:        "national-park",
+			Character:   "🏞",
+			UnicodeName: "national park",
+			CodePoint:   "U+1F3DE",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		127967: {
+			Slug:        "stadium",
+			Character:   "🏟",
+			UnicodeName: "stadium",
+			CodePoint:   "U+1F3DF",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127968: {
+			Slug:        "house",
+			Character:   "🏠",
+			UnicodeName: "house",
+			CodePoint:   "U+1F3E0",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127969: {
+			Slug:        "house-with-garden",
+			Character:   "🏡",
+			UnicodeName: "house with garden",
+			CodePoint:   "U+1F3E1",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127970: {
+			Slug:        "office-building",
+			Character:   "🏢",
+			UnicodeName: "office building",
+			CodePoint:   "U+1F3E2",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127971: {
+			Slug:        "Japanese-post-office",
+			Character:   "🏣",
+			UnicodeName: "Japanese post office",
+			CodePoint:   "U+1F3E3",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127972: {
+			Slug:        "post-office",
+			Character:   "🏤",
+			UnicodeName: "post office",
+			CodePoint:   "U+1F3E4",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127973: {
+			Slug:        "hospital",
+			Character:   "🏥",
+			UnicodeName: "hospital",
+			CodePoint:   "U+1F3E5",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127974: {
+			Slug:        "bank",
+			Character:   "🏦",
+			UnicodeName: "bank",
+			CodePoint:   "U+1F3E6",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127975: {
+			Slug:        "ATM-sign",
+			Character:   "🏧",
+			UnicodeName: "ATM sign",
+			CodePoint:   "U+1F3E7",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		127976: {
+			Slug:        "hotel",
+			Character:   "🏨",
+			UnicodeName: "hotel",
+			CodePoint:   "U+1F3E8",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127977: {
+			Slug:        "love-hotel",
+			Character:   "🏩",
+			UnicodeName: "love hotel",
+			CodePoint:   "U+1F3E9",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127978: {
+			Slug:        "convenience-store",
+			Character:   "🏪",
+			UnicodeName: "convenience store",
+			CodePoint:   "U+1F3EA",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127979: {
+			Slug:        "school",
+			Character:   "🏫",
+			UnicodeName: "school",
+			CodePoint:   "U+1F3EB",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127980: {
+			Slug:        "department-store",
+			Character:   "🏬",
+			UnicodeName: "department store",
+			CodePoint:   "U+1F3EC",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127981: {
+			Slug:        "factory",
+			Character:   "🏭",
+			UnicodeName: "factory",
+			CodePoint:   "U+1F3ED",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127982: {
+			Slug:        "red-paper-lantern",
+			Character:   "🏮",
+			UnicodeName: "red paper lantern",
+			CodePoint:   "U+1F3EE",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		127983: {
+			Slug:        "Japanese-castle",
+			Character:   "🏯",
+			UnicodeName: "Japanese castle",
+			CodePoint:   "U+1F3EF",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127984: {
+			Slug:        "castle",
+			Character:   "🏰",
+			UnicodeName: "castle",
+			CodePoint:   "U+1F3F0",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		127987: {
+			Slug:        "transgender-flag",
+			Character:   "🏳️‍⚧️",
+			UnicodeName: "transgender flag",
+			CodePoint:   "U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		127988: {
+			Slug:        "flag:-Wales",
+			Character:   "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+			UnicodeName: "flag: Wales",
+			CodePoint:   "U+1F3F4 U+E0067 U+E0062 U+E0077 U+E006C U+E0073 U+E007F",
+			Group:       "Flags",
+			SubGroup:    "subdivision-flag",
+		},
+
+		127989: {
+			Slug:        "rosette",
+			Character:   "🏵",
+			UnicodeName: "rosette",
+			CodePoint:   "U+1F3F5",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		127991: {
+			Slug:        "label",
+			Character:   "🏷",
+			UnicodeName: "label",
+			CodePoint:   "U+1F3F7",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		127992: {
+			Slug:        "badminton",
+			Character:   "🏸",
+			UnicodeName: "badminton",
+			CodePoint:   "U+1F3F8",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		127993: {
+			Slug:        "bow-and-arrow",
+			Character:   "🏹",
+			UnicodeName: "bow and arrow",
+			CodePoint:   "U+1F3F9",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		127994: {
+			Slug:        "amphora",
+			Character:   "🏺",
+			UnicodeName: "amphora",
+			CodePoint:   "U+1F3FA",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		128000: {
+			Slug:        "rat",
+			Character:   "🐀",
+			UnicodeName: "rat",
+			CodePoint:   "U+1F400",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128001: {
+			Slug:        "mouse",
+			Character:   "🐁",
+			UnicodeName: "mouse",
+			CodePoint:   "U+1F401",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128002: {
+			Slug:        "ox",
+			Character:   "🐂",
+			UnicodeName: "ox",
+			CodePoint:   "U+1F402",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128003: {
+			Slug:        "water-buffalo",
+			Character:   "🐃",
+			UnicodeName: "water buffalo",
+			CodePoint:   "U+1F403",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128004: {
+			Slug:        "cow",
+			Character:   "🐄",
+			UnicodeName: "cow",
+			CodePoint:   "U+1F404",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128005: {
+			Slug:        "tiger",
+			Character:   "🐅",
+			UnicodeName: "tiger",
+			CodePoint:   "U+1F405",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128006: {
+			Slug:        "leopard",
+			Character:   "🐆",
+			UnicodeName: "leopard",
+			CodePoint:   "U+1F406",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128007: {
+			Slug:        "rabbit",
+			Character:   "🐇",
+			UnicodeName: "rabbit",
+			CodePoint:   "U+1F407",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128008: {
+			Slug:        "black-cat",
+			Character:   "🐈‍⬛",
+			UnicodeName: "black cat",
+			CodePoint:   "U+1F408 U+200D U+2B1B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128009: {
+			Slug:        "dragon",
+			Character:   "🐉",
+			UnicodeName: "dragon",
+			CodePoint:   "U+1F409",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		128010: {
+			Slug:        "crocodile",
+			Character:   "🐊",
+			UnicodeName: "crocodile",
+			CodePoint:   "U+1F40A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		128011: {
+			Slug:        "whale",
+			Character:   "🐋",
+			UnicodeName: "whale",
+			CodePoint:   "U+1F40B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128012: {
+			Slug:        "snail",
+			Character:   "🐌",
+			UnicodeName: "snail",
+			CodePoint:   "U+1F40C",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128013: {
+			Slug:        "snake",
+			Character:   "🐍",
+			UnicodeName: "snake",
+			CodePoint:   "U+1F40D",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		128014: {
+			Slug:        "horse",
+			Character:   "🐎",
+			UnicodeName: "horse",
+			CodePoint:   "U+1F40E",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128015: {
+			Slug:        "ram",
+			Character:   "🐏",
+			UnicodeName: "ram",
+			CodePoint:   "U+1F40F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128016: {
+			Slug:        "goat",
+			Character:   "🐐",
+			UnicodeName: "goat",
+			CodePoint:   "U+1F410",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128017: {
+			Slug:        "ewe",
+			Character:   "🐑",
+			UnicodeName: "ewe",
+			CodePoint:   "U+1F411",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128018: {
+			Slug:        "monkey",
+			Character:   "🐒",
+			UnicodeName: "monkey",
+			CodePoint:   "U+1F412",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128019: {
+			Slug:        "rooster",
+			Character:   "🐓",
+			UnicodeName: "rooster",
+			CodePoint:   "U+1F413",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128020: {
+			Slug:        "chicken",
+			Character:   "🐔",
+			UnicodeName: "chicken",
+			CodePoint:   "U+1F414",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128021: {
+			Slug:        "service-dog",
+			Character:   "🐕‍🦺",
+			UnicodeName: "service dog",
+			CodePoint:   "U+1F415 U+200D U+1F9BA",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128022: {
+			Slug:        "pig",
+			Character:   "🐖",
+			UnicodeName: "pig",
+			CodePoint:   "U+1F416",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128023: {
+			Slug:        "boar",
+			Character:   "🐗",
+			UnicodeName: "boar",
+			CodePoint:   "U+1F417",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128024: {
+			Slug:        "elephant",
+			Character:   "🐘",
+			UnicodeName: "elephant",
+			CodePoint:   "U+1F418",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128025: {
+			Slug:        "octopus",
+			Character:   "🐙",
+			UnicodeName: "octopus",
+			CodePoint:   "U+1F419",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128026: {
+			Slug:        "spiral-shell",
+			Character:   "🐚",
+			UnicodeName: "spiral shell",
+			CodePoint:   "U+1F41A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128027: {
+			Slug:        "bug",
+			Character:   "🐛",
+			UnicodeName: "bug",
+			CodePoint:   "U+1F41B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128028: {
+			Slug:        "ant",
+			Character:   "🐜",
+			UnicodeName: "ant",
+			CodePoint:   "U+1F41C",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128029: {
+			Slug:        "honeybee",
+			Character:   "🐝",
+			UnicodeName: "honeybee",
+			CodePoint:   "U+1F41D",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128030: {
+			Slug:        "lady-beetle",
+			Character:   "🐞",
+			UnicodeName: "lady beetle",
+			CodePoint:   "U+1F41E",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128031: {
+			Slug:        "fish",
+			Character:   "🐟",
+			UnicodeName: "fish",
+			CodePoint:   "U+1F41F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128032: {
+			Slug:        "tropical-fish",
+			Character:   "🐠",
+			UnicodeName: "tropical fish",
+			CodePoint:   "U+1F420",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128033: {
+			Slug:        "blowfish",
+			Character:   "🐡",
+			UnicodeName: "blowfish",
+			CodePoint:   "U+1F421",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128034: {
+			Slug:        "turtle",
+			Character:   "🐢",
+			UnicodeName: "turtle",
+			CodePoint:   "U+1F422",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		128035: {
+			Slug:        "hatching-chick",
+			Character:   "🐣",
+			UnicodeName: "hatching chick",
+			CodePoint:   "U+1F423",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128036: {
+			Slug:        "baby-chick",
+			Character:   "🐤",
+			UnicodeName: "baby chick",
+			CodePoint:   "U+1F424",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128037: {
+			Slug:        "front-facing-baby-chick",
+			Character:   "🐥",
+			UnicodeName: "front-facing baby chick",
+			CodePoint:   "U+1F425",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128038: {
+			Slug:        "bird",
+			Character:   "🐦",
+			UnicodeName: "bird",
+			CodePoint:   "U+1F426",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128039: {
+			Slug:        "penguin",
+			Character:   "🐧",
+			UnicodeName: "penguin",
+			CodePoint:   "U+1F427",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128040: {
+			Slug:        "koala",
+			Character:   "🐨",
+			UnicodeName: "koala",
+			CodePoint:   "U+1F428",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128041: {
+			Slug:        "poodle",
+			Character:   "🐩",
+			UnicodeName: "poodle",
+			CodePoint:   "U+1F429",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128042: {
+			Slug:        "camel",
+			Character:   "🐪",
+			UnicodeName: "camel",
+			CodePoint:   "U+1F42A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128043: {
+			Slug:        "two-hump-camel",
+			Character:   "🐫",
+			UnicodeName: "two-hump camel",
+			CodePoint:   "U+1F42B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128044: {
+			Slug:        "dolphin",
+			Character:   "🐬",
+			UnicodeName: "dolphin",
+			CodePoint:   "U+1F42C",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128045: {
+			Slug:        "mouse-face",
+			Character:   "🐭",
+			UnicodeName: "mouse face",
+			CodePoint:   "U+1F42D",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128046: {
+			Slug:        "cow-face",
+			Character:   "🐮",
+			UnicodeName: "cow face",
+			CodePoint:   "U+1F42E",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128047: {
+			Slug:        "tiger-face",
+			Character:   "🐯",
+			UnicodeName: "tiger face",
+			CodePoint:   "U+1F42F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128048: {
+			Slug:        "rabbit-face",
+			Character:   "🐰",
+			UnicodeName: "rabbit face",
+			CodePoint:   "U+1F430",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128049: {
+			Slug:        "cat-face",
+			Character:   "🐱",
+			UnicodeName: "cat face",
+			CodePoint:   "U+1F431",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128050: {
+			Slug:        "dragon-face",
+			Character:   "🐲",
+			UnicodeName: "dragon face",
+			CodePoint:   "U+1F432",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		128051: {
+			Slug:        "spouting-whale",
+			Character:   "🐳",
+			UnicodeName: "spouting whale",
+			CodePoint:   "U+1F433",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		128052: {
+			Slug:        "horse-face",
+			Character:   "🐴",
+			UnicodeName: "horse face",
+			CodePoint:   "U+1F434",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128053: {
+			Slug:        "monkey-face",
+			Character:   "🐵",
+			UnicodeName: "monkey face",
+			CodePoint:   "U+1F435",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128054: {
+			Slug:        "dog-face",
+			Character:   "🐶",
+			UnicodeName: "dog face",
+			CodePoint:   "U+1F436",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128055: {
+			Slug:        "pig-face",
+			Character:   "🐷",
+			UnicodeName: "pig face",
+			CodePoint:   "U+1F437",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128056: {
+			Slug:        "frog",
+			Character:   "🐸",
+			UnicodeName: "frog",
+			CodePoint:   "U+1F438",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-amphibian",
+		},
+
+		128057: {
+			Slug:        "hamster",
+			Character:   "🐹",
+			UnicodeName: "hamster",
+			CodePoint:   "U+1F439",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128058: {
+			Slug:        "wolf",
+			Character:   "🐺",
+			UnicodeName: "wolf",
+			CodePoint:   "U+1F43A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128059: {
+			Slug:        "polar-bear",
+			Character:   "🐻‍❄️",
+			UnicodeName: "polar bear",
+			CodePoint:   "U+1F43B U+200D U+2744 U+FE0F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128060: {
+			Slug:        "panda",
+			Character:   "🐼",
+			UnicodeName: "panda",
+			CodePoint:   "U+1F43C",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128061: {
+			Slug:        "pig-nose",
+			Character:   "🐽",
+			UnicodeName: "pig nose",
+			CodePoint:   "U+1F43D",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128062: {
+			Slug:        "paw-prints",
+			Character:   "🐾",
+			UnicodeName: "paw prints",
+			CodePoint:   "U+1F43E",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128063: {
+			Slug:        "chipmunk",
+			Character:   "🐿",
+			UnicodeName: "chipmunk",
+			CodePoint:   "U+1F43F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		128064: {
+			Slug:        "eyes",
+			Character:   "👀",
+			UnicodeName: "eyes",
+			CodePoint:   "U+1F440",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128065: {
+			Slug:        "eye",
+			Character:   "👁",
+			UnicodeName: "eye",
+			CodePoint:   "U+1F441",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128066: {
+			Slug:        "ear",
+			Character:   "👂",
+			UnicodeName: "ear",
+			CodePoint:   "U+1F442",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128067: {
+			Slug:        "nose",
+			Character:   "👃",
+			UnicodeName: "nose",
+			CodePoint:   "U+1F443",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128068: {
+			Slug:        "mouth",
+			Character:   "👄",
+			UnicodeName: "mouth",
+			CodePoint:   "U+1F444",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128069: {
+			Slug:        "tongue",
+			Character:   "👅",
+			UnicodeName: "tongue",
+			CodePoint:   "U+1F445",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128070: {
+			Slug:        "backhand-index-pointing-up",
+			Character:   "👆",
+			UnicodeName: "backhand index pointing up",
+			CodePoint:   "U+1F446",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		128071: {
+			Slug:        "backhand-index-pointing-down",
+			Character:   "👇",
+			UnicodeName: "backhand index pointing down",
+			CodePoint:   "U+1F447",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		128072: {
+			Slug:        "backhand-index-pointing-left",
+			Character:   "👈",
+			UnicodeName: "backhand index pointing left",
+			CodePoint:   "U+1F448",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		128073: {
+			Slug:        "backhand-index-pointing-right",
+			Character:   "👉",
+			UnicodeName: "backhand index pointing right",
+			CodePoint:   "U+1F449",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		128074: {
+			Slug:        "oncoming-fist",
+			Character:   "👊",
+			UnicodeName: "oncoming fist",
+			CodePoint:   "U+1F44A",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-closed",
+		},
+
+		128075: {
+			Slug:        "waving-hand",
+			Character:   "👋",
+			UnicodeName: "waving hand",
+			CodePoint:   "U+1F44B",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		128076: {
+			Slug:        "OK-hand",
+			Character:   "👌",
+			UnicodeName: "OK hand",
+			CodePoint:   "U+1F44C",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		128077: {
+			Slug:        "thumbs-up",
+			Character:   "👍",
+			UnicodeName: "thumbs up",
+			CodePoint:   "U+1F44D",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-closed",
+		},
+
+		128078: {
+			Slug:        "thumbs-down",
+			Character:   "👎",
+			UnicodeName: "thumbs down",
+			CodePoint:   "U+1F44E",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-closed",
+		},
+
+		128079: {
+			Slug:        "clapping-hands",
+			Character:   "👏",
+			UnicodeName: "clapping hands",
+			CodePoint:   "U+1F44F",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
+
+		128080: {
+			Slug:        "open-hands",
+			Character:   "👐",
+			UnicodeName: "open hands",
+			CodePoint:   "U+1F450",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
+
+		128081: {
+			Slug:        "crown",
+			Character:   "👑",
+			UnicodeName: "crown",
+			CodePoint:   "U+1F451",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128082: {
+			Slug:        "woman’s-hat",
+			Character:   "👒",
+			UnicodeName: "woman’s hat",
+			CodePoint:   "U+1F452",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128083: {
+			Slug:        "glasses",
+			Character:   "👓",
+			UnicodeName: "glasses",
+			CodePoint:   "U+1F453",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128084: {
+			Slug:        "necktie",
+			Character:   "👔",
+			UnicodeName: "necktie",
+			CodePoint:   "U+1F454",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128085: {
+			Slug:        "t-shirt",
+			Character:   "👕",
+			UnicodeName: "t-shirt",
+			CodePoint:   "U+1F455",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128086: {
+			Slug:        "jeans",
+			Character:   "👖",
+			UnicodeName: "jeans",
+			CodePoint:   "U+1F456",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128087: {
+			Slug:        "dress",
+			Character:   "👗",
+			UnicodeName: "dress",
+			CodePoint:   "U+1F457",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128088: {
+			Slug:        "kimono",
+			Character:   "👘",
+			UnicodeName: "kimono",
+			CodePoint:   "U+1F458",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128089: {
+			Slug:        "bikini",
+			Character:   "👙",
+			UnicodeName: "bikini",
+			CodePoint:   "U+1F459",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128090: {
+			Slug:        "woman’s-clothes",
+			Character:   "👚",
+			UnicodeName: "woman’s clothes",
+			CodePoint:   "U+1F45A",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128091: {
+			Slug:        "purse",
+			Character:   "👛",
+			UnicodeName: "purse",
+			CodePoint:   "U+1F45B",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128092: {
+			Slug:        "handbag",
+			Character:   "👜",
+			UnicodeName: "handbag",
+			CodePoint:   "U+1F45C",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128093: {
+			Slug:        "clutch-bag",
+			Character:   "👝",
+			UnicodeName: "clutch bag",
+			CodePoint:   "U+1F45D",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128094: {
+			Slug:        "man’s-shoe",
+			Character:   "👞",
+			UnicodeName: "man’s shoe",
+			CodePoint:   "U+1F45E",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128095: {
+			Slug:        "running-shoe",
+			Character:   "👟",
+			UnicodeName: "running shoe",
+			CodePoint:   "U+1F45F",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128096: {
+			Slug:        "high-heeled-shoe",
+			Character:   "👠",
+			UnicodeName: "high-heeled shoe",
+			CodePoint:   "U+1F460",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128097: {
+			Slug:        "woman’s-sandal",
+			Character:   "👡",
+			UnicodeName: "woman’s sandal",
+			CodePoint:   "U+1F461",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128098: {
+			Slug:        "woman’s-boot",
+			Character:   "👢",
+			UnicodeName: "woman’s boot",
+			CodePoint:   "U+1F462",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128099: {
+			Slug:        "footprints",
+			Character:   "👣",
+			UnicodeName: "footprints",
+			CodePoint:   "U+1F463",
+			Group:       "People & Body",
+			SubGroup:    "person-symbol",
+		},
+
+		128100: {
+			Slug:        "bust-in-silhouette",
+			Character:   "👤",
+			UnicodeName: "bust in silhouette",
+			CodePoint:   "U+1F464",
+			Group:       "People & Body",
+			SubGroup:    "person-symbol",
+		},
+
+		128101: {
+			Slug:        "busts-in-silhouette",
+			Character:   "👥",
+			UnicodeName: "busts in silhouette",
+			CodePoint:   "U+1F465",
+			Group:       "People & Body",
+			SubGroup:    "person-symbol",
+		},
+
+		128102: {
+			Slug:        "boy",
+			Character:   "👦",
+			UnicodeName: "boy",
+			CodePoint:   "U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		128103: {
+			Slug:        "girl",
+			Character:   "👧",
+			UnicodeName: "girl",
+			CodePoint:   "U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		128104: {
+			Slug:        "family:-man,-girl,-girl",
+			Character:   "👨‍👧‍👧",
+			UnicodeName: "family: man, girl, girl",
+			CodePoint:   "U+1F468 U+200D U+1F467 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128105: {
+			Slug:        "family:-woman,-girl,-girl",
+			Character:   "👩‍👧‍👧",
+			UnicodeName: "family: woman, girl, girl",
+			CodePoint:   "U+1F469 U+200D U+1F467 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128106: {
+			Slug:        "family",
+			Character:   "👪",
+			UnicodeName: "family",
+			CodePoint:   "U+1F46A",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128107: {
+			Slug:        "woman-and-man-holding-hands",
+			Character:   "👫",
+			UnicodeName: "woman and man holding hands",
+			CodePoint:   "U+1F46B",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128108: {
+			Slug:        "men-holding-hands",
+			Character:   "👬",
+			UnicodeName: "men holding hands",
+			CodePoint:   "U+1F46C",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128109: {
+			Slug:        "women-holding-hands",
+			Character:   "👭",
+			UnicodeName: "women holding hands",
+			CodePoint:   "U+1F46D",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128110: {
+			Slug:        "woman-police-officer",
+			Character:   "👮‍♀️",
+			UnicodeName: "woman police officer",
+			CodePoint:   "U+1F46E U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128111: {
+			Slug:        "women-with-bunny-ears",
+			Character:   "👯‍♀️",
+			UnicodeName: "women with bunny ears",
+			CodePoint:   "U+1F46F U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128112: {
+			Slug:        "woman-with-veil",
+			Character:   "👰‍♀️",
+			UnicodeName: "woman with veil",
+			CodePoint:   "U+1F470 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128113: {
+			Slug:        "man:-blond-hair",
+			Character:   "👱‍♂️",
+			UnicodeName: "man: blond hair",
+			CodePoint:   "U+1F471 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		128114: {
+			Slug:        "person-with-skullcap",
+			Character:   "👲",
+			UnicodeName: "person with skullcap",
+			CodePoint:   "U+1F472",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128115: {
+			Slug:        "woman-wearing-turban",
+			Character:   "👳‍♀️",
+			UnicodeName: "woman wearing turban",
+			CodePoint:   "U+1F473 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128116: {
+			Slug:        "old-man",
+			Character:   "👴",
+			UnicodeName: "old man",
+			CodePoint:   "U+1F474",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		128117: {
+			Slug:        "old-woman",
+			Character:   "👵",
+			UnicodeName: "old woman",
+			CodePoint:   "U+1F475",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		128118: {
+			Slug:        "baby",
+			Character:   "👶",
+			UnicodeName: "baby",
+			CodePoint:   "U+1F476",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		128119: {
+			Slug:        "woman-construction-worker",
+			Character:   "👷‍♀️",
+			UnicodeName: "woman construction worker",
+			CodePoint:   "U+1F477 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128120: {
+			Slug:        "princess",
+			Character:   "👸",
+			UnicodeName: "princess",
+			CodePoint:   "U+1F478",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128121: {
+			Slug:        "ogre",
+			Character:   "👹",
+			UnicodeName: "ogre",
+			CodePoint:   "U+1F479",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		128122: {
+			Slug:        "goblin",
+			Character:   "👺",
+			UnicodeName: "goblin",
+			CodePoint:   "U+1F47A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		128123: {
+			Slug:        "ghost",
+			Character:   "👻",
+			UnicodeName: "ghost",
+			CodePoint:   "U+1F47B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		128124: {
+			Slug:        "baby-angel",
+			Character:   "👼",
+			UnicodeName: "baby angel",
+			CodePoint:   "U+1F47C",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		128125: {
+			Slug:        "alien",
+			Character:   "👽",
+			UnicodeName: "alien",
+			CodePoint:   "U+1F47D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		128126: {
+			Slug:        "alien-monster",
+			Character:   "👾",
+			UnicodeName: "alien monster",
+			CodePoint:   "U+1F47E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		128127: {
+			Slug:        "angry-face-with-horns",
+			Character:   "👿",
+			UnicodeName: "angry face with horns",
+			CodePoint:   "U+1F47F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		128128: {
+			Slug:        "skull",
+			Character:   "💀",
+			UnicodeName: "skull",
+			CodePoint:   "U+1F480",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		128129: {
+			Slug:        "woman-tipping-hand",
+			Character:   "💁‍♀️",
+			UnicodeName: "woman tipping hand",
+			CodePoint:   "U+1F481 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128130: {
+			Slug:        "woman-guard",
+			Character:   "💂‍♀️",
+			UnicodeName: "woman guard",
+			CodePoint:   "U+1F482 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128131: {
+			Slug:        "woman-dancing",
+			Character:   "💃",
+			UnicodeName: "woman dancing",
+			CodePoint:   "U+1F483",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128132: {
+			Slug:        "lipstick",
+			Character:   "💄",
+			UnicodeName: "lipstick",
+			CodePoint:   "U+1F484",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128133: {
+			Slug:        "nail-polish",
+			Character:   "💅",
+			UnicodeName: "nail polish",
+			CodePoint:   "U+1F485",
+			Group:       "People & Body",
+			SubGroup:    "hand-prop",
+		},
+
+		128134: {
+			Slug:        "woman-getting-massage",
+			Character:   "💆‍♀️",
+			UnicodeName: "woman getting massage",
+			CodePoint:   "U+1F486 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128135: {
+			Slug:        "woman-getting-haircut",
+			Character:   "💇‍♀️",
+			UnicodeName: "woman getting haircut",
+			CodePoint:   "U+1F487 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128136: {
+			Slug:        "barber-pole",
+			Character:   "💈",
+			UnicodeName: "barber pole",
+			CodePoint:   "U+1F488",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		128137: {
+			Slug:        "syringe",
+			Character:   "💉",
+			UnicodeName: "syringe",
+			CodePoint:   "U+1F489",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		128138: {
+			Slug:        "pill",
+			Character:   "💊",
+			UnicodeName: "pill",
+			CodePoint:   "U+1F48A",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		128139: {
+			Slug:        "kiss-mark",
+			Character:   "💋",
+			UnicodeName: "kiss mark",
+			CodePoint:   "U+1F48B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128140: {
+			Slug:        "love-letter",
+			Character:   "💌",
+			UnicodeName: "love letter",
+			CodePoint:   "U+1F48C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128141: {
+			Slug:        "ring",
+			Character:   "💍",
+			UnicodeName: "ring",
+			CodePoint:   "U+1F48D",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128142: {
+			Slug:        "gem-stone",
+			Character:   "💎",
+			UnicodeName: "gem stone",
+			CodePoint:   "U+1F48E",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128143: {
+			Slug:        "kiss",
+			Character:   "💏",
+			UnicodeName: "kiss",
+			CodePoint:   "U+1F48F",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128144: {
+			Slug:        "bouquet",
+			Character:   "💐",
+			UnicodeName: "bouquet",
+			CodePoint:   "U+1F490",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		128145: {
+			Slug:        "couple-with-heart",
+			Character:   "💑",
+			UnicodeName: "couple with heart",
+			CodePoint:   "U+1F491",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		128146: {
+			Slug:        "wedding",
+			Character:   "💒",
+			UnicodeName: "wedding",
+			CodePoint:   "U+1F492",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		128147: {
+			Slug:        "beating-heart",
+			Character:   "💓",
+			UnicodeName: "beating heart",
+			CodePoint:   "U+1F493",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128148: {
+			Slug:        "broken-heart",
+			Character:   "💔",
+			UnicodeName: "broken heart",
+			CodePoint:   "U+1F494",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128149: {
+			Slug:        "two-hearts",
+			Character:   "💕",
+			UnicodeName: "two hearts",
+			CodePoint:   "U+1F495",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128150: {
+			Slug:        "sparkling-heart",
+			Character:   "💖",
+			UnicodeName: "sparkling heart",
+			CodePoint:   "U+1F496",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128151: {
+			Slug:        "growing-heart",
+			Character:   "💗",
+			UnicodeName: "growing heart",
+			CodePoint:   "U+1F497",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128152: {
+			Slug:        "heart-with-arrow",
+			Character:   "💘",
+			UnicodeName: "heart with arrow",
+			CodePoint:   "U+1F498",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128153: {
+			Slug:        "blue-heart",
+			Character:   "💙",
+			UnicodeName: "blue heart",
+			CodePoint:   "U+1F499",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128154: {
+			Slug:        "green-heart",
+			Character:   "💚",
+			UnicodeName: "green heart",
+			CodePoint:   "U+1F49A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128155: {
+			Slug:        "yellow-heart",
+			Character:   "💛",
+			UnicodeName: "yellow heart",
+			CodePoint:   "U+1F49B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128156: {
+			Slug:        "purple-heart",
+			Character:   "💜",
+			UnicodeName: "purple heart",
+			CodePoint:   "U+1F49C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128157: {
+			Slug:        "heart-with-ribbon",
+			Character:   "💝",
+			UnicodeName: "heart with ribbon",
+			CodePoint:   "U+1F49D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128158: {
+			Slug:        "revolving-hearts",
+			Character:   "💞",
+			UnicodeName: "revolving hearts",
+			CodePoint:   "U+1F49E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128159: {
+			Slug:        "heart-decoration",
+			Character:   "💟",
+			UnicodeName: "heart decoration",
+			CodePoint:   "U+1F49F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128160: {
+			Slug:        "diamond-with-a-dot",
+			Character:   "💠",
+			UnicodeName: "diamond with a dot",
+			CodePoint:   "U+1F4A0",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128161: {
+			Slug:        "light-bulb",
+			Character:   "💡",
+			UnicodeName: "light bulb",
+			CodePoint:   "U+1F4A1",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128162: {
+			Slug:        "anger-symbol",
+			Character:   "💢",
+			UnicodeName: "anger symbol",
+			CodePoint:   "U+1F4A2",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128163: {
+			Slug:        "bomb",
+			Character:   "💣",
+			UnicodeName: "bomb",
+			CodePoint:   "U+1F4A3",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128164: {
+			Slug:        "zzz",
+			Character:   "💤",
+			UnicodeName: "zzz",
+			CodePoint:   "U+1F4A4",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128165: {
+			Slug:        "collision",
+			Character:   "💥",
+			UnicodeName: "collision",
+			CodePoint:   "U+1F4A5",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128166: {
+			Slug:        "sweat-droplets",
+			Character:   "💦",
+			UnicodeName: "sweat droplets",
+			CodePoint:   "U+1F4A6",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128167: {
+			Slug:        "droplet",
+			Character:   "💧",
+			UnicodeName: "droplet",
+			CodePoint:   "U+1F4A7",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		128168: {
+			Slug:        "dashing-away",
+			Character:   "💨",
+			UnicodeName: "dashing away",
+			CodePoint:   "U+1F4A8",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128169: {
+			Slug:        "pile-of-poo",
+			Character:   "💩",
+			UnicodeName: "pile of poo",
+			CodePoint:   "U+1F4A9",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		128170: {
+			Slug:        "flexed-biceps",
+			Character:   "💪",
+			UnicodeName: "flexed biceps",
+			CodePoint:   "U+1F4AA",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		128171: {
+			Slug:        "dizzy",
+			Character:   "💫",
+			UnicodeName: "dizzy",
+			CodePoint:   "U+1F4AB",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128172: {
+			Slug:        "speech-balloon",
+			Character:   "💬",
+			UnicodeName: "speech balloon",
+			CodePoint:   "U+1F4AC",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128173: {
+			Slug:        "thought-balloon",
+			Character:   "💭",
+			UnicodeName: "thought balloon",
+			CodePoint:   "U+1F4AD",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128174: {
+			Slug:        "white-flower",
+			Character:   "💮",
+			UnicodeName: "white flower",
+			CodePoint:   "U+1F4AE",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		128175: {
+			Slug:        "hundred-points",
+			Character:   "💯",
+			UnicodeName: "hundred points",
+			CodePoint:   "U+1F4AF",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128176: {
+			Slug:        "money-bag",
+			Character:   "💰",
+			UnicodeName: "money bag",
+			CodePoint:   "U+1F4B0",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128177: {
+			Slug:        "currency-exchange",
+			Character:   "💱",
+			UnicodeName: "currency exchange",
+			CodePoint:   "U+1F4B1",
+			Group:       "Symbols",
+			SubGroup:    "currency",
+		},
+
+		128178: {
+			Slug:        "heavy-dollar-sign",
+			Character:   "💲",
+			UnicodeName: "heavy dollar sign",
+			CodePoint:   "U+1F4B2",
+			Group:       "Symbols",
+			SubGroup:    "currency",
+		},
+
+		128179: {
+			Slug:        "credit-card",
+			Character:   "💳",
+			UnicodeName: "credit card",
+			CodePoint:   "U+1F4B3",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128180: {
+			Slug:        "yen-banknote",
+			Character:   "💴",
+			UnicodeName: "yen banknote",
+			CodePoint:   "U+1F4B4",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128181: {
+			Slug:        "dollar-banknote",
+			Character:   "💵",
+			UnicodeName: "dollar banknote",
+			CodePoint:   "U+1F4B5",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128182: {
+			Slug:        "euro-banknote",
+			Character:   "💶",
+			UnicodeName: "euro banknote",
+			CodePoint:   "U+1F4B6",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128183: {
+			Slug:        "pound-banknote",
+			Character:   "💷",
+			UnicodeName: "pound banknote",
+			CodePoint:   "U+1F4B7",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128184: {
+			Slug:        "money-with-wings",
+			Character:   "💸",
+			UnicodeName: "money with wings",
+			CodePoint:   "U+1F4B8",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128185: {
+			Slug:        "chart-increasing-with-yen",
+			Character:   "💹",
+			UnicodeName: "chart increasing with yen",
+			CodePoint:   "U+1F4B9",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		128186: {
+			Slug:        "seat",
+			Character:   "💺",
+			UnicodeName: "seat",
+			CodePoint:   "U+1F4BA",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128187: {
+			Slug:        "laptop",
+			Character:   "💻",
+			UnicodeName: "laptop",
+			CodePoint:   "U+1F4BB",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128188: {
+			Slug:        "briefcase",
+			Character:   "💼",
+			UnicodeName: "briefcase",
+			CodePoint:   "U+1F4BC",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128189: {
+			Slug:        "computer-disk",
+			Character:   "💽",
+			UnicodeName: "computer disk",
+			CodePoint:   "U+1F4BD",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128190: {
+			Slug:        "floppy-disk",
+			Character:   "💾",
+			UnicodeName: "floppy disk",
+			CodePoint:   "U+1F4BE",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128191: {
+			Slug:        "optical-disk",
+			Character:   "💿",
+			UnicodeName: "optical disk",
+			CodePoint:   "U+1F4BF",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128192: {
+			Slug:        "dvd",
+			Character:   "📀",
+			UnicodeName: "dvd",
+			CodePoint:   "U+1F4C0",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128193: {
+			Slug:        "file-folder",
+			Character:   "📁",
+			UnicodeName: "file folder",
+			CodePoint:   "U+1F4C1",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128194: {
+			Slug:        "open-file-folder",
+			Character:   "📂",
+			UnicodeName: "open file folder",
+			CodePoint:   "U+1F4C2",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128195: {
+			Slug:        "page-with-curl",
+			Character:   "📃",
+			UnicodeName: "page with curl",
+			CodePoint:   "U+1F4C3",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128196: {
+			Slug:        "page-facing-up",
+			Character:   "📄",
+			UnicodeName: "page facing up",
+			CodePoint:   "U+1F4C4",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128197: {
+			Slug:        "calendar",
+			Character:   "📅",
+			UnicodeName: "calendar",
+			CodePoint:   "U+1F4C5",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128198: {
+			Slug:        "tear-off-calendar",
+			Character:   "📆",
+			UnicodeName: "tear-off calendar",
+			CodePoint:   "U+1F4C6",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128199: {
+			Slug:        "card-index",
+			Character:   "📇",
+			UnicodeName: "card index",
+			CodePoint:   "U+1F4C7",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128200: {
+			Slug:        "chart-increasing",
+			Character:   "📈",
+			UnicodeName: "chart increasing",
+			CodePoint:   "U+1F4C8",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128201: {
+			Slug:        "chart-decreasing",
+			Character:   "📉",
+			UnicodeName: "chart decreasing",
+			CodePoint:   "U+1F4C9",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128202: {
+			Slug:        "bar-chart",
+			Character:   "📊",
+			UnicodeName: "bar chart",
+			CodePoint:   "U+1F4CA",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128203: {
+			Slug:        "clipboard",
+			Character:   "📋",
+			UnicodeName: "clipboard",
+			CodePoint:   "U+1F4CB",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128204: {
+			Slug:        "pushpin",
+			Character:   "📌",
+			UnicodeName: "pushpin",
+			CodePoint:   "U+1F4CC",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128205: {
+			Slug:        "round-pushpin",
+			Character:   "📍",
+			UnicodeName: "round pushpin",
+			CodePoint:   "U+1F4CD",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128206: {
+			Slug:        "paperclip",
+			Character:   "📎",
+			UnicodeName: "paperclip",
+			CodePoint:   "U+1F4CE",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128207: {
+			Slug:        "straight-ruler",
+			Character:   "📏",
+			UnicodeName: "straight ruler",
+			CodePoint:   "U+1F4CF",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128208: {
+			Slug:        "triangular-ruler",
+			Character:   "📐",
+			UnicodeName: "triangular ruler",
+			CodePoint:   "U+1F4D0",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128209: {
+			Slug:        "bookmark-tabs",
+			Character:   "📑",
+			UnicodeName: "bookmark tabs",
+			CodePoint:   "U+1F4D1",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128210: {
+			Slug:        "ledger",
+			Character:   "📒",
+			UnicodeName: "ledger",
+			CodePoint:   "U+1F4D2",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128211: {
+			Slug:        "notebook",
+			Character:   "📓",
+			UnicodeName: "notebook",
+			CodePoint:   "U+1F4D3",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128212: {
+			Slug:        "notebook-with-decorative-cover",
+			Character:   "📔",
+			UnicodeName: "notebook with decorative cover",
+			CodePoint:   "U+1F4D4",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128213: {
+			Slug:        "closed-book",
+			Character:   "📕",
+			UnicodeName: "closed book",
+			CodePoint:   "U+1F4D5",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128214: {
+			Slug:        "open-book",
+			Character:   "📖",
+			UnicodeName: "open book",
+			CodePoint:   "U+1F4D6",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128215: {
+			Slug:        "green-book",
+			Character:   "📗",
+			UnicodeName: "green book",
+			CodePoint:   "U+1F4D7",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128216: {
+			Slug:        "blue-book",
+			Character:   "📘",
+			UnicodeName: "blue book",
+			CodePoint:   "U+1F4D8",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128217: {
+			Slug:        "orange-book",
+			Character:   "📙",
+			UnicodeName: "orange book",
+			CodePoint:   "U+1F4D9",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128218: {
+			Slug:        "books",
+			Character:   "📚",
+			UnicodeName: "books",
+			CodePoint:   "U+1F4DA",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128219: {
+			Slug:        "name-badge",
+			Character:   "📛",
+			UnicodeName: "name badge",
+			CodePoint:   "U+1F4DB",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		128220: {
+			Slug:        "scroll",
+			Character:   "📜",
+			UnicodeName: "scroll",
+			CodePoint:   "U+1F4DC",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128221: {
+			Slug:        "memo",
+			Character:   "📝",
+			UnicodeName: "memo",
+			CodePoint:   "U+1F4DD",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		128222: {
+			Slug:        "telephone-receiver",
+			Character:   "📞",
+			UnicodeName: "telephone receiver",
+			CodePoint:   "U+1F4DE",
+			Group:       "Objects",
+			SubGroup:    "phone",
+		},
+
+		128223: {
+			Slug:        "pager",
+			Character:   "📟",
+			UnicodeName: "pager",
+			CodePoint:   "U+1F4DF",
+			Group:       "Objects",
+			SubGroup:    "phone",
+		},
+
+		128224: {
+			Slug:        "fax-machine",
+			Character:   "📠",
+			UnicodeName: "fax machine",
+			CodePoint:   "U+1F4E0",
+			Group:       "Objects",
+			SubGroup:    "phone",
+		},
+
+		128225: {
+			Slug:        "satellite-antenna",
+			Character:   "📡",
+			UnicodeName: "satellite antenna",
+			CodePoint:   "U+1F4E1",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		128226: {
+			Slug:        "loudspeaker",
+			Character:   "📢",
+			UnicodeName: "loudspeaker",
+			CodePoint:   "U+1F4E2",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128227: {
+			Slug:        "megaphone",
+			Character:   "📣",
+			UnicodeName: "megaphone",
+			CodePoint:   "U+1F4E3",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128228: {
+			Slug:        "outbox-tray",
+			Character:   "📤",
+			UnicodeName: "outbox tray",
+			CodePoint:   "U+1F4E4",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128229: {
+			Slug:        "inbox-tray",
+			Character:   "📥",
+			UnicodeName: "inbox tray",
+			CodePoint:   "U+1F4E5",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128230: {
+			Slug:        "package",
+			Character:   "📦",
+			UnicodeName: "package",
+			CodePoint:   "U+1F4E6",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128231: {
+			Slug:        "e-mail",
+			Character:   "📧",
+			UnicodeName: "e-mail",
+			CodePoint:   "U+1F4E7",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128232: {
+			Slug:        "incoming-envelope",
+			Character:   "📨",
+			UnicodeName: "incoming envelope",
+			CodePoint:   "U+1F4E8",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128233: {
+			Slug:        "envelope-with-arrow",
+			Character:   "📩",
+			UnicodeName: "envelope with arrow",
+			CodePoint:   "U+1F4E9",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128234: {
+			Slug:        "closed-mailbox-with-lowered-flag",
+			Character:   "📪",
+			UnicodeName: "closed mailbox with lowered flag",
+			CodePoint:   "U+1F4EA",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128235: {
+			Slug:        "closed-mailbox-with-raised-flag",
+			Character:   "📫",
+			UnicodeName: "closed mailbox with raised flag",
+			CodePoint:   "U+1F4EB",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128236: {
+			Slug:        "open-mailbox-with-raised-flag",
+			Character:   "📬",
+			UnicodeName: "open mailbox with raised flag",
+			CodePoint:   "U+1F4EC",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128237: {
+			Slug:        "open-mailbox-with-lowered-flag",
+			Character:   "📭",
+			UnicodeName: "open mailbox with lowered flag",
+			CodePoint:   "U+1F4ED",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128238: {
+			Slug:        "postbox",
+			Character:   "📮",
+			UnicodeName: "postbox",
+			CodePoint:   "U+1F4EE",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128239: {
+			Slug:        "postal-horn",
+			Character:   "📯",
+			UnicodeName: "postal horn",
+			CodePoint:   "U+1F4EF",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128240: {
+			Slug:        "newspaper",
+			Character:   "📰",
+			UnicodeName: "newspaper",
+			CodePoint:   "U+1F4F0",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128241: {
+			Slug:        "mobile-phone",
+			Character:   "📱",
+			UnicodeName: "mobile phone",
+			CodePoint:   "U+1F4F1",
+			Group:       "Objects",
+			SubGroup:    "phone",
+		},
+
+		128242: {
+			Slug:        "mobile-phone-with-arrow",
+			Character:   "📲",
+			UnicodeName: "mobile phone with arrow",
+			CodePoint:   "U+1F4F2",
+			Group:       "Objects",
+			SubGroup:    "phone",
+		},
+
+		128243: {
+			Slug:        "vibration-mode",
+			Character:   "📳",
+			UnicodeName: "vibration mode",
+			CodePoint:   "U+1F4F3",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128244: {
+			Slug:        "mobile-phone-off",
+			Character:   "📴",
+			UnicodeName: "mobile phone off",
+			CodePoint:   "U+1F4F4",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128245: {
+			Slug:        "no-mobile-phones",
+			Character:   "📵",
+			UnicodeName: "no mobile phones",
+			CodePoint:   "U+1F4F5",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128246: {
+			Slug:        "antenna-bars",
+			Character:   "📶",
+			UnicodeName: "antenna bars",
+			CodePoint:   "U+1F4F6",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128247: {
+			Slug:        "camera",
+			Character:   "📷",
+			UnicodeName: "camera",
+			CodePoint:   "U+1F4F7",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128248: {
+			Slug:        "camera-with-flash",
+			Character:   "📸",
+			UnicodeName: "camera with flash",
+			CodePoint:   "U+1F4F8",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128249: {
+			Slug:        "video-camera",
+			Character:   "📹",
+			UnicodeName: "video camera",
+			CodePoint:   "U+1F4F9",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128250: {
+			Slug:        "television",
+			Character:   "📺",
+			UnicodeName: "television",
+			CodePoint:   "U+1F4FA",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128251: {
+			Slug:        "radio",
+			Character:   "📻",
+			UnicodeName: "radio",
+			CodePoint:   "U+1F4FB",
+			Group:       "Objects",
+			SubGroup:    "music",
+		},
+
+		128252: {
+			Slug:        "videocassette",
+			Character:   "📼",
+			UnicodeName: "videocassette",
+			CodePoint:   "U+1F4FC",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128253: {
+			Slug:        "film-projector",
+			Character:   "📽",
+			UnicodeName: "film projector",
+			CodePoint:   "U+1F4FD",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128255: {
+			Slug:        "prayer-beads",
+			Character:   "📿",
+			UnicodeName: "prayer beads",
+			CodePoint:   "U+1F4FF",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128256: {
+			Slug:        "shuffle-tracks-button",
+			Character:   "🔀",
+			UnicodeName: "shuffle tracks button",
+			CodePoint:   "U+1F500",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128257: {
+			Slug:        "repeat-button",
+			Character:   "🔁",
+			UnicodeName: "repeat button",
+			CodePoint:   "U+1F501",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128258: {
+			Slug:        "repeat-single-button",
+			Character:   "🔂",
+			UnicodeName: "repeat single button",
+			CodePoint:   "U+1F502",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128259: {
+			Slug:        "clockwise-vertical-arrows",
+			Character:   "🔃",
+			UnicodeName: "clockwise vertical arrows",
+			CodePoint:   "U+1F503",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128260: {
+			Slug:        "counterclockwise-arrows-button",
+			Character:   "🔄",
+			UnicodeName: "counterclockwise arrows button",
+			CodePoint:   "U+1F504",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128261: {
+			Slug:        "dim-button",
+			Character:   "🔅",
+			UnicodeName: "dim button",
+			CodePoint:   "U+1F505",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128262: {
+			Slug:        "bright-button",
+			Character:   "🔆",
+			UnicodeName: "bright button",
+			CodePoint:   "U+1F506",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128263: {
+			Slug:        "muted-speaker",
+			Character:   "🔇",
+			UnicodeName: "muted speaker",
+			CodePoint:   "U+1F507",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128264: {
+			Slug:        "speaker-low-volume",
+			Character:   "🔈",
+			UnicodeName: "speaker low volume",
+			CodePoint:   "U+1F508",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128265: {
+			Slug:        "speaker-medium-volume",
+			Character:   "🔉",
+			UnicodeName: "speaker medium volume",
+			CodePoint:   "U+1F509",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128266: {
+			Slug:        "speaker-high-volume",
+			Character:   "🔊",
+			UnicodeName: "speaker high volume",
+			CodePoint:   "U+1F50A",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128267: {
+			Slug:        "battery",
+			Character:   "🔋",
+			UnicodeName: "battery",
+			CodePoint:   "U+1F50B",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128268: {
+			Slug:        "electric-plug",
+			Character:   "🔌",
+			UnicodeName: "electric plug",
+			CodePoint:   "U+1F50C",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128269: {
+			Slug:        "magnifying-glass-tilted-left",
+			Character:   "🔍",
+			UnicodeName: "magnifying glass tilted left",
+			CodePoint:   "U+1F50D",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128270: {
+			Slug:        "magnifying-glass-tilted-right",
+			Character:   "🔎",
+			UnicodeName: "magnifying glass tilted right",
+			CodePoint:   "U+1F50E",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128271: {
+			Slug:        "locked-with-pen",
+			Character:   "🔏",
+			UnicodeName: "locked with pen",
+			CodePoint:   "U+1F50F",
+			Group:       "Objects",
+			SubGroup:    "lock",
+		},
+
+		128272: {
+			Slug:        "locked-with-key",
+			Character:   "🔐",
+			UnicodeName: "locked with key",
+			CodePoint:   "U+1F510",
+			Group:       "Objects",
+			SubGroup:    "lock",
+		},
+
+		128273: {
+			Slug:        "key",
+			Character:   "🔑",
+			UnicodeName: "key",
+			CodePoint:   "U+1F511",
+			Group:       "Objects",
+			SubGroup:    "lock",
+		},
+
+		128274: {
+			Slug:        "locked",
+			Character:   "🔒",
+			UnicodeName: "locked",
+			CodePoint:   "U+1F512",
+			Group:       "Objects",
+			SubGroup:    "lock",
+		},
+
+		128275: {
+			Slug:        "unlocked",
+			Character:   "🔓",
+			UnicodeName: "unlocked",
+			CodePoint:   "U+1F513",
+			Group:       "Objects",
+			SubGroup:    "lock",
+		},
+
+		128276: {
+			Slug:        "bell",
+			Character:   "🔔",
+			UnicodeName: "bell",
+			CodePoint:   "U+1F514",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128277: {
+			Slug:        "bell-with-slash",
+			Character:   "🔕",
+			UnicodeName: "bell with slash",
+			CodePoint:   "U+1F515",
+			Group:       "Objects",
+			SubGroup:    "sound",
+		},
+
+		128278: {
+			Slug:        "bookmark",
+			Character:   "🔖",
+			UnicodeName: "bookmark",
+			CodePoint:   "U+1F516",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128279: {
+			Slug:        "link",
+			Character:   "🔗",
+			UnicodeName: "link",
+			CodePoint:   "U+1F517",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128280: {
+			Slug:        "radio-button",
+			Character:   "🔘",
+			UnicodeName: "radio button",
+			CodePoint:   "U+1F518",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128281: {
+			Slug:        "BACK-arrow",
+			Character:   "🔙",
+			UnicodeName: "BACK arrow",
+			CodePoint:   "U+1F519",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128282: {
+			Slug:        "END-arrow",
+			Character:   "🔚",
+			UnicodeName: "END arrow",
+			CodePoint:   "U+1F51A",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128283: {
+			Slug:        "ON!-arrow",
+			Character:   "🔛",
+			UnicodeName: "ON! arrow",
+			CodePoint:   "U+1F51B",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128284: {
+			Slug:        "SOON-arrow",
+			Character:   "🔜",
+			UnicodeName: "SOON arrow",
+			CodePoint:   "U+1F51C",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128285: {
+			Slug:        "TOP-arrow",
+			Character:   "🔝",
+			UnicodeName: "TOP arrow",
+			CodePoint:   "U+1F51D",
+			Group:       "Symbols",
+			SubGroup:    "arrow",
+		},
+
+		128286: {
+			Slug:        "no-one-under-eighteen",
+			Character:   "🔞",
+			UnicodeName: "no one under eighteen",
+			CodePoint:   "U+1F51E",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128287: {
+			Slug:        "keycap:-10",
+			Character:   "🔟",
+			UnicodeName: "keycap: 10",
+			CodePoint:   "U+1F51F",
+			Group:       "Symbols",
+			SubGroup:    "keycap",
+		},
+
+		128288: {
+			Slug:        "input-latin-uppercase",
+			Character:   "🔠",
+			UnicodeName: "input latin uppercase",
+			CodePoint:   "U+1F520",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		128289: {
+			Slug:        "input-latin-lowercase",
+			Character:   "🔡",
+			UnicodeName: "input latin lowercase",
+			CodePoint:   "U+1F521",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		128290: {
+			Slug:        "input-numbers",
+			Character:   "🔢",
+			UnicodeName: "input numbers",
+			CodePoint:   "U+1F522",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		128291: {
+			Slug:        "input-symbols",
+			Character:   "🔣",
+			UnicodeName: "input symbols",
+			CodePoint:   "U+1F523",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		128292: {
+			Slug:        "input-latin-letters",
+			Character:   "🔤",
+			UnicodeName: "input latin letters",
+			CodePoint:   "U+1F524",
+			Group:       "Symbols",
+			SubGroup:    "alphanum",
+		},
+
+		128293: {
+			Slug:        "fire",
+			Character:   "🔥",
+			UnicodeName: "fire",
+			CodePoint:   "U+1F525",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		128294: {
+			Slug:        "flashlight",
+			Character:   "🔦",
+			UnicodeName: "flashlight",
+			CodePoint:   "U+1F526",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128295: {
+			Slug:        "wrench",
+			Character:   "🔧",
+			UnicodeName: "wrench",
+			CodePoint:   "U+1F527",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128296: {
+			Slug:        "hammer",
+			Character:   "🔨",
+			UnicodeName: "hammer",
+			CodePoint:   "U+1F528",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128297: {
+			Slug:        "nut-and-bolt",
+			Character:   "🔩",
+			UnicodeName: "nut and bolt",
+			CodePoint:   "U+1F529",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128298: {
+			Slug:        "kitchen-knife",
+			Character:   "🔪",
+			UnicodeName: "kitchen knife",
+			CodePoint:   "U+1F52A",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		128299: {
+			Slug:        "water-pistol",
+			Character:   "🔫",
+			UnicodeName: "water pistol",
+			CodePoint:   "U+1F52B",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128300: {
+			Slug:        "microscope",
+			Character:   "🔬",
+			UnicodeName: "microscope",
+			CodePoint:   "U+1F52C",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		128301: {
+			Slug:        "telescope",
+			Character:   "🔭",
+			UnicodeName: "telescope",
+			CodePoint:   "U+1F52D",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		128302: {
+			Slug:        "crystal-ball",
+			Character:   "🔮",
+			UnicodeName: "crystal ball",
+			CodePoint:   "U+1F52E",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		128303: {
+			Slug:        "dotted-six-pointed-star",
+			Character:   "🔯",
+			UnicodeName: "dotted six-pointed star",
+			CodePoint:   "U+1F52F",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		128304: {
+			Slug:        "Japanese-symbol-for-beginner",
+			Character:   "🔰",
+			UnicodeName: "Japanese symbol for beginner",
+			CodePoint:   "U+1F530",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		128305: {
+			Slug:        "trident-emblem",
+			Character:   "🔱",
+			UnicodeName: "trident emblem",
+			CodePoint:   "U+1F531",
+			Group:       "Symbols",
+			SubGroup:    "other-symbol",
+		},
+
+		128306: {
+			Slug:        "black-square-button",
+			Character:   "🔲",
+			UnicodeName: "black square button",
+			CodePoint:   "U+1F532",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128307: {
+			Slug:        "white-square-button",
+			Character:   "🔳",
+			UnicodeName: "white square button",
+			CodePoint:   "U+1F533",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128308: {
+			Slug:        "red-circle",
+			Character:   "🔴",
+			UnicodeName: "red circle",
+			CodePoint:   "U+1F534",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128309: {
+			Slug:        "blue-circle",
+			Character:   "🔵",
+			UnicodeName: "blue circle",
+			CodePoint:   "U+1F535",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128310: {
+			Slug:        "large-orange-diamond",
+			Character:   "🔶",
+			UnicodeName: "large orange diamond",
+			CodePoint:   "U+1F536",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128311: {
+			Slug:        "large-blue-diamond",
+			Character:   "🔷",
+			UnicodeName: "large blue diamond",
+			CodePoint:   "U+1F537",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128312: {
+			Slug:        "small-orange-diamond",
+			Character:   "🔸",
+			UnicodeName: "small orange diamond",
+			CodePoint:   "U+1F538",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128313: {
+			Slug:        "small-blue-diamond",
+			Character:   "🔹",
+			UnicodeName: "small blue diamond",
+			CodePoint:   "U+1F539",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128314: {
+			Slug:        "red-triangle-pointed-up",
+			Character:   "🔺",
+			UnicodeName: "red triangle pointed up",
+			CodePoint:   "U+1F53A",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128315: {
+			Slug:        "red-triangle-pointed-down",
+			Character:   "🔻",
+			UnicodeName: "red triangle pointed down",
+			CodePoint:   "U+1F53B",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128316: {
+			Slug:        "upwards-button",
+			Character:   "🔼",
+			UnicodeName: "upwards button",
+			CodePoint:   "U+1F53C",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128317: {
+			Slug:        "downwards-button",
+			Character:   "🔽",
+			UnicodeName: "downwards button",
+			CodePoint:   "U+1F53D",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
+		128329: {
+			Slug:        "om",
+			Character:   "🕉",
+			UnicodeName: "om",
+			CodePoint:   "U+1F549",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		128330: {
+			Slug:        "dove",
+			Character:   "🕊",
+			UnicodeName: "dove",
+			CodePoint:   "U+1F54A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		128331: {
+			Slug:        "kaaba",
+			Character:   "🕋",
+			UnicodeName: "kaaba",
+			CodePoint:   "U+1F54B",
+			Group:       "Travel & Places",
+			SubGroup:    "place-religious",
+		},
+
+		128332: {
+			Slug:        "mosque",
+			Character:   "🕌",
+			UnicodeName: "mosque",
+			CodePoint:   "U+1F54C",
+			Group:       "Travel & Places",
+			SubGroup:    "place-religious",
+		},
+
+		128333: {
+			Slug:        "synagogue",
+			Character:   "🕍",
+			UnicodeName: "synagogue",
+			CodePoint:   "U+1F54D",
+			Group:       "Travel & Places",
+			SubGroup:    "place-religious",
+		},
+
+		128334: {
+			Slug:        "menorah",
+			Character:   "🕎",
+			UnicodeName: "menorah",
+			CodePoint:   "U+1F54E",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		128336: {
+			Slug:        "one-o’clock",
+			Character:   "🕐",
+			UnicodeName: "one o’clock",
+			CodePoint:   "U+1F550",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128337: {
+			Slug:        "two-o’clock",
+			Character:   "🕑",
+			UnicodeName: "two o’clock",
+			CodePoint:   "U+1F551",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128338: {
+			Slug:        "three-o’clock",
+			Character:   "🕒",
+			UnicodeName: "three o’clock",
+			CodePoint:   "U+1F552",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128339: {
+			Slug:        "four-o’clock",
+			Character:   "🕓",
+			UnicodeName: "four o’clock",
+			CodePoint:   "U+1F553",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128340: {
+			Slug:        "five-o’clock",
+			Character:   "🕔",
+			UnicodeName: "five o’clock",
+			CodePoint:   "U+1F554",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128341: {
+			Slug:        "six-o’clock",
+			Character:   "🕕",
+			UnicodeName: "six o’clock",
+			CodePoint:   "U+1F555",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128342: {
+			Slug:        "seven-o’clock",
+			Character:   "🕖",
+			UnicodeName: "seven o’clock",
+			CodePoint:   "U+1F556",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128343: {
+			Slug:        "eight-o’clock",
+			Character:   "🕗",
+			UnicodeName: "eight o’clock",
+			CodePoint:   "U+1F557",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128344: {
+			Slug:        "nine-o’clock",
+			Character:   "🕘",
+			UnicodeName: "nine o’clock",
+			CodePoint:   "U+1F558",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128345: {
+			Slug:        "ten-o’clock",
+			Character:   "🕙",
+			UnicodeName: "ten o’clock",
+			CodePoint:   "U+1F559",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128346: {
+			Slug:        "eleven-o’clock",
+			Character:   "🕚",
+			UnicodeName: "eleven o’clock",
+			CodePoint:   "U+1F55A",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128347: {
+			Slug:        "twelve-o’clock",
+			Character:   "🕛",
+			UnicodeName: "twelve o’clock",
+			CodePoint:   "U+1F55B",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128348: {
+			Slug:        "one-thirty",
+			Character:   "🕜",
+			UnicodeName: "one-thirty",
+			CodePoint:   "U+1F55C",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128349: {
+			Slug:        "two-thirty",
+			Character:   "🕝",
+			UnicodeName: "two-thirty",
+			CodePoint:   "U+1F55D",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128350: {
+			Slug:        "three-thirty",
+			Character:   "🕞",
+			UnicodeName: "three-thirty",
+			CodePoint:   "U+1F55E",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128351: {
+			Slug:        "four-thirty",
+			Character:   "🕟",
+			UnicodeName: "four-thirty",
+			CodePoint:   "U+1F55F",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128352: {
+			Slug:        "five-thirty",
+			Character:   "🕠",
+			UnicodeName: "five-thirty",
+			CodePoint:   "U+1F560",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128353: {
+			Slug:        "six-thirty",
+			Character:   "🕡",
+			UnicodeName: "six-thirty",
+			CodePoint:   "U+1F561",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128354: {
+			Slug:        "seven-thirty",
+			Character:   "🕢",
+			UnicodeName: "seven-thirty",
+			CodePoint:   "U+1F562",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128355: {
+			Slug:        "eight-thirty",
+			Character:   "🕣",
+			UnicodeName: "eight-thirty",
+			CodePoint:   "U+1F563",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128356: {
+			Slug:        "nine-thirty",
+			Character:   "🕤",
+			UnicodeName: "nine-thirty",
+			CodePoint:   "U+1F564",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128357: {
+			Slug:        "ten-thirty",
+			Character:   "🕥",
+			UnicodeName: "ten-thirty",
+			CodePoint:   "U+1F565",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128358: {
+			Slug:        "eleven-thirty",
+			Character:   "🕦",
+			UnicodeName: "eleven-thirty",
+			CodePoint:   "U+1F566",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128359: {
+			Slug:        "twelve-thirty",
+			Character:   "🕧",
+			UnicodeName: "twelve-thirty",
+			CodePoint:   "U+1F567",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128367: {
+			Slug:        "candle",
+			Character:   "🕯",
+			UnicodeName: "candle",
+			CodePoint:   "U+1F56F",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		128368: {
+			Slug:        "mantelpiece-clock",
+			Character:   "🕰",
+			UnicodeName: "mantelpiece clock",
+			CodePoint:   "U+1F570",
+			Group:       "Travel & Places",
+			SubGroup:    "time",
+		},
+
+		128371: {
+			Slug:        "hole",
+			Character:   "🕳",
+			UnicodeName: "hole",
+			CodePoint:   "U+1F573",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128372: {
+			Slug:        "person-in-suit-levitating",
+			Character:   "🕴",
+			UnicodeName: "person in suit levitating",
+			CodePoint:   "U+1F574",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128373: {
+			Slug:        "woman-detective",
+			Character:   "🕵️‍♀️",
+			UnicodeName: "woman detective",
+			CodePoint:   "U+1F575 U+FE0F U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		128374: {
+			Slug:        "sunglasses",
+			Character:   "🕶",
+			UnicodeName: "sunglasses",
+			CodePoint:   "U+1F576",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128375: {
+			Slug:        "spider",
+			Character:   "🕷",
+			UnicodeName: "spider",
+			CodePoint:   "U+1F577",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128376: {
+			Slug:        "spider-web",
+			Character:   "🕸",
+			UnicodeName: "spider web",
+			CodePoint:   "U+1F578",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		128377: {
+			Slug:        "joystick",
+			Character:   "🕹",
+			UnicodeName: "joystick",
+			CodePoint:   "U+1F579",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		128378: {
+			Slug:        "man-dancing",
+			Character:   "🕺",
+			UnicodeName: "man dancing",
+			CodePoint:   "U+1F57A",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128391: {
+			Slug:        "linked-paperclips",
+			Character:   "🖇",
+			UnicodeName: "linked paperclips",
+			CodePoint:   "U+1F587",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128394: {
+			Slug:        "pen",
+			Character:   "🖊",
+			UnicodeName: "pen",
+			CodePoint:   "U+1F58A",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		128395: {
+			Slug:        "fountain-pen",
+			Character:   "🖋",
+			UnicodeName: "fountain pen",
+			CodePoint:   "U+1F58B",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		128396: {
+			Slug:        "paintbrush",
+			Character:   "🖌",
+			UnicodeName: "paintbrush",
+			CodePoint:   "U+1F58C",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		128397: {
+			Slug:        "crayon",
+			Character:   "🖍",
+			UnicodeName: "crayon",
+			CodePoint:   "U+1F58D",
+			Group:       "Objects",
+			SubGroup:    "writing",
+		},
+
+		128400: {
+			Slug:        "hand-with-fingers-splayed",
+			Character:   "🖐",
+			UnicodeName: "hand with fingers splayed",
+			CodePoint:   "U+1F590",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		128405: {
+			Slug:        "middle-finger",
+			Character:   "🖕",
+			UnicodeName: "middle finger",
+			CodePoint:   "U+1F595",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		128406: {
+			Slug:        "vulcan-salute",
+			Character:   "🖖",
+			UnicodeName: "vulcan salute",
+			CodePoint:   "U+1F596",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		128420: {
+			Slug:        "black-heart",
+			Character:   "🖤",
+			UnicodeName: "black heart",
+			CodePoint:   "U+1F5A4",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128421: {
+			Slug:        "desktop-computer",
+			Character:   "🖥",
+			UnicodeName: "desktop computer",
+			CodePoint:   "U+1F5A5",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128424: {
+			Slug:        "printer",
+			Character:   "🖨",
+			UnicodeName: "printer",
+			CodePoint:   "U+1F5A8",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128433: {
+			Slug:        "computer-mouse",
+			Character:   "🖱",
+			UnicodeName: "computer mouse",
+			CodePoint:   "U+1F5B1",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128434: {
+			Slug:        "trackball",
+			Character:   "🖲",
+			UnicodeName: "trackball",
+			CodePoint:   "U+1F5B2",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		128444: {
+			Slug:        "framed-picture",
+			Character:   "🖼",
+			UnicodeName: "framed picture",
+			CodePoint:   "U+1F5BC",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		128450: {
+			Slug:        "card-index-dividers",
+			Character:   "🗂",
+			UnicodeName: "card index dividers",
+			CodePoint:   "U+1F5C2",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128451: {
+			Slug:        "card-file-box",
+			Character:   "🗃",
+			UnicodeName: "card file box",
+			CodePoint:   "U+1F5C3",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128452: {
+			Slug:        "file-cabinet",
+			Character:   "🗄",
+			UnicodeName: "file cabinet",
+			CodePoint:   "U+1F5C4",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128465: {
+			Slug:        "wastebasket",
+			Character:   "🗑",
+			UnicodeName: "wastebasket",
+			CodePoint:   "U+1F5D1",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128466: {
+			Slug:        "spiral-notepad",
+			Character:   "🗒",
+			UnicodeName: "spiral notepad",
+			CodePoint:   "U+1F5D2",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128467: {
+			Slug:        "spiral-calendar",
+			Character:   "🗓",
+			UnicodeName: "spiral calendar",
+			CodePoint:   "U+1F5D3",
+			Group:       "Objects",
+			SubGroup:    "office",
+		},
+
+		128476: {
+			Slug:        "clamp",
+			Character:   "🗜",
+			UnicodeName: "clamp",
+			CodePoint:   "U+1F5DC",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128477: {
+			Slug:        "old-key",
+			Character:   "🗝",
+			UnicodeName: "old key",
+			CodePoint:   "U+1F5DD",
+			Group:       "Objects",
+			SubGroup:    "lock",
+		},
+
+		128478: {
+			Slug:        "rolled-up-newspaper",
+			Character:   "🗞",
+			UnicodeName: "rolled-up newspaper",
+			CodePoint:   "U+1F5DE",
+			Group:       "Objects",
+			SubGroup:    "book-paper",
+		},
+
+		128481: {
+			Slug:        "dagger",
+			Character:   "🗡",
+			UnicodeName: "dagger",
+			CodePoint:   "U+1F5E1",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128483: {
+			Slug:        "speaking-head",
+			Character:   "🗣",
+			UnicodeName: "speaking head",
+			CodePoint:   "U+1F5E3",
+			Group:       "People & Body",
+			SubGroup:    "person-symbol",
+		},
+
+		128488: {
+			Slug:        "left-speech-bubble",
+			Character:   "🗨",
+			UnicodeName: "left speech bubble",
+			CodePoint:   "U+1F5E8",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128495: {
+			Slug:        "right-anger-bubble",
+			Character:   "🗯",
+			UnicodeName: "right anger bubble",
+			CodePoint:   "U+1F5EF",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		128499: {
+			Slug:        "ballot-box-with-ballot",
+			Character:   "🗳",
+			UnicodeName: "ballot box with ballot",
+			CodePoint:   "U+1F5F3",
+			Group:       "Objects",
+			SubGroup:    "mail",
+		},
+
+		128506: {
+			Slug:        "world-map",
+			Character:   "🗺",
+			UnicodeName: "world map",
+			CodePoint:   "U+1F5FA",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		128507: {
+			Slug:        "mount-fuji",
+			Character:   "🗻",
+			UnicodeName: "mount fuji",
+			CodePoint:   "U+1F5FB",
+			Group:       "Travel & Places",
+			SubGroup:    "place-geographic",
+		},
+
+		128508: {
+			Slug:        "Tokyo-tower",
+			Character:   "🗼",
+			UnicodeName: "Tokyo tower",
+			CodePoint:   "U+1F5FC",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		128509: {
+			Slug:        "Statue-of-Liberty",
+			Character:   "🗽",
+			UnicodeName: "Statue of Liberty",
+			CodePoint:   "U+1F5FD",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		128510: {
+			Slug:        "map-of-Japan",
+			Character:   "🗾",
+			UnicodeName: "map of Japan",
+			CodePoint:   "U+1F5FE",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		128511: {
+			Slug:        "moai",
+			Character:   "🗿",
+			UnicodeName: "moai",
+			CodePoint:   "U+1F5FF",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		128512: {
+			Slug:        "grinning-face",
+			Character:   "😀",
+			UnicodeName: "grinning face",
+			CodePoint:   "U+1F600",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128513: {
+			Slug:        "beaming-face-with-smiling-eyes",
+			Character:   "😁",
+			UnicodeName: "beaming face with smiling eyes",
+			CodePoint:   "U+1F601",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128514: {
+			Slug:        "face-with-tears-of-joy",
+			Character:   "😂",
+			UnicodeName: "face with tears of joy",
+			CodePoint:   "U+1F602",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128515: {
+			Slug:        "grinning-face-with-big-eyes",
+			Character:   "😃",
+			UnicodeName: "grinning face with big eyes",
+			CodePoint:   "U+1F603",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128516: {
+			Slug:        "grinning-face-with-smiling-eyes",
+			Character:   "😄",
+			UnicodeName: "grinning face with smiling eyes",
+			CodePoint:   "U+1F604",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128517: {
+			Slug:        "grinning-face-with-sweat",
+			Character:   "😅",
+			UnicodeName: "grinning face with sweat",
+			CodePoint:   "U+1F605",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128518: {
+			Slug:        "grinning-squinting-face",
+			Character:   "😆",
+			UnicodeName: "grinning squinting face",
+			CodePoint:   "U+1F606",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128519: {
+			Slug:        "smiling-face-with-halo",
+			Character:   "😇",
+			UnicodeName: "smiling face with halo",
+			CodePoint:   "U+1F607",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128520: {
+			Slug:        "smiling-face-with-horns",
+			Character:   "😈",
+			UnicodeName: "smiling face with horns",
+			CodePoint:   "U+1F608",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		128521: {
+			Slug:        "winking-face",
+			Character:   "😉",
+			UnicodeName: "winking face",
+			CodePoint:   "U+1F609",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128522: {
+			Slug:        "smiling-face-with-smiling-eyes",
+			Character:   "😊",
+			UnicodeName: "smiling face with smiling eyes",
+			CodePoint:   "U+1F60A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128523: {
+			Slug:        "face-savoring-food",
+			Character:   "😋",
+			UnicodeName: "face savoring food",
+			CodePoint:   "U+1F60B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-tongue",
+		},
+
+		128524: {
+			Slug:        "relieved-face",
+			Character:   "😌",
+			UnicodeName: "relieved face",
+			CodePoint:   "U+1F60C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-sleepy",
+		},
+
+		128525: {
+			Slug:        "smiling-face-with-heart-eyes",
+			Character:   "😍",
+			UnicodeName: "smiling face with heart-eyes",
+			CodePoint:   "U+1F60D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		128526: {
+			Slug:        "smiling-face-with-sunglasses",
+			Character:   "😎",
+			UnicodeName: "smiling face with sunglasses",
+			CodePoint:   "U+1F60E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-glasses",
+		},
+
+		128527: {
+			Slug:        "smirking-face",
+			Character:   "😏",
+			UnicodeName: "smirking face",
+			CodePoint:   "U+1F60F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128528: {
+			Slug:        "neutral-face",
+			Character:   "😐",
+			UnicodeName: "neutral face",
+			CodePoint:   "U+1F610",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128529: {
+			Slug:        "expressionless-face",
+			Character:   "😑",
+			UnicodeName: "expressionless face",
+			CodePoint:   "U+1F611",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128530: {
+			Slug:        "unamused-face",
+			Character:   "😒",
+			UnicodeName: "unamused face",
+			CodePoint:   "U+1F612",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128531: {
+			Slug:        "downcast-face-with-sweat",
+			Character:   "😓",
+			UnicodeName: "downcast face with sweat",
+			CodePoint:   "U+1F613",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128532: {
+			Slug:        "pensive-face",
+			Character:   "😔",
+			UnicodeName: "pensive face",
+			CodePoint:   "U+1F614",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-sleepy",
+		},
+
+		128533: {
+			Slug:        "confused-face",
+			Character:   "😕",
+			UnicodeName: "confused face",
+			CodePoint:   "U+1F615",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128534: {
+			Slug:        "confounded-face",
+			Character:   "😖",
+			UnicodeName: "confounded face",
+			CodePoint:   "U+1F616",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128535: {
+			Slug:        "kissing-face",
+			Character:   "😗",
+			UnicodeName: "kissing face",
+			CodePoint:   "U+1F617",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		128536: {
+			Slug:        "face-blowing-a-kiss",
+			Character:   "😘",
+			UnicodeName: "face blowing a kiss",
+			CodePoint:   "U+1F618",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		128537: {
+			Slug:        "kissing-face-with-smiling-eyes",
+			Character:   "😙",
+			UnicodeName: "kissing face with smiling eyes",
+			CodePoint:   "U+1F619",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		128538: {
+			Slug:        "kissing-face-with-closed-eyes",
+			Character:   "😚",
+			UnicodeName: "kissing face with closed eyes",
+			CodePoint:   "U+1F61A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		128539: {
+			Slug:        "face-with-tongue",
+			Character:   "😛",
+			UnicodeName: "face with tongue",
+			CodePoint:   "U+1F61B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-tongue",
+		},
+
+		128540: {
+			Slug:        "winking-face-with-tongue",
+			Character:   "😜",
+			UnicodeName: "winking face with tongue",
+			CodePoint:   "U+1F61C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-tongue",
+		},
+
+		128541: {
+			Slug:        "squinting-face-with-tongue",
+			Character:   "😝",
+			UnicodeName: "squinting face with tongue",
+			CodePoint:   "U+1F61D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-tongue",
+		},
+
+		128542: {
+			Slug:        "disappointed-face",
+			Character:   "😞",
+			UnicodeName: "disappointed face",
+			CodePoint:   "U+1F61E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128543: {
+			Slug:        "worried-face",
+			Character:   "😟",
+			UnicodeName: "worried face",
+			CodePoint:   "U+1F61F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128544: {
+			Slug:        "angry-face",
+			Character:   "😠",
+			UnicodeName: "angry face",
+			CodePoint:   "U+1F620",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		128545: {
+			Slug:        "pouting-face",
+			Character:   "😡",
+			UnicodeName: "pouting face",
+			CodePoint:   "U+1F621",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		128546: {
+			Slug:        "crying-face",
+			Character:   "😢",
+			UnicodeName: "crying face",
+			CodePoint:   "U+1F622",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128547: {
+			Slug:        "persevering-face",
+			Character:   "😣",
+			UnicodeName: "persevering face",
+			CodePoint:   "U+1F623",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128548: {
+			Slug:        "face-with-steam-from-nose",
+			Character:   "😤",
+			UnicodeName: "face with steam from nose",
+			CodePoint:   "U+1F624",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		128549: {
+			Slug:        "sad-but-relieved-face",
+			Character:   "😥",
+			UnicodeName: "sad but relieved face",
+			CodePoint:   "U+1F625",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128550: {
+			Slug:        "frowning-face-with-open-mouth",
+			Character:   "😦",
+			UnicodeName: "frowning face with open mouth",
+			CodePoint:   "U+1F626",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128551: {
+			Slug:        "anguished-face",
+			Character:   "😧",
+			UnicodeName: "anguished face",
+			CodePoint:   "U+1F627",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128552: {
+			Slug:        "fearful-face",
+			Character:   "😨",
+			UnicodeName: "fearful face",
+			CodePoint:   "U+1F628",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128553: {
+			Slug:        "weary-face",
+			Character:   "😩",
+			UnicodeName: "weary face",
+			CodePoint:   "U+1F629",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128554: {
+			Slug:        "sleepy-face",
+			Character:   "😪",
+			UnicodeName: "sleepy face",
+			CodePoint:   "U+1F62A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-sleepy",
+		},
+
+		128555: {
+			Slug:        "tired-face",
+			Character:   "😫",
+			UnicodeName: "tired face",
+			CodePoint:   "U+1F62B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128556: {
+			Slug:        "grimacing-face",
+			Character:   "😬",
+			UnicodeName: "grimacing face",
+			CodePoint:   "U+1F62C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128557: {
+			Slug:        "loudly-crying-face",
+			Character:   "😭",
+			UnicodeName: "loudly crying face",
+			CodePoint:   "U+1F62D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128558: {
+			Slug:        "face-with-open-mouth",
+			Character:   "😮",
+			UnicodeName: "face with open mouth",
+			CodePoint:   "U+1F62E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128559: {
+			Slug:        "hushed-face",
+			Character:   "😯",
+			UnicodeName: "hushed face",
+			CodePoint:   "U+1F62F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128560: {
+			Slug:        "anxious-face-with-sweat",
+			Character:   "😰",
+			UnicodeName: "anxious face with sweat",
+			CodePoint:   "U+1F630",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128561: {
+			Slug:        "face-screaming-in-fear",
+			Character:   "😱",
+			UnicodeName: "face screaming in fear",
+			CodePoint:   "U+1F631",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128562: {
+			Slug:        "astonished-face",
+			Character:   "😲",
+			UnicodeName: "astonished face",
+			CodePoint:   "U+1F632",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128563: {
+			Slug:        "flushed-face",
+			Character:   "😳",
+			UnicodeName: "flushed face",
+			CodePoint:   "U+1F633",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128564: {
+			Slug:        "sleeping-face",
+			Character:   "😴",
+			UnicodeName: "sleeping face",
+			CodePoint:   "U+1F634",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-sleepy",
+		},
+
+		128565: {
+			Slug:        "face-with-spiral-eyes",
+			Character:   "😵‍💫",
+			UnicodeName: "face with spiral eyes",
+			CodePoint:   "U+1F635 U+200D U+1F4AB",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		128566: {
+			Slug:        "face-in-clouds",
+			Character:   "😶‍🌫️",
+			UnicodeName: "face in clouds",
+			CodePoint:   "U+1F636 U+200D U+1F32B U+FE0F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128567: {
+			Slug:        "face-with-medical-mask",
+			Character:   "😷",
+			UnicodeName: "face with medical mask",
+			CodePoint:   "U+1F637",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		128568: {
+			Slug:        "grinning-cat-with-smiling-eyes",
+			Character:   "😸",
+			UnicodeName: "grinning cat with smiling eyes",
+			CodePoint:   "U+1F638",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128569: {
+			Slug:        "cat-with-tears-of-joy",
+			Character:   "😹",
+			UnicodeName: "cat with tears of joy",
+			CodePoint:   "U+1F639",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128570: {
+			Slug:        "grinning-cat",
+			Character:   "😺",
+			UnicodeName: "grinning cat",
+			CodePoint:   "U+1F63A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128571: {
+			Slug:        "smiling-cat-with-heart-eyes",
+			Character:   "😻",
+			UnicodeName: "smiling cat with heart-eyes",
+			CodePoint:   "U+1F63B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128572: {
+			Slug:        "cat-with-wry-smile",
+			Character:   "😼",
+			UnicodeName: "cat with wry smile",
+			CodePoint:   "U+1F63C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128573: {
+			Slug:        "kissing-cat",
+			Character:   "😽",
+			UnicodeName: "kissing cat",
+			CodePoint:   "U+1F63D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128574: {
+			Slug:        "pouting-cat",
+			Character:   "😾",
+			UnicodeName: "pouting cat",
+			CodePoint:   "U+1F63E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128575: {
+			Slug:        "crying-cat",
+			Character:   "😿",
+			UnicodeName: "crying cat",
+			CodePoint:   "U+1F63F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128576: {
+			Slug:        "weary-cat",
+			Character:   "🙀",
+			UnicodeName: "weary cat",
+			CodePoint:   "U+1F640",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "cat-face",
+		},
+
+		128577: {
+			Slug:        "slightly-frowning-face",
+			Character:   "🙁",
+			UnicodeName: "slightly frowning face",
+			CodePoint:   "U+1F641",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		128578: {
+			Slug:        "slightly-smiling-face",
+			Character:   "🙂",
+			UnicodeName: "slightly smiling face",
+			CodePoint:   "U+1F642",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128579: {
+			Slug:        "upside-down-face",
+			Character:   "🙃",
+			UnicodeName: "upside-down face",
+			CodePoint:   "U+1F643",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		128580: {
+			Slug:        "face-with-rolling-eyes",
+			Character:   "🙄",
+			UnicodeName: "face with rolling eyes",
+			CodePoint:   "U+1F644",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		128581: {
+			Slug:        "woman-gesturing-NO",
+			Character:   "🙅‍♀️",
+			UnicodeName: "woman gesturing NO",
+			CodePoint:   "U+1F645 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128582: {
+			Slug:        "woman-gesturing-OK",
+			Character:   "🙆‍♀️",
+			UnicodeName: "woman gesturing OK",
+			CodePoint:   "U+1F646 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128583: {
+			Slug:        "woman-bowing",
+			Character:   "🙇‍♀️",
+			UnicodeName: "woman bowing",
+			CodePoint:   "U+1F647 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128584: {
+			Slug:        "see-no-evil-monkey",
+			Character:   "🙈",
+			UnicodeName: "see-no-evil monkey",
+			CodePoint:   "U+1F648",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "monkey-face",
+		},
+
+		128585: {
+			Slug:        "hear-no-evil-monkey",
+			Character:   "🙉",
+			UnicodeName: "hear-no-evil monkey",
+			CodePoint:   "U+1F649",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "monkey-face",
+		},
+
+		128586: {
+			Slug:        "speak-no-evil-monkey",
+			Character:   "🙊",
+			UnicodeName: "speak-no-evil monkey",
+			CodePoint:   "U+1F64A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "monkey-face",
+		},
+
+		128587: {
+			Slug:        "woman-raising-hand",
+			Character:   "🙋‍♀️",
+			UnicodeName: "woman raising hand",
+			CodePoint:   "U+1F64B U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128588: {
+			Slug:        "raising-hands",
+			Character:   "🙌",
+			UnicodeName: "raising hands",
+			CodePoint:   "U+1F64C",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
+
+		128589: {
+			Slug:        "woman-frowning",
+			Character:   "🙍‍♀️",
+			UnicodeName: "woman frowning",
+			CodePoint:   "U+1F64D U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128590: {
+			Slug:        "woman-pouting",
+			Character:   "🙎‍♀️",
+			UnicodeName: "woman pouting",
+			CodePoint:   "U+1F64E U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		128591: {
+			Slug:        "folded-hands",
+			Character:   "🙏",
+			UnicodeName: "folded hands",
+			CodePoint:   "U+1F64F",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
+
+		128640: {
+			Slug:        "rocket",
+			Character:   "🚀",
+			UnicodeName: "rocket",
+			CodePoint:   "U+1F680",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128641: {
+			Slug:        "helicopter",
+			Character:   "🚁",
+			UnicodeName: "helicopter",
+			CodePoint:   "U+1F681",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128642: {
+			Slug:        "locomotive",
+			Character:   "🚂",
+			UnicodeName: "locomotive",
+			CodePoint:   "U+1F682",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128643: {
+			Slug:        "railway-car",
+			Character:   "🚃",
+			UnicodeName: "railway car",
+			CodePoint:   "U+1F683",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128644: {
+			Slug:        "high-speed-train",
+			Character:   "🚄",
+			UnicodeName: "high-speed train",
+			CodePoint:   "U+1F684",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128645: {
+			Slug:        "bullet-train",
+			Character:   "🚅",
+			UnicodeName: "bullet train",
+			CodePoint:   "U+1F685",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128646: {
+			Slug:        "train",
+			Character:   "🚆",
+			UnicodeName: "train",
+			CodePoint:   "U+1F686",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128647: {
+			Slug:        "metro",
+			Character:   "🚇",
+			UnicodeName: "metro",
+			CodePoint:   "U+1F687",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128648: {
+			Slug:        "light-rail",
+			Character:   "🚈",
+			UnicodeName: "light rail",
+			CodePoint:   "U+1F688",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128649: {
+			Slug:        "station",
+			Character:   "🚉",
+			UnicodeName: "station",
+			CodePoint:   "U+1F689",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128650: {
+			Slug:        "tram",
+			Character:   "🚊",
+			UnicodeName: "tram",
+			CodePoint:   "U+1F68A",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128651: {
+			Slug:        "tram-car",
+			Character:   "🚋",
+			UnicodeName: "tram car",
+			CodePoint:   "U+1F68B",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128652: {
+			Slug:        "bus",
+			Character:   "🚌",
+			UnicodeName: "bus",
+			CodePoint:   "U+1F68C",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128653: {
+			Slug:        "oncoming-bus",
+			Character:   "🚍",
+			UnicodeName: "oncoming bus",
+			CodePoint:   "U+1F68D",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128654: {
+			Slug:        "trolleybus",
+			Character:   "🚎",
+			UnicodeName: "trolleybus",
+			CodePoint:   "U+1F68E",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128655: {
+			Slug:        "bus-stop",
+			Character:   "🚏",
+			UnicodeName: "bus stop",
+			CodePoint:   "U+1F68F",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128656: {
+			Slug:        "minibus",
+			Character:   "🚐",
+			UnicodeName: "minibus",
+			CodePoint:   "U+1F690",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128657: {
+			Slug:        "ambulance",
+			Character:   "🚑",
+			UnicodeName: "ambulance",
+			CodePoint:   "U+1F691",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128658: {
+			Slug:        "fire-engine",
+			Character:   "🚒",
+			UnicodeName: "fire engine",
+			CodePoint:   "U+1F692",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128659: {
+			Slug:        "police-car",
+			Character:   "🚓",
+			UnicodeName: "police car",
+			CodePoint:   "U+1F693",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128660: {
+			Slug:        "oncoming-police-car",
+			Character:   "🚔",
+			UnicodeName: "oncoming police car",
+			CodePoint:   "U+1F694",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128661: {
+			Slug:        "taxi",
+			Character:   "🚕",
+			UnicodeName: "taxi",
+			CodePoint:   "U+1F695",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128662: {
+			Slug:        "oncoming-taxi",
+			Character:   "🚖",
+			UnicodeName: "oncoming taxi",
+			CodePoint:   "U+1F696",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128663: {
+			Slug:        "automobile",
+			Character:   "🚗",
+			UnicodeName: "automobile",
+			CodePoint:   "U+1F697",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128664: {
+			Slug:        "oncoming-automobile",
+			Character:   "🚘",
+			UnicodeName: "oncoming automobile",
+			CodePoint:   "U+1F698",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128665: {
+			Slug:        "sport-utility-vehicle",
+			Character:   "🚙",
+			UnicodeName: "sport utility vehicle",
+			CodePoint:   "U+1F699",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128666: {
+			Slug:        "delivery-truck",
+			Character:   "🚚",
+			UnicodeName: "delivery truck",
+			CodePoint:   "U+1F69A",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128667: {
+			Slug:        "articulated-lorry",
+			Character:   "🚛",
+			UnicodeName: "articulated lorry",
+			CodePoint:   "U+1F69B",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128668: {
+			Slug:        "tractor",
+			Character:   "🚜",
+			UnicodeName: "tractor",
+			CodePoint:   "U+1F69C",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128669: {
+			Slug:        "monorail",
+			Character:   "🚝",
+			UnicodeName: "monorail",
+			CodePoint:   "U+1F69D",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128670: {
+			Slug:        "mountain-railway",
+			Character:   "🚞",
+			UnicodeName: "mountain railway",
+			CodePoint:   "U+1F69E",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128671: {
+			Slug:        "suspension-railway",
+			Character:   "🚟",
+			UnicodeName: "suspension railway",
+			CodePoint:   "U+1F69F",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128672: {
+			Slug:        "mountain-cableway",
+			Character:   "🚠",
+			UnicodeName: "mountain cableway",
+			CodePoint:   "U+1F6A0",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128673: {
+			Slug:        "aerial-tramway",
+			Character:   "🚡",
+			UnicodeName: "aerial tramway",
+			CodePoint:   "U+1F6A1",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128674: {
+			Slug:        "ship",
+			Character:   "🚢",
+			UnicodeName: "ship",
+			CodePoint:   "U+1F6A2",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		128675: {
+			Slug:        "woman-rowing-boat",
+			Character:   "🚣‍♀️",
+			UnicodeName: "woman rowing boat",
+			CodePoint:   "U+1F6A3 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		128676: {
+			Slug:        "speedboat",
+			Character:   "🚤",
+			UnicodeName: "speedboat",
+			CodePoint:   "U+1F6A4",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		128677: {
+			Slug:        "horizontal-traffic-light",
+			Character:   "🚥",
+			UnicodeName: "horizontal traffic light",
+			CodePoint:   "U+1F6A5",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128678: {
+			Slug:        "vertical-traffic-light",
+			Character:   "🚦",
+			UnicodeName: "vertical traffic light",
+			CodePoint:   "U+1F6A6",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128679: {
+			Slug:        "construction",
+			Character:   "🚧",
+			UnicodeName: "construction",
+			CodePoint:   "U+1F6A7",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128680: {
+			Slug:        "police-car-light",
+			Character:   "🚨",
+			UnicodeName: "police car light",
+			CodePoint:   "U+1F6A8",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128681: {
+			Slug:        "triangular-flag",
+			Character:   "🚩",
+			UnicodeName: "triangular flag",
+			CodePoint:   "U+1F6A9",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		128682: {
+			Slug:        "door",
+			Character:   "🚪",
+			UnicodeName: "door",
+			CodePoint:   "U+1F6AA",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128683: {
+			Slug:        "prohibited",
+			Character:   "🚫",
+			UnicodeName: "prohibited",
+			CodePoint:   "U+1F6AB",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128684: {
+			Slug:        "cigarette",
+			Character:   "🚬",
+			UnicodeName: "cigarette",
+			CodePoint:   "U+1F6AC",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		128685: {
+			Slug:        "no-smoking",
+			Character:   "🚭",
+			UnicodeName: "no smoking",
+			CodePoint:   "U+1F6AD",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128686: {
+			Slug:        "litter-in-bin-sign",
+			Character:   "🚮",
+			UnicodeName: "litter in bin sign",
+			CodePoint:   "U+1F6AE",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128687: {
+			Slug:        "no-littering",
+			Character:   "🚯",
+			UnicodeName: "no littering",
+			CodePoint:   "U+1F6AF",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128688: {
+			Slug:        "potable-water",
+			Character:   "🚰",
+			UnicodeName: "potable water",
+			CodePoint:   "U+1F6B0",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128689: {
+			Slug:        "non-potable-water",
+			Character:   "🚱",
+			UnicodeName: "non-potable water",
+			CodePoint:   "U+1F6B1",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128690: {
+			Slug:        "bicycle",
+			Character:   "🚲",
+			UnicodeName: "bicycle",
+			CodePoint:   "U+1F6B2",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128691: {
+			Slug:        "no-bicycles",
+			Character:   "🚳",
+			UnicodeName: "no bicycles",
+			CodePoint:   "U+1F6B3",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128692: {
+			Slug:        "woman-biking",
+			Character:   "🚴‍♀️",
+			UnicodeName: "woman biking",
+			CodePoint:   "U+1F6B4 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		128693: {
+			Slug:        "woman-mountain-biking",
+			Character:   "🚵‍♀️",
+			UnicodeName: "woman mountain biking",
+			CodePoint:   "U+1F6B5 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		128694: {
+			Slug:        "woman-walking",
+			Character:   "🚶‍♀️",
+			UnicodeName: "woman walking",
+			CodePoint:   "U+1F6B6 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		128695: {
+			Slug:        "no-pedestrians",
+			Character:   "🚷",
+			UnicodeName: "no pedestrians",
+			CodePoint:   "U+1F6B7",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128696: {
+			Slug:        "children-crossing",
+			Character:   "🚸",
+			UnicodeName: "children crossing",
+			CodePoint:   "U+1F6B8",
+			Group:       "Symbols",
+			SubGroup:    "warning",
+		},
+
+		128697: {
+			Slug:        "men’s-room",
+			Character:   "🚹",
+			UnicodeName: "men’s room",
+			CodePoint:   "U+1F6B9",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128698: {
+			Slug:        "women’s-room",
+			Character:   "🚺",
+			UnicodeName: "women’s room",
+			CodePoint:   "U+1F6BA",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128699: {
+			Slug:        "restroom",
+			Character:   "🚻",
+			UnicodeName: "restroom",
+			CodePoint:   "U+1F6BB",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128700: {
+			Slug:        "baby-symbol",
+			Character:   "🚼",
+			UnicodeName: "baby symbol",
+			CodePoint:   "U+1F6BC",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128701: {
+			Slug:        "toilet",
+			Character:   "🚽",
+			UnicodeName: "toilet",
+			CodePoint:   "U+1F6BD",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128702: {
+			Slug:        "water-closet",
+			Character:   "🚾",
+			UnicodeName: "water closet",
+			CodePoint:   "U+1F6BE",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128703: {
+			Slug:        "shower",
+			Character:   "🚿",
+			UnicodeName: "shower",
+			CodePoint:   "U+1F6BF",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128704: {
+			Slug:        "person-taking-bath",
+			Character:   "🛀",
+			UnicodeName: "person taking bath",
+			CodePoint:   "U+1F6C0",
+			Group:       "People & Body",
+			SubGroup:    "person-resting",
+		},
+
+		128705: {
+			Slug:        "bathtub",
+			Character:   "🛁",
+			UnicodeName: "bathtub",
+			CodePoint:   "U+1F6C1",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128706: {
+			Slug:        "passport-control",
+			Character:   "🛂",
+			UnicodeName: "passport control",
+			CodePoint:   "U+1F6C2",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128707: {
+			Slug:        "customs",
+			Character:   "🛃",
+			UnicodeName: "customs",
+			CodePoint:   "U+1F6C3",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128708: {
+			Slug:        "baggage-claim",
+			Character:   "🛄",
+			UnicodeName: "baggage claim",
+			CodePoint:   "U+1F6C4",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128709: {
+			Slug:        "left-luggage",
+			Character:   "🛅",
+			UnicodeName: "left luggage",
+			CodePoint:   "U+1F6C5",
+			Group:       "Symbols",
+			SubGroup:    "transport-sign",
+		},
+
+		128715: {
+			Slug:        "couch-and-lamp",
+			Character:   "🛋",
+			UnicodeName: "couch and lamp",
+			CodePoint:   "U+1F6CB",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128716: {
+			Slug:        "person-in-bed",
+			Character:   "🛌",
+			UnicodeName: "person in bed",
+			CodePoint:   "U+1F6CC",
+			Group:       "People & Body",
+			SubGroup:    "person-resting",
+		},
+
+		128717: {
+			Slug:        "shopping-bags",
+			Character:   "🛍",
+			UnicodeName: "shopping bags",
+			CodePoint:   "U+1F6CD",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		128718: {
+			Slug:        "bellhop-bell",
+			Character:   "🛎",
+			UnicodeName: "bellhop bell",
+			CodePoint:   "U+1F6CE",
+			Group:       "Travel & Places",
+			SubGroup:    "hotel",
+		},
+
+		128719: {
+			Slug:        "bed",
+			Character:   "🛏",
+			UnicodeName: "bed",
+			CodePoint:   "U+1F6CF",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128720: {
+			Slug:        "place-of-worship",
+			Character:   "🛐",
+			UnicodeName: "place of worship",
+			CodePoint:   "U+1F6D0",
+			Group:       "Symbols",
+			SubGroup:    "religion",
+		},
+
+		128721: {
+			Slug:        "stop-sign",
+			Character:   "🛑",
+			UnicodeName: "stop sign",
+			CodePoint:   "U+1F6D1",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128722: {
+			Slug:        "shopping-cart",
+			Character:   "🛒",
+			UnicodeName: "shopping cart",
+			CodePoint:   "U+1F6D2",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128725: {
+			Slug:        "hindu-temple",
+			Character:   "🛕",
+			UnicodeName: "hindu temple",
+			CodePoint:   "U+1F6D5",
+			Group:       "Travel & Places",
+			SubGroup:    "place-religious",
+		},
+
+		128726: {
+			Slug:        "hut",
+			Character:   "🛖",
+			UnicodeName: "hut",
+			CodePoint:   "U+1F6D6",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		128727: {
+			Slug:        "elevator",
+			Character:   "🛗",
+			UnicodeName: "elevator",
+			CodePoint:   "U+1F6D7",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		128733: {
+			Slug:        "⊛-playground-slide",
+			Character:   "🛝",
+			UnicodeName: "⊛ playground slide",
+			CodePoint:   "U+1F6DD",
+			Group:       "Travel & Places",
+			SubGroup:    "place-other",
+		},
+
+		128734: {
+			Slug:        "⊛-wheel",
+			Character:   "🛞",
+			UnicodeName: "⊛ wheel",
+			CodePoint:   "U+1F6DE",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128735: {
+			Slug:        "⊛-ring-buoy",
+			Character:   "🛟",
+			UnicodeName: "⊛ ring buoy",
+			CodePoint:   "U+1F6DF",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		128736: {
+			Slug:        "hammer-and-wrench",
+			Character:   "🛠",
+			UnicodeName: "hammer and wrench",
+			CodePoint:   "U+1F6E0",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128737: {
+			Slug:        "shield",
+			Character:   "🛡",
+			UnicodeName: "shield",
+			CodePoint:   "U+1F6E1",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		128738: {
+			Slug:        "oil-drum",
+			Character:   "🛢",
+			UnicodeName: "oil drum",
+			CodePoint:   "U+1F6E2",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128739: {
+			Slug:        "motorway",
+			Character:   "🛣",
+			UnicodeName: "motorway",
+			CodePoint:   "U+1F6E3",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128740: {
+			Slug:        "railway-track",
+			Character:   "🛤",
+			UnicodeName: "railway track",
+			CodePoint:   "U+1F6E4",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128741: {
+			Slug:        "motor-boat",
+			Character:   "🛥",
+			UnicodeName: "motor boat",
+			CodePoint:   "U+1F6E5",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		128745: {
+			Slug:        "small-airplane",
+			Character:   "🛩",
+			UnicodeName: "small airplane",
+			CodePoint:   "U+1F6E9",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128747: {
+			Slug:        "airplane-departure",
+			Character:   "🛫",
+			UnicodeName: "airplane departure",
+			CodePoint:   "U+1F6EB",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128748: {
+			Slug:        "airplane-arrival",
+			Character:   "🛬",
+			UnicodeName: "airplane arrival",
+			CodePoint:   "U+1F6EC",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128752: {
+			Slug:        "satellite",
+			Character:   "🛰",
+			UnicodeName: "satellite",
+			CodePoint:   "U+1F6F0",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128755: {
+			Slug:        "passenger-ship",
+			Character:   "🛳",
+			UnicodeName: "passenger ship",
+			CodePoint:   "U+1F6F3",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		128756: {
+			Slug:        "kick-scooter",
+			Character:   "🛴",
+			UnicodeName: "kick scooter",
+			CodePoint:   "U+1F6F4",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128757: {
+			Slug:        "motor-scooter",
+			Character:   "🛵",
+			UnicodeName: "motor scooter",
+			CodePoint:   "U+1F6F5",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128758: {
+			Slug:        "canoe",
+			Character:   "🛶",
+			UnicodeName: "canoe",
+			CodePoint:   "U+1F6F6",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-water",
+		},
+
+		128759: {
+			Slug:        "sled",
+			Character:   "🛷",
+			UnicodeName: "sled",
+			CodePoint:   "U+1F6F7",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		128760: {
+			Slug:        "flying-saucer",
+			Character:   "🛸",
+			UnicodeName: "flying saucer",
+			CodePoint:   "U+1F6F8",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		128761: {
+			Slug:        "skateboard",
+			Character:   "🛹",
+			UnicodeName: "skateboard",
+			CodePoint:   "U+1F6F9",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128762: {
+			Slug:        "auto-rickshaw",
+			Character:   "🛺",
+			UnicodeName: "auto rickshaw",
+			CodePoint:   "U+1F6FA",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128763: {
+			Slug:        "pickup-truck",
+			Character:   "🛻",
+			UnicodeName: "pickup truck",
+			CodePoint:   "U+1F6FB",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128764: {
+			Slug:        "roller-skate",
+			Character:   "🛼",
+			UnicodeName: "roller skate",
+			CodePoint:   "U+1F6FC",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		128992: {
+			Slug:        "orange-circle",
+			Character:   "🟠",
+			UnicodeName: "orange circle",
+			CodePoint:   "U+1F7E0",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128993: {
+			Slug:        "yellow-circle",
+			Character:   "🟡",
+			UnicodeName: "yellow circle",
+			CodePoint:   "U+1F7E1",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128994: {
+			Slug:        "green-circle",
+			Character:   "🟢",
+			UnicodeName: "green circle",
+			CodePoint:   "U+1F7E2",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128995: {
+			Slug:        "purple-circle",
+			Character:   "🟣",
+			UnicodeName: "purple circle",
+			CodePoint:   "U+1F7E3",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128996: {
+			Slug:        "brown-circle",
+			Character:   "🟤",
+			UnicodeName: "brown circle",
+			CodePoint:   "U+1F7E4",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128997: {
+			Slug:        "red-square",
+			Character:   "🟥",
+			UnicodeName: "red square",
+			CodePoint:   "U+1F7E5",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128998: {
+			Slug:        "blue-square",
+			Character:   "🟦",
+			UnicodeName: "blue square",
+			CodePoint:   "U+1F7E6",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		128999: {
+			Slug:        "orange-square",
+			Character:   "🟧",
+			UnicodeName: "orange square",
+			CodePoint:   "U+1F7E7",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		129000: {
+			Slug:        "yellow-square",
+			Character:   "🟨",
+			UnicodeName: "yellow square",
+			CodePoint:   "U+1F7E8",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		129001: {
+			Slug:        "green-square",
+			Character:   "🟩",
+			UnicodeName: "green square",
+			CodePoint:   "U+1F7E9",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		129002: {
+			Slug:        "purple-square",
+			Character:   "🟪",
+			UnicodeName: "purple square",
+			CodePoint:   "U+1F7EA",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		129003: {
+			Slug:        "brown-square",
+			Character:   "🟫",
+			UnicodeName: "brown square",
+			CodePoint:   "U+1F7EB",
+			Group:       "Symbols",
+			SubGroup:    "geometric",
+		},
+
+		129008: {
+			Slug:        "⊛-heavy-equals-sign",
+			Character:   "🟰",
+			UnicodeName: "⊛ heavy equals sign",
+			CodePoint:   "U+1F7F0",
+			Group:       "Symbols",
+			SubGroup:    "math",
+		},
+
+		129292: {
+			Slug:        "pinched-fingers",
+			Character:   "🤌",
+			UnicodeName: "pinched fingers",
+			CodePoint:   "U+1F90C",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129293: {
+			Slug:        "white-heart",
+			Character:   "🤍",
+			UnicodeName: "white heart",
+			CodePoint:   "U+1F90D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		129294: {
+			Slug:        "brown-heart",
+			Character:   "🤎",
+			UnicodeName: "brown heart",
+			CodePoint:   "U+1F90E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		129295: {
+			Slug:        "pinching-hand",
+			Character:   "🤏",
+			UnicodeName: "pinching hand",
+			CodePoint:   "U+1F90F",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129296: {
+			Slug:        "zipper-mouth-face",
+			Character:   "🤐",
+			UnicodeName: "zipper-mouth face",
+			CodePoint:   "U+1F910",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		129297: {
+			Slug:        "money-mouth-face",
+			Character:   "🤑",
+			UnicodeName: "money-mouth face",
+			CodePoint:   "U+1F911",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-tongue",
+		},
+
+		129298: {
+			Slug:        "face-with-thermometer",
+			Character:   "🤒",
+			UnicodeName: "face with thermometer",
+			CodePoint:   "U+1F912",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129299: {
+			Slug:        "nerd-face",
+			Character:   "🤓",
+			UnicodeName: "nerd face",
+			CodePoint:   "U+1F913",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-glasses",
+		},
+
+		129300: {
+			Slug:        "thinking-face",
+			Character:   "🤔",
+			UnicodeName: "thinking face",
+			CodePoint:   "U+1F914",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129301: {
+			Slug:        "face-with-head-bandage",
+			Character:   "🤕",
+			UnicodeName: "face with head-bandage",
+			CodePoint:   "U+1F915",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129302: {
+			Slug:        "robot",
+			Character:   "🤖",
+			UnicodeName: "robot",
+			CodePoint:   "U+1F916",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		129303: {
+			Slug:        "smiling-face-with-open-hands",
+			Character:   "🤗",
+			UnicodeName: "smiling face with open hands",
+			CodePoint:   "U+1F917",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129304: {
+			Slug:        "sign-of-the-horns",
+			Character:   "🤘",
+			UnicodeName: "sign of the horns",
+			CodePoint:   "U+1F918",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129305: {
+			Slug:        "call-me-hand",
+			Character:   "🤙",
+			UnicodeName: "call me hand",
+			CodePoint:   "U+1F919",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129306: {
+			Slug:        "raised-back-of-hand",
+			Character:   "🤚",
+			UnicodeName: "raised back of hand",
+			CodePoint:   "U+1F91A",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		129307: {
+			Slug:        "left-facing-fist",
+			Character:   "🤛",
+			UnicodeName: "left-facing fist",
+			CodePoint:   "U+1F91B",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-closed",
+		},
+
+		129308: {
+			Slug:        "right-facing-fist",
+			Character:   "🤜",
+			UnicodeName: "right-facing fist",
+			CodePoint:   "U+1F91C",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-closed",
+		},
+
+		129309: {
+			Slug:        "handshake",
+			Character:   "🤝",
+			UnicodeName: "handshake",
+			CodePoint:   "U+1F91D",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
+
+		129310: {
+			Slug:        "crossed-fingers",
+			Character:   "🤞",
+			UnicodeName: "crossed fingers",
+			CodePoint:   "U+1F91E",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129311: {
+			Slug:        "love-you-gesture",
+			Character:   "🤟",
+			UnicodeName: "love-you gesture",
+			CodePoint:   "U+1F91F",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129312: {
+			Slug:        "cowboy-hat-face",
+			Character:   "🤠",
+			UnicodeName: "cowboy hat face",
+			CodePoint:   "U+1F920",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hat",
+		},
+
+		129313: {
+			Slug:        "clown-face",
+			Character:   "🤡",
+			UnicodeName: "clown face",
+			CodePoint:   "U+1F921",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-costume",
+		},
+
+		129314: {
+			Slug:        "nauseated-face",
+			Character:   "🤢",
+			UnicodeName: "nauseated face",
+			CodePoint:   "U+1F922",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129315: {
+			Slug:        "rolling-on-the-floor-laughing",
+			Character:   "🤣",
+			UnicodeName: "rolling on the floor laughing",
+			CodePoint:   "U+1F923",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		129316: {
+			Slug:        "drooling-face",
+			Character:   "🤤",
+			UnicodeName: "drooling face",
+			CodePoint:   "U+1F924",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-sleepy",
+		},
+
+		129317: {
+			Slug:        "lying-face",
+			Character:   "🤥",
+			UnicodeName: "lying face",
+			CodePoint:   "U+1F925",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		129318: {
+			Slug:        "woman-facepalming",
+			Character:   "🤦‍♀️",
+			UnicodeName: "woman facepalming",
+			CodePoint:   "U+1F926 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		129319: {
+			Slug:        "sneezing-face",
+			Character:   "🤧",
+			UnicodeName: "sneezing face",
+			CodePoint:   "U+1F927",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129320: {
+			Slug:        "face-with-raised-eyebrow",
+			Character:   "🤨",
+			UnicodeName: "face with raised eyebrow",
+			CodePoint:   "U+1F928",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		129321: {
+			Slug:        "star-struck",
+			Character:   "🤩",
+			UnicodeName: "star-struck",
+			CodePoint:   "U+1F929",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		129322: {
+			Slug:        "zany-face",
+			Character:   "🤪",
+			UnicodeName: "zany face",
+			CodePoint:   "U+1F92A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-tongue",
+		},
+
+		129323: {
+			Slug:        "shushing-face",
+			Character:   "🤫",
+			UnicodeName: "shushing face",
+			CodePoint:   "U+1F92B",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129324: {
+			Slug:        "face-with-symbols-on-mouth",
+			Character:   "🤬",
+			UnicodeName: "face with symbols on mouth",
+			CodePoint:   "U+1F92C",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-negative",
+		},
+
+		129325: {
+			Slug:        "face-with-hand-over-mouth",
+			Character:   "🤭",
+			UnicodeName: "face with hand over mouth",
+			CodePoint:   "U+1F92D",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129326: {
+			Slug:        "face-vomiting",
+			Character:   "🤮",
+			UnicodeName: "face vomiting",
+			CodePoint:   "U+1F92E",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129327: {
+			Slug:        "exploding-head",
+			Character:   "🤯",
+			UnicodeName: "exploding head",
+			CodePoint:   "U+1F92F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129328: {
+			Slug:        "pregnant-woman",
+			Character:   "🤰",
+			UnicodeName: "pregnant woman",
+			CodePoint:   "U+1F930",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129329: {
+			Slug:        "breast-feeding",
+			Character:   "🤱",
+			UnicodeName: "breast-feeding",
+			CodePoint:   "U+1F931",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129330: {
+			Slug:        "palms-up-together",
+			Character:   "🤲",
+			UnicodeName: "palms up together",
+			CodePoint:   "U+1F932",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
+
+		129331: {
+			Slug:        "selfie",
+			Character:   "🤳",
+			UnicodeName: "selfie",
+			CodePoint:   "U+1F933",
+			Group:       "People & Body",
+			SubGroup:    "hand-prop",
+		},
+
+		129332: {
+			Slug:        "prince",
+			Character:   "🤴",
+			UnicodeName: "prince",
+			CodePoint:   "U+1F934",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129333: {
+			Slug:        "woman-in-tuxedo",
+			Character:   "🤵‍♀️",
+			UnicodeName: "woman in tuxedo",
+			CodePoint:   "U+1F935 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129334: {
+			Slug:        "Mrs.-Claus",
+			Character:   "🤶",
+			UnicodeName: "Mrs. Claus",
+			CodePoint:   "U+1F936",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129335: {
+			Slug:        "woman-shrugging",
+			Character:   "🤷‍♀️",
+			UnicodeName: "woman shrugging",
+			CodePoint:   "U+1F937 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		129336: {
+			Slug:        "woman-cartwheeling",
+			Character:   "🤸‍♀️",
+			UnicodeName: "woman cartwheeling",
+			CodePoint:   "U+1F938 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		129337: {
+			Slug:        "woman-juggling",
+			Character:   "🤹‍♀️",
+			UnicodeName: "woman juggling",
+			CodePoint:   "U+1F939 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		129338: {
+			Slug:        "person-fencing",
+			Character:   "🤺",
+			UnicodeName: "person fencing",
+			CodePoint:   "U+1F93A",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		129340: {
+			Slug:        "women-wrestling",
+			Character:   "🤼‍♀️",
+			UnicodeName: "women wrestling",
+			CodePoint:   "U+1F93C U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		129341: {
+			Slug:        "woman-playing-water-polo",
+			Character:   "🤽‍♀️",
+			UnicodeName: "woman playing water polo",
+			CodePoint:   "U+1F93D U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		129342: {
+			Slug:        "woman-playing-handball",
+			Character:   "🤾‍♀️",
+			UnicodeName: "woman playing handball",
+			CodePoint:   "U+1F93E U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		129343: {
+			Slug:        "diving-mask",
+			Character:   "🤿",
+			UnicodeName: "diving mask",
+			CodePoint:   "U+1F93F",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129344: {
+			Slug:        "wilted-flower",
+			Character:   "🥀",
+			UnicodeName: "wilted flower",
+			CodePoint:   "U+1F940",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		129345: {
+			Slug:        "drum",
+			Character:   "🥁",
+			UnicodeName: "drum",
+			CodePoint:   "U+1F941",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		129346: {
+			Slug:        "clinking-glasses",
+			Character:   "🥂",
+			UnicodeName: "clinking glasses",
+			CodePoint:   "U+1F942",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129347: {
+			Slug:        "tumbler-glass",
+			Character:   "🥃",
+			UnicodeName: "tumbler glass",
+			CodePoint:   "U+1F943",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129348: {
+			Slug:        "spoon",
+			Character:   "🥄",
+			UnicodeName: "spoon",
+			CodePoint:   "U+1F944",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		129349: {
+			Slug:        "goal-net",
+			Character:   "🥅",
+			UnicodeName: "goal net",
+			CodePoint:   "U+1F945",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129351: {
+			Slug:        "1st-place-medal",
+			Character:   "🥇",
+			UnicodeName: "1st place medal",
+			CodePoint:   "U+1F947",
+			Group:       "Activities",
+			SubGroup:    "award-medal",
+		},
+
+		129352: {
+			Slug:        "2nd-place-medal",
+			Character:   "🥈",
+			UnicodeName: "2nd place medal",
+			CodePoint:   "U+1F948",
+			Group:       "Activities",
+			SubGroup:    "award-medal",
+		},
+
+		129353: {
+			Slug:        "3rd-place-medal",
+			Character:   "🥉",
+			UnicodeName: "3rd place medal",
+			CodePoint:   "U+1F949",
+			Group:       "Activities",
+			SubGroup:    "award-medal",
+		},
+
+		129354: {
+			Slug:        "boxing-glove",
+			Character:   "🥊",
+			UnicodeName: "boxing glove",
+			CodePoint:   "U+1F94A",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129355: {
+			Slug:        "martial-arts-uniform",
+			Character:   "🥋",
+			UnicodeName: "martial arts uniform",
+			CodePoint:   "U+1F94B",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129356: {
+			Slug:        "curling-stone",
+			Character:   "🥌",
+			UnicodeName: "curling stone",
+			CodePoint:   "U+1F94C",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129357: {
+			Slug:        "lacrosse",
+			Character:   "🥍",
+			UnicodeName: "lacrosse",
+			CodePoint:   "U+1F94D",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129358: {
+			Slug:        "softball",
+			Character:   "🥎",
+			UnicodeName: "softball",
+			CodePoint:   "U+1F94E",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129359: {
+			Slug:        "flying-disc",
+			Character:   "🥏",
+			UnicodeName: "flying disc",
+			CodePoint:   "U+1F94F",
+			Group:       "Activities",
+			SubGroup:    "sport",
+		},
+
+		129360: {
+			Slug:        "croissant",
+			Character:   "🥐",
+			UnicodeName: "croissant",
+			CodePoint:   "U+1F950",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129361: {
+			Slug:        "avocado",
+			Character:   "🥑",
+			UnicodeName: "avocado",
+			CodePoint:   "U+1F951",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129362: {
+			Slug:        "cucumber",
+			Character:   "🥒",
+			UnicodeName: "cucumber",
+			CodePoint:   "U+1F952",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129363: {
+			Slug:        "bacon",
+			Character:   "🥓",
+			UnicodeName: "bacon",
+			CodePoint:   "U+1F953",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129364: {
+			Slug:        "potato",
+			Character:   "🥔",
+			UnicodeName: "potato",
+			CodePoint:   "U+1F954",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129365: {
+			Slug:        "carrot",
+			Character:   "🥕",
+			UnicodeName: "carrot",
+			CodePoint:   "U+1F955",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129366: {
+			Slug:        "baguette-bread",
+			Character:   "🥖",
+			UnicodeName: "baguette bread",
+			CodePoint:   "U+1F956",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129367: {
+			Slug:        "green-salad",
+			Character:   "🥗",
+			UnicodeName: "green salad",
+			CodePoint:   "U+1F957",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129368: {
+			Slug:        "shallow-pan-of-food",
+			Character:   "🥘",
+			UnicodeName: "shallow pan of food",
+			CodePoint:   "U+1F958",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129369: {
+			Slug:        "stuffed-flatbread",
+			Character:   "🥙",
+			UnicodeName: "stuffed flatbread",
+			CodePoint:   "U+1F959",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129370: {
+			Slug:        "egg",
+			Character:   "🥚",
+			UnicodeName: "egg",
+			CodePoint:   "U+1F95A",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129371: {
+			Slug:        "glass-of-milk",
+			Character:   "🥛",
+			UnicodeName: "glass of milk",
+			CodePoint:   "U+1F95B",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129372: {
+			Slug:        "peanuts",
+			Character:   "🥜",
+			UnicodeName: "peanuts",
+			CodePoint:   "U+1F95C",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129373: {
+			Slug:        "kiwi-fruit",
+			Character:   "🥝",
+			UnicodeName: "kiwi fruit",
+			CodePoint:   "U+1F95D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		129374: {
+			Slug:        "pancakes",
+			Character:   "🥞",
+			UnicodeName: "pancakes",
+			CodePoint:   "U+1F95E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129375: {
+			Slug:        "dumpling",
+			Character:   "🥟",
+			UnicodeName: "dumpling",
+			CodePoint:   "U+1F95F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		129376: {
+			Slug:        "fortune-cookie",
+			Character:   "🥠",
+			UnicodeName: "fortune cookie",
+			CodePoint:   "U+1F960",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		129377: {
+			Slug:        "takeout-box",
+			Character:   "🥡",
+			UnicodeName: "takeout box",
+			CodePoint:   "U+1F961",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		129378: {
+			Slug:        "chopsticks",
+			Character:   "🥢",
+			UnicodeName: "chopsticks",
+			CodePoint:   "U+1F962",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		129379: {
+			Slug:        "bowl-with-spoon",
+			Character:   "🥣",
+			UnicodeName: "bowl with spoon",
+			CodePoint:   "U+1F963",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129380: {
+			Slug:        "cup-with-straw",
+			Character:   "🥤",
+			UnicodeName: "cup with straw",
+			CodePoint:   "U+1F964",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129381: {
+			Slug:        "coconut",
+			Character:   "🥥",
+			UnicodeName: "coconut",
+			CodePoint:   "U+1F965",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		129382: {
+			Slug:        "broccoli",
+			Character:   "🥦",
+			UnicodeName: "broccoli",
+			CodePoint:   "U+1F966",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129383: {
+			Slug:        "pie",
+			Character:   "🥧",
+			UnicodeName: "pie",
+			CodePoint:   "U+1F967",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		129384: {
+			Slug:        "pretzel",
+			Character:   "🥨",
+			UnicodeName: "pretzel",
+			CodePoint:   "U+1F968",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129385: {
+			Slug:        "cut-of-meat",
+			Character:   "🥩",
+			UnicodeName: "cut of meat",
+			CodePoint:   "U+1F969",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129386: {
+			Slug:        "sandwich",
+			Character:   "🥪",
+			UnicodeName: "sandwich",
+			CodePoint:   "U+1F96A",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129387: {
+			Slug:        "canned-food",
+			Character:   "🥫",
+			UnicodeName: "canned food",
+			CodePoint:   "U+1F96B",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129388: {
+			Slug:        "leafy-green",
+			Character:   "🥬",
+			UnicodeName: "leafy green",
+			CodePoint:   "U+1F96C",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129389: {
+			Slug:        "mango",
+			Character:   "🥭",
+			UnicodeName: "mango",
+			CodePoint:   "U+1F96D",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		129390: {
+			Slug:        "moon-cake",
+			Character:   "🥮",
+			UnicodeName: "moon cake",
+			CodePoint:   "U+1F96E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-asian",
+		},
+
+		129391: {
+			Slug:        "bagel",
+			Character:   "🥯",
+			UnicodeName: "bagel",
+			CodePoint:   "U+1F96F",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129392: {
+			Slug:        "smiling-face-with-hearts",
+			Character:   "🥰",
+			UnicodeName: "smiling face with hearts",
+			CodePoint:   "U+1F970",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		129393: {
+			Slug:        "yawning-face",
+			Character:   "🥱",
+			UnicodeName: "yawning face",
+			CodePoint:   "U+1F971",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		129394: {
+			Slug:        "smiling-face-with-tear",
+			Character:   "🥲",
+			UnicodeName: "smiling face with tear",
+			CodePoint:   "U+1F972",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-affection",
+		},
+
+		129395: {
+			Slug:        "partying-face",
+			Character:   "🥳",
+			UnicodeName: "partying face",
+			CodePoint:   "U+1F973",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hat",
+		},
+
+		129396: {
+			Slug:        "woozy-face",
+			Character:   "🥴",
+			UnicodeName: "woozy face",
+			CodePoint:   "U+1F974",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129397: {
+			Slug:        "hot-face",
+			Character:   "🥵",
+			UnicodeName: "hot face",
+			CodePoint:   "U+1F975",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129398: {
+			Slug:        "cold-face",
+			Character:   "🥶",
+			UnicodeName: "cold face",
+			CodePoint:   "U+1F976",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		129399: {
+			Slug:        "ninja",
+			Character:   "🥷",
+			UnicodeName: "ninja",
+			CodePoint:   "U+1F977",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129400: {
+			Slug:        "disguised-face",
+			Character:   "🥸",
+			UnicodeName: "disguised face",
+			CodePoint:   "U+1F978",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hat",
+		},
+
+		129401: {
+			Slug:        "⊛-face-holding-back-tears",
+			Character:   "🥹",
+			UnicodeName: "⊛ face holding back tears",
+			CodePoint:   "U+1F979",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		129402: {
+			Slug:        "pleading-face",
+			Character:   "🥺",
+			UnicodeName: "pleading face",
+			CodePoint:   "U+1F97A",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		129403: {
+			Slug:        "sari",
+			Character:   "🥻",
+			UnicodeName: "sari",
+			CodePoint:   "U+1F97B",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129404: {
+			Slug:        "lab-coat",
+			Character:   "🥼",
+			UnicodeName: "lab coat",
+			CodePoint:   "U+1F97C",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129405: {
+			Slug:        "goggles",
+			Character:   "🥽",
+			UnicodeName: "goggles",
+			CodePoint:   "U+1F97D",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129406: {
+			Slug:        "hiking-boot",
+			Character:   "🥾",
+			UnicodeName: "hiking boot",
+			CodePoint:   "U+1F97E",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129407: {
+			Slug:        "flat-shoe",
+			Character:   "🥿",
+			UnicodeName: "flat shoe",
+			CodePoint:   "U+1F97F",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129408: {
+			Slug:        "crab",
+			Character:   "🦀",
+			UnicodeName: "crab",
+			CodePoint:   "U+1F980",
+			Group:       "Food & Drink",
+			SubGroup:    "food-marine",
+		},
+
+		129409: {
+			Slug:        "lion",
+			Character:   "🦁",
+			UnicodeName: "lion",
+			CodePoint:   "U+1F981",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129410: {
+			Slug:        "scorpion",
+			Character:   "🦂",
+			UnicodeName: "scorpion",
+			CodePoint:   "U+1F982",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129411: {
+			Slug:        "turkey",
+			Character:   "🦃",
+			UnicodeName: "turkey",
+			CodePoint:   "U+1F983",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129412: {
+			Slug:        "unicorn",
+			Character:   "🦄",
+			UnicodeName: "unicorn",
+			CodePoint:   "U+1F984",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129413: {
+			Slug:        "eagle",
+			Character:   "🦅",
+			UnicodeName: "eagle",
+			CodePoint:   "U+1F985",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129414: {
+			Slug:        "duck",
+			Character:   "🦆",
+			UnicodeName: "duck",
+			CodePoint:   "U+1F986",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129415: {
+			Slug:        "bat",
+			Character:   "🦇",
+			UnicodeName: "bat",
+			CodePoint:   "U+1F987",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129416: {
+			Slug:        "shark",
+			Character:   "🦈",
+			UnicodeName: "shark",
+			CodePoint:   "U+1F988",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		129417: {
+			Slug:        "owl",
+			Character:   "🦉",
+			UnicodeName: "owl",
+			CodePoint:   "U+1F989",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129418: {
+			Slug:        "fox",
+			Character:   "🦊",
+			UnicodeName: "fox",
+			CodePoint:   "U+1F98A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129419: {
+			Slug:        "butterfly",
+			Character:   "🦋",
+			UnicodeName: "butterfly",
+			CodePoint:   "U+1F98B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129420: {
+			Slug:        "deer",
+			Character:   "🦌",
+			UnicodeName: "deer",
+			CodePoint:   "U+1F98C",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129421: {
+			Slug:        "gorilla",
+			Character:   "🦍",
+			UnicodeName: "gorilla",
+			CodePoint:   "U+1F98D",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129422: {
+			Slug:        "lizard",
+			Character:   "🦎",
+			UnicodeName: "lizard",
+			CodePoint:   "U+1F98E",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		129423: {
+			Slug:        "rhinoceros",
+			Character:   "🦏",
+			UnicodeName: "rhinoceros",
+			CodePoint:   "U+1F98F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129424: {
+			Slug:        "shrimp",
+			Character:   "🦐",
+			UnicodeName: "shrimp",
+			CodePoint:   "U+1F990",
+			Group:       "Food & Drink",
+			SubGroup:    "food-marine",
+		},
+
+		129425: {
+			Slug:        "squid",
+			Character:   "🦑",
+			UnicodeName: "squid",
+			CodePoint:   "U+1F991",
+			Group:       "Food & Drink",
+			SubGroup:    "food-marine",
+		},
+
+		129426: {
+			Slug:        "giraffe",
+			Character:   "🦒",
+			UnicodeName: "giraffe",
+			CodePoint:   "U+1F992",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129427: {
+			Slug:        "zebra",
+			Character:   "🦓",
+			UnicodeName: "zebra",
+			CodePoint:   "U+1F993",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129428: {
+			Slug:        "hedgehog",
+			Character:   "🦔",
+			UnicodeName: "hedgehog",
+			CodePoint:   "U+1F994",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129429: {
+			Slug:        "sauropod",
+			Character:   "🦕",
+			UnicodeName: "sauropod",
+			CodePoint:   "U+1F995",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		129430: {
+			Slug:        "T-Rex",
+			Character:   "🦖",
+			UnicodeName: "T-Rex",
+			CodePoint:   "U+1F996",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-reptile",
+		},
+
+		129431: {
+			Slug:        "cricket",
+			Character:   "🦗",
+			UnicodeName: "cricket",
+			CodePoint:   "U+1F997",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129432: {
+			Slug:        "kangaroo",
+			Character:   "🦘",
+			UnicodeName: "kangaroo",
+			CodePoint:   "U+1F998",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129433: {
+			Slug:        "llama",
+			Character:   "🦙",
+			UnicodeName: "llama",
+			CodePoint:   "U+1F999",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129434: {
+			Slug:        "peacock",
+			Character:   "🦚",
+			UnicodeName: "peacock",
+			CodePoint:   "U+1F99A",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129435: {
+			Slug:        "hippopotamus",
+			Character:   "🦛",
+			UnicodeName: "hippopotamus",
+			CodePoint:   "U+1F99B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129436: {
+			Slug:        "parrot",
+			Character:   "🦜",
+			UnicodeName: "parrot",
+			CodePoint:   "U+1F99C",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129437: {
+			Slug:        "raccoon",
+			Character:   "🦝",
+			UnicodeName: "raccoon",
+			CodePoint:   "U+1F99D",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129438: {
+			Slug:        "lobster",
+			Character:   "🦞",
+			UnicodeName: "lobster",
+			CodePoint:   "U+1F99E",
+			Group:       "Food & Drink",
+			SubGroup:    "food-marine",
+		},
+
+		129439: {
+			Slug:        "mosquito",
+			Character:   "🦟",
+			UnicodeName: "mosquito",
+			CodePoint:   "U+1F99F",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129440: {
+			Slug:        "microbe",
+			Character:   "🦠",
+			UnicodeName: "microbe",
+			CodePoint:   "U+1F9A0",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129441: {
+			Slug:        "badger",
+			Character:   "🦡",
+			UnicodeName: "badger",
+			CodePoint:   "U+1F9A1",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129442: {
+			Slug:        "swan",
+			Character:   "🦢",
+			UnicodeName: "swan",
+			CodePoint:   "U+1F9A2",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129443: {
+			Slug:        "mammoth",
+			Character:   "🦣",
+			UnicodeName: "mammoth",
+			CodePoint:   "U+1F9A3",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129444: {
+			Slug:        "dodo",
+			Character:   "🦤",
+			UnicodeName: "dodo",
+			CodePoint:   "U+1F9A4",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129445: {
+			Slug:        "sloth",
+			Character:   "🦥",
+			UnicodeName: "sloth",
+			CodePoint:   "U+1F9A5",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129446: {
+			Slug:        "otter",
+			Character:   "🦦",
+			UnicodeName: "otter",
+			CodePoint:   "U+1F9A6",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129447: {
+			Slug:        "orangutan",
+			Character:   "🦧",
+			UnicodeName: "orangutan",
+			CodePoint:   "U+1F9A7",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129448: {
+			Slug:        "skunk",
+			Character:   "🦨",
+			UnicodeName: "skunk",
+			CodePoint:   "U+1F9A8",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129449: {
+			Slug:        "flamingo",
+			Character:   "🦩",
+			UnicodeName: "flamingo",
+			CodePoint:   "U+1F9A9",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129450: {
+			Slug:        "oyster",
+			Character:   "🦪",
+			UnicodeName: "oyster",
+			CodePoint:   "U+1F9AA",
+			Group:       "Food & Drink",
+			SubGroup:    "food-marine",
+		},
+
+		129451: {
+			Slug:        "beaver",
+			Character:   "🦫",
+			UnicodeName: "beaver",
+			CodePoint:   "U+1F9AB",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129452: {
+			Slug:        "bison",
+			Character:   "🦬",
+			UnicodeName: "bison",
+			CodePoint:   "U+1F9AC",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129453: {
+			Slug:        "seal",
+			Character:   "🦭",
+			UnicodeName: "seal",
+			CodePoint:   "U+1F9AD",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		129454: {
+			Slug:        "guide-dog",
+			Character:   "🦮",
+			UnicodeName: "guide dog",
+			CodePoint:   "U+1F9AE",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		129455: {
+			Slug:        "white-cane",
+			Character:   "🦯",
+			UnicodeName: "white cane",
+			CodePoint:   "U+1F9AF",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129456: {
+			Slug:        "red-hair",
+			Character:   "🦰",
+			UnicodeName: "red hair",
+			CodePoint:   "U+1F9B0",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		129457: {
+			Slug:        "curly-hair",
+			Character:   "🦱",
+			UnicodeName: "curly hair",
+			CodePoint:   "U+1F9B1",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		129458: {
+			Slug:        "bald",
+			Character:   "🦲",
+			UnicodeName: "bald",
+			CodePoint:   "U+1F9B2",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		129459: {
+			Slug:        "white-hair",
+			Character:   "🦳",
+			UnicodeName: "white hair",
+			CodePoint:   "U+1F9B3",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		129460: {
+			Slug:        "bone",
+			Character:   "🦴",
+			UnicodeName: "bone",
+			CodePoint:   "U+1F9B4",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129461: {
+			Slug:        "leg",
+			Character:   "🦵",
+			UnicodeName: "leg",
+			CodePoint:   "U+1F9B5",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129462: {
+			Slug:        "foot",
+			Character:   "🦶",
+			UnicodeName: "foot",
+			CodePoint:   "U+1F9B6",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129463: {
+			Slug:        "tooth",
+			Character:   "🦷",
+			UnicodeName: "tooth",
+			CodePoint:   "U+1F9B7",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129464: {
+			Slug:        "woman-superhero",
+			Character:   "🦸‍♀️",
+			UnicodeName: "woman superhero",
+			CodePoint:   "U+1F9B8 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129465: {
+			Slug:        "woman-supervillain",
+			Character:   "🦹‍♀️",
+			UnicodeName: "woman supervillain",
+			CodePoint:   "U+1F9B9 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129466: {
+			Slug:        "safety-vest",
+			Character:   "🦺",
+			UnicodeName: "safety vest",
+			CodePoint:   "U+1F9BA",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129467: {
+			Slug:        "ear-with-hearing-aid",
+			Character:   "🦻",
+			UnicodeName: "ear with hearing aid",
+			CodePoint:   "U+1F9BB",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129468: {
+			Slug:        "motorized-wheelchair",
+			Character:   "🦼",
+			UnicodeName: "motorized wheelchair",
+			CodePoint:   "U+1F9BC",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		129469: {
+			Slug:        "manual-wheelchair",
+			Character:   "🦽",
+			UnicodeName: "manual wheelchair",
+			CodePoint:   "U+1F9BD",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-ground",
+		},
+
+		129470: {
+			Slug:        "mechanical-arm",
+			Character:   "🦾",
+			UnicodeName: "mechanical arm",
+			CodePoint:   "U+1F9BE",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129471: {
+			Slug:        "mechanical-leg",
+			Character:   "🦿",
+			UnicodeName: "mechanical leg",
+			CodePoint:   "U+1F9BF",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129472: {
+			Slug:        "cheese-wedge",
+			Character:   "🧀",
+			UnicodeName: "cheese wedge",
+			CodePoint:   "U+1F9C0",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129473: {
+			Slug:        "cupcake",
+			Character:   "🧁",
+			UnicodeName: "cupcake",
+			CodePoint:   "U+1F9C1",
+			Group:       "Food & Drink",
+			SubGroup:    "food-sweet",
+		},
+
+		129474: {
+			Slug:        "salt",
+			Character:   "🧂",
+			UnicodeName: "salt",
+			CodePoint:   "U+1F9C2",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129475: {
+			Slug:        "beverage-box",
+			Character:   "🧃",
+			UnicodeName: "beverage box",
+			CodePoint:   "U+1F9C3",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129476: {
+			Slug:        "garlic",
+			Character:   "🧄",
+			UnicodeName: "garlic",
+			CodePoint:   "U+1F9C4",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129477: {
+			Slug:        "onion",
+			Character:   "🧅",
+			UnicodeName: "onion",
+			CodePoint:   "U+1F9C5",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129478: {
+			Slug:        "falafel",
+			Character:   "🧆",
+			UnicodeName: "falafel",
+			CodePoint:   "U+1F9C6",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129479: {
+			Slug:        "waffle",
+			Character:   "🧇",
+			UnicodeName: "waffle",
+			CodePoint:   "U+1F9C7",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129480: {
+			Slug:        "butter",
+			Character:   "🧈",
+			UnicodeName: "butter",
+			CodePoint:   "U+1F9C8",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129481: {
+			Slug:        "mate",
+			Character:   "🧉",
+			UnicodeName: "mate",
+			CodePoint:   "U+1F9C9",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129482: {
+			Slug:        "ice",
+			Character:   "🧊",
+			UnicodeName: "ice",
+			CodePoint:   "U+1F9CA",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129483: {
+			Slug:        "bubble-tea",
+			Character:   "🧋",
+			UnicodeName: "bubble tea",
+			CodePoint:   "U+1F9CB",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129484: {
+			Slug:        "⊛-troll",
+			Character:   "🧌",
+			UnicodeName: "⊛ troll",
+			CodePoint:   "U+1F9CC",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129485: {
+			Slug:        "woman-standing",
+			Character:   "🧍‍♀️",
+			UnicodeName: "woman standing",
+			CodePoint:   "U+1F9CD U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		129486: {
+			Slug:        "woman-kneeling",
+			Character:   "🧎‍♀️",
+			UnicodeName: "woman kneeling",
+			CodePoint:   "U+1F9CE U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		129487: {
+			Slug:        "deaf-woman",
+			Character:   "🧏‍♀️",
+			UnicodeName: "deaf woman",
+			CodePoint:   "U+1F9CF U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		129488: {
+			Slug:        "face-with-monocle",
+			Character:   "🧐",
+			UnicodeName: "face with monocle",
+			CodePoint:   "U+1F9D0",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-glasses",
+		},
+
+		129489: {
+			Slug:        "people-holding-hands",
+			Character:   "🧑‍🤝‍🧑",
+			UnicodeName: "people holding hands",
+			CodePoint:   "U+1F9D1 U+200D U+1F91D U+200D U+1F9D1",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		129490: {
+			Slug:        "child",
+			Character:   "🧒",
+			UnicodeName: "child",
+			CodePoint:   "U+1F9D2",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		129491: {
+			Slug:        "older-person",
+			Character:   "🧓",
+			UnicodeName: "older person",
+			CodePoint:   "U+1F9D3",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		129492: {
+			Slug:        "woman:-beard",
+			Character:   "🧔‍♀️",
+			UnicodeName: "woman: beard",
+			CodePoint:   "U+1F9D4 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		129493: {
+			Slug:        "woman-with-headscarf",
+			Character:   "🧕",
+			UnicodeName: "woman with headscarf",
+			CodePoint:   "U+1F9D5",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129494: {
+			Slug:        "woman-in-steamy-room",
+			Character:   "🧖‍♀️",
+			UnicodeName: "woman in steamy room",
+			CodePoint:   "U+1F9D6 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		129495: {
+			Slug:        "woman-climbing",
+			Character:   "🧗‍♀️",
+			UnicodeName: "woman climbing",
+			CodePoint:   "U+1F9D7 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		129496: {
+			Slug:        "woman-in-lotus-position",
+			Character:   "🧘‍♀️",
+			UnicodeName: "woman in lotus position",
+			CodePoint:   "U+1F9D8 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-resting",
+		},
+
+		129497: {
+			Slug:        "woman-mage",
+			Character:   "🧙‍♀️",
+			UnicodeName: "woman mage",
+			CodePoint:   "U+1F9D9 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129498: {
+			Slug:        "woman-fairy",
+			Character:   "🧚‍♀️",
+			UnicodeName: "woman fairy",
+			CodePoint:   "U+1F9DA U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129499: {
+			Slug:        "woman-vampire",
+			Character:   "🧛‍♀️",
+			UnicodeName: "woman vampire",
+			CodePoint:   "U+1F9DB U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129500: {
+			Slug:        "mermaid",
+			Character:   "🧜‍♀️",
+			UnicodeName: "mermaid",
+			CodePoint:   "U+1F9DC U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129501: {
+			Slug:        "woman-elf",
+			Character:   "🧝‍♀️",
+			UnicodeName: "woman elf",
+			CodePoint:   "U+1F9DD U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129502: {
+			Slug:        "woman-genie",
+			Character:   "🧞‍♀️",
+			UnicodeName: "woman genie",
+			CodePoint:   "U+1F9DE U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129503: {
+			Slug:        "woman-zombie",
+			Character:   "🧟‍♀️",
+			UnicodeName: "woman zombie",
+			CodePoint:   "U+1F9DF U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		129504: {
+			Slug:        "brain",
+			Character:   "🧠",
+			UnicodeName: "brain",
+			CodePoint:   "U+1F9E0",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129505: {
+			Slug:        "orange-heart",
+			Character:   "🧡",
+			UnicodeName: "orange heart",
+			CodePoint:   "U+1F9E1",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		129506: {
+			Slug:        "billed-cap",
+			Character:   "🧢",
+			UnicodeName: "billed cap",
+			CodePoint:   "U+1F9E2",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129507: {
+			Slug:        "scarf",
+			Character:   "🧣",
+			UnicodeName: "scarf",
+			CodePoint:   "U+1F9E3",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129508: {
+			Slug:        "gloves",
+			Character:   "🧤",
+			UnicodeName: "gloves",
+			CodePoint:   "U+1F9E4",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129509: {
+			Slug:        "coat",
+			Character:   "🧥",
+			UnicodeName: "coat",
+			CodePoint:   "U+1F9E5",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129510: {
+			Slug:        "socks",
+			Character:   "🧦",
+			UnicodeName: "socks",
+			CodePoint:   "U+1F9E6",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129511: {
+			Slug:        "red-envelope",
+			Character:   "🧧",
+			UnicodeName: "red envelope",
+			CodePoint:   "U+1F9E7",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		129512: {
+			Slug:        "firecracker",
+			Character:   "🧨",
+			UnicodeName: "firecracker",
+			CodePoint:   "U+1F9E8",
+			Group:       "Activities",
+			SubGroup:    "event",
+		},
+
+		129513: {
+			Slug:        "puzzle-piece",
+			Character:   "🧩",
+			UnicodeName: "puzzle piece",
+			CodePoint:   "U+1F9E9",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129514: {
+			Slug:        "test-tube",
+			Character:   "🧪",
+			UnicodeName: "test tube",
+			CodePoint:   "U+1F9EA",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		129515: {
+			Slug:        "petri-dish",
+			Character:   "🧫",
+			UnicodeName: "petri dish",
+			CodePoint:   "U+1F9EB",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		129516: {
+			Slug:        "dna",
+			Character:   "🧬",
+			UnicodeName: "dna",
+			CodePoint:   "U+1F9EC",
+			Group:       "Objects",
+			SubGroup:    "science",
+		},
+
+		129517: {
+			Slug:        "compass",
+			Character:   "🧭",
+			UnicodeName: "compass",
+			CodePoint:   "U+1F9ED",
+			Group:       "Travel & Places",
+			SubGroup:    "place-map",
+		},
+
+		129518: {
+			Slug:        "abacus",
+			Character:   "🧮",
+			UnicodeName: "abacus",
+			CodePoint:   "U+1F9EE",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		129519: {
+			Slug:        "fire-extinguisher",
+			Character:   "🧯",
+			UnicodeName: "fire extinguisher",
+			CodePoint:   "U+1F9EF",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129520: {
+			Slug:        "toolbox",
+			Character:   "🧰",
+			UnicodeName: "toolbox",
+			CodePoint:   "U+1F9F0",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129521: {
+			Slug:        "brick",
+			Character:   "🧱",
+			UnicodeName: "brick",
+			CodePoint:   "U+1F9F1",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		129522: {
+			Slug:        "magnet",
+			Character:   "🧲",
+			UnicodeName: "magnet",
+			CodePoint:   "U+1F9F2",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129523: {
+			Slug:        "luggage",
+			Character:   "🧳",
+			UnicodeName: "luggage",
+			CodePoint:   "U+1F9F3",
+			Group:       "Travel & Places",
+			SubGroup:    "hotel",
+		},
+
+		129524: {
+			Slug:        "lotion-bottle",
+			Character:   "🧴",
+			UnicodeName: "lotion bottle",
+			CodePoint:   "U+1F9F4",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129525: {
+			Slug:        "thread",
+			Character:   "🧵",
+			UnicodeName: "thread",
+			CodePoint:   "U+1F9F5",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		129526: {
+			Slug:        "yarn",
+			Character:   "🧶",
+			UnicodeName: "yarn",
+			CodePoint:   "U+1F9F6",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		129527: {
+			Slug:        "safety-pin",
+			Character:   "🧷",
+			UnicodeName: "safety pin",
+			CodePoint:   "U+1F9F7",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129528: {
+			Slug:        "teddy-bear",
+			Character:   "🧸",
+			UnicodeName: "teddy bear",
+			CodePoint:   "U+1F9F8",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129529: {
+			Slug:        "broom",
+			Character:   "🧹",
+			UnicodeName: "broom",
+			CodePoint:   "U+1F9F9",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129530: {
+			Slug:        "basket",
+			Character:   "🧺",
+			UnicodeName: "basket",
+			CodePoint:   "U+1F9FA",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129531: {
+			Slug:        "roll-of-paper",
+			Character:   "🧻",
+			UnicodeName: "roll of paper",
+			CodePoint:   "U+1F9FB",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129532: {
+			Slug:        "soap",
+			Character:   "🧼",
+			UnicodeName: "soap",
+			CodePoint:   "U+1F9FC",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129533: {
+			Slug:        "sponge",
+			Character:   "🧽",
+			UnicodeName: "sponge",
+			CodePoint:   "U+1F9FD",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129534: {
+			Slug:        "receipt",
+			Character:   "🧾",
+			UnicodeName: "receipt",
+			CodePoint:   "U+1F9FE",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		129535: {
+			Slug:        "nazar-amulet",
+			Character:   "🧿",
+			UnicodeName: "nazar amulet",
+			CodePoint:   "U+1F9FF",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129648: {
+			Slug:        "ballet-shoes",
+			Character:   "🩰",
+			UnicodeName: "ballet shoes",
+			CodePoint:   "U+1FA70",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129649: {
+			Slug:        "one-piece-swimsuit",
+			Character:   "🩱",
+			UnicodeName: "one-piece swimsuit",
+			CodePoint:   "U+1FA71",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129650: {
+			Slug:        "briefs",
+			Character:   "🩲",
+			UnicodeName: "briefs",
+			CodePoint:   "U+1FA72",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129651: {
+			Slug:        "shorts",
+			Character:   "🩳",
+			UnicodeName: "shorts",
+			CodePoint:   "U+1FA73",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129652: {
+			Slug:        "thong-sandal",
+			Character:   "🩴",
+			UnicodeName: "thong sandal",
+			CodePoint:   "U+1FA74",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129656: {
+			Slug:        "drop-of-blood",
+			Character:   "🩸",
+			UnicodeName: "drop of blood",
+			CodePoint:   "U+1FA78",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		129657: {
+			Slug:        "adhesive-bandage",
+			Character:   "🩹",
+			UnicodeName: "adhesive bandage",
+			CodePoint:   "U+1FA79",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		129658: {
+			Slug:        "stethoscope",
+			Character:   "🩺",
+			UnicodeName: "stethoscope",
+			CodePoint:   "U+1FA7A",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		129659: {
+			Slug:        "⊛-x-ray",
+			Character:   "🩻",
+			UnicodeName: "⊛ x-ray",
+			CodePoint:   "U+1FA7B",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		129660: {
+			Slug:        "⊛-crutch",
+			Character:   "🩼",
+			UnicodeName: "⊛ crutch",
+			CodePoint:   "U+1FA7C",
+			Group:       "Objects",
+			SubGroup:    "medical",
+		},
+
+		129664: {
+			Slug:        "yo-yo",
+			Character:   "🪀",
+			UnicodeName: "yo-yo",
+			CodePoint:   "U+1FA80",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129665: {
+			Slug:        "kite",
+			Character:   "🪁",
+			UnicodeName: "kite",
+			CodePoint:   "U+1FA81",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129666: {
+			Slug:        "parachute",
+			Character:   "🪂",
+			UnicodeName: "parachute",
+			CodePoint:   "U+1FA82",
+			Group:       "Travel & Places",
+			SubGroup:    "transport-air",
+		},
+
+		129667: {
+			Slug:        "boomerang",
+			Character:   "🪃",
+			UnicodeName: "boomerang",
+			CodePoint:   "U+1FA83",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129668: {
+			Slug:        "magic-wand",
+			Character:   "🪄",
+			UnicodeName: "magic wand",
+			CodePoint:   "U+1FA84",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129669: {
+			Slug:        "piñata",
+			Character:   "🪅",
+			UnicodeName: "piñata",
+			CodePoint:   "U+1FA85",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129670: {
+			Slug:        "nesting-dolls",
+			Character:   "🪆",
+			UnicodeName: "nesting dolls",
+			CodePoint:   "U+1FA86",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129680: {
+			Slug:        "ringed-planet",
+			Character:   "🪐",
+			UnicodeName: "ringed planet",
+			CodePoint:   "U+1FA90",
+			Group:       "Travel & Places",
+			SubGroup:    "sky & weather",
+		},
+
+		129681: {
+			Slug:        "chair",
+			Character:   "🪑",
+			UnicodeName: "chair",
+			CodePoint:   "U+1FA91",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129682: {
+			Slug:        "razor",
+			Character:   "🪒",
+			UnicodeName: "razor",
+			CodePoint:   "U+1FA92",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129683: {
+			Slug:        "axe",
+			Character:   "🪓",
+			UnicodeName: "axe",
+			CodePoint:   "U+1FA93",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129684: {
+			Slug:        "diya-lamp",
+			Character:   "🪔",
+			UnicodeName: "diya lamp",
+			CodePoint:   "U+1FA94",
+			Group:       "Objects",
+			SubGroup:    "light & video",
+		},
+
+		129685: {
+			Slug:        "banjo",
+			Character:   "🪕",
+			UnicodeName: "banjo",
+			CodePoint:   "U+1FA95",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		129686: {
+			Slug:        "military-helmet",
+			Character:   "🪖",
+			UnicodeName: "military helmet",
+			CodePoint:   "U+1FA96",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		129687: {
+			Slug:        "accordion",
+			Character:   "🪗",
+			UnicodeName: "accordion",
+			CodePoint:   "U+1FA97",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		129688: {
+			Slug:        "long-drum",
+			Character:   "🪘",
+			UnicodeName: "long drum",
+			CodePoint:   "U+1FA98",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		129689: {
+			Slug:        "coin",
+			Character:   "🪙",
+			UnicodeName: "coin",
+			CodePoint:   "U+1FA99",
+			Group:       "Objects",
+			SubGroup:    "money",
+		},
+
+		129690: {
+			Slug:        "carpentry-saw",
+			Character:   "🪚",
+			UnicodeName: "carpentry saw",
+			CodePoint:   "U+1FA9A",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129691: {
+			Slug:        "screwdriver",
+			Character:   "🪛",
+			UnicodeName: "screwdriver",
+			CodePoint:   "U+1FA9B",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129692: {
+			Slug:        "ladder",
+			Character:   "🪜",
+			UnicodeName: "ladder",
+			CodePoint:   "U+1FA9C",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129693: {
+			Slug:        "hook",
+			Character:   "🪝",
+			UnicodeName: "hook",
+			CodePoint:   "U+1FA9D",
+			Group:       "Objects",
+			SubGroup:    "tool",
+		},
+
+		129694: {
+			Slug:        "mirror",
+			Character:   "🪞",
+			UnicodeName: "mirror",
+			CodePoint:   "U+1FA9E",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129695: {
+			Slug:        "window",
+			Character:   "🪟",
+			UnicodeName: "window",
+			CodePoint:   "U+1FA9F",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129696: {
+			Slug:        "plunger",
+			Character:   "🪠",
+			UnicodeName: "plunger",
+			CodePoint:   "U+1FAA0",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129697: {
+			Slug:        "sewing-needle",
+			Character:   "🪡",
+			UnicodeName: "sewing needle",
+			CodePoint:   "U+1FAA1",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		129698: {
+			Slug:        "knot",
+			Character:   "🪢",
+			UnicodeName: "knot",
+			CodePoint:   "U+1FAA2",
+			Group:       "Activities",
+			SubGroup:    "arts & crafts",
+		},
+
+		129699: {
+			Slug:        "bucket",
+			Character:   "🪣",
+			UnicodeName: "bucket",
+			CodePoint:   "U+1FAA3",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129700: {
+			Slug:        "mouse-trap",
+			Character:   "🪤",
+			UnicodeName: "mouse trap",
+			CodePoint:   "U+1FAA4",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129701: {
+			Slug:        "toothbrush",
+			Character:   "🪥",
+			UnicodeName: "toothbrush",
+			CodePoint:   "U+1FAA5",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129702: {
+			Slug:        "headstone",
+			Character:   "🪦",
+			UnicodeName: "headstone",
+			CodePoint:   "U+1FAA6",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		129703: {
+			Slug:        "placard",
+			Character:   "🪧",
+			UnicodeName: "placard",
+			CodePoint:   "U+1FAA7",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		129704: {
+			Slug:        "rock",
+			Character:   "🪨",
+			UnicodeName: "rock",
+			CodePoint:   "U+1FAA8",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		129705: {
+			Slug:        "⊛-mirror-ball",
+			Character:   "🪩",
+			UnicodeName: "⊛ mirror ball",
+			CodePoint:   "U+1FAA9",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129706: {
+			Slug:        "⊛-identification-card",
+			Character:   "🪪",
+			UnicodeName: "⊛ identification card",
+			CodePoint:   "U+1FAAA",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		129707: {
+			Slug:        "⊛-low-battery",
+			Character:   "🪫",
+			UnicodeName: "⊛ low battery",
+			CodePoint:   "U+1FAAB",
+			Group:       "Objects",
+			SubGroup:    "computer",
+		},
+
+		129708: {
+			Slug:        "⊛-hamsa",
+			Character:   "🪬",
+			UnicodeName: "⊛ hamsa",
+			CodePoint:   "U+1FAAC",
+			Group:       "Activities",
+			SubGroup:    "game",
+		},
+
+		129712: {
+			Slug:        "fly",
+			Character:   "🪰",
+			UnicodeName: "fly",
+			CodePoint:   "U+1FAB0",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129713: {
+			Slug:        "worm",
+			Character:   "🪱",
+			UnicodeName: "worm",
+			CodePoint:   "U+1FAB1",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129714: {
+			Slug:        "beetle",
+			Character:   "🪲",
+			UnicodeName: "beetle",
+			CodePoint:   "U+1FAB2",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129715: {
+			Slug:        "cockroach",
+			Character:   "🪳",
+			UnicodeName: "cockroach",
+			CodePoint:   "U+1FAB3",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bug",
+		},
+
+		129716: {
+			Slug:        "potted-plant",
+			Character:   "🪴",
+			UnicodeName: "potted plant",
+			CodePoint:   "U+1FAB4",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		129717: {
+			Slug:        "wood",
+			Character:   "🪵",
+			UnicodeName: "wood",
+			CodePoint:   "U+1FAB5",
+			Group:       "Travel & Places",
+			SubGroup:    "place-building",
+		},
+
+		129718: {
+			Slug:        "feather",
+			Character:   "🪶",
+			UnicodeName: "feather",
+			CodePoint:   "U+1FAB6",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		129719: {
+			Slug:        "⊛-lotus",
+			Character:   "🪷",
+			UnicodeName: "⊛ lotus",
+			CodePoint:   "U+1FAB7",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		129720: {
+			Slug:        "⊛-coral",
+			Character:   "🪸",
+			UnicodeName: "⊛ coral",
+			CodePoint:   "U+1FAB8",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		129721: {
+			Slug:        "⊛-empty-nest",
+			Character:   "🪹",
+			UnicodeName: "⊛ empty nest",
+			CodePoint:   "U+1FAB9",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		129722: {
+			Slug:        "⊛-nest-with-eggs",
+			Character:   "🪺",
+			UnicodeName: "⊛ nest with eggs",
+			CodePoint:   "U+1FABA",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
+		},
+
+		129728: {
+			Slug:        "anatomical-heart",
+			Character:   "🫀",
+			UnicodeName: "anatomical heart",
+			CodePoint:   "U+1FAC0",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129729: {
+			Slug:        "lungs",
+			Character:   "🫁",
+			UnicodeName: "lungs",
+			CodePoint:   "U+1FAC1",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129730: {
+			Slug:        "people-hugging",
+			Character:   "🫂",
+			UnicodeName: "people hugging",
+			CodePoint:   "U+1FAC2",
+			Group:       "People & Body",
+			SubGroup:    "person-symbol",
+		},
+
+		129731: {
+			Slug:        "⊛-pregnant-man",
+			Character:   "🫃",
+			UnicodeName: "⊛ pregnant man",
+			CodePoint:   "U+1FAC3",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129732: {
+			Slug:        "⊛-pregnant-person",
+			Character:   "🫄",
+			UnicodeName: "⊛ pregnant person",
+			CodePoint:   "U+1FAC4",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129733: {
+			Slug:        "⊛-person-with-crown",
+			Character:   "🫅",
+			UnicodeName: "⊛ person with crown",
+			CodePoint:   "U+1FAC5",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		129744: {
+			Slug:        "blueberries",
+			Character:   "🫐",
+			UnicodeName: "blueberries",
+			CodePoint:   "U+1FAD0",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		129745: {
+			Slug:        "bell-pepper",
+			Character:   "🫑",
+			UnicodeName: "bell pepper",
+			CodePoint:   "U+1FAD1",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129746: {
+			Slug:        "olive",
+			Character:   "🫒",
+			UnicodeName: "olive",
+			CodePoint:   "U+1FAD2",
+			Group:       "Food & Drink",
+			SubGroup:    "food-fruit",
+		},
+
+		129747: {
+			Slug:        "flatbread",
+			Character:   "🫓",
+			UnicodeName: "flatbread",
+			CodePoint:   "U+1FAD3",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129748: {
+			Slug:        "tamale",
+			Character:   "🫔",
+			UnicodeName: "tamale",
+			CodePoint:   "U+1FAD4",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129749: {
+			Slug:        "fondue",
+			Character:   "🫕",
+			UnicodeName: "fondue",
+			CodePoint:   "U+1FAD5",
+			Group:       "Food & Drink",
+			SubGroup:    "food-prepared",
+		},
+
+		129750: {
+			Slug:        "teapot",
+			Character:   "🫖",
+			UnicodeName: "teapot",
+			CodePoint:   "U+1FAD6",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129751: {
+			Slug:        "⊛-pouring-liquid",
+			Character:   "🫗",
+			UnicodeName: "⊛ pouring liquid",
+			CodePoint:   "U+1FAD7",
+			Group:       "Food & Drink",
+			SubGroup:    "drink",
+		},
+
+		129752: {
+			Slug:        "⊛-beans",
+			Character:   "🫘",
+			UnicodeName: "⊛ beans",
+			CodePoint:   "U+1FAD8",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		129753: {
+			Slug:        "⊛-jar",
+			Character:   "🫙",
+			UnicodeName: "⊛ jar",
+			CodePoint:   "U+1FAD9",
+			Group:       "Food & Drink",
+			SubGroup:    "dishware",
+		},
+
+		129760: {
+			Slug:        "⊛-melting-face",
+			Character:   "🫠",
+			UnicodeName: "⊛ melting face",
+			CodePoint:   "U+1FAE0",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-smiling",
+		},
+
+		129761: {
+			Slug:        "⊛-saluting-face",
+			Character:   "🫡",
+			UnicodeName: "⊛ saluting face",
+			CodePoint:   "U+1FAE1",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129762: {
+			Slug:        "⊛-face-with-open-eyes-and-hand-over-mouth",
+			Character:   "🫢",
+			UnicodeName: "⊛ face with open eyes and hand over mouth",
+			CodePoint:   "U+1FAE2",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129763: {
+			Slug:        "⊛-face-with-peeking-eye",
+			Character:   "🫣",
+			UnicodeName: "⊛ face with peeking eye",
+			CodePoint:   "U+1FAE3",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-hand",
+		},
+
+		129764: {
+			Slug:        "⊛-face-with-diagonal-mouth",
+			Character:   "🫤",
+			UnicodeName: "⊛ face with diagonal mouth",
+			CodePoint:   "U+1FAE4",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-concerned",
+		},
+
+		129765: {
+			Slug:        "⊛-dotted-line-face",
+			Character:   "🫥",
+			UnicodeName: "⊛ dotted line face",
+			CodePoint:   "U+1FAE5",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		129766: {
+			Slug:        "⊛-biting-lip",
+			Character:   "🫦",
+			UnicodeName: "⊛ biting lip",
+			CodePoint:   "U+1FAE6",
+			Group:       "People & Body",
+			SubGroup:    "body-parts",
+		},
+
+		129767: {
+			Slug:        "⊛-bubbles",
+			Character:   "🫧",
+			UnicodeName: "⊛ bubbles",
+			CodePoint:   "U+1FAE7",
+			Group:       "Objects",
+			SubGroup:    "household",
+		},
+
+		129776: {
+			Slug:        "⊛-hand-with-index-finger-and-thumb-crossed",
+			Character:   "🫰",
+			UnicodeName: "⊛ hand with index finger and thumb crossed",
+			CodePoint:   "U+1FAF0",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-partial",
+		},
+
+		129777: {
+			Slug:        "⊛-rightwards-hand",
+			Character:   "🫱",
+			UnicodeName: "⊛ rightwards hand",
+			CodePoint:   "U+1FAF1",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		129778: {
+			Slug:        "⊛-leftwards-hand",
+			Character:   "🫲",
+			UnicodeName: "⊛ leftwards hand",
+			CodePoint:   "U+1FAF2",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		129779: {
+			Slug:        "⊛-palm-down-hand",
+			Character:   "🫳",
+			UnicodeName: "⊛ palm down hand",
+			CodePoint:   "U+1FAF3",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		129780: {
+			Slug:        "⊛-palm-up-hand",
+			Character:   "🫴",
+			UnicodeName: "⊛ palm up hand",
+			CodePoint:   "U+1FAF4",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		129781: {
+			Slug:        "⊛-index-pointing-at-the-viewer",
+			Character:   "🫵",
+			UnicodeName: "⊛ index pointing at the viewer",
+			CodePoint:   "U+1FAF5",
+			Group:       "People & Body",
+			SubGroup:    "hand-single-finger",
+		},
+
+		129782: {
+			Slug:        "⊛-heart-hands",
+			Character:   "🫶",
+			UnicodeName: "⊛ heart hands",
+			CodePoint:   "U+1FAF6",
+			Group:       "People & Body",
+			SubGroup:    "hands",
+		},
 	}
 )
