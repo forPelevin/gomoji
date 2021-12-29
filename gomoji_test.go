@@ -22,6 +22,16 @@ func TestContainsEmoji(t *testing.T) {
 			want:     false,
 		},
 		{
+			name:     "numbers in string",
+			inputStr: "qwerty1",
+			want:     false,
+		},
+		{
+			name:     "emoji number in string",
+			inputStr: "qwerty1️⃣",
+			want:     true,
+		},
+		{
 			name:     "only emoji in string",
 			inputStr: `🥰`,
 			want:     true,
@@ -34,6 +44,11 @@ func TestContainsEmoji(t *testing.T) {
 		{
 			name:     "emoji in the end of a string",
 			inputStr: `hi! how r u doing?🤔`,
+			want:     true,
+		},
+		{
+			name:     "heart emoji in string",
+			inputStr: "I ❤️ you",
 			want:     true,
 		},
 	}
@@ -60,6 +75,134 @@ func BenchmarkContainsEmoji(b *testing.B) {
 	}
 }
 
+func TestRemoveEmojis(t *testing.T) {
+	tests := []struct {
+		name     string
+		inputStr string
+		want     string
+	}{
+		{
+			name:     "string without emoji",
+			inputStr: "string without emoji",
+			want:     "string without emoji",
+		},
+		{
+			name:     "string with numbers",
+			inputStr: "1qwerty2",
+			want:     "1qwerty2",
+		},
+		{
+			name:     "string with emoji numbers",
+			inputStr: "1️⃣qwerty2",
+			want:     "qwerty2",
+		},
+		{
+			name:     "string with emojis",
+			inputStr: "❤️🛶😂",
+			want:     "",
+		},
+		{
+			name:     "string with unicode 14 emoji",
+			inputStr: "te\U0001FAB7st",
+			want:     "test",
+		},
+		{
+			name:     "remove rare emojis",
+			inputStr: "🧖 hello 🦋world",
+			want:     "hello world",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := RemoveEmojis(tt.inputStr); got != tt.want {
+				t.Errorf("RemoveEmojis() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func BenchmarkRemoveEmojisParallel(b *testing.B) {
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			RemoveEmojis("\U0001F96F Hi \U0001F970")
+		}
+	})
+}
+
+func BenchmarkRemoveEmojis(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		RemoveEmojis("\U0001F96F Hi \U0001F970")
+	}
+}
+
+func TestGetInfo(t *testing.T) {
+	tests := []struct {
+		name       string
+		inputEmoji string
+		want       Emoji
+		wantErr    bool
+	}{
+		{
+			name:       "just a number",
+			inputEmoji: "1",
+			want:       Emoji{},
+			wantErr:    true,
+		},
+		{
+			name:       "valid emoji number",
+			inputEmoji: "1️⃣",
+			want: Emoji{
+				Slug:        "keycap:-1",
+				Character:   "1️⃣",
+				UnicodeName: "keycap: 1",
+				CodePoint:   "U+0031 U+FE0F U+20E3",
+				Group:       "Symbols",
+				SubGroup:    "keycap",
+			},
+			wantErr: false,
+		},
+		{
+			name:       "unicode 14",
+			inputEmoji: "\U0001FAAC",
+			want: Emoji{
+				Slug:        "⊛-hamsa",
+				Character:   "🪬",
+				UnicodeName: "⊛ hamsa",
+				CodePoint:   "U+1FAAC",
+				Group:       "Activities",
+				SubGroup:    "game",
+			},
+			wantErr: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := GetInfo(tt.inputEmoji)
+			if (err != nil) != tt.wantErr {
+				t.Errorf("GetInfo() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("GetInfo() got = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func BenchmarkGetInfoParallel(b *testing.B) {
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			GetInfo("\U0001F96F") // nolint:errcheck
+		}
+	})
+}
+
+func BenchmarkGetInfo(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		GetInfo("\U0001F96F") // nolint:errcheck
+	}
+}
+
 func TestFindAll(t *testing.T) {
 	tests := []struct {
 		name     string
@@ -81,19 +224,19 @@ func TestFindAll(t *testing.T) {
 			inputStr: "hello 🦋 world \U0001F9FB",
 			want: []Emoji{
 				{
-					Slug:        "e3-0-butterfly",
+					Slug:        "butterfly",
 					Character:   "🦋",
-					UnicodeName: "E3.0 butterfly",
-					CodePoint:   "1F98B",
-					Group:       "animals-nature",
+					UnicodeName: "butterfly",
+					CodePoint:   "U+1F98B",
+					Group:       "Animals & Nature",
 					SubGroup:    "animal-bug",
 				},
 				{
 					Slug:        "roll-of-paper",
 					Character:   "🧻",
 					UnicodeName: "roll of paper",
-					CodePoint:   "1F9FB",
-					Group:       "objects",
+					CodePoint:   "U+1F9FB",
+					Group:       "Objects",
 					SubGroup:    "household",
 				},
 			},
