@@ -3,9 +3,9 @@
 package gomoji
 
 var (
-	emojiMap = map[int32]Emoji{
+	emojiMap = map[string]Emoji{
 
-		35: {
+		"#️⃣": {
 			Slug:        "keycap:-#",
 			Character:   "#️⃣",
 			UnicodeName: "keycap: #",
@@ -14,7 +14,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		42: {
+		"*️⃣": {
 			Slug:        "keycap:-*",
 			Character:   "*️⃣",
 			UnicodeName: "keycap: *",
@@ -23,7 +23,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		48: {
+		"0️⃣": {
 			Slug:        "keycap:-0",
 			Character:   "0️⃣",
 			UnicodeName: "keycap: 0",
@@ -32,7 +32,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		49: {
+		"1️⃣": {
 			Slug:        "keycap:-1",
 			Character:   "1️⃣",
 			UnicodeName: "keycap: 1",
@@ -41,7 +41,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		50: {
+		"2️⃣": {
 			Slug:        "keycap:-2",
 			Character:   "2️⃣",
 			UnicodeName: "keycap: 2",
@@ -50,7 +50,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		51: {
+		"3️⃣": {
 			Slug:        "keycap:-3",
 			Character:   "3️⃣",
 			UnicodeName: "keycap: 3",
@@ -59,7 +59,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		52: {
+		"4️⃣": {
 			Slug:        "keycap:-4",
 			Character:   "4️⃣",
 			UnicodeName: "keycap: 4",
@@ -68,7 +68,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		53: {
+		"5️⃣": {
 			Slug:        "keycap:-5",
 			Character:   "5️⃣",
 			UnicodeName: "keycap: 5",
@@ -77,7 +77,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		54: {
+		"6️⃣": {
 			Slug:        "keycap:-6",
 			Character:   "6️⃣",
 			UnicodeName: "keycap: 6",
@@ -86,7 +86,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		55: {
+		"7️⃣": {
 			Slug:        "keycap:-7",
 			Character:   "7️⃣",
 			UnicodeName: "keycap: 7",
@@ -95,7 +95,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		56: {
+		"8️⃣": {
 			Slug:        "keycap:-8",
 			Character:   "8️⃣",
 			UnicodeName: "keycap: 8",
@@ -104,7 +104,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		57: {
+		"9️⃣": {
 			Slug:        "keycap:-9",
 			Character:   "9️⃣",
 			UnicodeName: "keycap: 9",
@@ -113,7 +113,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		169: {
+		"©": {
 			Slug:        "copyright",
 			Character:   "©",
 			UnicodeName: "copyright",
@@ -122,7 +122,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		174: {
+		"®": {
 			Slug:        "registered",
 			Character:   "®",
 			UnicodeName: "registered",
@@ -131,7 +131,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		8252: {
+		"‼": {
 			Slug:        "double-exclamation-mark",
 			Character:   "‼",
 			UnicodeName: "double exclamation mark",
@@ -140,7 +140,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		8265: {
+		"⁉": {
 			Slug:        "exclamation-question-mark",
 			Character:   "⁉",
 			UnicodeName: "exclamation question mark",
@@ -149,7 +149,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		8482: {
+		"™": {
 			Slug:        "trade-mark",
 			Character:   "™",
 			UnicodeName: "trade mark",
@@ -158,7 +158,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		8505: {
+		"ℹ": {
 			Slug:        "information",
 			Character:   "ℹ",
 			UnicodeName: "information",
@@ -167,7 +167,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		8596: {
+		"↔": {
 			Slug:        "left-right-arrow",
 			Character:   "↔",
 			UnicodeName: "left-right arrow",
@@ -176,7 +176,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8597: {
+		"↕": {
 			Slug:        "up-down-arrow",
 			Character:   "↕",
 			UnicodeName: "up-down arrow",
@@ -185,7 +185,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8598: {
+		"↖": {
 			Slug:        "up-left-arrow",
 			Character:   "↖",
 			UnicodeName: "up-left arrow",
@@ -194,7 +194,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8599: {
+		"↗": {
 			Slug:        "up-right-arrow",
 			Character:   "↗",
 			UnicodeName: "up-right arrow",
@@ -203,7 +203,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8600: {
+		"↘": {
 			Slug:        "down-right-arrow",
 			Character:   "↘",
 			UnicodeName: "down-right arrow",
@@ -212,7 +212,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8601: {
+		"↙": {
 			Slug:        "down-left-arrow",
 			Character:   "↙",
 			UnicodeName: "down-left arrow",
@@ -221,7 +221,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8617: {
+		"↩": {
 			Slug:        "right-arrow-curving-left",
 			Character:   "↩",
 			UnicodeName: "right arrow curving left",
@@ -230,7 +230,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8618: {
+		"↪": {
 			Slug:        "left-arrow-curving-right",
 			Character:   "↪",
 			UnicodeName: "left arrow curving right",
@@ -239,7 +239,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		8986: {
+		"⌚": {
 			Slug:        "watch",
 			Character:   "⌚",
 			UnicodeName: "watch",
@@ -248,7 +248,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		8987: {
+		"⌛": {
 			Slug:        "hourglass-done",
 			Character:   "⌛",
 			UnicodeName: "hourglass done",
@@ -257,7 +257,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		9000: {
+		"⌨": {
 			Slug:        "keyboard",
 			Character:   "⌨",
 			UnicodeName: "keyboard",
@@ -266,7 +266,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		9167: {
+		"⏏": {
 			Slug:        "eject-button",
 			Character:   "⏏",
 			UnicodeName: "eject button",
@@ -275,7 +275,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9193: {
+		"⏩": {
 			Slug:        "fast-forward-button",
 			Character:   "⏩",
 			UnicodeName: "fast-forward button",
@@ -284,7 +284,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9194: {
+		"⏪": {
 			Slug:        "fast-reverse-button",
 			Character:   "⏪",
 			UnicodeName: "fast reverse button",
@@ -293,7 +293,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9195: {
+		"⏫": {
 			Slug:        "fast-up-button",
 			Character:   "⏫",
 			UnicodeName: "fast up button",
@@ -302,7 +302,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9196: {
+		"⏬": {
 			Slug:        "fast-down-button",
 			Character:   "⏬",
 			UnicodeName: "fast down button",
@@ -311,7 +311,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9197: {
+		"⏭": {
 			Slug:        "next-track-button",
 			Character:   "⏭",
 			UnicodeName: "next track button",
@@ -320,7 +320,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9198: {
+		"⏮": {
 			Slug:        "last-track-button",
 			Character:   "⏮",
 			UnicodeName: "last track button",
@@ -329,7 +329,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9199: {
+		"⏯": {
 			Slug:        "play-or-pause-button",
 			Character:   "⏯",
 			UnicodeName: "play or pause button",
@@ -338,7 +338,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9200: {
+		"⏰": {
 			Slug:        "alarm-clock",
 			Character:   "⏰",
 			UnicodeName: "alarm clock",
@@ -347,7 +347,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		9201: {
+		"⏱": {
 			Slug:        "stopwatch",
 			Character:   "⏱",
 			UnicodeName: "stopwatch",
@@ -356,7 +356,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		9202: {
+		"⏲": {
 			Slug:        "timer-clock",
 			Character:   "⏲",
 			UnicodeName: "timer clock",
@@ -365,7 +365,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		9203: {
+		"⏳": {
 			Slug:        "hourglass-not-done",
 			Character:   "⏳",
 			UnicodeName: "hourglass not done",
@@ -374,7 +374,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		9208: {
+		"⏸": {
 			Slug:        "pause-button",
 			Character:   "⏸",
 			UnicodeName: "pause button",
@@ -383,7 +383,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9209: {
+		"⏹": {
 			Slug:        "stop-button",
 			Character:   "⏹",
 			UnicodeName: "stop button",
@@ -392,7 +392,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9210: {
+		"⏺": {
 			Slug:        "record-button",
 			Character:   "⏺",
 			UnicodeName: "record button",
@@ -401,7 +401,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9410: {
+		"Ⓜ": {
 			Slug:        "circled-M",
 			Character:   "Ⓜ",
 			UnicodeName: "circled M",
@@ -410,7 +410,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		9642: {
+		"▪": {
 			Slug:        "black-small-square",
 			Character:   "▪",
 			UnicodeName: "black small square",
@@ -419,7 +419,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9643: {
+		"▫": {
 			Slug:        "white-small-square",
 			Character:   "▫",
 			UnicodeName: "white small square",
@@ -428,7 +428,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9654: {
+		"▶": {
 			Slug:        "play-button",
 			Character:   "▶",
 			UnicodeName: "play button",
@@ -437,7 +437,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9664: {
+		"◀": {
 			Slug:        "reverse-button",
 			Character:   "◀",
 			UnicodeName: "reverse button",
@@ -446,7 +446,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		9723: {
+		"◻": {
 			Slug:        "white-medium-square",
 			Character:   "◻",
 			UnicodeName: "white medium square",
@@ -455,7 +455,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9724: {
+		"◼": {
 			Slug:        "black-medium-square",
 			Character:   "◼",
 			UnicodeName: "black medium square",
@@ -464,7 +464,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9725: {
+		"◽": {
 			Slug:        "white-medium-small-square",
 			Character:   "◽",
 			UnicodeName: "white medium-small square",
@@ -473,7 +473,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9726: {
+		"◾": {
 			Slug:        "black-medium-small-square",
 			Character:   "◾",
 			UnicodeName: "black medium-small square",
@@ -482,7 +482,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9728: {
+		"☀": {
 			Slug:        "sun",
 			Character:   "☀",
 			UnicodeName: "sun",
@@ -491,7 +491,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9729: {
+		"☁": {
 			Slug:        "cloud",
 			Character:   "☁",
 			UnicodeName: "cloud",
@@ -500,7 +500,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9730: {
+		"☂": {
 			Slug:        "umbrella",
 			Character:   "☂",
 			UnicodeName: "umbrella",
@@ -509,7 +509,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9731: {
+		"☃": {
 			Slug:        "snowman",
 			Character:   "☃",
 			UnicodeName: "snowman",
@@ -518,7 +518,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9732: {
+		"☄": {
 			Slug:        "comet",
 			Character:   "☄",
 			UnicodeName: "comet",
@@ -527,7 +527,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9742: {
+		"☎": {
 			Slug:        "telephone",
 			Character:   "☎",
 			UnicodeName: "telephone",
@@ -536,7 +536,7 @@ var (
 			SubGroup:    "phone",
 		},
 
-		9745: {
+		"☑": {
 			Slug:        "check-box-with-check",
 			Character:   "☑",
 			UnicodeName: "check box with check",
@@ -545,7 +545,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		9748: {
+		"☔": {
 			Slug:        "umbrella-with-rain-drops",
 			Character:   "☔",
 			UnicodeName: "umbrella with rain drops",
@@ -554,7 +554,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9749: {
+		"☕": {
 			Slug:        "hot-beverage",
 			Character:   "☕",
 			UnicodeName: "hot beverage",
@@ -563,7 +563,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		9752: {
+		"☘": {
 			Slug:        "shamrock",
 			Character:   "☘",
 			UnicodeName: "shamrock",
@@ -572,7 +572,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		9757: {
+		"☝": {
 			Slug:        "index-pointing-up",
 			Character:   "☝",
 			UnicodeName: "index pointing up",
@@ -581,7 +581,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		9760: {
+		"☠": {
 			Slug:        "skull-and-crossbones",
 			Character:   "☠",
 			UnicodeName: "skull and crossbones",
@@ -590,7 +590,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		9762: {
+		"☢": {
 			Slug:        "radioactive",
 			Character:   "☢",
 			UnicodeName: "radioactive",
@@ -599,7 +599,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		9763: {
+		"☣": {
 			Slug:        "biohazard",
 			Character:   "☣",
 			UnicodeName: "biohazard",
@@ -608,7 +608,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		9766: {
+		"☦": {
 			Slug:        "orthodox-cross",
 			Character:   "☦",
 			UnicodeName: "orthodox cross",
@@ -617,7 +617,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		9770: {
+		"☪": {
 			Slug:        "star-and-crescent",
 			Character:   "☪",
 			UnicodeName: "star and crescent",
@@ -626,7 +626,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		9774: {
+		"☮": {
 			Slug:        "peace-symbol",
 			Character:   "☮",
 			UnicodeName: "peace symbol",
@@ -635,7 +635,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		9775: {
+		"☯": {
 			Slug:        "yin-yang",
 			Character:   "☯",
 			UnicodeName: "yin yang",
@@ -644,7 +644,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		9784: {
+		"☸": {
 			Slug:        "wheel-of-dharma",
 			Character:   "☸",
 			UnicodeName: "wheel of dharma",
@@ -653,7 +653,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		9785: {
+		"☹": {
 			Slug:        "frowning-face",
 			Character:   "☹",
 			UnicodeName: "frowning face",
@@ -662,7 +662,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		9786: {
+		"☺": {
 			Slug:        "smiling-face",
 			Character:   "☺",
 			UnicodeName: "smiling face",
@@ -671,7 +671,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		9792: {
+		"♀": {
 			Slug:        "female-sign",
 			Character:   "♀",
 			UnicodeName: "female sign",
@@ -680,7 +680,7 @@ var (
 			SubGroup:    "gender",
 		},
 
-		9794: {
+		"♂": {
 			Slug:        "male-sign",
 			Character:   "♂",
 			UnicodeName: "male sign",
@@ -689,7 +689,7 @@ var (
 			SubGroup:    "gender",
 		},
 
-		9800: {
+		"♈": {
 			Slug:        "Aries",
 			Character:   "♈",
 			UnicodeName: "Aries",
@@ -698,7 +698,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9801: {
+		"♉": {
 			Slug:        "Taurus",
 			Character:   "♉",
 			UnicodeName: "Taurus",
@@ -707,7 +707,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9802: {
+		"♊": {
 			Slug:        "Gemini",
 			Character:   "♊",
 			UnicodeName: "Gemini",
@@ -716,7 +716,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9803: {
+		"♋": {
 			Slug:        "Cancer",
 			Character:   "♋",
 			UnicodeName: "Cancer",
@@ -725,7 +725,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9804: {
+		"♌": {
 			Slug:        "Leo",
 			Character:   "♌",
 			UnicodeName: "Leo",
@@ -734,7 +734,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9805: {
+		"♍": {
 			Slug:        "Virgo",
 			Character:   "♍",
 			UnicodeName: "Virgo",
@@ -743,7 +743,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9806: {
+		"♎": {
 			Slug:        "Libra",
 			Character:   "♎",
 			UnicodeName: "Libra",
@@ -752,7 +752,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9807: {
+		"♏": {
 			Slug:        "Scorpio",
 			Character:   "♏",
 			UnicodeName: "Scorpio",
@@ -761,7 +761,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9808: {
+		"♐": {
 			Slug:        "Sagittarius",
 			Character:   "♐",
 			UnicodeName: "Sagittarius",
@@ -770,7 +770,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9809: {
+		"♑": {
 			Slug:        "Capricorn",
 			Character:   "♑",
 			UnicodeName: "Capricorn",
@@ -779,7 +779,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9810: {
+		"♒": {
 			Slug:        "Aquarius",
 			Character:   "♒",
 			UnicodeName: "Aquarius",
@@ -788,7 +788,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9811: {
+		"♓": {
 			Slug:        "Pisces",
 			Character:   "♓",
 			UnicodeName: "Pisces",
@@ -797,7 +797,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9823: {
+		"♟": {
 			Slug:        "chess-pawn",
 			Character:   "♟",
 			UnicodeName: "chess pawn",
@@ -806,7 +806,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		9824: {
+		"♠": {
 			Slug:        "spade-suit",
 			Character:   "♠",
 			UnicodeName: "spade suit",
@@ -815,7 +815,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		9827: {
+		"♣": {
 			Slug:        "club-suit",
 			Character:   "♣",
 			UnicodeName: "club suit",
@@ -824,7 +824,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		9829: {
+		"♥": {
 			Slug:        "heart-suit",
 			Character:   "♥",
 			UnicodeName: "heart suit",
@@ -833,7 +833,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		9830: {
+		"♦": {
 			Slug:        "diamond-suit",
 			Character:   "♦",
 			UnicodeName: "diamond suit",
@@ -842,7 +842,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		9832: {
+		"♨": {
 			Slug:        "hot-springs",
 			Character:   "♨",
 			UnicodeName: "hot springs",
@@ -851,7 +851,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		9851: {
+		"♻": {
 			Slug:        "recycling-symbol",
 			Character:   "♻",
 			UnicodeName: "recycling symbol",
@@ -860,7 +860,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		9854: {
+		"♾": {
 			Slug:        "infinity",
 			Character:   "♾",
 			UnicodeName: "infinity",
@@ -869,7 +869,7 @@ var (
 			SubGroup:    "math",
 		},
 
-		9855: {
+		"♿": {
 			Slug:        "wheelchair-symbol",
 			Character:   "♿",
 			UnicodeName: "wheelchair symbol",
@@ -878,7 +878,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		9874: {
+		"⚒": {
 			Slug:        "hammer-and-pick",
 			Character:   "⚒",
 			UnicodeName: "hammer and pick",
@@ -887,7 +887,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		9875: {
+		"⚓": {
 			Slug:        "anchor",
 			Character:   "⚓",
 			UnicodeName: "anchor",
@@ -896,7 +896,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		9876: {
+		"⚔": {
 			Slug:        "crossed-swords",
 			Character:   "⚔",
 			UnicodeName: "crossed swords",
@@ -905,7 +905,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		9877: {
+		"⚕": {
 			Slug:        "medical-symbol",
 			Character:   "⚕",
 			UnicodeName: "medical symbol",
@@ -914,7 +914,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		9878: {
+		"⚖": {
 			Slug:        "balance-scale",
 			Character:   "⚖",
 			UnicodeName: "balance scale",
@@ -923,7 +923,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		9879: {
+		"⚗": {
 			Slug:        "alembic",
 			Character:   "⚗",
 			UnicodeName: "alembic",
@@ -932,7 +932,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		9881: {
+		"⚙": {
 			Slug:        "gear",
 			Character:   "⚙",
 			UnicodeName: "gear",
@@ -941,7 +941,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		9883: {
+		"⚛": {
 			Slug:        "atom-symbol",
 			Character:   "⚛",
 			UnicodeName: "atom symbol",
@@ -950,7 +950,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		9884: {
+		"⚜": {
 			Slug:        "fleur-de-lis",
 			Character:   "⚜",
 			UnicodeName: "fleur-de-lis",
@@ -959,7 +959,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		9888: {
+		"⚠": {
 			Slug:        "warning",
 			Character:   "⚠",
 			UnicodeName: "warning",
@@ -968,7 +968,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		9889: {
+		"⚡": {
 			Slug:        "high-voltage",
 			Character:   "⚡",
 			UnicodeName: "high voltage",
@@ -977,7 +977,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9895: {
+		"⚧": {
 			Slug:        "transgender-symbol",
 			Character:   "⚧",
 			UnicodeName: "transgender symbol",
@@ -986,7 +986,7 @@ var (
 			SubGroup:    "gender",
 		},
 
-		9898: {
+		"⚪": {
 			Slug:        "white-circle",
 			Character:   "⚪",
 			UnicodeName: "white circle",
@@ -995,7 +995,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9899: {
+		"⚫": {
 			Slug:        "black-circle",
 			Character:   "⚫",
 			UnicodeName: "black circle",
@@ -1004,7 +1004,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		9904: {
+		"⚰": {
 			Slug:        "coffin",
 			Character:   "⚰",
 			UnicodeName: "coffin",
@@ -1013,7 +1013,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		9905: {
+		"⚱": {
 			Slug:        "funeral-urn",
 			Character:   "⚱",
 			UnicodeName: "funeral urn",
@@ -1022,7 +1022,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		9917: {
+		"⚽": {
 			Slug:        "soccer-ball",
 			Character:   "⚽",
 			UnicodeName: "soccer ball",
@@ -1031,7 +1031,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		9918: {
+		"⚾": {
 			Slug:        "baseball",
 			Character:   "⚾",
 			UnicodeName: "baseball",
@@ -1040,7 +1040,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		9924: {
+		"⛄": {
 			Slug:        "snowman-without-snow",
 			Character:   "⛄",
 			UnicodeName: "snowman without snow",
@@ -1049,7 +1049,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9925: {
+		"⛅": {
 			Slug:        "sun-behind-cloud",
 			Character:   "⛅",
 			UnicodeName: "sun behind cloud",
@@ -1058,7 +1058,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9928: {
+		"⛈": {
 			Slug:        "cloud-with-lightning-and-rain",
 			Character:   "⛈",
 			UnicodeName: "cloud with lightning and rain",
@@ -1067,7 +1067,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9934: {
+		"⛎": {
 			Slug:        "Ophiuchus",
 			Character:   "⛎",
 			UnicodeName: "Ophiuchus",
@@ -1076,7 +1076,7 @@ var (
 			SubGroup:    "zodiac",
 		},
 
-		9935: {
+		"⛏": {
 			Slug:        "pick",
 			Character:   "⛏",
 			UnicodeName: "pick",
@@ -1085,7 +1085,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		9937: {
+		"⛑": {
 			Slug:        "rescue-worker’s-helmet",
 			Character:   "⛑",
 			UnicodeName: "rescue worker’s helmet",
@@ -1094,7 +1094,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		9939: {
+		"⛓": {
 			Slug:        "chains",
 			Character:   "⛓",
 			UnicodeName: "chains",
@@ -1103,7 +1103,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		9940: {
+		"⛔": {
 			Slug:        "no-entry",
 			Character:   "⛔",
 			UnicodeName: "no entry",
@@ -1112,7 +1112,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		9961: {
+		"⛩": {
 			Slug:        "shinto-shrine",
 			Character:   "⛩",
 			UnicodeName: "shinto shrine",
@@ -1121,7 +1121,7 @@ var (
 			SubGroup:    "place-religious",
 		},
 
-		9962: {
+		"⛪": {
 			Slug:        "church",
 			Character:   "⛪",
 			UnicodeName: "church",
@@ -1130,7 +1130,7 @@ var (
 			SubGroup:    "place-religious",
 		},
 
-		9968: {
+		"⛰": {
 			Slug:        "mountain",
 			Character:   "⛰",
 			UnicodeName: "mountain",
@@ -1139,7 +1139,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		9969: {
+		"⛱": {
 			Slug:        "umbrella-on-ground",
 			Character:   "⛱",
 			UnicodeName: "umbrella on ground",
@@ -1148,7 +1148,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		9970: {
+		"⛲": {
 			Slug:        "fountain",
 			Character:   "⛲",
 			UnicodeName: "fountain",
@@ -1157,7 +1157,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		9971: {
+		"⛳": {
 			Slug:        "flag-in-hole",
 			Character:   "⛳",
 			UnicodeName: "flag in hole",
@@ -1166,7 +1166,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		9972: {
+		"⛴": {
 			Slug:        "ferry",
 			Character:   "⛴",
 			UnicodeName: "ferry",
@@ -1175,7 +1175,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		9973: {
+		"⛵": {
 			Slug:        "sailboat",
 			Character:   "⛵",
 			UnicodeName: "sailboat",
@@ -1184,7 +1184,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		9975: {
+		"⛷": {
 			Slug:        "skier",
 			Character:   "⛷",
 			UnicodeName: "skier",
@@ -1193,7 +1193,7 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		9976: {
+		"⛸": {
 			Slug:        "ice-skate",
 			Character:   "⛸",
 			UnicodeName: "ice skate",
@@ -1202,7 +1202,16 @@ var (
 			SubGroup:    "sport",
 		},
 
-		9977: {
+		"⛹": {
+			Slug:        "person-bouncing-ball",
+			Character:   "⛹",
+			UnicodeName: "person bouncing ball",
+			CodePoint:   "U+26F9",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"⛹️‍♀️": {
 			Slug:        "woman-bouncing-ball",
 			Character:   "⛹️‍♀️",
 			UnicodeName: "woman bouncing ball",
@@ -1211,7 +1220,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		9978: {
+		"⛹️‍♂️": {
+			Slug:        "man-bouncing-ball",
+			Character:   "⛹️‍♂️",
+			UnicodeName: "man bouncing ball",
+			CodePoint:   "U+26F9 U+FE0F U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"⛺": {
 			Slug:        "tent",
 			Character:   "⛺",
 			UnicodeName: "tent",
@@ -1220,7 +1238,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		9981: {
+		"⛽": {
 			Slug:        "fuel-pump",
 			Character:   "⛽",
 			UnicodeName: "fuel pump",
@@ -1229,7 +1247,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		9986: {
+		"✂": {
 			Slug:        "scissors",
 			Character:   "✂",
 			UnicodeName: "scissors",
@@ -1238,7 +1256,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		9989: {
+		"✅": {
 			Slug:        "check-mark-button",
 			Character:   "✅",
 			UnicodeName: "check mark button",
@@ -1247,7 +1265,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		9992: {
+		"✈": {
 			Slug:        "airplane",
 			Character:   "✈",
 			UnicodeName: "airplane",
@@ -1256,7 +1274,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		9993: {
+		"✉": {
 			Slug:        "envelope",
 			Character:   "✉",
 			UnicodeName: "envelope",
@@ -1265,7 +1283,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		9994: {
+		"✊": {
 			Slug:        "raised-fist",
 			Character:   "✊",
 			UnicodeName: "raised fist",
@@ -1274,7 +1292,7 @@ var (
 			SubGroup:    "hand-fingers-closed",
 		},
 
-		9995: {
+		"✋": {
 			Slug:        "raised-hand",
 			Character:   "✋",
 			UnicodeName: "raised hand",
@@ -1283,7 +1301,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		9996: {
+		"✌": {
 			Slug:        "victory-hand",
 			Character:   "✌",
 			UnicodeName: "victory hand",
@@ -1292,7 +1310,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		9997: {
+		"✍": {
 			Slug:        "writing-hand",
 			Character:   "✍",
 			UnicodeName: "writing hand",
@@ -1301,7 +1319,7 @@ var (
 			SubGroup:    "hand-prop",
 		},
 
-		9999: {
+		"✏": {
 			Slug:        "pencil",
 			Character:   "✏",
 			UnicodeName: "pencil",
@@ -1310,7 +1328,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		10002: {
+		"✒": {
 			Slug:        "black-nib",
 			Character:   "✒",
 			UnicodeName: "black nib",
@@ -1319,7 +1337,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		10004: {
+		"✔": {
 			Slug:        "check-mark",
 			Character:   "✔",
 			UnicodeName: "check mark",
@@ -1328,7 +1346,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10006: {
+		"✖": {
 			Slug:        "multiply",
 			Character:   "✖",
 			UnicodeName: "multiply",
@@ -1337,7 +1355,7 @@ var (
 			SubGroup:    "math",
 		},
 
-		10013: {
+		"✝": {
 			Slug:        "latin-cross",
 			Character:   "✝",
 			UnicodeName: "latin cross",
@@ -1346,7 +1364,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		10017: {
+		"✡": {
 			Slug:        "star-of-David",
 			Character:   "✡",
 			UnicodeName: "star of David",
@@ -1355,7 +1373,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		10024: {
+		"✨": {
 			Slug:        "sparkles",
 			Character:   "✨",
 			UnicodeName: "sparkles",
@@ -1364,7 +1382,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		10035: {
+		"✳": {
 			Slug:        "eight-spoked-asterisk",
 			Character:   "✳",
 			UnicodeName: "eight-spoked asterisk",
@@ -1373,7 +1391,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10036: {
+		"✴": {
 			Slug:        "eight-pointed-star",
 			Character:   "✴",
 			UnicodeName: "eight-pointed star",
@@ -1382,7 +1400,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10052: {
+		"❄": {
 			Slug:        "snowflake",
 			Character:   "❄",
 			UnicodeName: "snowflake",
@@ -1391,7 +1409,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		10055: {
+		"❇": {
 			Slug:        "sparkle",
 			Character:   "❇",
 			UnicodeName: "sparkle",
@@ -1400,7 +1418,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10060: {
+		"❌": {
 			Slug:        "cross-mark",
 			Character:   "❌",
 			UnicodeName: "cross mark",
@@ -1409,7 +1427,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10062: {
+		"❎": {
 			Slug:        "cross-mark-button",
 			Character:   "❎",
 			UnicodeName: "cross mark button",
@@ -1418,7 +1436,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10067: {
+		"❓": {
 			Slug:        "red-question-mark",
 			Character:   "❓",
 			UnicodeName: "red question mark",
@@ -1427,7 +1445,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		10068: {
+		"❔": {
 			Slug:        "white-question-mark",
 			Character:   "❔",
 			UnicodeName: "white question mark",
@@ -1436,7 +1454,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		10069: {
+		"❕": {
 			Slug:        "white-exclamation-mark",
 			Character:   "❕",
 			UnicodeName: "white exclamation mark",
@@ -1445,7 +1463,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		10071: {
+		"❗": {
 			Slug:        "red-exclamation-mark",
 			Character:   "❗",
 			UnicodeName: "red exclamation mark",
@@ -1454,7 +1472,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		10083: {
+		"❣": {
 			Slug:        "heart-exclamation",
 			Character:   "❣",
 			UnicodeName: "heart exclamation",
@@ -1463,7 +1481,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		10084: {
+		"❤": {
 			Slug:        "red-heart",
 			Character:   "❤",
 			UnicodeName: "red heart",
@@ -1472,7 +1490,34 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		10133: {
+		"❤️": {
+			Slug:        "red-heart",
+			Character:   "❤",
+			UnicodeName: "red heart",
+			CodePoint:   "U+2764",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		"❤️‍🔥": {
+			Slug:        "heart-on-fire",
+			Character:   "❤️‍🔥",
+			UnicodeName: "heart on fire",
+			CodePoint:   "U+2764 U+FE0F U+200D U+1F525",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		"❤️‍🩹": {
+			Slug:        "mending-heart",
+			Character:   "❤️‍🩹",
+			UnicodeName: "mending heart",
+			CodePoint:   "U+2764 U+FE0F U+200D U+1FA79",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		"➕": {
 			Slug:        "plus",
 			Character:   "➕",
 			UnicodeName: "plus",
@@ -1481,7 +1526,7 @@ var (
 			SubGroup:    "math",
 		},
 
-		10134: {
+		"➖": {
 			Slug:        "minus",
 			Character:   "➖",
 			UnicodeName: "minus",
@@ -1490,7 +1535,7 @@ var (
 			SubGroup:    "math",
 		},
 
-		10135: {
+		"➗": {
 			Slug:        "divide",
 			Character:   "➗",
 			UnicodeName: "divide",
@@ -1499,7 +1544,7 @@ var (
 			SubGroup:    "math",
 		},
 
-		10145: {
+		"➡": {
 			Slug:        "right-arrow",
 			Character:   "➡",
 			UnicodeName: "right arrow",
@@ -1508,7 +1553,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		10160: {
+		"➰": {
 			Slug:        "curly-loop",
 			Character:   "➰",
 			UnicodeName: "curly loop",
@@ -1517,7 +1562,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10175: {
+		"➿": {
 			Slug:        "double-curly-loop",
 			Character:   "➿",
 			UnicodeName: "double curly loop",
@@ -1526,7 +1571,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		10548: {
+		"⤴": {
 			Slug:        "right-arrow-curving-up",
 			Character:   "⤴",
 			UnicodeName: "right arrow curving up",
@@ -1535,7 +1580,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		10549: {
+		"⤵": {
 			Slug:        "right-arrow-curving-down",
 			Character:   "⤵",
 			UnicodeName: "right arrow curving down",
@@ -1544,7 +1589,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		11013: {
+		"⬅": {
 			Slug:        "left-arrow",
 			Character:   "⬅",
 			UnicodeName: "left arrow",
@@ -1553,7 +1598,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		11014: {
+		"⬆": {
 			Slug:        "up-arrow",
 			Character:   "⬆",
 			UnicodeName: "up arrow",
@@ -1562,7 +1607,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		11015: {
+		"⬇": {
 			Slug:        "down-arrow",
 			Character:   "⬇",
 			UnicodeName: "down arrow",
@@ -1571,7 +1616,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		11035: {
+		"⬛": {
 			Slug:        "black-large-square",
 			Character:   "⬛",
 			UnicodeName: "black large square",
@@ -1580,7 +1625,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		11036: {
+		"⬜": {
 			Slug:        "white-large-square",
 			Character:   "⬜",
 			UnicodeName: "white large square",
@@ -1589,7 +1634,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		11088: {
+		"⭐": {
 			Slug:        "star",
 			Character:   "⭐",
 			UnicodeName: "star",
@@ -1598,7 +1643,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		11093: {
+		"⭕": {
 			Slug:        "hollow-red-circle",
 			Character:   "⭕",
 			UnicodeName: "hollow red circle",
@@ -1607,7 +1652,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		12336: {
+		"〰": {
 			Slug:        "wavy-dash",
 			Character:   "〰",
 			UnicodeName: "wavy dash",
@@ -1616,7 +1661,7 @@ var (
 			SubGroup:    "punctuation",
 		},
 
-		12349: {
+		"〽": {
 			Slug:        "part-alternation-mark",
 			Character:   "〽",
 			UnicodeName: "part alternation mark",
@@ -1625,7 +1670,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		12951: {
+		"㊗": {
 			Slug:        "Japanese-“congratulations”-button",
 			Character:   "㊗",
 			UnicodeName: "Japanese “congratulations” button",
@@ -1634,7 +1679,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		12953: {
+		"㊙": {
 			Slug:        "Japanese-“secret”-button",
 			Character:   "㊙",
 			UnicodeName: "Japanese “secret” button",
@@ -1643,7 +1688,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		126980: {
+		"🀄": {
 			Slug:        "mahjong-red-dragon",
 			Character:   "🀄",
 			UnicodeName: "mahjong red dragon",
@@ -1652,7 +1697,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127183: {
+		"🃏": {
 			Slug:        "joker",
 			Character:   "🃏",
 			UnicodeName: "joker",
@@ -1661,7 +1706,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127344: {
+		"🅰": {
 			Slug:        "A-button-(blood-type)",
 			Character:   "🅰",
 			UnicodeName: "A button (blood type)",
@@ -1670,7 +1715,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127345: {
+		"🅱": {
 			Slug:        "B-button-(blood-type)",
 			Character:   "🅱",
 			UnicodeName: "B button (blood type)",
@@ -1679,7 +1724,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127358: {
+		"🅾": {
 			Slug:        "O-button-(blood-type)",
 			Character:   "🅾",
 			UnicodeName: "O button (blood type)",
@@ -1688,7 +1733,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127359: {
+		"🅿": {
 			Slug:        "P-button",
 			Character:   "🅿",
 			UnicodeName: "P button",
@@ -1697,7 +1742,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127374: {
+		"🆎": {
 			Slug:        "AB-button-(blood-type)",
 			Character:   "🆎",
 			UnicodeName: "AB button (blood type)",
@@ -1706,7 +1751,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127377: {
+		"🆑": {
 			Slug:        "CL-button",
 			Character:   "🆑",
 			UnicodeName: "CL button",
@@ -1715,7 +1760,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127378: {
+		"🆒": {
 			Slug:        "COOL-button",
 			Character:   "🆒",
 			UnicodeName: "COOL button",
@@ -1724,7 +1769,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127379: {
+		"🆓": {
 			Slug:        "FREE-button",
 			Character:   "🆓",
 			UnicodeName: "FREE button",
@@ -1733,7 +1778,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127380: {
+		"🆔": {
 			Slug:        "ID-button",
 			Character:   "🆔",
 			UnicodeName: "ID button",
@@ -1742,7 +1787,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127381: {
+		"🆕": {
 			Slug:        "NEW-button",
 			Character:   "🆕",
 			UnicodeName: "NEW button",
@@ -1751,7 +1796,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127382: {
+		"🆖": {
 			Slug:        "NG-button",
 			Character:   "🆖",
 			UnicodeName: "NG button",
@@ -1760,7 +1805,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127383: {
+		"🆗": {
 			Slug:        "OK-button",
 			Character:   "🆗",
 			UnicodeName: "OK button",
@@ -1769,7 +1814,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127384: {
+		"🆘": {
 			Slug:        "SOS-button",
 			Character:   "🆘",
 			UnicodeName: "SOS button",
@@ -1778,7 +1823,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127385: {
+		"🆙": {
 			Slug:        "UP!-button",
 			Character:   "🆙",
 			UnicodeName: "UP! button",
@@ -1787,7 +1832,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127386: {
+		"🆚": {
 			Slug:        "VS-button",
 			Character:   "🆚",
 			UnicodeName: "VS button",
@@ -1796,7 +1841,151 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127462: {
+		"🇦🇨": {
+			Slug:        "flag:-Ascension-Island",
+			Character:   "🇦🇨",
+			UnicodeName: "flag: Ascension Island",
+			CodePoint:   "U+1F1E6 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇩": {
+			Slug:        "flag:-Andorra",
+			Character:   "🇦🇩",
+			UnicodeName: "flag: Andorra",
+			CodePoint:   "U+1F1E6 U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇪": {
+			Slug:        "flag:-United-Arab-Emirates",
+			Character:   "🇦🇪",
+			UnicodeName: "flag: United Arab Emirates",
+			CodePoint:   "U+1F1E6 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇫": {
+			Slug:        "flag:-Afghanistan",
+			Character:   "🇦🇫",
+			UnicodeName: "flag: Afghanistan",
+			CodePoint:   "U+1F1E6 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇬": {
+			Slug:        "flag:-Antigua-&-Barbuda",
+			Character:   "🇦🇬",
+			UnicodeName: "flag: Antigua & Barbuda",
+			CodePoint:   "U+1F1E6 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇮": {
+			Slug:        "flag:-Anguilla",
+			Character:   "🇦🇮",
+			UnicodeName: "flag: Anguilla",
+			CodePoint:   "U+1F1E6 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇱": {
+			Slug:        "flag:-Albania",
+			Character:   "🇦🇱",
+			UnicodeName: "flag: Albania",
+			CodePoint:   "U+1F1E6 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇲": {
+			Slug:        "flag:-Armenia",
+			Character:   "🇦🇲",
+			UnicodeName: "flag: Armenia",
+			CodePoint:   "U+1F1E6 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇴": {
+			Slug:        "flag:-Angola",
+			Character:   "🇦🇴",
+			UnicodeName: "flag: Angola",
+			CodePoint:   "U+1F1E6 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇶": {
+			Slug:        "flag:-Antarctica",
+			Character:   "🇦🇶",
+			UnicodeName: "flag: Antarctica",
+			CodePoint:   "U+1F1E6 U+1F1F6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇷": {
+			Slug:        "flag:-Argentina",
+			Character:   "🇦🇷",
+			UnicodeName: "flag: Argentina",
+			CodePoint:   "U+1F1E6 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇸": {
+			Slug:        "flag:-American-Samoa",
+			Character:   "🇦🇸",
+			UnicodeName: "flag: American Samoa",
+			CodePoint:   "U+1F1E6 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇹": {
+			Slug:        "flag:-Austria",
+			Character:   "🇦🇹",
+			UnicodeName: "flag: Austria",
+			CodePoint:   "U+1F1E6 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇺": {
+			Slug:        "flag:-Australia",
+			Character:   "🇦🇺",
+			UnicodeName: "flag: Australia",
+			CodePoint:   "U+1F1E6 U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇼": {
+			Slug:        "flag:-Aruba",
+			Character:   "🇦🇼",
+			UnicodeName: "flag: Aruba",
+			CodePoint:   "U+1F1E6 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇽": {
+			Slug:        "flag:-Åland-Islands",
+			Character:   "🇦🇽",
+			UnicodeName: "flag: Åland Islands",
+			CodePoint:   "U+1F1E6 U+1F1FD",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇦🇿": {
 			Slug:        "flag:-Azerbaijan",
 			Character:   "🇦🇿",
 			UnicodeName: "flag: Azerbaijan",
@@ -1805,7 +1994,187 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127463: {
+		"🇧🇦": {
+			Slug:        "flag:-Bosnia-&-Herzegovina",
+			Character:   "🇧🇦",
+			UnicodeName: "flag: Bosnia & Herzegovina",
+			CodePoint:   "U+1F1E7 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇧": {
+			Slug:        "flag:-Barbados",
+			Character:   "🇧🇧",
+			UnicodeName: "flag: Barbados",
+			CodePoint:   "U+1F1E7 U+1F1E7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇩": {
+			Slug:        "flag:-Bangladesh",
+			Character:   "🇧🇩",
+			UnicodeName: "flag: Bangladesh",
+			CodePoint:   "U+1F1E7 U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇪": {
+			Slug:        "flag:-Belgium",
+			Character:   "🇧🇪",
+			UnicodeName: "flag: Belgium",
+			CodePoint:   "U+1F1E7 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇫": {
+			Slug:        "flag:-Burkina-Faso",
+			Character:   "🇧🇫",
+			UnicodeName: "flag: Burkina Faso",
+			CodePoint:   "U+1F1E7 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇬": {
+			Slug:        "flag:-Bulgaria",
+			Character:   "🇧🇬",
+			UnicodeName: "flag: Bulgaria",
+			CodePoint:   "U+1F1E7 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇭": {
+			Slug:        "flag:-Bahrain",
+			Character:   "🇧🇭",
+			UnicodeName: "flag: Bahrain",
+			CodePoint:   "U+1F1E7 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇮": {
+			Slug:        "flag:-Burundi",
+			Character:   "🇧🇮",
+			UnicodeName: "flag: Burundi",
+			CodePoint:   "U+1F1E7 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇯": {
+			Slug:        "flag:-Benin",
+			Character:   "🇧🇯",
+			UnicodeName: "flag: Benin",
+			CodePoint:   "U+1F1E7 U+1F1EF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇱": {
+			Slug:        "flag:-St.-Barthélemy",
+			Character:   "🇧🇱",
+			UnicodeName: "flag: St. Barthélemy",
+			CodePoint:   "U+1F1E7 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇲": {
+			Slug:        "flag:-Bermuda",
+			Character:   "🇧🇲",
+			UnicodeName: "flag: Bermuda",
+			CodePoint:   "U+1F1E7 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇳": {
+			Slug:        "flag:-Brunei",
+			Character:   "🇧🇳",
+			UnicodeName: "flag: Brunei",
+			CodePoint:   "U+1F1E7 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇴": {
+			Slug:        "flag:-Bolivia",
+			Character:   "🇧🇴",
+			UnicodeName: "flag: Bolivia",
+			CodePoint:   "U+1F1E7 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇶": {
+			Slug:        "flag:-Caribbean-Netherlands",
+			Character:   "🇧🇶",
+			UnicodeName: "flag: Caribbean Netherlands",
+			CodePoint:   "U+1F1E7 U+1F1F6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇷": {
+			Slug:        "flag:-Brazil",
+			Character:   "🇧🇷",
+			UnicodeName: "flag: Brazil",
+			CodePoint:   "U+1F1E7 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇸": {
+			Slug:        "flag:-Bahamas",
+			Character:   "🇧🇸",
+			UnicodeName: "flag: Bahamas",
+			CodePoint:   "U+1F1E7 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇹": {
+			Slug:        "flag:-Bhutan",
+			Character:   "🇧🇹",
+			UnicodeName: "flag: Bhutan",
+			CodePoint:   "U+1F1E7 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇻": {
+			Slug:        "flag:-Bouvet-Island",
+			Character:   "🇧🇻",
+			UnicodeName: "flag: Bouvet Island",
+			CodePoint:   "U+1F1E7 U+1F1FB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇼": {
+			Slug:        "flag:-Botswana",
+			Character:   "🇧🇼",
+			UnicodeName: "flag: Botswana",
+			CodePoint:   "U+1F1E7 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇾": {
+			Slug:        "flag:-Belarus",
+			Character:   "🇧🇾",
+			UnicodeName: "flag: Belarus",
+			CodePoint:   "U+1F1E7 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇧🇿": {
 			Slug:        "flag:-Belize",
 			Character:   "🇧🇿",
 			UnicodeName: "flag: Belize",
@@ -1814,7 +2183,178 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127464: {
+		"🇨🇦": {
+			Slug:        "flag:-Canada",
+			Character:   "🇨🇦",
+			UnicodeName: "flag: Canada",
+			CodePoint:   "U+1F1E8 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇨": {
+			Slug:        "flag:-Cocos-(Keeling)-Islands",
+			Character:   "🇨🇨",
+			UnicodeName: "flag: Cocos (Keeling) Islands",
+			CodePoint:   "U+1F1E8 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇩": {
+			Slug:        "flag:-Congo---Kinshasa",
+			Character:   "🇨🇩",
+			UnicodeName: "flag: Congo - Kinshasa",
+			CodePoint:   "U+1F1E8 U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇫": {
+			Slug:        "flag:-Central-African-Republic",
+			Character:   "🇨🇫",
+			UnicodeName: "flag: Central African Republic",
+			CodePoint:   "U+1F1E8 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇬": {
+			Slug:        "flag:-Congo---Brazzaville",
+			Character:   "🇨🇬",
+			UnicodeName: "flag: Congo - Brazzaville",
+			CodePoint:   "U+1F1E8 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇭": {
+			Slug:        "flag:-Switzerland",
+			Character:   "🇨🇭",
+			UnicodeName: "flag: Switzerland",
+			CodePoint:   "U+1F1E8 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇮": {
+			Slug:        "flag:-Côte-d’Ivoire",
+			Character:   "🇨🇮",
+			UnicodeName: "flag: Côte d’Ivoire",
+			CodePoint:   "U+1F1E8 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇰": {
+			Slug:        "flag:-Cook-Islands",
+			Character:   "🇨🇰",
+			UnicodeName: "flag: Cook Islands",
+			CodePoint:   "U+1F1E8 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇱": {
+			Slug:        "flag:-Chile",
+			Character:   "🇨🇱",
+			UnicodeName: "flag: Chile",
+			CodePoint:   "U+1F1E8 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇲": {
+			Slug:        "flag:-Cameroon",
+			Character:   "🇨🇲",
+			UnicodeName: "flag: Cameroon",
+			CodePoint:   "U+1F1E8 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇳": {
+			Slug:        "flag:-China",
+			Character:   "🇨🇳",
+			UnicodeName: "flag: China",
+			CodePoint:   "U+1F1E8 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇴": {
+			Slug:        "flag:-Colombia",
+			Character:   "🇨🇴",
+			UnicodeName: "flag: Colombia",
+			CodePoint:   "U+1F1E8 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇵": {
+			Slug:        "flag:-Clipperton-Island",
+			Character:   "🇨🇵",
+			UnicodeName: "flag: Clipperton Island",
+			CodePoint:   "U+1F1E8 U+1F1F5",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇷": {
+			Slug:        "flag:-Costa-Rica",
+			Character:   "🇨🇷",
+			UnicodeName: "flag: Costa Rica",
+			CodePoint:   "U+1F1E8 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇺": {
+			Slug:        "flag:-Cuba",
+			Character:   "🇨🇺",
+			UnicodeName: "flag: Cuba",
+			CodePoint:   "U+1F1E8 U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇻": {
+			Slug:        "flag:-Cape-Verde",
+			Character:   "🇨🇻",
+			UnicodeName: "flag: Cape Verde",
+			CodePoint:   "U+1F1E8 U+1F1FB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇼": {
+			Slug:        "flag:-Curaçao",
+			Character:   "🇨🇼",
+			UnicodeName: "flag: Curaçao",
+			CodePoint:   "U+1F1E8 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇽": {
+			Slug:        "flag:-Christmas-Island",
+			Character:   "🇨🇽",
+			UnicodeName: "flag: Christmas Island",
+			CodePoint:   "U+1F1E8 U+1F1FD",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇾": {
+			Slug:        "flag:-Cyprus",
+			Character:   "🇨🇾",
+			UnicodeName: "flag: Cyprus",
+			CodePoint:   "U+1F1E8 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇨🇿": {
 			Slug:        "flag:-Czechia",
 			Character:   "🇨🇿",
 			UnicodeName: "flag: Czechia",
@@ -1823,7 +2363,61 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127465: {
+		"🇩🇪": {
+			Slug:        "flag:-Germany",
+			Character:   "🇩🇪",
+			UnicodeName: "flag: Germany",
+			CodePoint:   "U+1F1E9 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇩🇬": {
+			Slug:        "flag:-Diego-Garcia",
+			Character:   "🇩🇬",
+			UnicodeName: "flag: Diego Garcia",
+			CodePoint:   "U+1F1E9 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇩🇯": {
+			Slug:        "flag:-Djibouti",
+			Character:   "🇩🇯",
+			UnicodeName: "flag: Djibouti",
+			CodePoint:   "U+1F1E9 U+1F1EF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇩🇰": {
+			Slug:        "flag:-Denmark",
+			Character:   "🇩🇰",
+			UnicodeName: "flag: Denmark",
+			CodePoint:   "U+1F1E9 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇩🇲": {
+			Slug:        "flag:-Dominica",
+			Character:   "🇩🇲",
+			UnicodeName: "flag: Dominica",
+			CodePoint:   "U+1F1E9 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇩🇴": {
+			Slug:        "flag:-Dominican-Republic",
+			Character:   "🇩🇴",
+			UnicodeName: "flag: Dominican Republic",
+			CodePoint:   "U+1F1E9 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇩🇿": {
 			Slug:        "flag:-Algeria",
 			Character:   "🇩🇿",
 			UnicodeName: "flag: Algeria",
@@ -1832,7 +2426,79 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127466: {
+		"🇪🇦": {
+			Slug:        "flag:-Ceuta-&-Melilla",
+			Character:   "🇪🇦",
+			UnicodeName: "flag: Ceuta & Melilla",
+			CodePoint:   "U+1F1EA U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇨": {
+			Slug:        "flag:-Ecuador",
+			Character:   "🇪🇨",
+			UnicodeName: "flag: Ecuador",
+			CodePoint:   "U+1F1EA U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇪": {
+			Slug:        "flag:-Estonia",
+			Character:   "🇪🇪",
+			UnicodeName: "flag: Estonia",
+			CodePoint:   "U+1F1EA U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇬": {
+			Slug:        "flag:-Egypt",
+			Character:   "🇪🇬",
+			UnicodeName: "flag: Egypt",
+			CodePoint:   "U+1F1EA U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇭": {
+			Slug:        "flag:-Western-Sahara",
+			Character:   "🇪🇭",
+			UnicodeName: "flag: Western Sahara",
+			CodePoint:   "U+1F1EA U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇷": {
+			Slug:        "flag:-Eritrea",
+			Character:   "🇪🇷",
+			UnicodeName: "flag: Eritrea",
+			CodePoint:   "U+1F1EA U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇸": {
+			Slug:        "flag:-Spain",
+			Character:   "🇪🇸",
+			UnicodeName: "flag: Spain",
+			CodePoint:   "U+1F1EA U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇹": {
+			Slug:        "flag:-Ethiopia",
+			Character:   "🇪🇹",
+			UnicodeName: "flag: Ethiopia",
+			CodePoint:   "U+1F1EA U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇪🇺": {
 			Slug:        "flag:-European-Union",
 			Character:   "🇪🇺",
 			UnicodeName: "flag: European Union",
@@ -1841,7 +2507,52 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127467: {
+		"🇫🇮": {
+			Slug:        "flag:-Finland",
+			Character:   "🇫🇮",
+			UnicodeName: "flag: Finland",
+			CodePoint:   "U+1F1EB U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇫🇯": {
+			Slug:        "flag:-Fiji",
+			Character:   "🇫🇯",
+			UnicodeName: "flag: Fiji",
+			CodePoint:   "U+1F1EB U+1F1EF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇫🇰": {
+			Slug:        "flag:-Falkland-Islands",
+			Character:   "🇫🇰",
+			UnicodeName: "flag: Falkland Islands",
+			CodePoint:   "U+1F1EB U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇫🇲": {
+			Slug:        "flag:-Micronesia",
+			Character:   "🇫🇲",
+			UnicodeName: "flag: Micronesia",
+			CodePoint:   "U+1F1EB U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇫🇴": {
+			Slug:        "flag:-Faroe-Islands",
+			Character:   "🇫🇴",
+			UnicodeName: "flag: Faroe Islands",
+			CodePoint:   "U+1F1EB U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇫🇷": {
 			Slug:        "flag:-France",
 			Character:   "🇫🇷",
 			UnicodeName: "flag: France",
@@ -1850,7 +2561,169 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127468: {
+		"🇬🇦": {
+			Slug:        "flag:-Gabon",
+			Character:   "🇬🇦",
+			UnicodeName: "flag: Gabon",
+			CodePoint:   "U+1F1EC U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇧": {
+			Slug:        "flag:-United-Kingdom",
+			Character:   "🇬🇧",
+			UnicodeName: "flag: United Kingdom",
+			CodePoint:   "U+1F1EC U+1F1E7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇩": {
+			Slug:        "flag:-Grenada",
+			Character:   "🇬🇩",
+			UnicodeName: "flag: Grenada",
+			CodePoint:   "U+1F1EC U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇪": {
+			Slug:        "flag:-Georgia",
+			Character:   "🇬🇪",
+			UnicodeName: "flag: Georgia",
+			CodePoint:   "U+1F1EC U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇫": {
+			Slug:        "flag:-French-Guiana",
+			Character:   "🇬🇫",
+			UnicodeName: "flag: French Guiana",
+			CodePoint:   "U+1F1EC U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇬": {
+			Slug:        "flag:-Guernsey",
+			Character:   "🇬🇬",
+			UnicodeName: "flag: Guernsey",
+			CodePoint:   "U+1F1EC U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇭": {
+			Slug:        "flag:-Ghana",
+			Character:   "🇬🇭",
+			UnicodeName: "flag: Ghana",
+			CodePoint:   "U+1F1EC U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇮": {
+			Slug:        "flag:-Gibraltar",
+			Character:   "🇬🇮",
+			UnicodeName: "flag: Gibraltar",
+			CodePoint:   "U+1F1EC U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇱": {
+			Slug:        "flag:-Greenland",
+			Character:   "🇬🇱",
+			UnicodeName: "flag: Greenland",
+			CodePoint:   "U+1F1EC U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇲": {
+			Slug:        "flag:-Gambia",
+			Character:   "🇬🇲",
+			UnicodeName: "flag: Gambia",
+			CodePoint:   "U+1F1EC U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇳": {
+			Slug:        "flag:-Guinea",
+			Character:   "🇬🇳",
+			UnicodeName: "flag: Guinea",
+			CodePoint:   "U+1F1EC U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇵": {
+			Slug:        "flag:-Guadeloupe",
+			Character:   "🇬🇵",
+			UnicodeName: "flag: Guadeloupe",
+			CodePoint:   "U+1F1EC U+1F1F5",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇶": {
+			Slug:        "flag:-Equatorial-Guinea",
+			Character:   "🇬🇶",
+			UnicodeName: "flag: Equatorial Guinea",
+			CodePoint:   "U+1F1EC U+1F1F6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇷": {
+			Slug:        "flag:-Greece",
+			Character:   "🇬🇷",
+			UnicodeName: "flag: Greece",
+			CodePoint:   "U+1F1EC U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇸": {
+			Slug:        "flag:-South-Georgia-&-South-Sandwich-Islands",
+			Character:   "🇬🇸",
+			UnicodeName: "flag: South Georgia & South Sandwich Islands",
+			CodePoint:   "U+1F1EC U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇹": {
+			Slug:        "flag:-Guatemala",
+			Character:   "🇬🇹",
+			UnicodeName: "flag: Guatemala",
+			CodePoint:   "U+1F1EC U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇺": {
+			Slug:        "flag:-Guam",
+			Character:   "🇬🇺",
+			UnicodeName: "flag: Guam",
+			CodePoint:   "U+1F1EC U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇼": {
+			Slug:        "flag:-Guinea-Bissau",
+			Character:   "🇬🇼",
+			UnicodeName: "flag: Guinea-Bissau",
+			CodePoint:   "U+1F1EC U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇬🇾": {
 			Slug:        "flag:-Guyana",
 			Character:   "🇬🇾",
 			UnicodeName: "flag: Guyana",
@@ -1859,7 +2732,52 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127469: {
+		"🇭🇰": {
+			Slug:        "flag:-Hong-Kong-SAR-China",
+			Character:   "🇭🇰",
+			UnicodeName: "flag: Hong Kong SAR China",
+			CodePoint:   "U+1F1ED U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇭🇲": {
+			Slug:        "flag:-Heard-&-McDonald-Islands",
+			Character:   "🇭🇲",
+			UnicodeName: "flag: Heard & McDonald Islands",
+			CodePoint:   "U+1F1ED U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇭🇳": {
+			Slug:        "flag:-Honduras",
+			Character:   "🇭🇳",
+			UnicodeName: "flag: Honduras",
+			CodePoint:   "U+1F1ED U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇭🇷": {
+			Slug:        "flag:-Croatia",
+			Character:   "🇭🇷",
+			UnicodeName: "flag: Croatia",
+			CodePoint:   "U+1F1ED U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇭🇹": {
+			Slug:        "flag:-Haiti",
+			Character:   "🇭🇹",
+			UnicodeName: "flag: Haiti",
+			CodePoint:   "U+1F1ED U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇭🇺": {
 			Slug:        "flag:-Hungary",
 			Character:   "🇭🇺",
 			UnicodeName: "flag: Hungary",
@@ -1868,7 +2786,97 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127470: {
+		"🇮🇨": {
+			Slug:        "flag:-Canary-Islands",
+			Character:   "🇮🇨",
+			UnicodeName: "flag: Canary Islands",
+			CodePoint:   "U+1F1EE U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇩": {
+			Slug:        "flag:-Indonesia",
+			Character:   "🇮🇩",
+			UnicodeName: "flag: Indonesia",
+			CodePoint:   "U+1F1EE U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇪": {
+			Slug:        "flag:-Ireland",
+			Character:   "🇮🇪",
+			UnicodeName: "flag: Ireland",
+			CodePoint:   "U+1F1EE U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇱": {
+			Slug:        "flag:-Israel",
+			Character:   "🇮🇱",
+			UnicodeName: "flag: Israel",
+			CodePoint:   "U+1F1EE U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇲": {
+			Slug:        "flag:-Isle-of-Man",
+			Character:   "🇮🇲",
+			UnicodeName: "flag: Isle of Man",
+			CodePoint:   "U+1F1EE U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇳": {
+			Slug:        "flag:-India",
+			Character:   "🇮🇳",
+			UnicodeName: "flag: India",
+			CodePoint:   "U+1F1EE U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇴": {
+			Slug:        "flag:-British-Indian-Ocean-Territory",
+			Character:   "🇮🇴",
+			UnicodeName: "flag: British Indian Ocean Territory",
+			CodePoint:   "U+1F1EE U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇶": {
+			Slug:        "flag:-Iraq",
+			Character:   "🇮🇶",
+			UnicodeName: "flag: Iraq",
+			CodePoint:   "U+1F1EE U+1F1F6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇷": {
+			Slug:        "flag:-Iran",
+			Character:   "🇮🇷",
+			UnicodeName: "flag: Iran",
+			CodePoint:   "U+1F1EE U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇸": {
+			Slug:        "flag:-Iceland",
+			Character:   "🇮🇸",
+			UnicodeName: "flag: Iceland",
+			CodePoint:   "U+1F1EE U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇮🇹": {
 			Slug:        "flag:-Italy",
 			Character:   "🇮🇹",
 			UnicodeName: "flag: Italy",
@@ -1877,7 +2885,34 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127471: {
+		"🇯🇪": {
+			Slug:        "flag:-Jersey",
+			Character:   "🇯🇪",
+			UnicodeName: "flag: Jersey",
+			CodePoint:   "U+1F1EF U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇯🇲": {
+			Slug:        "flag:-Jamaica",
+			Character:   "🇯🇲",
+			UnicodeName: "flag: Jamaica",
+			CodePoint:   "U+1F1EF U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇯🇴": {
+			Slug:        "flag:-Jordan",
+			Character:   "🇯🇴",
+			UnicodeName: "flag: Jordan",
+			CodePoint:   "U+1F1EF U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇯🇵": {
 			Slug:        "flag:-Japan",
 			Character:   "🇯🇵",
 			UnicodeName: "flag: Japan",
@@ -1886,7 +2921,97 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127472: {
+		"🇰🇪": {
+			Slug:        "flag:-Kenya",
+			Character:   "🇰🇪",
+			UnicodeName: "flag: Kenya",
+			CodePoint:   "U+1F1F0 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇬": {
+			Slug:        "flag:-Kyrgyzstan",
+			Character:   "🇰🇬",
+			UnicodeName: "flag: Kyrgyzstan",
+			CodePoint:   "U+1F1F0 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇭": {
+			Slug:        "flag:-Cambodia",
+			Character:   "🇰🇭",
+			UnicodeName: "flag: Cambodia",
+			CodePoint:   "U+1F1F0 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇮": {
+			Slug:        "flag:-Kiribati",
+			Character:   "🇰🇮",
+			UnicodeName: "flag: Kiribati",
+			CodePoint:   "U+1F1F0 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇲": {
+			Slug:        "flag:-Comoros",
+			Character:   "🇰🇲",
+			UnicodeName: "flag: Comoros",
+			CodePoint:   "U+1F1F0 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇳": {
+			Slug:        "flag:-St.-Kitts-&-Nevis",
+			Character:   "🇰🇳",
+			UnicodeName: "flag: St. Kitts & Nevis",
+			CodePoint:   "U+1F1F0 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇵": {
+			Slug:        "flag:-North-Korea",
+			Character:   "🇰🇵",
+			UnicodeName: "flag: North Korea",
+			CodePoint:   "U+1F1F0 U+1F1F5",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇷": {
+			Slug:        "flag:-South-Korea",
+			Character:   "🇰🇷",
+			UnicodeName: "flag: South Korea",
+			CodePoint:   "U+1F1F0 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇼": {
+			Slug:        "flag:-Kuwait",
+			Character:   "🇰🇼",
+			UnicodeName: "flag: Kuwait",
+			CodePoint:   "U+1F1F0 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇾": {
+			Slug:        "flag:-Cayman-Islands",
+			Character:   "🇰🇾",
+			UnicodeName: "flag: Cayman Islands",
+			CodePoint:   "U+1F1F0 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇰🇿": {
 			Slug:        "flag:-Kazakhstan",
 			Character:   "🇰🇿",
 			UnicodeName: "flag: Kazakhstan",
@@ -1895,7 +3020,97 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127473: {
+		"🇱🇦": {
+			Slug:        "flag:-Laos",
+			Character:   "🇱🇦",
+			UnicodeName: "flag: Laos",
+			CodePoint:   "U+1F1F1 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇧": {
+			Slug:        "flag:-Lebanon",
+			Character:   "🇱🇧",
+			UnicodeName: "flag: Lebanon",
+			CodePoint:   "U+1F1F1 U+1F1E7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇨": {
+			Slug:        "flag:-St.-Lucia",
+			Character:   "🇱🇨",
+			UnicodeName: "flag: St. Lucia",
+			CodePoint:   "U+1F1F1 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇮": {
+			Slug:        "flag:-Liechtenstein",
+			Character:   "🇱🇮",
+			UnicodeName: "flag: Liechtenstein",
+			CodePoint:   "U+1F1F1 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇰": {
+			Slug:        "flag:-Sri-Lanka",
+			Character:   "🇱🇰",
+			UnicodeName: "flag: Sri Lanka",
+			CodePoint:   "U+1F1F1 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇷": {
+			Slug:        "flag:-Liberia",
+			Character:   "🇱🇷",
+			UnicodeName: "flag: Liberia",
+			CodePoint:   "U+1F1F1 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇸": {
+			Slug:        "flag:-Lesotho",
+			Character:   "🇱🇸",
+			UnicodeName: "flag: Lesotho",
+			CodePoint:   "U+1F1F1 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇹": {
+			Slug:        "flag:-Lithuania",
+			Character:   "🇱🇹",
+			UnicodeName: "flag: Lithuania",
+			CodePoint:   "U+1F1F1 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇺": {
+			Slug:        "flag:-Luxembourg",
+			Character:   "🇱🇺",
+			UnicodeName: "flag: Luxembourg",
+			CodePoint:   "U+1F1F1 U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇻": {
+			Slug:        "flag:-Latvia",
+			Character:   "🇱🇻",
+			UnicodeName: "flag: Latvia",
+			CodePoint:   "U+1F1F1 U+1F1FB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇱🇾": {
 			Slug:        "flag:-Libya",
 			Character:   "🇱🇾",
 			UnicodeName: "flag: Libya",
@@ -1904,7 +3119,205 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127474: {
+		"🇲🇦": {
+			Slug:        "flag:-Morocco",
+			Character:   "🇲🇦",
+			UnicodeName: "flag: Morocco",
+			CodePoint:   "U+1F1F2 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇨": {
+			Slug:        "flag:-Monaco",
+			Character:   "🇲🇨",
+			UnicodeName: "flag: Monaco",
+			CodePoint:   "U+1F1F2 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇩": {
+			Slug:        "flag:-Moldova",
+			Character:   "🇲🇩",
+			UnicodeName: "flag: Moldova",
+			CodePoint:   "U+1F1F2 U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇪": {
+			Slug:        "flag:-Montenegro",
+			Character:   "🇲🇪",
+			UnicodeName: "flag: Montenegro",
+			CodePoint:   "U+1F1F2 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇫": {
+			Slug:        "flag:-St.-Martin",
+			Character:   "🇲🇫",
+			UnicodeName: "flag: St. Martin",
+			CodePoint:   "U+1F1F2 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇬": {
+			Slug:        "flag:-Madagascar",
+			Character:   "🇲🇬",
+			UnicodeName: "flag: Madagascar",
+			CodePoint:   "U+1F1F2 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇭": {
+			Slug:        "flag:-Marshall-Islands",
+			Character:   "🇲🇭",
+			UnicodeName: "flag: Marshall Islands",
+			CodePoint:   "U+1F1F2 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇰": {
+			Slug:        "flag:-North-Macedonia",
+			Character:   "🇲🇰",
+			UnicodeName: "flag: North Macedonia",
+			CodePoint:   "U+1F1F2 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇱": {
+			Slug:        "flag:-Mali",
+			Character:   "🇲🇱",
+			UnicodeName: "flag: Mali",
+			CodePoint:   "U+1F1F2 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇲": {
+			Slug:        "flag:-Myanmar-(Burma)",
+			Character:   "🇲🇲",
+			UnicodeName: "flag: Myanmar (Burma)",
+			CodePoint:   "U+1F1F2 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇳": {
+			Slug:        "flag:-Mongolia",
+			Character:   "🇲🇳",
+			UnicodeName: "flag: Mongolia",
+			CodePoint:   "U+1F1F2 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇴": {
+			Slug:        "flag:-Macao-SAR-China",
+			Character:   "🇲🇴",
+			UnicodeName: "flag: Macao SAR China",
+			CodePoint:   "U+1F1F2 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇵": {
+			Slug:        "flag:-Northern-Mariana-Islands",
+			Character:   "🇲🇵",
+			UnicodeName: "flag: Northern Mariana Islands",
+			CodePoint:   "U+1F1F2 U+1F1F5",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇶": {
+			Slug:        "flag:-Martinique",
+			Character:   "🇲🇶",
+			UnicodeName: "flag: Martinique",
+			CodePoint:   "U+1F1F2 U+1F1F6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇷": {
+			Slug:        "flag:-Mauritania",
+			Character:   "🇲🇷",
+			UnicodeName: "flag: Mauritania",
+			CodePoint:   "U+1F1F2 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇸": {
+			Slug:        "flag:-Montserrat",
+			Character:   "🇲🇸",
+			UnicodeName: "flag: Montserrat",
+			CodePoint:   "U+1F1F2 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇹": {
+			Slug:        "flag:-Malta",
+			Character:   "🇲🇹",
+			UnicodeName: "flag: Malta",
+			CodePoint:   "U+1F1F2 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇺": {
+			Slug:        "flag:-Mauritius",
+			Character:   "🇲🇺",
+			UnicodeName: "flag: Mauritius",
+			CodePoint:   "U+1F1F2 U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇻": {
+			Slug:        "flag:-Maldives",
+			Character:   "🇲🇻",
+			UnicodeName: "flag: Maldives",
+			CodePoint:   "U+1F1F2 U+1F1FB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇼": {
+			Slug:        "flag:-Malawi",
+			Character:   "🇲🇼",
+			UnicodeName: "flag: Malawi",
+			CodePoint:   "U+1F1F2 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇽": {
+			Slug:        "flag:-Mexico",
+			Character:   "🇲🇽",
+			UnicodeName: "flag: Mexico",
+			CodePoint:   "U+1F1F2 U+1F1FD",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇾": {
+			Slug:        "flag:-Malaysia",
+			Character:   "🇲🇾",
+			UnicodeName: "flag: Malaysia",
+			CodePoint:   "U+1F1F2 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇲🇿": {
 			Slug:        "flag:-Mozambique",
 			Character:   "🇲🇿",
 			UnicodeName: "flag: Mozambique",
@@ -1913,7 +3326,106 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127475: {
+		"🇳🇦": {
+			Slug:        "flag:-Namibia",
+			Character:   "🇳🇦",
+			UnicodeName: "flag: Namibia",
+			CodePoint:   "U+1F1F3 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇨": {
+			Slug:        "flag:-New-Caledonia",
+			Character:   "🇳🇨",
+			UnicodeName: "flag: New Caledonia",
+			CodePoint:   "U+1F1F3 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇪": {
+			Slug:        "flag:-Niger",
+			Character:   "🇳🇪",
+			UnicodeName: "flag: Niger",
+			CodePoint:   "U+1F1F3 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇫": {
+			Slug:        "flag:-Norfolk-Island",
+			Character:   "🇳🇫",
+			UnicodeName: "flag: Norfolk Island",
+			CodePoint:   "U+1F1F3 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇬": {
+			Slug:        "flag:-Nigeria",
+			Character:   "🇳🇬",
+			UnicodeName: "flag: Nigeria",
+			CodePoint:   "U+1F1F3 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇮": {
+			Slug:        "flag:-Nicaragua",
+			Character:   "🇳🇮",
+			UnicodeName: "flag: Nicaragua",
+			CodePoint:   "U+1F1F3 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇱": {
+			Slug:        "flag:-Netherlands",
+			Character:   "🇳🇱",
+			UnicodeName: "flag: Netherlands",
+			CodePoint:   "U+1F1F3 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇴": {
+			Slug:        "flag:-Norway",
+			Character:   "🇳🇴",
+			UnicodeName: "flag: Norway",
+			CodePoint:   "U+1F1F3 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇵": {
+			Slug:        "flag:-Nepal",
+			Character:   "🇳🇵",
+			UnicodeName: "flag: Nepal",
+			CodePoint:   "U+1F1F3 U+1F1F5",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇷": {
+			Slug:        "flag:-Nauru",
+			Character:   "🇳🇷",
+			UnicodeName: "flag: Nauru",
+			CodePoint:   "U+1F1F3 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇺": {
+			Slug:        "flag:-Niue",
+			Character:   "🇳🇺",
+			UnicodeName: "flag: Niue",
+			CodePoint:   "U+1F1F3 U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇳🇿": {
 			Slug:        "flag:-New-Zealand",
 			Character:   "🇳🇿",
 			UnicodeName: "flag: New Zealand",
@@ -1922,7 +3434,7 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127476: {
+		"🇴🇲": {
 			Slug:        "flag:-Oman",
 			Character:   "🇴🇲",
 			UnicodeName: "flag: Oman",
@@ -1931,7 +3443,124 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127477: {
+		"🇵🇦": {
+			Slug:        "flag:-Panama",
+			Character:   "🇵🇦",
+			UnicodeName: "flag: Panama",
+			CodePoint:   "U+1F1F5 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇪": {
+			Slug:        "flag:-Peru",
+			Character:   "🇵🇪",
+			UnicodeName: "flag: Peru",
+			CodePoint:   "U+1F1F5 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇫": {
+			Slug:        "flag:-French-Polynesia",
+			Character:   "🇵🇫",
+			UnicodeName: "flag: French Polynesia",
+			CodePoint:   "U+1F1F5 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇬": {
+			Slug:        "flag:-Papua-New-Guinea",
+			Character:   "🇵🇬",
+			UnicodeName: "flag: Papua New Guinea",
+			CodePoint:   "U+1F1F5 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇭": {
+			Slug:        "flag:-Philippines",
+			Character:   "🇵🇭",
+			UnicodeName: "flag: Philippines",
+			CodePoint:   "U+1F1F5 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇰": {
+			Slug:        "flag:-Pakistan",
+			Character:   "🇵🇰",
+			UnicodeName: "flag: Pakistan",
+			CodePoint:   "U+1F1F5 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇱": {
+			Slug:        "flag:-Poland",
+			Character:   "🇵🇱",
+			UnicodeName: "flag: Poland",
+			CodePoint:   "U+1F1F5 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇲": {
+			Slug:        "flag:-St.-Pierre-&-Miquelon",
+			Character:   "🇵🇲",
+			UnicodeName: "flag: St. Pierre & Miquelon",
+			CodePoint:   "U+1F1F5 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇳": {
+			Slug:        "flag:-Pitcairn-Islands",
+			Character:   "🇵🇳",
+			UnicodeName: "flag: Pitcairn Islands",
+			CodePoint:   "U+1F1F5 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇷": {
+			Slug:        "flag:-Puerto-Rico",
+			Character:   "🇵🇷",
+			UnicodeName: "flag: Puerto Rico",
+			CodePoint:   "U+1F1F5 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇸": {
+			Slug:        "flag:-Palestinian-Territories",
+			Character:   "🇵🇸",
+			UnicodeName: "flag: Palestinian Territories",
+			CodePoint:   "U+1F1F5 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇹": {
+			Slug:        "flag:-Portugal",
+			Character:   "🇵🇹",
+			UnicodeName: "flag: Portugal",
+			CodePoint:   "U+1F1F5 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇼": {
+			Slug:        "flag:-Palau",
+			Character:   "🇵🇼",
+			UnicodeName: "flag: Palau",
+			CodePoint:   "U+1F1F5 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇵🇾": {
 			Slug:        "flag:-Paraguay",
 			Character:   "🇵🇾",
 			UnicodeName: "flag: Paraguay",
@@ -1940,7 +3569,7 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127478: {
+		"🇶🇦": {
 			Slug:        "flag:-Qatar",
 			Character:   "🇶🇦",
 			UnicodeName: "flag: Qatar",
@@ -1949,7 +3578,43 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127479: {
+		"🇷🇪": {
+			Slug:        "flag:-Réunion",
+			Character:   "🇷🇪",
+			UnicodeName: "flag: Réunion",
+			CodePoint:   "U+1F1F7 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇷🇴": {
+			Slug:        "flag:-Romania",
+			Character:   "🇷🇴",
+			UnicodeName: "flag: Romania",
+			CodePoint:   "U+1F1F7 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇷🇸": {
+			Slug:        "flag:-Serbia",
+			Character:   "🇷🇸",
+			UnicodeName: "flag: Serbia",
+			CodePoint:   "U+1F1F7 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇷🇺": {
+			Slug:        "flag:-Russia",
+			Character:   "🇷🇺",
+			UnicodeName: "flag: Russia",
+			CodePoint:   "U+1F1F7 U+1F1FA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇷🇼": {
 			Slug:        "flag:-Rwanda",
 			Character:   "🇷🇼",
 			UnicodeName: "flag: Rwanda",
@@ -1958,7 +3623,187 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127480: {
+		"🇸🇦": {
+			Slug:        "flag:-Saudi-Arabia",
+			Character:   "🇸🇦",
+			UnicodeName: "flag: Saudi Arabia",
+			CodePoint:   "U+1F1F8 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇧": {
+			Slug:        "flag:-Solomon-Islands",
+			Character:   "🇸🇧",
+			UnicodeName: "flag: Solomon Islands",
+			CodePoint:   "U+1F1F8 U+1F1E7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇨": {
+			Slug:        "flag:-Seychelles",
+			Character:   "🇸🇨",
+			UnicodeName: "flag: Seychelles",
+			CodePoint:   "U+1F1F8 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇩": {
+			Slug:        "flag:-Sudan",
+			Character:   "🇸🇩",
+			UnicodeName: "flag: Sudan",
+			CodePoint:   "U+1F1F8 U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇪": {
+			Slug:        "flag:-Sweden",
+			Character:   "🇸🇪",
+			UnicodeName: "flag: Sweden",
+			CodePoint:   "U+1F1F8 U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇬": {
+			Slug:        "flag:-Singapore",
+			Character:   "🇸🇬",
+			UnicodeName: "flag: Singapore",
+			CodePoint:   "U+1F1F8 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇭": {
+			Slug:        "flag:-St.-Helena",
+			Character:   "🇸🇭",
+			UnicodeName: "flag: St. Helena",
+			CodePoint:   "U+1F1F8 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇮": {
+			Slug:        "flag:-Slovenia",
+			Character:   "🇸🇮",
+			UnicodeName: "flag: Slovenia",
+			CodePoint:   "U+1F1F8 U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇯": {
+			Slug:        "flag:-Svalbard-&-Jan-Mayen",
+			Character:   "🇸🇯",
+			UnicodeName: "flag: Svalbard & Jan Mayen",
+			CodePoint:   "U+1F1F8 U+1F1EF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇰": {
+			Slug:        "flag:-Slovakia",
+			Character:   "🇸🇰",
+			UnicodeName: "flag: Slovakia",
+			CodePoint:   "U+1F1F8 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇱": {
+			Slug:        "flag:-Sierra-Leone",
+			Character:   "🇸🇱",
+			UnicodeName: "flag: Sierra Leone",
+			CodePoint:   "U+1F1F8 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇲": {
+			Slug:        "flag:-San-Marino",
+			Character:   "🇸🇲",
+			UnicodeName: "flag: San Marino",
+			CodePoint:   "U+1F1F8 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇳": {
+			Slug:        "flag:-Senegal",
+			Character:   "🇸🇳",
+			UnicodeName: "flag: Senegal",
+			CodePoint:   "U+1F1F8 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇴": {
+			Slug:        "flag:-Somalia",
+			Character:   "🇸🇴",
+			UnicodeName: "flag: Somalia",
+			CodePoint:   "U+1F1F8 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇷": {
+			Slug:        "flag:-Suriname",
+			Character:   "🇸🇷",
+			UnicodeName: "flag: Suriname",
+			CodePoint:   "U+1F1F8 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇸": {
+			Slug:        "flag:-South-Sudan",
+			Character:   "🇸🇸",
+			UnicodeName: "flag: South Sudan",
+			CodePoint:   "U+1F1F8 U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇹": {
+			Slug:        "flag:-São-Tomé-&-Príncipe",
+			Character:   "🇸🇹",
+			UnicodeName: "flag: São Tomé & Príncipe",
+			CodePoint:   "U+1F1F8 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇻": {
+			Slug:        "flag:-El-Salvador",
+			Character:   "🇸🇻",
+			UnicodeName: "flag: El Salvador",
+			CodePoint:   "U+1F1F8 U+1F1FB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇽": {
+			Slug:        "flag:-Sint-Maarten",
+			Character:   "🇸🇽",
+			UnicodeName: "flag: Sint Maarten",
+			CodePoint:   "U+1F1F8 U+1F1FD",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇾": {
+			Slug:        "flag:-Syria",
+			Character:   "🇸🇾",
+			UnicodeName: "flag: Syria",
+			CodePoint:   "U+1F1F8 U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇸🇿": {
 			Slug:        "flag:-Eswatini",
 			Character:   "🇸🇿",
 			UnicodeName: "flag: Eswatini",
@@ -1967,7 +3812,151 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127481: {
+		"🇹🇦": {
+			Slug:        "flag:-Tristan-da-Cunha",
+			Character:   "🇹🇦",
+			UnicodeName: "flag: Tristan da Cunha",
+			CodePoint:   "U+1F1F9 U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇨": {
+			Slug:        "flag:-Turks-&-Caicos-Islands",
+			Character:   "🇹🇨",
+			UnicodeName: "flag: Turks & Caicos Islands",
+			CodePoint:   "U+1F1F9 U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇩": {
+			Slug:        "flag:-Chad",
+			Character:   "🇹🇩",
+			UnicodeName: "flag: Chad",
+			CodePoint:   "U+1F1F9 U+1F1E9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇫": {
+			Slug:        "flag:-French-Southern-Territories",
+			Character:   "🇹🇫",
+			UnicodeName: "flag: French Southern Territories",
+			CodePoint:   "U+1F1F9 U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇬": {
+			Slug:        "flag:-Togo",
+			Character:   "🇹🇬",
+			UnicodeName: "flag: Togo",
+			CodePoint:   "U+1F1F9 U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇭": {
+			Slug:        "flag:-Thailand",
+			Character:   "🇹🇭",
+			UnicodeName: "flag: Thailand",
+			CodePoint:   "U+1F1F9 U+1F1ED",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇯": {
+			Slug:        "flag:-Tajikistan",
+			Character:   "🇹🇯",
+			UnicodeName: "flag: Tajikistan",
+			CodePoint:   "U+1F1F9 U+1F1EF",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇰": {
+			Slug:        "flag:-Tokelau",
+			Character:   "🇹🇰",
+			UnicodeName: "flag: Tokelau",
+			CodePoint:   "U+1F1F9 U+1F1F0",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇱": {
+			Slug:        "flag:-Timor-Leste",
+			Character:   "🇹🇱",
+			UnicodeName: "flag: Timor-Leste",
+			CodePoint:   "U+1F1F9 U+1F1F1",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇲": {
+			Slug:        "flag:-Turkmenistan",
+			Character:   "🇹🇲",
+			UnicodeName: "flag: Turkmenistan",
+			CodePoint:   "U+1F1F9 U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇳": {
+			Slug:        "flag:-Tunisia",
+			Character:   "🇹🇳",
+			UnicodeName: "flag: Tunisia",
+			CodePoint:   "U+1F1F9 U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇴": {
+			Slug:        "flag:-Tonga",
+			Character:   "🇹🇴",
+			UnicodeName: "flag: Tonga",
+			CodePoint:   "U+1F1F9 U+1F1F4",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇷": {
+			Slug:        "flag:-Turkey",
+			Character:   "🇹🇷",
+			UnicodeName: "flag: Turkey",
+			CodePoint:   "U+1F1F9 U+1F1F7",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇹": {
+			Slug:        "flag:-Trinidad-&-Tobago",
+			Character:   "🇹🇹",
+			UnicodeName: "flag: Trinidad & Tobago",
+			CodePoint:   "U+1F1F9 U+1F1F9",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇻": {
+			Slug:        "flag:-Tuvalu",
+			Character:   "🇹🇻",
+			UnicodeName: "flag: Tuvalu",
+			CodePoint:   "U+1F1F9 U+1F1FB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇼": {
+			Slug:        "flag:-Taiwan",
+			Character:   "🇹🇼",
+			UnicodeName: "flag: Taiwan",
+			CodePoint:   "U+1F1F9 U+1F1FC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇹🇿": {
 			Slug:        "flag:-Tanzania",
 			Character:   "🇹🇿",
 			UnicodeName: "flag: Tanzania",
@@ -1976,7 +3965,61 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127482: {
+		"🇺🇦": {
+			Slug:        "flag:-Ukraine",
+			Character:   "🇺🇦",
+			UnicodeName: "flag: Ukraine",
+			CodePoint:   "U+1F1FA U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇺🇬": {
+			Slug:        "flag:-Uganda",
+			Character:   "🇺🇬",
+			UnicodeName: "flag: Uganda",
+			CodePoint:   "U+1F1FA U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇺🇲": {
+			Slug:        "flag:-U.S.-Outlying-Islands",
+			Character:   "🇺🇲",
+			UnicodeName: "flag: U.S. Outlying Islands",
+			CodePoint:   "U+1F1FA U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇺🇳": {
+			Slug:        "flag:-United-Nations",
+			Character:   "🇺🇳",
+			UnicodeName: "flag: United Nations",
+			CodePoint:   "U+1F1FA U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇺🇸": {
+			Slug:        "flag:-United-States",
+			Character:   "🇺🇸",
+			UnicodeName: "flag: United States",
+			CodePoint:   "U+1F1FA U+1F1F8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇺🇾": {
+			Slug:        "flag:-Uruguay",
+			Character:   "🇺🇾",
+			UnicodeName: "flag: Uruguay",
+			CodePoint:   "U+1F1FA U+1F1FE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇺🇿": {
 			Slug:        "flag:-Uzbekistan",
 			Character:   "🇺🇿",
 			UnicodeName: "flag: Uzbekistan",
@@ -1985,7 +4028,61 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127483: {
+		"🇻🇦": {
+			Slug:        "flag:-Vatican-City",
+			Character:   "🇻🇦",
+			UnicodeName: "flag: Vatican City",
+			CodePoint:   "U+1F1FB U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇻🇨": {
+			Slug:        "flag:-St.-Vincent-&-Grenadines",
+			Character:   "🇻🇨",
+			UnicodeName: "flag: St. Vincent & Grenadines",
+			CodePoint:   "U+1F1FB U+1F1E8",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇻🇪": {
+			Slug:        "flag:-Venezuela",
+			Character:   "🇻🇪",
+			UnicodeName: "flag: Venezuela",
+			CodePoint:   "U+1F1FB U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇻🇬": {
+			Slug:        "flag:-British-Virgin-Islands",
+			Character:   "🇻🇬",
+			UnicodeName: "flag: British Virgin Islands",
+			CodePoint:   "U+1F1FB U+1F1EC",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇻🇮": {
+			Slug:        "flag:-U.S.-Virgin-Islands",
+			Character:   "🇻🇮",
+			UnicodeName: "flag: U.S. Virgin Islands",
+			CodePoint:   "U+1F1FB U+1F1EE",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇻🇳": {
+			Slug:        "flag:-Vietnam",
+			Character:   "🇻🇳",
+			UnicodeName: "flag: Vietnam",
+			CodePoint:   "U+1F1FB U+1F1F3",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇻🇺": {
 			Slug:        "flag:-Vanuatu",
 			Character:   "🇻🇺",
 			UnicodeName: "flag: Vanuatu",
@@ -1994,7 +4091,16 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127484: {
+		"🇼🇫": {
+			Slug:        "flag:-Wallis-&-Futuna",
+			Character:   "🇼🇫",
+			UnicodeName: "flag: Wallis & Futuna",
+			CodePoint:   "U+1F1FC U+1F1EB",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇼🇸": {
 			Slug:        "flag:-Samoa",
 			Character:   "🇼🇸",
 			UnicodeName: "flag: Samoa",
@@ -2003,7 +4109,7 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127485: {
+		"🇽🇰": {
 			Slug:        "flag:-Kosovo",
 			Character:   "🇽🇰",
 			UnicodeName: "flag: Kosovo",
@@ -2012,7 +4118,16 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127486: {
+		"🇾🇪": {
+			Slug:        "flag:-Yemen",
+			Character:   "🇾🇪",
+			UnicodeName: "flag: Yemen",
+			CodePoint:   "U+1F1FE U+1F1EA",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇾🇹": {
 			Slug:        "flag:-Mayotte",
 			Character:   "🇾🇹",
 			UnicodeName: "flag: Mayotte",
@@ -2021,7 +4136,25 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127487: {
+		"🇿🇦": {
+			Slug:        "flag:-South-Africa",
+			Character:   "🇿🇦",
+			UnicodeName: "flag: South Africa",
+			CodePoint:   "U+1F1FF U+1F1E6",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇿🇲": {
+			Slug:        "flag:-Zambia",
+			Character:   "🇿🇲",
+			UnicodeName: "flag: Zambia",
+			CodePoint:   "U+1F1FF U+1F1F2",
+			Group:       "Flags",
+			SubGroup:    "country-flag",
+		},
+
+		"🇿🇼": {
 			Slug:        "flag:-Zimbabwe",
 			Character:   "🇿🇼",
 			UnicodeName: "flag: Zimbabwe",
@@ -2030,7 +4163,7 @@ var (
 			SubGroup:    "country-flag",
 		},
 
-		127489: {
+		"🈁": {
 			Slug:        "Japanese-“here”-button",
 			Character:   "🈁",
 			UnicodeName: "Japanese “here” button",
@@ -2039,7 +4172,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127490: {
+		"🈂": {
 			Slug:        "Japanese-“service-charge”-button",
 			Character:   "🈂",
 			UnicodeName: "Japanese “service charge” button",
@@ -2048,7 +4181,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127514: {
+		"🈚": {
 			Slug:        "Japanese-“free-of-charge”-button",
 			Character:   "🈚",
 			UnicodeName: "Japanese “free of charge” button",
@@ -2057,7 +4190,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127535: {
+		"🈯": {
 			Slug:        "Japanese-“reserved”-button",
 			Character:   "🈯",
 			UnicodeName: "Japanese “reserved” button",
@@ -2066,7 +4199,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127538: {
+		"🈲": {
 			Slug:        "Japanese-“prohibited”-button",
 			Character:   "🈲",
 			UnicodeName: "Japanese “prohibited” button",
@@ -2075,7 +4208,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127539: {
+		"🈳": {
 			Slug:        "Japanese-“vacancy”-button",
 			Character:   "🈳",
 			UnicodeName: "Japanese “vacancy” button",
@@ -2084,7 +4217,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127540: {
+		"🈴": {
 			Slug:        "Japanese-“passing-grade”-button",
 			Character:   "🈴",
 			UnicodeName: "Japanese “passing grade” button",
@@ -2093,7 +4226,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127541: {
+		"🈵": {
 			Slug:        "Japanese-“no-vacancy”-button",
 			Character:   "🈵",
 			UnicodeName: "Japanese “no vacancy” button",
@@ -2102,7 +4235,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127542: {
+		"🈶": {
 			Slug:        "Japanese-“not-free-of-charge”-button",
 			Character:   "🈶",
 			UnicodeName: "Japanese “not free of charge” button",
@@ -2111,7 +4244,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127543: {
+		"🈷": {
 			Slug:        "Japanese-“monthly-amount”-button",
 			Character:   "🈷",
 			UnicodeName: "Japanese “monthly amount” button",
@@ -2120,7 +4253,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127544: {
+		"🈸": {
 			Slug:        "Japanese-“application”-button",
 			Character:   "🈸",
 			UnicodeName: "Japanese “application” button",
@@ -2129,7 +4262,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127545: {
+		"🈹": {
 			Slug:        "Japanese-“discount”-button",
 			Character:   "🈹",
 			UnicodeName: "Japanese “discount” button",
@@ -2138,7 +4271,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127546: {
+		"🈺": {
 			Slug:        "Japanese-“open-for-business”-button",
 			Character:   "🈺",
 			UnicodeName: "Japanese “open for business” button",
@@ -2147,7 +4280,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127568: {
+		"🉐": {
 			Slug:        "Japanese-“bargain”-button",
 			Character:   "🉐",
 			UnicodeName: "Japanese “bargain” button",
@@ -2156,7 +4289,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127569: {
+		"🉑": {
 			Slug:        "Japanese-“acceptable”-button",
 			Character:   "🉑",
 			UnicodeName: "Japanese “acceptable” button",
@@ -2165,7 +4298,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		127744: {
+		"🌀": {
 			Slug:        "cyclone",
 			Character:   "🌀",
 			UnicodeName: "cyclone",
@@ -2174,7 +4307,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127745: {
+		"🌁": {
 			Slug:        "foggy",
 			Character:   "🌁",
 			UnicodeName: "foggy",
@@ -2183,7 +4316,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127746: {
+		"🌂": {
 			Slug:        "closed-umbrella",
 			Character:   "🌂",
 			UnicodeName: "closed umbrella",
@@ -2192,7 +4325,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127747: {
+		"🌃": {
 			Slug:        "night-with-stars",
 			Character:   "🌃",
 			UnicodeName: "night with stars",
@@ -2201,7 +4334,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127748: {
+		"🌄": {
 			Slug:        "sunrise-over-mountains",
 			Character:   "🌄",
 			UnicodeName: "sunrise over mountains",
@@ -2210,7 +4343,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127749: {
+		"🌅": {
 			Slug:        "sunrise",
 			Character:   "🌅",
 			UnicodeName: "sunrise",
@@ -2219,7 +4352,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127750: {
+		"🌆": {
 			Slug:        "cityscape-at-dusk",
 			Character:   "🌆",
 			UnicodeName: "cityscape at dusk",
@@ -2228,7 +4361,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127751: {
+		"🌇": {
 			Slug:        "sunset",
 			Character:   "🌇",
 			UnicodeName: "sunset",
@@ -2237,7 +4370,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127752: {
+		"🌈": {
 			Slug:        "rainbow",
 			Character:   "🌈",
 			UnicodeName: "rainbow",
@@ -2246,7 +4379,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127753: {
+		"🌉": {
 			Slug:        "bridge-at-night",
 			Character:   "🌉",
 			UnicodeName: "bridge at night",
@@ -2255,7 +4388,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127754: {
+		"🌊": {
 			Slug:        "water-wave",
 			Character:   "🌊",
 			UnicodeName: "water wave",
@@ -2264,7 +4397,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127755: {
+		"🌋": {
 			Slug:        "volcano",
 			Character:   "🌋",
 			UnicodeName: "volcano",
@@ -2273,7 +4406,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127756: {
+		"🌌": {
 			Slug:        "milky-way",
 			Character:   "🌌",
 			UnicodeName: "milky way",
@@ -2282,7 +4415,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127757: {
+		"🌍": {
 			Slug:        "globe-showing-Europe-Africa",
 			Character:   "🌍",
 			UnicodeName: "globe showing Europe-Africa",
@@ -2291,7 +4424,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		127758: {
+		"🌎": {
 			Slug:        "globe-showing-Americas",
 			Character:   "🌎",
 			UnicodeName: "globe showing Americas",
@@ -2300,7 +4433,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		127759: {
+		"🌏": {
 			Slug:        "globe-showing-Asia-Australia",
 			Character:   "🌏",
 			UnicodeName: "globe showing Asia-Australia",
@@ -2309,7 +4442,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		127760: {
+		"🌐": {
 			Slug:        "globe-with-meridians",
 			Character:   "🌐",
 			UnicodeName: "globe with meridians",
@@ -2318,7 +4451,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		127761: {
+		"🌑": {
 			Slug:        "new-moon",
 			Character:   "🌑",
 			UnicodeName: "new moon",
@@ -2327,7 +4460,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127762: {
+		"🌒": {
 			Slug:        "waxing-crescent-moon",
 			Character:   "🌒",
 			UnicodeName: "waxing crescent moon",
@@ -2336,7 +4469,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127763: {
+		"🌓": {
 			Slug:        "first-quarter-moon",
 			Character:   "🌓",
 			UnicodeName: "first quarter moon",
@@ -2345,7 +4478,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127764: {
+		"🌔": {
 			Slug:        "waxing-gibbous-moon",
 			Character:   "🌔",
 			UnicodeName: "waxing gibbous moon",
@@ -2354,7 +4487,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127765: {
+		"🌕": {
 			Slug:        "full-moon",
 			Character:   "🌕",
 			UnicodeName: "full moon",
@@ -2363,7 +4496,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127766: {
+		"🌖": {
 			Slug:        "waning-gibbous-moon",
 			Character:   "🌖",
 			UnicodeName: "waning gibbous moon",
@@ -2372,7 +4505,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127767: {
+		"🌗": {
 			Slug:        "last-quarter-moon",
 			Character:   "🌗",
 			UnicodeName: "last quarter moon",
@@ -2381,7 +4514,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127768: {
+		"🌘": {
 			Slug:        "waning-crescent-moon",
 			Character:   "🌘",
 			UnicodeName: "waning crescent moon",
@@ -2390,7 +4523,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127769: {
+		"🌙": {
 			Slug:        "crescent-moon",
 			Character:   "🌙",
 			UnicodeName: "crescent moon",
@@ -2399,7 +4532,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127770: {
+		"🌚": {
 			Slug:        "new-moon-face",
 			Character:   "🌚",
 			UnicodeName: "new moon face",
@@ -2408,7 +4541,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127771: {
+		"🌛": {
 			Slug:        "first-quarter-moon-face",
 			Character:   "🌛",
 			UnicodeName: "first quarter moon face",
@@ -2417,7 +4550,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127772: {
+		"🌜": {
 			Slug:        "last-quarter-moon-face",
 			Character:   "🌜",
 			UnicodeName: "last quarter moon face",
@@ -2426,7 +4559,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127773: {
+		"🌝": {
 			Slug:        "full-moon-face",
 			Character:   "🌝",
 			UnicodeName: "full moon face",
@@ -2435,7 +4568,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127774: {
+		"🌞": {
 			Slug:        "sun-with-face",
 			Character:   "🌞",
 			UnicodeName: "sun with face",
@@ -2444,7 +4577,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127775: {
+		"🌟": {
 			Slug:        "glowing-star",
 			Character:   "🌟",
 			UnicodeName: "glowing star",
@@ -2453,7 +4586,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127776: {
+		"🌠": {
 			Slug:        "shooting-star",
 			Character:   "🌠",
 			UnicodeName: "shooting star",
@@ -2462,7 +4595,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127777: {
+		"🌡": {
 			Slug:        "thermometer",
 			Character:   "🌡",
 			UnicodeName: "thermometer",
@@ -2471,7 +4604,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127780: {
+		"🌤": {
 			Slug:        "sun-behind-small-cloud",
 			Character:   "🌤",
 			UnicodeName: "sun behind small cloud",
@@ -2480,7 +4613,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127781: {
+		"🌥": {
 			Slug:        "sun-behind-large-cloud",
 			Character:   "🌥",
 			UnicodeName: "sun behind large cloud",
@@ -2489,7 +4622,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127782: {
+		"🌦": {
 			Slug:        "sun-behind-rain-cloud",
 			Character:   "🌦",
 			UnicodeName: "sun behind rain cloud",
@@ -2498,7 +4631,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127783: {
+		"🌧": {
 			Slug:        "cloud-with-rain",
 			Character:   "🌧",
 			UnicodeName: "cloud with rain",
@@ -2507,7 +4640,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127784: {
+		"🌨": {
 			Slug:        "cloud-with-snow",
 			Character:   "🌨",
 			UnicodeName: "cloud with snow",
@@ -2516,7 +4649,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127785: {
+		"🌩": {
 			Slug:        "cloud-with-lightning",
 			Character:   "🌩",
 			UnicodeName: "cloud with lightning",
@@ -2525,7 +4658,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127786: {
+		"🌪": {
 			Slug:        "tornado",
 			Character:   "🌪",
 			UnicodeName: "tornado",
@@ -2534,7 +4667,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127787: {
+		"🌫": {
 			Slug:        "fog",
 			Character:   "🌫",
 			UnicodeName: "fog",
@@ -2543,7 +4676,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127788: {
+		"🌬": {
 			Slug:        "wind-face",
 			Character:   "🌬",
 			UnicodeName: "wind face",
@@ -2552,7 +4685,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		127789: {
+		"🌭": {
 			Slug:        "hot-dog",
 			Character:   "🌭",
 			UnicodeName: "hot dog",
@@ -2561,7 +4694,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127790: {
+		"🌮": {
 			Slug:        "taco",
 			Character:   "🌮",
 			UnicodeName: "taco",
@@ -2570,7 +4703,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127791: {
+		"🌯": {
 			Slug:        "burrito",
 			Character:   "🌯",
 			UnicodeName: "burrito",
@@ -2579,7 +4712,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127792: {
+		"🌰": {
 			Slug:        "chestnut",
 			Character:   "🌰",
 			UnicodeName: "chestnut",
@@ -2588,7 +4721,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		127793: {
+		"🌱": {
 			Slug:        "seedling",
 			Character:   "🌱",
 			UnicodeName: "seedling",
@@ -2597,7 +4730,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127794: {
+		"🌲": {
 			Slug:        "evergreen-tree",
 			Character:   "🌲",
 			UnicodeName: "evergreen tree",
@@ -2606,7 +4739,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127795: {
+		"🌳": {
 			Slug:        "deciduous-tree",
 			Character:   "🌳",
 			UnicodeName: "deciduous tree",
@@ -2615,7 +4748,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127796: {
+		"🌴": {
 			Slug:        "palm-tree",
 			Character:   "🌴",
 			UnicodeName: "palm tree",
@@ -2624,7 +4757,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127797: {
+		"🌵": {
 			Slug:        "cactus",
 			Character:   "🌵",
 			UnicodeName: "cactus",
@@ -2633,7 +4766,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127798: {
+		"🌶": {
 			Slug:        "hot-pepper",
 			Character:   "🌶",
 			UnicodeName: "hot pepper",
@@ -2642,7 +4775,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		127799: {
+		"🌷": {
 			Slug:        "tulip",
 			Character:   "🌷",
 			UnicodeName: "tulip",
@@ -2651,7 +4784,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127800: {
+		"🌸": {
 			Slug:        "cherry-blossom",
 			Character:   "🌸",
 			UnicodeName: "cherry blossom",
@@ -2660,7 +4793,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127801: {
+		"🌹": {
 			Slug:        "rose",
 			Character:   "🌹",
 			UnicodeName: "rose",
@@ -2669,7 +4802,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127802: {
+		"🌺": {
 			Slug:        "hibiscus",
 			Character:   "🌺",
 			UnicodeName: "hibiscus",
@@ -2678,7 +4811,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127803: {
+		"🌻": {
 			Slug:        "sunflower",
 			Character:   "🌻",
 			UnicodeName: "sunflower",
@@ -2687,7 +4820,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127804: {
+		"🌼": {
 			Slug:        "blossom",
 			Character:   "🌼",
 			UnicodeName: "blossom",
@@ -2696,7 +4829,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127805: {
+		"🌽": {
 			Slug:        "ear-of-corn",
 			Character:   "🌽",
 			UnicodeName: "ear of corn",
@@ -2705,7 +4838,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		127806: {
+		"🌾": {
 			Slug:        "sheaf-of-rice",
 			Character:   "🌾",
 			UnicodeName: "sheaf of rice",
@@ -2714,7 +4847,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127807: {
+		"🌿": {
 			Slug:        "herb",
 			Character:   "🌿",
 			UnicodeName: "herb",
@@ -2723,7 +4856,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127808: {
+		"🍀": {
 			Slug:        "four-leaf-clover",
 			Character:   "🍀",
 			UnicodeName: "four leaf clover",
@@ -2732,7 +4865,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127809: {
+		"🍁": {
 			Slug:        "maple-leaf",
 			Character:   "🍁",
 			UnicodeName: "maple leaf",
@@ -2741,7 +4874,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127810: {
+		"🍂": {
 			Slug:        "fallen-leaf",
 			Character:   "🍂",
 			UnicodeName: "fallen leaf",
@@ -2750,7 +4883,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127811: {
+		"🍃": {
 			Slug:        "leaf-fluttering-in-wind",
 			Character:   "🍃",
 			UnicodeName: "leaf fluttering in wind",
@@ -2759,7 +4892,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		127812: {
+		"🍄": {
 			Slug:        "mushroom",
 			Character:   "🍄",
 			UnicodeName: "mushroom",
@@ -2768,7 +4901,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		127813: {
+		"🍅": {
 			Slug:        "tomato",
 			Character:   "🍅",
 			UnicodeName: "tomato",
@@ -2777,7 +4910,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127814: {
+		"🍆": {
 			Slug:        "eggplant",
 			Character:   "🍆",
 			UnicodeName: "eggplant",
@@ -2786,7 +4919,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		127815: {
+		"🍇": {
 			Slug:        "grapes",
 			Character:   "🍇",
 			UnicodeName: "grapes",
@@ -2795,7 +4928,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127816: {
+		"🍈": {
 			Slug:        "melon",
 			Character:   "🍈",
 			UnicodeName: "melon",
@@ -2804,7 +4937,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127817: {
+		"🍉": {
 			Slug:        "watermelon",
 			Character:   "🍉",
 			UnicodeName: "watermelon",
@@ -2813,7 +4946,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127818: {
+		"🍊": {
 			Slug:        "tangerine",
 			Character:   "🍊",
 			UnicodeName: "tangerine",
@@ -2822,7 +4955,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127819: {
+		"🍋": {
 			Slug:        "lemon",
 			Character:   "🍋",
 			UnicodeName: "lemon",
@@ -2831,7 +4964,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127820: {
+		"🍌": {
 			Slug:        "banana",
 			Character:   "🍌",
 			UnicodeName: "banana",
@@ -2840,7 +4973,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127821: {
+		"🍍": {
 			Slug:        "pineapple",
 			Character:   "🍍",
 			UnicodeName: "pineapple",
@@ -2849,7 +4982,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127822: {
+		"🍎": {
 			Slug:        "red-apple",
 			Character:   "🍎",
 			UnicodeName: "red apple",
@@ -2858,7 +4991,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127823: {
+		"🍏": {
 			Slug:        "green-apple",
 			Character:   "🍏",
 			UnicodeName: "green apple",
@@ -2867,7 +5000,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127824: {
+		"🍐": {
 			Slug:        "pear",
 			Character:   "🍐",
 			UnicodeName: "pear",
@@ -2876,7 +5009,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127825: {
+		"🍑": {
 			Slug:        "peach",
 			Character:   "🍑",
 			UnicodeName: "peach",
@@ -2885,7 +5018,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127826: {
+		"🍒": {
 			Slug:        "cherries",
 			Character:   "🍒",
 			UnicodeName: "cherries",
@@ -2894,7 +5027,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127827: {
+		"🍓": {
 			Slug:        "strawberry",
 			Character:   "🍓",
 			UnicodeName: "strawberry",
@@ -2903,7 +5036,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		127828: {
+		"🍔": {
 			Slug:        "hamburger",
 			Character:   "🍔",
 			UnicodeName: "hamburger",
@@ -2912,7 +5045,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127829: {
+		"🍕": {
 			Slug:        "pizza",
 			Character:   "🍕",
 			UnicodeName: "pizza",
@@ -2921,7 +5054,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127830: {
+		"🍖": {
 			Slug:        "meat-on-bone",
 			Character:   "🍖",
 			UnicodeName: "meat on bone",
@@ -2930,7 +5063,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127831: {
+		"🍗": {
 			Slug:        "poultry-leg",
 			Character:   "🍗",
 			UnicodeName: "poultry leg",
@@ -2939,7 +5072,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127832: {
+		"🍘": {
 			Slug:        "rice-cracker",
 			Character:   "🍘",
 			UnicodeName: "rice cracker",
@@ -2948,7 +5081,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127833: {
+		"🍙": {
 			Slug:        "rice-ball",
 			Character:   "🍙",
 			UnicodeName: "rice ball",
@@ -2957,7 +5090,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127834: {
+		"🍚": {
 			Slug:        "cooked-rice",
 			Character:   "🍚",
 			UnicodeName: "cooked rice",
@@ -2966,7 +5099,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127835: {
+		"🍛": {
 			Slug:        "curry-rice",
 			Character:   "🍛",
 			UnicodeName: "curry rice",
@@ -2975,7 +5108,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127836: {
+		"🍜": {
 			Slug:        "steaming-bowl",
 			Character:   "🍜",
 			UnicodeName: "steaming bowl",
@@ -2984,7 +5117,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127837: {
+		"🍝": {
 			Slug:        "spaghetti",
 			Character:   "🍝",
 			UnicodeName: "spaghetti",
@@ -2993,7 +5126,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127838: {
+		"🍞": {
 			Slug:        "bread",
 			Character:   "🍞",
 			UnicodeName: "bread",
@@ -3002,7 +5135,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127839: {
+		"🍟": {
 			Slug:        "french-fries",
 			Character:   "🍟",
 			UnicodeName: "french fries",
@@ -3011,7 +5144,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127840: {
+		"🍠": {
 			Slug:        "roasted-sweet-potato",
 			Character:   "🍠",
 			UnicodeName: "roasted sweet potato",
@@ -3020,7 +5153,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127841: {
+		"🍡": {
 			Slug:        "dango",
 			Character:   "🍡",
 			UnicodeName: "dango",
@@ -3029,7 +5162,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127842: {
+		"🍢": {
 			Slug:        "oden",
 			Character:   "🍢",
 			UnicodeName: "oden",
@@ -3038,7 +5171,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127843: {
+		"🍣": {
 			Slug:        "sushi",
 			Character:   "🍣",
 			UnicodeName: "sushi",
@@ -3047,7 +5180,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127844: {
+		"🍤": {
 			Slug:        "fried-shrimp",
 			Character:   "🍤",
 			UnicodeName: "fried shrimp",
@@ -3056,7 +5189,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127845: {
+		"🍥": {
 			Slug:        "fish-cake-with-swirl",
 			Character:   "🍥",
 			UnicodeName: "fish cake with swirl",
@@ -3065,7 +5198,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127846: {
+		"🍦": {
 			Slug:        "soft-ice-cream",
 			Character:   "🍦",
 			UnicodeName: "soft ice cream",
@@ -3074,7 +5207,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127847: {
+		"🍧": {
 			Slug:        "shaved-ice",
 			Character:   "🍧",
 			UnicodeName: "shaved ice",
@@ -3083,7 +5216,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127848: {
+		"🍨": {
 			Slug:        "ice-cream",
 			Character:   "🍨",
 			UnicodeName: "ice cream",
@@ -3092,7 +5225,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127849: {
+		"🍩": {
 			Slug:        "doughnut",
 			Character:   "🍩",
 			UnicodeName: "doughnut",
@@ -3101,7 +5234,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127850: {
+		"🍪": {
 			Slug:        "cookie",
 			Character:   "🍪",
 			UnicodeName: "cookie",
@@ -3110,7 +5243,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127851: {
+		"🍫": {
 			Slug:        "chocolate-bar",
 			Character:   "🍫",
 			UnicodeName: "chocolate bar",
@@ -3119,7 +5252,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127852: {
+		"🍬": {
 			Slug:        "candy",
 			Character:   "🍬",
 			UnicodeName: "candy",
@@ -3128,7 +5261,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127853: {
+		"🍭": {
 			Slug:        "lollipop",
 			Character:   "🍭",
 			UnicodeName: "lollipop",
@@ -3137,7 +5270,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127854: {
+		"🍮": {
 			Slug:        "custard",
 			Character:   "🍮",
 			UnicodeName: "custard",
@@ -3146,7 +5279,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127855: {
+		"🍯": {
 			Slug:        "honey-pot",
 			Character:   "🍯",
 			UnicodeName: "honey pot",
@@ -3155,7 +5288,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127856: {
+		"🍰": {
 			Slug:        "shortcake",
 			Character:   "🍰",
 			UnicodeName: "shortcake",
@@ -3164,7 +5297,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127857: {
+		"🍱": {
 			Slug:        "bento-box",
 			Character:   "🍱",
 			UnicodeName: "bento box",
@@ -3173,7 +5306,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		127858: {
+		"🍲": {
 			Slug:        "pot-of-food",
 			Character:   "🍲",
 			UnicodeName: "pot of food",
@@ -3182,7 +5315,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127859: {
+		"🍳": {
 			Slug:        "cooking",
 			Character:   "🍳",
 			UnicodeName: "cooking",
@@ -3191,7 +5324,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127860: {
+		"🍴": {
 			Slug:        "fork-and-knife",
 			Character:   "🍴",
 			UnicodeName: "fork and knife",
@@ -3200,7 +5333,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		127861: {
+		"🍵": {
 			Slug:        "teacup-without-handle",
 			Character:   "🍵",
 			UnicodeName: "teacup without handle",
@@ -3209,7 +5342,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127862: {
+		"🍶": {
 			Slug:        "sake",
 			Character:   "🍶",
 			UnicodeName: "sake",
@@ -3218,7 +5351,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127863: {
+		"🍷": {
 			Slug:        "wine-glass",
 			Character:   "🍷",
 			UnicodeName: "wine glass",
@@ -3227,7 +5360,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127864: {
+		"🍸": {
 			Slug:        "cocktail-glass",
 			Character:   "🍸",
 			UnicodeName: "cocktail glass",
@@ -3236,7 +5369,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127865: {
+		"🍹": {
 			Slug:        "tropical-drink",
 			Character:   "🍹",
 			UnicodeName: "tropical drink",
@@ -3245,7 +5378,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127866: {
+		"🍺": {
 			Slug:        "beer-mug",
 			Character:   "🍺",
 			UnicodeName: "beer mug",
@@ -3254,7 +5387,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127867: {
+		"🍻": {
 			Slug:        "clinking-beer-mugs",
 			Character:   "🍻",
 			UnicodeName: "clinking beer mugs",
@@ -3263,7 +5396,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127868: {
+		"🍼": {
 			Slug:        "baby-bottle",
 			Character:   "🍼",
 			UnicodeName: "baby bottle",
@@ -3272,7 +5405,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127869: {
+		"🍽": {
 			Slug:        "fork-and-knife-with-plate",
 			Character:   "🍽",
 			UnicodeName: "fork and knife with plate",
@@ -3281,7 +5414,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		127870: {
+		"🍾": {
 			Slug:        "bottle-with-popping-cork",
 			Character:   "🍾",
 			UnicodeName: "bottle with popping cork",
@@ -3290,7 +5423,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		127871: {
+		"🍿": {
 			Slug:        "popcorn",
 			Character:   "🍿",
 			UnicodeName: "popcorn",
@@ -3299,7 +5432,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		127872: {
+		"🎀": {
 			Slug:        "ribbon",
 			Character:   "🎀",
 			UnicodeName: "ribbon",
@@ -3308,7 +5441,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127873: {
+		"🎁": {
 			Slug:        "wrapped-gift",
 			Character:   "🎁",
 			UnicodeName: "wrapped gift",
@@ -3317,7 +5450,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127874: {
+		"🎂": {
 			Slug:        "birthday-cake",
 			Character:   "🎂",
 			UnicodeName: "birthday cake",
@@ -3326,7 +5459,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		127875: {
+		"🎃": {
 			Slug:        "jack-o-lantern",
 			Character:   "🎃",
 			UnicodeName: "jack-o-lantern",
@@ -3335,7 +5468,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127876: {
+		"🎄": {
 			Slug:        "Christmas-tree",
 			Character:   "🎄",
 			UnicodeName: "Christmas tree",
@@ -3344,7 +5477,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127877: {
+		"🎅": {
 			Slug:        "Santa-Claus",
 			Character:   "🎅",
 			UnicodeName: "Santa Claus",
@@ -3353,7 +5486,7 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		127878: {
+		"🎆": {
 			Slug:        "fireworks",
 			Character:   "🎆",
 			UnicodeName: "fireworks",
@@ -3362,7 +5495,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127879: {
+		"🎇": {
 			Slug:        "sparkler",
 			Character:   "🎇",
 			UnicodeName: "sparkler",
@@ -3371,7 +5504,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127880: {
+		"🎈": {
 			Slug:        "balloon",
 			Character:   "🎈",
 			UnicodeName: "balloon",
@@ -3380,7 +5513,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127881: {
+		"🎉": {
 			Slug:        "party-popper",
 			Character:   "🎉",
 			UnicodeName: "party popper",
@@ -3389,7 +5522,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127882: {
+		"🎊": {
 			Slug:        "confetti-ball",
 			Character:   "🎊",
 			UnicodeName: "confetti ball",
@@ -3398,7 +5531,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127883: {
+		"🎋": {
 			Slug:        "tanabata-tree",
 			Character:   "🎋",
 			UnicodeName: "tanabata tree",
@@ -3407,7 +5540,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127884: {
+		"🎌": {
 			Slug:        "crossed-flags",
 			Character:   "🎌",
 			UnicodeName: "crossed flags",
@@ -3416,7 +5549,7 @@ var (
 			SubGroup:    "flag",
 		},
 
-		127885: {
+		"🎍": {
 			Slug:        "pine-decoration",
 			Character:   "🎍",
 			UnicodeName: "pine decoration",
@@ -3425,7 +5558,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127886: {
+		"🎎": {
 			Slug:        "Japanese-dolls",
 			Character:   "🎎",
 			UnicodeName: "Japanese dolls",
@@ -3434,7 +5567,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127887: {
+		"🎏": {
 			Slug:        "carp-streamer",
 			Character:   "🎏",
 			UnicodeName: "carp streamer",
@@ -3443,7 +5576,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127888: {
+		"🎐": {
 			Slug:        "wind-chime",
 			Character:   "🎐",
 			UnicodeName: "wind chime",
@@ -3452,7 +5585,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127889: {
+		"🎑": {
 			Slug:        "moon-viewing-ceremony",
 			Character:   "🎑",
 			UnicodeName: "moon viewing ceremony",
@@ -3461,7 +5594,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127890: {
+		"🎒": {
 			Slug:        "backpack",
 			Character:   "🎒",
 			UnicodeName: "backpack",
@@ -3470,7 +5603,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		127891: {
+		"🎓": {
 			Slug:        "graduation-cap",
 			Character:   "🎓",
 			UnicodeName: "graduation cap",
@@ -3479,7 +5612,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		127894: {
+		"🎖": {
 			Slug:        "military-medal",
 			Character:   "🎖",
 			UnicodeName: "military medal",
@@ -3488,7 +5621,7 @@ var (
 			SubGroup:    "award-medal",
 		},
 
-		127895: {
+		"🎗": {
 			Slug:        "reminder-ribbon",
 			Character:   "🎗",
 			UnicodeName: "reminder ribbon",
@@ -3497,7 +5630,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127897: {
+		"🎙": {
 			Slug:        "studio-microphone",
 			Character:   "🎙",
 			UnicodeName: "studio microphone",
@@ -3506,7 +5639,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127898: {
+		"🎚": {
 			Slug:        "level-slider",
 			Character:   "🎚",
 			UnicodeName: "level slider",
@@ -3515,7 +5648,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127899: {
+		"🎛": {
 			Slug:        "control-knobs",
 			Character:   "🎛",
 			UnicodeName: "control knobs",
@@ -3524,7 +5657,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127902: {
+		"🎞": {
 			Slug:        "film-frames",
 			Character:   "🎞",
 			UnicodeName: "film frames",
@@ -3533,7 +5666,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		127903: {
+		"🎟": {
 			Slug:        "admission-tickets",
 			Character:   "🎟",
 			UnicodeName: "admission tickets",
@@ -3542,7 +5675,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127904: {
+		"🎠": {
 			Slug:        "carousel-horse",
 			Character:   "🎠",
 			UnicodeName: "carousel horse",
@@ -3551,7 +5684,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127905: {
+		"🎡": {
 			Slug:        "ferris-wheel",
 			Character:   "🎡",
 			UnicodeName: "ferris wheel",
@@ -3560,7 +5693,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127906: {
+		"🎢": {
 			Slug:        "roller-coaster",
 			Character:   "🎢",
 			UnicodeName: "roller coaster",
@@ -3569,7 +5702,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127907: {
+		"🎣": {
 			Slug:        "fishing-pole",
 			Character:   "🎣",
 			UnicodeName: "fishing pole",
@@ -3578,7 +5711,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127908: {
+		"🎤": {
 			Slug:        "microphone",
 			Character:   "🎤",
 			UnicodeName: "microphone",
@@ -3587,7 +5720,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127909: {
+		"🎥": {
 			Slug:        "movie-camera",
 			Character:   "🎥",
 			UnicodeName: "movie camera",
@@ -3596,7 +5729,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		127910: {
+		"🎦": {
 			Slug:        "cinema",
 			Character:   "🎦",
 			UnicodeName: "cinema",
@@ -3605,7 +5738,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		127911: {
+		"🎧": {
 			Slug:        "headphone",
 			Character:   "🎧",
 			UnicodeName: "headphone",
@@ -3614,7 +5747,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127912: {
+		"🎨": {
 			Slug:        "artist-palette",
 			Character:   "🎨",
 			UnicodeName: "artist palette",
@@ -3623,7 +5756,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		127913: {
+		"🎩": {
 			Slug:        "top-hat",
 			Character:   "🎩",
 			UnicodeName: "top hat",
@@ -3632,7 +5765,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		127914: {
+		"🎪": {
 			Slug:        "circus-tent",
 			Character:   "🎪",
 			UnicodeName: "circus tent",
@@ -3641,7 +5774,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127915: {
+		"🎫": {
 			Slug:        "ticket",
 			Character:   "🎫",
 			UnicodeName: "ticket",
@@ -3650,7 +5783,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		127916: {
+		"🎬": {
 			Slug:        "clapper-board",
 			Character:   "🎬",
 			UnicodeName: "clapper board",
@@ -3659,7 +5792,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		127917: {
+		"🎭": {
 			Slug:        "performing-arts",
 			Character:   "🎭",
 			UnicodeName: "performing arts",
@@ -3668,7 +5801,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		127918: {
+		"🎮": {
 			Slug:        "video-game",
 			Character:   "🎮",
 			UnicodeName: "video game",
@@ -3677,7 +5810,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127919: {
+		"🎯": {
 			Slug:        "bullseye",
 			Character:   "🎯",
 			UnicodeName: "bullseye",
@@ -3686,7 +5819,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127920: {
+		"🎰": {
 			Slug:        "slot-machine",
 			Character:   "🎰",
 			UnicodeName: "slot machine",
@@ -3695,7 +5828,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127921: {
+		"🎱": {
 			Slug:        "pool-8-ball",
 			Character:   "🎱",
 			UnicodeName: "pool 8 ball",
@@ -3704,7 +5837,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127922: {
+		"🎲": {
 			Slug:        "game-die",
 			Character:   "🎲",
 			UnicodeName: "game die",
@@ -3713,7 +5846,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127923: {
+		"🎳": {
 			Slug:        "bowling",
 			Character:   "🎳",
 			UnicodeName: "bowling",
@@ -3722,7 +5855,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127924: {
+		"🎴": {
 			Slug:        "flower-playing-cards",
 			Character:   "🎴",
 			UnicodeName: "flower playing cards",
@@ -3731,7 +5864,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		127925: {
+		"🎵": {
 			Slug:        "musical-note",
 			Character:   "🎵",
 			UnicodeName: "musical note",
@@ -3740,7 +5873,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127926: {
+		"🎶": {
 			Slug:        "musical-notes",
 			Character:   "🎶",
 			UnicodeName: "musical notes",
@@ -3749,7 +5882,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127927: {
+		"🎷": {
 			Slug:        "saxophone",
 			Character:   "🎷",
 			UnicodeName: "saxophone",
@@ -3758,7 +5891,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		127928: {
+		"🎸": {
 			Slug:        "guitar",
 			Character:   "🎸",
 			UnicodeName: "guitar",
@@ -3767,7 +5900,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		127929: {
+		"🎹": {
 			Slug:        "musical-keyboard",
 			Character:   "🎹",
 			UnicodeName: "musical keyboard",
@@ -3776,7 +5909,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		127930: {
+		"🎺": {
 			Slug:        "trumpet",
 			Character:   "🎺",
 			UnicodeName: "trumpet",
@@ -3785,7 +5918,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		127931: {
+		"🎻": {
 			Slug:        "violin",
 			Character:   "🎻",
 			UnicodeName: "violin",
@@ -3794,7 +5927,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		127932: {
+		"🎼": {
 			Slug:        "musical-score",
 			Character:   "🎼",
 			UnicodeName: "musical score",
@@ -3803,7 +5936,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		127933: {
+		"🎽": {
 			Slug:        "running-shirt",
 			Character:   "🎽",
 			UnicodeName: "running shirt",
@@ -3812,7 +5945,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127934: {
+		"🎾": {
 			Slug:        "tennis",
 			Character:   "🎾",
 			UnicodeName: "tennis",
@@ -3821,7 +5954,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127935: {
+		"🎿": {
 			Slug:        "skis",
 			Character:   "🎿",
 			UnicodeName: "skis",
@@ -3830,7 +5963,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127936: {
+		"🏀": {
 			Slug:        "basketball",
 			Character:   "🏀",
 			UnicodeName: "basketball",
@@ -3839,7 +5972,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127937: {
+		"🏁": {
 			Slug:        "chequered-flag",
 			Character:   "🏁",
 			UnicodeName: "chequered flag",
@@ -3848,7 +5981,7 @@ var (
 			SubGroup:    "flag",
 		},
 
-		127938: {
+		"🏂": {
 			Slug:        "snowboarder",
 			Character:   "🏂",
 			UnicodeName: "snowboarder",
@@ -3857,7 +5990,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		127939: {
+		"🏃": {
+			Slug:        "person-running",
+			Character:   "🏃",
+			UnicodeName: "person running",
+			CodePoint:   "U+1F3C3",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🏃‍♀️": {
 			Slug:        "woman-running",
 			Character:   "🏃‍♀️",
 			UnicodeName: "woman running",
@@ -3866,7 +6008,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		127940: {
+		"🏃‍♂️": {
+			Slug:        "man-running",
+			Character:   "🏃‍♂️",
+			UnicodeName: "man running",
+			CodePoint:   "U+1F3C3 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🏄": {
+			Slug:        "person-surfing",
+			Character:   "🏄",
+			UnicodeName: "person surfing",
+			CodePoint:   "U+1F3C4",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏄‍♀️": {
 			Slug:        "woman-surfing",
 			Character:   "🏄‍♀️",
 			UnicodeName: "woman surfing",
@@ -3875,7 +6035,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		127941: {
+		"🏄‍♂️": {
+			Slug:        "man-surfing",
+			Character:   "🏄‍♂️",
+			UnicodeName: "man surfing",
+			CodePoint:   "U+1F3C4 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏅": {
 			Slug:        "sports-medal",
 			Character:   "🏅",
 			UnicodeName: "sports medal",
@@ -3884,7 +6053,7 @@ var (
 			SubGroup:    "award-medal",
 		},
 
-		127942: {
+		"🏆": {
 			Slug:        "trophy",
 			Character:   "🏆",
 			UnicodeName: "trophy",
@@ -3893,7 +6062,7 @@ var (
 			SubGroup:    "award-medal",
 		},
 
-		127943: {
+		"🏇": {
 			Slug:        "horse-racing",
 			Character:   "🏇",
 			UnicodeName: "horse racing",
@@ -3902,7 +6071,7 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		127944: {
+		"🏈": {
 			Slug:        "american-football",
 			Character:   "🏈",
 			UnicodeName: "american football",
@@ -3911,7 +6080,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127945: {
+		"🏉": {
 			Slug:        "rugby-football",
 			Character:   "🏉",
 			UnicodeName: "rugby football",
@@ -3920,7 +6089,16 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127946: {
+		"🏊": {
+			Slug:        "person-swimming",
+			Character:   "🏊",
+			UnicodeName: "person swimming",
+			CodePoint:   "U+1F3CA",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏊‍♀️": {
 			Slug:        "woman-swimming",
 			Character:   "🏊‍♀️",
 			UnicodeName: "woman swimming",
@@ -3929,7 +6107,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		127947: {
+		"🏊‍♂️": {
+			Slug:        "man-swimming",
+			Character:   "🏊‍♂️",
+			UnicodeName: "man swimming",
+			CodePoint:   "U+1F3CA U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏋": {
+			Slug:        "person-lifting-weights",
+			Character:   "🏋",
+			UnicodeName: "person lifting weights",
+			CodePoint:   "U+1F3CB",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏋️‍♀️": {
 			Slug:        "woman-lifting-weights",
 			Character:   "🏋️‍♀️",
 			UnicodeName: "woman lifting weights",
@@ -3938,7 +6134,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		127948: {
+		"🏋️‍♂️": {
+			Slug:        "man-lifting-weights",
+			Character:   "🏋️‍♂️",
+			UnicodeName: "man lifting weights",
+			CodePoint:   "U+1F3CB U+FE0F U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏌": {
+			Slug:        "person-golfing",
+			Character:   "🏌",
+			UnicodeName: "person golfing",
+			CodePoint:   "U+1F3CC",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏌️‍♀️": {
 			Slug:        "woman-golfing",
 			Character:   "🏌️‍♀️",
 			UnicodeName: "woman golfing",
@@ -3947,7 +6161,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		127949: {
+		"🏌️‍♂️": {
+			Slug:        "man-golfing",
+			Character:   "🏌️‍♂️",
+			UnicodeName: "man golfing",
+			CodePoint:   "U+1F3CC U+FE0F U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🏍": {
 			Slug:        "motorcycle",
 			Character:   "🏍",
 			UnicodeName: "motorcycle",
@@ -3956,7 +6179,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		127950: {
+		"🏎": {
 			Slug:        "racing-car",
 			Character:   "🏎",
 			UnicodeName: "racing car",
@@ -3965,7 +6188,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		127951: {
+		"🏏": {
 			Slug:        "cricket-game",
 			Character:   "🏏",
 			UnicodeName: "cricket game",
@@ -3974,7 +6197,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127952: {
+		"🏐": {
 			Slug:        "volleyball",
 			Character:   "🏐",
 			UnicodeName: "volleyball",
@@ -3983,7 +6206,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127953: {
+		"🏑": {
 			Slug:        "field-hockey",
 			Character:   "🏑",
 			UnicodeName: "field hockey",
@@ -3992,7 +6215,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127954: {
+		"🏒": {
 			Slug:        "ice-hockey",
 			Character:   "🏒",
 			UnicodeName: "ice hockey",
@@ -4001,7 +6224,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127955: {
+		"🏓": {
 			Slug:        "ping-pong",
 			Character:   "🏓",
 			UnicodeName: "ping pong",
@@ -4010,7 +6233,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127956: {
+		"🏔": {
 			Slug:        "snow-capped-mountain",
 			Character:   "🏔",
 			UnicodeName: "snow-capped mountain",
@@ -4019,7 +6242,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127957: {
+		"🏕": {
 			Slug:        "camping",
 			Character:   "🏕",
 			UnicodeName: "camping",
@@ -4028,7 +6251,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127958: {
+		"🏖": {
 			Slug:        "beach-with-umbrella",
 			Character:   "🏖",
 			UnicodeName: "beach with umbrella",
@@ -4037,7 +6260,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127959: {
+		"🏗": {
 			Slug:        "building-construction",
 			Character:   "🏗",
 			UnicodeName: "building construction",
@@ -4046,7 +6269,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127960: {
+		"🏘": {
 			Slug:        "houses",
 			Character:   "🏘",
 			UnicodeName: "houses",
@@ -4055,7 +6278,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127961: {
+		"🏙": {
 			Slug:        "cityscape",
 			Character:   "🏙",
 			UnicodeName: "cityscape",
@@ -4064,7 +6287,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		127962: {
+		"🏚": {
 			Slug:        "derelict-house",
 			Character:   "🏚",
 			UnicodeName: "derelict house",
@@ -4073,7 +6296,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127963: {
+		"🏛": {
 			Slug:        "classical-building",
 			Character:   "🏛",
 			UnicodeName: "classical building",
@@ -4082,7 +6305,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127964: {
+		"🏜": {
 			Slug:        "desert",
 			Character:   "🏜",
 			UnicodeName: "desert",
@@ -4091,7 +6314,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127965: {
+		"🏝": {
 			Slug:        "desert-island",
 			Character:   "🏝",
 			UnicodeName: "desert island",
@@ -4100,7 +6323,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127966: {
+		"🏞": {
 			Slug:        "national-park",
 			Character:   "🏞",
 			UnicodeName: "national park",
@@ -4109,7 +6332,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		127967: {
+		"🏟": {
 			Slug:        "stadium",
 			Character:   "🏟",
 			UnicodeName: "stadium",
@@ -4118,7 +6341,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127968: {
+		"🏠": {
 			Slug:        "house",
 			Character:   "🏠",
 			UnicodeName: "house",
@@ -4127,7 +6350,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127969: {
+		"🏡": {
 			Slug:        "house-with-garden",
 			Character:   "🏡",
 			UnicodeName: "house with garden",
@@ -4136,7 +6359,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127970: {
+		"🏢": {
 			Slug:        "office-building",
 			Character:   "🏢",
 			UnicodeName: "office building",
@@ -4145,7 +6368,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127971: {
+		"🏣": {
 			Slug:        "Japanese-post-office",
 			Character:   "🏣",
 			UnicodeName: "Japanese post office",
@@ -4154,7 +6377,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127972: {
+		"🏤": {
 			Slug:        "post-office",
 			Character:   "🏤",
 			UnicodeName: "post office",
@@ -4163,7 +6386,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127973: {
+		"🏥": {
 			Slug:        "hospital",
 			Character:   "🏥",
 			UnicodeName: "hospital",
@@ -4172,7 +6395,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127974: {
+		"🏦": {
 			Slug:        "bank",
 			Character:   "🏦",
 			UnicodeName: "bank",
@@ -4181,7 +6404,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127975: {
+		"🏧": {
 			Slug:        "ATM-sign",
 			Character:   "🏧",
 			UnicodeName: "ATM sign",
@@ -4190,7 +6413,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		127976: {
+		"🏨": {
 			Slug:        "hotel",
 			Character:   "🏨",
 			UnicodeName: "hotel",
@@ -4199,7 +6422,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127977: {
+		"🏩": {
 			Slug:        "love-hotel",
 			Character:   "🏩",
 			UnicodeName: "love hotel",
@@ -4208,7 +6431,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127978: {
+		"🏪": {
 			Slug:        "convenience-store",
 			Character:   "🏪",
 			UnicodeName: "convenience store",
@@ -4217,7 +6440,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127979: {
+		"🏫": {
 			Slug:        "school",
 			Character:   "🏫",
 			UnicodeName: "school",
@@ -4226,7 +6449,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127980: {
+		"🏬": {
 			Slug:        "department-store",
 			Character:   "🏬",
 			UnicodeName: "department store",
@@ -4235,7 +6458,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127981: {
+		"🏭": {
 			Slug:        "factory",
 			Character:   "🏭",
 			UnicodeName: "factory",
@@ -4244,7 +6467,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127982: {
+		"🏮": {
 			Slug:        "red-paper-lantern",
 			Character:   "🏮",
 			UnicodeName: "red paper lantern",
@@ -4253,7 +6476,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		127983: {
+		"🏯": {
 			Slug:        "Japanese-castle",
 			Character:   "🏯",
 			UnicodeName: "Japanese castle",
@@ -4262,7 +6485,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127984: {
+		"🏰": {
 			Slug:        "castle",
 			Character:   "🏰",
 			UnicodeName: "castle",
@@ -4271,7 +6494,16 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		127987: {
+		"🏳": {
+			Slug:        "white-flag",
+			Character:   "🏳",
+			UnicodeName: "white flag",
+			CodePoint:   "U+1F3F3",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		"🏳️‍⚧️": {
 			Slug:        "transgender-flag",
 			Character:   "🏳️‍⚧️",
 			UnicodeName: "transgender flag",
@@ -4280,7 +6512,52 @@ var (
 			SubGroup:    "flag",
 		},
 
-		127988: {
+		"🏳️‍🌈": {
+			Slug:        "rainbow-flag",
+			Character:   "🏳️‍🌈",
+			UnicodeName: "rainbow flag",
+			CodePoint:   "U+1F3F3 U+FE0F U+200D U+1F308",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		"🏴": {
+			Slug:        "black-flag",
+			Character:   "🏴",
+			UnicodeName: "black flag",
+			CodePoint:   "U+1F3F4",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		"🏴‍☠️": {
+			Slug:        "pirate-flag",
+			Character:   "🏴‍☠️",
+			UnicodeName: "pirate flag",
+			CodePoint:   "U+1F3F4 U+200D U+2620 U+FE0F",
+			Group:       "Flags",
+			SubGroup:    "flag",
+		},
+
+		"🏴󠁧󠁢󠁥󠁮󠁧󠁿": {
+			Slug:        "flag:-England",
+			Character:   "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+			UnicodeName: "flag: England",
+			CodePoint:   "U+1F3F4 U+E0067 U+E0062 U+E0065 U+E006E U+E0067 U+E007F",
+			Group:       "Flags",
+			SubGroup:    "subdivision-flag",
+		},
+
+		"🏴󠁧󠁢󠁳󠁣󠁴󠁿": {
+			Slug:        "flag:-Scotland",
+			Character:   "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+			UnicodeName: "flag: Scotland",
+			CodePoint:   "U+1F3F4 U+E0067 U+E0062 U+E0073 U+E0063 U+E0074 U+E007F",
+			Group:       "Flags",
+			SubGroup:    "subdivision-flag",
+		},
+
+		"🏴󠁧󠁢󠁷󠁬󠁳󠁿": {
 			Slug:        "flag:-Wales",
 			Character:   "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
 			UnicodeName: "flag: Wales",
@@ -4289,7 +6566,7 @@ var (
 			SubGroup:    "subdivision-flag",
 		},
 
-		127989: {
+		"🏵": {
 			Slug:        "rosette",
 			Character:   "🏵",
 			UnicodeName: "rosette",
@@ -4298,7 +6575,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		127991: {
+		"🏷": {
 			Slug:        "label",
 			Character:   "🏷",
 			UnicodeName: "label",
@@ -4307,7 +6584,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		127992: {
+		"🏸": {
 			Slug:        "badminton",
 			Character:   "🏸",
 			UnicodeName: "badminton",
@@ -4316,7 +6593,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		127993: {
+		"🏹": {
 			Slug:        "bow-and-arrow",
 			Character:   "🏹",
 			UnicodeName: "bow and arrow",
@@ -4325,7 +6602,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		127994: {
+		"🏺": {
 			Slug:        "amphora",
 			Character:   "🏺",
 			UnicodeName: "amphora",
@@ -4334,7 +6611,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		128000: {
+		"🐀": {
 			Slug:        "rat",
 			Character:   "🐀",
 			UnicodeName: "rat",
@@ -4343,7 +6620,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128001: {
+		"🐁": {
 			Slug:        "mouse",
 			Character:   "🐁",
 			UnicodeName: "mouse",
@@ -4352,7 +6629,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128002: {
+		"🐂": {
 			Slug:        "ox",
 			Character:   "🐂",
 			UnicodeName: "ox",
@@ -4361,7 +6638,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128003: {
+		"🐃": {
 			Slug:        "water-buffalo",
 			Character:   "🐃",
 			UnicodeName: "water buffalo",
@@ -4370,7 +6647,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128004: {
+		"🐄": {
 			Slug:        "cow",
 			Character:   "🐄",
 			UnicodeName: "cow",
@@ -4379,7 +6656,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128005: {
+		"🐅": {
 			Slug:        "tiger",
 			Character:   "🐅",
 			UnicodeName: "tiger",
@@ -4388,7 +6665,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128006: {
+		"🐆": {
 			Slug:        "leopard",
 			Character:   "🐆",
 			UnicodeName: "leopard",
@@ -4397,7 +6674,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128007: {
+		"🐇": {
 			Slug:        "rabbit",
 			Character:   "🐇",
 			UnicodeName: "rabbit",
@@ -4406,7 +6683,16 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128008: {
+		"🐈": {
+			Slug:        "cat",
+			Character:   "🐈",
+			UnicodeName: "cat",
+			CodePoint:   "U+1F408",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		"🐈‍⬛": {
 			Slug:        "black-cat",
 			Character:   "🐈‍⬛",
 			UnicodeName: "black cat",
@@ -4415,7 +6701,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128009: {
+		"🐉": {
 			Slug:        "dragon",
 			Character:   "🐉",
 			UnicodeName: "dragon",
@@ -4424,7 +6710,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		128010: {
+		"🐊": {
 			Slug:        "crocodile",
 			Character:   "🐊",
 			UnicodeName: "crocodile",
@@ -4433,7 +6719,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		128011: {
+		"🐋": {
 			Slug:        "whale",
 			Character:   "🐋",
 			UnicodeName: "whale",
@@ -4442,7 +6728,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128012: {
+		"🐌": {
 			Slug:        "snail",
 			Character:   "🐌",
 			UnicodeName: "snail",
@@ -4451,7 +6737,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128013: {
+		"🐍": {
 			Slug:        "snake",
 			Character:   "🐍",
 			UnicodeName: "snake",
@@ -4460,7 +6746,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		128014: {
+		"🐎": {
 			Slug:        "horse",
 			Character:   "🐎",
 			UnicodeName: "horse",
@@ -4469,7 +6755,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128015: {
+		"🐏": {
 			Slug:        "ram",
 			Character:   "🐏",
 			UnicodeName: "ram",
@@ -4478,7 +6764,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128016: {
+		"🐐": {
 			Slug:        "goat",
 			Character:   "🐐",
 			UnicodeName: "goat",
@@ -4487,7 +6773,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128017: {
+		"🐑": {
 			Slug:        "ewe",
 			Character:   "🐑",
 			UnicodeName: "ewe",
@@ -4496,7 +6782,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128018: {
+		"🐒": {
 			Slug:        "monkey",
 			Character:   "🐒",
 			UnicodeName: "monkey",
@@ -4505,7 +6791,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128019: {
+		"🐓": {
 			Slug:        "rooster",
 			Character:   "🐓",
 			UnicodeName: "rooster",
@@ -4514,7 +6800,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128020: {
+		"🐔": {
 			Slug:        "chicken",
 			Character:   "🐔",
 			UnicodeName: "chicken",
@@ -4523,7 +6809,16 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128021: {
+		"🐕": {
+			Slug:        "dog",
+			Character:   "🐕",
+			UnicodeName: "dog",
+			CodePoint:   "U+1F415",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		"🐕‍🦺": {
 			Slug:        "service-dog",
 			Character:   "🐕‍🦺",
 			UnicodeName: "service dog",
@@ -4532,7 +6827,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128022: {
+		"🐖": {
 			Slug:        "pig",
 			Character:   "🐖",
 			UnicodeName: "pig",
@@ -4541,7 +6836,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128023: {
+		"🐗": {
 			Slug:        "boar",
 			Character:   "🐗",
 			UnicodeName: "boar",
@@ -4550,7 +6845,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128024: {
+		"🐘": {
 			Slug:        "elephant",
 			Character:   "🐘",
 			UnicodeName: "elephant",
@@ -4559,7 +6854,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128025: {
+		"🐙": {
 			Slug:        "octopus",
 			Character:   "🐙",
 			UnicodeName: "octopus",
@@ -4568,7 +6863,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128026: {
+		"🐚": {
 			Slug:        "spiral-shell",
 			Character:   "🐚",
 			UnicodeName: "spiral shell",
@@ -4577,7 +6872,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128027: {
+		"🐛": {
 			Slug:        "bug",
 			Character:   "🐛",
 			UnicodeName: "bug",
@@ -4586,7 +6881,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128028: {
+		"🐜": {
 			Slug:        "ant",
 			Character:   "🐜",
 			UnicodeName: "ant",
@@ -4595,7 +6890,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128029: {
+		"🐝": {
 			Slug:        "honeybee",
 			Character:   "🐝",
 			UnicodeName: "honeybee",
@@ -4604,7 +6899,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128030: {
+		"🐞": {
 			Slug:        "lady-beetle",
 			Character:   "🐞",
 			UnicodeName: "lady beetle",
@@ -4613,7 +6908,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128031: {
+		"🐟": {
 			Slug:        "fish",
 			Character:   "🐟",
 			UnicodeName: "fish",
@@ -4622,7 +6917,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128032: {
+		"🐠": {
 			Slug:        "tropical-fish",
 			Character:   "🐠",
 			UnicodeName: "tropical fish",
@@ -4631,7 +6926,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128033: {
+		"🐡": {
 			Slug:        "blowfish",
 			Character:   "🐡",
 			UnicodeName: "blowfish",
@@ -4640,7 +6935,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128034: {
+		"🐢": {
 			Slug:        "turtle",
 			Character:   "🐢",
 			UnicodeName: "turtle",
@@ -4649,7 +6944,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		128035: {
+		"🐣": {
 			Slug:        "hatching-chick",
 			Character:   "🐣",
 			UnicodeName: "hatching chick",
@@ -4658,7 +6953,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128036: {
+		"🐤": {
 			Slug:        "baby-chick",
 			Character:   "🐤",
 			UnicodeName: "baby chick",
@@ -4667,7 +6962,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128037: {
+		"🐥": {
 			Slug:        "front-facing-baby-chick",
 			Character:   "🐥",
 			UnicodeName: "front-facing baby chick",
@@ -4676,7 +6971,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128038: {
+		"🐦": {
 			Slug:        "bird",
 			Character:   "🐦",
 			UnicodeName: "bird",
@@ -4685,7 +6980,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128039: {
+		"🐧": {
 			Slug:        "penguin",
 			Character:   "🐧",
 			UnicodeName: "penguin",
@@ -4694,7 +6989,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128040: {
+		"🐨": {
 			Slug:        "koala",
 			Character:   "🐨",
 			UnicodeName: "koala",
@@ -4703,7 +6998,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128041: {
+		"🐩": {
 			Slug:        "poodle",
 			Character:   "🐩",
 			UnicodeName: "poodle",
@@ -4712,7 +7007,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128042: {
+		"🐪": {
 			Slug:        "camel",
 			Character:   "🐪",
 			UnicodeName: "camel",
@@ -4721,7 +7016,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128043: {
+		"🐫": {
 			Slug:        "two-hump-camel",
 			Character:   "🐫",
 			UnicodeName: "two-hump camel",
@@ -4730,7 +7025,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128044: {
+		"🐬": {
 			Slug:        "dolphin",
 			Character:   "🐬",
 			UnicodeName: "dolphin",
@@ -4739,7 +7034,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128045: {
+		"🐭": {
 			Slug:        "mouse-face",
 			Character:   "🐭",
 			UnicodeName: "mouse face",
@@ -4748,7 +7043,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128046: {
+		"🐮": {
 			Slug:        "cow-face",
 			Character:   "🐮",
 			UnicodeName: "cow face",
@@ -4757,7 +7052,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128047: {
+		"🐯": {
 			Slug:        "tiger-face",
 			Character:   "🐯",
 			UnicodeName: "tiger face",
@@ -4766,7 +7061,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128048: {
+		"🐰": {
 			Slug:        "rabbit-face",
 			Character:   "🐰",
 			UnicodeName: "rabbit face",
@@ -4775,7 +7070,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128049: {
+		"🐱": {
 			Slug:        "cat-face",
 			Character:   "🐱",
 			UnicodeName: "cat face",
@@ -4784,7 +7079,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128050: {
+		"🐲": {
 			Slug:        "dragon-face",
 			Character:   "🐲",
 			UnicodeName: "dragon face",
@@ -4793,7 +7088,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		128051: {
+		"🐳": {
 			Slug:        "spouting-whale",
 			Character:   "🐳",
 			UnicodeName: "spouting whale",
@@ -4802,7 +7097,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		128052: {
+		"🐴": {
 			Slug:        "horse-face",
 			Character:   "🐴",
 			UnicodeName: "horse face",
@@ -4811,7 +7106,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128053: {
+		"🐵": {
 			Slug:        "monkey-face",
 			Character:   "🐵",
 			UnicodeName: "monkey face",
@@ -4820,7 +7115,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128054: {
+		"🐶": {
 			Slug:        "dog-face",
 			Character:   "🐶",
 			UnicodeName: "dog face",
@@ -4829,7 +7124,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128055: {
+		"🐷": {
 			Slug:        "pig-face",
 			Character:   "🐷",
 			UnicodeName: "pig face",
@@ -4838,7 +7133,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128056: {
+		"🐸": {
 			Slug:        "frog",
 			Character:   "🐸",
 			UnicodeName: "frog",
@@ -4847,7 +7142,7 @@ var (
 			SubGroup:    "animal-amphibian",
 		},
 
-		128057: {
+		"🐹": {
 			Slug:        "hamster",
 			Character:   "🐹",
 			UnicodeName: "hamster",
@@ -4856,7 +7151,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128058: {
+		"🐺": {
 			Slug:        "wolf",
 			Character:   "🐺",
 			UnicodeName: "wolf",
@@ -4865,7 +7160,16 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128059: {
+		"🐻": {
+			Slug:        "bear",
+			Character:   "🐻",
+			UnicodeName: "bear",
+			CodePoint:   "U+1F43B",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		"🐻‍❄️": {
 			Slug:        "polar-bear",
 			Character:   "🐻‍❄️",
 			UnicodeName: "polar bear",
@@ -4874,7 +7178,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128060: {
+		"🐼": {
 			Slug:        "panda",
 			Character:   "🐼",
 			UnicodeName: "panda",
@@ -4883,7 +7187,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128061: {
+		"🐽": {
 			Slug:        "pig-nose",
 			Character:   "🐽",
 			UnicodeName: "pig nose",
@@ -4892,7 +7196,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128062: {
+		"🐾": {
 			Slug:        "paw-prints",
 			Character:   "🐾",
 			UnicodeName: "paw prints",
@@ -4901,7 +7205,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128063: {
+		"🐿": {
 			Slug:        "chipmunk",
 			Character:   "🐿",
 			UnicodeName: "chipmunk",
@@ -4910,7 +7214,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		128064: {
+		"👀": {
 			Slug:        "eyes",
 			Character:   "👀",
 			UnicodeName: "eyes",
@@ -4919,7 +7223,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128065: {
+		"👁": {
 			Slug:        "eye",
 			Character:   "👁",
 			UnicodeName: "eye",
@@ -4928,7 +7232,16 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128066: {
+		"👁️‍🗨️": {
+			Slug:        "eye-in-speech-bubble",
+			Character:   "👁️‍🗨️",
+			UnicodeName: "eye in speech bubble",
+			CodePoint:   "U+1F441 U+FE0F U+200D U+1F5E8 U+FE0F",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "emotion",
+		},
+
+		"👂": {
 			Slug:        "ear",
 			Character:   "👂",
 			UnicodeName: "ear",
@@ -4937,7 +7250,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128067: {
+		"👃": {
 			Slug:        "nose",
 			Character:   "👃",
 			UnicodeName: "nose",
@@ -4946,7 +7259,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128068: {
+		"👄": {
 			Slug:        "mouth",
 			Character:   "👄",
 			UnicodeName: "mouth",
@@ -4955,7 +7268,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128069: {
+		"👅": {
 			Slug:        "tongue",
 			Character:   "👅",
 			UnicodeName: "tongue",
@@ -4964,7 +7277,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128070: {
+		"👆": {
 			Slug:        "backhand-index-pointing-up",
 			Character:   "👆",
 			UnicodeName: "backhand index pointing up",
@@ -4973,7 +7286,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		128071: {
+		"👇": {
 			Slug:        "backhand-index-pointing-down",
 			Character:   "👇",
 			UnicodeName: "backhand index pointing down",
@@ -4982,7 +7295,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		128072: {
+		"👈": {
 			Slug:        "backhand-index-pointing-left",
 			Character:   "👈",
 			UnicodeName: "backhand index pointing left",
@@ -4991,7 +7304,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		128073: {
+		"👉": {
 			Slug:        "backhand-index-pointing-right",
 			Character:   "👉",
 			UnicodeName: "backhand index pointing right",
@@ -5000,7 +7313,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		128074: {
+		"👊": {
 			Slug:        "oncoming-fist",
 			Character:   "👊",
 			UnicodeName: "oncoming fist",
@@ -5009,7 +7322,7 @@ var (
 			SubGroup:    "hand-fingers-closed",
 		},
 
-		128075: {
+		"👋": {
 			Slug:        "waving-hand",
 			Character:   "👋",
 			UnicodeName: "waving hand",
@@ -5018,7 +7331,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		128076: {
+		"👌": {
 			Slug:        "OK-hand",
 			Character:   "👌",
 			UnicodeName: "OK hand",
@@ -5027,7 +7340,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		128077: {
+		"👍": {
 			Slug:        "thumbs-up",
 			Character:   "👍",
 			UnicodeName: "thumbs up",
@@ -5036,7 +7349,7 @@ var (
 			SubGroup:    "hand-fingers-closed",
 		},
 
-		128078: {
+		"👎": {
 			Slug:        "thumbs-down",
 			Character:   "👎",
 			UnicodeName: "thumbs down",
@@ -5045,7 +7358,7 @@ var (
 			SubGroup:    "hand-fingers-closed",
 		},
 
-		128079: {
+		"👏": {
 			Slug:        "clapping-hands",
 			Character:   "👏",
 			UnicodeName: "clapping hands",
@@ -5054,7 +7367,7 @@ var (
 			SubGroup:    "hands",
 		},
 
-		128080: {
+		"👐": {
 			Slug:        "open-hands",
 			Character:   "👐",
 			UnicodeName: "open hands",
@@ -5063,7 +7376,7 @@ var (
 			SubGroup:    "hands",
 		},
 
-		128081: {
+		"👑": {
 			Slug:        "crown",
 			Character:   "👑",
 			UnicodeName: "crown",
@@ -5072,7 +7385,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128082: {
+		"👒": {
 			Slug:        "woman’s-hat",
 			Character:   "👒",
 			UnicodeName: "woman’s hat",
@@ -5081,7 +7394,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128083: {
+		"👓": {
 			Slug:        "glasses",
 			Character:   "👓",
 			UnicodeName: "glasses",
@@ -5090,7 +7403,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128084: {
+		"👔": {
 			Slug:        "necktie",
 			Character:   "👔",
 			UnicodeName: "necktie",
@@ -5099,7 +7412,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128085: {
+		"👕": {
 			Slug:        "t-shirt",
 			Character:   "👕",
 			UnicodeName: "t-shirt",
@@ -5108,7 +7421,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128086: {
+		"👖": {
 			Slug:        "jeans",
 			Character:   "👖",
 			UnicodeName: "jeans",
@@ -5117,7 +7430,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128087: {
+		"👗": {
 			Slug:        "dress",
 			Character:   "👗",
 			UnicodeName: "dress",
@@ -5126,7 +7439,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128088: {
+		"👘": {
 			Slug:        "kimono",
 			Character:   "👘",
 			UnicodeName: "kimono",
@@ -5135,7 +7448,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128089: {
+		"👙": {
 			Slug:        "bikini",
 			Character:   "👙",
 			UnicodeName: "bikini",
@@ -5144,7 +7457,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128090: {
+		"👚": {
 			Slug:        "woman’s-clothes",
 			Character:   "👚",
 			UnicodeName: "woman’s clothes",
@@ -5153,7 +7466,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128091: {
+		"👛": {
 			Slug:        "purse",
 			Character:   "👛",
 			UnicodeName: "purse",
@@ -5162,7 +7475,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128092: {
+		"👜": {
 			Slug:        "handbag",
 			Character:   "👜",
 			UnicodeName: "handbag",
@@ -5171,7 +7484,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128093: {
+		"👝": {
 			Slug:        "clutch-bag",
 			Character:   "👝",
 			UnicodeName: "clutch bag",
@@ -5180,7 +7493,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128094: {
+		"👞": {
 			Slug:        "man’s-shoe",
 			Character:   "👞",
 			UnicodeName: "man’s shoe",
@@ -5189,7 +7502,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128095: {
+		"👟": {
 			Slug:        "running-shoe",
 			Character:   "👟",
 			UnicodeName: "running shoe",
@@ -5198,7 +7511,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128096: {
+		"👠": {
 			Slug:        "high-heeled-shoe",
 			Character:   "👠",
 			UnicodeName: "high-heeled shoe",
@@ -5207,7 +7520,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128097: {
+		"👡": {
 			Slug:        "woman’s-sandal",
 			Character:   "👡",
 			UnicodeName: "woman’s sandal",
@@ -5216,7 +7529,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128098: {
+		"👢": {
 			Slug:        "woman’s-boot",
 			Character:   "👢",
 			UnicodeName: "woman’s boot",
@@ -5225,7 +7538,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128099: {
+		"👣": {
 			Slug:        "footprints",
 			Character:   "👣",
 			UnicodeName: "footprints",
@@ -5234,7 +7547,7 @@ var (
 			SubGroup:    "person-symbol",
 		},
 
-		128100: {
+		"👤": {
 			Slug:        "bust-in-silhouette",
 			Character:   "👤",
 			UnicodeName: "bust in silhouette",
@@ -5243,7 +7556,7 @@ var (
 			SubGroup:    "person-symbol",
 		},
 
-		128101: {
+		"👥": {
 			Slug:        "busts-in-silhouette",
 			Character:   "👥",
 			UnicodeName: "busts in silhouette",
@@ -5252,7 +7565,7 @@ var (
 			SubGroup:    "person-symbol",
 		},
 
-		128102: {
+		"👦": {
 			Slug:        "boy",
 			Character:   "👦",
 			UnicodeName: "boy",
@@ -5261,7 +7574,7 @@ var (
 			SubGroup:    "person",
 		},
 
-		128103: {
+		"👧": {
 			Slug:        "girl",
 			Character:   "👧",
 			UnicodeName: "girl",
@@ -5270,7 +7583,169 @@ var (
 			SubGroup:    "person",
 		},
 
-		128104: {
+		"👨": {
+			Slug:        "man",
+			Character:   "👨",
+			UnicodeName: "man",
+			CodePoint:   "U+1F468",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👨‍⚕️": {
+			Slug:        "man-health-worker",
+			Character:   "👨‍⚕️",
+			UnicodeName: "man health worker",
+			CodePoint:   "U+1F468 U+200D U+2695 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍⚖️": {
+			Slug:        "man-judge",
+			Character:   "👨‍⚖️",
+			UnicodeName: "man judge",
+			CodePoint:   "U+1F468 U+200D U+2696 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍✈️": {
+			Slug:        "man-pilot",
+			Character:   "👨‍✈️",
+			UnicodeName: "man pilot",
+			CodePoint:   "U+1F468 U+200D U+2708 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍❤️‍👨": {
+			Slug:        "couple-with-heart:-man,-man",
+			Character:   "👨‍❤️‍👨",
+			UnicodeName: "couple with heart: man, man",
+			CodePoint:   "U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍❤️‍💋‍👨": {
+			Slug:        "kiss:-man,-man",
+			Character:   "👨‍❤️‍💋‍👨",
+			UnicodeName: "kiss: man, man",
+			CodePoint:   "U+1F468 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍🌾": {
+			Slug:        "man-farmer",
+			Character:   "👨‍🌾",
+			UnicodeName: "man farmer",
+			CodePoint:   "U+1F468 U+200D U+1F33E",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🍳": {
+			Slug:        "man-cook",
+			Character:   "👨‍🍳",
+			UnicodeName: "man cook",
+			CodePoint:   "U+1F468 U+200D U+1F373",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🍼": {
+			Slug:        "man-feeding-baby",
+			Character:   "👨‍🍼",
+			UnicodeName: "man feeding baby",
+			CodePoint:   "U+1F468 U+200D U+1F37C",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🎓": {
+			Slug:        "man-student",
+			Character:   "👨‍🎓",
+			UnicodeName: "man student",
+			CodePoint:   "U+1F468 U+200D U+1F393",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🎤": {
+			Slug:        "man-singer",
+			Character:   "👨‍🎤",
+			UnicodeName: "man singer",
+			CodePoint:   "U+1F468 U+200D U+1F3A4",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🎨": {
+			Slug:        "man-artist",
+			Character:   "👨‍🎨",
+			UnicodeName: "man artist",
+			CodePoint:   "U+1F468 U+200D U+1F3A8",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🏫": {
+			Slug:        "man-teacher",
+			Character:   "👨‍🏫",
+			UnicodeName: "man teacher",
+			CodePoint:   "U+1F468 U+200D U+1F3EB",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🏭": {
+			Slug:        "man-factory-worker",
+			Character:   "👨‍🏭",
+			UnicodeName: "man factory worker",
+			CodePoint:   "U+1F468 U+200D U+1F3ED",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍👦": {
+			Slug:        "family:-man,-boy",
+			Character:   "👨‍👦",
+			UnicodeName: "family: man, boy",
+			CodePoint:   "U+1F468 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👦‍👦": {
+			Slug:        "family:-man,-boy,-boy",
+			Character:   "👨‍👦‍👦",
+			UnicodeName: "family: man, boy, boy",
+			CodePoint:   "U+1F468 U+200D U+1F466 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👧": {
+			Slug:        "family:-man,-girl",
+			Character:   "👨‍👧",
+			UnicodeName: "family: man, girl",
+			CodePoint:   "U+1F468 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👧‍👦": {
+			Slug:        "family:-man,-girl,-boy",
+			Character:   "👨‍👧‍👦",
+			UnicodeName: "family: man, girl, boy",
+			CodePoint:   "U+1F468 U+200D U+1F467 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👧‍👧": {
 			Slug:        "family:-man,-girl,-girl",
 			Character:   "👨‍👧‍👧",
 			UnicodeName: "family: man, girl, girl",
@@ -5279,7 +7754,394 @@ var (
 			SubGroup:    "family",
 		},
 
-		128105: {
+		"👨‍👨‍👦": {
+			Slug:        "family:-man,-man,-boy",
+			Character:   "👨‍👨‍👦",
+			UnicodeName: "family: man, man, boy",
+			CodePoint:   "U+1F468 U+200D U+1F468 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👨‍👦‍👦": {
+			Slug:        "family:-man,-man,-boy,-boy",
+			Character:   "👨‍👨‍👦‍👦",
+			UnicodeName: "family: man, man, boy, boy",
+			CodePoint:   "U+1F468 U+200D U+1F468 U+200D U+1F466 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👨‍👧": {
+			Slug:        "family:-man,-man,-girl",
+			Character:   "👨‍👨‍👧",
+			UnicodeName: "family: man, man, girl",
+			CodePoint:   "U+1F468 U+200D U+1F468 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👨‍👧‍👦": {
+			Slug:        "family:-man,-man,-girl,-boy",
+			Character:   "👨‍👨‍👧‍👦",
+			UnicodeName: "family: man, man, girl, boy",
+			CodePoint:   "U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👨‍👧‍👧": {
+			Slug:        "family:-man,-man,-girl,-girl",
+			Character:   "👨‍👨‍👧‍👧",
+			UnicodeName: "family: man, man, girl, girl",
+			CodePoint:   "U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👩‍👦": {
+			Slug:        "family:-man,-woman,-boy",
+			Character:   "👨‍👩‍👦",
+			UnicodeName: "family: man, woman, boy",
+			CodePoint:   "U+1F468 U+200D U+1F469 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👩‍👦‍👦": {
+			Slug:        "family:-man,-woman,-boy,-boy",
+			Character:   "👨‍👩‍👦‍👦",
+			UnicodeName: "family: man, woman, boy, boy",
+			CodePoint:   "U+1F468 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👩‍👧": {
+			Slug:        "family:-man,-woman,-girl",
+			Character:   "👨‍👩‍👧",
+			UnicodeName: "family: man, woman, girl",
+			CodePoint:   "U+1F468 U+200D U+1F469 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👩‍👧‍👦": {
+			Slug:        "family:-man,-woman,-girl,-boy",
+			Character:   "👨‍👩‍👧‍👦",
+			UnicodeName: "family: man, woman, girl, boy",
+			CodePoint:   "U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍👩‍👧‍👧": {
+			Slug:        "family:-man,-woman,-girl,-girl",
+			Character:   "👨‍👩‍👧‍👧",
+			UnicodeName: "family: man, woman, girl, girl",
+			CodePoint:   "U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👨‍💻": {
+			Slug:        "man-technologist",
+			Character:   "👨‍💻",
+			UnicodeName: "man technologist",
+			CodePoint:   "U+1F468 U+200D U+1F4BB",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍💼": {
+			Slug:        "man-office-worker",
+			Character:   "👨‍💼",
+			UnicodeName: "man office worker",
+			CodePoint:   "U+1F468 U+200D U+1F4BC",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🔧": {
+			Slug:        "man-mechanic",
+			Character:   "👨‍🔧",
+			UnicodeName: "man mechanic",
+			CodePoint:   "U+1F468 U+200D U+1F527",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🔬": {
+			Slug:        "man-scientist",
+			Character:   "👨‍🔬",
+			UnicodeName: "man scientist",
+			CodePoint:   "U+1F468 U+200D U+1F52C",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🚀": {
+			Slug:        "man-astronaut",
+			Character:   "👨‍🚀",
+			UnicodeName: "man astronaut",
+			CodePoint:   "U+1F468 U+200D U+1F680",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🚒": {
+			Slug:        "man-firefighter",
+			Character:   "👨‍🚒",
+			UnicodeName: "man firefighter",
+			CodePoint:   "U+1F468 U+200D U+1F692",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👨‍🦯": {
+			Slug:        "man-with-white-cane",
+			Character:   "👨‍🦯",
+			UnicodeName: "man with white cane",
+			CodePoint:   "U+1F468 U+200D U+1F9AF",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👨‍🦰": {
+			Slug:        "man:-red-hair",
+			Character:   "👨‍🦰",
+			UnicodeName: "man: red hair",
+			CodePoint:   "U+1F468 U+200D U+1F9B0",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👨‍🦱": {
+			Slug:        "man:-curly-hair",
+			Character:   "👨‍🦱",
+			UnicodeName: "man: curly hair",
+			CodePoint:   "U+1F468 U+200D U+1F9B1",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👨‍🦲": {
+			Slug:        "man:-bald",
+			Character:   "👨‍🦲",
+			UnicodeName: "man: bald",
+			CodePoint:   "U+1F468 U+200D U+1F9B2",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👨‍🦳": {
+			Slug:        "man:-white-hair",
+			Character:   "👨‍🦳",
+			UnicodeName: "man: white hair",
+			CodePoint:   "U+1F468 U+200D U+1F9B3",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👨‍🦼": {
+			Slug:        "man-in-motorized-wheelchair",
+			Character:   "👨‍🦼",
+			UnicodeName: "man in motorized wheelchair",
+			CodePoint:   "U+1F468 U+200D U+1F9BC",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👨‍🦽": {
+			Slug:        "man-in-manual-wheelchair",
+			Character:   "👨‍🦽",
+			UnicodeName: "man in manual wheelchair",
+			CodePoint:   "U+1F468 U+200D U+1F9BD",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👩": {
+			Slug:        "woman",
+			Character:   "👩",
+			UnicodeName: "woman",
+			CodePoint:   "U+1F469",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👩‍⚕️": {
+			Slug:        "woman-health-worker",
+			Character:   "👩‍⚕️",
+			UnicodeName: "woman health worker",
+			CodePoint:   "U+1F469 U+200D U+2695 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍⚖️": {
+			Slug:        "woman-judge",
+			Character:   "👩‍⚖️",
+			UnicodeName: "woman judge",
+			CodePoint:   "U+1F469 U+200D U+2696 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍✈️": {
+			Slug:        "woman-pilot",
+			Character:   "👩‍✈️",
+			UnicodeName: "woman pilot",
+			CodePoint:   "U+1F469 U+200D U+2708 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍❤️‍👨": {
+			Slug:        "couple-with-heart:-woman,-man",
+			Character:   "👩‍❤️‍👨",
+			UnicodeName: "couple with heart: woman, man",
+			CodePoint:   "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍❤️‍👩": {
+			Slug:        "couple-with-heart:-woman,-woman",
+			Character:   "👩‍❤️‍👩",
+			UnicodeName: "couple with heart: woman, woman",
+			CodePoint:   "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍❤️‍💋‍👨": {
+			Slug:        "kiss:-woman,-man",
+			Character:   "👩‍❤️‍💋‍👨",
+			UnicodeName: "kiss: woman, man",
+			CodePoint:   "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍❤️‍💋‍👩": {
+			Slug:        "kiss:-woman,-woman",
+			Character:   "👩‍❤️‍💋‍👩",
+			UnicodeName: "kiss: woman, woman",
+			CodePoint:   "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍🌾": {
+			Slug:        "woman-farmer",
+			Character:   "👩‍🌾",
+			UnicodeName: "woman farmer",
+			CodePoint:   "U+1F469 U+200D U+1F33E",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🍳": {
+			Slug:        "woman-cook",
+			Character:   "👩‍🍳",
+			UnicodeName: "woman cook",
+			CodePoint:   "U+1F469 U+200D U+1F373",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🍼": {
+			Slug:        "woman-feeding-baby",
+			Character:   "👩‍🍼",
+			UnicodeName: "woman feeding baby",
+			CodePoint:   "U+1F469 U+200D U+1F37C",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🎓": {
+			Slug:        "woman-student",
+			Character:   "👩‍🎓",
+			UnicodeName: "woman student",
+			CodePoint:   "U+1F469 U+200D U+1F393",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🎤": {
+			Slug:        "woman-singer",
+			Character:   "👩‍🎤",
+			UnicodeName: "woman singer",
+			CodePoint:   "U+1F469 U+200D U+1F3A4",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🎨": {
+			Slug:        "woman-artist",
+			Character:   "👩‍🎨",
+			UnicodeName: "woman artist",
+			CodePoint:   "U+1F469 U+200D U+1F3A8",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🏫": {
+			Slug:        "woman-teacher",
+			Character:   "👩‍🏫",
+			UnicodeName: "woman teacher",
+			CodePoint:   "U+1F469 U+200D U+1F3EB",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🏭": {
+			Slug:        "woman-factory-worker",
+			Character:   "👩‍🏭",
+			UnicodeName: "woman factory worker",
+			CodePoint:   "U+1F469 U+200D U+1F3ED",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍👦": {
+			Slug:        "family:-woman,-boy",
+			Character:   "👩‍👦",
+			UnicodeName: "family: woman, boy",
+			CodePoint:   "U+1F469 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👦‍👦": {
+			Slug:        "family:-woman,-boy,-boy",
+			Character:   "👩‍👦‍👦",
+			UnicodeName: "family: woman, boy, boy",
+			CodePoint:   "U+1F469 U+200D U+1F466 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👧": {
+			Slug:        "family:-woman,-girl",
+			Character:   "👩‍👧",
+			UnicodeName: "family: woman, girl",
+			CodePoint:   "U+1F469 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👧‍👦": {
+			Slug:        "family:-woman,-girl,-boy",
+			Character:   "👩‍👧‍👦",
+			UnicodeName: "family: woman, girl, boy",
+			CodePoint:   "U+1F469 U+200D U+1F467 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👧‍👧": {
 			Slug:        "family:-woman,-girl,-girl",
 			Character:   "👩‍👧‍👧",
 			UnicodeName: "family: woman, girl, girl",
@@ -5288,7 +8150,169 @@ var (
 			SubGroup:    "family",
 		},
 
-		128106: {
+		"👩‍👩‍👦": {
+			Slug:        "family:-woman,-woman,-boy",
+			Character:   "👩‍👩‍👦",
+			UnicodeName: "family: woman, woman, boy",
+			CodePoint:   "U+1F469 U+200D U+1F469 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👩‍👦‍👦": {
+			Slug:        "family:-woman,-woman,-boy,-boy",
+			Character:   "👩‍👩‍👦‍👦",
+			UnicodeName: "family: woman, woman, boy, boy",
+			CodePoint:   "U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👩‍👧": {
+			Slug:        "family:-woman,-woman,-girl",
+			Character:   "👩‍👩‍👧",
+			UnicodeName: "family: woman, woman, girl",
+			CodePoint:   "U+1F469 U+200D U+1F469 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👩‍👧‍👦": {
+			Slug:        "family:-woman,-woman,-girl,-boy",
+			Character:   "👩‍👩‍👧‍👦",
+			UnicodeName: "family: woman, woman, girl, boy",
+			CodePoint:   "U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍👩‍👧‍👧": {
+			Slug:        "family:-woman,-woman,-girl,-girl",
+			Character:   "👩‍👩‍👧‍👧",
+			UnicodeName: "family: woman, woman, girl, girl",
+			CodePoint:   "U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467",
+			Group:       "People & Body",
+			SubGroup:    "family",
+		},
+
+		"👩‍💻": {
+			Slug:        "woman-technologist",
+			Character:   "👩‍💻",
+			UnicodeName: "woman technologist",
+			CodePoint:   "U+1F469 U+200D U+1F4BB",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍💼": {
+			Slug:        "woman-office-worker",
+			Character:   "👩‍💼",
+			UnicodeName: "woman office worker",
+			CodePoint:   "U+1F469 U+200D U+1F4BC",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🔧": {
+			Slug:        "woman-mechanic",
+			Character:   "👩‍🔧",
+			UnicodeName: "woman mechanic",
+			CodePoint:   "U+1F469 U+200D U+1F527",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🔬": {
+			Slug:        "woman-scientist",
+			Character:   "👩‍🔬",
+			UnicodeName: "woman scientist",
+			CodePoint:   "U+1F469 U+200D U+1F52C",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🚀": {
+			Slug:        "woman-astronaut",
+			Character:   "👩‍🚀",
+			UnicodeName: "woman astronaut",
+			CodePoint:   "U+1F469 U+200D U+1F680",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🚒": {
+			Slug:        "woman-firefighter",
+			Character:   "👩‍🚒",
+			UnicodeName: "woman firefighter",
+			CodePoint:   "U+1F469 U+200D U+1F692",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👩‍🦯": {
+			Slug:        "woman-with-white-cane",
+			Character:   "👩‍🦯",
+			UnicodeName: "woman with white cane",
+			CodePoint:   "U+1F469 U+200D U+1F9AF",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👩‍🦰": {
+			Slug:        "woman:-red-hair",
+			Character:   "👩‍🦰",
+			UnicodeName: "woman: red hair",
+			CodePoint:   "U+1F469 U+200D U+1F9B0",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👩‍🦱": {
+			Slug:        "woman:-curly-hair",
+			Character:   "👩‍🦱",
+			UnicodeName: "woman: curly hair",
+			CodePoint:   "U+1F469 U+200D U+1F9B1",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👩‍🦲": {
+			Slug:        "woman:-bald",
+			Character:   "👩‍🦲",
+			UnicodeName: "woman: bald",
+			CodePoint:   "U+1F469 U+200D U+1F9B2",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👩‍🦳": {
+			Slug:        "woman:-white-hair",
+			Character:   "👩‍🦳",
+			UnicodeName: "woman: white hair",
+			CodePoint:   "U+1F469 U+200D U+1F9B3",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👩‍🦼": {
+			Slug:        "woman-in-motorized-wheelchair",
+			Character:   "👩‍🦼",
+			UnicodeName: "woman in motorized wheelchair",
+			CodePoint:   "U+1F469 U+200D U+1F9BC",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👩‍🦽": {
+			Slug:        "woman-in-manual-wheelchair",
+			Character:   "👩‍🦽",
+			UnicodeName: "woman in manual wheelchair",
+			CodePoint:   "U+1F469 U+200D U+1F9BD",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👪": {
 			Slug:        "family",
 			Character:   "👪",
 			UnicodeName: "family",
@@ -5297,7 +8321,7 @@ var (
 			SubGroup:    "family",
 		},
 
-		128107: {
+		"👫": {
 			Slug:        "woman-and-man-holding-hands",
 			Character:   "👫",
 			UnicodeName: "woman and man holding hands",
@@ -5306,7 +8330,7 @@ var (
 			SubGroup:    "family",
 		},
 
-		128108: {
+		"👬": {
 			Slug:        "men-holding-hands",
 			Character:   "👬",
 			UnicodeName: "men holding hands",
@@ -5315,7 +8339,7 @@ var (
 			SubGroup:    "family",
 		},
 
-		128109: {
+		"👭": {
 			Slug:        "women-holding-hands",
 			Character:   "👭",
 			UnicodeName: "women holding hands",
@@ -5324,7 +8348,16 @@ var (
 			SubGroup:    "family",
 		},
 
-		128110: {
+		"👮": {
+			Slug:        "police-officer",
+			Character:   "👮",
+			UnicodeName: "police officer",
+			CodePoint:   "U+1F46E",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👮‍♀️": {
 			Slug:        "woman-police-officer",
 			Character:   "👮‍♀️",
 			UnicodeName: "woman police officer",
@@ -5333,7 +8366,25 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128111: {
+		"👮‍♂️": {
+			Slug:        "man-police-officer",
+			Character:   "👮‍♂️",
+			UnicodeName: "man police officer",
+			CodePoint:   "U+1F46E U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👯": {
+			Slug:        "people-with-bunny-ears",
+			Character:   "👯",
+			UnicodeName: "people with bunny ears",
+			CodePoint:   "U+1F46F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👯‍♀️": {
 			Slug:        "women-with-bunny-ears",
 			Character:   "👯‍♀️",
 			UnicodeName: "women with bunny ears",
@@ -5342,7 +8393,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128112: {
+		"👯‍♂️": {
+			Slug:        "men-with-bunny-ears",
+			Character:   "👯‍♂️",
+			UnicodeName: "men with bunny ears",
+			CodePoint:   "U+1F46F U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"👰": {
+			Slug:        "person-with-veil",
+			Character:   "👰",
+			UnicodeName: "person with veil",
+			CodePoint:   "U+1F470",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👰‍♀️": {
 			Slug:        "woman-with-veil",
 			Character:   "👰‍♀️",
 			UnicodeName: "woman with veil",
@@ -5351,7 +8420,34 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128113: {
+		"👰‍♂️": {
+			Slug:        "man-with-veil",
+			Character:   "👰‍♂️",
+			UnicodeName: "man with veil",
+			CodePoint:   "U+1F470 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👱": {
+			Slug:        "person:-blond-hair",
+			Character:   "👱",
+			UnicodeName: "person: blond hair",
+			CodePoint:   "U+1F471",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👱‍♀️": {
+			Slug:        "woman:-blond-hair",
+			Character:   "👱‍♀️",
+			UnicodeName: "woman: blond hair",
+			CodePoint:   "U+1F471 U+200D U+2640 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"👱‍♂️": {
 			Slug:        "man:-blond-hair",
 			Character:   "👱‍♂️",
 			UnicodeName: "man: blond hair",
@@ -5360,7 +8456,7 @@ var (
 			SubGroup:    "person",
 		},
 
-		128114: {
+		"👲": {
 			Slug:        "person-with-skullcap",
 			Character:   "👲",
 			UnicodeName: "person with skullcap",
@@ -5369,7 +8465,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128115: {
+		"👳": {
+			Slug:        "person-wearing-turban",
+			Character:   "👳",
+			UnicodeName: "person wearing turban",
+			CodePoint:   "U+1F473",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👳‍♀️": {
 			Slug:        "woman-wearing-turban",
 			Character:   "👳‍♀️",
 			UnicodeName: "woman wearing turban",
@@ -5378,7 +8483,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128116: {
+		"👳‍♂️": {
+			Slug:        "man-wearing-turban",
+			Character:   "👳‍♂️",
+			UnicodeName: "man wearing turban",
+			CodePoint:   "U+1F473 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👴": {
 			Slug:        "old-man",
 			Character:   "👴",
 			UnicodeName: "old man",
@@ -5387,7 +8501,7 @@ var (
 			SubGroup:    "person",
 		},
 
-		128117: {
+		"👵": {
 			Slug:        "old-woman",
 			Character:   "👵",
 			UnicodeName: "old woman",
@@ -5396,7 +8510,7 @@ var (
 			SubGroup:    "person",
 		},
 
-		128118: {
+		"👶": {
 			Slug:        "baby",
 			Character:   "👶",
 			UnicodeName: "baby",
@@ -5405,7 +8519,16 @@ var (
 			SubGroup:    "person",
 		},
 
-		128119: {
+		"👷": {
+			Slug:        "construction-worker",
+			Character:   "👷",
+			UnicodeName: "construction worker",
+			CodePoint:   "U+1F477",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👷‍♀️": {
 			Slug:        "woman-construction-worker",
 			Character:   "👷‍♀️",
 			UnicodeName: "woman construction worker",
@@ -5414,7 +8537,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128120: {
+		"👷‍♂️": {
+			Slug:        "man-construction-worker",
+			Character:   "👷‍♂️",
+			UnicodeName: "man construction worker",
+			CodePoint:   "U+1F477 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"👸": {
 			Slug:        "princess",
 			Character:   "👸",
 			UnicodeName: "princess",
@@ -5423,7 +8555,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128121: {
+		"👹": {
 			Slug:        "ogre",
 			Character:   "👹",
 			UnicodeName: "ogre",
@@ -5432,7 +8564,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		128122: {
+		"👺": {
 			Slug:        "goblin",
 			Character:   "👺",
 			UnicodeName: "goblin",
@@ -5441,7 +8573,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		128123: {
+		"👻": {
 			Slug:        "ghost",
 			Character:   "👻",
 			UnicodeName: "ghost",
@@ -5450,7 +8582,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		128124: {
+		"👼": {
 			Slug:        "baby-angel",
 			Character:   "👼",
 			UnicodeName: "baby angel",
@@ -5459,7 +8591,7 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		128125: {
+		"👽": {
 			Slug:        "alien",
 			Character:   "👽",
 			UnicodeName: "alien",
@@ -5468,7 +8600,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		128126: {
+		"👾": {
 			Slug:        "alien-monster",
 			Character:   "👾",
 			UnicodeName: "alien monster",
@@ -5477,7 +8609,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		128127: {
+		"👿": {
 			Slug:        "angry-face-with-horns",
 			Character:   "👿",
 			UnicodeName: "angry face with horns",
@@ -5486,7 +8618,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		128128: {
+		"💀": {
 			Slug:        "skull",
 			Character:   "💀",
 			UnicodeName: "skull",
@@ -5495,7 +8627,16 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		128129: {
+		"💁": {
+			Slug:        "person-tipping-hand",
+			Character:   "💁",
+			UnicodeName: "person tipping hand",
+			CodePoint:   "U+1F481",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"💁‍♀️": {
 			Slug:        "woman-tipping-hand",
 			Character:   "💁‍♀️",
 			UnicodeName: "woman tipping hand",
@@ -5504,7 +8645,25 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128130: {
+		"💁‍♂️": {
+			Slug:        "man-tipping-hand",
+			Character:   "💁‍♂️",
+			UnicodeName: "man tipping hand",
+			CodePoint:   "U+1F481 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"💂": {
+			Slug:        "guard",
+			Character:   "💂",
+			UnicodeName: "guard",
+			CodePoint:   "U+1F482",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"💂‍♀️": {
 			Slug:        "woman-guard",
 			Character:   "💂‍♀️",
 			UnicodeName: "woman guard",
@@ -5513,7 +8672,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128131: {
+		"💂‍♂️": {
+			Slug:        "man-guard",
+			Character:   "💂‍♂️",
+			UnicodeName: "man guard",
+			CodePoint:   "U+1F482 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"💃": {
 			Slug:        "woman-dancing",
 			Character:   "💃",
 			UnicodeName: "woman dancing",
@@ -5522,7 +8690,7 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128132: {
+		"💄": {
 			Slug:        "lipstick",
 			Character:   "💄",
 			UnicodeName: "lipstick",
@@ -5531,7 +8699,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128133: {
+		"💅": {
 			Slug:        "nail-polish",
 			Character:   "💅",
 			UnicodeName: "nail polish",
@@ -5540,7 +8708,16 @@ var (
 			SubGroup:    "hand-prop",
 		},
 
-		128134: {
+		"💆": {
+			Slug:        "person-getting-massage",
+			Character:   "💆",
+			UnicodeName: "person getting massage",
+			CodePoint:   "U+1F486",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"💆‍♀️": {
 			Slug:        "woman-getting-massage",
 			Character:   "💆‍♀️",
 			UnicodeName: "woman getting massage",
@@ -5549,7 +8726,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128135: {
+		"💆‍♂️": {
+			Slug:        "man-getting-massage",
+			Character:   "💆‍♂️",
+			UnicodeName: "man getting massage",
+			CodePoint:   "U+1F486 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"💇": {
+			Slug:        "person-getting-haircut",
+			Character:   "💇",
+			UnicodeName: "person getting haircut",
+			CodePoint:   "U+1F487",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"💇‍♀️": {
 			Slug:        "woman-getting-haircut",
 			Character:   "💇‍♀️",
 			UnicodeName: "woman getting haircut",
@@ -5558,7 +8753,16 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128136: {
+		"💇‍♂️": {
+			Slug:        "man-getting-haircut",
+			Character:   "💇‍♂️",
+			UnicodeName: "man getting haircut",
+			CodePoint:   "U+1F487 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"💈": {
 			Slug:        "barber-pole",
 			Character:   "💈",
 			UnicodeName: "barber pole",
@@ -5567,7 +8771,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		128137: {
+		"💉": {
 			Slug:        "syringe",
 			Character:   "💉",
 			UnicodeName: "syringe",
@@ -5576,7 +8780,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		128138: {
+		"💊": {
 			Slug:        "pill",
 			Character:   "💊",
 			UnicodeName: "pill",
@@ -5585,7 +8789,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		128139: {
+		"💋": {
 			Slug:        "kiss-mark",
 			Character:   "💋",
 			UnicodeName: "kiss mark",
@@ -5594,7 +8798,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128140: {
+		"💌": {
 			Slug:        "love-letter",
 			Character:   "💌",
 			UnicodeName: "love letter",
@@ -5603,7 +8807,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128141: {
+		"💍": {
 			Slug:        "ring",
 			Character:   "💍",
 			UnicodeName: "ring",
@@ -5612,7 +8816,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128142: {
+		"💎": {
 			Slug:        "gem-stone",
 			Character:   "💎",
 			UnicodeName: "gem stone",
@@ -5621,7 +8825,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128143: {
+		"💏": {
 			Slug:        "kiss",
 			Character:   "💏",
 			UnicodeName: "kiss",
@@ -5630,7 +8834,7 @@ var (
 			SubGroup:    "family",
 		},
 
-		128144: {
+		"💐": {
 			Slug:        "bouquet",
 			Character:   "💐",
 			UnicodeName: "bouquet",
@@ -5639,7 +8843,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		128145: {
+		"💑": {
 			Slug:        "couple-with-heart",
 			Character:   "💑",
 			UnicodeName: "couple with heart",
@@ -5648,7 +8852,7 @@ var (
 			SubGroup:    "family",
 		},
 
-		128146: {
+		"💒": {
 			Slug:        "wedding",
 			Character:   "💒",
 			UnicodeName: "wedding",
@@ -5657,7 +8861,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		128147: {
+		"💓": {
 			Slug:        "beating-heart",
 			Character:   "💓",
 			UnicodeName: "beating heart",
@@ -5666,7 +8870,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128148: {
+		"💔": {
 			Slug:        "broken-heart",
 			Character:   "💔",
 			UnicodeName: "broken heart",
@@ -5675,7 +8879,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128149: {
+		"💕": {
 			Slug:        "two-hearts",
 			Character:   "💕",
 			UnicodeName: "two hearts",
@@ -5684,7 +8888,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128150: {
+		"💖": {
 			Slug:        "sparkling-heart",
 			Character:   "💖",
 			UnicodeName: "sparkling heart",
@@ -5693,7 +8897,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128151: {
+		"💗": {
 			Slug:        "growing-heart",
 			Character:   "💗",
 			UnicodeName: "growing heart",
@@ -5702,7 +8906,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128152: {
+		"💘": {
 			Slug:        "heart-with-arrow",
 			Character:   "💘",
 			UnicodeName: "heart with arrow",
@@ -5711,7 +8915,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128153: {
+		"💙": {
 			Slug:        "blue-heart",
 			Character:   "💙",
 			UnicodeName: "blue heart",
@@ -5720,7 +8924,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128154: {
+		"💚": {
 			Slug:        "green-heart",
 			Character:   "💚",
 			UnicodeName: "green heart",
@@ -5729,7 +8933,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128155: {
+		"💛": {
 			Slug:        "yellow-heart",
 			Character:   "💛",
 			UnicodeName: "yellow heart",
@@ -5738,7 +8942,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128156: {
+		"💜": {
 			Slug:        "purple-heart",
 			Character:   "💜",
 			UnicodeName: "purple heart",
@@ -5747,7 +8951,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128157: {
+		"💝": {
 			Slug:        "heart-with-ribbon",
 			Character:   "💝",
 			UnicodeName: "heart with ribbon",
@@ -5756,7 +8960,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128158: {
+		"💞": {
 			Slug:        "revolving-hearts",
 			Character:   "💞",
 			UnicodeName: "revolving hearts",
@@ -5765,7 +8969,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128159: {
+		"💟": {
 			Slug:        "heart-decoration",
 			Character:   "💟",
 			UnicodeName: "heart decoration",
@@ -5774,7 +8978,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128160: {
+		"💠": {
 			Slug:        "diamond-with-a-dot",
 			Character:   "💠",
 			UnicodeName: "diamond with a dot",
@@ -5783,7 +8987,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128161: {
+		"💡": {
 			Slug:        "light-bulb",
 			Character:   "💡",
 			UnicodeName: "light bulb",
@@ -5792,7 +8996,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128162: {
+		"💢": {
 			Slug:        "anger-symbol",
 			Character:   "💢",
 			UnicodeName: "anger symbol",
@@ -5801,7 +9005,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128163: {
+		"💣": {
 			Slug:        "bomb",
 			Character:   "💣",
 			UnicodeName: "bomb",
@@ -5810,7 +9014,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128164: {
+		"💤": {
 			Slug:        "zzz",
 			Character:   "💤",
 			UnicodeName: "zzz",
@@ -5819,7 +9023,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128165: {
+		"💥": {
 			Slug:        "collision",
 			Character:   "💥",
 			UnicodeName: "collision",
@@ -5828,7 +9032,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128166: {
+		"💦": {
 			Slug:        "sweat-droplets",
 			Character:   "💦",
 			UnicodeName: "sweat droplets",
@@ -5837,7 +9041,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128167: {
+		"💧": {
 			Slug:        "droplet",
 			Character:   "💧",
 			UnicodeName: "droplet",
@@ -5846,7 +9050,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		128168: {
+		"💨": {
 			Slug:        "dashing-away",
 			Character:   "💨",
 			UnicodeName: "dashing away",
@@ -5855,7 +9059,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128169: {
+		"💩": {
 			Slug:        "pile-of-poo",
 			Character:   "💩",
 			UnicodeName: "pile of poo",
@@ -5864,7 +9068,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		128170: {
+		"💪": {
 			Slug:        "flexed-biceps",
 			Character:   "💪",
 			UnicodeName: "flexed biceps",
@@ -5873,7 +9077,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		128171: {
+		"💫": {
 			Slug:        "dizzy",
 			Character:   "💫",
 			UnicodeName: "dizzy",
@@ -5882,7 +9086,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128172: {
+		"💬": {
 			Slug:        "speech-balloon",
 			Character:   "💬",
 			UnicodeName: "speech balloon",
@@ -5891,7 +9095,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128173: {
+		"💭": {
 			Slug:        "thought-balloon",
 			Character:   "💭",
 			UnicodeName: "thought balloon",
@@ -5900,7 +9104,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128174: {
+		"💮": {
 			Slug:        "white-flower",
 			Character:   "💮",
 			UnicodeName: "white flower",
@@ -5909,7 +9113,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		128175: {
+		"💯": {
 			Slug:        "hundred-points",
 			Character:   "💯",
 			UnicodeName: "hundred points",
@@ -5918,7 +9122,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128176: {
+		"💰": {
 			Slug:        "money-bag",
 			Character:   "💰",
 			UnicodeName: "money bag",
@@ -5927,7 +9131,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128177: {
+		"💱": {
 			Slug:        "currency-exchange",
 			Character:   "💱",
 			UnicodeName: "currency exchange",
@@ -5936,7 +9140,7 @@ var (
 			SubGroup:    "currency",
 		},
 
-		128178: {
+		"💲": {
 			Slug:        "heavy-dollar-sign",
 			Character:   "💲",
 			UnicodeName: "heavy dollar sign",
@@ -5945,7 +9149,7 @@ var (
 			SubGroup:    "currency",
 		},
 
-		128179: {
+		"💳": {
 			Slug:        "credit-card",
 			Character:   "💳",
 			UnicodeName: "credit card",
@@ -5954,7 +9158,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128180: {
+		"💴": {
 			Slug:        "yen-banknote",
 			Character:   "💴",
 			UnicodeName: "yen banknote",
@@ -5963,7 +9167,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128181: {
+		"💵": {
 			Slug:        "dollar-banknote",
 			Character:   "💵",
 			UnicodeName: "dollar banknote",
@@ -5972,7 +9176,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128182: {
+		"💶": {
 			Slug:        "euro-banknote",
 			Character:   "💶",
 			UnicodeName: "euro banknote",
@@ -5981,7 +9185,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128183: {
+		"💷": {
 			Slug:        "pound-banknote",
 			Character:   "💷",
 			UnicodeName: "pound banknote",
@@ -5990,7 +9194,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128184: {
+		"💸": {
 			Slug:        "money-with-wings",
 			Character:   "💸",
 			UnicodeName: "money with wings",
@@ -5999,7 +9203,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128185: {
+		"💹": {
 			Slug:        "chart-increasing-with-yen",
 			Character:   "💹",
 			UnicodeName: "chart increasing with yen",
@@ -6008,7 +9212,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		128186: {
+		"💺": {
 			Slug:        "seat",
 			Character:   "💺",
 			UnicodeName: "seat",
@@ -6017,7 +9221,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128187: {
+		"💻": {
 			Slug:        "laptop",
 			Character:   "💻",
 			UnicodeName: "laptop",
@@ -6026,7 +9230,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128188: {
+		"💼": {
 			Slug:        "briefcase",
 			Character:   "💼",
 			UnicodeName: "briefcase",
@@ -6035,7 +9239,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128189: {
+		"💽": {
 			Slug:        "computer-disk",
 			Character:   "💽",
 			UnicodeName: "computer disk",
@@ -6044,7 +9248,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128190: {
+		"💾": {
 			Slug:        "floppy-disk",
 			Character:   "💾",
 			UnicodeName: "floppy disk",
@@ -6053,7 +9257,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128191: {
+		"💿": {
 			Slug:        "optical-disk",
 			Character:   "💿",
 			UnicodeName: "optical disk",
@@ -6062,7 +9266,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128192: {
+		"📀": {
 			Slug:        "dvd",
 			Character:   "📀",
 			UnicodeName: "dvd",
@@ -6071,7 +9275,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128193: {
+		"📁": {
 			Slug:        "file-folder",
 			Character:   "📁",
 			UnicodeName: "file folder",
@@ -6080,7 +9284,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128194: {
+		"📂": {
 			Slug:        "open-file-folder",
 			Character:   "📂",
 			UnicodeName: "open file folder",
@@ -6089,7 +9293,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128195: {
+		"📃": {
 			Slug:        "page-with-curl",
 			Character:   "📃",
 			UnicodeName: "page with curl",
@@ -6098,7 +9302,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128196: {
+		"📄": {
 			Slug:        "page-facing-up",
 			Character:   "📄",
 			UnicodeName: "page facing up",
@@ -6107,7 +9311,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128197: {
+		"📅": {
 			Slug:        "calendar",
 			Character:   "📅",
 			UnicodeName: "calendar",
@@ -6116,7 +9320,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128198: {
+		"📆": {
 			Slug:        "tear-off-calendar",
 			Character:   "📆",
 			UnicodeName: "tear-off calendar",
@@ -6125,7 +9329,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128199: {
+		"📇": {
 			Slug:        "card-index",
 			Character:   "📇",
 			UnicodeName: "card index",
@@ -6134,7 +9338,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128200: {
+		"📈": {
 			Slug:        "chart-increasing",
 			Character:   "📈",
 			UnicodeName: "chart increasing",
@@ -6143,7 +9347,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128201: {
+		"📉": {
 			Slug:        "chart-decreasing",
 			Character:   "📉",
 			UnicodeName: "chart decreasing",
@@ -6152,7 +9356,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128202: {
+		"📊": {
 			Slug:        "bar-chart",
 			Character:   "📊",
 			UnicodeName: "bar chart",
@@ -6161,7 +9365,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128203: {
+		"📋": {
 			Slug:        "clipboard",
 			Character:   "📋",
 			UnicodeName: "clipboard",
@@ -6170,7 +9374,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128204: {
+		"📌": {
 			Slug:        "pushpin",
 			Character:   "📌",
 			UnicodeName: "pushpin",
@@ -6179,7 +9383,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128205: {
+		"📍": {
 			Slug:        "round-pushpin",
 			Character:   "📍",
 			UnicodeName: "round pushpin",
@@ -6188,7 +9392,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128206: {
+		"📎": {
 			Slug:        "paperclip",
 			Character:   "📎",
 			UnicodeName: "paperclip",
@@ -6197,7 +9401,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128207: {
+		"📏": {
 			Slug:        "straight-ruler",
 			Character:   "📏",
 			UnicodeName: "straight ruler",
@@ -6206,7 +9410,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128208: {
+		"📐": {
 			Slug:        "triangular-ruler",
 			Character:   "📐",
 			UnicodeName: "triangular ruler",
@@ -6215,7 +9419,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128209: {
+		"📑": {
 			Slug:        "bookmark-tabs",
 			Character:   "📑",
 			UnicodeName: "bookmark tabs",
@@ -6224,7 +9428,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128210: {
+		"📒": {
 			Slug:        "ledger",
 			Character:   "📒",
 			UnicodeName: "ledger",
@@ -6233,7 +9437,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128211: {
+		"📓": {
 			Slug:        "notebook",
 			Character:   "📓",
 			UnicodeName: "notebook",
@@ -6242,7 +9446,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128212: {
+		"📔": {
 			Slug:        "notebook-with-decorative-cover",
 			Character:   "📔",
 			UnicodeName: "notebook with decorative cover",
@@ -6251,7 +9455,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128213: {
+		"📕": {
 			Slug:        "closed-book",
 			Character:   "📕",
 			UnicodeName: "closed book",
@@ -6260,7 +9464,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128214: {
+		"📖": {
 			Slug:        "open-book",
 			Character:   "📖",
 			UnicodeName: "open book",
@@ -6269,7 +9473,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128215: {
+		"📗": {
 			Slug:        "green-book",
 			Character:   "📗",
 			UnicodeName: "green book",
@@ -6278,7 +9482,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128216: {
+		"📘": {
 			Slug:        "blue-book",
 			Character:   "📘",
 			UnicodeName: "blue book",
@@ -6287,7 +9491,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128217: {
+		"📙": {
 			Slug:        "orange-book",
 			Character:   "📙",
 			UnicodeName: "orange book",
@@ -6296,7 +9500,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128218: {
+		"📚": {
 			Slug:        "books",
 			Character:   "📚",
 			UnicodeName: "books",
@@ -6305,7 +9509,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128219: {
+		"📛": {
 			Slug:        "name-badge",
 			Character:   "📛",
 			UnicodeName: "name badge",
@@ -6314,7 +9518,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		128220: {
+		"📜": {
 			Slug:        "scroll",
 			Character:   "📜",
 			UnicodeName: "scroll",
@@ -6323,7 +9527,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128221: {
+		"📝": {
 			Slug:        "memo",
 			Character:   "📝",
 			UnicodeName: "memo",
@@ -6332,7 +9536,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		128222: {
+		"📞": {
 			Slug:        "telephone-receiver",
 			Character:   "📞",
 			UnicodeName: "telephone receiver",
@@ -6341,7 +9545,7 @@ var (
 			SubGroup:    "phone",
 		},
 
-		128223: {
+		"📟": {
 			Slug:        "pager",
 			Character:   "📟",
 			UnicodeName: "pager",
@@ -6350,7 +9554,7 @@ var (
 			SubGroup:    "phone",
 		},
 
-		128224: {
+		"📠": {
 			Slug:        "fax-machine",
 			Character:   "📠",
 			UnicodeName: "fax machine",
@@ -6359,7 +9563,7 @@ var (
 			SubGroup:    "phone",
 		},
 
-		128225: {
+		"📡": {
 			Slug:        "satellite-antenna",
 			Character:   "📡",
 			UnicodeName: "satellite antenna",
@@ -6368,7 +9572,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		128226: {
+		"📢": {
 			Slug:        "loudspeaker",
 			Character:   "📢",
 			UnicodeName: "loudspeaker",
@@ -6377,7 +9581,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128227: {
+		"📣": {
 			Slug:        "megaphone",
 			Character:   "📣",
 			UnicodeName: "megaphone",
@@ -6386,7 +9590,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128228: {
+		"📤": {
 			Slug:        "outbox-tray",
 			Character:   "📤",
 			UnicodeName: "outbox tray",
@@ -6395,7 +9599,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128229: {
+		"📥": {
 			Slug:        "inbox-tray",
 			Character:   "📥",
 			UnicodeName: "inbox tray",
@@ -6404,7 +9608,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128230: {
+		"📦": {
 			Slug:        "package",
 			Character:   "📦",
 			UnicodeName: "package",
@@ -6413,7 +9617,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128231: {
+		"📧": {
 			Slug:        "e-mail",
 			Character:   "📧",
 			UnicodeName: "e-mail",
@@ -6422,7 +9626,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128232: {
+		"📨": {
 			Slug:        "incoming-envelope",
 			Character:   "📨",
 			UnicodeName: "incoming envelope",
@@ -6431,7 +9635,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128233: {
+		"📩": {
 			Slug:        "envelope-with-arrow",
 			Character:   "📩",
 			UnicodeName: "envelope with arrow",
@@ -6440,7 +9644,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128234: {
+		"📪": {
 			Slug:        "closed-mailbox-with-lowered-flag",
 			Character:   "📪",
 			UnicodeName: "closed mailbox with lowered flag",
@@ -6449,7 +9653,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128235: {
+		"📫": {
 			Slug:        "closed-mailbox-with-raised-flag",
 			Character:   "📫",
 			UnicodeName: "closed mailbox with raised flag",
@@ -6458,7 +9662,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128236: {
+		"📬": {
 			Slug:        "open-mailbox-with-raised-flag",
 			Character:   "📬",
 			UnicodeName: "open mailbox with raised flag",
@@ -6467,7 +9671,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128237: {
+		"📭": {
 			Slug:        "open-mailbox-with-lowered-flag",
 			Character:   "📭",
 			UnicodeName: "open mailbox with lowered flag",
@@ -6476,7 +9680,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128238: {
+		"📮": {
 			Slug:        "postbox",
 			Character:   "📮",
 			UnicodeName: "postbox",
@@ -6485,7 +9689,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128239: {
+		"📯": {
 			Slug:        "postal-horn",
 			Character:   "📯",
 			UnicodeName: "postal horn",
@@ -6494,7 +9698,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128240: {
+		"📰": {
 			Slug:        "newspaper",
 			Character:   "📰",
 			UnicodeName: "newspaper",
@@ -6503,7 +9707,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128241: {
+		"📱": {
 			Slug:        "mobile-phone",
 			Character:   "📱",
 			UnicodeName: "mobile phone",
@@ -6512,7 +9716,7 @@ var (
 			SubGroup:    "phone",
 		},
 
-		128242: {
+		"📲": {
 			Slug:        "mobile-phone-with-arrow",
 			Character:   "📲",
 			UnicodeName: "mobile phone with arrow",
@@ -6521,7 +9725,7 @@ var (
 			SubGroup:    "phone",
 		},
 
-		128243: {
+		"📳": {
 			Slug:        "vibration-mode",
 			Character:   "📳",
 			UnicodeName: "vibration mode",
@@ -6530,7 +9734,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128244: {
+		"📴": {
 			Slug:        "mobile-phone-off",
 			Character:   "📴",
 			UnicodeName: "mobile phone off",
@@ -6539,7 +9743,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128245: {
+		"📵": {
 			Slug:        "no-mobile-phones",
 			Character:   "📵",
 			UnicodeName: "no mobile phones",
@@ -6548,7 +9752,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128246: {
+		"📶": {
 			Slug:        "antenna-bars",
 			Character:   "📶",
 			UnicodeName: "antenna bars",
@@ -6557,7 +9761,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128247: {
+		"📷": {
 			Slug:        "camera",
 			Character:   "📷",
 			UnicodeName: "camera",
@@ -6566,7 +9770,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128248: {
+		"📸": {
 			Slug:        "camera-with-flash",
 			Character:   "📸",
 			UnicodeName: "camera with flash",
@@ -6575,7 +9779,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128249: {
+		"📹": {
 			Slug:        "video-camera",
 			Character:   "📹",
 			UnicodeName: "video camera",
@@ -6584,7 +9788,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128250: {
+		"📺": {
 			Slug:        "television",
 			Character:   "📺",
 			UnicodeName: "television",
@@ -6593,7 +9797,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128251: {
+		"📻": {
 			Slug:        "radio",
 			Character:   "📻",
 			UnicodeName: "radio",
@@ -6602,7 +9806,7 @@ var (
 			SubGroup:    "music",
 		},
 
-		128252: {
+		"📼": {
 			Slug:        "videocassette",
 			Character:   "📼",
 			UnicodeName: "videocassette",
@@ -6611,7 +9815,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128253: {
+		"📽": {
 			Slug:        "film-projector",
 			Character:   "📽",
 			UnicodeName: "film projector",
@@ -6620,7 +9824,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128255: {
+		"📿": {
 			Slug:        "prayer-beads",
 			Character:   "📿",
 			UnicodeName: "prayer beads",
@@ -6629,7 +9833,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128256: {
+		"🔀": {
 			Slug:        "shuffle-tracks-button",
 			Character:   "🔀",
 			UnicodeName: "shuffle tracks button",
@@ -6638,7 +9842,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128257: {
+		"🔁": {
 			Slug:        "repeat-button",
 			Character:   "🔁",
 			UnicodeName: "repeat button",
@@ -6647,7 +9851,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128258: {
+		"🔂": {
 			Slug:        "repeat-single-button",
 			Character:   "🔂",
 			UnicodeName: "repeat single button",
@@ -6656,7 +9860,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128259: {
+		"🔃": {
 			Slug:        "clockwise-vertical-arrows",
 			Character:   "🔃",
 			UnicodeName: "clockwise vertical arrows",
@@ -6665,7 +9869,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128260: {
+		"🔄": {
 			Slug:        "counterclockwise-arrows-button",
 			Character:   "🔄",
 			UnicodeName: "counterclockwise arrows button",
@@ -6674,7 +9878,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128261: {
+		"🔅": {
 			Slug:        "dim-button",
 			Character:   "🔅",
 			UnicodeName: "dim button",
@@ -6683,7 +9887,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128262: {
+		"🔆": {
 			Slug:        "bright-button",
 			Character:   "🔆",
 			UnicodeName: "bright button",
@@ -6692,7 +9896,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128263: {
+		"🔇": {
 			Slug:        "muted-speaker",
 			Character:   "🔇",
 			UnicodeName: "muted speaker",
@@ -6701,7 +9905,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128264: {
+		"🔈": {
 			Slug:        "speaker-low-volume",
 			Character:   "🔈",
 			UnicodeName: "speaker low volume",
@@ -6710,7 +9914,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128265: {
+		"🔉": {
 			Slug:        "speaker-medium-volume",
 			Character:   "🔉",
 			UnicodeName: "speaker medium volume",
@@ -6719,7 +9923,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128266: {
+		"🔊": {
 			Slug:        "speaker-high-volume",
 			Character:   "🔊",
 			UnicodeName: "speaker high volume",
@@ -6728,7 +9932,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128267: {
+		"🔋": {
 			Slug:        "battery",
 			Character:   "🔋",
 			UnicodeName: "battery",
@@ -6737,7 +9941,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128268: {
+		"🔌": {
 			Slug:        "electric-plug",
 			Character:   "🔌",
 			UnicodeName: "electric plug",
@@ -6746,7 +9950,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128269: {
+		"🔍": {
 			Slug:        "magnifying-glass-tilted-left",
 			Character:   "🔍",
 			UnicodeName: "magnifying glass tilted left",
@@ -6755,7 +9959,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128270: {
+		"🔎": {
 			Slug:        "magnifying-glass-tilted-right",
 			Character:   "🔎",
 			UnicodeName: "magnifying glass tilted right",
@@ -6764,7 +9968,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128271: {
+		"🔏": {
 			Slug:        "locked-with-pen",
 			Character:   "🔏",
 			UnicodeName: "locked with pen",
@@ -6773,7 +9977,7 @@ var (
 			SubGroup:    "lock",
 		},
 
-		128272: {
+		"🔐": {
 			Slug:        "locked-with-key",
 			Character:   "🔐",
 			UnicodeName: "locked with key",
@@ -6782,7 +9986,7 @@ var (
 			SubGroup:    "lock",
 		},
 
-		128273: {
+		"🔑": {
 			Slug:        "key",
 			Character:   "🔑",
 			UnicodeName: "key",
@@ -6791,7 +9995,7 @@ var (
 			SubGroup:    "lock",
 		},
 
-		128274: {
+		"🔒": {
 			Slug:        "locked",
 			Character:   "🔒",
 			UnicodeName: "locked",
@@ -6800,7 +10004,7 @@ var (
 			SubGroup:    "lock",
 		},
 
-		128275: {
+		"🔓": {
 			Slug:        "unlocked",
 			Character:   "🔓",
 			UnicodeName: "unlocked",
@@ -6809,7 +10013,7 @@ var (
 			SubGroup:    "lock",
 		},
 
-		128276: {
+		"🔔": {
 			Slug:        "bell",
 			Character:   "🔔",
 			UnicodeName: "bell",
@@ -6818,7 +10022,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128277: {
+		"🔕": {
 			Slug:        "bell-with-slash",
 			Character:   "🔕",
 			UnicodeName: "bell with slash",
@@ -6827,7 +10031,7 @@ var (
 			SubGroup:    "sound",
 		},
 
-		128278: {
+		"🔖": {
 			Slug:        "bookmark",
 			Character:   "🔖",
 			UnicodeName: "bookmark",
@@ -6836,7 +10040,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128279: {
+		"🔗": {
 			Slug:        "link",
 			Character:   "🔗",
 			UnicodeName: "link",
@@ -6845,7 +10049,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128280: {
+		"🔘": {
 			Slug:        "radio-button",
 			Character:   "🔘",
 			UnicodeName: "radio button",
@@ -6854,7 +10058,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128281: {
+		"🔙": {
 			Slug:        "BACK-arrow",
 			Character:   "🔙",
 			UnicodeName: "BACK arrow",
@@ -6863,7 +10067,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128282: {
+		"🔚": {
 			Slug:        "END-arrow",
 			Character:   "🔚",
 			UnicodeName: "END arrow",
@@ -6872,7 +10076,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128283: {
+		"🔛": {
 			Slug:        "ON!-arrow",
 			Character:   "🔛",
 			UnicodeName: "ON! arrow",
@@ -6881,7 +10085,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128284: {
+		"🔜": {
 			Slug:        "SOON-arrow",
 			Character:   "🔜",
 			UnicodeName: "SOON arrow",
@@ -6890,7 +10094,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128285: {
+		"🔝": {
 			Slug:        "TOP-arrow",
 			Character:   "🔝",
 			UnicodeName: "TOP arrow",
@@ -6899,7 +10103,7 @@ var (
 			SubGroup:    "arrow",
 		},
 
-		128286: {
+		"🔞": {
 			Slug:        "no-one-under-eighteen",
 			Character:   "🔞",
 			UnicodeName: "no one under eighteen",
@@ -6908,7 +10112,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128287: {
+		"🔟": {
 			Slug:        "keycap:-10",
 			Character:   "🔟",
 			UnicodeName: "keycap: 10",
@@ -6917,7 +10121,7 @@ var (
 			SubGroup:    "keycap",
 		},
 
-		128288: {
+		"🔠": {
 			Slug:        "input-latin-uppercase",
 			Character:   "🔠",
 			UnicodeName: "input latin uppercase",
@@ -6926,7 +10130,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		128289: {
+		"🔡": {
 			Slug:        "input-latin-lowercase",
 			Character:   "🔡",
 			UnicodeName: "input latin lowercase",
@@ -6935,7 +10139,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		128290: {
+		"🔢": {
 			Slug:        "input-numbers",
 			Character:   "🔢",
 			UnicodeName: "input numbers",
@@ -6944,7 +10148,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		128291: {
+		"🔣": {
 			Slug:        "input-symbols",
 			Character:   "🔣",
 			UnicodeName: "input symbols",
@@ -6953,7 +10157,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		128292: {
+		"🔤": {
 			Slug:        "input-latin-letters",
 			Character:   "🔤",
 			UnicodeName: "input latin letters",
@@ -6962,7 +10166,7 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		128293: {
+		"🔥": {
 			Slug:        "fire",
 			Character:   "🔥",
 			UnicodeName: "fire",
@@ -6971,7 +10175,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		128294: {
+		"🔦": {
 			Slug:        "flashlight",
 			Character:   "🔦",
 			UnicodeName: "flashlight",
@@ -6980,7 +10184,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128295: {
+		"🔧": {
 			Slug:        "wrench",
 			Character:   "🔧",
 			UnicodeName: "wrench",
@@ -6989,7 +10193,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128296: {
+		"🔨": {
 			Slug:        "hammer",
 			Character:   "🔨",
 			UnicodeName: "hammer",
@@ -6998,7 +10202,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128297: {
+		"🔩": {
 			Slug:        "nut-and-bolt",
 			Character:   "🔩",
 			UnicodeName: "nut and bolt",
@@ -7007,7 +10211,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128298: {
+		"🔪": {
 			Slug:        "kitchen-knife",
 			Character:   "🔪",
 			UnicodeName: "kitchen knife",
@@ -7016,7 +10220,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		128299: {
+		"🔫": {
 			Slug:        "water-pistol",
 			Character:   "🔫",
 			UnicodeName: "water pistol",
@@ -7025,7 +10229,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128300: {
+		"🔬": {
 			Slug:        "microscope",
 			Character:   "🔬",
 			UnicodeName: "microscope",
@@ -7034,7 +10238,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		128301: {
+		"🔭": {
 			Slug:        "telescope",
 			Character:   "🔭",
 			UnicodeName: "telescope",
@@ -7043,7 +10247,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		128302: {
+		"🔮": {
 			Slug:        "crystal-ball",
 			Character:   "🔮",
 			UnicodeName: "crystal ball",
@@ -7052,7 +10256,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		128303: {
+		"🔯": {
 			Slug:        "dotted-six-pointed-star",
 			Character:   "🔯",
 			UnicodeName: "dotted six-pointed star",
@@ -7061,7 +10265,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		128304: {
+		"🔰": {
 			Slug:        "Japanese-symbol-for-beginner",
 			Character:   "🔰",
 			UnicodeName: "Japanese symbol for beginner",
@@ -7070,7 +10274,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		128305: {
+		"🔱": {
 			Slug:        "trident-emblem",
 			Character:   "🔱",
 			UnicodeName: "trident emblem",
@@ -7079,7 +10283,7 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
-		128306: {
+		"🔲": {
 			Slug:        "black-square-button",
 			Character:   "🔲",
 			UnicodeName: "black square button",
@@ -7088,7 +10292,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128307: {
+		"🔳": {
 			Slug:        "white-square-button",
 			Character:   "🔳",
 			UnicodeName: "white square button",
@@ -7097,7 +10301,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128308: {
+		"🔴": {
 			Slug:        "red-circle",
 			Character:   "🔴",
 			UnicodeName: "red circle",
@@ -7106,7 +10310,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128309: {
+		"🔵": {
 			Slug:        "blue-circle",
 			Character:   "🔵",
 			UnicodeName: "blue circle",
@@ -7115,7 +10319,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128310: {
+		"🔶": {
 			Slug:        "large-orange-diamond",
 			Character:   "🔶",
 			UnicodeName: "large orange diamond",
@@ -7124,7 +10328,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128311: {
+		"🔷": {
 			Slug:        "large-blue-diamond",
 			Character:   "🔷",
 			UnicodeName: "large blue diamond",
@@ -7133,7 +10337,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128312: {
+		"🔸": {
 			Slug:        "small-orange-diamond",
 			Character:   "🔸",
 			UnicodeName: "small orange diamond",
@@ -7142,7 +10346,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128313: {
+		"🔹": {
 			Slug:        "small-blue-diamond",
 			Character:   "🔹",
 			UnicodeName: "small blue diamond",
@@ -7151,7 +10355,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128314: {
+		"🔺": {
 			Slug:        "red-triangle-pointed-up",
 			Character:   "🔺",
 			UnicodeName: "red triangle pointed up",
@@ -7160,7 +10364,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128315: {
+		"🔻": {
 			Slug:        "red-triangle-pointed-down",
 			Character:   "🔻",
 			UnicodeName: "red triangle pointed down",
@@ -7169,7 +10373,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128316: {
+		"🔼": {
 			Slug:        "upwards-button",
 			Character:   "🔼",
 			UnicodeName: "upwards button",
@@ -7178,7 +10382,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128317: {
+		"🔽": {
 			Slug:        "downwards-button",
 			Character:   "🔽",
 			UnicodeName: "downwards button",
@@ -7187,7 +10391,7 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
-		128329: {
+		"🕉": {
 			Slug:        "om",
 			Character:   "🕉",
 			UnicodeName: "om",
@@ -7196,7 +10400,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		128330: {
+		"🕊": {
 			Slug:        "dove",
 			Character:   "🕊",
 			UnicodeName: "dove",
@@ -7205,7 +10409,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		128331: {
+		"🕋": {
 			Slug:        "kaaba",
 			Character:   "🕋",
 			UnicodeName: "kaaba",
@@ -7214,7 +10418,7 @@ var (
 			SubGroup:    "place-religious",
 		},
 
-		128332: {
+		"🕌": {
 			Slug:        "mosque",
 			Character:   "🕌",
 			UnicodeName: "mosque",
@@ -7223,7 +10427,7 @@ var (
 			SubGroup:    "place-religious",
 		},
 
-		128333: {
+		"🕍": {
 			Slug:        "synagogue",
 			Character:   "🕍",
 			UnicodeName: "synagogue",
@@ -7232,7 +10436,7 @@ var (
 			SubGroup:    "place-religious",
 		},
 
-		128334: {
+		"🕎": {
 			Slug:        "menorah",
 			Character:   "🕎",
 			UnicodeName: "menorah",
@@ -7241,7 +10445,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		128336: {
+		"🕐": {
 			Slug:        "one-o’clock",
 			Character:   "🕐",
 			UnicodeName: "one o’clock",
@@ -7250,7 +10454,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128337: {
+		"🕑": {
 			Slug:        "two-o’clock",
 			Character:   "🕑",
 			UnicodeName: "two o’clock",
@@ -7259,7 +10463,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128338: {
+		"🕒": {
 			Slug:        "three-o’clock",
 			Character:   "🕒",
 			UnicodeName: "three o’clock",
@@ -7268,7 +10472,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128339: {
+		"🕓": {
 			Slug:        "four-o’clock",
 			Character:   "🕓",
 			UnicodeName: "four o’clock",
@@ -7277,7 +10481,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128340: {
+		"🕔": {
 			Slug:        "five-o’clock",
 			Character:   "🕔",
 			UnicodeName: "five o’clock",
@@ -7286,7 +10490,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128341: {
+		"🕕": {
 			Slug:        "six-o’clock",
 			Character:   "🕕",
 			UnicodeName: "six o’clock",
@@ -7295,7 +10499,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128342: {
+		"🕖": {
 			Slug:        "seven-o’clock",
 			Character:   "🕖",
 			UnicodeName: "seven o’clock",
@@ -7304,7 +10508,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128343: {
+		"🕗": {
 			Slug:        "eight-o’clock",
 			Character:   "🕗",
 			UnicodeName: "eight o’clock",
@@ -7313,7 +10517,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128344: {
+		"🕘": {
 			Slug:        "nine-o’clock",
 			Character:   "🕘",
 			UnicodeName: "nine o’clock",
@@ -7322,7 +10526,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128345: {
+		"🕙": {
 			Slug:        "ten-o’clock",
 			Character:   "🕙",
 			UnicodeName: "ten o’clock",
@@ -7331,7 +10535,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128346: {
+		"🕚": {
 			Slug:        "eleven-o’clock",
 			Character:   "🕚",
 			UnicodeName: "eleven o’clock",
@@ -7340,7 +10544,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128347: {
+		"🕛": {
 			Slug:        "twelve-o’clock",
 			Character:   "🕛",
 			UnicodeName: "twelve o’clock",
@@ -7349,7 +10553,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128348: {
+		"🕜": {
 			Slug:        "one-thirty",
 			Character:   "🕜",
 			UnicodeName: "one-thirty",
@@ -7358,7 +10562,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128349: {
+		"🕝": {
 			Slug:        "two-thirty",
 			Character:   "🕝",
 			UnicodeName: "two-thirty",
@@ -7367,7 +10571,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128350: {
+		"🕞": {
 			Slug:        "three-thirty",
 			Character:   "🕞",
 			UnicodeName: "three-thirty",
@@ -7376,7 +10580,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128351: {
+		"🕟": {
 			Slug:        "four-thirty",
 			Character:   "🕟",
 			UnicodeName: "four-thirty",
@@ -7385,7 +10589,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128352: {
+		"🕠": {
 			Slug:        "five-thirty",
 			Character:   "🕠",
 			UnicodeName: "five-thirty",
@@ -7394,7 +10598,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128353: {
+		"🕡": {
 			Slug:        "six-thirty",
 			Character:   "🕡",
 			UnicodeName: "six-thirty",
@@ -7403,7 +10607,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128354: {
+		"🕢": {
 			Slug:        "seven-thirty",
 			Character:   "🕢",
 			UnicodeName: "seven-thirty",
@@ -7412,7 +10616,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128355: {
+		"🕣": {
 			Slug:        "eight-thirty",
 			Character:   "🕣",
 			UnicodeName: "eight-thirty",
@@ -7421,7 +10625,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128356: {
+		"🕤": {
 			Slug:        "nine-thirty",
 			Character:   "🕤",
 			UnicodeName: "nine-thirty",
@@ -7430,7 +10634,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128357: {
+		"🕥": {
 			Slug:        "ten-thirty",
 			Character:   "🕥",
 			UnicodeName: "ten-thirty",
@@ -7439,7 +10643,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128358: {
+		"🕦": {
 			Slug:        "eleven-thirty",
 			Character:   "🕦",
 			UnicodeName: "eleven-thirty",
@@ -7448,7 +10652,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128359: {
+		"🕧": {
 			Slug:        "twelve-thirty",
 			Character:   "🕧",
 			UnicodeName: "twelve-thirty",
@@ -7457,7 +10661,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128367: {
+		"🕯": {
 			Slug:        "candle",
 			Character:   "🕯",
 			UnicodeName: "candle",
@@ -7466,7 +10670,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		128368: {
+		"🕰": {
 			Slug:        "mantelpiece-clock",
 			Character:   "🕰",
 			UnicodeName: "mantelpiece clock",
@@ -7475,7 +10679,7 @@ var (
 			SubGroup:    "time",
 		},
 
-		128371: {
+		"🕳": {
 			Slug:        "hole",
 			Character:   "🕳",
 			UnicodeName: "hole",
@@ -7484,7 +10688,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128372: {
+		"🕴": {
 			Slug:        "person-in-suit-levitating",
 			Character:   "🕴",
 			UnicodeName: "person in suit levitating",
@@ -7493,7 +10697,16 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128373: {
+		"🕵": {
+			Slug:        "detective",
+			Character:   "🕵",
+			UnicodeName: "detective",
+			CodePoint:   "U+1F575",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🕵️‍♀️": {
 			Slug:        "woman-detective",
 			Character:   "🕵️‍♀️",
 			UnicodeName: "woman detective",
@@ -7502,7 +10715,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		128374: {
+		"🕵️‍♂️": {
+			Slug:        "man-detective",
+			Character:   "🕵️‍♂️",
+			UnicodeName: "man detective",
+			CodePoint:   "U+1F575 U+FE0F U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🕶": {
 			Slug:        "sunglasses",
 			Character:   "🕶",
 			UnicodeName: "sunglasses",
@@ -7511,7 +10733,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128375: {
+		"🕷": {
 			Slug:        "spider",
 			Character:   "🕷",
 			UnicodeName: "spider",
@@ -7520,7 +10742,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128376: {
+		"🕸": {
 			Slug:        "spider-web",
 			Character:   "🕸",
 			UnicodeName: "spider web",
@@ -7529,7 +10751,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		128377: {
+		"🕹": {
 			Slug:        "joystick",
 			Character:   "🕹",
 			UnicodeName: "joystick",
@@ -7538,7 +10760,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		128378: {
+		"🕺": {
 			Slug:        "man-dancing",
 			Character:   "🕺",
 			UnicodeName: "man dancing",
@@ -7547,7 +10769,7 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128391: {
+		"🖇": {
 			Slug:        "linked-paperclips",
 			Character:   "🖇",
 			UnicodeName: "linked paperclips",
@@ -7556,7 +10778,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128394: {
+		"🖊": {
 			Slug:        "pen",
 			Character:   "🖊",
 			UnicodeName: "pen",
@@ -7565,7 +10787,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		128395: {
+		"🖋": {
 			Slug:        "fountain-pen",
 			Character:   "🖋",
 			UnicodeName: "fountain pen",
@@ -7574,7 +10796,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		128396: {
+		"🖌": {
 			Slug:        "paintbrush",
 			Character:   "🖌",
 			UnicodeName: "paintbrush",
@@ -7583,7 +10805,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		128397: {
+		"🖍": {
 			Slug:        "crayon",
 			Character:   "🖍",
 			UnicodeName: "crayon",
@@ -7592,7 +10814,7 @@ var (
 			SubGroup:    "writing",
 		},
 
-		128400: {
+		"🖐": {
 			Slug:        "hand-with-fingers-splayed",
 			Character:   "🖐",
 			UnicodeName: "hand with fingers splayed",
@@ -7601,7 +10823,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		128405: {
+		"🖕": {
 			Slug:        "middle-finger",
 			Character:   "🖕",
 			UnicodeName: "middle finger",
@@ -7610,7 +10832,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		128406: {
+		"🖖": {
 			Slug:        "vulcan-salute",
 			Character:   "🖖",
 			UnicodeName: "vulcan salute",
@@ -7619,7 +10841,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		128420: {
+		"🖤": {
 			Slug:        "black-heart",
 			Character:   "🖤",
 			UnicodeName: "black heart",
@@ -7628,7 +10850,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128421: {
+		"🖥": {
 			Slug:        "desktop-computer",
 			Character:   "🖥",
 			UnicodeName: "desktop computer",
@@ -7637,7 +10859,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128424: {
+		"🖨": {
 			Slug:        "printer",
 			Character:   "🖨",
 			UnicodeName: "printer",
@@ -7646,7 +10868,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128433: {
+		"🖱": {
 			Slug:        "computer-mouse",
 			Character:   "🖱",
 			UnicodeName: "computer mouse",
@@ -7655,7 +10877,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128434: {
+		"🖲": {
 			Slug:        "trackball",
 			Character:   "🖲",
 			UnicodeName: "trackball",
@@ -7664,7 +10886,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		128444: {
+		"🖼": {
 			Slug:        "framed-picture",
 			Character:   "🖼",
 			UnicodeName: "framed picture",
@@ -7673,7 +10895,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		128450: {
+		"🗂": {
 			Slug:        "card-index-dividers",
 			Character:   "🗂",
 			UnicodeName: "card index dividers",
@@ -7682,7 +10904,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128451: {
+		"🗃": {
 			Slug:        "card-file-box",
 			Character:   "🗃",
 			UnicodeName: "card file box",
@@ -7691,7 +10913,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128452: {
+		"🗄": {
 			Slug:        "file-cabinet",
 			Character:   "🗄",
 			UnicodeName: "file cabinet",
@@ -7700,7 +10922,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128465: {
+		"🗑": {
 			Slug:        "wastebasket",
 			Character:   "🗑",
 			UnicodeName: "wastebasket",
@@ -7709,7 +10931,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128466: {
+		"🗒": {
 			Slug:        "spiral-notepad",
 			Character:   "🗒",
 			UnicodeName: "spiral notepad",
@@ -7718,7 +10940,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128467: {
+		"🗓": {
 			Slug:        "spiral-calendar",
 			Character:   "🗓",
 			UnicodeName: "spiral calendar",
@@ -7727,7 +10949,7 @@ var (
 			SubGroup:    "office",
 		},
 
-		128476: {
+		"🗜": {
 			Slug:        "clamp",
 			Character:   "🗜",
 			UnicodeName: "clamp",
@@ -7736,7 +10958,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128477: {
+		"🗝": {
 			Slug:        "old-key",
 			Character:   "🗝",
 			UnicodeName: "old key",
@@ -7745,7 +10967,7 @@ var (
 			SubGroup:    "lock",
 		},
 
-		128478: {
+		"🗞": {
 			Slug:        "rolled-up-newspaper",
 			Character:   "🗞",
 			UnicodeName: "rolled-up newspaper",
@@ -7754,7 +10976,7 @@ var (
 			SubGroup:    "book-paper",
 		},
 
-		128481: {
+		"🗡": {
 			Slug:        "dagger",
 			Character:   "🗡",
 			UnicodeName: "dagger",
@@ -7763,7 +10985,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128483: {
+		"🗣": {
 			Slug:        "speaking-head",
 			Character:   "🗣",
 			UnicodeName: "speaking head",
@@ -7772,7 +10994,7 @@ var (
 			SubGroup:    "person-symbol",
 		},
 
-		128488: {
+		"🗨": {
 			Slug:        "left-speech-bubble",
 			Character:   "🗨",
 			UnicodeName: "left speech bubble",
@@ -7781,7 +11003,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128495: {
+		"🗯": {
 			Slug:        "right-anger-bubble",
 			Character:   "🗯",
 			UnicodeName: "right anger bubble",
@@ -7790,7 +11012,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		128499: {
+		"🗳": {
 			Slug:        "ballot-box-with-ballot",
 			Character:   "🗳",
 			UnicodeName: "ballot box with ballot",
@@ -7799,7 +11021,7 @@ var (
 			SubGroup:    "mail",
 		},
 
-		128506: {
+		"🗺": {
 			Slug:        "world-map",
 			Character:   "🗺",
 			UnicodeName: "world map",
@@ -7808,7 +11030,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		128507: {
+		"🗻": {
 			Slug:        "mount-fuji",
 			Character:   "🗻",
 			UnicodeName: "mount fuji",
@@ -7817,7 +11039,7 @@ var (
 			SubGroup:    "place-geographic",
 		},
 
-		128508: {
+		"🗼": {
 			Slug:        "Tokyo-tower",
 			Character:   "🗼",
 			UnicodeName: "Tokyo tower",
@@ -7826,7 +11048,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		128509: {
+		"🗽": {
 			Slug:        "Statue-of-Liberty",
 			Character:   "🗽",
 			UnicodeName: "Statue of Liberty",
@@ -7835,7 +11057,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		128510: {
+		"🗾": {
 			Slug:        "map-of-Japan",
 			Character:   "🗾",
 			UnicodeName: "map of Japan",
@@ -7844,7 +11066,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		128511: {
+		"🗿": {
 			Slug:        "moai",
 			Character:   "🗿",
 			UnicodeName: "moai",
@@ -7853,7 +11075,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		128512: {
+		"😀": {
 			Slug:        "grinning-face",
 			Character:   "😀",
 			UnicodeName: "grinning face",
@@ -7862,7 +11084,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128513: {
+		"😁": {
 			Slug:        "beaming-face-with-smiling-eyes",
 			Character:   "😁",
 			UnicodeName: "beaming face with smiling eyes",
@@ -7871,7 +11093,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128514: {
+		"😂": {
 			Slug:        "face-with-tears-of-joy",
 			Character:   "😂",
 			UnicodeName: "face with tears of joy",
@@ -7880,7 +11102,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128515: {
+		"😃": {
 			Slug:        "grinning-face-with-big-eyes",
 			Character:   "😃",
 			UnicodeName: "grinning face with big eyes",
@@ -7889,7 +11111,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128516: {
+		"😄": {
 			Slug:        "grinning-face-with-smiling-eyes",
 			Character:   "😄",
 			UnicodeName: "grinning face with smiling eyes",
@@ -7898,7 +11120,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128517: {
+		"😅": {
 			Slug:        "grinning-face-with-sweat",
 			Character:   "😅",
 			UnicodeName: "grinning face with sweat",
@@ -7907,7 +11129,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128518: {
+		"😆": {
 			Slug:        "grinning-squinting-face",
 			Character:   "😆",
 			UnicodeName: "grinning squinting face",
@@ -7916,7 +11138,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128519: {
+		"😇": {
 			Slug:        "smiling-face-with-halo",
 			Character:   "😇",
 			UnicodeName: "smiling face with halo",
@@ -7925,7 +11147,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128520: {
+		"😈": {
 			Slug:        "smiling-face-with-horns",
 			Character:   "😈",
 			UnicodeName: "smiling face with horns",
@@ -7934,7 +11156,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		128521: {
+		"😉": {
 			Slug:        "winking-face",
 			Character:   "😉",
 			UnicodeName: "winking face",
@@ -7943,7 +11165,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128522: {
+		"😊": {
 			Slug:        "smiling-face-with-smiling-eyes",
 			Character:   "😊",
 			UnicodeName: "smiling face with smiling eyes",
@@ -7952,7 +11174,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128523: {
+		"😋": {
 			Slug:        "face-savoring-food",
 			Character:   "😋",
 			UnicodeName: "face savoring food",
@@ -7961,7 +11183,7 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
-		128524: {
+		"😌": {
 			Slug:        "relieved-face",
 			Character:   "😌",
 			UnicodeName: "relieved face",
@@ -7970,7 +11192,7 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
-		128525: {
+		"😍": {
 			Slug:        "smiling-face-with-heart-eyes",
 			Character:   "😍",
 			UnicodeName: "smiling face with heart-eyes",
@@ -7979,7 +11201,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		128526: {
+		"😎": {
 			Slug:        "smiling-face-with-sunglasses",
 			Character:   "😎",
 			UnicodeName: "smiling face with sunglasses",
@@ -7988,7 +11210,7 @@ var (
 			SubGroup:    "face-glasses",
 		},
 
-		128527: {
+		"😏": {
 			Slug:        "smirking-face",
 			Character:   "😏",
 			UnicodeName: "smirking face",
@@ -7997,7 +11219,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128528: {
+		"😐": {
 			Slug:        "neutral-face",
 			Character:   "😐",
 			UnicodeName: "neutral face",
@@ -8006,7 +11228,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128529: {
+		"😑": {
 			Slug:        "expressionless-face",
 			Character:   "😑",
 			UnicodeName: "expressionless face",
@@ -8015,7 +11237,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128530: {
+		"😒": {
 			Slug:        "unamused-face",
 			Character:   "😒",
 			UnicodeName: "unamused face",
@@ -8024,7 +11246,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128531: {
+		"😓": {
 			Slug:        "downcast-face-with-sweat",
 			Character:   "😓",
 			UnicodeName: "downcast face with sweat",
@@ -8033,7 +11255,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128532: {
+		"😔": {
 			Slug:        "pensive-face",
 			Character:   "😔",
 			UnicodeName: "pensive face",
@@ -8042,7 +11264,7 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
-		128533: {
+		"😕": {
 			Slug:        "confused-face",
 			Character:   "😕",
 			UnicodeName: "confused face",
@@ -8051,7 +11273,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128534: {
+		"😖": {
 			Slug:        "confounded-face",
 			Character:   "😖",
 			UnicodeName: "confounded face",
@@ -8060,7 +11282,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128535: {
+		"😗": {
 			Slug:        "kissing-face",
 			Character:   "😗",
 			UnicodeName: "kissing face",
@@ -8069,7 +11291,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		128536: {
+		"😘": {
 			Slug:        "face-blowing-a-kiss",
 			Character:   "😘",
 			UnicodeName: "face blowing a kiss",
@@ -8078,7 +11300,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		128537: {
+		"😙": {
 			Slug:        "kissing-face-with-smiling-eyes",
 			Character:   "😙",
 			UnicodeName: "kissing face with smiling eyes",
@@ -8087,7 +11309,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		128538: {
+		"😚": {
 			Slug:        "kissing-face-with-closed-eyes",
 			Character:   "😚",
 			UnicodeName: "kissing face with closed eyes",
@@ -8096,7 +11318,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		128539: {
+		"😛": {
 			Slug:        "face-with-tongue",
 			Character:   "😛",
 			UnicodeName: "face with tongue",
@@ -8105,7 +11327,7 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
-		128540: {
+		"😜": {
 			Slug:        "winking-face-with-tongue",
 			Character:   "😜",
 			UnicodeName: "winking face with tongue",
@@ -8114,7 +11336,7 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
-		128541: {
+		"😝": {
 			Slug:        "squinting-face-with-tongue",
 			Character:   "😝",
 			UnicodeName: "squinting face with tongue",
@@ -8123,7 +11345,7 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
-		128542: {
+		"😞": {
 			Slug:        "disappointed-face",
 			Character:   "😞",
 			UnicodeName: "disappointed face",
@@ -8132,7 +11354,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128543: {
+		"😟": {
 			Slug:        "worried-face",
 			Character:   "😟",
 			UnicodeName: "worried face",
@@ -8141,7 +11363,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128544: {
+		"😠": {
 			Slug:        "angry-face",
 			Character:   "😠",
 			UnicodeName: "angry face",
@@ -8150,7 +11372,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		128545: {
+		"😡": {
 			Slug:        "pouting-face",
 			Character:   "😡",
 			UnicodeName: "pouting face",
@@ -8159,7 +11381,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		128546: {
+		"😢": {
 			Slug:        "crying-face",
 			Character:   "😢",
 			UnicodeName: "crying face",
@@ -8168,7 +11390,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128547: {
+		"😣": {
 			Slug:        "persevering-face",
 			Character:   "😣",
 			UnicodeName: "persevering face",
@@ -8177,7 +11399,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128548: {
+		"😤": {
 			Slug:        "face-with-steam-from-nose",
 			Character:   "😤",
 			UnicodeName: "face with steam from nose",
@@ -8186,7 +11408,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		128549: {
+		"😥": {
 			Slug:        "sad-but-relieved-face",
 			Character:   "😥",
 			UnicodeName: "sad but relieved face",
@@ -8195,7 +11417,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128550: {
+		"😦": {
 			Slug:        "frowning-face-with-open-mouth",
 			Character:   "😦",
 			UnicodeName: "frowning face with open mouth",
@@ -8204,7 +11426,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128551: {
+		"😧": {
 			Slug:        "anguished-face",
 			Character:   "😧",
 			UnicodeName: "anguished face",
@@ -8213,7 +11435,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128552: {
+		"😨": {
 			Slug:        "fearful-face",
 			Character:   "😨",
 			UnicodeName: "fearful face",
@@ -8222,7 +11444,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128553: {
+		"😩": {
 			Slug:        "weary-face",
 			Character:   "😩",
 			UnicodeName: "weary face",
@@ -8231,7 +11453,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128554: {
+		"😪": {
 			Slug:        "sleepy-face",
 			Character:   "😪",
 			UnicodeName: "sleepy face",
@@ -8240,7 +11462,7 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
-		128555: {
+		"😫": {
 			Slug:        "tired-face",
 			Character:   "😫",
 			UnicodeName: "tired face",
@@ -8249,7 +11471,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128556: {
+		"😬": {
 			Slug:        "grimacing-face",
 			Character:   "😬",
 			UnicodeName: "grimacing face",
@@ -8258,7 +11480,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128557: {
+		"😭": {
 			Slug:        "loudly-crying-face",
 			Character:   "😭",
 			UnicodeName: "loudly crying face",
@@ -8267,7 +11489,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128558: {
+		"😮": {
 			Slug:        "face-with-open-mouth",
 			Character:   "😮",
 			UnicodeName: "face with open mouth",
@@ -8276,7 +11498,16 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128559: {
+		"😮‍💨": {
+			Slug:        "face-exhaling",
+			Character:   "😮‍💨",
+			UnicodeName: "face exhaling",
+			CodePoint:   "U+1F62E U+200D U+1F4A8",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"😯": {
 			Slug:        "hushed-face",
 			Character:   "😯",
 			UnicodeName: "hushed face",
@@ -8285,7 +11516,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128560: {
+		"😰": {
 			Slug:        "anxious-face-with-sweat",
 			Character:   "😰",
 			UnicodeName: "anxious face with sweat",
@@ -8294,7 +11525,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128561: {
+		"😱": {
 			Slug:        "face-screaming-in-fear",
 			Character:   "😱",
 			UnicodeName: "face screaming in fear",
@@ -8303,7 +11534,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128562: {
+		"😲": {
 			Slug:        "astonished-face",
 			Character:   "😲",
 			UnicodeName: "astonished face",
@@ -8312,7 +11543,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128563: {
+		"😳": {
 			Slug:        "flushed-face",
 			Character:   "😳",
 			UnicodeName: "flushed face",
@@ -8321,7 +11552,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128564: {
+		"😴": {
 			Slug:        "sleeping-face",
 			Character:   "😴",
 			UnicodeName: "sleeping face",
@@ -8330,7 +11561,16 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
-		128565: {
+		"😵": {
+			Slug:        "face-with-crossed-out-eyes",
+			Character:   "😵",
+			UnicodeName: "face with crossed-out eyes",
+			CodePoint:   "U+1F635",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-unwell",
+		},
+
+		"😵‍💫": {
 			Slug:        "face-with-spiral-eyes",
 			Character:   "😵‍💫",
 			UnicodeName: "face with spiral eyes",
@@ -8339,7 +11579,16 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		128566: {
+		"😶": {
+			Slug:        "face-without-mouth",
+			Character:   "😶",
+			UnicodeName: "face without mouth",
+			CodePoint:   "U+1F636",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"😶‍🌫️": {
 			Slug:        "face-in-clouds",
 			Character:   "😶‍🌫️",
 			UnicodeName: "face in clouds",
@@ -8348,7 +11597,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128567: {
+		"😷": {
 			Slug:        "face-with-medical-mask",
 			Character:   "😷",
 			UnicodeName: "face with medical mask",
@@ -8357,7 +11606,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		128568: {
+		"😸": {
 			Slug:        "grinning-cat-with-smiling-eyes",
 			Character:   "😸",
 			UnicodeName: "grinning cat with smiling eyes",
@@ -8366,7 +11615,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128569: {
+		"😹": {
 			Slug:        "cat-with-tears-of-joy",
 			Character:   "😹",
 			UnicodeName: "cat with tears of joy",
@@ -8375,7 +11624,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128570: {
+		"😺": {
 			Slug:        "grinning-cat",
 			Character:   "😺",
 			UnicodeName: "grinning cat",
@@ -8384,7 +11633,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128571: {
+		"😻": {
 			Slug:        "smiling-cat-with-heart-eyes",
 			Character:   "😻",
 			UnicodeName: "smiling cat with heart-eyes",
@@ -8393,7 +11642,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128572: {
+		"😼": {
 			Slug:        "cat-with-wry-smile",
 			Character:   "😼",
 			UnicodeName: "cat with wry smile",
@@ -8402,7 +11651,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128573: {
+		"😽": {
 			Slug:        "kissing-cat",
 			Character:   "😽",
 			UnicodeName: "kissing cat",
@@ -8411,7 +11660,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128574: {
+		"😾": {
 			Slug:        "pouting-cat",
 			Character:   "😾",
 			UnicodeName: "pouting cat",
@@ -8420,7 +11669,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128575: {
+		"😿": {
 			Slug:        "crying-cat",
 			Character:   "😿",
 			UnicodeName: "crying cat",
@@ -8429,7 +11678,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128576: {
+		"🙀": {
 			Slug:        "weary-cat",
 			Character:   "🙀",
 			UnicodeName: "weary cat",
@@ -8438,7 +11687,7 @@ var (
 			SubGroup:    "cat-face",
 		},
 
-		128577: {
+		"🙁": {
 			Slug:        "slightly-frowning-face",
 			Character:   "🙁",
 			UnicodeName: "slightly frowning face",
@@ -8447,7 +11696,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		128578: {
+		"🙂": {
 			Slug:        "slightly-smiling-face",
 			Character:   "🙂",
 			UnicodeName: "slightly smiling face",
@@ -8456,7 +11705,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128579: {
+		"🙃": {
 			Slug:        "upside-down-face",
 			Character:   "🙃",
 			UnicodeName: "upside-down face",
@@ -8465,7 +11714,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		128580: {
+		"🙄": {
 			Slug:        "face-with-rolling-eyes",
 			Character:   "🙄",
 			UnicodeName: "face with rolling eyes",
@@ -8474,7 +11723,16 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		128581: {
+		"🙅": {
+			Slug:        "person-gesturing-NO",
+			Character:   "🙅",
+			UnicodeName: "person gesturing NO",
+			CodePoint:   "U+1F645",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙅‍♀️": {
 			Slug:        "woman-gesturing-NO",
 			Character:   "🙅‍♀️",
 			UnicodeName: "woman gesturing NO",
@@ -8483,7 +11741,25 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128582: {
+		"🙅‍♂️": {
+			Slug:        "man-gesturing-NO",
+			Character:   "🙅‍♂️",
+			UnicodeName: "man gesturing NO",
+			CodePoint:   "U+1F645 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙆": {
+			Slug:        "person-gesturing-OK",
+			Character:   "🙆",
+			UnicodeName: "person gesturing OK",
+			CodePoint:   "U+1F646",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙆‍♀️": {
 			Slug:        "woman-gesturing-OK",
 			Character:   "🙆‍♀️",
 			UnicodeName: "woman gesturing OK",
@@ -8492,7 +11768,25 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128583: {
+		"🙆‍♂️": {
+			Slug:        "man-gesturing-OK",
+			Character:   "🙆‍♂️",
+			UnicodeName: "man gesturing OK",
+			CodePoint:   "U+1F646 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙇": {
+			Slug:        "person-bowing",
+			Character:   "🙇",
+			UnicodeName: "person bowing",
+			CodePoint:   "U+1F647",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙇‍♀️": {
 			Slug:        "woman-bowing",
 			Character:   "🙇‍♀️",
 			UnicodeName: "woman bowing",
@@ -8501,7 +11795,16 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128584: {
+		"🙇‍♂️": {
+			Slug:        "man-bowing",
+			Character:   "🙇‍♂️",
+			UnicodeName: "man bowing",
+			CodePoint:   "U+1F647 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙈": {
 			Slug:        "see-no-evil-monkey",
 			Character:   "🙈",
 			UnicodeName: "see-no-evil monkey",
@@ -8510,7 +11813,7 @@ var (
 			SubGroup:    "monkey-face",
 		},
 
-		128585: {
+		"🙉": {
 			Slug:        "hear-no-evil-monkey",
 			Character:   "🙉",
 			UnicodeName: "hear-no-evil monkey",
@@ -8519,7 +11822,7 @@ var (
 			SubGroup:    "monkey-face",
 		},
 
-		128586: {
+		"🙊": {
 			Slug:        "speak-no-evil-monkey",
 			Character:   "🙊",
 			UnicodeName: "speak-no-evil monkey",
@@ -8528,7 +11831,16 @@ var (
 			SubGroup:    "monkey-face",
 		},
 
-		128587: {
+		"🙋": {
+			Slug:        "person-raising-hand",
+			Character:   "🙋",
+			UnicodeName: "person raising hand",
+			CodePoint:   "U+1F64B",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙋‍♀️": {
 			Slug:        "woman-raising-hand",
 			Character:   "🙋‍♀️",
 			UnicodeName: "woman raising hand",
@@ -8537,7 +11849,16 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128588: {
+		"🙋‍♂️": {
+			Slug:        "man-raising-hand",
+			Character:   "🙋‍♂️",
+			UnicodeName: "man raising hand",
+			CodePoint:   "U+1F64B U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙌": {
 			Slug:        "raising-hands",
 			Character:   "🙌",
 			UnicodeName: "raising hands",
@@ -8546,7 +11867,16 @@ var (
 			SubGroup:    "hands",
 		},
 
-		128589: {
+		"🙍": {
+			Slug:        "person-frowning",
+			Character:   "🙍",
+			UnicodeName: "person frowning",
+			CodePoint:   "U+1F64D",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙍‍♀️": {
 			Slug:        "woman-frowning",
 			Character:   "🙍‍♀️",
 			UnicodeName: "woman frowning",
@@ -8555,7 +11885,25 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128590: {
+		"🙍‍♂️": {
+			Slug:        "man-frowning",
+			Character:   "🙍‍♂️",
+			UnicodeName: "man frowning",
+			CodePoint:   "U+1F64D U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙎": {
+			Slug:        "person-pouting",
+			Character:   "🙎",
+			UnicodeName: "person pouting",
+			CodePoint:   "U+1F64E",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙎‍♀️": {
 			Slug:        "woman-pouting",
 			Character:   "🙎‍♀️",
 			UnicodeName: "woman pouting",
@@ -8564,7 +11912,16 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		128591: {
+		"🙎‍♂️": {
+			Slug:        "man-pouting",
+			Character:   "🙎‍♂️",
+			UnicodeName: "man pouting",
+			CodePoint:   "U+1F64E U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🙏": {
 			Slug:        "folded-hands",
 			Character:   "🙏",
 			UnicodeName: "folded hands",
@@ -8573,7 +11930,7 @@ var (
 			SubGroup:    "hands",
 		},
 
-		128640: {
+		"🚀": {
 			Slug:        "rocket",
 			Character:   "🚀",
 			UnicodeName: "rocket",
@@ -8582,7 +11939,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128641: {
+		"🚁": {
 			Slug:        "helicopter",
 			Character:   "🚁",
 			UnicodeName: "helicopter",
@@ -8591,7 +11948,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128642: {
+		"🚂": {
 			Slug:        "locomotive",
 			Character:   "🚂",
 			UnicodeName: "locomotive",
@@ -8600,7 +11957,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128643: {
+		"🚃": {
 			Slug:        "railway-car",
 			Character:   "🚃",
 			UnicodeName: "railway car",
@@ -8609,7 +11966,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128644: {
+		"🚄": {
 			Slug:        "high-speed-train",
 			Character:   "🚄",
 			UnicodeName: "high-speed train",
@@ -8618,7 +11975,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128645: {
+		"🚅": {
 			Slug:        "bullet-train",
 			Character:   "🚅",
 			UnicodeName: "bullet train",
@@ -8627,7 +11984,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128646: {
+		"🚆": {
 			Slug:        "train",
 			Character:   "🚆",
 			UnicodeName: "train",
@@ -8636,7 +11993,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128647: {
+		"🚇": {
 			Slug:        "metro",
 			Character:   "🚇",
 			UnicodeName: "metro",
@@ -8645,7 +12002,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128648: {
+		"🚈": {
 			Slug:        "light-rail",
 			Character:   "🚈",
 			UnicodeName: "light rail",
@@ -8654,7 +12011,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128649: {
+		"🚉": {
 			Slug:        "station",
 			Character:   "🚉",
 			UnicodeName: "station",
@@ -8663,7 +12020,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128650: {
+		"🚊": {
 			Slug:        "tram",
 			Character:   "🚊",
 			UnicodeName: "tram",
@@ -8672,7 +12029,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128651: {
+		"🚋": {
 			Slug:        "tram-car",
 			Character:   "🚋",
 			UnicodeName: "tram car",
@@ -8681,7 +12038,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128652: {
+		"🚌": {
 			Slug:        "bus",
 			Character:   "🚌",
 			UnicodeName: "bus",
@@ -8690,7 +12047,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128653: {
+		"🚍": {
 			Slug:        "oncoming-bus",
 			Character:   "🚍",
 			UnicodeName: "oncoming bus",
@@ -8699,7 +12056,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128654: {
+		"🚎": {
 			Slug:        "trolleybus",
 			Character:   "🚎",
 			UnicodeName: "trolleybus",
@@ -8708,7 +12065,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128655: {
+		"🚏": {
 			Slug:        "bus-stop",
 			Character:   "🚏",
 			UnicodeName: "bus stop",
@@ -8717,7 +12074,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128656: {
+		"🚐": {
 			Slug:        "minibus",
 			Character:   "🚐",
 			UnicodeName: "minibus",
@@ -8726,7 +12083,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128657: {
+		"🚑": {
 			Slug:        "ambulance",
 			Character:   "🚑",
 			UnicodeName: "ambulance",
@@ -8735,7 +12092,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128658: {
+		"🚒": {
 			Slug:        "fire-engine",
 			Character:   "🚒",
 			UnicodeName: "fire engine",
@@ -8744,7 +12101,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128659: {
+		"🚓": {
 			Slug:        "police-car",
 			Character:   "🚓",
 			UnicodeName: "police car",
@@ -8753,7 +12110,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128660: {
+		"🚔": {
 			Slug:        "oncoming-police-car",
 			Character:   "🚔",
 			UnicodeName: "oncoming police car",
@@ -8762,7 +12119,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128661: {
+		"🚕": {
 			Slug:        "taxi",
 			Character:   "🚕",
 			UnicodeName: "taxi",
@@ -8771,7 +12128,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128662: {
+		"🚖": {
 			Slug:        "oncoming-taxi",
 			Character:   "🚖",
 			UnicodeName: "oncoming taxi",
@@ -8780,7 +12137,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128663: {
+		"🚗": {
 			Slug:        "automobile",
 			Character:   "🚗",
 			UnicodeName: "automobile",
@@ -8789,7 +12146,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128664: {
+		"🚘": {
 			Slug:        "oncoming-automobile",
 			Character:   "🚘",
 			UnicodeName: "oncoming automobile",
@@ -8798,7 +12155,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128665: {
+		"🚙": {
 			Slug:        "sport-utility-vehicle",
 			Character:   "🚙",
 			UnicodeName: "sport utility vehicle",
@@ -8807,7 +12164,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128666: {
+		"🚚": {
 			Slug:        "delivery-truck",
 			Character:   "🚚",
 			UnicodeName: "delivery truck",
@@ -8816,7 +12173,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128667: {
+		"🚛": {
 			Slug:        "articulated-lorry",
 			Character:   "🚛",
 			UnicodeName: "articulated lorry",
@@ -8825,7 +12182,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128668: {
+		"🚜": {
 			Slug:        "tractor",
 			Character:   "🚜",
 			UnicodeName: "tractor",
@@ -8834,7 +12191,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128669: {
+		"🚝": {
 			Slug:        "monorail",
 			Character:   "🚝",
 			UnicodeName: "monorail",
@@ -8843,7 +12200,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128670: {
+		"🚞": {
 			Slug:        "mountain-railway",
 			Character:   "🚞",
 			UnicodeName: "mountain railway",
@@ -8852,7 +12209,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128671: {
+		"🚟": {
 			Slug:        "suspension-railway",
 			Character:   "🚟",
 			UnicodeName: "suspension railway",
@@ -8861,7 +12218,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128672: {
+		"🚠": {
 			Slug:        "mountain-cableway",
 			Character:   "🚠",
 			UnicodeName: "mountain cableway",
@@ -8870,7 +12227,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128673: {
+		"🚡": {
 			Slug:        "aerial-tramway",
 			Character:   "🚡",
 			UnicodeName: "aerial tramway",
@@ -8879,7 +12236,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128674: {
+		"🚢": {
 			Slug:        "ship",
 			Character:   "🚢",
 			UnicodeName: "ship",
@@ -8888,7 +12245,16 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		128675: {
+		"🚣": {
+			Slug:        "person-rowing-boat",
+			Character:   "🚣",
+			UnicodeName: "person rowing boat",
+			CodePoint:   "U+1F6A3",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🚣‍♀️": {
 			Slug:        "woman-rowing-boat",
 			Character:   "🚣‍♀️",
 			UnicodeName: "woman rowing boat",
@@ -8897,7 +12263,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		128676: {
+		"🚣‍♂️": {
+			Slug:        "man-rowing-boat",
+			Character:   "🚣‍♂️",
+			UnicodeName: "man rowing boat",
+			CodePoint:   "U+1F6A3 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🚤": {
 			Slug:        "speedboat",
 			Character:   "🚤",
 			UnicodeName: "speedboat",
@@ -8906,7 +12281,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		128677: {
+		"🚥": {
 			Slug:        "horizontal-traffic-light",
 			Character:   "🚥",
 			UnicodeName: "horizontal traffic light",
@@ -8915,7 +12290,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128678: {
+		"🚦": {
 			Slug:        "vertical-traffic-light",
 			Character:   "🚦",
 			UnicodeName: "vertical traffic light",
@@ -8924,7 +12299,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128679: {
+		"🚧": {
 			Slug:        "construction",
 			Character:   "🚧",
 			UnicodeName: "construction",
@@ -8933,7 +12308,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128680: {
+		"🚨": {
 			Slug:        "police-car-light",
 			Character:   "🚨",
 			UnicodeName: "police car light",
@@ -8942,7 +12317,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128681: {
+		"🚩": {
 			Slug:        "triangular-flag",
 			Character:   "🚩",
 			UnicodeName: "triangular flag",
@@ -8951,7 +12326,7 @@ var (
 			SubGroup:    "flag",
 		},
 
-		128682: {
+		"🚪": {
 			Slug:        "door",
 			Character:   "🚪",
 			UnicodeName: "door",
@@ -8960,7 +12335,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128683: {
+		"🚫": {
 			Slug:        "prohibited",
 			Character:   "🚫",
 			UnicodeName: "prohibited",
@@ -8969,7 +12344,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128684: {
+		"🚬": {
 			Slug:        "cigarette",
 			Character:   "🚬",
 			UnicodeName: "cigarette",
@@ -8978,7 +12353,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		128685: {
+		"🚭": {
 			Slug:        "no-smoking",
 			Character:   "🚭",
 			UnicodeName: "no smoking",
@@ -8987,7 +12362,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128686: {
+		"🚮": {
 			Slug:        "litter-in-bin-sign",
 			Character:   "🚮",
 			UnicodeName: "litter in bin sign",
@@ -8996,7 +12371,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128687: {
+		"🚯": {
 			Slug:        "no-littering",
 			Character:   "🚯",
 			UnicodeName: "no littering",
@@ -9005,7 +12380,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128688: {
+		"🚰": {
 			Slug:        "potable-water",
 			Character:   "🚰",
 			UnicodeName: "potable water",
@@ -9014,7 +12389,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128689: {
+		"🚱": {
 			Slug:        "non-potable-water",
 			Character:   "🚱",
 			UnicodeName: "non-potable water",
@@ -9023,7 +12398,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128690: {
+		"🚲": {
 			Slug:        "bicycle",
 			Character:   "🚲",
 			UnicodeName: "bicycle",
@@ -9032,7 +12407,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128691: {
+		"🚳": {
 			Slug:        "no-bicycles",
 			Character:   "🚳",
 			UnicodeName: "no bicycles",
@@ -9041,7 +12416,16 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128692: {
+		"🚴": {
+			Slug:        "person-biking",
+			Character:   "🚴",
+			UnicodeName: "person biking",
+			CodePoint:   "U+1F6B4",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🚴‍♀️": {
 			Slug:        "woman-biking",
 			Character:   "🚴‍♀️",
 			UnicodeName: "woman biking",
@@ -9050,7 +12434,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		128693: {
+		"🚴‍♂️": {
+			Slug:        "man-biking",
+			Character:   "🚴‍♂️",
+			UnicodeName: "man biking",
+			CodePoint:   "U+1F6B4 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🚵": {
+			Slug:        "person-mountain-biking",
+			Character:   "🚵",
+			UnicodeName: "person mountain biking",
+			CodePoint:   "U+1F6B5",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🚵‍♀️": {
 			Slug:        "woman-mountain-biking",
 			Character:   "🚵‍♀️",
 			UnicodeName: "woman mountain biking",
@@ -9059,7 +12461,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		128694: {
+		"🚵‍♂️": {
+			Slug:        "man-mountain-biking",
+			Character:   "🚵‍♂️",
+			UnicodeName: "man mountain biking",
+			CodePoint:   "U+1F6B5 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🚶": {
+			Slug:        "person-walking",
+			Character:   "🚶",
+			UnicodeName: "person walking",
+			CodePoint:   "U+1F6B6",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🚶‍♀️": {
 			Slug:        "woman-walking",
 			Character:   "🚶‍♀️",
 			UnicodeName: "woman walking",
@@ -9068,7 +12488,16 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		128695: {
+		"🚶‍♂️": {
+			Slug:        "man-walking",
+			Character:   "🚶‍♂️",
+			UnicodeName: "man walking",
+			CodePoint:   "U+1F6B6 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🚷": {
 			Slug:        "no-pedestrians",
 			Character:   "🚷",
 			UnicodeName: "no pedestrians",
@@ -9077,7 +12506,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128696: {
+		"🚸": {
 			Slug:        "children-crossing",
 			Character:   "🚸",
 			UnicodeName: "children crossing",
@@ -9086,7 +12515,7 @@ var (
 			SubGroup:    "warning",
 		},
 
-		128697: {
+		"🚹": {
 			Slug:        "men’s-room",
 			Character:   "🚹",
 			UnicodeName: "men’s room",
@@ -9095,7 +12524,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128698: {
+		"🚺": {
 			Slug:        "women’s-room",
 			Character:   "🚺",
 			UnicodeName: "women’s room",
@@ -9104,7 +12533,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128699: {
+		"🚻": {
 			Slug:        "restroom",
 			Character:   "🚻",
 			UnicodeName: "restroom",
@@ -9113,7 +12542,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128700: {
+		"🚼": {
 			Slug:        "baby-symbol",
 			Character:   "🚼",
 			UnicodeName: "baby symbol",
@@ -9122,7 +12551,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128701: {
+		"🚽": {
 			Slug:        "toilet",
 			Character:   "🚽",
 			UnicodeName: "toilet",
@@ -9131,7 +12560,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128702: {
+		"🚾": {
 			Slug:        "water-closet",
 			Character:   "🚾",
 			UnicodeName: "water closet",
@@ -9140,7 +12569,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128703: {
+		"🚿": {
 			Slug:        "shower",
 			Character:   "🚿",
 			UnicodeName: "shower",
@@ -9149,7 +12578,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128704: {
+		"🛀": {
 			Slug:        "person-taking-bath",
 			Character:   "🛀",
 			UnicodeName: "person taking bath",
@@ -9158,7 +12587,7 @@ var (
 			SubGroup:    "person-resting",
 		},
 
-		128705: {
+		"🛁": {
 			Slug:        "bathtub",
 			Character:   "🛁",
 			UnicodeName: "bathtub",
@@ -9167,7 +12596,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128706: {
+		"🛂": {
 			Slug:        "passport-control",
 			Character:   "🛂",
 			UnicodeName: "passport control",
@@ -9176,7 +12605,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128707: {
+		"🛃": {
 			Slug:        "customs",
 			Character:   "🛃",
 			UnicodeName: "customs",
@@ -9185,7 +12614,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128708: {
+		"🛄": {
 			Slug:        "baggage-claim",
 			Character:   "🛄",
 			UnicodeName: "baggage claim",
@@ -9194,7 +12623,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128709: {
+		"🛅": {
 			Slug:        "left-luggage",
 			Character:   "🛅",
 			UnicodeName: "left luggage",
@@ -9203,7 +12632,7 @@ var (
 			SubGroup:    "transport-sign",
 		},
 
-		128715: {
+		"🛋": {
 			Slug:        "couch-and-lamp",
 			Character:   "🛋",
 			UnicodeName: "couch and lamp",
@@ -9212,7 +12641,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128716: {
+		"🛌": {
 			Slug:        "person-in-bed",
 			Character:   "🛌",
 			UnicodeName: "person in bed",
@@ -9221,7 +12650,7 @@ var (
 			SubGroup:    "person-resting",
 		},
 
-		128717: {
+		"🛍": {
 			Slug:        "shopping-bags",
 			Character:   "🛍",
 			UnicodeName: "shopping bags",
@@ -9230,7 +12659,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		128718: {
+		"🛎": {
 			Slug:        "bellhop-bell",
 			Character:   "🛎",
 			UnicodeName: "bellhop bell",
@@ -9239,7 +12668,7 @@ var (
 			SubGroup:    "hotel",
 		},
 
-		128719: {
+		"🛏": {
 			Slug:        "bed",
 			Character:   "🛏",
 			UnicodeName: "bed",
@@ -9248,7 +12677,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128720: {
+		"🛐": {
 			Slug:        "place-of-worship",
 			Character:   "🛐",
 			UnicodeName: "place of worship",
@@ -9257,7 +12686,7 @@ var (
 			SubGroup:    "religion",
 		},
 
-		128721: {
+		"🛑": {
 			Slug:        "stop-sign",
 			Character:   "🛑",
 			UnicodeName: "stop sign",
@@ -9266,7 +12695,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128722: {
+		"🛒": {
 			Slug:        "shopping-cart",
 			Character:   "🛒",
 			UnicodeName: "shopping cart",
@@ -9275,7 +12704,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128725: {
+		"🛕": {
 			Slug:        "hindu-temple",
 			Character:   "🛕",
 			UnicodeName: "hindu temple",
@@ -9284,7 +12713,7 @@ var (
 			SubGroup:    "place-religious",
 		},
 
-		128726: {
+		"🛖": {
 			Slug:        "hut",
 			Character:   "🛖",
 			UnicodeName: "hut",
@@ -9293,7 +12722,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		128727: {
+		"🛗": {
 			Slug:        "elevator",
 			Character:   "🛗",
 			UnicodeName: "elevator",
@@ -9302,7 +12731,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		128733: {
+		"🛝": {
 			Slug:        "⊛-playground-slide",
 			Character:   "🛝",
 			UnicodeName: "⊛ playground slide",
@@ -9311,7 +12740,7 @@ var (
 			SubGroup:    "place-other",
 		},
 
-		128734: {
+		"🛞": {
 			Slug:        "⊛-wheel",
 			Character:   "🛞",
 			UnicodeName: "⊛ wheel",
@@ -9320,7 +12749,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128735: {
+		"🛟": {
 			Slug:        "⊛-ring-buoy",
 			Character:   "🛟",
 			UnicodeName: "⊛ ring buoy",
@@ -9329,7 +12758,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		128736: {
+		"🛠": {
 			Slug:        "hammer-and-wrench",
 			Character:   "🛠",
 			UnicodeName: "hammer and wrench",
@@ -9338,7 +12767,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128737: {
+		"🛡": {
 			Slug:        "shield",
 			Character:   "🛡",
 			UnicodeName: "shield",
@@ -9347,7 +12776,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		128738: {
+		"🛢": {
 			Slug:        "oil-drum",
 			Character:   "🛢",
 			UnicodeName: "oil drum",
@@ -9356,7 +12785,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128739: {
+		"🛣": {
 			Slug:        "motorway",
 			Character:   "🛣",
 			UnicodeName: "motorway",
@@ -9365,7 +12794,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128740: {
+		"🛤": {
 			Slug:        "railway-track",
 			Character:   "🛤",
 			UnicodeName: "railway track",
@@ -9374,7 +12803,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128741: {
+		"🛥": {
 			Slug:        "motor-boat",
 			Character:   "🛥",
 			UnicodeName: "motor boat",
@@ -9383,7 +12812,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		128745: {
+		"🛩": {
 			Slug:        "small-airplane",
 			Character:   "🛩",
 			UnicodeName: "small airplane",
@@ -9392,7 +12821,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128747: {
+		"🛫": {
 			Slug:        "airplane-departure",
 			Character:   "🛫",
 			UnicodeName: "airplane departure",
@@ -9401,7 +12830,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128748: {
+		"🛬": {
 			Slug:        "airplane-arrival",
 			Character:   "🛬",
 			UnicodeName: "airplane arrival",
@@ -9410,7 +12839,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128752: {
+		"🛰": {
 			Slug:        "satellite",
 			Character:   "🛰",
 			UnicodeName: "satellite",
@@ -9419,7 +12848,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128755: {
+		"🛳": {
 			Slug:        "passenger-ship",
 			Character:   "🛳",
 			UnicodeName: "passenger ship",
@@ -9428,7 +12857,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		128756: {
+		"🛴": {
 			Slug:        "kick-scooter",
 			Character:   "🛴",
 			UnicodeName: "kick scooter",
@@ -9437,7 +12866,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128757: {
+		"🛵": {
 			Slug:        "motor-scooter",
 			Character:   "🛵",
 			UnicodeName: "motor scooter",
@@ -9446,7 +12875,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128758: {
+		"🛶": {
 			Slug:        "canoe",
 			Character:   "🛶",
 			UnicodeName: "canoe",
@@ -9455,7 +12884,7 @@ var (
 			SubGroup:    "transport-water",
 		},
 
-		128759: {
+		"🛷": {
 			Slug:        "sled",
 			Character:   "🛷",
 			UnicodeName: "sled",
@@ -9464,7 +12893,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		128760: {
+		"🛸": {
 			Slug:        "flying-saucer",
 			Character:   "🛸",
 			UnicodeName: "flying saucer",
@@ -9473,7 +12902,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		128761: {
+		"🛹": {
 			Slug:        "skateboard",
 			Character:   "🛹",
 			UnicodeName: "skateboard",
@@ -9482,7 +12911,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128762: {
+		"🛺": {
 			Slug:        "auto-rickshaw",
 			Character:   "🛺",
 			UnicodeName: "auto rickshaw",
@@ -9491,7 +12920,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128763: {
+		"🛻": {
 			Slug:        "pickup-truck",
 			Character:   "🛻",
 			UnicodeName: "pickup truck",
@@ -9500,7 +12929,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128764: {
+		"🛼": {
 			Slug:        "roller-skate",
 			Character:   "🛼",
 			UnicodeName: "roller skate",
@@ -9509,7 +12938,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		128992: {
+		"🟠": {
 			Slug:        "orange-circle",
 			Character:   "🟠",
 			UnicodeName: "orange circle",
@@ -9518,7 +12947,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128993: {
+		"🟡": {
 			Slug:        "yellow-circle",
 			Character:   "🟡",
 			UnicodeName: "yellow circle",
@@ -9527,7 +12956,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128994: {
+		"🟢": {
 			Slug:        "green-circle",
 			Character:   "🟢",
 			UnicodeName: "green circle",
@@ -9536,7 +12965,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128995: {
+		"🟣": {
 			Slug:        "purple-circle",
 			Character:   "🟣",
 			UnicodeName: "purple circle",
@@ -9545,7 +12974,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128996: {
+		"🟤": {
 			Slug:        "brown-circle",
 			Character:   "🟤",
 			UnicodeName: "brown circle",
@@ -9554,7 +12983,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128997: {
+		"🟥": {
 			Slug:        "red-square",
 			Character:   "🟥",
 			UnicodeName: "red square",
@@ -9563,7 +12992,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128998: {
+		"🟦": {
 			Slug:        "blue-square",
 			Character:   "🟦",
 			UnicodeName: "blue square",
@@ -9572,7 +13001,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		128999: {
+		"🟧": {
 			Slug:        "orange-square",
 			Character:   "🟧",
 			UnicodeName: "orange square",
@@ -9581,7 +13010,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		129000: {
+		"🟨": {
 			Slug:        "yellow-square",
 			Character:   "🟨",
 			UnicodeName: "yellow square",
@@ -9590,7 +13019,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		129001: {
+		"🟩": {
 			Slug:        "green-square",
 			Character:   "🟩",
 			UnicodeName: "green square",
@@ -9599,7 +13028,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		129002: {
+		"🟪": {
 			Slug:        "purple-square",
 			Character:   "🟪",
 			UnicodeName: "purple square",
@@ -9608,7 +13037,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		129003: {
+		"🟫": {
 			Slug:        "brown-square",
 			Character:   "🟫",
 			UnicodeName: "brown square",
@@ -9617,7 +13046,7 @@ var (
 			SubGroup:    "geometric",
 		},
 
-		129008: {
+		"🟰": {
 			Slug:        "⊛-heavy-equals-sign",
 			Character:   "🟰",
 			UnicodeName: "⊛ heavy equals sign",
@@ -9626,7 +13055,7 @@ var (
 			SubGroup:    "math",
 		},
 
-		129292: {
+		"🤌": {
 			Slug:        "pinched-fingers",
 			Character:   "🤌",
 			UnicodeName: "pinched fingers",
@@ -9635,7 +13064,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129293: {
+		"🤍": {
 			Slug:        "white-heart",
 			Character:   "🤍",
 			UnicodeName: "white heart",
@@ -9644,7 +13073,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		129294: {
+		"🤎": {
 			Slug:        "brown-heart",
 			Character:   "🤎",
 			UnicodeName: "brown heart",
@@ -9653,7 +13082,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		129295: {
+		"🤏": {
 			Slug:        "pinching-hand",
 			Character:   "🤏",
 			UnicodeName: "pinching hand",
@@ -9662,7 +13091,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129296: {
+		"🤐": {
 			Slug:        "zipper-mouth-face",
 			Character:   "🤐",
 			UnicodeName: "zipper-mouth face",
@@ -9671,7 +13100,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		129297: {
+		"🤑": {
 			Slug:        "money-mouth-face",
 			Character:   "🤑",
 			UnicodeName: "money-mouth face",
@@ -9680,7 +13109,7 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
-		129298: {
+		"🤒": {
 			Slug:        "face-with-thermometer",
 			Character:   "🤒",
 			UnicodeName: "face with thermometer",
@@ -9689,7 +13118,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129299: {
+		"🤓": {
 			Slug:        "nerd-face",
 			Character:   "🤓",
 			UnicodeName: "nerd face",
@@ -9698,7 +13127,7 @@ var (
 			SubGroup:    "face-glasses",
 		},
 
-		129300: {
+		"🤔": {
 			Slug:        "thinking-face",
 			Character:   "🤔",
 			UnicodeName: "thinking face",
@@ -9707,7 +13136,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129301: {
+		"🤕": {
 			Slug:        "face-with-head-bandage",
 			Character:   "🤕",
 			UnicodeName: "face with head-bandage",
@@ -9716,7 +13145,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129302: {
+		"🤖": {
 			Slug:        "robot",
 			Character:   "🤖",
 			UnicodeName: "robot",
@@ -9725,7 +13154,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		129303: {
+		"🤗": {
 			Slug:        "smiling-face-with-open-hands",
 			Character:   "🤗",
 			UnicodeName: "smiling face with open hands",
@@ -9734,7 +13163,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129304: {
+		"🤘": {
 			Slug:        "sign-of-the-horns",
 			Character:   "🤘",
 			UnicodeName: "sign of the horns",
@@ -9743,7 +13172,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129305: {
+		"🤙": {
 			Slug:        "call-me-hand",
 			Character:   "🤙",
 			UnicodeName: "call me hand",
@@ -9752,7 +13181,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129306: {
+		"🤚": {
 			Slug:        "raised-back-of-hand",
 			Character:   "🤚",
 			UnicodeName: "raised back of hand",
@@ -9761,7 +13190,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		129307: {
+		"🤛": {
 			Slug:        "left-facing-fist",
 			Character:   "🤛",
 			UnicodeName: "left-facing fist",
@@ -9770,7 +13199,7 @@ var (
 			SubGroup:    "hand-fingers-closed",
 		},
 
-		129308: {
+		"🤜": {
 			Slug:        "right-facing-fist",
 			Character:   "🤜",
 			UnicodeName: "right-facing fist",
@@ -9779,7 +13208,7 @@ var (
 			SubGroup:    "hand-fingers-closed",
 		},
 
-		129309: {
+		"🤝": {
 			Slug:        "handshake",
 			Character:   "🤝",
 			UnicodeName: "handshake",
@@ -9788,7 +13217,7 @@ var (
 			SubGroup:    "hands",
 		},
 
-		129310: {
+		"🤞": {
 			Slug:        "crossed-fingers",
 			Character:   "🤞",
 			UnicodeName: "crossed fingers",
@@ -9797,7 +13226,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129311: {
+		"🤟": {
 			Slug:        "love-you-gesture",
 			Character:   "🤟",
 			UnicodeName: "love-you gesture",
@@ -9806,7 +13235,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129312: {
+		"🤠": {
 			Slug:        "cowboy-hat-face",
 			Character:   "🤠",
 			UnicodeName: "cowboy hat face",
@@ -9815,7 +13244,7 @@ var (
 			SubGroup:    "face-hat",
 		},
 
-		129313: {
+		"🤡": {
 			Slug:        "clown-face",
 			Character:   "🤡",
 			UnicodeName: "clown face",
@@ -9824,7 +13253,7 @@ var (
 			SubGroup:    "face-costume",
 		},
 
-		129314: {
+		"🤢": {
 			Slug:        "nauseated-face",
 			Character:   "🤢",
 			UnicodeName: "nauseated face",
@@ -9833,7 +13262,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129315: {
+		"🤣": {
 			Slug:        "rolling-on-the-floor-laughing",
 			Character:   "🤣",
 			UnicodeName: "rolling on the floor laughing",
@@ -9842,7 +13271,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		129316: {
+		"🤤": {
 			Slug:        "drooling-face",
 			Character:   "🤤",
 			UnicodeName: "drooling face",
@@ -9851,7 +13280,7 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
-		129317: {
+		"🤥": {
 			Slug:        "lying-face",
 			Character:   "🤥",
 			UnicodeName: "lying face",
@@ -9860,7 +13289,16 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		129318: {
+		"🤦": {
+			Slug:        "person-facepalming",
+			Character:   "🤦",
+			UnicodeName: "person facepalming",
+			CodePoint:   "U+1F926",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🤦‍♀️": {
 			Slug:        "woman-facepalming",
 			Character:   "🤦‍♀️",
 			UnicodeName: "woman facepalming",
@@ -9869,7 +13307,16 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		129319: {
+		"🤦‍♂️": {
+			Slug:        "man-facepalming",
+			Character:   "🤦‍♂️",
+			UnicodeName: "man facepalming",
+			CodePoint:   "U+1F926 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🤧": {
 			Slug:        "sneezing-face",
 			Character:   "🤧",
 			UnicodeName: "sneezing face",
@@ -9878,7 +13325,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129320: {
+		"🤨": {
 			Slug:        "face-with-raised-eyebrow",
 			Character:   "🤨",
 			UnicodeName: "face with raised eyebrow",
@@ -9887,7 +13334,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		129321: {
+		"🤩": {
 			Slug:        "star-struck",
 			Character:   "🤩",
 			UnicodeName: "star-struck",
@@ -9896,7 +13343,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		129322: {
+		"🤪": {
 			Slug:        "zany-face",
 			Character:   "🤪",
 			UnicodeName: "zany face",
@@ -9905,7 +13352,7 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
-		129323: {
+		"🤫": {
 			Slug:        "shushing-face",
 			Character:   "🤫",
 			UnicodeName: "shushing face",
@@ -9914,7 +13361,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129324: {
+		"🤬": {
 			Slug:        "face-with-symbols-on-mouth",
 			Character:   "🤬",
 			UnicodeName: "face with symbols on mouth",
@@ -9923,7 +13370,7 @@ var (
 			SubGroup:    "face-negative",
 		},
 
-		129325: {
+		"🤭": {
 			Slug:        "face-with-hand-over-mouth",
 			Character:   "🤭",
 			UnicodeName: "face with hand over mouth",
@@ -9932,7 +13379,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129326: {
+		"🤮": {
 			Slug:        "face-vomiting",
 			Character:   "🤮",
 			UnicodeName: "face vomiting",
@@ -9941,7 +13388,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129327: {
+		"🤯": {
 			Slug:        "exploding-head",
 			Character:   "🤯",
 			UnicodeName: "exploding head",
@@ -9950,7 +13397,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129328: {
+		"🤰": {
 			Slug:        "pregnant-woman",
 			Character:   "🤰",
 			UnicodeName: "pregnant woman",
@@ -9959,7 +13406,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129329: {
+		"🤱": {
 			Slug:        "breast-feeding",
 			Character:   "🤱",
 			UnicodeName: "breast-feeding",
@@ -9968,7 +13415,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129330: {
+		"🤲": {
 			Slug:        "palms-up-together",
 			Character:   "🤲",
 			UnicodeName: "palms up together",
@@ -9977,7 +13424,7 @@ var (
 			SubGroup:    "hands",
 		},
 
-		129331: {
+		"🤳": {
 			Slug:        "selfie",
 			Character:   "🤳",
 			UnicodeName: "selfie",
@@ -9986,7 +13433,7 @@ var (
 			SubGroup:    "hand-prop",
 		},
 
-		129332: {
+		"🤴": {
 			Slug:        "prince",
 			Character:   "🤴",
 			UnicodeName: "prince",
@@ -9995,7 +13442,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129333: {
+		"🤵": {
+			Slug:        "person-in-tuxedo",
+			Character:   "🤵",
+			UnicodeName: "person in tuxedo",
+			CodePoint:   "U+1F935",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🤵‍♀️": {
 			Slug:        "woman-in-tuxedo",
 			Character:   "🤵‍♀️",
 			UnicodeName: "woman in tuxedo",
@@ -10004,7 +13460,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129334: {
+		"🤵‍♂️": {
+			Slug:        "man-in-tuxedo",
+			Character:   "🤵‍♂️",
+			UnicodeName: "man in tuxedo",
+			CodePoint:   "U+1F935 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🤶": {
 			Slug:        "Mrs.-Claus",
 			Character:   "🤶",
 			UnicodeName: "Mrs. Claus",
@@ -10013,7 +13478,16 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129335: {
+		"🤷": {
+			Slug:        "person-shrugging",
+			Character:   "🤷",
+			UnicodeName: "person shrugging",
+			CodePoint:   "U+1F937",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🤷‍♀️": {
 			Slug:        "woman-shrugging",
 			Character:   "🤷‍♀️",
 			UnicodeName: "woman shrugging",
@@ -10022,7 +13496,25 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		129336: {
+		"🤷‍♂️": {
+			Slug:        "man-shrugging",
+			Character:   "🤷‍♂️",
+			UnicodeName: "man shrugging",
+			CodePoint:   "U+1F937 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🤸": {
+			Slug:        "person-cartwheeling",
+			Character:   "🤸",
+			UnicodeName: "person cartwheeling",
+			CodePoint:   "U+1F938",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤸‍♀️": {
 			Slug:        "woman-cartwheeling",
 			Character:   "🤸‍♀️",
 			UnicodeName: "woman cartwheeling",
@@ -10031,7 +13523,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		129337: {
+		"🤸‍♂️": {
+			Slug:        "man-cartwheeling",
+			Character:   "🤸‍♂️",
+			UnicodeName: "man cartwheeling",
+			CodePoint:   "U+1F938 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤹": {
+			Slug:        "person-juggling",
+			Character:   "🤹",
+			UnicodeName: "person juggling",
+			CodePoint:   "U+1F939",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤹‍♀️": {
 			Slug:        "woman-juggling",
 			Character:   "🤹‍♀️",
 			UnicodeName: "woman juggling",
@@ -10040,7 +13550,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		129338: {
+		"🤹‍♂️": {
+			Slug:        "man-juggling",
+			Character:   "🤹‍♂️",
+			UnicodeName: "man juggling",
+			CodePoint:   "U+1F939 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤺": {
 			Slug:        "person-fencing",
 			Character:   "🤺",
 			UnicodeName: "person fencing",
@@ -10049,7 +13568,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		129340: {
+		"🤼": {
+			Slug:        "people-wrestling",
+			Character:   "🤼",
+			UnicodeName: "people wrestling",
+			CodePoint:   "U+1F93C",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤼‍♀️": {
 			Slug:        "women-wrestling",
 			Character:   "🤼‍♀️",
 			UnicodeName: "women wrestling",
@@ -10058,7 +13586,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		129341: {
+		"🤼‍♂️": {
+			Slug:        "men-wrestling",
+			Character:   "🤼‍♂️",
+			UnicodeName: "men wrestling",
+			CodePoint:   "U+1F93C U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤽": {
+			Slug:        "person-playing-water-polo",
+			Character:   "🤽",
+			UnicodeName: "person playing water polo",
+			CodePoint:   "U+1F93D",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤽‍♀️": {
 			Slug:        "woman-playing-water-polo",
 			Character:   "🤽‍♀️",
 			UnicodeName: "woman playing water polo",
@@ -10067,7 +13613,25 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		129342: {
+		"🤽‍♂️": {
+			Slug:        "man-playing-water-polo",
+			Character:   "🤽‍♂️",
+			UnicodeName: "man playing water polo",
+			CodePoint:   "U+1F93D U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤾": {
+			Slug:        "person-playing-handball",
+			Character:   "🤾",
+			UnicodeName: "person playing handball",
+			CodePoint:   "U+1F93E",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤾‍♀️": {
 			Slug:        "woman-playing-handball",
 			Character:   "🤾‍♀️",
 			UnicodeName: "woman playing handball",
@@ -10076,7 +13640,16 @@ var (
 			SubGroup:    "person-sport",
 		},
 
-		129343: {
+		"🤾‍♂️": {
+			Slug:        "man-playing-handball",
+			Character:   "🤾‍♂️",
+			UnicodeName: "man playing handball",
+			CodePoint:   "U+1F93E U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-sport",
+		},
+
+		"🤿": {
 			Slug:        "diving-mask",
 			Character:   "🤿",
 			UnicodeName: "diving mask",
@@ -10085,7 +13658,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129344: {
+		"🥀": {
 			Slug:        "wilted-flower",
 			Character:   "🥀",
 			UnicodeName: "wilted flower",
@@ -10094,7 +13667,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		129345: {
+		"🥁": {
 			Slug:        "drum",
 			Character:   "🥁",
 			UnicodeName: "drum",
@@ -10103,7 +13676,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		129346: {
+		"🥂": {
 			Slug:        "clinking-glasses",
 			Character:   "🥂",
 			UnicodeName: "clinking glasses",
@@ -10112,7 +13685,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129347: {
+		"🥃": {
 			Slug:        "tumbler-glass",
 			Character:   "🥃",
 			UnicodeName: "tumbler glass",
@@ -10121,7 +13694,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129348: {
+		"🥄": {
 			Slug:        "spoon",
 			Character:   "🥄",
 			UnicodeName: "spoon",
@@ -10130,7 +13703,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		129349: {
+		"🥅": {
 			Slug:        "goal-net",
 			Character:   "🥅",
 			UnicodeName: "goal net",
@@ -10139,7 +13712,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129351: {
+		"🥇": {
 			Slug:        "1st-place-medal",
 			Character:   "🥇",
 			UnicodeName: "1st place medal",
@@ -10148,7 +13721,7 @@ var (
 			SubGroup:    "award-medal",
 		},
 
-		129352: {
+		"🥈": {
 			Slug:        "2nd-place-medal",
 			Character:   "🥈",
 			UnicodeName: "2nd place medal",
@@ -10157,7 +13730,7 @@ var (
 			SubGroup:    "award-medal",
 		},
 
-		129353: {
+		"🥉": {
 			Slug:        "3rd-place-medal",
 			Character:   "🥉",
 			UnicodeName: "3rd place medal",
@@ -10166,7 +13739,7 @@ var (
 			SubGroup:    "award-medal",
 		},
 
-		129354: {
+		"🥊": {
 			Slug:        "boxing-glove",
 			Character:   "🥊",
 			UnicodeName: "boxing glove",
@@ -10175,7 +13748,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129355: {
+		"🥋": {
 			Slug:        "martial-arts-uniform",
 			Character:   "🥋",
 			UnicodeName: "martial arts uniform",
@@ -10184,7 +13757,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129356: {
+		"🥌": {
 			Slug:        "curling-stone",
 			Character:   "🥌",
 			UnicodeName: "curling stone",
@@ -10193,7 +13766,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129357: {
+		"🥍": {
 			Slug:        "lacrosse",
 			Character:   "🥍",
 			UnicodeName: "lacrosse",
@@ -10202,7 +13775,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129358: {
+		"🥎": {
 			Slug:        "softball",
 			Character:   "🥎",
 			UnicodeName: "softball",
@@ -10211,7 +13784,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129359: {
+		"🥏": {
 			Slug:        "flying-disc",
 			Character:   "🥏",
 			UnicodeName: "flying disc",
@@ -10220,7 +13793,7 @@ var (
 			SubGroup:    "sport",
 		},
 
-		129360: {
+		"🥐": {
 			Slug:        "croissant",
 			Character:   "🥐",
 			UnicodeName: "croissant",
@@ -10229,7 +13802,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129361: {
+		"🥑": {
 			Slug:        "avocado",
 			Character:   "🥑",
 			UnicodeName: "avocado",
@@ -10238,7 +13811,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129362: {
+		"🥒": {
 			Slug:        "cucumber",
 			Character:   "🥒",
 			UnicodeName: "cucumber",
@@ -10247,7 +13820,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129363: {
+		"🥓": {
 			Slug:        "bacon",
 			Character:   "🥓",
 			UnicodeName: "bacon",
@@ -10256,7 +13829,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129364: {
+		"🥔": {
 			Slug:        "potato",
 			Character:   "🥔",
 			UnicodeName: "potato",
@@ -10265,7 +13838,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129365: {
+		"🥕": {
 			Slug:        "carrot",
 			Character:   "🥕",
 			UnicodeName: "carrot",
@@ -10274,7 +13847,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129366: {
+		"🥖": {
 			Slug:        "baguette-bread",
 			Character:   "🥖",
 			UnicodeName: "baguette bread",
@@ -10283,7 +13856,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129367: {
+		"🥗": {
 			Slug:        "green-salad",
 			Character:   "🥗",
 			UnicodeName: "green salad",
@@ -10292,7 +13865,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129368: {
+		"🥘": {
 			Slug:        "shallow-pan-of-food",
 			Character:   "🥘",
 			UnicodeName: "shallow pan of food",
@@ -10301,7 +13874,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129369: {
+		"🥙": {
 			Slug:        "stuffed-flatbread",
 			Character:   "🥙",
 			UnicodeName: "stuffed flatbread",
@@ -10310,7 +13883,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129370: {
+		"🥚": {
 			Slug:        "egg",
 			Character:   "🥚",
 			UnicodeName: "egg",
@@ -10319,7 +13892,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129371: {
+		"🥛": {
 			Slug:        "glass-of-milk",
 			Character:   "🥛",
 			UnicodeName: "glass of milk",
@@ -10328,7 +13901,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129372: {
+		"🥜": {
 			Slug:        "peanuts",
 			Character:   "🥜",
 			UnicodeName: "peanuts",
@@ -10337,7 +13910,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129373: {
+		"🥝": {
 			Slug:        "kiwi-fruit",
 			Character:   "🥝",
 			UnicodeName: "kiwi fruit",
@@ -10346,7 +13919,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		129374: {
+		"🥞": {
 			Slug:        "pancakes",
 			Character:   "🥞",
 			UnicodeName: "pancakes",
@@ -10355,7 +13928,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129375: {
+		"🥟": {
 			Slug:        "dumpling",
 			Character:   "🥟",
 			UnicodeName: "dumpling",
@@ -10364,7 +13937,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		129376: {
+		"🥠": {
 			Slug:        "fortune-cookie",
 			Character:   "🥠",
 			UnicodeName: "fortune cookie",
@@ -10373,7 +13946,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		129377: {
+		"🥡": {
 			Slug:        "takeout-box",
 			Character:   "🥡",
 			UnicodeName: "takeout box",
@@ -10382,7 +13955,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		129378: {
+		"🥢": {
 			Slug:        "chopsticks",
 			Character:   "🥢",
 			UnicodeName: "chopsticks",
@@ -10391,7 +13964,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		129379: {
+		"🥣": {
 			Slug:        "bowl-with-spoon",
 			Character:   "🥣",
 			UnicodeName: "bowl with spoon",
@@ -10400,7 +13973,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129380: {
+		"🥤": {
 			Slug:        "cup-with-straw",
 			Character:   "🥤",
 			UnicodeName: "cup with straw",
@@ -10409,7 +13982,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129381: {
+		"🥥": {
 			Slug:        "coconut",
 			Character:   "🥥",
 			UnicodeName: "coconut",
@@ -10418,7 +13991,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		129382: {
+		"🥦": {
 			Slug:        "broccoli",
 			Character:   "🥦",
 			UnicodeName: "broccoli",
@@ -10427,7 +14000,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129383: {
+		"🥧": {
 			Slug:        "pie",
 			Character:   "🥧",
 			UnicodeName: "pie",
@@ -10436,7 +14009,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		129384: {
+		"🥨": {
 			Slug:        "pretzel",
 			Character:   "🥨",
 			UnicodeName: "pretzel",
@@ -10445,7 +14018,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129385: {
+		"🥩": {
 			Slug:        "cut-of-meat",
 			Character:   "🥩",
 			UnicodeName: "cut of meat",
@@ -10454,7 +14027,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129386: {
+		"🥪": {
 			Slug:        "sandwich",
 			Character:   "🥪",
 			UnicodeName: "sandwich",
@@ -10463,7 +14036,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129387: {
+		"🥫": {
 			Slug:        "canned-food",
 			Character:   "🥫",
 			UnicodeName: "canned food",
@@ -10472,7 +14045,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129388: {
+		"🥬": {
 			Slug:        "leafy-green",
 			Character:   "🥬",
 			UnicodeName: "leafy green",
@@ -10481,7 +14054,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129389: {
+		"🥭": {
 			Slug:        "mango",
 			Character:   "🥭",
 			UnicodeName: "mango",
@@ -10490,7 +14063,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		129390: {
+		"🥮": {
 			Slug:        "moon-cake",
 			Character:   "🥮",
 			UnicodeName: "moon cake",
@@ -10499,7 +14072,7 @@ var (
 			SubGroup:    "food-asian",
 		},
 
-		129391: {
+		"🥯": {
 			Slug:        "bagel",
 			Character:   "🥯",
 			UnicodeName: "bagel",
@@ -10508,7 +14081,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129392: {
+		"🥰": {
 			Slug:        "smiling-face-with-hearts",
 			Character:   "🥰",
 			UnicodeName: "smiling face with hearts",
@@ -10517,7 +14090,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		129393: {
+		"🥱": {
 			Slug:        "yawning-face",
 			Character:   "🥱",
 			UnicodeName: "yawning face",
@@ -10526,7 +14099,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		129394: {
+		"🥲": {
 			Slug:        "smiling-face-with-tear",
 			Character:   "🥲",
 			UnicodeName: "smiling face with tear",
@@ -10535,7 +14108,7 @@ var (
 			SubGroup:    "face-affection",
 		},
 
-		129395: {
+		"🥳": {
 			Slug:        "partying-face",
 			Character:   "🥳",
 			UnicodeName: "partying face",
@@ -10544,7 +14117,7 @@ var (
 			SubGroup:    "face-hat",
 		},
 
-		129396: {
+		"🥴": {
 			Slug:        "woozy-face",
 			Character:   "🥴",
 			UnicodeName: "woozy face",
@@ -10553,7 +14126,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129397: {
+		"🥵": {
 			Slug:        "hot-face",
 			Character:   "🥵",
 			UnicodeName: "hot face",
@@ -10562,7 +14135,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129398: {
+		"🥶": {
 			Slug:        "cold-face",
 			Character:   "🥶",
 			UnicodeName: "cold face",
@@ -10571,7 +14144,7 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
-		129399: {
+		"🥷": {
 			Slug:        "ninja",
 			Character:   "🥷",
 			UnicodeName: "ninja",
@@ -10580,7 +14153,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129400: {
+		"🥸": {
 			Slug:        "disguised-face",
 			Character:   "🥸",
 			UnicodeName: "disguised face",
@@ -10589,7 +14162,7 @@ var (
 			SubGroup:    "face-hat",
 		},
 
-		129401: {
+		"🥹": {
 			Slug:        "⊛-face-holding-back-tears",
 			Character:   "🥹",
 			UnicodeName: "⊛ face holding back tears",
@@ -10598,7 +14171,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		129402: {
+		"🥺": {
 			Slug:        "pleading-face",
 			Character:   "🥺",
 			UnicodeName: "pleading face",
@@ -10607,7 +14180,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		129403: {
+		"🥻": {
 			Slug:        "sari",
 			Character:   "🥻",
 			UnicodeName: "sari",
@@ -10616,7 +14189,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129404: {
+		"🥼": {
 			Slug:        "lab-coat",
 			Character:   "🥼",
 			UnicodeName: "lab coat",
@@ -10625,7 +14198,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129405: {
+		"🥽": {
 			Slug:        "goggles",
 			Character:   "🥽",
 			UnicodeName: "goggles",
@@ -10634,7 +14207,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129406: {
+		"🥾": {
 			Slug:        "hiking-boot",
 			Character:   "🥾",
 			UnicodeName: "hiking boot",
@@ -10643,7 +14216,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129407: {
+		"🥿": {
 			Slug:        "flat-shoe",
 			Character:   "🥿",
 			UnicodeName: "flat shoe",
@@ -10652,7 +14225,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129408: {
+		"🦀": {
 			Slug:        "crab",
 			Character:   "🦀",
 			UnicodeName: "crab",
@@ -10661,7 +14234,7 @@ var (
 			SubGroup:    "food-marine",
 		},
 
-		129409: {
+		"🦁": {
 			Slug:        "lion",
 			Character:   "🦁",
 			UnicodeName: "lion",
@@ -10670,7 +14243,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129410: {
+		"🦂": {
 			Slug:        "scorpion",
 			Character:   "🦂",
 			UnicodeName: "scorpion",
@@ -10679,7 +14252,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129411: {
+		"🦃": {
 			Slug:        "turkey",
 			Character:   "🦃",
 			UnicodeName: "turkey",
@@ -10688,7 +14261,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129412: {
+		"🦄": {
 			Slug:        "unicorn",
 			Character:   "🦄",
 			UnicodeName: "unicorn",
@@ -10697,7 +14270,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129413: {
+		"🦅": {
 			Slug:        "eagle",
 			Character:   "🦅",
 			UnicodeName: "eagle",
@@ -10706,7 +14279,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129414: {
+		"🦆": {
 			Slug:        "duck",
 			Character:   "🦆",
 			UnicodeName: "duck",
@@ -10715,7 +14288,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129415: {
+		"🦇": {
 			Slug:        "bat",
 			Character:   "🦇",
 			UnicodeName: "bat",
@@ -10724,7 +14297,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129416: {
+		"🦈": {
 			Slug:        "shark",
 			Character:   "🦈",
 			UnicodeName: "shark",
@@ -10733,7 +14306,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		129417: {
+		"🦉": {
 			Slug:        "owl",
 			Character:   "🦉",
 			UnicodeName: "owl",
@@ -10742,7 +14315,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129418: {
+		"🦊": {
 			Slug:        "fox",
 			Character:   "🦊",
 			UnicodeName: "fox",
@@ -10751,7 +14324,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129419: {
+		"🦋": {
 			Slug:        "butterfly",
 			Character:   "🦋",
 			UnicodeName: "butterfly",
@@ -10760,7 +14333,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129420: {
+		"🦌": {
 			Slug:        "deer",
 			Character:   "🦌",
 			UnicodeName: "deer",
@@ -10769,7 +14342,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129421: {
+		"🦍": {
 			Slug:        "gorilla",
 			Character:   "🦍",
 			UnicodeName: "gorilla",
@@ -10778,7 +14351,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129422: {
+		"🦎": {
 			Slug:        "lizard",
 			Character:   "🦎",
 			UnicodeName: "lizard",
@@ -10787,7 +14360,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		129423: {
+		"🦏": {
 			Slug:        "rhinoceros",
 			Character:   "🦏",
 			UnicodeName: "rhinoceros",
@@ -10796,7 +14369,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129424: {
+		"🦐": {
 			Slug:        "shrimp",
 			Character:   "🦐",
 			UnicodeName: "shrimp",
@@ -10805,7 +14378,7 @@ var (
 			SubGroup:    "food-marine",
 		},
 
-		129425: {
+		"🦑": {
 			Slug:        "squid",
 			Character:   "🦑",
 			UnicodeName: "squid",
@@ -10814,7 +14387,7 @@ var (
 			SubGroup:    "food-marine",
 		},
 
-		129426: {
+		"🦒": {
 			Slug:        "giraffe",
 			Character:   "🦒",
 			UnicodeName: "giraffe",
@@ -10823,7 +14396,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129427: {
+		"🦓": {
 			Slug:        "zebra",
 			Character:   "🦓",
 			UnicodeName: "zebra",
@@ -10832,7 +14405,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129428: {
+		"🦔": {
 			Slug:        "hedgehog",
 			Character:   "🦔",
 			UnicodeName: "hedgehog",
@@ -10841,7 +14414,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129429: {
+		"🦕": {
 			Slug:        "sauropod",
 			Character:   "🦕",
 			UnicodeName: "sauropod",
@@ -10850,7 +14423,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		129430: {
+		"🦖": {
 			Slug:        "T-Rex",
 			Character:   "🦖",
 			UnicodeName: "T-Rex",
@@ -10859,7 +14432,7 @@ var (
 			SubGroup:    "animal-reptile",
 		},
 
-		129431: {
+		"🦗": {
 			Slug:        "cricket",
 			Character:   "🦗",
 			UnicodeName: "cricket",
@@ -10868,7 +14441,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129432: {
+		"🦘": {
 			Slug:        "kangaroo",
 			Character:   "🦘",
 			UnicodeName: "kangaroo",
@@ -10877,7 +14450,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129433: {
+		"🦙": {
 			Slug:        "llama",
 			Character:   "🦙",
 			UnicodeName: "llama",
@@ -10886,7 +14459,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129434: {
+		"🦚": {
 			Slug:        "peacock",
 			Character:   "🦚",
 			UnicodeName: "peacock",
@@ -10895,7 +14468,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129435: {
+		"🦛": {
 			Slug:        "hippopotamus",
 			Character:   "🦛",
 			UnicodeName: "hippopotamus",
@@ -10904,7 +14477,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129436: {
+		"🦜": {
 			Slug:        "parrot",
 			Character:   "🦜",
 			UnicodeName: "parrot",
@@ -10913,7 +14486,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129437: {
+		"🦝": {
 			Slug:        "raccoon",
 			Character:   "🦝",
 			UnicodeName: "raccoon",
@@ -10922,7 +14495,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129438: {
+		"🦞": {
 			Slug:        "lobster",
 			Character:   "🦞",
 			UnicodeName: "lobster",
@@ -10931,7 +14504,7 @@ var (
 			SubGroup:    "food-marine",
 		},
 
-		129439: {
+		"🦟": {
 			Slug:        "mosquito",
 			Character:   "🦟",
 			UnicodeName: "mosquito",
@@ -10940,7 +14513,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129440: {
+		"🦠": {
 			Slug:        "microbe",
 			Character:   "🦠",
 			UnicodeName: "microbe",
@@ -10949,7 +14522,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129441: {
+		"🦡": {
 			Slug:        "badger",
 			Character:   "🦡",
 			UnicodeName: "badger",
@@ -10958,7 +14531,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129442: {
+		"🦢": {
 			Slug:        "swan",
 			Character:   "🦢",
 			UnicodeName: "swan",
@@ -10967,7 +14540,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129443: {
+		"🦣": {
 			Slug:        "mammoth",
 			Character:   "🦣",
 			UnicodeName: "mammoth",
@@ -10976,7 +14549,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129444: {
+		"🦤": {
 			Slug:        "dodo",
 			Character:   "🦤",
 			UnicodeName: "dodo",
@@ -10985,7 +14558,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129445: {
+		"🦥": {
 			Slug:        "sloth",
 			Character:   "🦥",
 			UnicodeName: "sloth",
@@ -10994,7 +14567,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129446: {
+		"🦦": {
 			Slug:        "otter",
 			Character:   "🦦",
 			UnicodeName: "otter",
@@ -11003,7 +14576,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129447: {
+		"🦧": {
 			Slug:        "orangutan",
 			Character:   "🦧",
 			UnicodeName: "orangutan",
@@ -11012,7 +14585,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129448: {
+		"🦨": {
 			Slug:        "skunk",
 			Character:   "🦨",
 			UnicodeName: "skunk",
@@ -11021,7 +14594,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129449: {
+		"🦩": {
 			Slug:        "flamingo",
 			Character:   "🦩",
 			UnicodeName: "flamingo",
@@ -11030,7 +14603,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129450: {
+		"🦪": {
 			Slug:        "oyster",
 			Character:   "🦪",
 			UnicodeName: "oyster",
@@ -11039,7 +14612,7 @@ var (
 			SubGroup:    "food-marine",
 		},
 
-		129451: {
+		"🦫": {
 			Slug:        "beaver",
 			Character:   "🦫",
 			UnicodeName: "beaver",
@@ -11048,7 +14621,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129452: {
+		"🦬": {
 			Slug:        "bison",
 			Character:   "🦬",
 			UnicodeName: "bison",
@@ -11057,7 +14630,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129453: {
+		"🦭": {
 			Slug:        "seal",
 			Character:   "🦭",
 			UnicodeName: "seal",
@@ -11066,7 +14639,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		129454: {
+		"🦮": {
 			Slug:        "guide-dog",
 			Character:   "🦮",
 			UnicodeName: "guide dog",
@@ -11075,7 +14648,7 @@ var (
 			SubGroup:    "animal-mammal",
 		},
 
-		129455: {
+		"🦯": {
 			Slug:        "white-cane",
 			Character:   "🦯",
 			UnicodeName: "white cane",
@@ -11084,7 +14657,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129456: {
+		"🦰": {
 			Slug:        "red-hair",
 			Character:   "🦰",
 			UnicodeName: "red hair",
@@ -11093,7 +14666,7 @@ var (
 			SubGroup:    "hair-style",
 		},
 
-		129457: {
+		"🦱": {
 			Slug:        "curly-hair",
 			Character:   "🦱",
 			UnicodeName: "curly hair",
@@ -11102,7 +14675,7 @@ var (
 			SubGroup:    "hair-style",
 		},
 
-		129458: {
+		"🦲": {
 			Slug:        "bald",
 			Character:   "🦲",
 			UnicodeName: "bald",
@@ -11111,7 +14684,7 @@ var (
 			SubGroup:    "hair-style",
 		},
 
-		129459: {
+		"🦳": {
 			Slug:        "white-hair",
 			Character:   "🦳",
 			UnicodeName: "white hair",
@@ -11120,7 +14693,7 @@ var (
 			SubGroup:    "hair-style",
 		},
 
-		129460: {
+		"🦴": {
 			Slug:        "bone",
 			Character:   "🦴",
 			UnicodeName: "bone",
@@ -11129,7 +14702,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129461: {
+		"🦵": {
 			Slug:        "leg",
 			Character:   "🦵",
 			UnicodeName: "leg",
@@ -11138,7 +14711,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129462: {
+		"🦶": {
 			Slug:        "foot",
 			Character:   "🦶",
 			UnicodeName: "foot",
@@ -11147,7 +14720,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129463: {
+		"🦷": {
 			Slug:        "tooth",
 			Character:   "🦷",
 			UnicodeName: "tooth",
@@ -11156,7 +14729,16 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129464: {
+		"🦸": {
+			Slug:        "superhero",
+			Character:   "🦸",
+			UnicodeName: "superhero",
+			CodePoint:   "U+1F9B8",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🦸‍♀️": {
 			Slug:        "woman-superhero",
 			Character:   "🦸‍♀️",
 			UnicodeName: "woman superhero",
@@ -11165,7 +14747,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129465: {
+		"🦸‍♂️": {
+			Slug:        "man-superhero",
+			Character:   "🦸‍♂️",
+			UnicodeName: "man superhero",
+			CodePoint:   "U+1F9B8 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🦹": {
+			Slug:        "supervillain",
+			Character:   "🦹",
+			UnicodeName: "supervillain",
+			CodePoint:   "U+1F9B9",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🦹‍♀️": {
 			Slug:        "woman-supervillain",
 			Character:   "🦹‍♀️",
 			UnicodeName: "woman supervillain",
@@ -11174,7 +14774,16 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129466: {
+		"🦹‍♂️": {
+			Slug:        "man-supervillain",
+			Character:   "🦹‍♂️",
+			UnicodeName: "man supervillain",
+			CodePoint:   "U+1F9B9 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🦺": {
 			Slug:        "safety-vest",
 			Character:   "🦺",
 			UnicodeName: "safety vest",
@@ -11183,7 +14792,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129467: {
+		"🦻": {
 			Slug:        "ear-with-hearing-aid",
 			Character:   "🦻",
 			UnicodeName: "ear with hearing aid",
@@ -11192,7 +14801,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129468: {
+		"🦼": {
 			Slug:        "motorized-wheelchair",
 			Character:   "🦼",
 			UnicodeName: "motorized wheelchair",
@@ -11201,7 +14810,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		129469: {
+		"🦽": {
 			Slug:        "manual-wheelchair",
 			Character:   "🦽",
 			UnicodeName: "manual wheelchair",
@@ -11210,7 +14819,7 @@ var (
 			SubGroup:    "transport-ground",
 		},
 
-		129470: {
+		"🦾": {
 			Slug:        "mechanical-arm",
 			Character:   "🦾",
 			UnicodeName: "mechanical arm",
@@ -11219,7 +14828,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129471: {
+		"🦿": {
 			Slug:        "mechanical-leg",
 			Character:   "🦿",
 			UnicodeName: "mechanical leg",
@@ -11228,7 +14837,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129472: {
+		"🧀": {
 			Slug:        "cheese-wedge",
 			Character:   "🧀",
 			UnicodeName: "cheese wedge",
@@ -11237,7 +14846,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129473: {
+		"🧁": {
 			Slug:        "cupcake",
 			Character:   "🧁",
 			UnicodeName: "cupcake",
@@ -11246,7 +14855,7 @@ var (
 			SubGroup:    "food-sweet",
 		},
 
-		129474: {
+		"🧂": {
 			Slug:        "salt",
 			Character:   "🧂",
 			UnicodeName: "salt",
@@ -11255,7 +14864,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129475: {
+		"🧃": {
 			Slug:        "beverage-box",
 			Character:   "🧃",
 			UnicodeName: "beverage box",
@@ -11264,7 +14873,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129476: {
+		"🧄": {
 			Slug:        "garlic",
 			Character:   "🧄",
 			UnicodeName: "garlic",
@@ -11273,7 +14882,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129477: {
+		"🧅": {
 			Slug:        "onion",
 			Character:   "🧅",
 			UnicodeName: "onion",
@@ -11282,7 +14891,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129478: {
+		"🧆": {
 			Slug:        "falafel",
 			Character:   "🧆",
 			UnicodeName: "falafel",
@@ -11291,7 +14900,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129479: {
+		"🧇": {
 			Slug:        "waffle",
 			Character:   "🧇",
 			UnicodeName: "waffle",
@@ -11300,7 +14909,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129480: {
+		"🧈": {
 			Slug:        "butter",
 			Character:   "🧈",
 			UnicodeName: "butter",
@@ -11309,7 +14918,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129481: {
+		"🧉": {
 			Slug:        "mate",
 			Character:   "🧉",
 			UnicodeName: "mate",
@@ -11318,7 +14927,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129482: {
+		"🧊": {
 			Slug:        "ice",
 			Character:   "🧊",
 			UnicodeName: "ice",
@@ -11327,7 +14936,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129483: {
+		"🧋": {
 			Slug:        "bubble-tea",
 			Character:   "🧋",
 			UnicodeName: "bubble tea",
@@ -11336,7 +14945,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129484: {
+		"🧌": {
 			Slug:        "⊛-troll",
 			Character:   "🧌",
 			UnicodeName: "⊛ troll",
@@ -11345,7 +14954,16 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129485: {
+		"🧍": {
+			Slug:        "person-standing",
+			Character:   "🧍",
+			UnicodeName: "person standing",
+			CodePoint:   "U+1F9CD",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧍‍♀️": {
 			Slug:        "woman-standing",
 			Character:   "🧍‍♀️",
 			UnicodeName: "woman standing",
@@ -11354,7 +14972,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		129486: {
+		"🧍‍♂️": {
+			Slug:        "man-standing",
+			Character:   "🧍‍♂️",
+			UnicodeName: "man standing",
+			CodePoint:   "U+1F9CD U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧎": {
+			Slug:        "person-kneeling",
+			Character:   "🧎",
+			UnicodeName: "person kneeling",
+			CodePoint:   "U+1F9CE",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧎‍♀️": {
 			Slug:        "woman-kneeling",
 			Character:   "🧎‍♀️",
 			UnicodeName: "woman kneeling",
@@ -11363,7 +14999,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		129487: {
+		"🧎‍♂️": {
+			Slug:        "man-kneeling",
+			Character:   "🧎‍♂️",
+			UnicodeName: "man kneeling",
+			CodePoint:   "U+1F9CE U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧏": {
+			Slug:        "deaf-person",
+			Character:   "🧏",
+			UnicodeName: "deaf person",
+			CodePoint:   "U+1F9CF",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🧏‍♀️": {
 			Slug:        "deaf-woman",
 			Character:   "🧏‍♀️",
 			UnicodeName: "deaf woman",
@@ -11372,7 +15026,16 @@ var (
 			SubGroup:    "person-gesture",
 		},
 
-		129488: {
+		"🧏‍♂️": {
+			Slug:        "deaf-man",
+			Character:   "🧏‍♂️",
+			UnicodeName: "deaf man",
+			CodePoint:   "U+1F9CF U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-gesture",
+		},
+
+		"🧐": {
 			Slug:        "face-with-monocle",
 			Character:   "🧐",
 			UnicodeName: "face with monocle",
@@ -11381,7 +15044,178 @@ var (
 			SubGroup:    "face-glasses",
 		},
 
-		129489: {
+		"🧑": {
+			Slug:        "person",
+			Character:   "🧑",
+			UnicodeName: "person",
+			CodePoint:   "U+1F9D1",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧑‍⚕️": {
+			Slug:        "health-worker",
+			Character:   "🧑‍⚕️",
+			UnicodeName: "health worker",
+			CodePoint:   "U+1F9D1 U+200D U+2695 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍⚖️": {
+			Slug:        "judge",
+			Character:   "🧑‍⚖️",
+			UnicodeName: "judge",
+			CodePoint:   "U+1F9D1 U+200D U+2696 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍✈️": {
+			Slug:        "pilot",
+			Character:   "🧑‍✈️",
+			UnicodeName: "pilot",
+			CodePoint:   "U+1F9D1 U+200D U+2708 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🌾": {
+			Slug:        "farmer",
+			Character:   "🧑‍🌾",
+			UnicodeName: "farmer",
+			CodePoint:   "U+1F9D1 U+200D U+1F33E",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🍳": {
+			Slug:        "cook",
+			Character:   "🧑‍🍳",
+			UnicodeName: "cook",
+			CodePoint:   "U+1F9D1 U+200D U+1F373",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🍼": {
+			Slug:        "person-feeding-baby",
+			Character:   "🧑‍🍼",
+			UnicodeName: "person feeding baby",
+			CodePoint:   "U+1F9D1 U+200D U+1F37C",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🎄": {
+			Slug:        "mx-claus",
+			Character:   "🧑‍🎄",
+			UnicodeName: "mx claus",
+			CodePoint:   "U+1F9D1 U+200D U+1F384",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧑‍🎓": {
+			Slug:        "student",
+			Character:   "🧑‍🎓",
+			UnicodeName: "student",
+			CodePoint:   "U+1F9D1 U+200D U+1F393",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🎤": {
+			Slug:        "singer",
+			Character:   "🧑‍🎤",
+			UnicodeName: "singer",
+			CodePoint:   "U+1F9D1 U+200D U+1F3A4",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🎨": {
+			Slug:        "artist",
+			Character:   "🧑‍🎨",
+			UnicodeName: "artist",
+			CodePoint:   "U+1F9D1 U+200D U+1F3A8",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🏫": {
+			Slug:        "teacher",
+			Character:   "🧑‍🏫",
+			UnicodeName: "teacher",
+			CodePoint:   "U+1F9D1 U+200D U+1F3EB",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🏭": {
+			Slug:        "factory-worker",
+			Character:   "🧑‍🏭",
+			UnicodeName: "factory worker",
+			CodePoint:   "U+1F9D1 U+200D U+1F3ED",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍💻": {
+			Slug:        "technologist",
+			Character:   "🧑‍💻",
+			UnicodeName: "technologist",
+			CodePoint:   "U+1F9D1 U+200D U+1F4BB",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍💼": {
+			Slug:        "office-worker",
+			Character:   "🧑‍💼",
+			UnicodeName: "office worker",
+			CodePoint:   "U+1F9D1 U+200D U+1F4BC",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🔧": {
+			Slug:        "mechanic",
+			Character:   "🧑‍🔧",
+			UnicodeName: "mechanic",
+			CodePoint:   "U+1F9D1 U+200D U+1F527",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🔬": {
+			Slug:        "scientist",
+			Character:   "🧑‍🔬",
+			UnicodeName: "scientist",
+			CodePoint:   "U+1F9D1 U+200D U+1F52C",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🚀": {
+			Slug:        "astronaut",
+			Character:   "🧑‍🚀",
+			UnicodeName: "astronaut",
+			CodePoint:   "U+1F9D1 U+200D U+1F680",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🚒": {
+			Slug:        "firefighter",
+			Character:   "🧑‍🚒",
+			UnicodeName: "firefighter",
+			CodePoint:   "U+1F9D1 U+200D U+1F692",
+			Group:       "People & Body",
+			SubGroup:    "person-role",
+		},
+
+		"🧑‍🤝‍🧑": {
 			Slug:        "people-holding-hands",
 			Character:   "🧑‍🤝‍🧑",
 			UnicodeName: "people holding hands",
@@ -11390,7 +15224,70 @@ var (
 			SubGroup:    "family",
 		},
 
-		129490: {
+		"🧑‍🦯": {
+			Slug:        "person-with-white-cane",
+			Character:   "🧑‍🦯",
+			UnicodeName: "person with white cane",
+			CodePoint:   "U+1F9D1 U+200D U+1F9AF",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧑‍🦰": {
+			Slug:        "person:-red-hair",
+			Character:   "🧑‍🦰",
+			UnicodeName: "person: red hair",
+			CodePoint:   "U+1F9D1 U+200D U+1F9B0",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧑‍🦱": {
+			Slug:        "person:-curly-hair",
+			Character:   "🧑‍🦱",
+			UnicodeName: "person: curly hair",
+			CodePoint:   "U+1F9D1 U+200D U+1F9B1",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧑‍🦲": {
+			Slug:        "person:-bald",
+			Character:   "🧑‍🦲",
+			UnicodeName: "person: bald",
+			CodePoint:   "U+1F9D1 U+200D U+1F9B2",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧑‍🦳": {
+			Slug:        "person:-white-hair",
+			Character:   "🧑‍🦳",
+			UnicodeName: "person: white hair",
+			CodePoint:   "U+1F9D1 U+200D U+1F9B3",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧑‍🦼": {
+			Slug:        "person-in-motorized-wheelchair",
+			Character:   "🧑‍🦼",
+			UnicodeName: "person in motorized wheelchair",
+			CodePoint:   "U+1F9D1 U+200D U+1F9BC",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧑‍🦽": {
+			Slug:        "person-in-manual-wheelchair",
+			Character:   "🧑‍🦽",
+			UnicodeName: "person in manual wheelchair",
+			CodePoint:   "U+1F9D1 U+200D U+1F9BD",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧒": {
 			Slug:        "child",
 			Character:   "🧒",
 			UnicodeName: "child",
@@ -11399,7 +15296,7 @@ var (
 			SubGroup:    "person",
 		},
 
-		129491: {
+		"🧓": {
 			Slug:        "older-person",
 			Character:   "🧓",
 			UnicodeName: "older person",
@@ -11408,7 +15305,16 @@ var (
 			SubGroup:    "person",
 		},
 
-		129492: {
+		"🧔": {
+			Slug:        "person:-beard",
+			Character:   "🧔",
+			UnicodeName: "person: beard",
+			CodePoint:   "U+1F9D4",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧔‍♀️": {
 			Slug:        "woman:-beard",
 			Character:   "🧔‍♀️",
 			UnicodeName: "woman: beard",
@@ -11417,7 +15323,16 @@ var (
 			SubGroup:    "person",
 		},
 
-		129493: {
+		"🧔‍♂️": {
+			Slug:        "man:-beard",
+			Character:   "🧔‍♂️",
+			UnicodeName: "man: beard",
+			CodePoint:   "U+1F9D4 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person",
+		},
+
+		"🧕": {
 			Slug:        "woman-with-headscarf",
 			Character:   "🧕",
 			UnicodeName: "woman with headscarf",
@@ -11426,7 +15341,16 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129494: {
+		"🧖": {
+			Slug:        "person-in-steamy-room",
+			Character:   "🧖",
+			UnicodeName: "person in steamy room",
+			CodePoint:   "U+1F9D6",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧖‍♀️": {
 			Slug:        "woman-in-steamy-room",
 			Character:   "🧖‍♀️",
 			UnicodeName: "woman in steamy room",
@@ -11435,7 +15359,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		129495: {
+		"🧖‍♂️": {
+			Slug:        "man-in-steamy-room",
+			Character:   "🧖‍♂️",
+			UnicodeName: "man in steamy room",
+			CodePoint:   "U+1F9D6 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧗": {
+			Slug:        "person-climbing",
+			Character:   "🧗",
+			UnicodeName: "person climbing",
+			CodePoint:   "U+1F9D7",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧗‍♀️": {
 			Slug:        "woman-climbing",
 			Character:   "🧗‍♀️",
 			UnicodeName: "woman climbing",
@@ -11444,7 +15386,25 @@ var (
 			SubGroup:    "person-activity",
 		},
 
-		129496: {
+		"🧗‍♂️": {
+			Slug:        "man-climbing",
+			Character:   "🧗‍♂️",
+			UnicodeName: "man climbing",
+			CodePoint:   "U+1F9D7 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-activity",
+		},
+
+		"🧘": {
+			Slug:        "person-in-lotus-position",
+			Character:   "🧘",
+			UnicodeName: "person in lotus position",
+			CodePoint:   "U+1F9D8",
+			Group:       "People & Body",
+			SubGroup:    "person-resting",
+		},
+
+		"🧘‍♀️": {
 			Slug:        "woman-in-lotus-position",
 			Character:   "🧘‍♀️",
 			UnicodeName: "woman in lotus position",
@@ -11453,7 +15413,25 @@ var (
 			SubGroup:    "person-resting",
 		},
 
-		129497: {
+		"🧘‍♂️": {
+			Slug:        "man-in-lotus-position",
+			Character:   "🧘‍♂️",
+			UnicodeName: "man in lotus position",
+			CodePoint:   "U+1F9D8 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-resting",
+		},
+
+		"🧙": {
+			Slug:        "mage",
+			Character:   "🧙",
+			UnicodeName: "mage",
+			CodePoint:   "U+1F9D9",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧙‍♀️": {
 			Slug:        "woman-mage",
 			Character:   "🧙‍♀️",
 			UnicodeName: "woman mage",
@@ -11462,7 +15440,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129498: {
+		"🧙‍♂️": {
+			Slug:        "man-mage",
+			Character:   "🧙‍♂️",
+			UnicodeName: "man mage",
+			CodePoint:   "U+1F9D9 U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧚": {
+			Slug:        "fairy",
+			Character:   "🧚",
+			UnicodeName: "fairy",
+			CodePoint:   "U+1F9DA",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧚‍♀️": {
 			Slug:        "woman-fairy",
 			Character:   "🧚‍♀️",
 			UnicodeName: "woman fairy",
@@ -11471,7 +15467,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129499: {
+		"🧚‍♂️": {
+			Slug:        "man-fairy",
+			Character:   "🧚‍♂️",
+			UnicodeName: "man fairy",
+			CodePoint:   "U+1F9DA U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧛": {
+			Slug:        "vampire",
+			Character:   "🧛",
+			UnicodeName: "vampire",
+			CodePoint:   "U+1F9DB",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧛‍♀️": {
 			Slug:        "woman-vampire",
 			Character:   "🧛‍♀️",
 			UnicodeName: "woman vampire",
@@ -11480,7 +15494,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129500: {
+		"🧛‍♂️": {
+			Slug:        "man-vampire",
+			Character:   "🧛‍♂️",
+			UnicodeName: "man vampire",
+			CodePoint:   "U+1F9DB U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧜": {
+			Slug:        "merperson",
+			Character:   "🧜",
+			UnicodeName: "merperson",
+			CodePoint:   "U+1F9DC",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧜‍♀️": {
 			Slug:        "mermaid",
 			Character:   "🧜‍♀️",
 			UnicodeName: "mermaid",
@@ -11489,7 +15521,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129501: {
+		"🧜‍♂️": {
+			Slug:        "merman",
+			Character:   "🧜‍♂️",
+			UnicodeName: "merman",
+			CodePoint:   "U+1F9DC U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧝": {
+			Slug:        "elf",
+			Character:   "🧝",
+			UnicodeName: "elf",
+			CodePoint:   "U+1F9DD",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧝‍♀️": {
 			Slug:        "woman-elf",
 			Character:   "🧝‍♀️",
 			UnicodeName: "woman elf",
@@ -11498,7 +15548,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129502: {
+		"🧝‍♂️": {
+			Slug:        "man-elf",
+			Character:   "🧝‍♂️",
+			UnicodeName: "man elf",
+			CodePoint:   "U+1F9DD U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧞": {
+			Slug:        "genie",
+			Character:   "🧞",
+			UnicodeName: "genie",
+			CodePoint:   "U+1F9DE",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧞‍♀️": {
 			Slug:        "woman-genie",
 			Character:   "🧞‍♀️",
 			UnicodeName: "woman genie",
@@ -11507,7 +15575,25 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129503: {
+		"🧞‍♂️": {
+			Slug:        "man-genie",
+			Character:   "🧞‍♂️",
+			UnicodeName: "man genie",
+			CodePoint:   "U+1F9DE U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧟": {
+			Slug:        "zombie",
+			Character:   "🧟",
+			UnicodeName: "zombie",
+			CodePoint:   "U+1F9DF",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧟‍♀️": {
 			Slug:        "woman-zombie",
 			Character:   "🧟‍♀️",
 			UnicodeName: "woman zombie",
@@ -11516,7 +15602,16 @@ var (
 			SubGroup:    "person-fantasy",
 		},
 
-		129504: {
+		"🧟‍♂️": {
+			Slug:        "man-zombie",
+			Character:   "🧟‍♂️",
+			UnicodeName: "man zombie",
+			CodePoint:   "U+1F9DF U+200D U+2642 U+FE0F",
+			Group:       "People & Body",
+			SubGroup:    "person-fantasy",
+		},
+
+		"🧠": {
 			Slug:        "brain",
 			Character:   "🧠",
 			UnicodeName: "brain",
@@ -11525,7 +15620,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129505: {
+		"🧡": {
 			Slug:        "orange-heart",
 			Character:   "🧡",
 			UnicodeName: "orange heart",
@@ -11534,7 +15629,7 @@ var (
 			SubGroup:    "emotion",
 		},
 
-		129506: {
+		"🧢": {
 			Slug:        "billed-cap",
 			Character:   "🧢",
 			UnicodeName: "billed cap",
@@ -11543,7 +15638,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129507: {
+		"🧣": {
 			Slug:        "scarf",
 			Character:   "🧣",
 			UnicodeName: "scarf",
@@ -11552,7 +15647,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129508: {
+		"🧤": {
 			Slug:        "gloves",
 			Character:   "🧤",
 			UnicodeName: "gloves",
@@ -11561,7 +15656,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129509: {
+		"🧥": {
 			Slug:        "coat",
 			Character:   "🧥",
 			UnicodeName: "coat",
@@ -11570,7 +15665,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129510: {
+		"🧦": {
 			Slug:        "socks",
 			Character:   "🧦",
 			UnicodeName: "socks",
@@ -11579,7 +15674,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129511: {
+		"🧧": {
 			Slug:        "red-envelope",
 			Character:   "🧧",
 			UnicodeName: "red envelope",
@@ -11588,7 +15683,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		129512: {
+		"🧨": {
 			Slug:        "firecracker",
 			Character:   "🧨",
 			UnicodeName: "firecracker",
@@ -11597,7 +15692,7 @@ var (
 			SubGroup:    "event",
 		},
 
-		129513: {
+		"🧩": {
 			Slug:        "puzzle-piece",
 			Character:   "🧩",
 			UnicodeName: "puzzle piece",
@@ -11606,7 +15701,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129514: {
+		"🧪": {
 			Slug:        "test-tube",
 			Character:   "🧪",
 			UnicodeName: "test tube",
@@ -11615,7 +15710,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		129515: {
+		"🧫": {
 			Slug:        "petri-dish",
 			Character:   "🧫",
 			UnicodeName: "petri dish",
@@ -11624,7 +15719,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		129516: {
+		"🧬": {
 			Slug:        "dna",
 			Character:   "🧬",
 			UnicodeName: "dna",
@@ -11633,7 +15728,7 @@ var (
 			SubGroup:    "science",
 		},
 
-		129517: {
+		"🧭": {
 			Slug:        "compass",
 			Character:   "🧭",
 			UnicodeName: "compass",
@@ -11642,7 +15737,7 @@ var (
 			SubGroup:    "place-map",
 		},
 
-		129518: {
+		"🧮": {
 			Slug:        "abacus",
 			Character:   "🧮",
 			UnicodeName: "abacus",
@@ -11651,7 +15746,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		129519: {
+		"🧯": {
 			Slug:        "fire-extinguisher",
 			Character:   "🧯",
 			UnicodeName: "fire extinguisher",
@@ -11660,7 +15755,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129520: {
+		"🧰": {
 			Slug:        "toolbox",
 			Character:   "🧰",
 			UnicodeName: "toolbox",
@@ -11669,7 +15764,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129521: {
+		"🧱": {
 			Slug:        "brick",
 			Character:   "🧱",
 			UnicodeName: "brick",
@@ -11678,7 +15773,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		129522: {
+		"🧲": {
 			Slug:        "magnet",
 			Character:   "🧲",
 			UnicodeName: "magnet",
@@ -11687,7 +15782,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129523: {
+		"🧳": {
 			Slug:        "luggage",
 			Character:   "🧳",
 			UnicodeName: "luggage",
@@ -11696,7 +15791,7 @@ var (
 			SubGroup:    "hotel",
 		},
 
-		129524: {
+		"🧴": {
 			Slug:        "lotion-bottle",
 			Character:   "🧴",
 			UnicodeName: "lotion bottle",
@@ -11705,7 +15800,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129525: {
+		"🧵": {
 			Slug:        "thread",
 			Character:   "🧵",
 			UnicodeName: "thread",
@@ -11714,7 +15809,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		129526: {
+		"🧶": {
 			Slug:        "yarn",
 			Character:   "🧶",
 			UnicodeName: "yarn",
@@ -11723,7 +15818,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		129527: {
+		"🧷": {
 			Slug:        "safety-pin",
 			Character:   "🧷",
 			UnicodeName: "safety pin",
@@ -11732,7 +15827,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129528: {
+		"🧸": {
 			Slug:        "teddy-bear",
 			Character:   "🧸",
 			UnicodeName: "teddy bear",
@@ -11741,7 +15836,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129529: {
+		"🧹": {
 			Slug:        "broom",
 			Character:   "🧹",
 			UnicodeName: "broom",
@@ -11750,7 +15845,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129530: {
+		"🧺": {
 			Slug:        "basket",
 			Character:   "🧺",
 			UnicodeName: "basket",
@@ -11759,7 +15854,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129531: {
+		"🧻": {
 			Slug:        "roll-of-paper",
 			Character:   "🧻",
 			UnicodeName: "roll of paper",
@@ -11768,7 +15863,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129532: {
+		"🧼": {
 			Slug:        "soap",
 			Character:   "🧼",
 			UnicodeName: "soap",
@@ -11777,7 +15872,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129533: {
+		"🧽": {
 			Slug:        "sponge",
 			Character:   "🧽",
 			UnicodeName: "sponge",
@@ -11786,7 +15881,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129534: {
+		"🧾": {
 			Slug:        "receipt",
 			Character:   "🧾",
 			UnicodeName: "receipt",
@@ -11795,7 +15890,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		129535: {
+		"🧿": {
 			Slug:        "nazar-amulet",
 			Character:   "🧿",
 			UnicodeName: "nazar amulet",
@@ -11804,7 +15899,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129648: {
+		"🩰": {
 			Slug:        "ballet-shoes",
 			Character:   "🩰",
 			UnicodeName: "ballet shoes",
@@ -11813,7 +15908,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129649: {
+		"🩱": {
 			Slug:        "one-piece-swimsuit",
 			Character:   "🩱",
 			UnicodeName: "one-piece swimsuit",
@@ -11822,7 +15917,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129650: {
+		"🩲": {
 			Slug:        "briefs",
 			Character:   "🩲",
 			UnicodeName: "briefs",
@@ -11831,7 +15926,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129651: {
+		"🩳": {
 			Slug:        "shorts",
 			Character:   "🩳",
 			UnicodeName: "shorts",
@@ -11840,7 +15935,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129652: {
+		"🩴": {
 			Slug:        "thong-sandal",
 			Character:   "🩴",
 			UnicodeName: "thong sandal",
@@ -11849,7 +15944,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129656: {
+		"🩸": {
 			Slug:        "drop-of-blood",
 			Character:   "🩸",
 			UnicodeName: "drop of blood",
@@ -11858,7 +15953,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		129657: {
+		"🩹": {
 			Slug:        "adhesive-bandage",
 			Character:   "🩹",
 			UnicodeName: "adhesive bandage",
@@ -11867,7 +15962,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		129658: {
+		"🩺": {
 			Slug:        "stethoscope",
 			Character:   "🩺",
 			UnicodeName: "stethoscope",
@@ -11876,7 +15971,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		129659: {
+		"🩻": {
 			Slug:        "⊛-x-ray",
 			Character:   "🩻",
 			UnicodeName: "⊛ x-ray",
@@ -11885,7 +15980,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		129660: {
+		"🩼": {
 			Slug:        "⊛-crutch",
 			Character:   "🩼",
 			UnicodeName: "⊛ crutch",
@@ -11894,7 +15989,7 @@ var (
 			SubGroup:    "medical",
 		},
 
-		129664: {
+		"🪀": {
 			Slug:        "yo-yo",
 			Character:   "🪀",
 			UnicodeName: "yo-yo",
@@ -11903,7 +15998,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129665: {
+		"🪁": {
 			Slug:        "kite",
 			Character:   "🪁",
 			UnicodeName: "kite",
@@ -11912,7 +16007,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129666: {
+		"🪂": {
 			Slug:        "parachute",
 			Character:   "🪂",
 			UnicodeName: "parachute",
@@ -11921,7 +16016,7 @@ var (
 			SubGroup:    "transport-air",
 		},
 
-		129667: {
+		"🪃": {
 			Slug:        "boomerang",
 			Character:   "🪃",
 			UnicodeName: "boomerang",
@@ -11930,7 +16025,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129668: {
+		"🪄": {
 			Slug:        "magic-wand",
 			Character:   "🪄",
 			UnicodeName: "magic wand",
@@ -11939,7 +16034,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129669: {
+		"🪅": {
 			Slug:        "piñata",
 			Character:   "🪅",
 			UnicodeName: "piñata",
@@ -11948,7 +16043,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129670: {
+		"🪆": {
 			Slug:        "nesting-dolls",
 			Character:   "🪆",
 			UnicodeName: "nesting dolls",
@@ -11957,7 +16052,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129680: {
+		"🪐": {
 			Slug:        "ringed-planet",
 			Character:   "🪐",
 			UnicodeName: "ringed planet",
@@ -11966,7 +16061,7 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
-		129681: {
+		"🪑": {
 			Slug:        "chair",
 			Character:   "🪑",
 			UnicodeName: "chair",
@@ -11975,7 +16070,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129682: {
+		"🪒": {
 			Slug:        "razor",
 			Character:   "🪒",
 			UnicodeName: "razor",
@@ -11984,7 +16079,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129683: {
+		"🪓": {
 			Slug:        "axe",
 			Character:   "🪓",
 			UnicodeName: "axe",
@@ -11993,7 +16088,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129684: {
+		"🪔": {
 			Slug:        "diya-lamp",
 			Character:   "🪔",
 			UnicodeName: "diya lamp",
@@ -12002,7 +16097,7 @@ var (
 			SubGroup:    "light & video",
 		},
 
-		129685: {
+		"🪕": {
 			Slug:        "banjo",
 			Character:   "🪕",
 			UnicodeName: "banjo",
@@ -12011,7 +16106,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		129686: {
+		"🪖": {
 			Slug:        "military-helmet",
 			Character:   "🪖",
 			UnicodeName: "military helmet",
@@ -12020,7 +16115,7 @@ var (
 			SubGroup:    "clothing",
 		},
 
-		129687: {
+		"🪗": {
 			Slug:        "accordion",
 			Character:   "🪗",
 			UnicodeName: "accordion",
@@ -12029,7 +16124,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		129688: {
+		"🪘": {
 			Slug:        "long-drum",
 			Character:   "🪘",
 			UnicodeName: "long drum",
@@ -12038,7 +16133,7 @@ var (
 			SubGroup:    "musical-instrument",
 		},
 
-		129689: {
+		"🪙": {
 			Slug:        "coin",
 			Character:   "🪙",
 			UnicodeName: "coin",
@@ -12047,7 +16142,7 @@ var (
 			SubGroup:    "money",
 		},
 
-		129690: {
+		"🪚": {
 			Slug:        "carpentry-saw",
 			Character:   "🪚",
 			UnicodeName: "carpentry saw",
@@ -12056,7 +16151,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129691: {
+		"🪛": {
 			Slug:        "screwdriver",
 			Character:   "🪛",
 			UnicodeName: "screwdriver",
@@ -12065,7 +16160,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129692: {
+		"🪜": {
 			Slug:        "ladder",
 			Character:   "🪜",
 			UnicodeName: "ladder",
@@ -12074,7 +16169,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129693: {
+		"🪝": {
 			Slug:        "hook",
 			Character:   "🪝",
 			UnicodeName: "hook",
@@ -12083,7 +16178,7 @@ var (
 			SubGroup:    "tool",
 		},
 
-		129694: {
+		"🪞": {
 			Slug:        "mirror",
 			Character:   "🪞",
 			UnicodeName: "mirror",
@@ -12092,7 +16187,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129695: {
+		"🪟": {
 			Slug:        "window",
 			Character:   "🪟",
 			UnicodeName: "window",
@@ -12101,7 +16196,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129696: {
+		"🪠": {
 			Slug:        "plunger",
 			Character:   "🪠",
 			UnicodeName: "plunger",
@@ -12110,7 +16205,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129697: {
+		"🪡": {
 			Slug:        "sewing-needle",
 			Character:   "🪡",
 			UnicodeName: "sewing needle",
@@ -12119,7 +16214,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		129698: {
+		"🪢": {
 			Slug:        "knot",
 			Character:   "🪢",
 			UnicodeName: "knot",
@@ -12128,7 +16223,7 @@ var (
 			SubGroup:    "arts & crafts",
 		},
 
-		129699: {
+		"🪣": {
 			Slug:        "bucket",
 			Character:   "🪣",
 			UnicodeName: "bucket",
@@ -12137,7 +16232,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129700: {
+		"🪤": {
 			Slug:        "mouse-trap",
 			Character:   "🪤",
 			UnicodeName: "mouse trap",
@@ -12146,7 +16241,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129701: {
+		"🪥": {
 			Slug:        "toothbrush",
 			Character:   "🪥",
 			UnicodeName: "toothbrush",
@@ -12155,7 +16250,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129702: {
+		"🪦": {
 			Slug:        "headstone",
 			Character:   "🪦",
 			UnicodeName: "headstone",
@@ -12164,7 +16259,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		129703: {
+		"🪧": {
 			Slug:        "placard",
 			Character:   "🪧",
 			UnicodeName: "placard",
@@ -12173,7 +16268,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		129704: {
+		"🪨": {
 			Slug:        "rock",
 			Character:   "🪨",
 			UnicodeName: "rock",
@@ -12182,7 +16277,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		129705: {
+		"🪩": {
 			Slug:        "⊛-mirror-ball",
 			Character:   "🪩",
 			UnicodeName: "⊛ mirror ball",
@@ -12191,7 +16286,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129706: {
+		"🪪": {
 			Slug:        "⊛-identification-card",
 			Character:   "🪪",
 			UnicodeName: "⊛ identification card",
@@ -12200,7 +16295,7 @@ var (
 			SubGroup:    "other-object",
 		},
 
-		129707: {
+		"🪫": {
 			Slug:        "⊛-low-battery",
 			Character:   "🪫",
 			UnicodeName: "⊛ low battery",
@@ -12209,7 +16304,7 @@ var (
 			SubGroup:    "computer",
 		},
 
-		129708: {
+		"🪬": {
 			Slug:        "⊛-hamsa",
 			Character:   "🪬",
 			UnicodeName: "⊛ hamsa",
@@ -12218,7 +16313,7 @@ var (
 			SubGroup:    "game",
 		},
 
-		129712: {
+		"🪰": {
 			Slug:        "fly",
 			Character:   "🪰",
 			UnicodeName: "fly",
@@ -12227,7 +16322,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129713: {
+		"🪱": {
 			Slug:        "worm",
 			Character:   "🪱",
 			UnicodeName: "worm",
@@ -12236,7 +16331,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129714: {
+		"🪲": {
 			Slug:        "beetle",
 			Character:   "🪲",
 			UnicodeName: "beetle",
@@ -12245,7 +16340,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129715: {
+		"🪳": {
 			Slug:        "cockroach",
 			Character:   "🪳",
 			UnicodeName: "cockroach",
@@ -12254,7 +16349,7 @@ var (
 			SubGroup:    "animal-bug",
 		},
 
-		129716: {
+		"🪴": {
 			Slug:        "potted-plant",
 			Character:   "🪴",
 			UnicodeName: "potted plant",
@@ -12263,7 +16358,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		129717: {
+		"🪵": {
 			Slug:        "wood",
 			Character:   "🪵",
 			UnicodeName: "wood",
@@ -12272,7 +16367,7 @@ var (
 			SubGroup:    "place-building",
 		},
 
-		129718: {
+		"🪶": {
 			Slug:        "feather",
 			Character:   "🪶",
 			UnicodeName: "feather",
@@ -12281,7 +16376,7 @@ var (
 			SubGroup:    "animal-bird",
 		},
 
-		129719: {
+		"🪷": {
 			Slug:        "⊛-lotus",
 			Character:   "🪷",
 			UnicodeName: "⊛ lotus",
@@ -12290,7 +16385,7 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
-		129720: {
+		"🪸": {
 			Slug:        "⊛-coral",
 			Character:   "🪸",
 			UnicodeName: "⊛ coral",
@@ -12299,7 +16394,7 @@ var (
 			SubGroup:    "animal-marine",
 		},
 
-		129721: {
+		"🪹": {
 			Slug:        "⊛-empty-nest",
 			Character:   "🪹",
 			UnicodeName: "⊛ empty nest",
@@ -12308,7 +16403,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		129722: {
+		"🪺": {
 			Slug:        "⊛-nest-with-eggs",
 			Character:   "🪺",
 			UnicodeName: "⊛ nest with eggs",
@@ -12317,7 +16412,7 @@ var (
 			SubGroup:    "plant-other",
 		},
 
-		129728: {
+		"🫀": {
 			Slug:        "anatomical-heart",
 			Character:   "🫀",
 			UnicodeName: "anatomical heart",
@@ -12326,7 +16421,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129729: {
+		"🫁": {
 			Slug:        "lungs",
 			Character:   "🫁",
 			UnicodeName: "lungs",
@@ -12335,7 +16430,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129730: {
+		"🫂": {
 			Slug:        "people-hugging",
 			Character:   "🫂",
 			UnicodeName: "people hugging",
@@ -12344,7 +16439,7 @@ var (
 			SubGroup:    "person-symbol",
 		},
 
-		129731: {
+		"🫃": {
 			Slug:        "⊛-pregnant-man",
 			Character:   "🫃",
 			UnicodeName: "⊛ pregnant man",
@@ -12353,7 +16448,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129732: {
+		"🫄": {
 			Slug:        "⊛-pregnant-person",
 			Character:   "🫄",
 			UnicodeName: "⊛ pregnant person",
@@ -12362,7 +16457,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129733: {
+		"🫅": {
 			Slug:        "⊛-person-with-crown",
 			Character:   "🫅",
 			UnicodeName: "⊛ person with crown",
@@ -12371,7 +16466,7 @@ var (
 			SubGroup:    "person-role",
 		},
 
-		129744: {
+		"🫐": {
 			Slug:        "blueberries",
 			Character:   "🫐",
 			UnicodeName: "blueberries",
@@ -12380,7 +16475,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		129745: {
+		"🫑": {
 			Slug:        "bell-pepper",
 			Character:   "🫑",
 			UnicodeName: "bell pepper",
@@ -12389,7 +16484,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129746: {
+		"🫒": {
 			Slug:        "olive",
 			Character:   "🫒",
 			UnicodeName: "olive",
@@ -12398,7 +16493,7 @@ var (
 			SubGroup:    "food-fruit",
 		},
 
-		129747: {
+		"🫓": {
 			Slug:        "flatbread",
 			Character:   "🫓",
 			UnicodeName: "flatbread",
@@ -12407,7 +16502,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129748: {
+		"🫔": {
 			Slug:        "tamale",
 			Character:   "🫔",
 			UnicodeName: "tamale",
@@ -12416,7 +16511,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129749: {
+		"🫕": {
 			Slug:        "fondue",
 			Character:   "🫕",
 			UnicodeName: "fondue",
@@ -12425,7 +16520,7 @@ var (
 			SubGroup:    "food-prepared",
 		},
 
-		129750: {
+		"🫖": {
 			Slug:        "teapot",
 			Character:   "🫖",
 			UnicodeName: "teapot",
@@ -12434,7 +16529,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129751: {
+		"🫗": {
 			Slug:        "⊛-pouring-liquid",
 			Character:   "🫗",
 			UnicodeName: "⊛ pouring liquid",
@@ -12443,7 +16538,7 @@ var (
 			SubGroup:    "drink",
 		},
 
-		129752: {
+		"🫘": {
 			Slug:        "⊛-beans",
 			Character:   "🫘",
 			UnicodeName: "⊛ beans",
@@ -12452,7 +16547,7 @@ var (
 			SubGroup:    "food-vegetable",
 		},
 
-		129753: {
+		"🫙": {
 			Slug:        "⊛-jar",
 			Character:   "🫙",
 			UnicodeName: "⊛ jar",
@@ -12461,7 +16556,7 @@ var (
 			SubGroup:    "dishware",
 		},
 
-		129760: {
+		"🫠": {
 			Slug:        "⊛-melting-face",
 			Character:   "🫠",
 			UnicodeName: "⊛ melting face",
@@ -12470,7 +16565,7 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
-		129761: {
+		"🫡": {
 			Slug:        "⊛-saluting-face",
 			Character:   "🫡",
 			UnicodeName: "⊛ saluting face",
@@ -12479,7 +16574,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129762: {
+		"🫢": {
 			Slug:        "⊛-face-with-open-eyes-and-hand-over-mouth",
 			Character:   "🫢",
 			UnicodeName: "⊛ face with open eyes and hand over mouth",
@@ -12488,7 +16583,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129763: {
+		"🫣": {
 			Slug:        "⊛-face-with-peeking-eye",
 			Character:   "🫣",
 			UnicodeName: "⊛ face with peeking eye",
@@ -12497,7 +16592,7 @@ var (
 			SubGroup:    "face-hand",
 		},
 
-		129764: {
+		"🫤": {
 			Slug:        "⊛-face-with-diagonal-mouth",
 			Character:   "🫤",
 			UnicodeName: "⊛ face with diagonal mouth",
@@ -12506,7 +16601,7 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
-		129765: {
+		"🫥": {
 			Slug:        "⊛-dotted-line-face",
 			Character:   "🫥",
 			UnicodeName: "⊛ dotted line face",
@@ -12515,7 +16610,7 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
-		129766: {
+		"🫦": {
 			Slug:        "⊛-biting-lip",
 			Character:   "🫦",
 			UnicodeName: "⊛ biting lip",
@@ -12524,7 +16619,7 @@ var (
 			SubGroup:    "body-parts",
 		},
 
-		129767: {
+		"🫧": {
 			Slug:        "⊛-bubbles",
 			Character:   "🫧",
 			UnicodeName: "⊛ bubbles",
@@ -12533,7 +16628,7 @@ var (
 			SubGroup:    "household",
 		},
 
-		129776: {
+		"🫰": {
 			Slug:        "⊛-hand-with-index-finger-and-thumb-crossed",
 			Character:   "🫰",
 			UnicodeName: "⊛ hand with index finger and thumb crossed",
@@ -12542,7 +16637,7 @@ var (
 			SubGroup:    "hand-fingers-partial",
 		},
 
-		129777: {
+		"🫱": {
 			Slug:        "⊛-rightwards-hand",
 			Character:   "🫱",
 			UnicodeName: "⊛ rightwards hand",
@@ -12551,7 +16646,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		129778: {
+		"🫲": {
 			Slug:        "⊛-leftwards-hand",
 			Character:   "🫲",
 			UnicodeName: "⊛ leftwards hand",
@@ -12560,7 +16655,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		129779: {
+		"🫳": {
 			Slug:        "⊛-palm-down-hand",
 			Character:   "🫳",
 			UnicodeName: "⊛ palm down hand",
@@ -12569,7 +16664,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		129780: {
+		"🫴": {
 			Slug:        "⊛-palm-up-hand",
 			Character:   "🫴",
 			UnicodeName: "⊛ palm up hand",
@@ -12578,7 +16673,7 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
-		129781: {
+		"🫵": {
 			Slug:        "⊛-index-pointing-at-the-viewer",
 			Character:   "🫵",
 			UnicodeName: "⊛ index pointing at the viewer",
@@ -12587,7 +16682,7 @@ var (
 			SubGroup:    "hand-single-finger",
 		},
 
-		129782: {
+		"🫶": {
 			Slug:        "⊛-heart-hands",
 			Character:   "🫶",
 			UnicodeName: "⊛ heart hands",

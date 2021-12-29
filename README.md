@@ -3,9 +3,11 @@
 
 GoMoji is a Go package that provides a [fast](#performance) and [simple](#check-string-contains-emoji) way to work with emojis in strings.
 It has features such as:
- * [check whether string contains emoji](#check-string-contains-emoji),
- * [find all emojis in string](#find-all),
- * [get all emojis](#get-all), 
+ * [check whether string contains emoji](#check-string-contains-emoji)
+ * [find all emojis in string](#find-all)
+ * [get all emojis](#get-all) 
+ * [remove all emojis from string](#remove-all-emojis)
+ * [get emoji description](#get-emoji-info) 
 
 Getting Started
 ===============
@@ -52,6 +54,29 @@ func main() {
 }
 ```
 
+Result:
+
+```go
+[]gomoji.Emoji{
+    {
+        Slug:        "person-in-steamy-room",
+        Character:   "🧖",
+        UnicodeName: "person in steamy room",
+        CodePoint:   "U+1F9D6",
+        Group:       "People & Body",
+        SubGroup:    "person-activity",
+    },
+    {
+        Slug:        "butterfly",
+        Character:   "🦋",
+        UnicodeName: "butterfly",
+        CodePoint:   "U+1F98B",
+        Group:       "Animals & Nature",
+        SubGroup:    "animal-bug",
+    },
+}
+```
+
 ## Get all
 The function returns all existing emojis. You can do whatever you need with the list.
  ```go
@@ -66,6 +91,38 @@ The function returns all existing emojis. You can do whatever you need with the 
      println(emojis)
  }
  ```
+
+## Remove all emojis
+
+The function removes all emojis from given string:
+
+```go
+res := gomoji.RemoveEmojis("🧖 hello 🦋world")
+println(res) // "hello world"
+```
+
+## Get emoji info
+
+The function returns info about provided emoji:
+
+```go
+info, err := gomoji.GetInfo("1") // error: the string is not emoji
+info, err := gomoji.GetInfo("1️⃣")
+println(info)
+```
+
+Result:
+
+```go
+gomoji.Entity{
+    Slug:        "keycap:-1",
+    Character:   "1️⃣",
+    UnicodeName: "keycap: 1",
+    CodePoint:   "U+0031 U+FE0F U+20E3",
+    Group:       "Symbols",
+    SubGroup:    "keycap",
+}
+```
 
 ## Emoji entity
 All searching methods return the Emoji entity which contains comprehensive info about emoji.
@@ -103,13 +160,29 @@ Example:
 
 ## Performance
 
-Benchmarks of GoMoji
+GoMoji Benchmarks
 
 ```
-BenchmarkContainsEmojiParallel-8   	94079461	        13.1 ns/op	       0 B/op	       0 allocs/op
-BenchmarkContainsEmoji-8           	23728635	        49.8 ns/op	       0 B/op	       0 allocs/op
-BenchmarkFindAllParallel-8         	10220854	       115 ns/op	     288 B/op	       2 allocs/op
-BenchmarkFindAll-8                 	 4023626	       294 ns/op	     288 B/op	       2 allocs/op
+goos: darwin
+goarch: amd64
+pkg: github.com/forPelevin/gomoji
+cpu: Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+BenchmarkContainsEmojiParallel
+BenchmarkContainsEmojiParallel-8   	 7439398	       159.2 ns/op	     144 B/op	       3 allocs/op
+BenchmarkContainsEmoji
+BenchmarkContainsEmoji-8           	 2457042	       482.2 ns/op	     144 B/op	       3 allocs/op
+BenchmarkRemoveEmojisParallel
+BenchmarkRemoveEmojisParallel-8    	 4589841	       265.8 ns/op	     236 B/op	       5 allocs/op
+BenchmarkRemoveEmojis
+BenchmarkRemoveEmojis-8            	 1456464	       831.9 ns/op	     236 B/op	       5 allocs/op
+BenchmarkGetInfoParallel
+BenchmarkGetInfoParallel-8         	272416886	         4.433 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGetInfo
+BenchmarkGetInfo-8                 	64521932	        19.86 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFindAllParallel
+BenchmarkFindAllParallel-8         	 3989124	       295.9 ns/op	     456 B/op	       5 allocs/op
+BenchmarkFindAll
+BenchmarkFindAll-8                 	 1304463	       913.7 ns/op	     456 B/op	       5 allocs/op
 ```
 
 ## Contact
