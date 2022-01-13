@@ -51,6 +51,31 @@ func TestContainsEmoji(t *testing.T) {
 			inputStr: "I ❤️ you",
 			want:     true,
 		},
+		{
+			name:     "it determines the skintone emojis",
+			inputStr: "I 👍🏿 you",
+			want:     true,
+		},
+		{
+			name:     "double exclamation mark in text",
+			inputStr: "Hello!!",
+			want:     false,
+		},
+		{
+			name:     "double exclamation mark emoji in text",
+			inputStr: "Hello‼",
+			want:     true,
+		},
+		{
+			name:     "emoji keycap # in text",
+			inputStr: "Just type #⃣",
+			want:     true,
+		},
+		{
+			name:     "text keycap # in text",
+			inputStr: "Just type #",
+			want:     false,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -152,10 +177,10 @@ func TestGetInfo(t *testing.T) {
 			name:       "valid emoji number",
 			inputEmoji: "1️⃣",
 			want: Emoji{
-				Slug:        "keycap:-1",
+				Slug:        "keycap-1",
 				Character:   "1️⃣",
-				UnicodeName: "keycap: 1",
-				CodePoint:   "U+0031 U+FE0F U+20E3",
+				UnicodeName: "E0.6 keycap: 1",
+				CodePoint:   "0031 FE0F 20E3",
 				Group:       "Symbols",
 				SubGroup:    "keycap",
 			},
@@ -165,10 +190,10 @@ func TestGetInfo(t *testing.T) {
 			name:       "unicode 14",
 			inputEmoji: "\U0001FAAC",
 			want: Emoji{
-				Slug:        "⊛-hamsa",
+				Slug:        "hamsa",
 				Character:   "🪬",
-				UnicodeName: "⊛ hamsa",
-				CodePoint:   "U+1FAAC",
+				UnicodeName: "E14.0 hamsa",
+				CodePoint:   "1FAAC",
 				Group:       "Activities",
 				SubGroup:    "game",
 			},
@@ -226,16 +251,16 @@ func TestFindAll(t *testing.T) {
 				{
 					Slug:        "butterfly",
 					Character:   "🦋",
-					UnicodeName: "butterfly",
-					CodePoint:   "U+1F98B",
+					UnicodeName: "E3.0 butterfly",
+					CodePoint:   "1F98B",
 					Group:       "Animals & Nature",
 					SubGroup:    "animal-bug",
 				},
 				{
 					Slug:        "roll-of-paper",
 					Character:   "🧻",
-					UnicodeName: "roll of paper",
-					CodePoint:   "U+1F9FB",
+					UnicodeName: "E11.0 roll of paper",
+					CodePoint:   "1F9FB",
 					Group:       "Objects",
 					SubGroup:    "household",
 				},

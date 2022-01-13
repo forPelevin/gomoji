@@ -61,16 +61,16 @@ Result:
     {
         Slug:        "person-in-steamy-room",
         Character:   "🧖",
-        UnicodeName: "person in steamy room",
-        CodePoint:   "U+1F9D6",
+        UnicodeName: "E5.0 person in steamy room",
+        CodePoint:   "1F9D6",
         Group:       "People & Body",
         SubGroup:    "person-activity",
     },
     {
         Slug:        "butterfly",
         Character:   "🦋",
-        UnicodeName: "butterfly",
-        CodePoint:   "U+1F98B",
+        UnicodeName: "E3.0 butterfly",
+        CodePoint:   "1F98B",
         Group:       "Animals & Nature",
         SubGroup:    "animal-bug",
     },
@@ -115,10 +115,10 @@ Result:
 
 ```go
 gomoji.Entity{
-    Slug:        "keycap:-1",
+    Slug:        "keycap-1",
     Character:   "1️⃣",
-    UnicodeName: "keycap: 1",
-    CodePoint:   "U+0031 U+FE0F U+20E3",
+    UnicodeName: "E0.6 keycap: 1",
+    CodePoint:   "0031 FE0F 20E3",
     Group:       "Symbols",
     SubGroup:    "keycap",
 }
@@ -140,19 +140,19 @@ Example:
 ```go
 []gomoji.Emoji{
     {
-        Slug:        "e3-0-butterfly",
+        Slug:        "butterfly",
         Character:   "🦋",
         UnicodeName: "E3.0 butterfly",
         CodePoint:   "1F98B",
-        Group:       "animals-nature",
+        Group:       "Animals & Nature",
         SubGroup:    "animal-bug",
     },
     {
         Slug:        "roll-of-paper",
         Character:   "🧻",
-        UnicodeName: "roll of paper",
+        UnicodeName: "E11.0 roll of paper",
         CodePoint:   "1F9FB",
-        Group:       "objects",
+        Group:       "Objects",
         SubGroup:    "household",
     },
 }
