@@ -76,6 +76,11 @@ func TestContainsEmoji(t *testing.T) {
 			inputStr: "Just type #",
 			want:     false,
 		},
+		{
+			name:     "new emoji",
+			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     true,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -136,11 +141,16 @@ func TestRemoveEmojis(t *testing.T) {
 			inputStr: "🧖 hello 🦋world",
 			want:     "hello world",
 		},
+		{
+			name:     "new emoji",
+			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     "NWT H&M Corduroy Pants in 'Light Beige'",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := RemoveEmojis(tt.inputStr); got != tt.want {
-				t.Errorf("RemoveEmojis() = %v, want %v", got, tt.want)
+				t.Errorf("RemoveEmojis() = \"%v\", want \"%v\"", got, tt.want)
 			}
 		})
 	}
@@ -263,6 +273,20 @@ func TestFindAll(t *testing.T) {
 					CodePoint:   "1F9FB",
 					Group:       "Objects",
 					SubGroup:    "household",
+				},
+			},
+		},
+		{
+			name:     "string with 2 emoji",
+			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
+			want: []Emoji{
+				{
+					Slug:        "new-button",
+					Character:   "🆕",
+					UnicodeName: "E0.6 NEW button",
+					CodePoint:   "1F195",
+					Group:       "Symbols",
+					SubGroup:    "alphanum",
 				},
 			},
 		},
