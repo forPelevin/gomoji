@@ -3434,9 +3434,9 @@ var (
 			SubGroup:    "alphanum",
 		},
 
-		"🆕": {
+		"🆕️": {
 			Slug:        "new-button",
-			Character:   "🆕",
+			Character:   "🆕️",
 			UnicodeName: "E0.6 NEW button",
 			CodePoint:   "1F195",
 			Group:       "Symbols",
