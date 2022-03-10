@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"strings"
+	"unicode"
 
 	"github.com/rivo/uniseg"
 )
@@ -25,6 +26,12 @@ type Emoji struct {
 
 // ContainsEmoji checks whether given string contains emoji or not. It uses local emoji list as provider.
 func ContainsEmoji(s string) bool {
+	for _, r := range s {
+		if _, ok := emojiMap[string(r)]; ok {
+			return true
+		}
+	}
+
 	gr := uniseg.NewGraphemes(s)
 	for gr.Next() {
 		if _, ok := emojiMap[gr.Str()]; ok {
@@ -51,7 +58,17 @@ func RemoveEmojis(s string) string {
 		}
 	}
 
-	return strings.TrimSpace(cleanBuf.String())
+	res := cleanBuf
+	res.Reset()
+	for _, r := range cleanBuf.String() {
+		if _, ok := emojiMap[string(r)]; !ok {
+			res.WriteRune(r)
+		}
+	}
+
+	return strings.TrimFunc(res.String(), func(r rune) bool {
+		return unicode.IsSpace(r) || !unicode.IsGraphic(r) || !unicode.IsPrint(r) || unicode.In(r, unicode.Variation_Selector)
+	})
 }
 
 // GetInfo returns a gomoji.Emoji model representation of provided emoji.
@@ -67,20 +84,26 @@ func GetInfo(emoji string) (Emoji, error) {
 
 // FindAll finds all emojis in given string. If there are no emojis it returns a nil-slice.
 func FindAll(s string) []Emoji {
-	var emojis []Emoji
+	emojis := make(map[string]Emoji)
 
 	gr := uniseg.NewGraphemes(s)
 	for gr.Next() {
 		if em, ok := emojiMap[gr.Str()]; ok {
-			emojis = append(emojis, em)
+			emojis[gr.Str()] = em
 		}
 	}
 
-	return emojis
+	for _, r := range s {
+		if em, ok := emojiMap[string(r)]; ok {
+			emojis[string(r)] = em
+		}
+	}
+
+	return emojiMapToSlice(emojis)
 }
 
 func emojiMapToSlice(em map[string]Emoji) []Emoji {
-	emojis := make([]Emoji, 0, len(em))
+	var emojis []Emoji
 	for _, emoji := range em {
 		emojis = append(emojis, emoji)
 	}
