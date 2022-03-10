@@ -76,6 +76,11 @@ func TestContainsEmoji(t *testing.T) {
 			inputStr: "Just type #",
 			want:     false,
 		},
+		{
+			name:     "new emoji",
+			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     true,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -135,6 +140,11 @@ func TestRemoveEmojis(t *testing.T) {
 			name:     "remove rare emojis",
 			inputStr: "🧖 hello 🦋world",
 			want:     "hello world",
+		},
+		{
+			name:     "remove new emoji",
+			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     "NWT H&M Corduroy Pants in 'Light Beige'",
 		},
 	}
 	for _, tt := range tests {

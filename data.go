@@ -42241,14 +42241,5 @@ var (
 			Group:       "People & Body",
 			SubGroup:    "hands",
 		},
-
-		"🆕️": {
-			Slug:        "new-button",
-			Character:   "🆕️",
-			UnicodeName: "?",
-			CodePoint:   "1F195",
-			Group:       "Symbols",
-			SubGroup:    "alphanum",
-		},
 	}
 )
