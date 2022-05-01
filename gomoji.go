@@ -82,6 +82,27 @@ func GetInfo(emoji string) (Emoji, error) {
 	return em, nil
 }
 
+// CollectAll finds all emojis in given string. Unlike FindAll, this does not
+// distinct repeating occurrences of emoji.
+func CollectAll(s string) []Emoji {
+	emojis := []Emoji{}
+
+	gr := uniseg.NewGraphemes(s)
+	for gr.Next() {
+		if em, ok := emojiMap[gr.Str()]; ok {
+			emojis = append(emojis, em)
+		}
+	}
+
+	for _, r := range s {
+		if em, ok := emojiMap[string(r)]; ok {
+			emojis = append(emojis, em)
+		}
+	}
+
+	return emojis
+}
+
 // FindAll finds all emojis in given string. If there are no emojis it returns a nil-slice.
 func FindAll(s string) []Emoji {
 	emojis := make(map[string]Emoji)
