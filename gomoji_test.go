@@ -277,7 +277,7 @@ func TestFindAll(t *testing.T) {
 			},
 		},
 		{
-			name:     "string with 2 emoji",
+			name:     "string with 1 emoji",
 			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
 			want: []Emoji{
 				{
@@ -311,5 +311,121 @@ func BenchmarkFindAllParallel(b *testing.B) {
 func BenchmarkFindAll(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		FindAll("\U0001F96F Hi \U0001F970")
+	}
+}
+
+func TestCollectAll(t *testing.T) {
+	tests := []struct {
+		name     string
+		inputStr string
+		want     []Emoji
+	}{
+		{
+			name:     "empty string",
+			inputStr: "",
+			want:     nil,
+		},
+		{
+			name:     "string without emoji",
+			inputStr: "hello world",
+			want:     nil,
+		},
+		{
+			name:     "string with 2 emoji",
+			inputStr: "hello 🦋 world \U0001F9FB",
+			want: []Emoji{
+				{
+					Slug:        "butterfly",
+					Character:   "🦋",
+					UnicodeName: "E3.0 butterfly",
+					CodePoint:   "1F98B",
+					Group:       "Animals & Nature",
+					SubGroup:    "animal-bug",
+				},
+				{
+					Slug:        "roll-of-paper",
+					Character:   "🧻",
+					UnicodeName: "E11.0 roll of paper",
+					CodePoint:   "1F9FB",
+					Group:       "Objects",
+					SubGroup:    "household",
+				},
+			},
+		},
+		{
+			name:     "string with 1 emoji",
+			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
+			want: []Emoji{
+				{
+					Slug:        "new-button",
+					Character:   "🆕",
+					UnicodeName: "E0.6 NEW button",
+					CodePoint:   "1F195",
+					Group:       "Symbols",
+					SubGroup:    "alphanum",
+				},
+			},
+		},
+		{
+			name:     "string with 6 emoji, mixed and repeating",
+			inputStr: "🆕️ NWT H&M Corduroy 🧻🦋🧻 Pants in 'Light Beige'🦋🆕",
+			want: []Emoji{
+				{
+					Slug:        "new-button",
+					Character:   "🆕",
+					UnicodeName: "E0.6 NEW button",
+					CodePoint:   "1F195",
+					Group:       "Symbols",
+					SubGroup:    "alphanum",
+				},
+				{
+					Slug:        "roll-of-paper",
+					Character:   "🧻",
+					UnicodeName: "E11.0 roll of paper",
+					CodePoint:   "1F9FB",
+					Group:       "Objects",
+					SubGroup:    "household",
+				},
+				{
+					Slug:        "butterfly",
+					Character:   "🦋",
+					UnicodeName: "E3.0 butterfly",
+					CodePoint:   "1F98B",
+					Group:       "Animals & Nature",
+					SubGroup:    "animal-bug",
+				},
+				{
+					Slug:        "roll-of-paper",
+					Character:   "🧻",
+					UnicodeName: "E11.0 roll of paper",
+					CodePoint:   "1F9FB",
+					Group:       "Objects",
+					SubGroup:    "household",
+				},
+				{
+					Slug:        "butterfly",
+					Character:   "🦋",
+					UnicodeName: "E3.0 butterfly",
+					CodePoint:   "1F98B",
+					Group:       "Animals & Nature",
+					SubGroup:    "animal-bug",
+				},
+				{
+					Slug:        "new-button",
+					Character:   "🆕",
+					UnicodeName: "E0.6 NEW button",
+					CodePoint:   "1F195",
+					Group:       "Symbols",
+					SubGroup:    "alphanum",
+				},
+			},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := CollectAll(tt.inputStr); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CollectAll() = %v, want %v", got, tt.want)
+			}
+		})
 	}
 }
