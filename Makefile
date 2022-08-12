@@ -12,3 +12,6 @@ test:
 
 bench:
 	go test -bench=. -benchmem -v -run Benchmark ./...
+
+coverage:
+	go test -race -count=1 -coverprofile=coverage.out -covermode=atomic ./...
