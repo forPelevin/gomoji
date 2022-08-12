@@ -2,6 +2,7 @@ package gomoji
 
 import (
 	"reflect"
+	"sort"
 	"testing"
 )
 
@@ -293,7 +294,16 @@ func TestFindAll(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := FindAll(tt.inputStr); !reflect.DeepEqual(got, tt.want) {
+			got := FindAll(tt.inputStr)
+
+			sort.Slice(tt.want, func(i, j int) bool {
+				return tt.want[i].Character < tt.want[j].Character
+			})
+			sort.Slice(got, func(i, j int) bool {
+				return got[i].Character < got[j].Character
+			})
+
+			if !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("FindAll() = %v, want %v", got, tt.want)
 			}
 		})
