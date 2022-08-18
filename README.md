@@ -1,17 +1,14 @@
-# GoMoji
+# GoMoji 🔥
 
 ![Tests](https://github.com/forPelevin/gomoji/actions/workflows/tests.yml/badge.svg) [![Go Report](https://goreportcard.com/badge/github.com/forPelevin/gomoji)](https://goreportcard.com/report/github.com/forPelevin/gomoji) [![codecov](https://codecov.io/gh/forPelevin/gomoji/branch/github-actions/graph/badge.svg?token=34X68AXAMS)](https://codecov.io/gh/forPelevin/gomoji)
 
-
-<p align="center">work with emoji in the most convenient way</p>
-
-GoMoji is a Go package that provides a [fast](#performance) and [simple](#check-string-contains-emoji) way to work with emojis in strings.
+GoMoji is a Go package that provides a 🚀[fast](#performance) and ✨[simple](#check-string-contains-emoji) way to work with emojis in strings.
 It has features such as:
- * [check whether string contains emoji](#check-string-contains-emoji)
- * [find all emojis in string](#find-all)
- * [get all emojis](#get-all) 
- * [remove all emojis from string](#remove-all-emojis)
- * [get emoji description](#get-emoji-info) 
+ * [check whether string contains emoji](#check-string-contains-emoji) 🔎
+ * [find all emojis in string](#find-all) 👪
+ * [get all emojis](#get-all) 🌐
+ * [remove all emojis from string](#remove-all-emojis) 🧹
+ * [get emoji description](#get-emoji-info) 🧐
 
 Getting Started
 ===============
@@ -167,26 +164,28 @@ Example:
 GoMoji Benchmarks
 
 ```
+go test -bench=. -benchmem -v -run Benchmark ./...
 goos: darwin
-goarch: amd64
+goarch: arm64
 pkg: github.com/forPelevin/gomoji
-cpu: Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
 BenchmarkContainsEmojiParallel
-BenchmarkContainsEmojiParallel-8   	 7439398	       159.2 ns/op	     144 B/op	       3 allocs/op
+BenchmarkContainsEmojiParallel-10       150872365                7.207 ns/op           0 B/op          0 allocs/op
 BenchmarkContainsEmoji
-BenchmarkContainsEmoji-8           	 2457042	       482.2 ns/op	     144 B/op	       3 allocs/op
+BenchmarkContainsEmoji-10               20428110                58.86 ns/op            0 B/op          0 allocs/op
 BenchmarkRemoveEmojisParallel
-BenchmarkRemoveEmojisParallel-8    	 4589841	       265.8 ns/op	     236 B/op	       5 allocs/op
+BenchmarkRemoveEmojisParallel-10         6463779               193.1 ns/op            68 B/op          2 allocs/op
 BenchmarkRemoveEmojis
-BenchmarkRemoveEmojis-8            	 1456464	       831.9 ns/op	     236 B/op	       5 allocs/op
+BenchmarkRemoveEmojis-10                  882298              1341 ns/op              68 B/op          2 allocs/op
 BenchmarkGetInfoParallel
-BenchmarkGetInfoParallel-8         	272416886	         4.433 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGetInfoParallel-10             447353414                2.428 ns/op           0 B/op          0 allocs/op
 BenchmarkGetInfo
-BenchmarkGetInfo-8                 	64521932	        19.86 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGetInfo-10                     57733017                20.32 ns/op            0 B/op          0 allocs/op
 BenchmarkFindAllParallel
-BenchmarkFindAllParallel-8         	 3989124	       295.9 ns/op	     456 B/op	       5 allocs/op
+BenchmarkFindAllParallel-10              4001587               305.8 ns/op           296 B/op          4 allocs/op
 BenchmarkFindAll
-BenchmarkFindAll-8                 	 1304463	       913.7 ns/op	     456 B/op	       5 allocs/op
+BenchmarkFindAll-10                       694861              1675 ns/op             296 B/op          4 allocs/op
+PASS
+ok      github.com/forPelevin/gomoji    11.192s
 ```
 
 ## Contact
