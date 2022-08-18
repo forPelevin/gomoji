@@ -482,6 +482,15 @@ var (
 			SubGroup:    "time",
 		},
 
+		"⌚️": {
+			Slug:        "腕時計",
+			Character:   "⌚️",
+			UnicodeName: "腕時計",
+			CodePoint:   "231A",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"⌛": {
 			Slug:        "hourglass-done",
 			Character:   "⌛",
@@ -815,6 +824,15 @@ var (
 			SubGroup:    "av-symbol",
 		},
 
+		"◯‍◯‍◯‍◯‍◯": {
+			Slug:        "olympic-rings",
+			Character:   "◯‍◯‍◯‍◯‍◯",
+			UnicodeName: "olympic rings",
+			CodePoint:   "25EF-200D-25EF-200D-25EF-200D-25EF-200D-25EF",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"◻": {
 			Slug:        "white-medium-square",
 			Character:   "◻",
@@ -959,6 +977,60 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
+		"☆": {
+			Slug:        "星(白)",
+			Character:   "☆",
+			UnicodeName: "星(白)",
+			CodePoint:   "2606",
+			Group:       "nature",
+			SubGroup:    "nature",
+		},
+
+		"☈": {
+			Slug:        "thunderstorm",
+			Character:   "☈",
+			UnicodeName: "thunderstorm",
+			CodePoint:   "2608",
+			Group:       "nature",
+			SubGroup:    "nature",
+		},
+
+		"☊": {
+			Slug:        "昇交点",
+			Character:   "☊",
+			UnicodeName: "昇交点",
+			CodePoint:   "260A",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☋": {
+			Slug:        "降交点",
+			Character:   "☋",
+			UnicodeName: "降交点",
+			CodePoint:   "260B",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☌": {
+			Slug:        "合",
+			Character:   "☌",
+			UnicodeName: "合",
+			CodePoint:   "260C",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☍": {
+			Slug:        "opposition",
+			Character:   "☍",
+			UnicodeName: "opposition",
+			CodePoint:   "260D",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"☎": {
 			Slug:        "telephone",
 			Character:   "☎",
@@ -1029,6 +1101,15 @@ var (
 			CodePoint:   "2618 FE0F",
 			Group:       "Animals & Nature",
 			SubGroup:    "plant-other",
+		},
+
+		"☙": {
+			Slug:        "reversed-rotated-floral-heart-bullet",
+			Character:   "☙",
+			UnicodeName: "reversed rotated floral heart bullet",
+			CodePoint:   "2619",
+			Group:       "abstract",
+			SubGroup:    "abstract",
 		},
 
 		"☝": {
@@ -1148,6 +1229,15 @@ var (
 			SubGroup:    "warning",
 		},
 
+		"☥": {
+			Slug:        "アンク",
+			Character:   "☥",
+			UnicodeName: "アンク",
+			CodePoint:   "2625",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"☦": {
 			Slug:        "orthodox-cross",
 			Character:   "☦",
@@ -1166,6 +1256,33 @@ var (
 			SubGroup:    "religion",
 		},
 
+		"☧": {
+			Slug:        "キーロー",
+			Character:   "☧",
+			UnicodeName: "キーロー",
+			CodePoint:   "2627",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☨": {
+			Slug:        "ロレーヌ十字",
+			Character:   "☨",
+			UnicodeName: "ロレーヌ十字",
+			CodePoint:   "2628",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☩": {
+			Slug:        "エルサレム十字",
+			Character:   "☩",
+			UnicodeName: "エルサレム十字",
+			CodePoint:   "2629",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"☪": {
 			Slug:        "star-and-crescent",
 			Character:   "☪",
@@ -1182,6 +1299,24 @@ var (
 			CodePoint:   "262A FE0F",
 			Group:       "Symbols",
 			SubGroup:    "religion",
+		},
+
+		"☫": {
+			Slug:        "イラン国章",
+			Character:   "☫",
+			UnicodeName: "イラン国章",
+			CodePoint:   "262B",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☭": {
+			Slug:        "共産主義",
+			Character:   "☭",
+			UnicodeName: "共産主義",
+			CodePoint:   "262D",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"☮": {
@@ -1220,6 +1355,69 @@ var (
 			SubGroup:    "religion",
 		},
 
+		"☰": {
+			Slug:        "八卦の乾",
+			Character:   "☰",
+			UnicodeName: "八卦の乾",
+			CodePoint:   "2630",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☲": {
+			Slug:        "八卦の離",
+			Character:   "☲",
+			UnicodeName: "八卦の離",
+			CodePoint:   "2632",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☳": {
+			Slug:        "八卦の震",
+			Character:   "☳",
+			UnicodeName: "八卦の震",
+			CodePoint:   "2633",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☴": {
+			Slug:        "八卦の巽",
+			Character:   "☴",
+			UnicodeName: "八卦の巽",
+			CodePoint:   "2634",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☵": {
+			Slug:        "八卦の坎",
+			Character:   "☵",
+			UnicodeName: "八卦の坎",
+			CodePoint:   "2635",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☶": {
+			Slug:        "八卦の艮",
+			Character:   "☶",
+			UnicodeName: "八卦の艮",
+			CodePoint:   "2636",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"☷": {
+			Slug:        "八卦の坤",
+			Character:   "☷",
+			UnicodeName: "八卦の坤",
+			CodePoint:   "2637",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"☸": {
 			Slug:        "wheel-of-dharma",
 			Character:   "☸",
@@ -1256,6 +1454,42 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"☹🏻": {
+			Slug:        "渋面(白)",
+			Character:   "☹🏻",
+			UnicodeName: "渋面(白)",
+			CodePoint:   "2639-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☹🏼": {
+			Slug:        "渋面(桃)",
+			Character:   "☹🏼",
+			UnicodeName: "渋面(桃)",
+			CodePoint:   "2639-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☹🏽": {
+			Slug:        "渋面(黄)",
+			Character:   "☹🏽",
+			UnicodeName: "渋面(黄)",
+			CodePoint:   "2639-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☹🏾": {
+			Slug:        "渋面(茶)",
+			Character:   "☹🏾",
+			UnicodeName: "渋面(茶)",
+			CodePoint:   "2639-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"☺": {
 			Slug:        "smiling-face",
 			Character:   "☺",
@@ -1272,6 +1506,69 @@ var (
 			CodePoint:   "263A FE0F",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-affection",
+		},
+
+		"☺🏻": {
+			Slug:        "リラックス(白)",
+			Character:   "☺🏻",
+			UnicodeName: "リラックス(白)",
+			CodePoint:   "263A-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☺🏼": {
+			Slug:        "リラックス(桃)",
+			Character:   "☺🏼",
+			UnicodeName: "リラックス(桃)",
+			CodePoint:   "263A-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☺🏽": {
+			Slug:        "リラックス(黄)",
+			Character:   "☺🏽",
+			UnicodeName: "リラックス(黄)",
+			CodePoint:   "263A-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☺🏾": {
+			Slug:        "リラックス(茶)",
+			Character:   "☺🏾",
+			UnicodeName: "リラックス(茶)",
+			CodePoint:   "263A-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☺🏿": {
+			Slug:        "リラックス(黒)",
+			Character:   "☺🏿",
+			UnicodeName: "リラックス(黒)",
+			CodePoint:   "263A-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"☽": {
+			Slug:        "上弦の月(白)",
+			Character:   "☽",
+			UnicodeName: "上弦の月(白)",
+			CodePoint:   "263D",
+			Group:       "nature",
+			SubGroup:    "nature",
+		},
+
+		"☿": {
+			Slug:        "水星",
+			Character:   "☿",
+			UnicodeName: "水星",
+			CodePoint:   "263F",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"♀": {
@@ -1292,6 +1589,15 @@ var (
 			SubGroup:    "gender",
 		},
 
+		"♁": {
+			Slug:        "地球",
+			Character:   "♁",
+			UnicodeName: "地球",
+			CodePoint:   "2641",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"♂": {
 			Slug:        "male-sign",
 			Character:   "♂",
@@ -1308,6 +1614,33 @@ var (
 			CodePoint:   "2642 FE0F",
 			Group:       "Symbols",
 			SubGroup:    "gender",
+		},
+
+		"♅": {
+			Slug:        "天王星",
+			Character:   "♅",
+			UnicodeName: "天王星",
+			CodePoint:   "2645",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♆": {
+			Slug:        "海王星",
+			Character:   "♆",
+			UnicodeName: "海王星",
+			CodePoint:   "2646",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♇": {
+			Slug:        "Pluto",
+			Character:   "♇",
+			UnicodeName: "Pluto",
+			CodePoint:   "2647",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"♈": {
@@ -1418,6 +1751,42 @@ var (
 			SubGroup:    "zodiac",
 		},
 
+		"♖": {
+			Slug:        "ルーク(白)",
+			Character:   "♖",
+			UnicodeName: "ルーク(白)",
+			CodePoint:   "2656",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♗": {
+			Slug:        "white-chess-bishop",
+			Character:   "♗",
+			UnicodeName: "white chess bishop",
+			CodePoint:   "2657",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♙": {
+			Slug:        "ポーン(白)",
+			Character:   "♙",
+			UnicodeName: "ポーン(白)",
+			CodePoint:   "2659",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♜": {
+			Slug:        "ルーク(黒)",
+			Character:   "♜",
+			UnicodeName: "ルーク(黒)",
+			CodePoint:   "265C",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"♟": {
 			Slug:        "chess-pawn",
 			Character:   "♟",
@@ -1526,6 +1895,105 @@ var (
 			SubGroup:    "place-other",
 		},
 
+		"♩": {
+			Slug:        "四分音符",
+			Character:   "♩",
+			UnicodeName: "四分音符",
+			CodePoint:   "2669",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♭": {
+			Slug:        "music-flat-sign",
+			Character:   "♭",
+			UnicodeName: "music flat sign",
+			CodePoint:   "266D",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♮": {
+			Slug:        "music-natural-sign",
+			Character:   "♮",
+			UnicodeName: "music natural sign",
+			CodePoint:   "266E",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♯": {
+			Slug:        "music-sharp-sign",
+			Character:   "♯",
+			UnicodeName: "music sharp sign",
+			CodePoint:   "266F",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♳": {
+			Slug:        "recycling-symbol-for-type-1-plastics",
+			Character:   "♳",
+			UnicodeName: "recycling symbol for type 1 plastics",
+			CodePoint:   "2673",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♴": {
+			Slug:        "recycling-symbol-for-type-2-plastics",
+			Character:   "♴",
+			UnicodeName: "recycling symbol for type 2 plastics",
+			CodePoint:   "2674",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♵": {
+			Slug:        "リサイクルマーク(ポリ塩化ビニール)",
+			Character:   "♵",
+			UnicodeName: "リサイクルマーク(ポリ塩化ビニール)",
+			CodePoint:   "2675",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♶": {
+			Slug:        "リサイクルマーク(低密度ポリエチレン)",
+			Character:   "♶",
+			UnicodeName: "リサイクルマーク(低密度ポリエチレン)",
+			CodePoint:   "2676",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♷": {
+			Slug:        "recycling-symbol-for-type-5-plastics",
+			Character:   "♷",
+			UnicodeName: "recycling symbol for type 5 plastics",
+			CodePoint:   "2677",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♸": {
+			Slug:        "リサイクルマーク(ポリスチレン)",
+			Character:   "♸",
+			UnicodeName: "リサイクルマーク(ポリスチレン)",
+			CodePoint:   "2678",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♺": {
+			Slug:        "recycling-symbol-for-generic-materials",
+			Character:   "♺",
+			UnicodeName: "recycling symbol for generic materials",
+			CodePoint:   "267A",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"♻": {
 			Slug:        "recycling-symbol",
 			Character:   "♻",
@@ -1542,6 +2010,24 @@ var (
 			CodePoint:   "267B FE0F",
 			Group:       "Symbols",
 			SubGroup:    "other-symbol",
+		},
+
+		"♼": {
+			Slug:        "再生紙マーク",
+			Character:   "♼",
+			UnicodeName: "再生紙マーク",
+			CodePoint:   "267C",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"♽": {
+			Slug:        "圧縮再生紙マーク",
+			Character:   "♽",
+			UnicodeName: "圧縮再生紙マーク",
+			CodePoint:   "267D",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"♾": {
@@ -1569,6 +2055,69 @@ var (
 			CodePoint:   "267F",
 			Group:       "Symbols",
 			SubGroup:    "transport-sign",
+		},
+
+		"⚄": {
+			Slug:        "サイコロ(5)",
+			Character:   "⚄",
+			UnicodeName: "サイコロ(5)",
+			CodePoint:   "2684",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"⚆": {
+			Slug:        "囲碁記号1",
+			Character:   "⚆",
+			UnicodeName: "囲碁記号1",
+			CodePoint:   "2686",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚇": {
+			Slug:        "囲碁記号2",
+			Character:   "⚇",
+			UnicodeName: "囲碁記号2",
+			CodePoint:   "2687",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚈": {
+			Slug:        "囲碁記号3",
+			Character:   "⚈",
+			UnicodeName: "囲碁記号3",
+			CodePoint:   "2688",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚉": {
+			Slug:        "囲碁記号4",
+			Character:   "⚉",
+			UnicodeName: "囲碁記号4",
+			CodePoint:   "2689",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚊": {
+			Slug:        "monogram-for-yang",
+			Character:   "⚊",
+			UnicodeName: "monogram for yang",
+			CodePoint:   "268A",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚋": {
+			Slug:        "monogram-for-yin",
+			Character:   "⚋",
+			UnicodeName: "monogram for yin",
+			CodePoint:   "268B",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"⚒": {
@@ -1724,6 +2273,24 @@ var (
 			SubGroup:    "other-symbol",
 		},
 
+		"⚝": {
+			Slug:        "outlined-white-star",
+			Character:   "⚝",
+			UnicodeName: "outlined white star",
+			CodePoint:   "269D",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚟": {
+			Slug:        "副音声",
+			Character:   "⚟",
+			UnicodeName: "副音声",
+			CodePoint:   "269F",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"⚠": {
 			Slug:        "warning",
 			Character:   "⚠",
@@ -1751,6 +2318,24 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
+		"⚤": {
+			Slug:        "両性愛",
+			Character:   "⚤",
+			UnicodeName: "両性愛",
+			CodePoint:   "26A4",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚦": {
+			Slug:        "male-with-stroke-sign",
+			Character:   "⚦",
+			UnicodeName: "male with stroke sign",
+			CodePoint:   "26A6",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"⚧": {
 			Slug:        "transgender-symbol",
 			Character:   "⚧",
@@ -1769,6 +2354,24 @@ var (
 			SubGroup:    "gender",
 		},
 
+		"⚨": {
+			Slug:        "vertical-male-with-stroke-sign",
+			Character:   "⚨",
+			UnicodeName: "vertical male with stroke sign",
+			CodePoint:   "26A8",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚩": {
+			Slug:        "horizontal-male-with-stroke-sign",
+			Character:   "⚩",
+			UnicodeName: "horizontal male with stroke sign",
+			CodePoint:   "26A9",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"⚪": {
 			Slug:        "white-circle",
 			Character:   "⚪",
@@ -1785,6 +2388,15 @@ var (
 			CodePoint:   "26AB",
 			Group:       "Symbols",
 			SubGroup:    "geometric",
+		},
+
+		"⚭": {
+			Slug:        "結婚マーク",
+			Character:   "⚭",
+			UnicodeName: "結婚マーク",
+			CodePoint:   "26AD",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"⚰": {
@@ -1821,6 +2433,51 @@ var (
 			CodePoint:   "26B1 FE0F",
 			Group:       "Objects",
 			SubGroup:    "other-object",
+		},
+
+		"⚲": {
+			Slug:        "neuter",
+			Character:   "⚲",
+			UnicodeName: "neuter",
+			CodePoint:   "26B2",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚴": {
+			Slug:        "パラス",
+			Character:   "⚴",
+			UnicodeName: "パラス",
+			CodePoint:   "26B4",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚵": {
+			Slug:        "ジュノー",
+			Character:   "⚵",
+			UnicodeName: "ジュノー",
+			CodePoint:   "26B5",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚹": {
+			Slug:        "sextile",
+			Character:   "⚹",
+			UnicodeName: "sextile",
+			CodePoint:   "26B9",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⚻": {
+			Slug:        "インコンジャクト",
+			Character:   "⚻",
+			UnicodeName: "インコンジャクト",
+			CodePoint:   "26BB",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"⚽": {
@@ -1904,6 +2561,15 @@ var (
 			SubGroup:    "tool",
 		},
 
+		"⛐": {
+			Slug:        "凍結",
+			Character:   "⛐",
+			UnicodeName: "凍結",
+			CodePoint:   "26D0",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"⛑": {
 			Slug:        "rescue-worker’s-helmet",
 			Character:   "⛑",
@@ -1949,6 +2615,60 @@ var (
 			SubGroup:    "warning",
 		},
 
+		"⛖": {
+			Slug:        "対面通行1",
+			Character:   "⛖",
+			UnicodeName: "対面通行1",
+			CodePoint:   "26D6",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⛝": {
+			Slug:        "入り口閉鎖",
+			Character:   "⛝",
+			UnicodeName: "入り口閉鎖",
+			CodePoint:   "26DD",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⛞": {
+			Slug:        "falling-diagonal-in-white-circle-in-black-square",
+			Character:   "⛞",
+			UnicodeName: "falling diagonal in white circle in black square",
+			CodePoint:   "26DE",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⛠": {
+			Slug:        "入り口制限1",
+			Character:   "⛠",
+			UnicodeName: "入り口制限1",
+			CodePoint:   "26E0",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⛡": {
+			Slug:        "入り口制限2",
+			Character:   "⛡",
+			UnicodeName: "入り口制限2",
+			CodePoint:   "26E1",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"⛣": {
+			Slug:        "官公庁",
+			Character:   "⛣",
+			UnicodeName: "官公庁",
+			CodePoint:   "26E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"⛩": {
 			Slug:        "shinto-shrine",
 			Character:   "⛩",
@@ -1974,6 +2694,24 @@ var (
 			CodePoint:   "26EA",
 			Group:       "Travel & Places",
 			SubGroup:    "place-religious",
+		},
+
+		"⛬": {
+			Slug:        "historic-site",
+			Character:   "⛬",
+			UnicodeName: "historic site",
+			CodePoint:   "26EC",
+			Group:       "places",
+			SubGroup:    "places",
+		},
+
+		"⛯": {
+			Slug:        "灯台",
+			Character:   "⛯",
+			UnicodeName: "灯台",
+			CodePoint:   "26EF",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"⛰": {
@@ -2417,6 +3155,15 @@ var (
 			SubGroup:    "place-other",
 		},
 
+		"⛼": {
+			Slug:        "墓地",
+			Character:   "⛼",
+			UnicodeName: "墓地",
+			CodePoint:   "26FC",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"⛽": {
 			Slug:        "fuel-pump",
 			Character:   "⛽",
@@ -2424,6 +3171,15 @@ var (
 			CodePoint:   "26FD",
 			Group:       "Travel & Places",
 			SubGroup:    "transport-ground",
+		},
+
+		"⛿": {
+			Slug:        "自衛隊",
+			Character:   "⛿",
+			UnicodeName: "自衛隊",
+			CodePoint:   "26FF",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"✂": {
@@ -2972,7 +3728,7 @@ var (
 			UnicodeName: "E1.0 heart exclamation",
 			CodePoint:   "2763",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"❣️": {
@@ -2981,7 +3737,7 @@ var (
 			UnicodeName: "E1.0 heart exclamation",
 			CodePoint:   "2763 FE0F",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"❤": {
@@ -2990,7 +3746,7 @@ var (
 			UnicodeName: "E0.6 red heart",
 			CodePoint:   "2764",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"❤‍🔥": {
@@ -2999,7 +3755,16 @@ var (
 			UnicodeName: "E13.1 heart on fire",
 			CodePoint:   "2764 200D 1F525",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
+		},
+
+		"❤‍🧡‍💛‍💚‍💙‍💜": {
+			Slug:        "ハート(虹)",
+			Character:   "❤‍🧡‍💛‍💚‍💙‍💜",
+			UnicodeName: "ハート(虹)",
+			CodePoint:   "2764-200D-1F9E1-200D-1F49B-200D-1F49A-200D-1F499-200D-1F49C",
+			Group:       "abstract",
+			SubGroup:    "abstract",
 		},
 
 		"❤‍🩹": {
@@ -3008,7 +3773,7 @@ var (
 			UnicodeName: "E13.1 mending heart",
 			CodePoint:   "2764 200D 1FA79",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"❤️": {
@@ -3017,7 +3782,7 @@ var (
 			UnicodeName: "E0.6 red heart",
 			CodePoint:   "2764",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"❤️‍🔥": {
@@ -3026,7 +3791,7 @@ var (
 			UnicodeName: "E13.1 heart on fire",
 			CodePoint:   "2764 FE0F 200D 1F525",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"❤️‍🩹": {
@@ -3035,7 +3800,7 @@ var (
 			UnicodeName: "E13.1 mending heart",
 			CodePoint:   "2764 FE0F 200D 1FA79",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"➕": {
@@ -3299,6 +4064,96 @@ var (
 			SubGroup:    "alphanum",
 		},
 
+		"️0️⃣": {
+			Slug:        "zero",
+			Character:   "️0️⃣",
+			UnicodeName: "zero",
+			CodePoint:   "0030-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️1️⃣": {
+			Slug:        "one",
+			Character:   "️1️⃣",
+			UnicodeName: "one",
+			CodePoint:   "0031-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️2️⃣": {
+			Slug:        "2キー",
+			Character:   "️2️⃣",
+			UnicodeName: "2キー",
+			CodePoint:   "0032-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️3️⃣": {
+			Slug:        "3キー",
+			Character:   "️3️⃣",
+			UnicodeName: "3キー",
+			CodePoint:   "0033-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️4️⃣": {
+			Slug:        "4キー",
+			Character:   "️4️⃣",
+			UnicodeName: "4キー",
+			CodePoint:   "0034-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️5️⃣": {
+			Slug:        "5キー",
+			Character:   "️5️⃣",
+			UnicodeName: "5キー",
+			CodePoint:   "0035-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️6️⃣": {
+			Slug:        "6キー",
+			Character:   "️6️⃣",
+			UnicodeName: "6キー",
+			CodePoint:   "0036-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️7️⃣": {
+			Slug:        "7キー",
+			Character:   "️7️⃣",
+			UnicodeName: "7キー",
+			CodePoint:   "0037-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️8️⃣": {
+			Slug:        "8キー",
+			Character:   "️8️⃣",
+			UnicodeName: "8キー",
+			CodePoint:   "0038-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"️9️⃣": {
+			Slug:        "9キー",
+			Character:   "️9️⃣",
+			UnicodeName: "9キー",
+			CodePoint:   "0039-FE0F-20E3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🀄": {
 			Slug:        "mahjong-red-dragon",
 			Character:   "🀄",
@@ -3488,6 +4343,15 @@ var (
 			SubGroup:    "alphanum",
 		},
 
+		"🇦": {
+			Slug:        "regional-indicator-symbol-letter-A",
+			Character:   "🇦",
+			UnicodeName: "regional indicator symbol letter A",
+			CodePoint:   "1F1E6",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇦🇨": {
 			Slug:        "flag-ascension-island",
 			Character:   "🇦🇨",
@@ -3639,6 +4503,15 @@ var (
 			CodePoint:   "1F1E6 1F1FF",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇧": {
+			Slug:        "regional-indicator-symbol-letter-B",
+			Character:   "🇧",
+			UnicodeName: "regional indicator symbol letter B",
+			CodePoint:   "1F1E7",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇧🇦": {
@@ -3830,6 +4703,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇨": {
+			Slug:        "regional-indicator-symbol-letter-C",
+			Character:   "🇨",
+			UnicodeName: "regional indicator symbol letter C",
+			CodePoint:   "1F1E8",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇨🇦": {
 			Slug:        "flag-canada",
 			Character:   "🇨🇦",
@@ -4010,6 +4892,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇩": {
+			Slug:        "regional-indicator-symbol-letter-D",
+			Character:   "🇩",
+			UnicodeName: "regional indicator symbol letter D",
+			CodePoint:   "1F1E9",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇩🇪": {
 			Slug:        "flag-germany",
 			Character:   "🇩🇪",
@@ -4071,6 +4962,15 @@ var (
 			CodePoint:   "1F1E9 1F1FF",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇪": {
+			Slug:        "regional-indicator-symbol-letter-E",
+			Character:   "🇪",
+			UnicodeName: "regional indicator symbol letter E",
+			CodePoint:   "1F1EA",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇪🇦": {
@@ -4154,6 +5054,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇫": {
+			Slug:        "regional-indicator-symbol-letter-F",
+			Character:   "🇫",
+			UnicodeName: "regional indicator symbol letter F",
+			CodePoint:   "1F1EB",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇫🇮": {
 			Slug:        "flag-finland",
 			Character:   "🇫🇮",
@@ -4206,6 +5115,15 @@ var (
 			CodePoint:   "1F1EB 1F1F7",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇬": {
+			Slug:        "regional-indicator-symbol-letter-G",
+			Character:   "🇬",
+			UnicodeName: "regional indicator symbol letter G",
+			CodePoint:   "1F1EC",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇬🇦": {
@@ -4379,6 +5297,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇭": {
+			Slug:        "regional-indicator-symbol-letter-H",
+			Character:   "🇭",
+			UnicodeName: "regional indicator symbol letter H",
+			CodePoint:   "1F1ED",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇭🇰": {
 			Slug:        "flag-hong-kong-sar-china",
 			Character:   "🇭🇰",
@@ -4431,6 +5358,15 @@ var (
 			CodePoint:   "1F1ED 1F1FA",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇮": {
+			Slug:        "regional-indicator-symbol-letter-I",
+			Character:   "🇮",
+			UnicodeName: "regional indicator symbol letter I",
+			CodePoint:   "1F1EE",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇮🇨": {
@@ -4532,6 +5468,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇯": {
+			Slug:        "regional-indicator-symbol-letter-J",
+			Character:   "🇯",
+			UnicodeName: "regional indicator symbol letter J",
+			CodePoint:   "1F1EF",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇯🇪": {
 			Slug:        "flag-jersey",
 			Character:   "🇯🇪",
@@ -4566,6 +5511,15 @@ var (
 			CodePoint:   "1F1EF 1F1F5",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇰": {
+			Slug:        "regional-indicator-symbol-letter-K",
+			Character:   "🇰",
+			UnicodeName: "regional indicator symbol letter K",
+			CodePoint:   "1F1F0",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇰🇪": {
@@ -4667,6 +5621,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇱": {
+			Slug:        "regional-indicator-symbol-letter-L",
+			Character:   "🇱",
+			UnicodeName: "regional indicator symbol letter L",
+			CodePoint:   "1F1F1",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇱🇦": {
 			Slug:        "flag-laos",
 			Character:   "🇱🇦",
@@ -4764,6 +5727,15 @@ var (
 			CodePoint:   "1F1F1 1F1FE",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇲": {
+			Slug:        "regional-indicator-symbol-letter-M",
+			Character:   "🇲",
+			UnicodeName: "regional indicator symbol letter M",
+			CodePoint:   "1F1F2",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇲🇦": {
@@ -4973,6 +5945,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇳": {
+			Slug:        "regional-indicator-symbol-letter-N",
+			Character:   "🇳",
+			UnicodeName: "regional indicator symbol letter N",
+			CodePoint:   "1F1F3",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇳🇦": {
 			Slug:        "flag-namibia",
 			Character:   "🇳🇦",
@@ -5081,6 +6062,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇴": {
+			Slug:        "regional-indicator-symbol-letter-O",
+			Character:   "🇴",
+			UnicodeName: "regional indicator symbol letter O",
+			CodePoint:   "1F1F4",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇴🇲": {
 			Slug:        "flag-oman",
 			Character:   "🇴🇲",
@@ -5088,6 +6078,15 @@ var (
 			CodePoint:   "1F1F4 1F1F2",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇵": {
+			Slug:        "regional-indicator-symbol-letter-P",
+			Character:   "🇵",
+			UnicodeName: "regional indicator symbol letter P",
+			CodePoint:   "1F1F5",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇵🇦": {
@@ -5216,6 +6215,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇶": {
+			Slug:        "regional-indicator-symbol-letter-Q",
+			Character:   "🇶",
+			UnicodeName: "regional indicator symbol letter Q",
+			CodePoint:   "1F1F6",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇶🇦": {
 			Slug:        "flag-qatar",
 			Character:   "🇶🇦",
@@ -5223,6 +6231,15 @@ var (
 			CodePoint:   "1F1F6 1F1E6",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇷": {
+			Slug:        "regional-indicator-symbol-letter-R",
+			Character:   "🇷",
+			UnicodeName: "regional indicator symbol letter R",
+			CodePoint:   "1F1F7",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇷🇪": {
@@ -5268,6 +6285,15 @@ var (
 			CodePoint:   "1F1F7 1F1FC",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇸": {
+			Slug:        "regional-indicator-symbol-letter-S",
+			Character:   "🇸",
+			UnicodeName: "regional indicator symbol letter S",
+			CodePoint:   "1F1F8",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇸🇦": {
@@ -5459,6 +6485,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇹": {
+			Slug:        "regional-indicator-symbol-letter-T",
+			Character:   "🇹",
+			UnicodeName: "regional indicator symbol letter T",
+			CodePoint:   "1F1F9",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇹🇦": {
 			Slug:        "flag-tristan-da-cunha",
 			Character:   "🇹🇦",
@@ -5612,6 +6647,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇺": {
+			Slug:        "U",
+			Character:   "🇺",
+			UnicodeName: "U",
+			CodePoint:   "1F1FA",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇺🇦": {
 			Slug:        "flag-ukraine",
 			Character:   "🇺🇦",
@@ -5673,6 +6717,15 @@ var (
 			CodePoint:   "1F1FA 1F1FF",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇻": {
+			Slug:        "regional-indicator-symbol-letter-V",
+			Character:   "🇻",
+			UnicodeName: "regional indicator symbol letter V",
+			CodePoint:   "1F1FB",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇻🇦": {
@@ -5738,6 +6791,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇼": {
+			Slug:        "regional-indicator-symbol-letter-W",
+			Character:   "🇼",
+			UnicodeName: "regional indicator symbol letter W",
+			CodePoint:   "1F1FC",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇼🇫": {
 			Slug:        "flag-wallis-&-futuna",
 			Character:   "🇼🇫",
@@ -5756,6 +6818,15 @@ var (
 			SubGroup:    "country-flag",
 		},
 
+		"🇽": {
+			Slug:        "regional-indicator-symbol-letter-X",
+			Character:   "🇽",
+			UnicodeName: "regional indicator symbol letter X",
+			CodePoint:   "1F1FD",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🇽🇰": {
 			Slug:        "flag-kosovo",
 			Character:   "🇽🇰",
@@ -5763,6 +6834,24 @@ var (
 			CodePoint:   "1F1FD 1F1F0",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇽🇸": {
+			Slug:        "スコットランド国旗",
+			Character:   "🇽🇸",
+			UnicodeName: "スコットランド国旗",
+			CodePoint:   "1F1FD-1F1F8",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🇾": {
+			Slug:        "regional-indicator-symbol-letter-Y",
+			Character:   "🇾",
+			UnicodeName: "regional indicator symbol letter Y",
+			CodePoint:   "1F1FE",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇾🇪": {
@@ -5781,6 +6870,15 @@ var (
 			CodePoint:   "1F1FE 1F1F9",
 			Group:       "Flags",
 			SubGroup:    "country-flag",
+		},
+
+		"🇿": {
+			Slug:        "Z",
+			Character:   "🇿",
+			UnicodeName: "Z",
+			CodePoint:   "1F1FF",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🇿🇦": {
@@ -6440,6 +7538,15 @@ var (
 			SubGroup:    "sky & weather",
 		},
 
+		"🌬🏼": {
+			Slug:        "wind-blowing-face(p)",
+			Character:   "🌬🏼",
+			UnicodeName: "wind blowing face(p)",
+			CodePoint:   "1F32C-1F3FC",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"🌭": {
 			Slug:        "hot-dog",
 			Character:   "🌭",
@@ -6661,8 +7768,8 @@ var (
 			Character:   "🍄",
 			UnicodeName: "E0.6 mushroom",
 			CodePoint:   "1F344",
-			Group:       "Food & Drink",
-			SubGroup:    "food-vegetable",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-other",
 		},
 
 		"🍅": {
@@ -7430,6 +8537,15 @@ var (
 			SubGroup:    "clothing",
 		},
 
+		"🎔": {
+			Slug:        "飛び散るハート",
+			Character:   "🎔",
+			UnicodeName: "飛び散るハート",
+			CodePoint:   "1F394",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🎖": {
 			Slug:        "military-medal",
 			Character:   "🎖",
@@ -7464,6 +8580,15 @@ var (
 			CodePoint:   "1F397 FE0F",
 			Group:       "Activities",
 			SubGroup:    "event",
+		},
+
+		"🎘": {
+			Slug:        "musical-keyboard-with-jacks",
+			Character:   "🎘",
+			UnicodeName: "musical keyboard with jacks",
+			CodePoint:   "1F398",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🎙": {
@@ -7518,6 +8643,24 @@ var (
 			CodePoint:   "1F39B FE0F",
 			Group:       "Objects",
 			SubGroup:    "music",
+		},
+
+		"🎜": {
+			Slug:        "8分音符1",
+			Character:   "🎜",
+			UnicodeName: "8分音符1",
+			CodePoint:   "1F39C",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🎝": {
+			Slug:        "8分音符2",
+			Character:   "🎝",
+			UnicodeName: "8分音符2",
+			CodePoint:   "1F39D",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🎞": {
@@ -10040,6 +11183,15 @@ var (
 			SubGroup:    "plant-flower",
 		},
 
+		"🏶": {
+			Slug:        "バラ飾り(黒)",
+			Character:   "🏶",
+			UnicodeName: "バラ飾り(黒)",
+			CodePoint:   "1F3F6",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🏷": {
 			Slug:        "label",
 			Character:   "🏷",
@@ -10450,6 +11602,15 @@ var (
 			Character:   "🐦",
 			UnicodeName: "E0.6 bird",
 			CodePoint:   "1F426",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		"🐦‍⬛": {
+			Slug:        "black-bird",
+			Character:   "🐦‍⬛",
+			UnicodeName: "E15.0 black bird",
+			CodePoint:   "1F426 200D 2B1B",
 			Group:       "Animals & Nature",
 			SubGroup:    "animal-bird",
 		},
@@ -12209,6 +13370,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"👨‍🧣": {
+			Slug:        "マフラを巻いた男",
+			Character:   "👨‍🧣",
+			UnicodeName: "マフラを巻いた男",
+			CodePoint:   "1F468-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"👨🏻": {
 			Slug:        "man-light-skin-tone",
 			Character:   "👨🏻",
@@ -12675,6 +13845,15 @@ var (
 			CodePoint:   "1F468 1F3FB 200D 1F9BD",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"👨🏻‍🧣": {
+			Slug:        "マフラを巻いた男(白)",
+			Character:   "👨🏻‍🧣",
+			UnicodeName: "マフラを巻いた男(白)",
+			CodePoint:   "1F468-1F3FB-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👨🏼": {
@@ -13145,6 +14324,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"👨🏼‍🧣": {
+			Slug:        "マフラを巻いた男(桃)",
+			Character:   "👨🏼‍🧣",
+			UnicodeName: "マフラを巻いた男(桃)",
+			CodePoint:   "1F468-1F3FC-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"👨🏽": {
 			Slug:        "man-medium-skin-tone",
 			Character:   "👨🏽",
@@ -13611,6 +14799,15 @@ var (
 			CodePoint:   "1F468 1F3FD 200D 1F9BD",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"👨🏽‍🧣": {
+			Slug:        "man-with-scarf(ye)",
+			Character:   "👨🏽‍🧣",
+			UnicodeName: "man with scarf(ye)",
+			CodePoint:   "1F468-1F3FD-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👨🏾": {
@@ -14081,6 +15278,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"👨🏾‍🧣": {
+			Slug:        "マフラを巻いた男(茶)",
+			Character:   "👨🏾‍🧣",
+			UnicodeName: "マフラを巻いた男(茶)",
+			CodePoint:   "1F468-1F3FE-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"👨🏿": {
 			Slug:        "man-dark-skin-tone",
 			Character:   "👨🏿",
@@ -14547,6 +15753,15 @@ var (
 			CodePoint:   "1F468 1F3FF 200D 1F9BD",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"👨🏿‍🧣": {
+			Slug:        "マフラを巻いた男(黒)",
+			Character:   "👨🏿‍🧣",
+			UnicodeName: "マフラを巻いた男(黒)",
+			CodePoint:   "1F468-1F3FF-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👩": {
@@ -15647,6 +16862,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"👩🏻‍🧣": {
+			Slug:        "マフラを巻いた女(白)",
+			Character:   "👩🏻‍🧣",
+			UnicodeName: "マフラを巻いた女(白)",
+			CodePoint:   "1F469-1F3FB-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"👩🏼": {
 			Slug:        "woman-medium-light-skin-tone",
 			Character:   "👩🏼",
@@ -16329,6 +17553,15 @@ var (
 			CodePoint:   "1F469 1F3FC 200D 1F9BD",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"👩🏼‍🧣": {
+			Slug:        "マフラを巻いた女(桃)",
+			Character:   "👩🏼‍🧣",
+			UnicodeName: "マフラを巻いた女(桃)",
+			CodePoint:   "1F469-1F3FC-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👩🏽": {
@@ -17015,6 +18248,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"👩🏽‍🧣": {
+			Slug:        "マフラを巻いた女(黄)",
+			Character:   "👩🏽‍🧣",
+			UnicodeName: "マフラを巻いた女(黄)",
+			CodePoint:   "1F469-1F3FD-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"👩🏾": {
 			Slug:        "woman-medium-dark-skin-tone",
 			Character:   "👩🏾",
@@ -17697,6 +18939,15 @@ var (
 			CodePoint:   "1F469 1F3FE 200D 1F9BD",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"👩🏾‍🧣": {
+			Slug:        "マフラを巻いた女(茶)",
+			Character:   "👩🏾‍🧣",
+			UnicodeName: "マフラを巻いた女(茶)",
+			CodePoint:   "1F469-1F3FE-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👩🏿": {
@@ -18383,6 +19634,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"👩🏿‍🧣": {
+			Slug:        "マフラを巻いた女(黒)",
+			Character:   "👩🏿‍🧣",
+			UnicodeName: "マフラを巻いた女(黒)",
+			CodePoint:   "1F469-1F3FF-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"👪": {
 			Slug:        "family",
 			Character:   "👪",
@@ -18390,6 +19650,33 @@ var (
 			CodePoint:   "1F46A",
 			Group:       "People & Body",
 			SubGroup:    "family",
+		},
+
+		"👪🏻": {
+			Slug:        "家族(白)",
+			Character:   "👪🏻",
+			UnicodeName: "家族(白)",
+			CodePoint:   "1F46A-1F3FB",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👪🏾": {
+			Slug:        "family(br)",
+			Character:   "👪🏾",
+			UnicodeName: "family(br)",
+			CodePoint:   "1F46A-1F3FE",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👪🏿": {
+			Slug:        "family(bk)",
+			Character:   "👪🏿",
+			UnicodeName: "family(bk)",
+			CodePoint:   "1F46A-1F3FF",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👫": {
@@ -18867,6 +20154,87 @@ var (
 			CodePoint:   "1F46F 200D 2642 FE0F",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"👯🏻": {
+			Slug:        "バニーガール(白)",
+			Character:   "👯🏻",
+			UnicodeName: "バニーガール(白)",
+			CodePoint:   "1F46F-1F3FB",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏻‍♂️": {
+			Slug:        "バニーボーイ(白)",
+			Character:   "👯🏻‍♂️",
+			UnicodeName: "バニーボーイ(白)",
+			CodePoint:   "1F46F-1F3FB-200D-2642-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏼": {
+			Slug:        "バニーガール(桃)",
+			Character:   "👯🏼",
+			UnicodeName: "バニーガール(桃)",
+			CodePoint:   "1F46F-1F3FC",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏽": {
+			Slug:        "バニーガール(黄)",
+			Character:   "👯🏽",
+			UnicodeName: "バニーガール(黄)",
+			CodePoint:   "1F46F-1F3FD",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏽‍♂️": {
+			Slug:        "バニーボーイ(黄)",
+			Character:   "👯🏽‍♂️",
+			UnicodeName: "バニーボーイ(黄)",
+			CodePoint:   "1F46F-1F3FD-200D-2642-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏾": {
+			Slug:        "バニーガール(茶)",
+			Character:   "👯🏾",
+			UnicodeName: "バニーガール(茶)",
+			CodePoint:   "1F46F-1F3FE",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏾‍♂️": {
+			Slug:        "バニーボーイ(茶)",
+			Character:   "👯🏾‍♂️",
+			UnicodeName: "バニーボーイ(茶)",
+			CodePoint:   "1F46F-1F3FE-200D-2642-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏿": {
+			Slug:        "バニーガール(黒)",
+			Character:   "👯🏿",
+			UnicodeName: "バニーガール(黒)",
+			CodePoint:   "1F46F-1F3FF",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👯🏿‍♂️": {
+			Slug:        "バニーボーイ(黒)",
+			Character:   "👯🏿‍♂️",
+			UnicodeName: "バニーボーイ(黒)",
+			CodePoint:   "1F46F-1F3FF-200D-2642-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"👰": {
@@ -20327,6 +21695,42 @@ var (
 			SubGroup:    "face-negative",
 		},
 
+		"👿🏻": {
+			Slug:        "悪魔(白)",
+			Character:   "👿🏻",
+			UnicodeName: "悪魔(白)",
+			CodePoint:   "1F47F-1F3FB",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👿🏼": {
+			Slug:        "imp(p)",
+			Character:   "👿🏼",
+			UnicodeName: "imp(p)",
+			CodePoint:   "1F47F-1F3FC",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👿🏽": {
+			Slug:        "imp(ye)",
+			Character:   "👿🏽",
+			UnicodeName: "imp(ye)",
+			CodePoint:   "1F47F-1F3FD",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"👿🏾": {
+			Slug:        "imp(br)",
+			Character:   "👿🏾",
+			UnicodeName: "imp(br)",
+			CodePoint:   "1F47F-1F3FE",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"💀": {
 			Slug:        "skull",
 			Character:   "💀",
@@ -21575,7 +22979,7 @@ var (
 			UnicodeName: "E0.6 love letter",
 			CodePoint:   "1F48C",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💍": {
@@ -21728,7 +23132,7 @@ var (
 			UnicodeName: "E0.6 beating heart",
 			CodePoint:   "1F493",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💔": {
@@ -21737,7 +23141,7 @@ var (
 			UnicodeName: "E0.6 broken heart",
 			CodePoint:   "1F494",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💕": {
@@ -21746,7 +23150,7 @@ var (
 			UnicodeName: "E0.6 two hearts",
 			CodePoint:   "1F495",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💖": {
@@ -21755,7 +23159,7 @@ var (
 			UnicodeName: "E0.6 sparkling heart",
 			CodePoint:   "1F496",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💗": {
@@ -21764,7 +23168,7 @@ var (
 			UnicodeName: "E0.6 growing heart",
 			CodePoint:   "1F497",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💘": {
@@ -21773,7 +23177,7 @@ var (
 			UnicodeName: "E0.6 heart with arrow",
 			CodePoint:   "1F498",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💙": {
@@ -21782,7 +23186,7 @@ var (
 			UnicodeName: "E0.6 blue heart",
 			CodePoint:   "1F499",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💚": {
@@ -21791,7 +23195,7 @@ var (
 			UnicodeName: "E0.6 green heart",
 			CodePoint:   "1F49A",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💛": {
@@ -21800,7 +23204,7 @@ var (
 			UnicodeName: "E0.6 yellow heart",
 			CodePoint:   "1F49B",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💜": {
@@ -21809,7 +23213,7 @@ var (
 			UnicodeName: "E0.6 purple heart",
 			CodePoint:   "1F49C",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💝": {
@@ -21818,7 +23222,7 @@ var (
 			UnicodeName: "E0.6 heart with ribbon",
 			CodePoint:   "1F49D",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💞": {
@@ -21827,7 +23231,7 @@ var (
 			UnicodeName: "E0.6 revolving hearts",
 			CodePoint:   "1F49E",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💟": {
@@ -21836,7 +23240,7 @@ var (
 			UnicodeName: "E0.6 heart decoration",
 			CodePoint:   "1F49F",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"💠": {
@@ -21871,14 +23275,14 @@ var (
 			Character:   "💣",
 			UnicodeName: "E0.6 bomb",
 			CodePoint:   "1F4A3",
-			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			Group:       "Objects",
+			SubGroup:    "tool",
 		},
 
 		"💤": {
 			Slug:        "zzz",
 			Character:   "💤",
-			UnicodeName: "E0.6 zzz",
+			UnicodeName: "E0.6 ZZZ",
 			CodePoint:   "1F4A4",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "emotion",
@@ -22739,6 +24143,15 @@ var (
 			SubGroup:    "light & video",
 		},
 
+		"📾": {
+			Slug:        "portable-stereo",
+			Character:   "📾",
+			UnicodeName: "portable stereo",
+			CodePoint:   "1F4FE",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"📿": {
 			Slug:        "prayer-beads",
 			Character:   "📿",
@@ -23140,8 +24553,8 @@ var (
 			Character:   "🔫",
 			UnicodeName: "E0.6 water pistol",
 			CodePoint:   "1F52B",
-			Group:       "Objects",
-			SubGroup:    "tool",
+			Group:       "Activities",
+			SubGroup:    "game",
 		},
 
 		"🔬": {
@@ -23304,6 +24717,42 @@ var (
 			CodePoint:   "1F53D",
 			Group:       "Symbols",
 			SubGroup:    "av-symbol",
+		},
+
+		"🔾": {
+			Slug:        "lower-right-shadowed-white-circle",
+			Character:   "🔾",
+			UnicodeName: "lower right shadowed white circle",
+			CodePoint:   "1F53E",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
+		"🔿": {
+			Slug:        "影付き白丸2",
+			Character:   "🔿",
+			UnicodeName: "影付き白丸2",
+			CodePoint:   "1F53F",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
+		"🕅": {
+			Slug:        "マークのチャプター",
+			Character:   "🕅",
+			UnicodeName: "マークのチャプター",
+			CodePoint:   "1F545",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🕆": {
+			Slug:        "十字架(白)",
+			Character:   "🕆",
+			UnicodeName: "十字架(白)",
+			CodePoint:   "1F546",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🕉": {
@@ -23594,6 +25043,51 @@ var (
 			SubGroup:    "time",
 		},
 
+		"🕨": {
+			Slug:        "スピーカー2",
+			Character:   "🕨",
+			UnicodeName: "スピーカー2",
+			CodePoint:   "1F568",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🕩": {
+			Slug:        "スピーカー3",
+			Character:   "🕩",
+			UnicodeName: "スピーカー3",
+			CodePoint:   "1F569",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🕪": {
+			Slug:        "スピーカー4",
+			Character:   "🕪",
+			UnicodeName: "スピーカー4",
+			CodePoint:   "1F56A",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🕬": {
+			Slug:        "bullhorn-with-sound-waves",
+			Character:   "🕬",
+			UnicodeName: "bullhorn with sound waves",
+			CodePoint:   "1F56C",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🕭": {
+			Slug:        "ringing-bell",
+			Character:   "🕭",
+			UnicodeName: "ringing bell",
+			CodePoint:   "1F56D",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🕯": {
 			Slug:        "candle",
 			Character:   "🕯",
@@ -23628,6 +25122,15 @@ var (
 			CodePoint:   "1F570 FE0F",
 			Group:       "Travel & Places",
 			SubGroup:    "time",
+		},
+
+		"🕲": {
+			Slug:        "海賊行為禁止",
+			Character:   "🕲",
+			UnicodeName: "海賊行為禁止",
+			CodePoint:   "1F572",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🕳": {
@@ -24152,6 +25655,60 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"🕼": {
+			Slug:        "telephone-receiver-with-page",
+			Character:   "🕼",
+			UnicodeName: "telephone receiver with page",
+			CodePoint:   "1F57C",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🕽": {
+			Slug:        "right-hand-telephone-receiver",
+			Character:   "🕽",
+			UnicodeName: "right hand telephone receiver",
+			CodePoint:   "1F57D",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🕿": {
+			Slug:        "黒電話2",
+			Character:   "🕿",
+			UnicodeName: "黒電話2",
+			CodePoint:   "1F57F",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖀": {
+			Slug:        "telephone-on-top-of-modem",
+			Character:   "🖀",
+			UnicodeName: "telephone on top of modem",
+			CodePoint:   "1F580",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖅": {
+			Slug:        "封筒6",
+			Character:   "🖅",
+			UnicodeName: "封筒6",
+			CodePoint:   "1F585",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖆": {
+			Slug:        "pen-over-stamped-envelope",
+			Character:   "🖆",
+			UnicodeName: "pen over stamped envelope",
+			CodePoint:   "1F586",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🖇": {
 			Slug:        "linked-paperclips",
 			Character:   "🖇",
@@ -24168,6 +25725,15 @@ var (
 			CodePoint:   "1F587 FE0F",
 			Group:       "Objects",
 			SubGroup:    "office",
+		},
+
+		"🖉": {
+			Slug:        "lower-left-pencil",
+			Character:   "🖉",
+			UnicodeName: "lower left pencil",
+			CodePoint:   "1F589",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🖊": {
@@ -24242,6 +25808,24 @@ var (
 			SubGroup:    "writing",
 		},
 
+		"🖎": {
+			Slug:        "left-writing-hand",
+			Character:   "🖎",
+			UnicodeName: "left writing hand",
+			CodePoint:   "1F58E",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖎🏼": {
+			Slug:        "書く(桃)",
+			Character:   "🖎🏼",
+			UnicodeName: "書く(桃)",
+			CodePoint:   "1F58E-1F3FC",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
 		"🖐": {
 			Slug:        "hand-with-fingers-splayed",
 			Character:   "🖐",
@@ -24303,6 +25887,204 @@ var (
 			CodePoint:   "1F590 1F3FF",
 			Group:       "People & Body",
 			SubGroup:    "hand-fingers-open",
+		},
+
+		"🖑": {
+			Slug:        "reversed-raised-hand-with-fingers-splayed",
+			Character:   "🖑",
+			UnicodeName: "reversed raised hand with fingers splayed",
+			CodePoint:   "1F591",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖑🏻": {
+			Slug:        "パー3(白)",
+			Character:   "🖑🏻",
+			UnicodeName: "パー3(白)",
+			CodePoint:   "1F591-1F3FB",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖑🏼": {
+			Slug:        "reversed-raised-hand-with-fingers-splayed(p)",
+			Character:   "🖑🏼",
+			UnicodeName: "reversed raised hand with fingers splayed(p)",
+			CodePoint:   "1F591-1F3FC",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖑🏽": {
+			Slug:        "reversed-raised-hand-with-fingers-splayed(ye)",
+			Character:   "🖑🏽",
+			UnicodeName: "reversed raised hand with fingers splayed(ye)",
+			CodePoint:   "1F591-1F3FD",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖑🏾": {
+			Slug:        "reversed-raised-hand-with-fingers-splayed(br)",
+			Character:   "🖑🏾",
+			UnicodeName: "reversed raised hand with fingers splayed(br)",
+			CodePoint:   "1F591-1F3FE",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖑🏿": {
+			Slug:        "reversed-raised-hand-with-fingers-splayed(bk)",
+			Character:   "🖑🏿",
+			UnicodeName: "reversed raised hand with fingers splayed(bk)",
+			CodePoint:   "1F591-1F3FF",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖒": {
+			Slug:        "reversed-thumbs-up-sign",
+			Character:   "🖒",
+			UnicodeName: "reversed thumbs up sign",
+			CodePoint:   "1F592",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖒🏻": {
+			Slug:        "reversed-thumbs-up-sign(wh)",
+			Character:   "🖒🏻",
+			UnicodeName: "reversed thumbs up sign(wh)",
+			CodePoint:   "1F592-1F3FB",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖒🏽": {
+			Slug:        "reversed-thumbs-up-sign(ye)",
+			Character:   "🖒🏽",
+			UnicodeName: "reversed thumbs up sign(ye)",
+			CodePoint:   "1F592-1F3FD",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖒🏾": {
+			Slug:        "reversed-thumbs-up-sign(br)",
+			Character:   "🖒🏾",
+			UnicodeName: "reversed thumbs up sign(br)",
+			CodePoint:   "1F592-1F3FE",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖒🏿": {
+			Slug:        "reversed-thumbs-up-sign(bk)",
+			Character:   "🖒🏿",
+			UnicodeName: "reversed thumbs up sign(bk)",
+			CodePoint:   "1F592-1F3FF",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖓": {
+			Slug:        "ブーイング2",
+			Character:   "🖓",
+			UnicodeName: "ブーイング2",
+			CodePoint:   "1F593",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖓🏻": {
+			Slug:        "reversed-thumbs-down-sign(wh)",
+			Character:   "🖓🏻",
+			UnicodeName: "reversed thumbs down sign(wh)",
+			CodePoint:   "1F593-1F3FB",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖓🏼": {
+			Slug:        "reversed-thumbs-down-sign(p)",
+			Character:   "🖓🏼",
+			UnicodeName: "reversed thumbs down sign(p)",
+			CodePoint:   "1F593-1F3FC",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖓🏽": {
+			Slug:        "reversed-thumbs-down-sign(ye)",
+			Character:   "🖓🏽",
+			UnicodeName: "reversed thumbs down sign(ye)",
+			CodePoint:   "1F593-1F3FD",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖓🏾": {
+			Slug:        "reversed-thumbs-down-sign(br)",
+			Character:   "🖓🏾",
+			UnicodeName: "reversed thumbs down sign(br)",
+			CodePoint:   "1F593-1F3FE",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖓🏿": {
+			Slug:        "reversed-thumbs-down-sign(bk)",
+			Character:   "🖓🏿",
+			UnicodeName: "reversed thumbs down sign(bk)",
+			CodePoint:   "1F593-1F3FF",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖔": {
+			Slug:        "reversed-victory-hand",
+			Character:   "🖔",
+			UnicodeName: "reversed victory hand",
+			CodePoint:   "1F594",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖔🏻": {
+			Slug:        "reversed-victory-hand(wh)",
+			Character:   "🖔🏻",
+			UnicodeName: "reversed victory hand(wh)",
+			CodePoint:   "1F594-1F3FB",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖔🏽": {
+			Slug:        "reversed-victory-hand(ye)",
+			Character:   "🖔🏽",
+			UnicodeName: "reversed victory hand(ye)",
+			CodePoint:   "1F594-1F3FD",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖔🏾": {
+			Slug:        "reversed-victory-hand(br)",
+			Character:   "🖔🏾",
+			UnicodeName: "reversed victory hand(br)",
+			CodePoint:   "1F594-1F3FE",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖔🏿": {
+			Slug:        "reversed-victory-hand(bk)",
+			Character:   "🖔🏿",
+			UnicodeName: "reversed victory hand(bk)",
+			CodePoint:   "1F594-1F3FF",
+			Group:       "gestures",
+			SubGroup:    "gestures",
 		},
 
 		"🖕": {
@@ -24413,13 +26195,40 @@ var (
 			SubGroup:    "hand-fingers-open",
 		},
 
+		"🖗": {
+			Slug:        "指差し2(下)",
+			Character:   "🖗",
+			UnicodeName: "指差し2(下)",
+			CodePoint:   "1F597",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖘🏼": {
+			Slug:        "sideways-left-pointing-index(p)",
+			Character:   "🖘🏼",
+			UnicodeName: "sideways left pointing index(p)",
+			CodePoint:   "1F598-1F3FC",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
+		"🖠": {
+			Slug:        "指差し4(上)",
+			Character:   "🖠",
+			UnicodeName: "指差し4(上)",
+			CodePoint:   "1F5A0",
+			Group:       "gestures",
+			SubGroup:    "gestures",
+		},
+
 		"🖤": {
 			Slug:        "black-heart",
 			Character:   "🖤",
 			UnicodeName: "E3.0 black heart",
 			CodePoint:   "1F5A4",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"🖥": {
@@ -24440,6 +26249,24 @@ var (
 			SubGroup:    "computer",
 		},
 
+		"🖦": {
+			Slug:        "キーボードとマウス",
+			Character:   "🖦",
+			UnicodeName: "キーボードとマウス",
+			CodePoint:   "1F5A6",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖧": {
+			Slug:        "ネットワーク",
+			Character:   "🖧",
+			UnicodeName: "ネットワーク",
+			CodePoint:   "1F5A7",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🖨": {
 			Slug:        "printer",
 			Character:   "🖨",
@@ -24456,6 +26283,24 @@ var (
 			CodePoint:   "1F5A8 FE0F",
 			Group:       "Objects",
 			SubGroup:    "computer",
+		},
+
+		"🖪": {
+			Slug:        "フロッピーディスク2",
+			Character:   "🖪",
+			UnicodeName: "フロッピーディスク2",
+			CodePoint:   "1F5AA",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖯": {
+			Slug:        "one-button-mouse",
+			Character:   "🖯",
+			UnicodeName: "one button mouse",
+			CodePoint:   "1F5AF",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🖱": {
@@ -24494,6 +26339,69 @@ var (
 			SubGroup:    "computer",
 		},
 
+		"🖳": {
+			Slug:        "パソコン(旧型)",
+			Character:   "🖳",
+			UnicodeName: "パソコン(旧型)",
+			CodePoint:   "1F5B3",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖴": {
+			Slug:        "ハードディスク",
+			Character:   "🖴",
+			UnicodeName: "ハードディスク",
+			CodePoint:   "1F5B4",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖵": {
+			Slug:        "スクリーン",
+			Character:   "🖵",
+			UnicodeName: "スクリーン",
+			CodePoint:   "1F5B5",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖶": {
+			Slug:        "printer-icon",
+			Character:   "🖶",
+			UnicodeName: "printer icon",
+			CodePoint:   "1F5B6",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖷": {
+			Slug:        "fax-icon",
+			Character:   "🖷",
+			UnicodeName: "fax icon",
+			CodePoint:   "1F5B7",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖸": {
+			Slug:        "optical-disc-icon",
+			Character:   "🖸",
+			UnicodeName: "optical disc icon",
+			CodePoint:   "1F5B8",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🖻": {
+			Slug:        "書類3",
+			Character:   "🖻",
+			UnicodeName: "書類3",
+			CodePoint:   "1F5BB",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🖼": {
 			Slug:        "framed-picture",
 			Character:   "🖼",
@@ -24510,6 +26418,15 @@ var (
 			CodePoint:   "1F5BC FE0F",
 			Group:       "Activities",
 			SubGroup:    "arts & crafts",
+		},
+
+		"🗀": {
+			Slug:        "フォルダ3",
+			Character:   "🗀",
+			UnicodeName: "フォルダ3",
+			CodePoint:   "1F5C1",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🗂": {
@@ -24566,6 +26483,51 @@ var (
 			SubGroup:    "office",
 		},
 
+		"🗅": {
+			Slug:        "ノート3",
+			Character:   "🗅",
+			UnicodeName: "ノート3",
+			CodePoint:   "1F5C5",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🗈": {
+			Slug:        "ノート4",
+			Character:   "🗈",
+			UnicodeName: "ノート4",
+			CodePoint:   "1F5C8",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🗌": {
+			Slug:        "ページ3",
+			Character:   "🗌",
+			UnicodeName: "ページ3",
+			CodePoint:   "1F5CC",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🗏": {
+			Slug:        "page",
+			Character:   "🗏",
+			UnicodeName: "page",
+			CodePoint:   "1F5CF",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
+		"🗐": {
+			Slug:        "pages",
+			Character:   "🗐",
+			UnicodeName: "pages",
+			CodePoint:   "1F5D0",
+			Group:       "objects",
+			SubGroup:    "objects",
+		},
+
 		"🗑": {
 			Slug:        "wastebasket",
 			Character:   "🗑",
@@ -24573,6 +26535,15 @@ var (
 			CodePoint:   "1F5D1",
 			Group:       "Objects",
 			SubGroup:    "office",
+		},
+
+		"🗑‍♻": {
+			Slug:        "recycle-bin",
+			Character:   "🗑‍♻",
+			UnicodeName: "recycle bin",
+			CodePoint:   "1F5D1-200D-267B",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🗑️": {
@@ -24618,6 +26589,42 @@ var (
 			CodePoint:   "1F5D3 FE0F",
 			Group:       "Objects",
 			SubGroup:    "office",
+		},
+
+		"🗕": {
+			Slug:        "minimize",
+			Character:   "🗕",
+			UnicodeName: "minimize",
+			CodePoint:   "1F5D5",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🗗": {
+			Slug:        "overlap",
+			Character:   "🗗",
+			UnicodeName: "overlap",
+			CodePoint:   "1F5D7",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🗚": {
+			Slug:        "increase-font-size-symbol",
+			Character:   "🗚",
+			UnicodeName: "increase font size symbol",
+			CodePoint:   "1F5DA",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🗛": {
+			Slug:        "縮小",
+			Character:   "🗛",
+			UnicodeName: "縮小",
+			CodePoint:   "1F5DB",
+			Group:       "symbols",
+			SubGroup:    "symbols",
 		},
 
 		"🗜": {
@@ -24674,6 +26681,15 @@ var (
 			SubGroup:    "book-paper",
 		},
 
+		"🗟": {
+			Slug:        "page-with-circled-text",
+			Character:   "🗟",
+			UnicodeName: "page with circled text",
+			CodePoint:   "1F5DF",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
 		"🗡": {
 			Slug:        "dagger",
 			Character:   "🗡",
@@ -24690,6 +26706,15 @@ var (
 			CodePoint:   "1F5E1 FE0F",
 			Group:       "Objects",
 			SubGroup:    "tool",
+		},
+
+		"🗢": {
+			Slug:        "lips",
+			Character:   "🗢",
+			UnicodeName: "lips",
+			CodePoint:   "1F5E2",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"🗣": {
@@ -24728,6 +26753,24 @@ var (
 			SubGroup:    "emotion",
 		},
 
+		"🗩": {
+			Slug:        "right-speech-bubble",
+			Character:   "🗩",
+			UnicodeName: "right speech bubble",
+			CodePoint:   "1F5E9",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
+		"🗭": {
+			Slug:        "right-thought-bubble",
+			Character:   "🗭",
+			UnicodeName: "right thought bubble",
+			CodePoint:   "1F5ED",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
 		"🗯": {
 			Slug:        "right-anger-bubble",
 			Character:   "🗯",
@@ -24746,6 +26789,24 @@ var (
 			SubGroup:    "emotion",
 		},
 
+		"🗰": {
+			Slug:        "フキダシ11",
+			Character:   "🗰",
+			UnicodeName: "フキダシ11",
+			CodePoint:   "1F5F0",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
+		"🗲": {
+			Slug:        "lightning-mood",
+			Character:   "🗲",
+			UnicodeName: "lightning mood",
+			CodePoint:   "1F5F2",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
 		"🗳": {
 			Slug:        "ballot-box-with-ballot",
 			Character:   "🗳",
@@ -24762,6 +26823,15 @@ var (
 			CodePoint:   "1F5F3 FE0F",
 			Group:       "Objects",
 			SubGroup:    "mail",
+		},
+
+		"🗸": {
+			Slug:        "light-check-mark",
+			Character:   "🗸",
+			UnicodeName: "light check mark",
+			CodePoint:   "1F5F8",
+			Group:       "abstract",
+			SubGroup:    "abstract",
 		},
 
 		"🗺": {
@@ -24836,6 +26906,42 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
+		"😀🏻": {
+			Slug:        "にんまり(白)",
+			Character:   "😀🏻",
+			UnicodeName: "にんまり(白)",
+			CodePoint:   "1F600-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😀🏽": {
+			Slug:        "にんまり(黄)",
+			Character:   "😀🏽",
+			UnicodeName: "にんまり(黄)",
+			CodePoint:   "1F600-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😀🏾": {
+			Slug:        "にんまり(茶)",
+			Character:   "😀🏾",
+			UnicodeName: "にんまり(茶)",
+			CodePoint:   "1F600-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😀🏿": {
+			Slug:        "にんまり(黒)",
+			Character:   "😀🏿",
+			UnicodeName: "にんまり(黒)",
+			CodePoint:   "1F600-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😁": {
 			Slug:        "beaming-face-with-smiling-eyes",
 			Character:   "😁",
@@ -24843,6 +26949,51 @@ var (
 			CodePoint:   "1F601",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-smiling",
+		},
+
+		"😁🏻": {
+			Slug:        "うっしっし(白)",
+			Character:   "😁🏻",
+			UnicodeName: "うっしっし(白)",
+			CodePoint:   "1F601-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😁🏼": {
+			Slug:        "grin(p)",
+			Character:   "😁🏼",
+			UnicodeName: "grin(p)",
+			CodePoint:   "1F601-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😁🏽": {
+			Slug:        "grin(ye)",
+			Character:   "😁🏽",
+			UnicodeName: "grin(ye)",
+			CodePoint:   "1F601-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😁🏾": {
+			Slug:        "うっしっし(茶)",
+			Character:   "😁🏾",
+			UnicodeName: "うっしっし(茶)",
+			CodePoint:   "1F601-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😁🏿": {
+			Slug:        "grin(bk)",
+			Character:   "😁🏿",
+			UnicodeName: "grin(bk)",
+			CodePoint:   "1F601-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😂": {
@@ -24854,6 +27005,51 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
+		"😂🏻": {
+			Slug:        "泣き笑い(白)",
+			Character:   "😂🏻",
+			UnicodeName: "泣き笑い(白)",
+			CodePoint:   "1F602-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😂🏼": {
+			Slug:        "泣き笑い(桃)",
+			Character:   "😂🏼",
+			UnicodeName: "泣き笑い(桃)",
+			CodePoint:   "1F602-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😂🏽": {
+			Slug:        "泣き笑い(黄)",
+			Character:   "😂🏽",
+			UnicodeName: "泣き笑い(黄)",
+			CodePoint:   "1F602-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😂🏾": {
+			Slug:        "泣き笑い(茶)",
+			Character:   "😂🏾",
+			UnicodeName: "泣き笑い(茶)",
+			CodePoint:   "1F602-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😂🏿": {
+			Slug:        "泣き笑い(黒)",
+			Character:   "😂🏿",
+			UnicodeName: "泣き笑い(黒)",
+			CodePoint:   "1F602-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😃": {
 			Slug:        "grinning-face-with-big-eyes",
 			Character:   "😃",
@@ -24861,6 +27057,24 @@ var (
 			CodePoint:   "1F603",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-smiling",
+		},
+
+		"😃🏻": {
+			Slug:        "スマイル(白)",
+			Character:   "😃🏻",
+			UnicodeName: "スマイル(白)",
+			CodePoint:   "1F603-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😃🏼": {
+			Slug:        "smiley(p)",
+			Character:   "😃🏼",
+			UnicodeName: "smiley(p)",
+			CodePoint:   "1F603-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😄": {
@@ -24872,6 +27086,15 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
+		"😄🏼": {
+			Slug:        "smile(p)",
+			Character:   "😄🏼",
+			UnicodeName: "smile(p)",
+			CodePoint:   "1F604-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😅": {
 			Slug:        "grinning-face-with-sweat",
 			Character:   "😅",
@@ -24879,6 +27102,51 @@ var (
 			CodePoint:   "1F605",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-smiling",
+		},
+
+		"😅🏻": {
+			Slug:        "冷や汗(白)",
+			Character:   "😅🏻",
+			UnicodeName: "冷や汗(白)",
+			CodePoint:   "1F605-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😅🏼": {
+			Slug:        "冷や汗(桃)",
+			Character:   "😅🏼",
+			UnicodeName: "冷や汗(桃)",
+			CodePoint:   "1F605-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😅🏽": {
+			Slug:        "冷や汗(黄)",
+			Character:   "😅🏽",
+			UnicodeName: "冷や汗(黄)",
+			CodePoint:   "1F605-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😅🏾": {
+			Slug:        "冷や汗(茶)",
+			Character:   "😅🏾",
+			UnicodeName: "冷や汗(茶)",
+			CodePoint:   "1F605-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😅🏿": {
+			Slug:        "冷や汗(黒)",
+			Character:   "😅🏿",
+			UnicodeName: "冷や汗(黒)",
+			CodePoint:   "1F605-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😆": {
@@ -24890,6 +27158,33 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
+		"😆🏻": {
+			Slug:        "笑い(白)",
+			Character:   "😆🏻",
+			UnicodeName: "笑い(白)",
+			CodePoint:   "1F606-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😆🏼": {
+			Slug:        "笑い(桃)",
+			Character:   "😆🏼",
+			UnicodeName: "笑い(桃)",
+			CodePoint:   "1F606-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😆🏾": {
+			Slug:        "笑い(茶)",
+			Character:   "😆🏾",
+			UnicodeName: "笑い(茶)",
+			CodePoint:   "1F606-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😇": {
 			Slug:        "smiling-face-with-halo",
 			Character:   "😇",
@@ -24897,6 +27192,42 @@ var (
 			CodePoint:   "1F607",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-smiling",
+		},
+
+		"😇🏻": {
+			Slug:        "innocent(wh)",
+			Character:   "😇🏻",
+			UnicodeName: "innocent(wh)",
+			CodePoint:   "1F607-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😇🏼": {
+			Slug:        "innocent(p)",
+			Character:   "😇🏼",
+			UnicodeName: "innocent(p)",
+			CodePoint:   "1F607-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😇🏽": {
+			Slug:        "innocent(ye)",
+			Character:   "😇🏽",
+			UnicodeName: "innocent(ye)",
+			CodePoint:   "1F607-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😇🏿": {
+			Slug:        "innocent(bk)",
+			Character:   "😇🏿",
+			UnicodeName: "innocent(bk)",
+			CodePoint:   "1F607-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😈": {
@@ -24908,6 +27239,15 @@ var (
 			SubGroup:    "face-negative",
 		},
 
+		"😈🏻": {
+			Slug:        "smiling-imp(wh)",
+			Character:   "😈🏻",
+			UnicodeName: "smiling imp(wh)",
+			CodePoint:   "1F608-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😉": {
 			Slug:        "winking-face",
 			Character:   "😉",
@@ -24915,6 +27255,42 @@ var (
 			CodePoint:   "1F609",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-smiling",
+		},
+
+		"😉🏻": {
+			Slug:        "ウインク(白)",
+			Character:   "😉🏻",
+			UnicodeName: "ウインク(白)",
+			CodePoint:   "1F609-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😉🏽": {
+			Slug:        "ウインク(黄)",
+			Character:   "😉🏽",
+			UnicodeName: "ウインク(黄)",
+			CodePoint:   "1F609-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😉🏾": {
+			Slug:        "ウインク(茶)",
+			Character:   "😉🏾",
+			UnicodeName: "ウインク(茶)",
+			CodePoint:   "1F609-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😉🏿": {
+			Slug:        "ウインク(黒)",
+			Character:   "😉🏿",
+			UnicodeName: "ウインク(黒)",
+			CodePoint:   "1F609-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😊": {
@@ -24926,6 +27302,42 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
+		"😊🏻": {
+			Slug:        "にこにこ(白)",
+			Character:   "😊🏻",
+			UnicodeName: "にこにこ(白)",
+			CodePoint:   "1F60A-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😊🏼": {
+			Slug:        "にこにこ(桃)",
+			Character:   "😊🏼",
+			UnicodeName: "にこにこ(桃)",
+			CodePoint:   "1F60A-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😊🏾": {
+			Slug:        "blush(br)",
+			Character:   "😊🏾",
+			UnicodeName: "blush(br)",
+			CodePoint:   "1F60A-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😊🏿": {
+			Slug:        "にこにこ(黒)",
+			Character:   "😊🏿",
+			UnicodeName: "にこにこ(黒)",
+			CodePoint:   "1F60A-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😋": {
 			Slug:        "face-savoring-food",
 			Character:   "😋",
@@ -24935,6 +27347,51 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
+		"😋🏻": {
+			Slug:        "うまい(白)",
+			Character:   "😋🏻",
+			UnicodeName: "うまい(白)",
+			CodePoint:   "1F60B-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😋🏼": {
+			Slug:        "うまい(桃)",
+			Character:   "😋🏼",
+			UnicodeName: "うまい(桃)",
+			CodePoint:   "1F60B-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😋🏽": {
+			Slug:        "うまい(黄)",
+			Character:   "😋🏽",
+			UnicodeName: "うまい(黄)",
+			CodePoint:   "1F60B-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😋🏾": {
+			Slug:        "うまい(茶)",
+			Character:   "😋🏾",
+			UnicodeName: "うまい(茶)",
+			CodePoint:   "1F60B-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😋🏿": {
+			Slug:        "うまい(黒)",
+			Character:   "😋🏿",
+			UnicodeName: "うまい(黒)",
+			CodePoint:   "1F60B-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😌": {
 			Slug:        "relieved-face",
 			Character:   "😌",
@@ -24942,6 +27399,51 @@ var (
 			CodePoint:   "1F60C",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-sleepy",
+		},
+
+		"😌🏻": {
+			Slug:        "ほっとした顔(白)",
+			Character:   "😌🏻",
+			UnicodeName: "ほっとした顔(白)",
+			CodePoint:   "1F60C-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😌🏼": {
+			Slug:        "ほっとした顔(桃)",
+			Character:   "😌🏼",
+			UnicodeName: "ほっとした顔(桃)",
+			CodePoint:   "1F60C-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😌🏽": {
+			Slug:        "ほっとした顔(黄)",
+			Character:   "😌🏽",
+			UnicodeName: "ほっとした顔(黄)",
+			CodePoint:   "1F60C-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😌🏾": {
+			Slug:        "ほっとした顔(茶)",
+			Character:   "😌🏾",
+			UnicodeName: "ほっとした顔(茶)",
+			CodePoint:   "1F60C-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😌🏿": {
+			Slug:        "ほっとした顔(黒)",
+			Character:   "😌🏿",
+			UnicodeName: "ほっとした顔(黒)",
+			CodePoint:   "1F60C-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😍": {
@@ -24962,6 +27464,15 @@ var (
 			SubGroup:    "face-glasses",
 		},
 
+		"😎🏾": {
+			Slug:        "キリッ(茶)",
+			Character:   "😎🏾",
+			UnicodeName: "キリッ(茶)",
+			CodePoint:   "1F60E-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😏": {
 			Slug:        "smirking-face",
 			Character:   "😏",
@@ -24969,6 +27480,42 @@ var (
 			CodePoint:   "1F60F",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"😏🏼": {
+			Slug:        "ふっ(桃)",
+			Character:   "😏🏼",
+			UnicodeName: "ふっ(桃)",
+			CodePoint:   "1F60F-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😏🏽": {
+			Slug:        "ふっ(黄)",
+			Character:   "😏🏽",
+			UnicodeName: "ふっ(黄)",
+			CodePoint:   "1F60F-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😏🏾": {
+			Slug:        "smirk(br)",
+			Character:   "😏🏾",
+			UnicodeName: "smirk(br)",
+			CodePoint:   "1F60F-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😏🏿": {
+			Slug:        "ふっ(黒)",
+			Character:   "😏🏿",
+			UnicodeName: "ふっ(黒)",
+			CodePoint:   "1F60F-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😐": {
@@ -24980,6 +27527,51 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
+		"😐🏻": {
+			Slug:        "neutral-face(wh)",
+			Character:   "😐🏻",
+			UnicodeName: "neutral face(wh)",
+			CodePoint:   "1F610-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😐🏼": {
+			Slug:        "普通の顔(桃)",
+			Character:   "😐🏼",
+			UnicodeName: "普通の顔(桃)",
+			CodePoint:   "1F610-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😐🏽": {
+			Slug:        "neutral-face(ye)",
+			Character:   "😐🏽",
+			UnicodeName: "neutral face(ye)",
+			CodePoint:   "1F610-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😐🏾": {
+			Slug:        "neutral-face(br)",
+			Character:   "😐🏾",
+			UnicodeName: "neutral face(br)",
+			CodePoint:   "1F610-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😐🏿": {
+			Slug:        "普通の顔(黒)",
+			Character:   "😐🏿",
+			UnicodeName: "普通の顔(黒)",
+			CodePoint:   "1F610-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😑": {
 			Slug:        "expressionless-face",
 			Character:   "😑",
@@ -24987,6 +27579,42 @@ var (
 			CodePoint:   "1F611",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"😑🏻": {
+			Slug:        "ぼけーっとした顔(白)",
+			Character:   "😑🏻",
+			UnicodeName: "ぼけーっとした顔(白)",
+			CodePoint:   "1F611-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😑🏽": {
+			Slug:        "ぼけーっとした顔(黄)",
+			Character:   "😑🏽",
+			UnicodeName: "ぼけーっとした顔(黄)",
+			CodePoint:   "1F611-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😑🏾": {
+			Slug:        "ぼけーっとした顔(茶)",
+			Character:   "😑🏾",
+			UnicodeName: "ぼけーっとした顔(茶)",
+			CodePoint:   "1F611-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😑🏿": {
+			Slug:        "ぼけーっとした顔(黒)",
+			Character:   "😑🏿",
+			UnicodeName: "ぼけーっとした顔(黒)",
+			CodePoint:   "1F611-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😒": {
@@ -24998,6 +27626,42 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
+		"😒🏻": {
+			Slug:        "横目(白)",
+			Character:   "😒🏻",
+			UnicodeName: "横目(白)",
+			CodePoint:   "1F612-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😒🏽": {
+			Slug:        "横目(黄)",
+			Character:   "😒🏽",
+			UnicodeName: "横目(黄)",
+			CodePoint:   "1F612-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😒🏾": {
+			Slug:        "横目(茶)",
+			Character:   "😒🏾",
+			UnicodeName: "横目(茶)",
+			CodePoint:   "1F612-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😒🏿": {
+			Slug:        "横目(黒)",
+			Character:   "😒🏿",
+			UnicodeName: "横目(黒)",
+			CodePoint:   "1F612-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😓": {
 			Slug:        "downcast-face-with-sweat",
 			Character:   "😓",
@@ -25005,6 +27669,51 @@ var (
 			CodePoint:   "1F613",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😓🏻": {
+			Slug:        "困り顔(白)",
+			Character:   "😓🏻",
+			UnicodeName: "困り顔(白)",
+			CodePoint:   "1F613-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😓🏼": {
+			Slug:        "困り顔(桃)",
+			Character:   "😓🏼",
+			UnicodeName: "困り顔(桃)",
+			CodePoint:   "1F613-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😓🏽": {
+			Slug:        "sweat(ye)",
+			Character:   "😓🏽",
+			UnicodeName: "sweat(ye)",
+			CodePoint:   "1F613-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😓🏾": {
+			Slug:        "困り顔(茶)",
+			Character:   "😓🏾",
+			UnicodeName: "困り顔(茶)",
+			CodePoint:   "1F613-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😓🏿": {
+			Slug:        "困り顔(黒)",
+			Character:   "😓🏿",
+			UnicodeName: "困り顔(黒)",
+			CodePoint:   "1F613-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😔": {
@@ -25016,6 +27725,51 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
+		"😔🏻": {
+			Slug:        "pensive(wh)",
+			Character:   "😔🏻",
+			UnicodeName: "pensive(wh)",
+			CodePoint:   "1F614-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😔🏼": {
+			Slug:        "しょんぼり(桃)",
+			Character:   "😔🏼",
+			UnicodeName: "しょんぼり(桃)",
+			CodePoint:   "1F614-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😔🏽": {
+			Slug:        "pensive(ye)",
+			Character:   "😔🏽",
+			UnicodeName: "pensive(ye)",
+			CodePoint:   "1F614-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😔🏾": {
+			Slug:        "pensive(br)",
+			Character:   "😔🏾",
+			UnicodeName: "pensive(br)",
+			CodePoint:   "1F614-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😔🏿": {
+			Slug:        "pensive(bk)",
+			Character:   "😔🏿",
+			UnicodeName: "pensive(bk)",
+			CodePoint:   "1F614-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😕": {
 			Slug:        "confused-face",
 			Character:   "😕",
@@ -25023,6 +27777,42 @@ var (
 			CodePoint:   "1F615",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😕🏻": {
+			Slug:        "困る(白)",
+			Character:   "😕🏻",
+			UnicodeName: "困る(白)",
+			CodePoint:   "1F615-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😕🏼": {
+			Slug:        "困る(桃)",
+			Character:   "😕🏼",
+			UnicodeName: "困る(桃)",
+			CodePoint:   "1F615-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😕🏾": {
+			Slug:        "困る(茶)",
+			Character:   "😕🏾",
+			UnicodeName: "困る(茶)",
+			CodePoint:   "1F615-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😕🏿": {
+			Slug:        "困る(黒)",
+			Character:   "😕🏿",
+			UnicodeName: "困る(黒)",
+			CodePoint:   "1F615-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😖": {
@@ -25034,6 +27824,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😖🏻": {
+			Slug:        "confounded(wh)",
+			Character:   "😖🏻",
+			UnicodeName: "confounded(wh)",
+			CodePoint:   "1F616-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😖🏼": {
+			Slug:        "confounded(p)",
+			Character:   "😖🏼",
+			UnicodeName: "confounded(p)",
+			CodePoint:   "1F616-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😖🏽": {
+			Slug:        "confounded(ye)",
+			Character:   "😖🏽",
+			UnicodeName: "confounded(ye)",
+			CodePoint:   "1F616-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😖🏾": {
+			Slug:        "confounded(br)",
+			Character:   "😖🏾",
+			UnicodeName: "confounded(br)",
+			CodePoint:   "1F616-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😖🏿": {
+			Slug:        "混乱(黒)",
+			Character:   "😖🏿",
+			UnicodeName: "混乱(黒)",
+			CodePoint:   "1F616-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😗": {
 			Slug:        "kissing-face",
 			Character:   "😗",
@@ -25041,6 +27876,15 @@ var (
 			CodePoint:   "1F617",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-affection",
+		},
+
+		"😗🏽": {
+			Slug:        "kissing(ye)",
+			Character:   "😗🏽",
+			UnicodeName: "kissing(ye)",
+			CodePoint:   "1F617-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😘": {
@@ -25052,6 +27896,15 @@ var (
 			SubGroup:    "face-affection",
 		},
 
+		"😘🏼": {
+			Slug:        "投げキッス(桃)",
+			Character:   "😘🏼",
+			UnicodeName: "投げキッス(桃)",
+			CodePoint:   "1F618-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😙": {
 			Slug:        "kissing-face-with-smiling-eyes",
 			Character:   "😙",
@@ -25059,6 +27912,15 @@ var (
 			CodePoint:   "1F619",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-affection",
+		},
+
+		"😙🏼": {
+			Slug:        "kissing-smiling-eyes(p)",
+			Character:   "😙🏼",
+			UnicodeName: "kissing smiling eyes(p)",
+			CodePoint:   "1F619-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😚": {
@@ -25079,6 +27941,42 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
+		"😛🏻": {
+			Slug:        "べー(白)",
+			Character:   "😛🏻",
+			UnicodeName: "べー(白)",
+			CodePoint:   "1F61B-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😛🏼": {
+			Slug:        "べー(桃)",
+			Character:   "😛🏼",
+			UnicodeName: "べー(桃)",
+			CodePoint:   "1F61B-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😛🏾": {
+			Slug:        "べー(茶)",
+			Character:   "😛🏾",
+			UnicodeName: "べー(茶)",
+			CodePoint:   "1F61B-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😛🏿": {
+			Slug:        "stuck-out-tongue(bk)",
+			Character:   "😛🏿",
+			UnicodeName: "stuck out tongue(bk)",
+			CodePoint:   "1F61B-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😜": {
 			Slug:        "winking-face-with-tongue",
 			Character:   "😜",
@@ -25086,6 +27984,51 @@ var (
 			CodePoint:   "1F61C",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-tongue",
+		},
+
+		"😜🏻": {
+			Slug:        "あっかんべー(白)",
+			Character:   "😜🏻",
+			UnicodeName: "あっかんべー(白)",
+			CodePoint:   "1F61C-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😜🏼": {
+			Slug:        "あっかんべー(桃)",
+			Character:   "😜🏼",
+			UnicodeName: "あっかんべー(桃)",
+			CodePoint:   "1F61C-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😜🏽": {
+			Slug:        "あっかんべー(黄)",
+			Character:   "😜🏽",
+			UnicodeName: "あっかんべー(黄)",
+			CodePoint:   "1F61C-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😜🏾": {
+			Slug:        "あっかんべー(茶)",
+			Character:   "😜🏾",
+			UnicodeName: "あっかんべー(茶)",
+			CodePoint:   "1F61C-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😜🏿": {
+			Slug:        "あっかんべー(黒)",
+			Character:   "😜🏿",
+			UnicodeName: "あっかんべー(黒)",
+			CodePoint:   "1F61C-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😝": {
@@ -25097,6 +28040,51 @@ var (
 			SubGroup:    "face-tongue",
 		},
 
+		"😝🏻": {
+			Slug:        "べーっ(白)",
+			Character:   "😝🏻",
+			UnicodeName: "べーっ(白)",
+			CodePoint:   "1F61D-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😝🏼": {
+			Slug:        "stuck-out-tongue-closed-eyes(p)",
+			Character:   "😝🏼",
+			UnicodeName: "stuck out tongue closed eyes(p)",
+			CodePoint:   "1F61D-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😝🏽": {
+			Slug:        "べーっ(黄)",
+			Character:   "😝🏽",
+			UnicodeName: "べーっ(黄)",
+			CodePoint:   "1F61D-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😝🏾": {
+			Slug:        "べーっ(茶)",
+			Character:   "😝🏾",
+			UnicodeName: "べーっ(茶)",
+			CodePoint:   "1F61D-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😝🏿": {
+			Slug:        "べーっ(黒)",
+			Character:   "😝🏿",
+			UnicodeName: "べーっ(黒)",
+			CodePoint:   "1F61D-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😞": {
 			Slug:        "disappointed-face",
 			Character:   "😞",
@@ -25104,6 +28092,51 @@ var (
 			CodePoint:   "1F61E",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😞🏻": {
+			Slug:        "がっかり(白)",
+			Character:   "😞🏻",
+			UnicodeName: "がっかり(白)",
+			CodePoint:   "1F61E-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😞🏼": {
+			Slug:        "がっかり(桃)",
+			Character:   "😞🏼",
+			UnicodeName: "がっかり(桃)",
+			CodePoint:   "1F61E-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😞🏽": {
+			Slug:        "がっかり(黄)",
+			Character:   "😞🏽",
+			UnicodeName: "がっかり(黄)",
+			CodePoint:   "1F61E-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😞🏾": {
+			Slug:        "がっかり(茶)",
+			Character:   "😞🏾",
+			UnicodeName: "がっかり(茶)",
+			CodePoint:   "1F61E-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😞🏿": {
+			Slug:        "がっかり(黒)",
+			Character:   "😞🏿",
+			UnicodeName: "がっかり(黒)",
+			CodePoint:   "1F61E-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😟": {
@@ -25115,6 +28148,24 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😟🏻": {
+			Slug:        "worried(wh)",
+			Character:   "😟🏻",
+			UnicodeName: "worried(wh)",
+			CodePoint:   "1F61F-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😟🏽": {
+			Slug:        "心配(黄)",
+			Character:   "😟🏽",
+			UnicodeName: "心配(黄)",
+			CodePoint:   "1F61F-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😠": {
 			Slug:        "angry-face",
 			Character:   "😠",
@@ -25124,13 +28175,76 @@ var (
 			SubGroup:    "face-negative",
 		},
 
+		"😠🏻": {
+			Slug:        "angry(wh)",
+			Character:   "😠🏻",
+			UnicodeName: "angry(wh)",
+			CodePoint:   "1F620-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😠🏽": {
+			Slug:        "怒った顔(黄)",
+			Character:   "😠🏽",
+			UnicodeName: "怒った顔(黄)",
+			CodePoint:   "1F620-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😠🏾": {
+			Slug:        "angry(br)",
+			Character:   "😠🏾",
+			UnicodeName: "angry(br)",
+			CodePoint:   "1F620-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😡": {
-			Slug:        "pouting-face",
+			Slug:        "enraged-face",
 			Character:   "😡",
-			UnicodeName: "E0.6 pouting face",
+			UnicodeName: "E0.6 enraged face",
 			CodePoint:   "1F621",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-negative",
+		},
+
+		"😡🏻": {
+			Slug:        "rage(wh)",
+			Character:   "😡🏻",
+			UnicodeName: "rage(wh)",
+			CodePoint:   "1F621-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😡🏼": {
+			Slug:        "ふくれっ面(桃)",
+			Character:   "😡🏼",
+			UnicodeName: "ふくれっ面(桃)",
+			CodePoint:   "1F621-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😡🏾": {
+			Slug:        "rage(br)",
+			Character:   "😡🏾",
+			UnicodeName: "rage(br)",
+			CodePoint:   "1F621-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😡🏿": {
+			Slug:        "ふくれっ面(黒)",
+			Character:   "😡🏿",
+			UnicodeName: "ふくれっ面(黒)",
+			CodePoint:   "1F621-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😢": {
@@ -25142,6 +28256,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😢🏻": {
+			Slug:        "涙(白)",
+			Character:   "😢🏻",
+			UnicodeName: "涙(白)",
+			CodePoint:   "1F622-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😢🏼": {
+			Slug:        "涙(桃)",
+			Character:   "😢🏼",
+			UnicodeName: "涙(桃)",
+			CodePoint:   "1F622-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😢🏽": {
+			Slug:        "涙(黄)",
+			Character:   "😢🏽",
+			UnicodeName: "涙(黄)",
+			CodePoint:   "1F622-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😢🏾": {
+			Slug:        "涙(茶)",
+			Character:   "😢🏾",
+			UnicodeName: "涙(茶)",
+			CodePoint:   "1F622-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😢🏿": {
+			Slug:        "涙(黒)",
+			Character:   "😢🏿",
+			UnicodeName: "涙(黒)",
+			CodePoint:   "1F622-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😣": {
 			Slug:        "persevering-face",
 			Character:   "😣",
@@ -25149,6 +28308,51 @@ var (
 			CodePoint:   "1F623",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😣🏻": {
+			Slug:        "がまん顔(白)",
+			Character:   "😣🏻",
+			UnicodeName: "がまん顔(白)",
+			CodePoint:   "1F623-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😣🏼": {
+			Slug:        "がまん顔(桃)",
+			Character:   "😣🏼",
+			UnicodeName: "がまん顔(桃)",
+			CodePoint:   "1F623-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😣🏽": {
+			Slug:        "がまん顔(黄)",
+			Character:   "😣🏽",
+			UnicodeName: "がまん顔(黄)",
+			CodePoint:   "1F623-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😣🏾": {
+			Slug:        "がまん顔(茶)",
+			Character:   "😣🏾",
+			UnicodeName: "がまん顔(茶)",
+			CodePoint:   "1F623-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😣🏿": {
+			Slug:        "がまん顔(黒)",
+			Character:   "😣🏿",
+			UnicodeName: "がまん顔(黒)",
+			CodePoint:   "1F623-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😤": {
@@ -25160,6 +28364,42 @@ var (
 			SubGroup:    "face-negative",
 		},
 
+		"😤🏻": {
+			Slug:        "勝ち誇り(白)",
+			Character:   "😤🏻",
+			UnicodeName: "勝ち誇り(白)",
+			CodePoint:   "1F624-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😤🏼": {
+			Slug:        "勝ち誇り(桃)",
+			Character:   "😤🏼",
+			UnicodeName: "勝ち誇り(桃)",
+			CodePoint:   "1F624-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😤🏽": {
+			Slug:        "triumph(ye)",
+			Character:   "😤🏽",
+			UnicodeName: "triumph(ye)",
+			CodePoint:   "1F624-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😤🏾": {
+			Slug:        "勝ち誇り(茶)",
+			Character:   "😤🏾",
+			UnicodeName: "勝ち誇り(茶)",
+			CodePoint:   "1F624-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😥": {
 			Slug:        "sad-but-relieved-face",
 			Character:   "😥",
@@ -25167,6 +28407,42 @@ var (
 			CodePoint:   "1F625",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😥🏻": {
+			Slug:        "やれやれ(白)",
+			Character:   "😥🏻",
+			UnicodeName: "やれやれ(白)",
+			CodePoint:   "1F625-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😥🏼": {
+			Slug:        "やれやれ(桃)",
+			Character:   "😥🏼",
+			UnicodeName: "やれやれ(桃)",
+			CodePoint:   "1F625-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😥🏽": {
+			Slug:        "やれやれ(黄)",
+			Character:   "😥🏽",
+			UnicodeName: "やれやれ(黄)",
+			CodePoint:   "1F625-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😥🏾": {
+			Slug:        "やれやれ(茶)",
+			Character:   "😥🏾",
+			UnicodeName: "やれやれ(茶)",
+			CodePoint:   "1F625-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😦": {
@@ -25178,6 +28454,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😦🏻": {
+			Slug:        "しかめっ面(白)",
+			Character:   "😦🏻",
+			UnicodeName: "しかめっ面(白)",
+			CodePoint:   "1F626-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😦🏼": {
+			Slug:        "しかめっ面(桃)",
+			Character:   "😦🏼",
+			UnicodeName: "しかめっ面(桃)",
+			CodePoint:   "1F626-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😦🏽": {
+			Slug:        "しかめっ面(黄)",
+			Character:   "😦🏽",
+			UnicodeName: "しかめっ面(黄)",
+			CodePoint:   "1F626-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😦🏾": {
+			Slug:        "しかめっ面(茶)",
+			Character:   "😦🏾",
+			UnicodeName: "しかめっ面(茶)",
+			CodePoint:   "1F626-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😦🏿": {
+			Slug:        "しかめっ面(黒)",
+			Character:   "😦🏿",
+			UnicodeName: "しかめっ面(黒)",
+			CodePoint:   "1F626-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😧": {
 			Slug:        "anguished-face",
 			Character:   "😧",
@@ -25185,6 +28506,15 @@ var (
 			CodePoint:   "1F627",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😧🏽": {
+			Slug:        "anguished(ye)",
+			Character:   "😧🏽",
+			UnicodeName: "anguished(ye)",
+			CodePoint:   "1F627-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😨": {
@@ -25196,6 +28526,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😨🏻": {
+			Slug:        "fearful(wh)",
+			Character:   "😨🏻",
+			UnicodeName: "fearful(wh)",
+			CodePoint:   "1F628-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😨🏼": {
+			Slug:        "fearful(p)",
+			Character:   "😨🏼",
+			UnicodeName: "fearful(p)",
+			CodePoint:   "1F628-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😨🏽": {
+			Slug:        "fearful(ye)",
+			Character:   "😨🏽",
+			UnicodeName: "fearful(ye)",
+			CodePoint:   "1F628-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😨🏾": {
+			Slug:        "fearful(br)",
+			Character:   "😨🏾",
+			UnicodeName: "fearful(br)",
+			CodePoint:   "1F628-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😨🏿": {
+			Slug:        "fearful(bk)",
+			Character:   "😨🏿",
+			UnicodeName: "fearful(bk)",
+			CodePoint:   "1F628-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😩": {
 			Slug:        "weary-face",
 			Character:   "😩",
@@ -25203,6 +28578,51 @@ var (
 			CodePoint:   "1F629",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😩🏻": {
+			Slug:        "うんざり(白)",
+			Character:   "😩🏻",
+			UnicodeName: "うんざり(白)",
+			CodePoint:   "1F629-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😩🏼": {
+			Slug:        "うんざり(桃)",
+			Character:   "😩🏼",
+			UnicodeName: "うんざり(桃)",
+			CodePoint:   "1F629-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😩🏽": {
+			Slug:        "うんざり(黄)",
+			Character:   "😩🏽",
+			UnicodeName: "うんざり(黄)",
+			CodePoint:   "1F629-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😩🏾": {
+			Slug:        "うんざり(茶)",
+			Character:   "😩🏾",
+			UnicodeName: "うんざり(茶)",
+			CodePoint:   "1F629-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😩🏿": {
+			Slug:        "うんざり(黒)",
+			Character:   "😩🏿",
+			UnicodeName: "うんざり(黒)",
+			CodePoint:   "1F629-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😪": {
@@ -25223,6 +28643,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😫🏻": {
+			Slug:        "tired-face(wh)",
+			Character:   "😫🏻",
+			UnicodeName: "tired face(wh)",
+			CodePoint:   "1F62B-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😫🏼": {
+			Slug:        "tired-face(p)",
+			Character:   "😫🏼",
+			UnicodeName: "tired face(p)",
+			CodePoint:   "1F62B-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😫🏽": {
+			Slug:        "tired-face(ye)",
+			Character:   "😫🏽",
+			UnicodeName: "tired face(ye)",
+			CodePoint:   "1F62B-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😫🏾": {
+			Slug:        "tired-face(br)",
+			Character:   "😫🏾",
+			UnicodeName: "tired face(br)",
+			CodePoint:   "1F62B-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😫🏿": {
+			Slug:        "tired-face(bk)",
+			Character:   "😫🏿",
+			UnicodeName: "tired face(bk)",
+			CodePoint:   "1F62B-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😬": {
 			Slug:        "grimacing-face",
 			Character:   "😬",
@@ -25232,6 +28697,51 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
+		"😬🏻": {
+			Slug:        "grimacing(wh)",
+			Character:   "😬🏻",
+			UnicodeName: "grimacing(wh)",
+			CodePoint:   "1F62C-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😬🏼": {
+			Slug:        "grimacing(p)",
+			Character:   "😬🏼",
+			UnicodeName: "grimacing(p)",
+			CodePoint:   "1F62C-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😬🏽": {
+			Slug:        "grimacing(ye)",
+			Character:   "😬🏽",
+			UnicodeName: "grimacing(ye)",
+			CodePoint:   "1F62C-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😬🏾": {
+			Slug:        "grimacing(br)",
+			Character:   "😬🏾",
+			UnicodeName: "grimacing(br)",
+			CodePoint:   "1F62C-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😬🏿": {
+			Slug:        "grimacing(bk)",
+			Character:   "😬🏿",
+			UnicodeName: "grimacing(bk)",
+			CodePoint:   "1F62C-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😭": {
 			Slug:        "loudly-crying-face",
 			Character:   "😭",
@@ -25239,6 +28749,15 @@ var (
 			CodePoint:   "1F62D",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😭🏾": {
+			Slug:        "sob(br)",
+			Character:   "😭🏾",
+			UnicodeName: "sob(br)",
+			CodePoint:   "1F62D-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😮": {
@@ -25259,6 +28778,51 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
+		"😮🏻": {
+			Slug:        "ぽかんと(白)",
+			Character:   "😮🏻",
+			UnicodeName: "ぽかんと(白)",
+			CodePoint:   "1F62E-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😮🏼": {
+			Slug:        "ぽかんと(桃)",
+			Character:   "😮🏼",
+			UnicodeName: "ぽかんと(桃)",
+			CodePoint:   "1F62E-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😮🏽": {
+			Slug:        "open-mouth(ye)",
+			Character:   "😮🏽",
+			UnicodeName: "open mouth(ye)",
+			CodePoint:   "1F62E-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😮🏾": {
+			Slug:        "ぽかんと(茶)",
+			Character:   "😮🏾",
+			UnicodeName: "ぽかんと(茶)",
+			CodePoint:   "1F62E-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😮🏿": {
+			Slug:        "ぽかんと(黒)",
+			Character:   "😮🏿",
+			UnicodeName: "ぽかんと(黒)",
+			CodePoint:   "1F62E-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😯": {
 			Slug:        "hushed-face",
 			Character:   "😯",
@@ -25266,6 +28830,51 @@ var (
 			CodePoint:   "1F62F",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😯🏻": {
+			Slug:        "しーん(白)",
+			Character:   "😯🏻",
+			UnicodeName: "しーん(白)",
+			CodePoint:   "1F62F-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😯🏼": {
+			Slug:        "しーん(桃)",
+			Character:   "😯🏼",
+			UnicodeName: "しーん(桃)",
+			CodePoint:   "1F62F-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😯🏽": {
+			Slug:        "しーん(黄)",
+			Character:   "😯🏽",
+			UnicodeName: "しーん(黄)",
+			CodePoint:   "1F62F-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😯🏾": {
+			Slug:        "しーん(茶)",
+			Character:   "😯🏾",
+			UnicodeName: "しーん(茶)",
+			CodePoint:   "1F62F-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😯🏿": {
+			Slug:        "しーん(黒)",
+			Character:   "😯🏿",
+			UnicodeName: "しーん(黒)",
+			CodePoint:   "1F62F-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😰": {
@@ -25277,6 +28886,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😰🏻": {
+			Slug:        "cold-sweat(wh)",
+			Character:   "😰🏻",
+			UnicodeName: "cold sweat(wh)",
+			CodePoint:   "1F630-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😰🏼": {
+			Slug:        "cold-sweat(p)",
+			Character:   "😰🏼",
+			UnicodeName: "cold sweat(p)",
+			CodePoint:   "1F630-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😰🏽": {
+			Slug:        "cold-sweat(ye)",
+			Character:   "😰🏽",
+			UnicodeName: "cold sweat(ye)",
+			CodePoint:   "1F630-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😰🏾": {
+			Slug:        "冷や汗2(茶)",
+			Character:   "😰🏾",
+			UnicodeName: "冷や汗2(茶)",
+			CodePoint:   "1F630-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😰🏿": {
+			Slug:        "cold-sweat(bk)",
+			Character:   "😰🏿",
+			UnicodeName: "cold sweat(bk)",
+			CodePoint:   "1F630-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😱": {
 			Slug:        "face-screaming-in-fear",
 			Character:   "😱",
@@ -25284,6 +28938,51 @@ var (
 			CodePoint:   "1F631",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-concerned",
+		},
+
+		"😱🏻": {
+			Slug:        "ショッキング(白)",
+			Character:   "😱🏻",
+			UnicodeName: "ショッキング(白)",
+			CodePoint:   "1F631-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😱🏼": {
+			Slug:        "ショッキング(桃)",
+			Character:   "😱🏼",
+			UnicodeName: "ショッキング(桃)",
+			CodePoint:   "1F631-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😱🏽": {
+			Slug:        "ショッキング(黄)",
+			Character:   "😱🏽",
+			UnicodeName: "ショッキング(黄)",
+			CodePoint:   "1F631-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😱🏾": {
+			Slug:        "ショッキング(茶)",
+			Character:   "😱🏾",
+			UnicodeName: "ショッキング(茶)",
+			CodePoint:   "1F631-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😱🏿": {
+			Slug:        "scream(bk)",
+			Character:   "😱🏿",
+			UnicodeName: "scream(bk)",
+			CodePoint:   "1F631-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😲": {
@@ -25295,6 +28994,42 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😲🏼": {
+			Slug:        "びっくり(桃)",
+			Character:   "😲🏼",
+			UnicodeName: "びっくり(桃)",
+			CodePoint:   "1F632-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😲🏽": {
+			Slug:        "びっくり(黄)",
+			Character:   "😲🏽",
+			UnicodeName: "びっくり(黄)",
+			CodePoint:   "1F632-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😲🏾": {
+			Slug:        "びっくり(茶)",
+			Character:   "😲🏾",
+			UnicodeName: "びっくり(茶)",
+			CodePoint:   "1F632-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😲🏿": {
+			Slug:        "びっくり(黒)",
+			Character:   "😲🏿",
+			UnicodeName: "びっくり(黒)",
+			CodePoint:   "1F632-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😳": {
 			Slug:        "flushed-face",
 			Character:   "😳",
@@ -25304,6 +29039,51 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"😳🏻": {
+			Slug:        "ぽっ(白)",
+			Character:   "😳🏻",
+			UnicodeName: "ぽっ(白)",
+			CodePoint:   "1F633-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😳🏼": {
+			Slug:        "ぽっ(桃)",
+			Character:   "😳🏼",
+			UnicodeName: "ぽっ(桃)",
+			CodePoint:   "1F633-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😳🏽": {
+			Slug:        "ぽっ(黄)",
+			Character:   "😳🏽",
+			UnicodeName: "ぽっ(黄)",
+			CodePoint:   "1F633-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😳🏾": {
+			Slug:        "ぽっ(茶)",
+			Character:   "😳🏾",
+			UnicodeName: "ぽっ(茶)",
+			CodePoint:   "1F633-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😳🏿": {
+			Slug:        "ぽっ(黒)",
+			Character:   "😳🏿",
+			UnicodeName: "ぽっ(黒)",
+			CodePoint:   "1F633-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😴": {
 			Slug:        "sleeping-face",
 			Character:   "😴",
@@ -25311,6 +29091,15 @@ var (
 			CodePoint:   "1F634",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-sleepy",
+		},
+
+		"😴🏽": {
+			Slug:        "sleeping(ye)",
+			Character:   "😴🏽",
+			UnicodeName: "sleeping(ye)",
+			CodePoint:   "1F634-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😵": {
@@ -25329,6 +29118,42 @@ var (
 			CodePoint:   "1F635 200D 1F4AB",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-unwell",
+		},
+
+		"😵🏻": {
+			Slug:        "ふらふら(白)",
+			Character:   "😵🏻",
+			UnicodeName: "ふらふら(白)",
+			CodePoint:   "1F635-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😵🏼": {
+			Slug:        "ふらふら(桃)",
+			Character:   "😵🏼",
+			UnicodeName: "ふらふら(桃)",
+			CodePoint:   "1F635-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😵🏽": {
+			Slug:        "ふらふら(黄)",
+			Character:   "😵🏽",
+			UnicodeName: "ふらふら(黄)",
+			CodePoint:   "1F635-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😵🏾": {
+			Slug:        "ふらふら(茶)",
+			Character:   "😵🏾",
+			UnicodeName: "ふらふら(茶)",
+			CodePoint:   "1F635-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😶": {
@@ -25358,6 +29183,24 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
+		"😶🏻": {
+			Slug:        "無表情(白)",
+			Character:   "😶🏻",
+			UnicodeName: "無表情(白)",
+			CodePoint:   "1F636-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😶🏼": {
+			Slug:        "無表情(桃)",
+			Character:   "😶🏼",
+			UnicodeName: "無表情(桃)",
+			CodePoint:   "1F636-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"😷": {
 			Slug:        "face-with-medical-mask",
 			Character:   "😷",
@@ -25365,6 +29208,51 @@ var (
 			CodePoint:   "1F637",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-unwell",
+		},
+
+		"😷🏻": {
+			Slug:        "mask(wh)",
+			Character:   "😷🏻",
+			UnicodeName: "mask(wh)",
+			CodePoint:   "1F637-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😷🏼": {
+			Slug:        "風邪ひき(桃)",
+			Character:   "😷🏼",
+			UnicodeName: "風邪ひき(桃)",
+			CodePoint:   "1F637-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😷🏽": {
+			Slug:        "風邪ひき(黄)",
+			Character:   "😷🏽",
+			UnicodeName: "風邪ひき(黄)",
+			CodePoint:   "1F637-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😷🏾": {
+			Slug:        "mask(br)",
+			Character:   "😷🏾",
+			UnicodeName: "mask(br)",
+			CodePoint:   "1F637-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"😷🏿": {
+			Slug:        "風邪ひき(黒)",
+			Character:   "😷🏿",
+			UnicodeName: "風邪ひき(黒)",
+			CodePoint:   "1F637-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"😸": {
@@ -25457,6 +29345,42 @@ var (
 			SubGroup:    "face-concerned",
 		},
 
+		"🙁🏻": {
+			Slug:        "微しかめっ顔(白)",
+			Character:   "🙁🏻",
+			UnicodeName: "微しかめっ顔(白)",
+			CodePoint:   "1F641-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙁🏼": {
+			Slug:        "微しかめっ顔(桃)",
+			Character:   "🙁🏼",
+			UnicodeName: "微しかめっ顔(桃)",
+			CodePoint:   "1F641-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙁🏽": {
+			Slug:        "slightly-frowning(ye)",
+			Character:   "🙁🏽",
+			UnicodeName: "slightly frowning(ye)",
+			CodePoint:   "1F641-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙁🏿": {
+			Slug:        "微しかめっ顔(黒)",
+			Character:   "🙁🏿",
+			UnicodeName: "微しかめっ顔(黒)",
+			CodePoint:   "1F641-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🙂": {
 			Slug:        "slightly-smiling-face",
 			Character:   "🙂",
@@ -25464,6 +29388,24 @@ var (
 			CodePoint:   "1F642",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-smiling",
+		},
+
+		"🙂🏽": {
+			Slug:        "slightly-smiling-face(ye)",
+			Character:   "🙂🏽",
+			UnicodeName: "slightly smiling face(ye)",
+			CodePoint:   "1F642-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙂🏿": {
+			Slug:        "微笑(黒)",
+			Character:   "🙂🏿",
+			UnicodeName: "微笑(黒)",
+			CodePoint:   "1F642-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🙃": {
@@ -25482,6 +29424,51 @@ var (
 			CodePoint:   "1F644",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"🙄🏻": {
+			Slug:        "face-with-rolling-eyes(wh)",
+			Character:   "🙄🏻",
+			UnicodeName: "face with rolling eyes(wh)",
+			CodePoint:   "1F644-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙄🏼": {
+			Slug:        "face-with-rolling-eyes(p)",
+			Character:   "🙄🏼",
+			UnicodeName: "face with rolling eyes(p)",
+			CodePoint:   "1F644-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙄🏽": {
+			Slug:        "face-with-rolling-eyes(ye)",
+			Character:   "🙄🏽",
+			UnicodeName: "face with rolling eyes(ye)",
+			CodePoint:   "1F644-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙄🏾": {
+			Slug:        "face-with-rolling-eyes(br)",
+			Character:   "🙄🏾",
+			UnicodeName: "face with rolling eyes(br)",
+			CodePoint:   "1F644-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🙄🏿": {
+			Slug:        "face-with-rolling-eyes(bk)",
+			Character:   "🙄🏿",
+			UnicodeName: "face with rolling eyes(bk)",
+			CodePoint:   "1F644-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🙅": {
@@ -27237,6 +31224,240 @@ var (
 			CodePoint:   "1F64F 1F3FF",
 			Group:       "People & Body",
 			SubGroup:    "hands",
+		},
+
+		"🙘": {
+			Slug:        "つる草(左上向き1)",
+			Character:   "🙘",
+			UnicodeName: "つる草(左上向き1)",
+			CodePoint:   "1F658",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙙": {
+			Slug:        "つる草(左下向き1)",
+			Character:   "🙙",
+			UnicodeName: "つる草(左下向き1)",
+			CodePoint:   "1F659",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙛": {
+			Slug:        "south-east-pointing-vine-leaf",
+			Character:   "🙛",
+			UnicodeName: "south east pointing vine leaf",
+			CodePoint:   "1F65B",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙜": {
+			Slug:        "つる草(左上向き2)",
+			Character:   "🙜",
+			UnicodeName: "つる草(左上向き2)",
+			CodePoint:   "1F65C",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙞": {
+			Slug:        "つる草(右上向き2)",
+			Character:   "🙞",
+			UnicodeName: "つる草(右上向き2)",
+			CodePoint:   "1F65E",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙟": {
+			Slug:        "つる草(右下向き2)",
+			Character:   "🙟",
+			UnicodeName: "つる草(右下向き2)",
+			CodePoint:   "1F65F",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙠": {
+			Slug:        "つぼみ(左上向き1)",
+			Character:   "🙠",
+			UnicodeName: "つぼみ(左上向き1)",
+			CodePoint:   "1F660",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙡": {
+			Slug:        "つぼみ(左下向き1)",
+			Character:   "🙡",
+			UnicodeName: "つぼみ(左下向き1)",
+			CodePoint:   "1F661",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙢": {
+			Slug:        "つぼみ(右上向き1)",
+			Character:   "🙢",
+			UnicodeName: "つぼみ(右上向き1)",
+			CodePoint:   "1F662",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙣": {
+			Slug:        "つぼみ(右下向き1)",
+			Character:   "🙣",
+			UnicodeName: "つぼみ(右下向き1)",
+			CodePoint:   "1F663",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙤": {
+			Slug:        "つぼみ(左上向き2)",
+			Character:   "🙤",
+			UnicodeName: "つぼみ(左上向き2)",
+			CodePoint:   "1F664",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙥": {
+			Slug:        "つぼみ(左下向き2)",
+			Character:   "🙥",
+			UnicodeName: "つぼみ(左下向き2)",
+			CodePoint:   "1F665",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙧": {
+			Slug:        "つぼみ(右下向き2)",
+			Character:   "🙧",
+			UnicodeName: "つぼみ(右下向き2)",
+			CodePoint:   "1F667",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙩": {
+			Slug:        "hollow-quilt-square-ornament-in-black-square",
+			Character:   "🙩",
+			UnicodeName: "hollow quilt square ornament in black square",
+			CodePoint:   "1F669",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙬": {
+			Slug:        "ロケット(左向き)",
+			Character:   "🙬",
+			UnicodeName: "ロケット(左向き)",
+			CodePoint:   "1F66C",
+			Group:       "transportation",
+			SubGroup:    "transportation",
+		},
+
+		"🙭": {
+			Slug:        "ロケット(上向き)",
+			Character:   "🙭",
+			UnicodeName: "ロケット(上向き)",
+			CodePoint:   "1F66D",
+			Group:       "transportation",
+			SubGroup:    "transportation",
+		},
+
+		"🙮": {
+			Slug:        "ロケット(右向き)",
+			Character:   "🙮",
+			UnicodeName: "ロケット(右向き)",
+			CodePoint:   "1F66E",
+			Group:       "transportation",
+			SubGroup:    "transportation",
+		},
+
+		"🙯": {
+			Slug:        "ロケット(下向き)",
+			Character:   "🙯",
+			UnicodeName: "ロケット(下向き)",
+			CodePoint:   "1F66F",
+			Group:       "transportation",
+			SubGroup:    "transportation",
+		},
+
+		"🙱": {
+			Slug:        "合字(et2)",
+			Character:   "🙱",
+			UnicodeName: "合字(et2)",
+			CodePoint:   "1F671",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙶": {
+			Slug:        "サンセリフダブルコーテーション1",
+			Character:   "🙶",
+			UnicodeName: "サンセリフダブルコーテーション1",
+			CodePoint:   "1F676",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙷": {
+			Slug:        "sans-serif-heavy-double-comma-quotation-mark-ornament",
+			Character:   "🙷",
+			UnicodeName: "sans serif heavy double comma quotation mark ornament",
+			CodePoint:   "1F677",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙸": {
+			Slug:        "サンセリフダブルコーテーション3",
+			Character:   "🙸",
+			UnicodeName: "サンセリフダブルコーテーション3",
+			CodePoint:   "1F678",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙺": {
+			Slug:        "サンセリフ感嘆修辞疑問符1",
+			Character:   "🙺",
+			UnicodeName: "サンセリフ感嘆修辞疑問符1",
+			CodePoint:   "1F67A",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙻": {
+			Slug:        "サンセリフ感嘆修辞疑問符2",
+			Character:   "🙻",
+			UnicodeName: "サンセリフ感嘆修辞疑問符2",
+			CodePoint:   "1F67B",
+			Group:       "symbols",
+			SubGroup:    "symbols",
+		},
+
+		"🙽": {
+			Slug:        "太斜線2",
+			Character:   "🙽",
+			UnicodeName: "太斜線2",
+			CodePoint:   "1F67D",
+			Group:       "abstract",
+			SubGroup:    "abstract",
+		},
+
+		"🙿": {
+			Slug:        "チェッカーボード2",
+			Character:   "🙿",
+			UnicodeName: "チェッカーボード2",
+			CodePoint:   "1F67F",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🚀": {
@@ -29138,6 +33359,15 @@ var (
 			SubGroup:    "household",
 		},
 
+		"🛜": {
+			Slug:        "wireless",
+			Character:   "🛜",
+			UnicodeName: "E15.0 wireless",
+			CodePoint:   "1F6DC",
+			Group:       "Symbols",
+			SubGroup:    "av-symbol",
+		},
+
 		"🛝": {
 			Slug:        "playground-slide",
 			Character:   "🛝",
@@ -29603,7 +33833,7 @@ var (
 			UnicodeName: "E12.0 white heart",
 			CodePoint:   "1F90D",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"🤎": {
@@ -29612,7 +33842,7 @@ var (
 			UnicodeName: "E12.0 brown heart",
 			CodePoint:   "1F90E",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"🤏": {
@@ -29678,6 +33908,51 @@ var (
 			SubGroup:    "face-neutral-skeptical",
 		},
 
+		"🤐🏻": {
+			Slug:        "お口チャック(白)",
+			Character:   "🤐🏻",
+			UnicodeName: "お口チャック(白)",
+			CodePoint:   "1F910-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤐🏼": {
+			Slug:        "お口チャック(桃)",
+			Character:   "🤐🏼",
+			UnicodeName: "お口チャック(桃)",
+			CodePoint:   "1F910-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤐🏽": {
+			Slug:        "お口チャック(黄)",
+			Character:   "🤐🏽",
+			UnicodeName: "お口チャック(黄)",
+			CodePoint:   "1F910-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤐🏾": {
+			Slug:        "お口チャック(茶)",
+			Character:   "🤐🏾",
+			UnicodeName: "お口チャック(茶)",
+			CodePoint:   "1F910-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤐🏿": {
+			Slug:        "お口チャック(黒)",
+			Character:   "🤐🏿",
+			UnicodeName: "お口チャック(黒)",
+			CodePoint:   "1F910-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🤑": {
 			Slug:        "money-mouth-face",
 			Character:   "🤑",
@@ -29685,6 +33960,42 @@ var (
 			CodePoint:   "1F911",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-tongue",
+		},
+
+		"🤑🏼": {
+			Slug:        "money-mouth-face(p)",
+			Character:   "🤑🏼",
+			UnicodeName: "money mouth face(p)",
+			CodePoint:   "1F911-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤑🏽": {
+			Slug:        "money-mouth-face(ye)",
+			Character:   "🤑🏽",
+			UnicodeName: "money mouth face(ye)",
+			CodePoint:   "1F911-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤑🏾": {
+			Slug:        "money-mouth-face(br)",
+			Character:   "🤑🏾",
+			UnicodeName: "money mouth face(br)",
+			CodePoint:   "1F911-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤑🏿": {
+			Slug:        "money-mouth-face(bk)",
+			Character:   "🤑🏿",
+			UnicodeName: "money mouth face(bk)",
+			CodePoint:   "1F911-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🤒": {
@@ -29696,6 +34007,51 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
+		"🤒🏻": {
+			Slug:        "風邪ひき2(白)",
+			Character:   "🤒🏻",
+			UnicodeName: "風邪ひき2(白)",
+			CodePoint:   "1F912-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤒🏼": {
+			Slug:        "face-with-thermometer(p)",
+			Character:   "🤒🏼",
+			UnicodeName: "face with thermometer(p)",
+			CodePoint:   "1F912-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤒🏽": {
+			Slug:        "face-with-thermometer(ye)",
+			Character:   "🤒🏽",
+			UnicodeName: "face with thermometer(ye)",
+			CodePoint:   "1F912-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤒🏾": {
+			Slug:        "face-with-thermometer(br)",
+			Character:   "🤒🏾",
+			UnicodeName: "face with thermometer(br)",
+			CodePoint:   "1F912-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤒🏿": {
+			Slug:        "face-with-thermometer(bk)",
+			Character:   "🤒🏿",
+			UnicodeName: "face with thermometer(bk)",
+			CodePoint:   "1F912-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🤓": {
 			Slug:        "nerd-face",
 			Character:   "🤓",
@@ -29703,6 +34059,42 @@ var (
 			CodePoint:   "1F913",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-glasses",
+		},
+
+		"🤓🏼": {
+			Slug:        "nerd-face(p)",
+			Character:   "🤓🏼",
+			UnicodeName: "nerd face(p)",
+			CodePoint:   "1F913-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤓🏽": {
+			Slug:        "nerd-face(ye)",
+			Character:   "🤓🏽",
+			UnicodeName: "nerd face(ye)",
+			CodePoint:   "1F913-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤓🏾": {
+			Slug:        "nerd-face(br)",
+			Character:   "🤓🏾",
+			UnicodeName: "nerd face(br)",
+			CodePoint:   "1F913-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤓🏿": {
+			Slug:        "nerd-face(bk)",
+			Character:   "🤓🏿",
+			UnicodeName: "nerd face(bk)",
+			CodePoint:   "1F913-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🤔": {
@@ -29721,6 +34113,42 @@ var (
 			CodePoint:   "1F915",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-unwell",
+		},
+
+		"🤕🏻": {
+			Slug:        "face-with-head-bandage(wh)",
+			Character:   "🤕🏻",
+			UnicodeName: "face with head bandage(wh)",
+			CodePoint:   "1F915-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤕🏽": {
+			Slug:        "face-with-head-bandage(ye)",
+			Character:   "🤕🏽",
+			UnicodeName: "face with head bandage(ye)",
+			CodePoint:   "1F915-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤕🏾": {
+			Slug:        "face-with-head-bandage(br)",
+			Character:   "🤕🏾",
+			UnicodeName: "face with head bandage(br)",
+			CodePoint:   "1F915-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤕🏿": {
+			Slug:        "face-with-head-bandage(bk)",
+			Character:   "🤕🏿",
+			UnicodeName: "face with head bandage(bk)",
+			CodePoint:   "1F915-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🤖": {
@@ -30023,7 +34451,7 @@ var (
 		"🤝🏻": {
 			Slug:        "handshake-light-skin-tone",
 			Character:   "🤝🏻",
-			UnicodeName: "E3.0 handshake: light skin tone",
+			UnicodeName: "E14.0 handshake: light skin tone",
 			CodePoint:   "1F91D 1F3FB",
 			Group:       "People & Body",
 			SubGroup:    "hands",
@@ -30032,7 +34460,7 @@ var (
 		"🤝🏼": {
 			Slug:        "handshake-medium-light-skin-tone",
 			Character:   "🤝🏼",
-			UnicodeName: "E3.0 handshake: medium-light skin tone",
+			UnicodeName: "E14.0 handshake: medium-light skin tone",
 			CodePoint:   "1F91D 1F3FC",
 			Group:       "People & Body",
 			SubGroup:    "hands",
@@ -30041,7 +34469,7 @@ var (
 		"🤝🏽": {
 			Slug:        "handshake-medium-skin-tone",
 			Character:   "🤝🏽",
-			UnicodeName: "E3.0 handshake: medium skin tone",
+			UnicodeName: "E14.0 handshake: medium skin tone",
 			CodePoint:   "1F91D 1F3FD",
 			Group:       "People & Body",
 			SubGroup:    "hands",
@@ -30050,7 +34478,7 @@ var (
 		"🤝🏾": {
 			Slug:        "handshake-medium-dark-skin-tone",
 			Character:   "🤝🏾",
-			UnicodeName: "E3.0 handshake: medium-dark skin tone",
+			UnicodeName: "E14.0 handshake: medium-dark skin tone",
 			CodePoint:   "1F91D 1F3FE",
 			Group:       "People & Body",
 			SubGroup:    "hands",
@@ -30059,7 +34487,7 @@ var (
 		"🤝🏿": {
 			Slug:        "handshake-dark-skin-tone",
 			Character:   "🤝🏿",
-			UnicodeName: "E3.0 handshake: dark skin tone",
+			UnicodeName: "E14.0 handshake: dark skin tone",
 			CodePoint:   "1F91D 1F3FF",
 			Group:       "People & Body",
 			SubGroup:    "hands",
@@ -30182,6 +34610,42 @@ var (
 			SubGroup:    "face-hat",
 		},
 
+		"🤠🏻": {
+			Slug:        "face-with-cowboy-hat(wh)",
+			Character:   "🤠🏻",
+			UnicodeName: "face with cowboy hat(wh)",
+			CodePoint:   "1F920-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤠🏽": {
+			Slug:        "face-with-cowboy-hat(ye)",
+			Character:   "🤠🏽",
+			UnicodeName: "face with cowboy hat(ye)",
+			CodePoint:   "1F920-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤠🏾": {
+			Slug:        "face-with-cowboy-hat(br)",
+			Character:   "🤠🏾",
+			UnicodeName: "face with cowboy hat(br)",
+			CodePoint:   "1F920-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤠🏿": {
+			Slug:        "face-with-cowboy-hat(bk)",
+			Character:   "🤠🏿",
+			UnicodeName: "face with cowboy hat(bk)",
+			CodePoint:   "1F920-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🤡": {
 			Slug:        "clown-face",
 			Character:   "🤡",
@@ -30209,6 +34673,51 @@ var (
 			SubGroup:    "face-smiling",
 		},
 
+		"🤣🏻": {
+			Slug:        "笑い転げる(白)",
+			Character:   "🤣🏻",
+			UnicodeName: "笑い転げる(白)",
+			CodePoint:   "1F923-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤣🏼": {
+			Slug:        "笑い転げる(桃)",
+			Character:   "🤣🏼",
+			UnicodeName: "笑い転げる(桃)",
+			CodePoint:   "1F923-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤣🏽": {
+			Slug:        "笑い転げる(黄)",
+			Character:   "🤣🏽",
+			UnicodeName: "笑い転げる(黄)",
+			CodePoint:   "1F923-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤣🏾": {
+			Slug:        "笑い転げる(茶)",
+			Character:   "🤣🏾",
+			UnicodeName: "笑い転げる(茶)",
+			CodePoint:   "1F923-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤣🏿": {
+			Slug:        "rolling-on-the-floor-laughing(bk)",
+			Character:   "🤣🏿",
+			UnicodeName: "rolling on the floor laughing(bk)",
+			CodePoint:   "1F923-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🤤": {
 			Slug:        "drooling-face",
 			Character:   "🤤",
@@ -30218,6 +34727,42 @@ var (
 			SubGroup:    "face-sleepy",
 		},
 
+		"🤤🏻": {
+			Slug:        "よだれ(白)",
+			Character:   "🤤🏻",
+			UnicodeName: "よだれ(白)",
+			CodePoint:   "1F924-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤤🏼": {
+			Slug:        "よだれ(桃)",
+			Character:   "🤤🏼",
+			UnicodeName: "よだれ(桃)",
+			CodePoint:   "1F924-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤤🏽": {
+			Slug:        "よだれ(黄)",
+			Character:   "🤤🏽",
+			UnicodeName: "よだれ(黄)",
+			CodePoint:   "1F924-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤤🏿": {
+			Slug:        "よだれ(黒)",
+			Character:   "🤤🏿",
+			UnicodeName: "よだれ(黒)",
+			CodePoint:   "1F924-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🤥": {
 			Slug:        "lying-face",
 			Character:   "🤥",
@@ -30225,6 +34770,51 @@ var (
 			CodePoint:   "1F925",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"🤥🏻": {
+			Slug:        "うそつき顔(白)",
+			Character:   "🤥🏻",
+			UnicodeName: "うそつき顔(白)",
+			CodePoint:   "1F925-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤥🏼": {
+			Slug:        "うそつき顔(桃)",
+			Character:   "🤥🏼",
+			UnicodeName: "うそつき顔(桃)",
+			CodePoint:   "1F925-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤥🏽": {
+			Slug:        "うそつき顔(黄)",
+			Character:   "🤥🏽",
+			UnicodeName: "うそつき顔(黄)",
+			CodePoint:   "1F925-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤥🏾": {
+			Slug:        "うそつき顔(茶)",
+			Character:   "🤥🏾",
+			UnicodeName: "うそつき顔(茶)",
+			CodePoint:   "1F925-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤥🏿": {
+			Slug:        "うそつき顔(黒)",
+			Character:   "🤥🏿",
+			UnicodeName: "うそつき顔(黒)",
+			CodePoint:   "1F925-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🤦": {
@@ -30506,6 +35096,51 @@ var (
 			SubGroup:    "face-unwell",
 		},
 
+		"🤧🏻": {
+			Slug:        "くしゃみ(白)",
+			Character:   "🤧🏻",
+			UnicodeName: "くしゃみ(白)",
+			CodePoint:   "1F927-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤧🏼": {
+			Slug:        "くしゃみ(桃)",
+			Character:   "🤧🏼",
+			UnicodeName: "くしゃみ(桃)",
+			CodePoint:   "1F927-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤧🏽": {
+			Slug:        "くしゃみ(黄)",
+			Character:   "🤧🏽",
+			UnicodeName: "くしゃみ(黄)",
+			CodePoint:   "1F927-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤧🏾": {
+			Slug:        "くしゃみ(茶)",
+			Character:   "🤧🏾",
+			UnicodeName: "くしゃみ(茶)",
+			CodePoint:   "1F927-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤧🏿": {
+			Slug:        "くしゃみ(黒)",
+			Character:   "🤧🏿",
+			UnicodeName: "くしゃみ(黒)",
+			CodePoint:   "1F927-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
 		"🤨": {
 			Slug:        "face-with-raised-eyebrow",
 			Character:   "🤨",
@@ -30513,6 +35148,51 @@ var (
 			CodePoint:   "1F928",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-neutral-skeptical",
+		},
+
+		"🤨🏻": {
+			Slug:        "そうか(白)",
+			Character:   "🤨🏻",
+			UnicodeName: "そうか(白)",
+			CodePoint:   "1F928-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤨🏼": {
+			Slug:        "face-with-one-eyebrow-raised(p)",
+			Character:   "🤨🏼",
+			UnicodeName: "face with one eyebrow raised(p)",
+			CodePoint:   "1F928-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤨🏽": {
+			Slug:        "face-with-one-eyebrow-raised(ye)",
+			Character:   "🤨🏽",
+			UnicodeName: "face with one eyebrow raised(ye)",
+			CodePoint:   "1F928-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤨🏾": {
+			Slug:        "face-with-one-eyebrow-raised(br)",
+			Character:   "🤨🏾",
+			UnicodeName: "face with one eyebrow raised(br)",
+			CodePoint:   "1F928-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤨🏿": {
+			Slug:        "face-with-one-eyebrow-raised(bk)",
+			Character:   "🤨🏿",
+			UnicodeName: "face with one eyebrow raised(bk)",
+			CodePoint:   "1F928-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🤩": {
@@ -30567,6 +35247,51 @@ var (
 			CodePoint:   "1F92E",
 			Group:       "Smileys & Emotion",
 			SubGroup:    "face-unwell",
+		},
+
+		"🤮🏻": {
+			Slug:        "嘔吐(白)",
+			Character:   "🤮🏻",
+			UnicodeName: "嘔吐(白)",
+			CodePoint:   "1F92E-1F3FB",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤮🏼": {
+			Slug:        "嘔吐(桃)",
+			Character:   "🤮🏼",
+			UnicodeName: "嘔吐(桃)",
+			CodePoint:   "1F92E-1F3FC",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤮🏽": {
+			Slug:        "嘔吐(黄)",
+			Character:   "🤮🏽",
+			UnicodeName: "嘔吐(黄)",
+			CodePoint:   "1F92E-1F3FD",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤮🏾": {
+			Slug:        "嘔吐(茶)",
+			Character:   "🤮🏾",
+			UnicodeName: "嘔吐(茶)",
+			CodePoint:   "1F92E-1F3FE",
+			Group:       "faces",
+			SubGroup:    "faces",
+		},
+
+		"🤮🏿": {
+			Slug:        "嘔吐(黒)",
+			Character:   "🤮🏿",
+			UnicodeName: "嘔吐(黒)",
+			CodePoint:   "1F92E-1F3FF",
+			Group:       "faces",
+			SubGroup:    "faces",
 		},
 
 		"🤯": {
@@ -31991,6 +36716,15 @@ var (
 			SubGroup:    "person-sport",
 		},
 
+		"🤻": {
+			Slug:        "modern-pentathlon",
+			Character:   "🤻",
+			UnicodeName: "modern pentathlon",
+			CodePoint:   "1F93B",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"🤼": {
 			Slug:        "people-wrestling",
 			Character:   "🤼",
@@ -32034,6 +36768,51 @@ var (
 			CodePoint:   "1F93C 200D 2642 FE0F",
 			Group:       "People & Body",
 			SubGroup:    "person-sport",
+		},
+
+		"🤼🏻": {
+			Slug:        "レスラー(白)",
+			Character:   "🤼🏻",
+			UnicodeName: "レスラー(白)",
+			CodePoint:   "1F93C-1F3FB",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"🤼🏼": {
+			Slug:        "レスラー(桃)",
+			Character:   "🤼🏼",
+			UnicodeName: "レスラー(桃)",
+			CodePoint:   "1F93C-1F3FC",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"🤼🏽": {
+			Slug:        "レスラー(黄)",
+			Character:   "🤼🏽",
+			UnicodeName: "レスラー(黄)",
+			CodePoint:   "1F93C-1F3FD",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"🤼🏾": {
+			Slug:        "レスラー(茶)",
+			Character:   "🤼🏾",
+			UnicodeName: "レスラー(茶)",
+			CodePoint:   "1F93C-1F3FE",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
+		"🤼🏿": {
+			Slug:        "レスラー(黒)",
+			Character:   "🤼🏿",
+			UnicodeName: "レスラー(黒)",
+			CodePoint:   "1F93C-1F3FF",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"🤽": {
@@ -32637,6 +37416,15 @@ var (
 			CodePoint:   "1F945",
 			Group:       "Activities",
 			SubGroup:    "sport",
+		},
+
+		"🥆": {
+			Slug:        "ライフル",
+			Character:   "🥆",
+			UnicodeName: "ライフル",
+			CodePoint:   "1F946",
+			Group:       "objects",
+			SubGroup:    "objects",
 		},
 
 		"🥇": {
@@ -33627,6 +38415,42 @@ var (
 			CodePoint:   "1F9AF",
 			Group:       "Objects",
 			SubGroup:    "tool",
+		},
+
+		"🦰": {
+			Slug:        "red-hair",
+			Character:   "🦰",
+			UnicodeName: "red hair",
+			CodePoint:   "U+1F9B0",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		"🦱": {
+			Slug:        "curly-hair",
+			Character:   "🦱",
+			UnicodeName: "curly hair",
+			CodePoint:   "U+1F9B1",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		"🦲": {
+			Slug:        "bald",
+			Character:   "🦲",
+			UnicodeName: "bald",
+			CodePoint:   "U+1F9B2",
+			Group:       "Component",
+			SubGroup:    "hair-style",
+		},
+
+		"🦳": {
+			Slug:        "white-hair",
+			Character:   "🦳",
+			UnicodeName: "white hair",
+			CodePoint:   "U+1F9B3",
+			Group:       "Component",
+			SubGroup:    "hair-style",
 		},
 
 		"🦴": {
@@ -35600,6 +40424,15 @@ var (
 			SubGroup:    "person-activity",
 		},
 
+		"🧑‍🧣": {
+			Slug:        "マフラを巻いた人",
+			Character:   "🧑‍🧣",
+			UnicodeName: "マフラを巻いた人",
+			CodePoint:   "1F9D1-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"🧑🏻": {
 			Slug:        "person-light-skin-tone",
 			Character:   "🧑🏻",
@@ -36048,6 +40881,15 @@ var (
 			CodePoint:   "1F9D1 1F3FB 200D 1F9BD",
 			Group:       "People & Body",
 			SubGroup:    "person-activity",
+		},
+
+		"🧑🏻‍🧣": {
+			Slug:        "マフラを巻いた人(白)",
+			Character:   "🧑🏻‍🧣",
+			UnicodeName: "マフラを巻いた人(白)",
+			CodePoint:   "1F9D1-1F3FB-200D-1F9E3",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"🧑🏼": {
@@ -38237,6 +43079,15 @@ var (
 			SubGroup:    "person-role",
 		},
 
+		"🧕‍♀️": {
+			Slug:        "woman-with-head-scarf",
+			Character:   "🧕‍♀️",
+			UnicodeName: "woman with head scarf",
+			CodePoint:   "1F9D5-200D-2640-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"🧕🏻": {
 			Slug:        "woman-with-headscarf-light-skin-tone",
 			Character:   "🧕🏻",
@@ -38244,6 +43095,15 @@ var (
 			CodePoint:   "1F9D5 1F3FB",
 			Group:       "People & Body",
 			SubGroup:    "person-role",
+		},
+
+		"🧕🏻‍♂️": {
+			Slug:        "man-with-head-scarf(wh)",
+			Character:   "🧕🏻‍♂️",
+			UnicodeName: "man with head scarf(wh)",
+			CodePoint:   "1F9D5-1F3FB-200D-2642-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"🧕🏼": {
@@ -38264,6 +43124,15 @@ var (
 			SubGroup:    "person-role",
 		},
 
+		"🧕🏽‍♀️": {
+			Slug:        "ヘッドスカーフ女(黄)",
+			Character:   "🧕🏽‍♀️",
+			UnicodeName: "ヘッドスカーフ女(黄)",
+			CodePoint:   "1F9D5-1F3FD-200D-2640-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
+		},
+
 		"🧕🏾": {
 			Slug:        "woman-with-headscarf-medium-dark-skin-tone",
 			Character:   "🧕🏾",
@@ -38280,6 +43149,15 @@ var (
 			CodePoint:   "1F9D5 1F3FF",
 			Group:       "People & Body",
 			SubGroup:    "person-role",
+		},
+
+		"🧕🏿‍♂️": {
+			Slug:        "ヘッドスカーフ男(黒)",
+			Character:   "🧕🏿‍♂️",
+			UnicodeName: "ヘッドスカーフ男(黒)",
+			CodePoint:   "1F9D5-1F3FF-200D-2642-FE0F",
+			Group:       "people",
+			SubGroup:    "people",
 		},
 
 		"🧖": {
@@ -40547,7 +45425,7 @@ var (
 			UnicodeName: "E5.0 orange heart",
 			CodePoint:   "1F9E1",
 			Group:       "Smileys & Emotion",
-			SubGroup:    "emotion",
+			SubGroup:    "heart",
 		},
 
 		"🧢": {
@@ -40816,8 +45694,8 @@ var (
 			Character:   "🧿",
 			UnicodeName: "E11.0 nazar amulet",
 			CodePoint:   "1F9FF",
-			Group:       "Activities",
-			SubGroup:    "game",
+			Group:       "Objects",
+			SubGroup:    "other-object",
 		},
 
 		"🩰": {
@@ -40863,6 +45741,33 @@ var (
 			CodePoint:   "1FA74",
 			Group:       "Objects",
 			SubGroup:    "clothing",
+		},
+
+		"🩵": {
+			Slug:        "light-blue-heart",
+			Character:   "🩵",
+			UnicodeName: "E15.0 light blue heart",
+			CodePoint:   "1FA75",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "heart",
+		},
+
+		"🩶": {
+			Slug:        "grey-heart",
+			Character:   "🩶",
+			UnicodeName: "E15.0 grey heart",
+			CodePoint:   "1FA76",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "heart",
+		},
+
+		"🩷": {
+			Slug:        "pink-heart",
+			Character:   "🩷",
+			UnicodeName: "E15.0 pink heart",
+			CodePoint:   "1FA77",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "heart",
 		},
 
 		"🩸": {
@@ -40971,6 +45876,24 @@ var (
 			CodePoint:   "1FA86",
 			Group:       "Activities",
 			SubGroup:    "game",
+		},
+
+		"🪇": {
+			Slug:        "maracas",
+			Character:   "🪇",
+			UnicodeName: "E15.0 maracas",
+			CodePoint:   "1FA87",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
+		},
+
+		"🪈": {
+			Slug:        "flute",
+			Character:   "🪈",
+			UnicodeName: "E15.0 flute",
+			CodePoint:   "1FA88",
+			Group:       "Objects",
+			SubGroup:    "musical-instrument",
 		},
 
 		"🪐": {
@@ -41230,8 +46153,35 @@ var (
 			Character:   "🪬",
 			UnicodeName: "E14.0 hamsa",
 			CodePoint:   "1FAAC",
-			Group:       "Activities",
-			SubGroup:    "game",
+			Group:       "Objects",
+			SubGroup:    "other-object",
+		},
+
+		"🪭": {
+			Slug:        "folding-hand-fan",
+			Character:   "🪭",
+			UnicodeName: "E15.0 folding hand fan",
+			CodePoint:   "1FAAD",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		"🪮": {
+			Slug:        "hair-pick",
+			Character:   "🪮",
+			UnicodeName: "E15.0 hair pick",
+			CodePoint:   "1FAAE",
+			Group:       "Objects",
+			SubGroup:    "clothing",
+		},
+
+		"🪯": {
+			Slug:        "khanda",
+			Character:   "🪯",
+			UnicodeName: "E15.0 khanda",
+			CodePoint:   "1FAAF",
+			Group:       "Symbols",
+			SubGroup:    "religion",
 		},
 
 		"🪰": {
@@ -41331,6 +46281,42 @@ var (
 			CodePoint:   "1FABA",
 			Group:       "Animals & Nature",
 			SubGroup:    "plant-other",
+		},
+
+		"🪻": {
+			Slug:        "hyacinth",
+			Character:   "🪻",
+			UnicodeName: "E15.0 hyacinth",
+			CodePoint:   "1FABB",
+			Group:       "Animals & Nature",
+			SubGroup:    "plant-flower",
+		},
+
+		"🪼": {
+			Slug:        "jellyfish",
+			Character:   "🪼",
+			UnicodeName: "E15.0 jellyfish",
+			CodePoint:   "1FABC",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-marine",
+		},
+
+		"🪽": {
+			Slug:        "wing",
+			Character:   "🪽",
+			UnicodeName: "E15.0 wing",
+			CodePoint:   "1FABD",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
+		},
+
+		"🪿": {
+			Slug:        "goose",
+			Character:   "🪿",
+			UnicodeName: "E15.0 goose",
+			CodePoint:   "1FABF",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-bird",
 		},
 
 		"🫀": {
@@ -41522,6 +46508,24 @@ var (
 			SubGroup:    "person-role",
 		},
 
+		"🫎": {
+			Slug:        "moose",
+			Character:   "🫎",
+			UnicodeName: "E15.0 moose",
+			CodePoint:   "1FACE",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
+		"🫏": {
+			Slug:        "donkey",
+			Character:   "🫏",
+			UnicodeName: "E15.0 donkey",
+			CodePoint:   "1FACF",
+			Group:       "Animals & Nature",
+			SubGroup:    "animal-mammal",
+		},
+
 		"🫐": {
 			Slug:        "blueberries",
 			Character:   "🫐",
@@ -41612,6 +46616,24 @@ var (
 			SubGroup:    "dishware",
 		},
 
+		"🫚": {
+			Slug:        "ginger-root",
+			Character:   "🫚",
+			UnicodeName: "E15.0 ginger root",
+			CodePoint:   "1FADA",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
+		"🫛": {
+			Slug:        "pea-pod",
+			Character:   "🫛",
+			UnicodeName: "E15.0 pea pod",
+			CodePoint:   "1FADB",
+			Group:       "Food & Drink",
+			SubGroup:    "food-vegetable",
+		},
+
 		"🫠": {
 			Slug:        "melting-face",
 			Character:   "🫠",
@@ -41682,6 +46704,15 @@ var (
 			CodePoint:   "1FAE7",
 			Group:       "Objects",
 			SubGroup:    "household",
+		},
+
+		"🫨": {
+			Slug:        "shaking-face",
+			Character:   "🫨",
+			UnicodeName: "E15.0 shaking face",
+			CodePoint:   "1FAE8",
+			Group:       "Smileys & Emotion",
+			SubGroup:    "face-neutral-skeptical",
 		},
 
 		"🫰": {
@@ -42240,6 +47271,114 @@ var (
 			CodePoint:   "1FAF6 1F3FF",
 			Group:       "People & Body",
 			SubGroup:    "hands",
+		},
+
+		"🫷": {
+			Slug:        "leftwards-pushing-hand",
+			Character:   "🫷",
+			UnicodeName: "E15.0 leftwards pushing hand",
+			CodePoint:   "1FAF7",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫷🏻": {
+			Slug:        "leftwards-pushing-hand-light-skin-tone",
+			Character:   "🫷🏻",
+			UnicodeName: "E15.0 leftwards pushing hand: light skin tone",
+			CodePoint:   "1FAF7 1F3FB",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫷🏼": {
+			Slug:        "leftwards-pushing-hand-medium-light-skin-tone",
+			Character:   "🫷🏼",
+			UnicodeName: "E15.0 leftwards pushing hand: medium-light skin tone",
+			CodePoint:   "1FAF7 1F3FC",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫷🏽": {
+			Slug:        "leftwards-pushing-hand-medium-skin-tone",
+			Character:   "🫷🏽",
+			UnicodeName: "E15.0 leftwards pushing hand: medium skin tone",
+			CodePoint:   "1FAF7 1F3FD",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫷🏾": {
+			Slug:        "leftwards-pushing-hand-medium-dark-skin-tone",
+			Character:   "🫷🏾",
+			UnicodeName: "E15.0 leftwards pushing hand: medium-dark skin tone",
+			CodePoint:   "1FAF7 1F3FE",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫷🏿": {
+			Slug:        "leftwards-pushing-hand-dark-skin-tone",
+			Character:   "🫷🏿",
+			UnicodeName: "E15.0 leftwards pushing hand: dark skin tone",
+			CodePoint:   "1FAF7 1F3FF",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫸": {
+			Slug:        "rightwards-pushing-hand",
+			Character:   "🫸",
+			UnicodeName: "E15.0 rightwards pushing hand",
+			CodePoint:   "1FAF8",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫸🏻": {
+			Slug:        "rightwards-pushing-hand-light-skin-tone",
+			Character:   "🫸🏻",
+			UnicodeName: "E15.0 rightwards pushing hand: light skin tone",
+			CodePoint:   "1FAF8 1F3FB",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫸🏼": {
+			Slug:        "rightwards-pushing-hand-medium-light-skin-tone",
+			Character:   "🫸🏼",
+			UnicodeName: "E15.0 rightwards pushing hand: medium-light skin tone",
+			CodePoint:   "1FAF8 1F3FC",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫸🏽": {
+			Slug:        "rightwards-pushing-hand-medium-skin-tone",
+			Character:   "🫸🏽",
+			UnicodeName: "E15.0 rightwards pushing hand: medium skin tone",
+			CodePoint:   "1FAF8 1F3FD",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫸🏾": {
+			Slug:        "rightwards-pushing-hand-medium-dark-skin-tone",
+			Character:   "🫸🏾",
+			UnicodeName: "E15.0 rightwards pushing hand: medium-dark skin tone",
+			CodePoint:   "1FAF8 1F3FE",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
+		},
+
+		"🫸🏿": {
+			Slug:        "rightwards-pushing-hand-dark-skin-tone",
+			Character:   "🫸🏿",
+			UnicodeName: "E15.0 rightwards pushing hand: dark skin tone",
+			CodePoint:   "1FAF8 1F3FF",
+			Group:       "People & Body",
+			SubGroup:    "hand-fingers-open",
 		},
 	}
 )
