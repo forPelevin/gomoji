@@ -8,6 +8,7 @@ It has features such as:
  * [find all emojis in string](#find-all) 👪
  * [get all emojis](#get-all) 🌐
  * [remove all emojis from string](#remove-all-emojis) 🧹
+ * [replace all emojis in a string with a specified rune](#replace-all-emojis-with-a-specified-rune) 🧹
  * [get emoji description](#get-emoji-info) 🧐
 
 Getting Started
@@ -100,6 +101,15 @@ The function removes all emojis from given string:
 ```go
 res := gomoji.RemoveEmojis("🧖 hello 🦋world")
 println(res) // "hello world"
+```
+
+## Replace all emojis with a specified rune
+
+The function replaces all emojis in a string with a given rune:
+
+```go
+res := gomoji.ReplaceEmojisWith("🧖 hello 🦋world", '_')
+println(res) // "_ hello _world"
 ```
 
 ## Get emoji info
