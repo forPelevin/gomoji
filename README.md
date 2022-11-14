@@ -8,6 +8,7 @@ It has features such as:
  * [find all emojis in string](#find-all) 👪
  * [get all emojis](#get-all) 🌐
  * [remove all emojis from string](#remove-all-emojis) 🧹
+ * [replace all emojis in a string with a specified rune](#replace-all-emojis-with-a-specified-rune) 🧹
  * [get emoji description](#get-emoji-info) 🧐
 
 Getting Started
