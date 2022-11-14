@@ -104,7 +104,7 @@ println(res) // "hello world"
 
 ## Replace all emojis with a specified rune
 
-The function repalces all emojis from given string with a given rune:
+The function replaces all emojis in a string with a given rune:
 
 ```go
 res := gomoji.ReplaceEmojisWith("🧖 hello 🦋world", '_')
