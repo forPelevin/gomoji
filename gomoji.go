@@ -49,12 +49,23 @@ func AllEmojis() []Emoji {
 
 // RemoveEmojis removes all emojis from the s string and returns a new string.
 func RemoveEmojis(s string) string {
+	return replaceEmojisWith(s, nil)
+}
+
+// ReplaceEmojisWith replaces all emojis from the s string with the specified rune and returns a new string.
+func ReplaceEmojisWith(s string, c rune) string {
+	return replaceEmojisWith(s, &c)
+}
+
+func replaceEmojisWith(s string, c *rune) string {
 	cleanBuf := bytes.Buffer{}
 
 	gr := uniseg.NewGraphemes(s)
 	for gr.Next() {
 		if _, ok := emojiMap[gr.Str()]; !ok {
 			cleanBuf.Write(gr.Bytes())
+		} else if c != nil {
+			cleanBuf.Write([]byte{byte(*c)})
 		}
 	}
 
@@ -63,6 +74,8 @@ func RemoveEmojis(s string) string {
 	for _, r := range cleanBuf.String() {
 		if _, ok := emojiMap[string(r)]; !ok {
 			res.WriteRune(r)
+		} else if c != nil {
+			res.WriteRune(*c)
 		}
 	}
 
