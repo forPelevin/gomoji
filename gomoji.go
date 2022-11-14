@@ -85,7 +85,6 @@ func GetInfo(emoji string) (Emoji, error) {
 // CollectAll finds all emojis in given string. Unlike FindAll, this does not
 // distinct repeating occurrences of emoji. If there are no emojis it returns a nil-slice.
 func CollectAll(s string) []Emoji {
-
 	var emojis []Emoji
 
 	gr := uniseg.NewGraphemes(s)

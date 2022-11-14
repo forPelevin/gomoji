@@ -1,6 +1,7 @@
 package gomoji
 
 import (
+	"fmt"
 	"reflect"
 	"sort"
 	"testing"
@@ -152,6 +153,59 @@ func TestRemoveEmojis(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := RemoveEmojis(tt.inputStr); got != tt.want {
 				t.Errorf("RemoveEmojis() = \"%v\", want \"%v\"", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestReplaceEmojisWith(t *testing.T) {
+	replacementChar := '_'
+
+	tests := []struct {
+		name     string
+		inputStr string
+		want     string
+	}{
+		{
+			name:     "string without emoji",
+			inputStr: "string without emoji",
+			want:     "string without emoji",
+		},
+		{
+			name:     "string with numbers",
+			inputStr: "1qwerty2",
+			want:     "1qwerty2",
+		},
+		{
+			name:     "string with emoji number",
+			inputStr: "1️⃣qwerty2",
+			want:     fmt.Sprintf("%cqwerty2", replacementChar),
+		},
+		{
+			name:     "string with emojis",
+			inputStr: "❤️🛶😂",
+			want:     fmt.Sprintf("%c%c%c", replacementChar, replacementChar, replacementChar),
+		},
+		{
+			name:     "string with unicode 14 emoji",
+			inputStr: "te\U0001FAB7st",
+			want:     fmt.Sprintf("te%cst", replacementChar),
+		},
+		{
+			name:     "replace rare emojis",
+			inputStr: "🧖 hello 🦋world",
+			want:     fmt.Sprintf("%c hello %cworld", replacementChar, replacementChar),
+		},
+		{
+			name:     "new emoji",
+			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     fmt.Sprintf("%c NWT H&M Corduroy Pants in 'Light Beige'", replacementChar),
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := ReplaceEmojisWith(tt.inputStr, replacementChar); tt.want != got {
+				t.Errorf("ReplaceEmojisWith() = \"%v\", want \"%v\"", got, tt.want)
 			}
 		})
 	}
