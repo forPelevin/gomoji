@@ -102,6 +102,15 @@ res := gomoji.RemoveEmojis("🧖 hello 🦋world")
 println(res) // "hello world"
 ```
 
+## Replace all emojis with a specified rune
+
+The function repalces all emojis from given string with a given rune:
+
+```go
+res := gomoji.ReplaceEmojisWith("🧖 hello 🦋world", '_')
+println(res) // "_ hello _world"
+```
+
 ## Get emoji info
 
 The function returns info about provided emoji:
