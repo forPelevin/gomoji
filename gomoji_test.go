@@ -1,10 +1,12 @@
-package gomoji
+package gomoji_test
 
 import (
 	"fmt"
 	"reflect"
 	"sort"
 	"testing"
+
+	"github.com/forPelevin/gomoji"
 )
 
 func TestContainsEmoji(t *testing.T) {
@@ -86,7 +88,7 @@ func TestContainsEmoji(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := ContainsEmoji(tt.inputStr); got != tt.want {
+			if got := gomoji.ContainsEmoji(tt.inputStr); got != tt.want {
 				t.Errorf("ContainsEmoji() = %v, want %v", got, tt.want)
 			}
 		})
@@ -96,14 +98,14 @@ func TestContainsEmoji(t *testing.T) {
 func BenchmarkContainsEmojiParallel(b *testing.B) {
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
-			ContainsEmoji("Hi \U0001F970")
+			gomoji.ContainsEmoji("Hi \U0001F970")
 		}
 	})
 }
 
 func BenchmarkContainsEmoji(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		ContainsEmoji("Hi \U0001F970")
+		gomoji.ContainsEmoji("Hi \U0001F970")
 	}
 }
 
@@ -151,7 +153,7 @@ func TestRemoveEmojis(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := RemoveEmojis(tt.inputStr); got != tt.want {
+			if got := gomoji.RemoveEmojis(tt.inputStr); got != tt.want {
 				t.Errorf("RemoveEmojis() = \"%v\", want \"%v\"", got, tt.want)
 			}
 		})
@@ -204,8 +206,151 @@ func TestReplaceEmojisWith(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := ReplaceEmojisWith(tt.inputStr, replacementChar); got != tt.want {
+			if got := gomoji.ReplaceEmojisWith(tt.inputStr, replacementChar); got != tt.want {
 				t.Errorf("ReplaceEmojisWith() = \"%v\", want \"%v\"", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestReplaceEmojisWithSlug(t *testing.T) {
+	tests := []struct {
+		name     string
+		inputStr string
+		want     string
+	}{
+		{
+			name:     "string without emoji",
+			inputStr: "string without emoji",
+			want:     "string without emoji",
+		},
+		{
+			name:     "string with numbers",
+			inputStr: "1qwerty2",
+			want:     "1qwerty2",
+		},
+		{
+			name:     "string with emoji number",
+			inputStr: "1️⃣qwerty2",
+			want:     "keycap-1qwerty2",
+		},
+		{
+			name:     "string with emojis",
+			inputStr: "❤️🛶😂",
+			want:     "red-heartcanoeface-with-tears-of-joy",
+		},
+		{
+			name:     "string with unicode 14 emoji",
+			inputStr: "te\U0001FAB7st",
+			want:     "telotusst",
+		},
+		{
+			name:     "replace rare emojis",
+			inputStr: "🧖 hello 🦋world",
+			want:     "person-in-steamy-room hello butterflyworld",
+		},
+		{
+			name:     "new emoji",
+			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     "new-button NWT H&M Corduroy Pants in 'Light Beige'",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := gomoji.ReplaceEmojisWithSlug(tt.inputStr); got != tt.want {
+				t.Errorf("ReplaceEmojisWithSlug() = \"%v\", want \"%v\"", got, tt.want)
+			}
+		})
+	}
+}
+
+func BenchmarkReplaceEmojisWithSlugParallel(b *testing.B) {
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			gomoji.ReplaceEmojisWithSlug("🧖 hello 🦋world")
+		}
+	})
+}
+
+func BenchmarkReplaceEmojisWithSlug(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		gomoji.ReplaceEmojisWithSlug("🧖 hello 🦋world")
+	}
+}
+
+func TestReplaceEmojisWithFunc(t *testing.T) {
+	tests := []struct {
+		name     string
+		inputStr string
+		replacer func(e gomoji.Emoji) string
+		want     string
+	}{
+		{
+			name:     "string without emoji",
+			inputStr: "string without emoji",
+			replacer: func(e gomoji.Emoji) string {
+				return ":" + e.Slug
+			},
+			want: "string without emoji",
+		},
+		{
+			name:     "string with numbers",
+			inputStr: "1qwerty2",
+			replacer: func(e gomoji.Emoji) string {
+				return ":" + e.Slug
+			},
+			want: "1qwerty2",
+		},
+		{
+			name:     "string with emoji number",
+			inputStr: "1️⃣qwerty2",
+			replacer: func(e gomoji.Emoji) string {
+				return ":" + e.Slug
+			},
+			want: ":keycap-1qwerty2",
+		},
+		{
+			name:     "string with emojis",
+			inputStr: "❤️🛶😂",
+			replacer: func(e gomoji.Emoji) string {
+				return "emo"
+			},
+			want: "emoemoemo",
+		},
+		{
+			name:     "string with unicode 14 emoji",
+			inputStr: "te\U0001FAB7st",
+			replacer: func(e gomoji.Emoji) string {
+				return "_"
+			},
+			want: "te_st",
+		},
+		{
+			name:     "replace rare emojis",
+			inputStr: "🧖 hello 🦋world",
+			replacer: func(e gomoji.Emoji) string {
+				return e.SubGroup
+			},
+			want: "person-activity hello animal-bugworld",
+		},
+		{
+			name:     "new emoji",
+			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+			replacer: func(e gomoji.Emoji) string {
+				return e.Slug
+			},
+			want: "new-button NWT H&M Corduroy Pants in 'Light Beige'",
+		},
+		{
+			name:     "replacer is nil, so all emojis are simply removed",
+			inputStr: "🧖 hello 🦋world",
+			want:     "hello world",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := gomoji.ReplaceEmojisWithFunc(tt.inputStr, tt.replacer); got != tt.want {
+				t.Errorf("ReplaceEmojisWithFunc() = \"%v\", want \"%v\"", got, tt.want)
 			}
 		})
 	}
@@ -214,14 +359,14 @@ func TestReplaceEmojisWith(t *testing.T) {
 func BenchmarkRemoveEmojisParallel(b *testing.B) {
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
-			RemoveEmojis("\U0001F96F Hi \U0001F970")
+			gomoji.RemoveEmojis("\U0001F96F Hi \U0001F970")
 		}
 	})
 }
 
 func BenchmarkRemoveEmojis(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		RemoveEmojis("\U0001F96F Hi \U0001F970")
+		gomoji.RemoveEmojis("\U0001F96F Hi \U0001F970")
 	}
 }
 
@@ -229,19 +374,19 @@ func TestGetInfo(t *testing.T) {
 	tests := []struct {
 		name       string
 		inputEmoji string
-		want       Emoji
+		want       gomoji.Emoji
 		wantErr    bool
 	}{
 		{
 			name:       "just a number",
 			inputEmoji: "1",
-			want:       Emoji{},
+			want:       gomoji.Emoji{},
 			wantErr:    true,
 		},
 		{
 			name:       "valid emoji number",
 			inputEmoji: "1️⃣",
-			want: Emoji{
+			want: gomoji.Emoji{
 				Slug:        "keycap-1",
 				Character:   "1️⃣",
 				UnicodeName: "E0.6 keycap: 1",
@@ -254,7 +399,7 @@ func TestGetInfo(t *testing.T) {
 		{
 			name:       "unicode 14",
 			inputEmoji: "\U0001FAAC",
-			want: Emoji{
+			want: gomoji.Emoji{
 				Slug:        "hamsa",
 				Character:   "🪬",
 				UnicodeName: "E14.0 hamsa",
@@ -267,7 +412,7 @@ func TestGetInfo(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := GetInfo(tt.inputEmoji)
+			got, err := gomoji.GetInfo(tt.inputEmoji)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("GetInfo() error = %v, wantErr %v", err, tt.wantErr)
 				return
@@ -282,14 +427,14 @@ func TestGetInfo(t *testing.T) {
 func BenchmarkGetInfoParallel(b *testing.B) {
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
-			GetInfo("\U0001F96F") // nolint:errcheck
+			gomoji.GetInfo("\U0001F96F") // nolint:errcheck
 		}
 	})
 }
 
 func BenchmarkGetInfo(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		GetInfo("\U0001F96F") // nolint:errcheck
+		gomoji.GetInfo("\U0001F96F") // nolint:errcheck
 	}
 }
 
@@ -297,7 +442,7 @@ func TestFindAll(t *testing.T) {
 	tests := []struct {
 		name     string
 		inputStr string
-		want     []Emoji
+		want     []gomoji.Emoji
 	}{
 		{
 			name:     "empty string",
@@ -312,7 +457,7 @@ func TestFindAll(t *testing.T) {
 		{
 			name:     "string with 2 emoji",
 			inputStr: "hello 🦋 world \U0001F9FB",
-			want: []Emoji{
+			want: []gomoji.Emoji{
 				{
 					Slug:        "butterfly",
 					Character:   "🦋",
@@ -334,7 +479,7 @@ func TestFindAll(t *testing.T) {
 		{
 			name:     "string with 1 emoji",
 			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
-			want: []Emoji{
+			want: []gomoji.Emoji{
 				{
 					Slug:        "new-button",
 					Character:   "🆕",
@@ -348,7 +493,7 @@ func TestFindAll(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got := FindAll(tt.inputStr)
+			got := gomoji.FindAll(tt.inputStr)
 
 			sort.Slice(tt.want, func(i, j int) bool {
 				return tt.want[i].Character < tt.want[j].Character
@@ -367,14 +512,14 @@ func TestFindAll(t *testing.T) {
 func BenchmarkFindAllParallel(b *testing.B) {
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
-			FindAll("\U0001F96F Hi \U0001F970")
+			gomoji.FindAll("\U0001F96F Hi \U0001F970")
 		}
 	})
 }
 
 func BenchmarkFindAll(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		FindAll("\U0001F96F Hi \U0001F970")
+		gomoji.FindAll("\U0001F96F Hi \U0001F970")
 	}
 }
 
@@ -382,7 +527,7 @@ func TestCollectAll(t *testing.T) {
 	tests := []struct {
 		name     string
 		inputStr string
-		want     []Emoji
+		want     []gomoji.Emoji
 	}{
 		{
 			name:     "empty string",
@@ -397,7 +542,7 @@ func TestCollectAll(t *testing.T) {
 		{
 			name:     "string with 2 emoji",
 			inputStr: "hello 🦋 world \U0001F9FB",
-			want: []Emoji{
+			want: []gomoji.Emoji{
 				{
 					Slug:        "butterfly",
 					Character:   "🦋",
@@ -419,7 +564,7 @@ func TestCollectAll(t *testing.T) {
 		{
 			name:     "string with 1 emoji",
 			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
-			want: []Emoji{
+			want: []gomoji.Emoji{
 				{
 					Slug:        "new-button",
 					Character:   "🆕",
@@ -433,7 +578,7 @@ func TestCollectAll(t *testing.T) {
 		{
 			name:     "string with 6 emoji, mixed and repeating",
 			inputStr: "🆕️ NWT H&M Corduroy 🧻🦋🧻 Pants in 'Light Beige'🦋🆕",
-			want: []Emoji{
+			want: []gomoji.Emoji{
 				{
 					Slug:        "new-button",
 					Character:   "🆕",
@@ -487,7 +632,7 @@ func TestCollectAll(t *testing.T) {
 		{
 			name:     "regional indicators",
 			inputStr: "🇦 🇧 🇨",
-			want: []Emoji{
+			want: []gomoji.Emoji{
 				{
 					Slug:        "regional-indicator-symbol-letter-A",
 					Character:   "🇦",
@@ -517,7 +662,7 @@ func TestCollectAll(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := CollectAll(tt.inputStr); !reflect.DeepEqual(got, tt.want) {
+			if got := gomoji.CollectAll(tt.inputStr); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("CollectAll() = %v, want %v", got, tt.want)
 			}
 		})
