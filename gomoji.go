@@ -101,7 +101,7 @@ func ReplaceEmojisWithFunc(s string, replacer replacerFn) string {
 	}
 
 	return strings.TrimFunc(res.String(), func(r rune) bool {
-		return unicode.IsSpace(r) || !unicode.IsGraphic(r) || !unicode.IsPrint(r) || unicode.In(r, unicode.Variation_Selector)
+		return !unicode.IsGraphic(r) || !unicode.IsPrint(r) || unicode.In(r, unicode.Variation_Selector)
 	})
 }
 

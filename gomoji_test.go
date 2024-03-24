@@ -143,12 +143,12 @@ func TestRemoveEmojis(t *testing.T) {
 		{
 			name:     "remove rare emojis",
 			inputStr: "🧖 hello 🦋world",
-			want:     "hello world",
+			want:     " hello world",
 		},
 		{
 			name:     "new emoji",
 			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
-			want:     "NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     " NWT H&M Corduroy Pants in 'Light Beige'",
 		},
 	}
 	for _, tt := range tests {
@@ -344,7 +344,12 @@ func TestReplaceEmojisWithFunc(t *testing.T) {
 		{
 			name:     "replacer is nil, so all emojis are simply removed",
 			inputStr: "🧖 hello 🦋world",
-			want:     "hello world",
+			want:     " hello world",
+		},
+		{
+			name:     "replacer is nil, it does not trim the input string",
+			inputStr: " hello world ",
+			want:     " hello world ",
 		},
 	}
 	for _, tt := range tests {
