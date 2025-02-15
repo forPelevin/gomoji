@@ -312,7 +312,7 @@ func TestReplaceEmojisWithFunc(t *testing.T) {
 		{
 			name:     "string with emojis",
 			inputStr: "❤️🛶😂",
-			replacer: func(e gomoji.Emoji) string {
+			replacer: func(_ gomoji.Emoji) string {
 				return "emo"
 			},
 			want: "emoemoemo",
@@ -320,7 +320,7 @@ func TestReplaceEmojisWithFunc(t *testing.T) {
 		{
 			name:     "string with unicode 14 emoji",
 			inputStr: "te\U0001FAB7st",
-			replacer: func(e gomoji.Emoji) string {
+			replacer: func(_ gomoji.Emoji) string {
 				return "_"
 			},
 			want: "te_st",
@@ -492,6 +492,36 @@ func TestFindAll(t *testing.T) {
 					CodePoint:   "1F195",
 					Group:       "Symbols",
 					SubGroup:    "alphanum",
+				},
+			},
+		},
+		{
+			name:     "string with 1 v15.1 emoji and 2 v16.0 emojis",
+			inputStr: "V15.1 Phoenix: 🐦‍🔥, V16.0 Face with Bags Under Eyes: 🫩, V16.0 Fingerprint: 🫆",
+			want: []gomoji.Emoji{
+				{
+					Slug:        "phoenix",
+					Character:   "🐦‍🔥",
+					UnicodeName: "E15.1 phoenix",
+					CodePoint:   "1F426 200D 1F525",
+					Group:       "Animals & Nature",
+					SubGroup:    "animal-bird",
+				},
+				{
+					Slug:        "face-with-bags-under-eyes",
+					Character:   "🫩",
+					UnicodeName: "E16.0 face with bags under eyes",
+					CodePoint:   "1FAE9",
+					Group:       "Smileys & Emotion",
+					SubGroup:    "face-sleepy",
+				},
+				{
+					Slug:        "fingerprint",
+					Character:   "🫆",
+					UnicodeName: "E16.0 fingerprint",
+					CodePoint:   "1FAC6",
+					Group:       "People & Body",
+					SubGroup:    "person-symbol",
 				},
 			},
 		},
