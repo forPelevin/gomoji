@@ -150,6 +150,16 @@ func TestRemoveEmojis(t *testing.T) {
 			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
 			want:     " NWT H&M Corduroy Pants in 'Light Beige'",
 		},
+		{
+			name:     "accented characters remain",
+			inputStr: "Hola, cómo estás? 😊",
+			want:     "Hola, cómo estás? ",
+		},
+		{
+			name:     "japanese characters remain",
+			inputStr: "フレデリック 😊",
+			want:     "フレデリック ",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
