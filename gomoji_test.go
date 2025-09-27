@@ -160,6 +160,66 @@ func TestRemoveEmojis(t *testing.T) {
 			inputStr: "フレデリック 😊",
 			want:     "フレデリック ",
 		},
+		{
+			name:     "Trailing newline",
+			inputStr: "This ends with a newline\n",
+			want:     "This ends with a newline\n",
+		},
+		{
+			name:     "Double trailing newlines",
+			inputStr: "Paragraph 1\n\n",
+			want:     "Paragraph 1\n\n",
+		},
+		{
+			name:     "Carriage return and newline",
+			inputStr: "Windows style\r\n",
+			want:     "Windows style\r\n",
+		},
+		{
+			name:     "Leading newline",
+			inputStr: "\nThis starts with a newline",
+			want:     "\nThis starts with a newline",
+		},
+		{
+			name:     "Mixed newlines",
+			inputStr: "\n\nStart\n\nMiddle\n\n",
+			want:     "\n\nStart\n\nMiddle\n\n",
+		},
+		{
+			name:     "Emoji with trailing newline",
+			inputStr: "Hello 😀\n",
+			want:     "Hello \n",
+		},
+	{
+		name:     "Emoji with double newlines",
+		inputStr: "Test 🎉\n\n",
+		want:     "Test \n\n",
+	},
+	{
+		name:     "Zero width joiner sequence",
+		inputStr: "Family 👨‍👩‍👧‍👦 night",
+		want:     "Family  night",
+	},
+	{
+		name:     "Variation selector only",
+		inputStr: "\uFE0F",
+		want:     "",
+	},
+	{
+		name:     "Variation selector with newline",
+		inputStr: "\uFE0F\n",
+		want:     "\n",
+	},
+	{
+		name:     "Text with variation selector",
+		inputStr: "Check \uFE0Fthis",
+		want:     "Check this",
+	},
+	{
+		name:     "Emoji with explicit variation selector",
+		inputStr: "Star ✨\uFE0F sky",
+		want:     "Star  sky",
+	},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -208,12 +268,22 @@ func TestReplaceEmojisWith(t *testing.T) {
 			inputStr: "🧖 hello 🦋world",
 			want:     fmt.Sprintf("%c hello %cworld", replacementChar, replacementChar),
 		},
-		{
-			name:     "new emoji",
-			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
-			want:     fmt.Sprintf("%c NWT H&M Corduroy Pants in 'Light Beige'", replacementChar),
-		},
-	}
+	{
+		name:     "new emoji",
+		inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+		want:     fmt.Sprintf("%c NWT H&M Corduroy Pants in 'Light Beige'", replacementChar),
+	},
+	{
+		name:     "emoji with newline",
+		inputStr: "Line 😀\nDone",
+		want:     fmt.Sprintf("Line %c\nDone", replacementChar),
+	},
+	{
+		name:     "zero width joiner sequence",
+		inputStr: "👨‍👩‍👧‍👦 together",
+		want:     fmt.Sprintf("%c together", replacementChar),
+	},
+}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := gomoji.ReplaceEmojisWith(tt.inputStr, replacementChar); got != tt.want {
@@ -259,12 +329,22 @@ func TestReplaceEmojisWithSlug(t *testing.T) {
 			inputStr: "🧖 hello 🦋world",
 			want:     "person-in-steamy-room hello butterflyworld",
 		},
-		{
-			name:     "new emoji",
-			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
-			want:     "new-button NWT H&M Corduroy Pants in 'Light Beige'",
-		},
-	}
+	{
+		name:     "new emoji",
+		inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+		want:     "new-button NWT H&M Corduroy Pants in 'Light Beige'",
+	},
+	{
+		name:     "emoji with newline",
+		inputStr: "Wave 👋\n",
+		want:     "Wave waving-hand\n",
+	},
+	{
+		name:     "zero width joiner sequence",
+		inputStr: "Team 👨‍👩‍👧‍👦",
+		want:     "Team family-man,-woman,-girl,-boy",
+	},
+}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := gomoji.ReplaceEmojisWithSlug(tt.inputStr); got != tt.want {
@@ -351,16 +431,26 @@ func TestReplaceEmojisWithFunc(t *testing.T) {
 			},
 			want: "new-button NWT H&M Corduroy Pants in 'Light Beige'",
 		},
-		{
-			name:     "replacer is nil, so all emojis are simply removed",
-			inputStr: "🧖 hello 🦋world",
-			want:     " hello world",
-		},
-		{
-			name:     "replacer is nil, it does not trim the input string",
-			inputStr: " hello world ",
-			want:     " hello world ",
-		},
+	{
+		name:     "replacer is nil, so all emojis are simply removed",
+		inputStr: "🧖 hello 🦋world",
+		want:     " hello world",
+	},
+	{
+		name:     "replacer is nil, preserves newlines",
+		inputStr: "Line 😀\nSecond",
+		want:     "Line \nSecond",
+	},
+	{
+		name:     "replacer is nil, strips variation selectors",
+		inputStr: "\uFE0FTagged",
+		want:     "Tagged",
+	},
+	{
+		name:     "replacer is nil, it does not trim the input string",
+		inputStr: " hello world ",
+		want:     " hello world ",
+	},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
