@@ -93,9 +93,12 @@ func ReplaceEmojisWithFunc(s string, replacer replacerFn) string {
 		buf.WriteString(cluster)
 	}
 
-	return strings.TrimFunc(buf.String(), func(r rune) bool {
-		return !unicode.IsGraphic(r) || !unicode.IsPrint(r) || unicode.In(r, unicode.Variation_Selector)
-	})
+	return strings.Map(func(r rune) rune {
+		if unicode.In(r, unicode.Variation_Selector) {
+			return -1
+		}
+		return r
+	}, buf.String())
 }
 
 // GetInfo returns a gomoji.Emoji model representation of provided emoji.
