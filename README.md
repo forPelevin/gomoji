@@ -1,6 +1,6 @@
 # GoMoji 🔥
 
-![Tests](https://github.com/forPelevin/gomoji/actions/workflows/tests.yml/badge.svg) [![Go Report](https://goreportcard.com/badge/github.com/forPelevin/gomoji)](https://goreportcard.com/report/github.com/forPelevin/gomoji) [![codecov](https://codecov.io/gh/forPelevin/gomoji/branch/github-actions/graph/badge.svg?token=34X68AXAMS)](https://codecov.io/gh/forPelevin/gomoji)
+![Tests](https://github.com/forPelevin/gomoji/actions/workflows/tests.yml/badge.svg) [![Go Report](https://goreportcard.com/badge/github.com/forPelevin/gomoji)](https://goreportcard.com/report/github.com/forPelevin/gomoji) [![codecov](https://codecov.io/gh/forPelevin/gomoji/branch/github-actions/graph/badge.svg?token=34X68AXAMS)](https://codecov.io/gh/forPelevin/gomoji) [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7105/badge)](https://www.bestpractices.dev/projects/7105)
 
 GoMoji makes it easy to detect, remove, replace, and look up emojis in Go strings.
 
