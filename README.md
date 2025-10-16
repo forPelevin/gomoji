@@ -18,6 +18,7 @@ It solves the common problem that emojis aren't always a single "character"—Go
   - [Replace Emojis](#replace-emojis)
   - [Get Emoji Information](#get-emoji-information)
 - [API Documentation](#api-documentation)
+- [Automated Updates](#automated-updates)
 - [Performance](#performance)
 - [Security](#security)
 - [Feedback](#feedback)
@@ -72,6 +73,7 @@ go run .
 - ↔️ Replace emojis with custom characters
 - ↕️ Custom emoji replacement functions
 - 🧐 Detailed emoji information lookup
+- 🔄 Automated Unicode updates via [gomoji-updater](https://github.com/forPelevin/gomoji-updater)
 
 ## Usage Examples
 
@@ -155,6 +157,15 @@ type Emoji struct {
 - `AllEmojis() []Emoji` - Returns all available emojis
 
 For full reference documentation generated from source, see the package docs on `pkg.go.dev`: [github.com/forPelevin/gomoji](https://pkg.go.dev/github.com/forPelevin/gomoji).
+
+## Automated Updates
+
+GoMoji automatically stays up-to-date with the latest Unicode emoji standards through our automated update system:
+
+- **Daily Updates**: Our GitHub Actions workflow runs daily to check for new Unicode emoji releases
+- **Automated PRs**: When new emoji data is available, automated pull requests are created for review
+- **Source**: Emoji data is fetched from the official Unicode Consortium: https://unicode.org/Public/emoji/latest/
+- **Tool**: Updates are generated using [gomoji-updater](https://github.com/forPelevin/gomoji-updater), a specialized tool for processing Unicode emoji data
 
 ## Performance
 
