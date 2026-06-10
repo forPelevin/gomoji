@@ -3,23 +3,37 @@ name: tests
 on: [push, pull_request]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
         with:
-          fetch-depth: 2
-      - uses: actions/setup-go@v2
+          go-version: stable
+      - name: Run golangci-lint
+        uses: golangci/golangci-lint-action@v8
         with:
-          go-version: '1.19'
+          version: latest
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go: ['1.19', 'stable']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ matrix.go }}
       - name: Run tests
         run: make test_multi
       - name: Run tests coverage
         run: make coverage
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        if: matrix.go == 'stable'
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          file: ./coverage.out
+          files: ./coverage.out
           flags: unittests
           name: codecov-umbrella
