@@ -85,6 +85,16 @@ func TestContainsEmoji(t *testing.T) {
 			inputStr: "🆕️ NWT H&M Corduroy Pants in 'Light Beige'",
 			want:     true,
 		},
+		{
+			name:     "keycap with redundant variation selectors",
+			inputStr: "#️️⃣",
+			want:     true,
+		},
+		{
+			name:     "stray variation selector is not an emoji",
+			inputStr: "️",
+			want:     false,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -106,6 +116,20 @@ func BenchmarkContainsEmojiParallel(b *testing.B) {
 func BenchmarkContainsEmoji(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		gomoji.ContainsEmoji("Hi \U0001F970")
+	}
+}
+
+const asciiOnlyText = "The quick brown fox jumps over the lazy dog, then writes a plain status update with no emoji at all."
+
+func BenchmarkContainsEmojiASCII(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		gomoji.ContainsEmoji(asciiOnlyText)
+	}
+}
+
+func BenchmarkRemoveEmojisASCII(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		gomoji.RemoveEmojis(asciiOnlyText)
 	}
 }
 
@@ -190,36 +214,51 @@ func TestRemoveEmojis(t *testing.T) {
 			inputStr: "Hello 😀\n",
 			want:     "Hello \n",
 		},
-	{
-		name:     "Emoji with double newlines",
-		inputStr: "Test 🎉\n\n",
-		want:     "Test \n\n",
-	},
-	{
-		name:     "Zero width joiner sequence",
-		inputStr: "Family 👨‍👩‍👧‍👦 night",
-		want:     "Family  night",
-	},
-	{
-		name:     "Variation selector only",
-		inputStr: "\uFE0F",
-		want:     "",
-	},
-	{
-		name:     "Variation selector with newline",
-		inputStr: "\uFE0F\n",
-		want:     "\n",
-	},
-	{
-		name:     "Text with variation selector",
-		inputStr: "Check \uFE0Fthis",
-		want:     "Check this",
-	},
-	{
-		name:     "Emoji with explicit variation selector",
-		inputStr: "Star ✨\uFE0F sky",
-		want:     "Star  sky",
-	},
+		{
+			name:     "Emoji with double newlines",
+			inputStr: "Test 🎉\n\n",
+			want:     "Test \n\n",
+		},
+		{
+			name:     "Zero width joiner sequence",
+			inputStr: "Family 👨‍👩‍👧‍👦 night",
+			want:     "Family  night",
+		},
+		{
+			name:     "Variation selector only",
+			inputStr: "\uFE0F",
+			want:     "",
+		},
+		{
+			name:     "Variation selector with newline",
+			inputStr: "\uFE0F\n",
+			want:     "\n",
+		},
+		{
+			name:     "Text with variation selector",
+			inputStr: "Check \uFE0Fthis",
+			want:     "Check this",
+		},
+		{
+			name:     "Emoji with explicit variation selector",
+			inputStr: "Star ✨\uFE0F sky",
+			want:     "Star  sky",
+		},
+		{
+			name:     "CJK ideographic variation sequence remains",
+			inputStr: "\u9089\U000E0100 and \U0001F600",
+			want:     "\u9089\U000E0100 and ",
+		},
+		{
+			name:     "Mongolian free variation selector remains",
+			inputStr: "\u1820\u180B \U0001F600",
+			want:     "\u1820\u180B ",
+		},
+		{
+			name:     "Math variation sequence remains",
+			inputStr: "\u2260\uFE00",
+			want:     "\u2260\uFE00",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -268,22 +307,22 @@ func TestReplaceEmojisWith(t *testing.T) {
 			inputStr: "🧖 hello 🦋world",
 			want:     fmt.Sprintf("%c hello %cworld", replacementChar, replacementChar),
 		},
-	{
-		name:     "new emoji",
-		inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
-		want:     fmt.Sprintf("%c NWT H&M Corduroy Pants in 'Light Beige'", replacementChar),
-	},
-	{
-		name:     "emoji with newline",
-		inputStr: "Line 😀\nDone",
-		want:     fmt.Sprintf("Line %c\nDone", replacementChar),
-	},
-	{
-		name:     "zero width joiner sequence",
-		inputStr: "👨‍👩‍👧‍👦 together",
-		want:     fmt.Sprintf("%c together", replacementChar),
-	},
-}
+		{
+			name:     "new emoji",
+			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     fmt.Sprintf("%c NWT H&M Corduroy Pants in 'Light Beige'", replacementChar),
+		},
+		{
+			name:     "emoji with newline",
+			inputStr: "Line 😀\nDone",
+			want:     fmt.Sprintf("Line %c\nDone", replacementChar),
+		},
+		{
+			name:     "zero width joiner sequence",
+			inputStr: "👨‍👩‍👧‍👦 together",
+			want:     fmt.Sprintf("%c together", replacementChar),
+		},
+	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := gomoji.ReplaceEmojisWith(tt.inputStr, replacementChar); got != tt.want {
@@ -329,22 +368,22 @@ func TestReplaceEmojisWithSlug(t *testing.T) {
 			inputStr: "🧖 hello 🦋world",
 			want:     "person-in-steamy-room hello butterflyworld",
 		},
-	{
-		name:     "new emoji",
-		inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
-		want:     "new-button NWT H&M Corduroy Pants in 'Light Beige'",
-	},
-	{
-		name:     "emoji with newline",
-		inputStr: "Wave 👋\n",
-		want:     "Wave waving-hand\n",
-	},
-	{
-		name:     "zero width joiner sequence",
-		inputStr: "Team 👨‍👩‍👧‍👦",
-		want:     "Team family-man,-woman,-girl,-boy",
-	},
-}
+		{
+			name:     "new emoji",
+			inputStr: "🆕 NWT H&M Corduroy Pants in 'Light Beige'",
+			want:     "new-button NWT H&M Corduroy Pants in 'Light Beige'",
+		},
+		{
+			name:     "emoji with newline",
+			inputStr: "Wave 👋\n",
+			want:     "Wave waving-hand\n",
+		},
+		{
+			name:     "zero width joiner sequence",
+			inputStr: "Team 👨‍👩‍👧‍👦",
+			want:     "Team family-man-woman-girl-boy",
+		},
+	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := gomoji.ReplaceEmojisWithSlug(tt.inputStr); got != tt.want {
@@ -431,26 +470,26 @@ func TestReplaceEmojisWithFunc(t *testing.T) {
 			},
 			want: "new-button NWT H&M Corduroy Pants in 'Light Beige'",
 		},
-	{
-		name:     "replacer is nil, so all emojis are simply removed",
-		inputStr: "🧖 hello 🦋world",
-		want:     " hello world",
-	},
-	{
-		name:     "replacer is nil, preserves newlines",
-		inputStr: "Line 😀\nSecond",
-		want:     "Line \nSecond",
-	},
-	{
-		name:     "replacer is nil, strips variation selectors",
-		inputStr: "\uFE0FTagged",
-		want:     "Tagged",
-	},
-	{
-		name:     "replacer is nil, it does not trim the input string",
-		inputStr: " hello world ",
-		want:     " hello world ",
-	},
+		{
+			name:     "replacer is nil, so all emojis are simply removed",
+			inputStr: "🧖 hello 🦋world",
+			want:     " hello world",
+		},
+		{
+			name:     "replacer is nil, preserves newlines",
+			inputStr: "Line 😀\nSecond",
+			want:     "Line \nSecond",
+		},
+		{
+			name:     "replacer is nil, strips variation selectors",
+			inputStr: "\uFE0FTagged",
+			want:     "Tagged",
+		},
+		{
+			name:     "replacer is nil, it does not trim the input string",
+			inputStr: " hello world ",
+			want:     " hello world ",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -500,6 +539,25 @@ func TestGetInfo(t *testing.T) {
 				SubGroup:    "keycap",
 			},
 			wantErr: false,
+		},
+		{
+			name:       "emoji with redundant variation selector",
+			inputEmoji: "⌚️",
+			want: gomoji.Emoji{
+				Slug:        "watch",
+				Character:   "⌚",
+				UnicodeName: "E0.6 watch",
+				CodePoint:   "231A",
+				Group:       "Travel & Places",
+				SubGroup:    "time",
+			},
+			wantErr: false,
+		},
+		{
+			name:       "variation selector alone is not emoji",
+			inputEmoji: "️",
+			want:       gomoji.Emoji{},
+			wantErr:    true,
 		},
 		{
 			name:       "unicode 14",
@@ -769,28 +827,28 @@ func TestCollectAll(t *testing.T) {
 			inputStr: "🇦 🇧 🇨",
 			want: []gomoji.Emoji{
 				{
-					Slug:        "regional-indicator-symbol-letter-A",
+					Slug:        "regional-indicator-symbol-letter-a",
 					Character:   "🇦",
-					UnicodeName: "regional indicator symbol letter A",
+					UnicodeName: "regional indicator symbol letter a",
 					CodePoint:   "1F1E6",
-					Group:       "symbols",
-					SubGroup:    "symbols",
+					Group:       "Component",
+					SubGroup:    "regional-indicator",
 				},
 				{
-					Slug:        "regional-indicator-symbol-letter-B",
+					Slug:        "regional-indicator-symbol-letter-b",
 					Character:   "🇧",
-					UnicodeName: "regional indicator symbol letter B",
+					UnicodeName: "regional indicator symbol letter b",
 					CodePoint:   "1F1E7",
-					Group:       "symbols",
-					SubGroup:    "symbols",
+					Group:       "Component",
+					SubGroup:    "regional-indicator",
 				},
 				{
-					Slug:        "regional-indicator-symbol-letter-C",
+					Slug:        "regional-indicator-symbol-letter-c",
 					Character:   "🇨",
-					UnicodeName: "regional indicator symbol letter C",
+					UnicodeName: "regional indicator symbol letter c",
 					CodePoint:   "1F1E8",
-					Group:       "symbols",
-					SubGroup:    "symbols",
+					Group:       "Component",
+					SubGroup:    "regional-indicator",
 				},
 			},
 		},
