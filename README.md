@@ -29,7 +29,7 @@ It solves the common problem that emojis aren't always a single "character"—Go
 
 ### Prerequisites
 
-- Go 1.11 or higher (for module support)
+- Go 1.21 or higher
 
 ### Installing
 
@@ -205,7 +205,9 @@ BenchmarkFindAll-10                               751990              1494 ns/op
 
 - This is a string-processing library, not a general-purpose sanitizer. Do not rely on it to prevent XSS or other injection attacks; use a proper HTML/markup sanitizer where needed.
 - Emoji detection and replacement operate on Unicode grapheme clusters. Do not assume 1 code point == 1 visible symbol.
-- Variation selectors are stripped during processing to normalize output. If your application depends on preserving exact variation selectors, avoid `RemoveEmojis`/`Replace*` or handle this explicitly.
+- Emoji presentation selectors (`U+FE0E`, `U+FE0F`) are stripped during processing to normalize output. Other variation selectors, such as those in ideographic and Mongolian variation sequences, are preserved. If your application depends on preserving the presentation selectors themselves, avoid `RemoveEmojis`/`Replace*` or handle this explicitly.
+- Validate that input is well-formed UTF-8 before removing or replacing emojis, for example with `strings.ToValidUTF8`. Removing an emoji from invalid UTF-8 can splice the surrounding stray bytes into a new rune that was not in the input, and that rune can itself be an emoji, so a single pass is not guaranteed to be a fixed point.
+- Removal operates on whole grapheme clusters. An emoji followed by a dangling zero-width joiner forms a cluster that is not itself a known emoji, so `RemoveEmojis`/`Replace*` leave it in place even though `ContainsEmoji` and `FindAll` report it. Do not rely on these functions alone to strip emojis from adversarial input.
 - When replacing with slugs, treat the resulting text as untrusted like any other user-controlled string and escape/encode as appropriate for the output context.
 - If you need normalization against visually confusable characters, use additional tooling (e.g., `golang.org/x/text` packages) alongside this library.
 
@@ -225,6 +227,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
   - [Go Code Review Comments](https://go.dev/wiki/CodeReviewComments)
 - Keep code formatted and linted: run `make lint-fix` (uses `goimports`, `gofmt`, and `golangci-lint`).
 - Add tests for new functionality and fixes; all tests must pass: `make test` or `go test ./...`.
+- For changes to parsing or replacement logic, run the fuzz targets: `make fuzz` (override with `make fuzz FUZZ_TARGET=FuzzFindAll FUZZ_TIME=2m`).
 - For performance-sensitive changes, include relevant benchmarks or comparisons (`make bench`).
 
 ### How to contribute
