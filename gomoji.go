@@ -2,8 +2,9 @@ package gomoji
 
 import (
 	"errors"
+	"sort"
 	"strings"
-	"unicode"
+	"unicode/utf8"
 
 	"github.com/rivo/uniseg"
 )
@@ -25,6 +26,12 @@ type Emoji struct {
 
 // ContainsEmoji checks whether given string contains emoji or not. It uses local emoji list as provider.
 func ContainsEmoji(s string) bool {
+	if isASCII(s) {
+		return false
+	}
+
+	// Single-rune emojis are the common case and are much cheaper to find
+	// than running grapheme segmentation.
 	for _, r := range s {
 		if _, ok := emojiMap[string(r)]; ok {
 			return true
@@ -33,7 +40,7 @@ func ContainsEmoji(s string) bool {
 
 	gr := uniseg.NewGraphemes(s)
 	for gr.Next() {
-		if _, ok := emojiMap[gr.Str()]; ok {
+		if _, ok := lookupEmoji(gr.Str()); ok {
 			return true
 		}
 	}
@@ -68,43 +75,36 @@ func ReplaceEmojisWithSlug(s string) string {
 
 type replacerFn func(e Emoji) string
 
-// ReplaceEmojisWithFunc replaces all emojis from the s string with the result of the replacerFn function and returns a new string.
+// ReplaceEmojisWithFunc replaces all emojis from the s string with the result of the replacerFn function
+// and returns a new string. Stray emoji presentation selectors (U+FE0E, U+FE0F) are removed as well.
 func ReplaceEmojisWithFunc(s string, replacer replacerFn) string {
+	if isASCII(s) {
+		return s
+	}
+
 	var buf strings.Builder
 
 	gr := uniseg.NewGraphemes(s)
 	for gr.Next() {
 		cluster := gr.Str()
 
-		lookup := strings.Map(func(r rune) rune {
-			if unicode.In(r, unicode.Variation_Selector) {
-				return -1
-			}
-			return r
-		}, cluster)
-
-		if em, ok := emojiMap[lookup]; ok {
+		if em, ok := lookupEmoji(cluster); ok {
 			if replacer != nil {
 				buf.WriteString(replacer(em))
 			}
 			continue
 		}
 
-		buf.WriteString(cluster)
+		buf.WriteString(removePresentationSelectors(cluster))
 	}
 
-	return strings.Map(func(r rune) rune {
-		if unicode.In(r, unicode.Variation_Selector) {
-			return -1
-		}
-		return r
-	}, buf.String())
+	return buf.String()
 }
 
 // GetInfo returns a gomoji.Emoji model representation of provided emoji.
 // If the emoji was not found, it returns the gomoji.ErrStrNotEmoji error
 func GetInfo(emoji string) (Emoji, error) {
-	em, ok := emojiMap[emoji]
+	em, ok := lookupEmoji(emoji)
 	if !ok {
 		return Emoji{}, ErrStrNotEmoji
 	}
@@ -115,6 +115,10 @@ func GetInfo(emoji string) (Emoji, error) {
 // CollectAll finds all emojis in given string. Unlike FindAll, this does not
 // distinct repeating occurrences of emoji. If there are no emojis it returns a nil-slice.
 func CollectAll(s string) []Emoji {
+	if isASCII(s) {
+		return nil
+	}
+
 	var emojis []Emoji
 
 	gr := uniseg.NewGraphemes(s)
@@ -137,6 +141,10 @@ func CollectAll(s string) []Emoji {
 
 // FindAll finds all emojis in given string. If there are no emojis it returns a nil-slice.
 func FindAll(s string) []Emoji {
+	if isASCII(s) {
+		return nil
+	}
+
 	emojis := make(map[string]Emoji)
 	gr := uniseg.NewGraphemes(s)
 
@@ -160,11 +168,71 @@ func FindAll(s string) []Emoji {
 	return emojiMapToSlice(emojis)
 }
 
+// lookupEmoji finds the emoji entity for s, falling back to a lookup with
+// emoji presentation selectors (U+FE0E, U+FE0F) removed, so that forms like
+// "emoji + extra U+FE0F" still resolve to the underlying emoji.
+func lookupEmoji(s string) (Emoji, bool) {
+	if em, ok := emojiMap[s]; ok {
+		return em, true
+	}
+
+	if stripped := removePresentationSelectors(s); stripped != s {
+		em, ok := emojiMap[stripped]
+		return em, ok
+	}
+
+	return Emoji{}, false
+}
+
+// Emoji presentation selectors.
+const (
+	textVS  = '\uFE0E'
+	emojiVS = '\uFE0F'
+)
+
+// removePresentationSelectors removes the emoji presentation selectors
+// (U+FE0E text style, U+FE0F emoji style) from s. Other variation selectors
+// are kept intact because they carry meaning in non-emoji text, e.g.
+// ideographic and Mongolian variation sequences.
+func removePresentationSelectors(s string) string {
+	if !strings.ContainsRune(s, textVS) && !strings.ContainsRune(s, emojiVS) {
+		return s
+	}
+
+	return strings.Map(func(r rune) rune {
+		if r == textVS || r == emojiVS {
+			return -1
+		}
+		return r
+	}, s)
+}
+
+// isASCII reports whether s contains only ASCII bytes. Every emoji contains
+// at least one multi-byte rune, so ASCII-only strings can skip grapheme
+// segmentation entirely.
+func isASCII(s string) bool {
+	for i := 0; i < len(s); i++ {
+		if s[i] >= utf8.RuneSelf {
+			return false
+		}
+	}
+
+	return true
+}
+
 func emojiMapToSlice(em map[string]Emoji) []Emoji {
-	var emojis []Emoji
+	if len(em) == 0 {
+		return nil
+	}
+
+	emojis := make([]Emoji, 0, len(em))
 	for _, emoji := range em {
 		emojis = append(emojis, emoji)
 	}
+
+	sort.Slice(emojis, func(i, j int) bool {
+		return emojis[i].Character < emojis[j].Character
+	})
 
 	return emojis
 }
