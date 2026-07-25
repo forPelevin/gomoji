@@ -1,0 +1,121 @@
+name: release
+
+# Tags a patch release when the daily emoji data pipeline lands a data-only
+# update on main, so refreshed Unicode data reaches consumers without waiting
+# for a manual tag. Any change touching more than data.go is left to a
+# maintainer, since that may warrant a minor or major bump.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data.go
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Decide whether to release
+        id: scope
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "Manual dispatch; releasing."
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          base="${BEFORE:-}"
+          if [ -z "$base" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            base="$(git rev-parse HEAD^)"
+          fi
+
+          changed="$(git diff --name-only "$base" HEAD)"
+          echo "Changed files:"
+          echo "$changed"
+
+          if [ "$changed" = "data.go" ]; then
+            echo "release=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not a data-only update; leaving the release to a maintainer."
+            echo "release=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Go
+        if: steps.scope.outputs.release == 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Run tests
+        if: steps.scope.outputs.release == 'true'
+        run: go test -race -count=1 ./...
+
+      - name: Compute next patch version
+        id: version
+        if: steps.scope.outputs.release == 'true'
+        run: |
+          set -euo pipefail
+
+          latest="$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n 1)"
+          if [ -z "$latest" ]; then
+            latest="v0.0.0"
+          fi
+
+          version="${latest#v}"
+          major="${version%%.*}"
+          rest="${version#*.}"
+          minor="${rest%%.*}"
+          patch="${rest#*.}"
+          patch="${patch%%[-+]*}"
+
+          next="v${major}.${minor}.$((patch + 1))"
+          echo "Latest tag ${latest}; next tag ${next}."
+          echo "previous=$latest" >> "$GITHUB_OUTPUT"
+          echo "next=$next" >> "$GITHUB_OUTPUT"
+
+      - name: Create tag and release
+        if: steps.scope.outputs.release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEXT: ${{ steps.version.outputs.next }}
+          PREVIOUS: ${{ steps.version.outputs.previous }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          if git rev-parse "$NEXT" >/dev/null 2>&1; then
+            echo "Tag $NEXT already exists; nothing to do."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$NEXT" -m "Release $NEXT"
+          git push origin "$NEXT"
+
+          gh release create "$NEXT" \
+            --title "$NEXT" \
+            --notes "Automated release of refreshed Unicode emoji data, generated from [emoji-test.txt](https://unicode.org/Public/emoji/latest/).
+
+          **Full changelog**: https://github.com/${REPO}/compare/${PREVIOUS}...${NEXT}"
