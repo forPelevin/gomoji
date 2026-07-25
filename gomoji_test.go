@@ -716,6 +716,18 @@ func BenchmarkFindAll(b *testing.B) {
 	}
 }
 
+// BenchmarkFindAllMixedText exercises the sub-cluster fallback, which runs for
+// every cluster that is not itself a known emoji. Multi-byte non-emoji runes
+// are the costly case there, so the input mixes scripts rather than staying
+// ASCII.
+func BenchmarkFindAllMixedText(b *testing.B) {
+	const s = "Привет 👋 мир! 日本語のテキスト 🎌 café ☕ naïve 🌍"
+
+	for i := 0; i < b.N; i++ {
+		gomoji.FindAll(s)
+	}
+}
+
 func TestCollectAll(t *testing.T) {
 	tests := []struct {
 		name     string

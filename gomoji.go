@@ -1,3 +1,10 @@
+// Package gomoji provides emoji detection, extraction and replacement for
+// UTF-8 text.
+//
+// Lookups are served from a generated copy of the Unicode emoji data set, so
+// no network access or external data file is needed. Text is processed by
+// grapheme cluster rather than by code point, which keeps multi-code-point
+// emojis such as flags, skin tone variants and ZWJ sequences intact.
 package gomoji
 
 import (
@@ -155,13 +162,18 @@ func FindAll(s string) []Emoji {
 			continue
 		}
 
-		// Sub-cluster analysis for partial matches
-		for i := len(cluster); i > 0; i-- {
+		// Sub-cluster analysis for partial matches. Walking back over rune
+		// boundaries skips byte prefixes that would split a rune, which can
+		// never be a key of emojiMap.
+		for i := len(cluster); i > 0; {
 			sub := cluster[:i]
 			if em, ok := emojiMap[sub]; ok {
 				emojis[sub] = em
 				break
 			}
+
+			_, size := utf8.DecodeLastRuneInString(sub)
+			i -= size
 		}
 	}
 

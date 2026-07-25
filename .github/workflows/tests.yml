@@ -15,11 +15,36 @@ jobs:
         with:
           version: latest
 
+  fuzz:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target:
+          - FuzzRemoveEmojis
+          - FuzzFindAll
+          - FuzzReplaceEmojisWithSlug
+          - FuzzCollectAll
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Fuzz ${{ matrix.target }}
+        run: make fuzz FUZZ_TARGET=${{ matrix.target }} FUZZ_TIME=60s
+      - name: Upload failing corpus
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fuzz-corpus-${{ matrix.target }}
+          path: testdata/fuzz/
+          if-no-files-found: ignore
+
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go: ['1.19', 'stable']
+        go: ['1.21', 'stable']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

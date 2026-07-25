@@ -9,6 +9,12 @@ test:
 test_multi:
 	go test -count 100 -v -race ./...
 
+FUZZ_TARGET ?= FuzzRemoveEmojis
+FUZZ_TIME ?= 60s
+
+fuzz:
+	go test -run '^$$' -fuzz '^$(FUZZ_TARGET)$$' -fuzztime $(FUZZ_TIME) .
+
 bench:
 	go test -bench=. -benchmem -v -run Benchmark ./...
 
